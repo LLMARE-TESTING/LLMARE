@@ -1,6 +1,4 @@
 # LLMARE
-Reproducing User-Described Scenarios in App Reviews with LLM
-# LLMARE
 
 ## About
 
