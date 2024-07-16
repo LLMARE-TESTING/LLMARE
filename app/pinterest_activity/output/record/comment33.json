@@ -1,0 +1,60 @@
+[
+    {
+        "comment": "I love Pinterest. it's one of my favorite apps to use. Everything overall is great. There's just one issue; I can't make my private boards public. I've made two new boards in the last few months, and they were automatically set as private. I've looked through the 'Edit Board' section of my private boards and can't find the settings that change a board to private and public. I'm not sure how to fix this, and if it's just me having this problem. That is my only complaint.",
+        "key sentence": "The key words: private boards, public boards, Edit Board section",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state3",
+        "the sub-task list of state": "[{'name': 'View Board Details', 'description': 'Display detailed information about a specific board.'}, {'name': 'Share', 'description': 'Share the current content or board with others.'}, {'name': 'Access More Options', 'description': 'Explore additional options for the current view or content.'}, {'name': 'Invite Collaborators', 'description': 'Send invitations to other users to collaborate on a board.'}, {'name': 'Organize', 'description': 'Arrange and manage the content within a board or view.'}, {'name': 'Add', 'description': 'Include new content or elements to the current view or board.'}, {'name': 'Explore More Ideas', 'description': 'Discover additional suggestions or inspirations related to the current content.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment33\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment33\\state2.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment33\\state3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment33\\266855989522619601.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "266855989522619601"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment33\\1416374900613072301.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1416374900613072301"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state2",
+                "event": "click(TextView-Saved:[836,2092][948,2136])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(android.view.ViewGroup-Board: picture:[22,524][529,1027])"
+            },
+            {
+                "from": "state3",
+                "to": "266855989522619601",
+                "event": "click<button id=14 class =\"com.pinterest:id/board_host_options_icon\" alt=\"More options\">  </button>"
+            },
+            {
+                "from": "state3",
+                "to": "1416374900613072301",
+                "event": "click<p id=48 class =\"com.pinterest:id/option_title\"> Edit board,  </p>"
+            }
+        ],
+        "Final answer": "YES"
+    }
+]

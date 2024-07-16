@@ -1,0 +1,170 @@
+[
+    {
+        "comment": "This app has been great in so many ways and I love it. But lately the app keeps crashing. It doesn't stay open for more than 2 seconds and as someone else mentioned, it does stay open in the background. I have tried uninstalling and reinstalling. I switched my cell off and on again. Cleared cache and even did a deep scan of my phone. But nothing seems to be working. Hope the issue gets resolved quickly.",
+        "key sentence": "The key words extracted from the comment are: \"keeps crashing\".",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state18",
+        "the sub-task list of state": "[{'name': 'Follow User', 'description': 'Subscribe to updates or content from a specific user or account.'}, {'name': 'Interact with Pins', 'description': 'Perform actions such as saving, copying link, hiding, or reporting pins.'}, {'name': 'Visit Site', 'description': 'Visit site of the vedio.'}, {'name': 'Copy Vedio Link', 'description': 'Copy the link of the vedio.'}, {'name': 'Hide Vedio Pin', 'description': 'Hide a vedio pin from view to see fewer pins like this.'}, {'name': 'Report Vedio Pin', 'description': 'Report the vedio pin.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment44\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment44\\b8991ad97a321f20ff2b35786bf7e9d3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "b8991ad97a321f20ff2b35786bf7e9d3"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment44\\state4.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment44\\state9.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment44\\state10.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment44\\state11.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment44\\state17.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state17"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment44\\state18.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state18"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment44\\-7828317863250388756.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7828317863250388756"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment44\\4324340694314974204.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4324340694314974204"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment44\\756096649149361437.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "756096649149361437"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment44\\8444410626791327762.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8444410626791327762"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment44\\-2743868056898190477.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2743868056898190477"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment44\\4412466585319845991.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4412466585319845991"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment44\\4462470629856034573.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4462470629856034573"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment44\\4412466585319845991.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4412466585319845991"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=6d91963abcf8f775a2f7cae13358b6ae(MainActivity/FrameLayout-Search, Ta:x276:y2016))"
+            },
+            {
+                "from": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "to": "state4",
+                "event": "click(TextView-Nail inspo:[41,429][510,641])"
+            },
+            {
+                "from": "state4",
+                "to": "state9",
+                "event": "click(Button-com.pinterest:id/one_bar_module_filter_button_id:[22,270][132,391])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(TextView-Videos:[66,1497][948,1571])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(Button-View results:[364,1961][716,2126])"
+            },
+            {
+                "from": "state11",
+                "to": "state17",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[22,446][529,1422])"
+            },
+            {
+                "from": "state17",
+                "to": "state18",
+                "event": "click(Button-More options:[937,105][1058,226])"
+            },
+            {
+                "from": "state18",
+                "to": "-7828317863250388756",
+                "event": "click<button id=30 class =\"com.pinterest:id/modular_closeup_back_button\" alt=\"Back\">  </button>"
+            },
+            {
+                "from": "state18",
+                "to": "4324340694314974204",
+                "event": "click<button id=31 class =\"com.pinterest:id/modular_closeup_back_button\" alt=\"Back\">  </button>"
+            },
+            {
+                "from": "state18",
+                "to": "756096649149361437",
+                "event": "click<button id=42 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "state18",
+                "to": "8444410626791327762",
+                "event": "click<button id=29 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "state18",
+                "to": "-2743868056898190477",
+                "event": "click<button id=33 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "state18",
+                "to": "4412466585319845991",
+                "event": "click<div id=42 class =\"com.pinterest:id/tab_avatar\" alt=\"Avatar: Jane\">  </div>"
+            },
+            {
+                "from": "state18",
+                "to": "4462470629856034573",
+                "event": "click<button id=66 class =\"com.pinterest:id/menu_creation\" alt=\"Create, Tab\">  </button>"
+            },
+            {
+                "from": "state18",
+                "to": "4412466585319845991",
+                "event": "click<img id=42 class =\"com.pinterest:id/secondary_top_image\">  </img>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

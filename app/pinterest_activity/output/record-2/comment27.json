@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Pinterest is undoubtedly the best app I can use for art references. However, I dk have a big problem when I created a board and it doesn't show up on my board feed, which is kind of annoying. Please get it fixed",
+        "key sentence": "board feed",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "4da12b747db0462e12ee6303ede5f54b",
+        "the sub-task list of state": "[{'name': 'Create New Pin', 'description': 'Initiate the process of creating a new pin.'}, {'name': 'Create New Board', 'description': 'Initiate the process of creating a new pin.'}, {'name': 'Cancel', 'description': 'Cancel the creating operation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment27\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment27\\4da12b747db0462e12ee6303ede5f54b.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4da12b747db0462e12ee6303ede5f54b"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment27\\1476856790389233867.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1476856790389233867"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment27\\-1465829029570783676.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1465829029570783676"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment27\\-3160265990352912461.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-3160265990352912461"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment27\\6515149077190821080.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "6515149077190821080"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment27\\-5934968296814194302.png",
+                "activity": "mark.via.Shell}",
+                "state_str": "-5934968296814194302"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment27\\-7460951281538117493.png",
+                "activity": "mark.via.Shell}",
+                "state_str": "-7460951281538117493"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment27\\7557787370529865384.png",
+                "activity": "mark.via.Shell}",
+                "state_str": "7557787370529865384"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment27\\-3245492261076568298.png",
+                "activity": "mark.via.Shell}",
+                "state_str": "-3245492261076568298"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment27\\7557787370529865384.png",
+                "activity": "mark.via.Shell}",
+                "state_str": "7557787370529865384"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "4da12b747db0462e12ee6303ede5f54b",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=e7c5c61cd1d7e20ff5e11581f09745cd(MainActivity/FrameLayout-Create, Ta:x452:y2016))"
+            },
+            {
+                "from": "4da12b747db0462e12ee6303ede5f54b",
+                "to": "1476856790389233867",
+                "event": "click<button id=40 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "1476856790389233867",
+                "to": "-1465829029570783676",
+                "event": "click<button id=14 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from www.ccovv.com, Title: Fan Print Warm Hoodie Black-One Size\">  </button>"
+            },
+            {
+                "from": "-1465829029570783676",
+                "to": -3160265990352912461,
+                "event": "back"
+            },
+            {
+                "from": -3160265990352912461,
+                "to": "6515149077190821080",
+                "event": "click<button id=4 alt=\"Apps list\">  </button>"
+            },
+            {
+                "from": "6515149077190821080",
+                "to": "-5934968296814194302",
+                "event": "click<button id=30> Via,  </button>"
+            },
+            {
+                "from": "-5934968296814194302",
+                "to": "-7460951281538117493",
+                "event": "click<button id=8 alt=\"Bookmarks\">  </button>"
+            },
+            {
+                "from": "-7460951281538117493",
+                "to": "7557787370529865384",
+                "event": "click<img id=1 alt=\"Navigation up\">  </img>"
+            },
+            {
+                "from": "7557787370529865384",
+                "to": "-3245492261076568298",
+                "event": "click<button id=4> Homepage,  </button>"
+            },
+            {
+                "from": "-3245492261076568298",
+                "to": "7557787370529865384",
+                "event": "click<button id=13 alt=\"Bookmarks\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

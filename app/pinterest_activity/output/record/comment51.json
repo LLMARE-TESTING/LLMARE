@@ -1,0 +1,170 @@
+[
+    {
+        "comment": "I love the app, but I don't really like something about the last update. I used to be able to just swipe through the pictures at \"more like this\" under a picture. But now that feature is either removed, or it's a problem. That's also in sections with the boards. I'd like to swipe through everything again, instead of constantly tapping something and going back to go to the next one!",
+        "key sentence": "the last update, swipe through the pictures, more like this, sections with the boards",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Save Pin', 'description': 'Save a pin or item to a board for later reference.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment51\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment51\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment51\\state7.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment51\\1889201911671939401.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1889201911671939401"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment51\\4090613600880268427.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4090613600880268427"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment51\\-8790366185241665728.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8790366185241665728"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment51\\1281632649520556972.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1281632649520556972"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment51\\-8790366185241665728.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8790366185241665728"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment51\\1281632649520556972.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1281632649520556972"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment51\\-8790366185241665728.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8790366185241665728"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment51\\1281632649520556972.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1281632649520556972"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment51\\1281632649520556972.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1281632649520556972"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment51\\-8790366185241665728.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8790366185241665728"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment51\\-8790366185241665728.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8790366185241665728"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment51\\5640052025116241367.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5640052025116241367"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment51\\5640052025116241367.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5640052025116241367"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": 1889201911671939401,
+                "event": "back"
+            },
+            {
+                "from": "state7",
+                "to": "4090613600880268427",
+                "event": "click<button id=21 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "-8790366185241665728",
+                "event": "click<button id=19 class =\"com.pinterest:id/flashlight_search_button\" alt=\"Button: Flashlight search\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "1281632649520556972",
+                "event": "click<button id=18 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from www.mongw.com, Title: 2020 Summer Korean Lace Patchwork Embroidery Women Dress Slim Female Fairy Dresses 1-L\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "-8790366185241665728",
+                "event": "click<button id=52 class =\"com.pinterest:id/modular_closeup_back_button\" alt=\"Back\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "1281632649520556972",
+                "event": "click<button id=18 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from www.mongw.com, Title: 2020 Summer Korean Lace Patchwork Embroidery Women Dress Slim Female Fairy Dresses 1-L\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "-8790366185241665728",
+                "event": "click<button id=18 class =\"com.pinterest:id/flashlight_search_button\" alt=\"Button: Flashlight search\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "1281632649520556972",
+                "event": "click<button id=18 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from www.mongw.com, Title: 2020 Summer Korean Lace Patchwork Embroidery Women Dress Slim Female Fairy Dresses 1-L\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "1281632649520556972",
+                "event": "scroll down"
+            },
+            {
+                "from": "state7",
+                "to": "-8790366185241665728",
+                "event": "click<button id=18 class =\"com.pinterest:id/flashlight_search_button\" alt=\"Button: Flashlight search\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "-8790366185241665728",
+                "event": "click<div id=16 class =\"com.pinterest:id/bottom_sheet_recycler_view\">  </div>"
+            },
+            {
+                "from": "state7",
+                "to": "5640052025116241367",
+                "event": "scroll down"
+            },
+            {
+                "from": "state7",
+                "to": "5640052025116241367",
+                "event": "scroll down"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

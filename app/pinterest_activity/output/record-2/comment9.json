@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "I've used this app for years and the last few updates have tanked the ability to use the app. You can't even swipe easily, as the pin will stop part way through swiping before freezing, or not allow you to swipe at all. The only time you can be sure this won't happen is when trying to move through multi page ads. In addition with this last update it will randomly scroll to the bottom of the pin to expose the comments, which is annoying for long pins. This used to be fun, now it's barely running.",
+        "key sentence": "swipe, freezing, randomly scroll, comments, multi page ads, last update",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state6",
+        "the sub-task list of state": "[{'name': 'View Comments', 'description': 'Read comments on the pin'}, {'name': 'Add Comment', 'description': 'Write and post a comment on the pin'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment9\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment9\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment9\\state6.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state6"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment9\\-7499564668284220996.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7499564668284220996"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment9\\-7499564668284220996.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7499564668284220996"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment9\\-7499564668284220996.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7499564668284220996"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment9\\-7499564668284220996.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7499564668284220996"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment9\\-217991007222798267.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-217991007222798267"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment9\\9009801911501570289.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "9009801911501570289"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment9\\-506882473010071179.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-506882473010071179"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment9\\2641023665472226636.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "2641023665472226636"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state6",
+                "event": "click(Imageview-Comments:[22,1415][143,1536])"
+            },
+            {
+                "from": "state6",
+                "to": "-7499564668284220996",
+                "event": "scroll down"
+            },
+            {
+                "from": "-7499564668284220996",
+                "to": "-7499564668284220996",
+                "event": "scroll down"
+            },
+            {
+                "from": "-7499564668284220996",
+                "to": "-7499564668284220996",
+                "event": "scroll down"
+            },
+            {
+                "from": "-7499564668284220996",
+                "to": "-7499564668284220996",
+                "event": "scroll down"
+            },
+            {
+                "from": "-7499564668284220996",
+                "to": "-217991007222798267",
+                "event": "scroll up"
+            },
+            {
+                "from": "-217991007222798267",
+                "to": "9009801911501570289",
+                "event": "scroll down"
+            },
+            {
+                "from": "9009801911501570289",
+                "to": "-506882473010071179",
+                "event": "scroll up"
+            },
+            {
+                "from": "-506882473010071179",
+                "to": "2641023665472226636",
+                "event": "scroll down"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

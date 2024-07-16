@@ -1,0 +1,170 @@
+[
+    {
+        "comment": "I wish there was a function to blacklist phrases. I am so tired of constantly hiding the same type of post over and over again. When will Pinterest learn that not everyone wants to have a baby or likes Christmas? Bah Humbug! I know it shows you what you follow, but sometimes while I like the board as a whole, I don't like some of the pins and being able to weed those out would be great.",
+        "key sentence": "blacklist phrases",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state15",
+        "the sub-task list of state": "[{'name': 'View Profile', 'description': 'View your profile'}, {'name': 'Settings', 'description': 'Access application settings'}, {'name': 'Account Management', 'description': 'Manage your account settings'}, {'name': 'Profile Visibility', 'description': 'Manage the visibility of your profile'}, {'name': 'Home Feed Tuner', 'description': 'Customize your home feed preferences'}, {'name': 'Claimed Accounts', 'description': 'Manage accounts claimed by you'}, {'name': 'Social Permissions', 'description': 'Manage permissions for social features'}, {'name': 'Notifications', 'description': 'Access and manage your notifications'}, {'name': 'Privacy and Data', 'description': 'Manage privacy settings and data usage'}, {'name': 'Reports and Violations Center', 'description': 'Report violations and access related information'}, {'name': 'Add Account', 'description': 'Add a new account to the application'}, {'name': 'Security', 'description': 'Access security settings and options'}, {'name': 'Log Out', 'description': 'Log out from the application'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment11\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment11\\state2.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment11\\state15.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state15"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment11\\4111449994273841853.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4111449994273841853"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment11\\-7045697954599192072.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7045697954599192072"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment11\\310369410977335635.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "310369410977335635"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment11\\4088686715550069414.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4088686715550069414"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment11\\831611262357582705.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "831611262357582705"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment11\\-6575057605502220201.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6575057605502220201"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment11\\-7710398375442637805.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-7710398375442637805"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment11\\-7710398375442637805.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-7710398375442637805"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment11\\-6097342155740893508.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-6097342155740893508"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment11\\-1599887365773136778.png",
+                "activity": "com.android.vending.AssetBrowserActivity}",
+                "state_str": "-1599887365773136778"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment11\\9087463775917503372.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "9087463775917503372"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment11\\-3509309000115614999.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-3509309000115614999"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment11\\-364974740724362279.png",
+                "activity": "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint}",
+                "state_str": "-364974740724362279"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state2",
+                "event": "click(TextView-Saved:[836,2092][948,2136])"
+            },
+            {
+                "from": "state2",
+                "to": "state15",
+                "event": "click(android.widget.FrameLayout-com.pinterest:id/profile_user_avatar:[0,113][134,206])"
+            },
+            {
+                "from": "state15",
+                "to": "4111449994273841853",
+                "event": "click<p id=27 class =\"com.pinterest:id/settings_menu_item_title\"> Home feed tuner,  </p>"
+            },
+            {
+                "from": "state15",
+                "to": "-7045697954599192072",
+                "event": "click<button id=30 class =\"com.pinterest:id/btn_follow\" alt=\"Remove\">  </button>"
+            },
+            {
+                "from": "state15",
+                "to": "310369410977335635",
+                "event": "click<button id=36 class =\"com.pinterest:id/btn_follow\" alt=\"Remove\">  </button>"
+            },
+            {
+                "from": "state15",
+                "to": "4088686715550069414",
+                "event": "click<button id=42 class =\"com.pinterest:id/btn_follow\" alt=\"Remove\">  </button>"
+            },
+            {
+                "from": "state15",
+                "to": "831611262357582705",
+                "event": "click<button id=37 class =\"com.pinterest:id/btn_follow\" alt=\"Add\">  </button>"
+            },
+            {
+                "from": "state15",
+                "to": "-6575057605502220201",
+                "event": "click<button id=47 class =\"com.pinterest:id/btn_follow\" alt=\"Remove\">  </button>"
+            },
+            {
+                "from": "state15",
+                "to": "-7710398375442637805",
+                "event": "click<button id=53 class =\"com.pinterest:id/btn_follow\" alt=\"Remove\">  </button>"
+            },
+            {
+                "from": "state15",
+                "to": -7710398375442637805,
+                "event": "back"
+            },
+            {
+                "from": "state15",
+                "to": "-6097342155740893508",
+                "event": "click<button id=4 alt=\"Apps list\">  </button>"
+            },
+            {
+                "from": "state15",
+                "to": "-1599887365773136778",
+                "event": "click<button id=24> Play Store,  </button>"
+            },
+            {
+                "from": "state15",
+                "to": 9087463775917503372,
+                "event": "back"
+            },
+            {
+                "from": "state15",
+                "to": "-3509309000115614999",
+                "event": "click<button id=4 alt=\"Apps list\">  </button>"
+            },
+            {
+                "from": "state15",
+                "to": "-364974740724362279",
+                "event": "click<button id=11 class =\"com.google.android.googlequicksearchbox:id/googleapp_search_widget_google_logo\" alt=\"Google app\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

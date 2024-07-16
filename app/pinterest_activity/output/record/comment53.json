@@ -1,0 +1,60 @@
+[
+    {
+        "comment": "Pinterest has been one of my favorite apps. But however I have deleted a board and if i want to create another board with the same name it's showing as 'you have another board with the same name'. Pls try to fix this issue. Other than that this app is a perfect 5 star.",
+        "key sentence": "the key words: creating board with same name",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "4da12b747db0462e12ee6303ede5f54b",
+        "the sub-task list of state": "[{'name': 'Create New Pin', 'description': 'Initiate the process of creating a new pin.'}, {'name': 'Create New Board', 'description': 'Initiate the process of creating a new pin.'}, {'name': 'Cancel', 'description': 'Cancel the creating operation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment53\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment53\\4da12b747db0462e12ee6303ede5f54b.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4da12b747db0462e12ee6303ede5f54b"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment53\\6079840490767254674.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "6079840490767254674"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment53\\6079840490767254674.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "6079840490767254674"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment53\\1200534472976266027.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1200534472976266027"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "4da12b747db0462e12ee6303ede5f54b",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=e7c5c61cd1d7e20ff5e11581f09745cd(MainActivity/FrameLayout-Create, Ta:x452:y2016))"
+            },
+            {
+                "from": "4da12b747db0462e12ee6303ede5f54b",
+                "to": "6079840490767254674",
+                "event": "click<button id=53 class =\"com.pinterest:id/action_button_label\"> Board,  </button>"
+            },
+            {
+                "from": "6079840490767254674",
+                "to": "6079840490767254674",
+                "event": "click<div id=9 class =\"com.pinterest:id/bottom_sheet_view\" alt=\"Create board\">  </div>"
+            },
+            {
+                "from": "6079840490767254674",
+                "to": "1200534472976266027",
+                "event": "input<input id=21 class =\"com.pinterest:id/edit_text\">  </input>Example Board Name"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

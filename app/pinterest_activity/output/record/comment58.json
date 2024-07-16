@@ -1,0 +1,80 @@
+[
+    {
+        "comment": "Not sure what's going on now (really, what isn't going on with this app is more accurate...) But recently I can't seem to upload pictures to any of my boards that have sections... Only the ones that don't. Boards without sections are fine, they'll receive pics from my photo app no problem. Seriously, if I could get rid of this app, I honestly would. \u9983\u69d5",
+        "key sentence": "Boards with sections",
+        "target activity": ".feature.pin.creation.CreationActivity",
+        "the function of activity": "Create Pins or Boards.",
+        "target state": "26a74922d9bf7c292c60938a0b536a12",
+        "the sub-task list of state": "[{'name': 'Select Videos or Photos', 'description': 'Select Videos or Photos to Create Pin or Board.'}, {'name': 'Camera', 'description': 'Take a photo or video to create pin or board.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment58\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment58\\4da12b747db0462e12ee6303ede5f54b.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4da12b747db0462e12ee6303ede5f54b"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment58\\26a74922d9bf7c292c60938a0b536a12.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "26a74922d9bf7c292c60938a0b536a12"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment58\\8998002806216370900.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8998002806216370900"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment58\\348516657810513289.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "348516657810513289"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment58\\348516657810513289.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "348516657810513289"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment58\\160003898715010040.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "160003898715010040"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "4da12b747db0462e12ee6303ede5f54b",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=e7c5c61cd1d7e20ff5e11581f09745cd(MainActivity/FrameLayout-Create, Ta:x452:y2016))"
+            },
+            {
+                "from": "4da12b747db0462e12ee6303ede5f54b",
+                "to": "26a74922d9bf7c292c60938a0b536a12",
+                "event": "click(state=4da12b747db0462e12ee6303ede5f54b, view=d00bc6aa8417a04bdcd78a5f173f8f02(MainActivity/TextView-Pin:x395:y1994))"
+            },
+            {
+                "from": "26a74922d9bf7c292c60938a0b536a12",
+                "to": "8998002806216370900",
+                "event": "click<button id=9 class =\"com.pinterest:id/gallery_exit_icon\" alt=\"Exit\">  </button>"
+            },
+            {
+                "from": "26a74922d9bf7c292c60938a0b536a12",
+                "to": "348516657810513289",
+                "event": "click<button id=38 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "26a74922d9bf7c292c60938a0b536a12",
+                "to": "348516657810513289",
+                "event": "click<p id=20> Boards,  </p>"
+            },
+            {
+                "from": "26a74922d9bf7c292c60938a0b536a12",
+                "to": "160003898715010040",
+                "event": "click<button id=48 alt=\"Board: picture\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

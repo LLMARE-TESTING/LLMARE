@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "it's a great app and all, but my Pinterest is giving a lot of problems! pinterest/the app won't let me save any pins to boards and lags/freezes. it can't be my phone, because it doesn't really do it on other apps! i have even uninstalled and installed the app various times! please fix these problems! other wise the app is great and a great platform to discover different ideas ;) thank you!",
+        "key sentence": "saving pins to boards",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Save Pin', 'description': 'Save a pin or item to a board for later reference.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment2\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment2\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment2\\state7.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state7"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

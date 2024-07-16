@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "It no longer shows me similar pins after I click on one, which was the best part of this app. I don't know if this is a glitch or if someone genuinely thought this was a good idea.",
+        "key sentence": "The key words: similar pins",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "ba5f165ac71b67896bd0c28f07857be5",
+        "the sub-task list of state": "[{'name': 'Create', 'description': 'Tab for creating something'}, {'name': 'Notifications', 'description': 'Tab for viewing notifications'}, {'name': 'Saved', 'description': 'Tab for viewing saved items'}, {'name': 'Avatar: Jane', 'description': 'Display the avatar for the user Jane'}, {'name': 'Access Search Page', 'description': 'Access the search page.'}, {'name': 'Browse content', 'description': 'Browse recommended pins.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment71\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment71\\-8780688173700878336.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8780688173700878336"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment71\\-310075915725413792.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-310075915725413792"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment71\\-960417912872803132.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-960417912872803132"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-8780688173700878336",
+                "event": "click<button id=15 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from &#120783;&#120791;&#120789;&#120791;, This may contain: a drawing of a penguin in the snow\">  </button>"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-310075915725413792",
+                "event": "click<button id=18 class =\"com.pinterest:id/flashlight_search_button\" alt=\"Button: Flashlight search\">  </button>"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-960417912872803132",
+                "event": "click<button id=18 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from &#120783;&#120791;&#120789;&#120791;, Description: Un afiche sobre el calentamiento global., This may contain: a drawing of a penguin in the snow\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

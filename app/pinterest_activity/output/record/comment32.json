@@ -1,0 +1,30 @@
+[
+    {
+        "comment": "Pinterest is undoubtedly the best app I can use for art references. However, I dk have a big problem when I created a board and it doesn't show up on my board feed, which is kind of annoying. Please get it fixed",
+        "key sentence": "the board feed",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "ba5f165ac71b67896bd0c28f07857be5",
+        "the sub-task list of state": "[{'name': 'Create', 'description': 'Tab for creating something'}, {'name': 'Notifications', 'description': 'Tab for viewing notifications'}, {'name': 'Saved', 'description': 'Tab for viewing saved items'}, {'name': 'Avatar: Jane', 'description': 'Display the avatar for the user Jane'}, {'name': 'Access Search Page', 'description': 'Access the search page.'}, {'name': 'Browse content', 'description': 'Browse recommended pins.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment32\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment32\\-3965235854024551805.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3965235854024551805"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-3965235854024551805",
+                "event": "click<button id=39 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

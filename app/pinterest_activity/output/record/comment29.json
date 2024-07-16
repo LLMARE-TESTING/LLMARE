@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "It's extremely frustrating when I click on a preview video or picture (which then USED to NORMALLY go to a screen that had a close-up video or picture with the red oval SAVE 'button')........ now instead there's only a down-pointing arrow which says \"VISIT SITE\", and then after I click on the arrow, the next screen has a small red rectangle SAVE button at the lower right corner of the screen. I tap on that, and all I get is an offered assortment of still photos with no text descriptions",
+        "key sentence": "preview video, preview picture, SAVE button, VISIT SITE, red rectangle SAVE button, still photos, no text descriptions",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Save Pin', 'description': 'Save a pin or item to a board for later reference.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment29\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment29\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment29\\state7.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment29\\-1654717940985583985.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1654717940985583985"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "-1654717940985583985",
+                "event": "click<button id=27 class =\"com.pinterest:id/clickthrough_button\"> View,  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "comment": "The app was great, was fun, I still miss the ability to see what other boards have pinned the same pin since that let me find boards easier but it's something I can deal with... Unlike getting rid of the ability to search for boards, both in the search tab while searching (it at least still shows People, which is something I've never used but at least that isn't also useless now) and with the button that used to be beside the search bar after searching. Can this be fixed, undone, opted out of??",
+        "key sentence": "search for boards",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state4",
+        "the sub-task list of state": "[{'name': 'Search', 'description': 'Search for a content'}, {'name': 'View Search Results', 'description': \"View the search results of 'Nail inspo'.\"}, {'name': 'Filter', 'description': 'Apply filters to refine search results'}, {'name': 'Back', 'description': 'Navigate back to the previous screen'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment16\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment16\\b8991ad97a321f20ff2b35786bf7e9d3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "b8991ad97a321f20ff2b35786bf7e9d3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment16\\state4.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment16\\-6226431479999642916.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6226431479999642916"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment16\\7055539893431590938.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7055539893431590938"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment16\\-9179866657329107898.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-9179866657329107898"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=6d91963abcf8f775a2f7cae13358b6ae(MainActivity/FrameLayout-Search, Ta:x276:y2016))"
+            },
+            {
+                "from": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "to": "state4",
+                "event": "click(TextView-Nail inspo:[41,429][510,641])"
+            },
+            {
+                "from": "state4",
+                "to": "-6226431479999642916",
+                "event": "click<button id=41 class =\"com.pinterest:id/menu_search\" alt=\"Search, Tab\">  </button>"
+            },
+            {
+                "from": "-6226431479999642916",
+                "to": "7055539893431590938",
+                "event": "click<button id=45 class =\"com.pinterest:id/search_tv\" alt=\"Search\"> Search for ideas,  </button>"
+            },
+            {
+                "from": "7055539893431590938",
+                "to": "-9179866657329107898",
+                "event": "input<input id=13 class =\"com.pinterest:id/view_search_bar_input\"> Search for ideas,  </input>boards"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

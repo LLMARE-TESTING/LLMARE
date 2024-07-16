@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "I liked this app, until I found out about the \"spam block\". It stopped me from saving a picture, it took me ten tries to actually get it saved. I don't know why you have such block, as it makes no sense whatsoever, especially since I was trying to save an image of a hairstyle/color to my hairstyles board! I think you should either tone down this block, or have it deleted all together, kinda interrupts my saving. Apart from this, the app is awesome, totally would recommend! Thanks for listening!",
+        "key sentence": "saving a picture",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Save Pin', 'description': 'Save a pin or item to a board for later reference.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment13\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment13\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment13\\state7.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state7"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

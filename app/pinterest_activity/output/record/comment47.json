@@ -1,0 +1,110 @@
+[
+    {
+        "comment": "I love Pinterest and I've been using it since 2014, but I still think the website is better than the app. I would suggest giving is the ability to quick search a board by typing like on desktop. I have over 100 boards so this would be super useful. Also, if we could disable comments/tries in settings that would be nice. I like how they're hidden on desktop, but I would like to be able to turn them off completely. Still love the app and will continue using it.",
+        "key sentence": "the app",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state5",
+        "the sub-task list of state": "[{'name': 'View Image', 'description': 'View a larger version of an image or pin on the screen.'}, {'name': 'Save Pin', 'description': 'Save a pin or item to a collection or board for later reference.'}, {'name': 'Share', 'description': 'Share content via various platforms or methods such as social media or messaging.'}, {'name': 'View Comments', 'description': 'Read and engage with comments associated with a pin or post.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment47\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment47\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment47\\8153312993624835723.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8153312993624835723"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment47\\8153312993624835723.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8153312993624835723"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment47\\-8227825239034828416.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8227825239034828416"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment47\\-8227825239034828416.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8227825239034828416"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment47\\8376419423289963285.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8376419423289963285"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment47\\8153312993624835723.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8153312993624835723"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment47\\1769969660438217575.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1769969660438217575"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment47\\-577032558390030190.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-577032558390030190"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "8153312993624835723",
+                "event": "click<button id=61 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "state5",
+                "to": "8153312993624835723",
+                "event": "click<div id=19 class =\"com.pinterest:id/profile_boards_tab\">  </div>"
+            },
+            {
+                "from": "state5",
+                "to": "-8227825239034828416",
+                "event": "click<button id=23 class =\"com.pinterest:id/gestalt_search_field\">  </button>"
+            },
+            {
+                "from": "state5",
+                "to": "-8227825239034828416",
+                "event": "click<div id=11 class =\"com.pinterest:id/view_typeahead_search_bar\">  </div>"
+            },
+            {
+                "from": "state5",
+                "to": "8376419423289963285",
+                "event": "input<input id=13 class =\"com.pinterest:id/view_search_bar_input\"> Try a title or description,  </input>board name"
+            },
+            {
+                "from": "state5",
+                "to": "8153312993624835723",
+                "event": "click<button id=15 class =\"com.pinterest:id/view_typeahead_search_bar_cancel\"> Cancel,  </button>"
+            },
+            {
+                "from": "state5",
+                "to": "1769969660438217575",
+                "event": "click<button id=70 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "state5",
+                "to": "-577032558390030190",
+                "event": "click<button id=50 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

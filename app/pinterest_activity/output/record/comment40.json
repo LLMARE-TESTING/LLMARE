@@ -1,0 +1,110 @@
+[
+    {
+        "comment": "I have tried every method I can, even looking up other people's solutions online, to get it to stop recommending completely random things to me. I have no topics, people, or boards followed. I mark everything that isn't the ONE thing I'm on here for (wedding inspiration!) as not relevant. I have been doing this for months, cleared app cache, everything, but 80% of my home is random Tumblr posts, cooking, and baby stuff. I'm so close to giving up on the algorithm and just downloading my board.",
+        "key sentence": "The key words from the comment are: \"recommendations\", \"random things\", \"not relevant\", \"algorithm\".\n\nThese keywords indicate the issue the user is facing with the recommendations algorithm not aligning with their interests, despite efforts to customize preferences.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Save Pin', 'description': 'Save a pin or item to a board for later reference.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment40\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment40\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment40\\state7.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment40\\-4782112486266752258.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4782112486266752258"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment40\\-4782112486266752258.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4782112486266752258"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment40\\7418377643251777880.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7418377643251777880"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment40\\9090712150354661576.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "9090712150354661576"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment40\\5272123505717377462.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5272123505717377462"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment40\\5272123505717377462.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5272123505717377462"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment40\\9090712150354661576.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "9090712150354661576"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "-4782112486266752258",
+                "event": "click<button id=44 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin, This may contain: a woman sitting at a table with a cup in her hand looking out the window\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "-4782112486266752258",
+                "event": "click<button id=32 class =\"com.pinterest:id/save_pinit_bt\"> Save,  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "7418377643251777880",
+                "event": "click<button id=47 class =\"com.pinterest:id/modular_closeup_back_button\" alt=\"Back\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "9090712150354661576",
+                "event": "click<button id=17 class =\"com.pinterest:id/closeup_overflow_button\" alt=\"More options\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "5272123505717377462",
+                "event": "click<button id=30 class =\"com.pinterest:id/clickthrough_button\"> View,  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "5272123505717377462",
+                "event": "click<div id=17 class =\"com.pinterest:id/bottom_sheet_loading_layout\">  </div>"
+            },
+            {
+                "from": "state7",
+                "to": "9090712150354661576",
+                "event": "click<button id=16 class =\"com.pinterest:id/back_bt\" alt=\"Close\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

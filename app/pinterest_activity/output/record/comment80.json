@@ -1,0 +1,170 @@
+[
+    {
+        "comment": "Great app which I have used almost everyday. While I do like it, there could be one additional feature to improve the experience. I often find myself pinning two of the same pictures to one board without being notified of the duplicate. The app will tell me in cases of the same exact post however, if there is one picture posted by two or more different people then i won't be notified. Perhaps the app could scan the pictures in my board and see if I had previously pinned anything that looks identical in order to reduce duplicates.",
+        "key sentence": "duplicate pictures notification",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state18",
+        "the sub-task list of state": "[{'name': 'Follow User', 'description': 'Subscribe to updates or content from a specific user or account.'}, {'name': 'Interact with Pins', 'description': 'Perform actions such as saving, copying link, hiding, or reporting pins.'}, {'name': 'Visit Site', 'description': 'Visit site of the vedio.'}, {'name': 'Copy Vedio Link', 'description': 'Copy the link of the vedio.'}, {'name': 'Hide Vedio Pin', 'description': 'Hide a vedio pin from view to see fewer pins like this.'}, {'name': 'Report Vedio Pin', 'description': 'Report the vedio pin.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment80\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment80\\b8991ad97a321f20ff2b35786bf7e9d3.png",
+                "activity": "",
+                "state_str": "b8991ad97a321f20ff2b35786bf7e9d3"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment80\\state4.png",
+                "activity": "",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment80\\state9.png",
+                "activity": "",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment80\\state10.png",
+                "activity": "",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment80\\state11.png",
+                "activity": "",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment80\\state17.png",
+                "activity": "",
+                "state_str": "state17"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment80\\state18.png",
+                "activity": "",
+                "state_str": "state18"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment80\\1962972026069428568.png",
+                "activity": "",
+                "state_str": "1962972026069428568"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment80\\7822006777913641343.png",
+                "activity": "",
+                "state_str": "7822006777913641343"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment80\\-429048079917433586.png",
+                "activity": "",
+                "state_str": "-429048079917433586"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment80\\1705900693622049532.png",
+                "activity": "",
+                "state_str": "1705900693622049532"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment80\\4592227613375461787.png",
+                "activity": "",
+                "state_str": "4592227613375461787"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment80\\1705900693622049532.png",
+                "activity": "",
+                "state_str": "1705900693622049532"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment80\\4592227613375461787.png",
+                "activity": "",
+                "state_str": "4592227613375461787"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment80\\7565790916825488661.png",
+                "activity": "",
+                "state_str": "7565790916825488661"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=6d91963abcf8f775a2f7cae13358b6ae(MainActivity/FrameLayout-Search, Ta:x276:y2016))"
+            },
+            {
+                "from": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "to": "state4",
+                "event": "click(TextView-Nail inspo:[41,429][510,641])"
+            },
+            {
+                "from": "state4",
+                "to": "state9",
+                "event": "click(Button-com.pinterest:id/one_bar_module_filter_button_id:[22,270][132,391])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(TextView-Videos:[66,1497][948,1571])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(Button-View results:[364,1961][716,2126])"
+            },
+            {
+                "from": "state11",
+                "to": "state17",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[22,446][529,1422])"
+            },
+            {
+                "from": "state17",
+                "to": "state18",
+                "event": "click(Button-More options:[937,105][1058,226])"
+            },
+            {
+                "from": "state18",
+                "to": "1962972026069428568",
+                "event": "click<button id=41 class =\"com.pinterest:id/save_pinit_bt\"> Save,  </button>"
+            },
+            {
+                "from": "state18",
+                "to": "7822006777913641343",
+                "event": "click<button id=20 class =\"com.pinterest:id/closeup_overflow_button\" alt=\"More options\">  </button>"
+            },
+            {
+                "from": "state18",
+                "to": "-429048079917433586",
+                "event": "click<button id=42 class =\"com.pinterest:id/save_pinit_bt\"> Save,  </button>"
+            },
+            {
+                "from": "state18",
+                "to": "1705900693622049532",
+                "event": "click<button id=46 class =\"com.pinterest:id/board_picker_wrapper\">  </button>"
+            },
+            {
+                "from": "state18",
+                "to": "4592227613375461787",
+                "event": "click<button id=46 class =\"com.pinterest:id/save_pinit_bt\"> Saved,  </button>"
+            },
+            {
+                "from": "state18",
+                "to": "1705900693622049532",
+                "event": "click<button id=39 class =\"com.pinterest:id/modular_closeup_back_button\" alt=\"Back\">  </button>"
+            },
+            {
+                "from": "state18",
+                "to": "4592227613375461787",
+                "event": "click<button id=46 class =\"com.pinterest:id/save_pinit_bt\"> Saved,  </button>"
+            },
+            {
+                "from": "state18",
+                "to": "7565790916825488661",
+                "event": "click<img id=76 class =\"com.pinterest:id/board_sections_iv\">  </img>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

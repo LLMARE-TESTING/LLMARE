@@ -1,0 +1,140 @@
+[
+    {
+        "comment": "Please make a filter so that one can choose which boards to see with their pins mixed together within the new \"pin\" section. Over the years I spent hours managing and ordering my boards on the (former) \"profile\" section to have a neat overview of several ajacent themed boards. I am disappointed by this new version, Pinterest loses a big part of its appeal to me.",
+        "key sentence": "Key words: \"pin section\", \"profile section\", \"themed boards\", \"Pinterest loses appeal\"",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Save Pin', 'description': 'Save a pin or item to a board for later reference.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment77\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment77\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment77\\state7.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment77\\2186865477576522266.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "2186865477576522266"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment77\\-6564531947046346100.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6564531947046346100"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment77\\1101217578643542249.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1101217578643542249"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment77\\-6864257320232537434.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6864257320232537434"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment77\\1101217578643542249.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1101217578643542249"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment77\\1101217578643542249.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1101217578643542249"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment77\\-6864257320232537434.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6864257320232537434"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment77\\1101217578643542249.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1101217578643542249"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment77\\-4493040238887768370.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4493040238887768370"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment77\\1101217578643542249.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1101217578643542249"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "2186865477576522266",
+                "event": "click<button id=56 class =\"com.pinterest:id/modular_closeup_back_button\" alt=\"Back\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "-6564531947046346100",
+                "event": "click<button id=37 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "1101217578643542249",
+                "event": "click<div id=17 class =\"com.pinterest:id/profile_pins_tab\">  </div>"
+            },
+            {
+                "from": "state7",
+                "to": "-6864257320232537434",
+                "event": "click<div id=25 class =\"com.pinterest:id/profile_pins_filter_bar_view_button\">  </div>"
+            },
+            {
+                "from": "state7",
+                "to": "1101217578643542249",
+                "event": "click<div id=18 class =\"com.pinterest:id/profile_boards_tab\">  </div>"
+            },
+            {
+                "from": "state7",
+                "to": "1101217578643542249",
+                "event": "click<p id=18> Pins,  </p>"
+            },
+            {
+                "from": "state7",
+                "to": "-6864257320232537434",
+                "event": "click<div id=25 class =\"com.pinterest:id/profile_pins_filter_bar_view_button\">  </div>"
+            },
+            {
+                "from": "state7",
+                "to": "1101217578643542249",
+                "event": "click<div id=25 class =\"com.pinterest:id/profile_pins_filter_bar\">  </div>"
+            },
+            {
+                "from": "state7",
+                "to": "-4493040238887768370",
+                "event": "click<p id=20> Boards,  </p>"
+            },
+            {
+                "from": "state7",
+                "to": "1101217578643542249",
+                "event": "click<div id=17 class =\"com.pinterest:id/profile_pins_tab\">  </div>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

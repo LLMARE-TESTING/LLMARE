@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "I use Pinterest a lot but the recent update seems to had a detrimental effect on the usability of the app. I can no longer click on a thumb image and have it open up properly. It zooms in to one section of the image leaving the rest off screen. If you try to zoom out if just runs a visual search on the item in the photo. I hope this gets sorted in the next update.",
+        "key sentence": "The key words: recent update, thumb image, zoom issue, visual search",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "b8991ad97a321f20ff2b35786bf7e9d3",
+        "the sub-task list of state": "[{'name': 'Lens', 'description': 'Camera Search'}, {'name': 'Search for Ideas', 'description': 'Search for content related to your idea.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment12\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment12\\b8991ad97a321f20ff2b35786bf7e9d3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "b8991ad97a321f20ff2b35786bf7e9d3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment12\\8693462214912904971.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8693462214912904971"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment12\\-667054965222872209.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-667054965222872209"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=6d91963abcf8f775a2f7cae13358b6ae(MainActivity/FrameLayout-Search, Ta:x276:y2016))"
+            },
+            {
+                "from": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "to": "8693462214912904971",
+                "event": "click<button id=13 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "8693462214912904971",
+                "to": "-667054965222872209",
+                "event": "click<button id=30 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from www.storenvy.com, Title: AESTHETICS STRAWBERRIES HOODIE\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

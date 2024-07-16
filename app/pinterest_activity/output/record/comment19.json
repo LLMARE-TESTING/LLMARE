@@ -1,0 +1,110 @@
+[
+    {
+        "comment": "Overall good app,can show your stats and everything. I would give it a 5 stars but no,since you guys removed the feature of single post with multiple images thingy,I am not able to post various photos at once -_- it's kinda annoying . Bring it back please.",
+        "key sentence": "Key words: single post with multiple images",
+        "target activity": ".feature.pin.creation.CreationActivity",
+        "the function of activity": "Create Pins or Boards.",
+        "target state": "26a74922d9bf7c292c60938a0b536a12",
+        "the sub-task list of state": "[{'name': 'Select Videos or Photos', 'description': 'Select Videos or Photos to Create Pin or Board.'}, {'name': 'Camera', 'description': 'Take a photo or video to create pin or board.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment19\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment19\\4da12b747db0462e12ee6303ede5f54b.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4da12b747db0462e12ee6303ede5f54b"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment19\\26a74922d9bf7c292c60938a0b536a12.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "26a74922d9bf7c292c60938a0b536a12"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment19\\-5124659264397439111.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-5124659264397439111"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment19\\7127540033430500699.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7127540033430500699"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment19\\-1654753994246436695.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1654753994246436695"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment19\\-1654753994246436695.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1654753994246436695"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment19\\-5124659264397439111.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-5124659264397439111"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment19\\7127540033430500699.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7127540033430500699"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment19\\-1654753994246436695.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1654753994246436695"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "4da12b747db0462e12ee6303ede5f54b",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=e7c5c61cd1d7e20ff5e11581f09745cd(MainActivity/FrameLayout-Create, Ta:x452:y2016))"
+            },
+            {
+                "from": "4da12b747db0462e12ee6303ede5f54b",
+                "to": "26a74922d9bf7c292c60938a0b536a12",
+                "event": "click(state=4da12b747db0462e12ee6303ede5f54b, view=d00bc6aa8417a04bdcd78a5f173f8f02(MainActivity/TextView-Pin:x395:y1994))"
+            },
+            {
+                "from": "26a74922d9bf7c292c60938a0b536a12",
+                "to": "-5124659264397439111",
+                "event": "click<button id=12 class =\"com.pinterest:id/gallery_next_gestalt_button\"> Next,  </button>"
+            },
+            {
+                "from": "26a74922d9bf7c292c60938a0b536a12",
+                "to": 7127540033430500699,
+                "event": "back"
+            },
+            {
+                "from": "26a74922d9bf7c292c60938a0b536a12",
+                "to": "-1654753994246436695",
+                "event": "click<button id=33 class =\"com.pinterest:id/menu_creation\" alt=\"Create, Tab\">  </button>"
+            },
+            {
+                "from": "26a74922d9bf7c292c60938a0b536a12",
+                "to": "-1654753994246436695",
+                "event": "click<button id=32 class =\"com.pinterest:id/menu_creation\" alt=\"Create, Tab\">  </button>"
+            },
+            {
+                "from": "26a74922d9bf7c292c60938a0b536a12",
+                "to": "-5124659264397439111",
+                "event": "click<button id=47 class =\"com.pinterest:id/action_button_icon_container\">  </button>"
+            },
+            {
+                "from": "26a74922d9bf7c292c60938a0b536a12",
+                "to": 7127540033430500699,
+                "event": "back"
+            },
+            {
+                "from": "26a74922d9bf7c292c60938a0b536a12",
+                "to": "-1654753994246436695",
+                "event": "click<button id=33 class =\"com.pinterest:id/menu_creation\" alt=\"Create, Tab\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

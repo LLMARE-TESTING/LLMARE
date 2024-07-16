@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "Updates tab is broken. Keep getting notifications someone followed me or saved a pin but it only displays in app notifications from 1/2 weeks ago. Following list wont load properly. Conversations i have in app get randomly removed from lists. Edit: and please for the love of god fix the shares feature. The share menu that appears whenever I download a picture makes me send random pins to strangers I happen to mutual. I've done this 4 times now and I'm sick of it.",
+        "key sentence": "Key words: Updates tab, notifications, following list, conversations, share feature",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state1",
+        "the sub-task list of state": "[{'name': 'Updates', 'description': 'View recent updates or notifications.'}, {'name': 'Inbox', 'description': 'Access your inbox to view messages or conversations.'}, {'name': 'New message', 'description': 'Compose and send a new message.'}, {'name': 'Messages', 'description': 'Access and view your messages or conversations.'}, {'name': 'Contacts', 'description': 'View your list of contacts.'}, {'name': 'Avatar', 'description': 'View the avatar/profile picture associated with a contact or user.'}, {'name': 'Say hello', 'description': 'Initiate a conversation or greet a contact.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment61\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment61\\state1.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment61\\8372484826361445672.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8372484826361445672"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment61\\-4796085622287001252.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4796085622287001252"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state1",
+                "event": "click(TextView-Notifications:[628,2096][804,2140])"
+            },
+            {
+                "from": "state1",
+                "to": "8372484826361445672",
+                "event": "click<button id=37 class =\"com.pinterest:id/menu_notifications\" alt=\"Notifications, Tab\">  </button>"
+            },
+            {
+                "from": "state1",
+                "to": "-4796085622287001252",
+                "event": "click<p id=11> Updates,  </p>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

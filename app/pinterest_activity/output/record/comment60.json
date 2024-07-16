@@ -1,0 +1,90 @@
+[
+    {
+        "comment": "I really like this app for it's content and it's ease of navigation, but editing something you posted is impossible. Every time I click edit to maybe add a description, for example, it doesn't STAY ON the edit page. It will open for to enable edit and then it doesn't stay there. It RIGHT AWAY closes the edit portion and I can't add anything. Please fix this. I can't add or change anything. Edits are no longer possible.",
+        "key sentence": "The key words: editing posts",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state16",
+        "the sub-task list of state": "[{'name': 'Edit Profile', 'description': 'Edit profile'}, {'name': 'View Saved Items', 'description': 'Access saved items'}, {'name': 'View Created Items', 'description': 'Access created items'}, {'name': 'Share Your Pins', 'description': 'Share your pins with others.'}, {'name': 'View followers and following', 'description': 'View the number of your followers and following.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment60\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment60\\state2.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment60\\state15.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state15"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment60\\state16.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state16"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment60\\-3032926305447138810.png",
+                "activity": "",
+                "state_str": "-3032926305447138810"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment60\\-5209475579995556844.png",
+                "activity": "",
+                "state_str": "-5209475579995556844"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment60\\4321232520526509969.png",
+                "activity": "",
+                "state_str": "4321232520526509969"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment60\\684612558941300071.png",
+                "activity": "",
+                "state_str": "684612558941300071"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state2",
+                "event": "click(TextView-Saved:[836,2092][948,2136])"
+            },
+            {
+                "from": "state2",
+                "to": "state15",
+                "event": "click(android.widget.FrameLayout-com.pinterest:id/profile_user_avatar:[0,113][134,206])"
+            },
+            {
+                "from": "state15",
+                "to": "state16",
+                "event": "click(TextView-com.pinterest:id/profile_preview_subtitle:[258,385][948,444])"
+            },
+            {
+                "from": "state16",
+                "to": "-3032926305447138810",
+                "event": "click<button id=28 class =\"com.pinterest:id/secondary_button\"> Edit profile,  </button>"
+            },
+            {
+                "from": "state16",
+                "to": "-5209475579995556844",
+                "event": "click<p id=35> Created,  </p>"
+            },
+            {
+                "from": "state16",
+                "to": "4321232520526509969",
+                "event": "click<button id=44 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from Jane, Title: good day, This may contain: two yellow smiley faces with different expressions are shown on the screen, and one has an open mouth\">  </button>"
+            },
+            {
+                "from": "state16",
+                "to": "684612558941300071",
+                "event": "click<img id=22 class =\"com.pinterest:id/idea_pin_overflow_icon\" alt=\"Options\">  </img>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

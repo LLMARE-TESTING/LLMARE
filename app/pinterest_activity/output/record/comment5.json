@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "I really like most things about Pinterest and the mobile app for it functions nicely most of the time. However I have run into a reoccurring bug that won't allow me to save images, usually from Twitter. I've gotten an orange error message every time so far. Sometimes Pinterest won't load for me at all when I use the 'Share' button on websites or by long-pressing (functions like right click). I'll update this review after any patch fixes.",
+        "key sentence": "save images, Twitter, Share button, long-pressing",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Save Pin', 'description': 'Save a pin or item to a board for later reference.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment5\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment5\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment5\\state7.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment5\\134951628192730440.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "134951628192730440"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment5\\-7635119769179893770.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7635119769179893770"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment5\\3155417161844771419.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3155417161844771419"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment5\\3155417161844771419.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3155417161844771419"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment5\\3155417161844771419.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3155417161844771419"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment5\\877585922418290651.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "877585922418290651"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment5\\6955290735947926350.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "6955290735947926350"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment5\\3696119212482946621.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3696119212482946621"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "134951628192730440",
+                "event": "click<button id=32 class =\"com.pinterest:id/save_pinit_bt\"> Save,  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "-7635119769179893770",
+                "event": "click<button id=65 class =\"com.pinterest:id/board_section_picker_board_cell\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "3155417161844771419",
+                "event": "click<button id=33 class =\"com.pinterest:id/action_module_share_wrapper\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "3155417161844771419",
+                "event": "click<img id=89 class =\"com.pinterest:id/icon_iv\" alt=\"External app icon\">  </img>"
+            },
+            {
+                "from": "state7",
+                "to": "3155417161844771419",
+                "event": "click<p id=90 class =\"com.pinterest:id/text_tv\"> Copy link,  </p>"
+            },
+            {
+                "from": "state7",
+                "to": "877585922418290651",
+                "event": "click<button id=34 class =\"com.pinterest:id/uab_share_button\" alt=\"Share via\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "6955290735947926350",
+                "event": "click<div id=33 class =\"com.pinterest:id/action_module_share_icon\" alt=\"Share via\">  </div>"
+            },
+            {
+                "from": "state7",
+                "to": "3696119212482946621",
+                "event": "click<img id=23 class =\"com.pinterest:id/bar_home\" alt=\"Back\">  </img>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

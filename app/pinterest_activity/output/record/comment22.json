@@ -1,0 +1,90 @@
+[
+    {
+        "comment": "Highly dislike the new look I really do not like the new updates. I don't love seeing the circles of who I follow at the top. I knew where to find their pins before and it is very distracting to see them at the top of the feed. Also what is with the pins where there are multiple swipes to the right the user has to make to see the whole pin? A total waste of time! Pinterest needs to go back to the previous, simpler version in my opinion.",
+        "key sentence": "the new updates",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state1",
+        "the sub-task list of state": "[{'name': 'Updates', 'description': 'View recent updates or notifications.'}, {'name': 'Inbox', 'description': 'Access your inbox to view messages or conversations.'}, {'name': 'New message', 'description': 'Compose and send a new message.'}, {'name': 'Messages', 'description': 'Access and view your messages or conversations.'}, {'name': 'Contacts', 'description': 'View your list of contacts.'}, {'name': 'Avatar', 'description': 'View the avatar/profile picture associated with a contact or user.'}, {'name': 'Say hello', 'description': 'Initiate a conversation or greet a contact.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment22\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment22\\state1.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment22\\7402476283536553632.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7402476283536553632"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment22\\4049410197980616327.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4049410197980616327"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment22\\7892928375797253046.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7892928375797253046"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment22\\-7222907608441406393.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7222907608441406393"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment22\\-2914636279796468071.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2914636279796468071"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment22\\-2914636279796468071.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2914636279796468071"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state1",
+                "event": "click(TextView-Notifications:[628,2096][804,2140])"
+            },
+            {
+                "from": "state1",
+                "to": "7402476283536553632",
+                "event": "click<p id=11> Updates,  </p>"
+            },
+            {
+                "from": "state1",
+                "to": "4049410197980616327",
+                "event": "click<div id=1 class =\"android:id/content\">  </div>"
+            },
+            {
+                "from": "state1",
+                "to": "7892928375797253046",
+                "event": "click<button id=23 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "state1",
+                "to": "-7222907608441406393",
+                "event": "click<button id=30 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "state1",
+                "to": "-2914636279796468071",
+                "event": "click<button id=28 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "state1",
+                "to": "-2914636279796468071",
+                "event": "click<div id=22 class =\"com.pinterest:id/multi_tab_homefeed_tab_id\" alt=\"All recommended Pins\">  </div>"
+            }
+        ],
+        "Final answer": "YES"
+    }
+]

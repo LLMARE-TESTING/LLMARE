@@ -1,0 +1,100 @@
+[
+    {
+        "comment": "Pins saved before the latest version if updated is duplicated if you look at them in your profile. Not sure if you're still able to, but I wish they'd also make it possible to multi-select Pins, specifically the one(s) on your profile, that you saved before creating a board since it's exhausting having to manually add one at a time you want to a board because of it.",
+        "key sentence": "Key words: Pins, profile, multi-select, board",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Save Pin', 'description': 'Save a pin or item to a board for later reference.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment74\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment74\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment74\\state7.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment74\\5236405994728306377.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5236405994728306377"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment74\\-8791062497795586361.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8791062497795586361"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment74\\-1382006835800636820.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1382006835800636820"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment74\\-1382006835800636820.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1382006835800636820"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment74\\-1382006835800636820.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1382006835800636820"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment74\\-1382006835800636820.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1382006835800636820"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "5236405994728306377",
+                "event": "click<button id=20 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin, This may contain: a cat sitting in a box looking at the camera\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "-8791062497795586361",
+                "event": "click<button id=21 alt=\"Avatar: Kazumi\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "-1382006835800636820",
+                "event": "click<p id=40> Saved,  </p>"
+            },
+            {
+                "from": "state7",
+                "to": "-1382006835800636820",
+                "event": "click<div id=20 class =\"com.pinterest:id/username_container\">  </div>"
+            },
+            {
+                "from": "state7",
+                "to": "-1382006835800636820",
+                "event": "click<p id=40> Saved,  </p>"
+            },
+            {
+                "from": "state7",
+                "to": "-1382006835800636820",
+                "event": "click<div id=10 class =\"com.pinterest:id/user_profile\">  </div>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

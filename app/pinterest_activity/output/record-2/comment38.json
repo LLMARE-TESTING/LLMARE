@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "For the most part, Pinterest is fun and easy to use. However, with the recent update, the app has become annoying. I used to be able to hear audio on every video without any problems, but now most videos have a \"no audio in location available,\" and sometimes pins i have not added show up in my boards. i have heard these complaints from several others, and it can be quite frustrating.",
+        "key sentence": "recent update, no audio in location available, pins not added show up in boards",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state3",
+        "the sub-task list of state": "[{'name': 'View Board Details', 'description': 'Display detailed information about a specific board.'}, {'name': 'Share', 'description': 'Share the current content or board with others.'}, {'name': 'Access More Options', 'description': 'Explore additional options for the current view or content.'}, {'name': 'Invite Collaborators', 'description': 'Send invitations to other users to collaborate on a board.'}, {'name': 'Organize', 'description': 'Arrange and manage the content within a board or view.'}, {'name': 'Add', 'description': 'Include new content or elements to the current view or board.'}, {'name': 'Explore More Ideas', 'description': 'Discover additional suggestions or inspirations related to the current content.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment38\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment38\\state2.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment38\\state3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment38\\-6598270691988093456.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6598270691988093456"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment38\\-3290723926439285601.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3290723926439285601"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment38\\-3290723926439285601.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3290723926439285601"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment38\\-6598270691988093456.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6598270691988093456"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment38\\-4640232652593355852.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4640232652593355852"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment38\\5271452763144280107.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5271452763144280107"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment38\\5271452763144280107.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5271452763144280107"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment38\\-2417945602014247168.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2417945602014247168"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state2",
+                "event": "click(TextView-Saved:[836,2092][948,2136])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(android.view.ViewGroup-Board: picture:[22,524][529,1027])"
+            },
+            {
+                "from": "state3",
+                "to": "-6598270691988093456",
+                "event": "click<button id=37 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin, This may contain: a woman laying on top of a roof next to a beer bottle with a cat sitting on her shoulders\">  </button>"
+            },
+            {
+                "from": "-6598270691988093456",
+                "to": "-3290723926439285601",
+                "event": "click<button id=17 class =\"com.pinterest:id/closeup_overflow_button\" alt=\"More options\">  </button>"
+            },
+            {
+                "from": "-3290723926439285601",
+                "to": "-3290723926439285601",
+                "event": "click<button id=64 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-3290723926439285601",
+                "to": "-6598270691988093456",
+                "event": "click<button id=16 class =\"com.pinterest:id/closeup_overflow_button\" alt=\"More options\">  </button>"
+            },
+            {
+                "from": "-6598270691988093456",
+                "to": "-4640232652593355852",
+                "event": "click<button id=54 class =\"com.pinterest:id/modular_closeup_back_button\" alt=\"Back\">  </button>"
+            },
+            {
+                "from": "-4640232652593355852",
+                "to": "5271452763144280107",
+                "event": "click<img id=11 class =\"com.pinterest:id/bar_home\" alt=\"Back\">  </img>"
+            },
+            {
+                "from": "5271452763144280107",
+                "to": "5271452763144280107",
+                "event": "click<div id=19 class =\"com.pinterest:id/profile_boards_tab\">  </div>"
+            },
+            {
+                "from": "5271452763144280107",
+                "to": "-2417945602014247168",
+                "event": "click<button id=66 class =\"com.pinterest:id/menu_creation\" alt=\"Create, Tab\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

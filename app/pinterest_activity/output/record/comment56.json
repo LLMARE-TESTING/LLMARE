@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "I love pinterest and have used it for about as long as I've had a cell phone, but lately it's been giving me a lot of trouble with saving pins. I'm an artist so I have multiple boards for inspiration for poses, fashion, etc. And I've missed out on saving so many inspiring pins because the save button completely disappeared on me. I've restarted my phone, logged out and back in, and nothing changed, it's quite frustrating.",
+        "key sentence": "The key words from the user comment are: \"saving pins\", \"save button disappeared\".",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Save Pin', 'description': 'Save a pin or item to a board for later reference.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment56\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment56\\state5.png",
+                "activity": "",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment56\\state7.png",
+                "activity": "",
+                "state_str": "state7"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

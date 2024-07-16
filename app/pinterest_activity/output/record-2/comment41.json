@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "What's wrong with the app!!??? It's not opening my account and always say something's wrong at our end... If something wrong just do it right quickly...I need pinterest for searches\u9983\u30b2",
+        "key sentence": "account not opening",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state15",
+        "the sub-task list of state": "[{'name': 'View Profile', 'description': 'View your profile'}, {'name': 'Settings', 'description': 'Access application settings'}, {'name': 'Account Management', 'description': 'Manage your account settings'}, {'name': 'Profile Visibility', 'description': 'Manage the visibility of your profile'}, {'name': 'Home Feed Tuner', 'description': 'Customize your home feed preferences'}, {'name': 'Claimed Accounts', 'description': 'Manage accounts claimed by you'}, {'name': 'Social Permissions', 'description': 'Manage permissions for social features'}, {'name': 'Notifications', 'description': 'Access and manage your notifications'}, {'name': 'Privacy and Data', 'description': 'Manage privacy settings and data usage'}, {'name': 'Reports and Violations Center', 'description': 'Report violations and access related information'}, {'name': 'Add Account', 'description': 'Add a new account to the application'}, {'name': 'Security', 'description': 'Access security settings and options'}, {'name': 'Log Out', 'description': 'Log out from the application'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment41\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment41\\state2.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment41\\state15.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state15"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment41\\7178111663047390747.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7178111663047390747"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment41\\7178111663047390747.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7178111663047390747"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment41\\1876655975862281500.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1876655975862281500"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment41\\5271452763144280107.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5271452763144280107"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment41\\7493949566235713296.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7493949566235713296"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment41\\2943707098055273130.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "2943707098055273130"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment41\\5271452763144280107.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5271452763144280107"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment41\\-4387285824050970360.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4387285824050970360"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state2",
+                "event": "click(TextView-Saved:[836,2092][948,2136])"
+            },
+            {
+                "from": "state2",
+                "to": "state15",
+                "event": "click(android.widget.FrameLayout-com.pinterest:id/profile_user_avatar:[0,113][134,206])"
+            },
+            {
+                "from": "state15",
+                "to": "7178111663047390747",
+                "event": "click<p id=22 class =\"com.pinterest:id/settings_menu_item_title\"> Account management,  </p>"
+            },
+            {
+                "from": "7178111663047390747",
+                "to": "7178111663047390747",
+                "event": "click<button id=15 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "7178111663047390747",
+                "to": 1876655975862281500,
+                "event": "back"
+            },
+            {
+                "from": 1876655975862281500,
+                "to": "5271452763144280107",
+                "event": "click<button id=12 class =\"com.pinterest:id/icon\" alt=\"Back\">  </button>"
+            },
+            {
+                "from": "5271452763144280107",
+                "to": "7493949566235713296",
+                "event": "click<button id=71 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "7493949566235713296",
+                "to": 2943707098055273130,
+                "event": "back"
+            },
+            {
+                "from": 2943707098055273130,
+                "to": "5271452763144280107",
+                "event": "click<button id=38 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "5271452763144280107",
+                "to": -4387285824050970360,
+                "event": "back"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

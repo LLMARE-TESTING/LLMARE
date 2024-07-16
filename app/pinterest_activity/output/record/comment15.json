@@ -1,0 +1,70 @@
+[
+    {
+        "comment": "I've used this app for years and the last few updates have tanked the ability to use the app. You can't even swipe easily, as the pin will stop part way through swiping before freezing, or not allow you to swipe at all. The only time you can be sure this won't happen is when trying to move through multi page ads. In addition with this last update it will randomly scroll to the bottom of the pin to expose the comments, which is annoying for long pins. This used to be fun, now it's barely running.",
+        "key sentence": "swipe, pin, scrolling",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Copy Pin Link', 'description': 'Copy the link to a pin'}, {'name': 'Download Pin Image', 'description': 'Download the image of a pin'}, {'name': 'Hide Pin', 'description': 'Hide a pin from view'}, {'name': 'Report Pin', 'description': 'Report a pin for violating community guidelines'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment15\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment15\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment15\\state8.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment15\\-2857249937398896404.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2857249937398896404"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment15\\-2857249937398896404.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2857249937398896404"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment15\\-2857249937398896404.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2857249937398896404"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state8",
+                "event": "click(Button-More options:[937,105][1058,226])"
+            },
+            {
+                "from": "state8",
+                "to": "-2857249937398896404",
+                "event": "scroll down"
+            },
+            {
+                "from": "state8",
+                "to": "-2857249937398896404",
+                "event": "scroll down"
+            },
+            {
+                "from": "state8",
+                "to": "-2857249937398896404",
+                "event": "scroll down"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

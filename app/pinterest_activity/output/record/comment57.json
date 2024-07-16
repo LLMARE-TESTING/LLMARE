@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "The app was great until the update where it automatically saves everything to your profile. Why would you make me go through more steps just to save a photo or recipe?? Why would I bother making boards if they're going to make the app useless by throwing them all together and making me save them twice. Hoping they get rid of this \"feature\" in the next update. It's annoying.",
+        "key sentence": "automatically saves everything to your profile",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Save Pin', 'description': 'Save a pin or item to a board for later reference.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment57\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment57\\state5.png",
+                "activity": "",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment57\\state7.png",
+                "activity": "",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment57\\-8801557212041443919.png",
+                "activity": "",
+                "state_str": "-8801557212041443919"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "-8801557212041443919",
+                "event": "click<button id=54 class =\"com.pinterest:id/board_section_picker_board_cell\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

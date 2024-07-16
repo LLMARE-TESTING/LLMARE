@@ -1,0 +1,80 @@
+[
+    {
+        "comment": "great for quick reference info. I use it for recipes, work out tips. I also like to look interior design ideas. easy to share pins with friends also.",
+        "key sentence": "The key words: quick reference info, recipes, work out tips, interior design ideas, share pins",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Save Pin', 'description': 'Save a pin or item to a board for later reference.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment79\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment79\\state5.png",
+                "activity": "",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment79\\state7.png",
+                "activity": "",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment79\\-7378722174934648654.png",
+                "activity": "",
+                "state_str": "-7378722174934648654"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment79\\-7124589721081550606.png",
+                "activity": "",
+                "state_str": "-7124589721081550606"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment79\\-7378722174934648654.png",
+                "activity": "",
+                "state_str": "-7378722174934648654"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment79\\2233401184195818438.png",
+                "activity": "",
+                "state_str": "2233401184195818438"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "-7378722174934648654",
+                "event": "click<button id=36 class =\"com.pinterest:id/uab_share_button\" alt=\"Share via\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "-7124589721081550606",
+                "event": "click<button id=53 class =\"com.pinterest:id/modular_closeup_back_button\" alt=\"Back\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "-7378722174934648654",
+                "event": "click<button id=36 class =\"com.pinterest:id/uab_share_button\" alt=\"Share via\">  </button>"
+            },
+            {
+                "from": "state7",
+                "to": "2233401184195818438",
+                "event": "click<button id=33 class =\"com.pinterest:id/save_pinit_bt\"> Save,  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

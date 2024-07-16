@@ -1,0 +1,80 @@
+[
+    {
+        "comment": "I love Pinterest! I use it for absolutely everything. I do like to keep all my boards private i use it more for personal then social (i like that they have this option). I do have a few suggestions though: Please add a button where you can type the first couple letters of your board, so when you're ready to pin, you don't have to scroll through your whole list (I have MANY boards). Also some things are repetitive, example I was looking for humor, and I barely found anything new. Thank you!",
+        "key sentence": "private boards, pinning, repetitive content",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state10",
+        "the sub-task list of state": "[{'name': 'View All Pins', 'description': 'View all pinned items or content.'}, {'name': 'View Videos', 'description': 'View video content.'}, {'name': 'View Boards', 'description': 'View boards or collections of related content.'}, {'name': 'View Profiles', 'description': 'View user profiles or accounts.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment36\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment36\\b8991ad97a321f20ff2b35786bf7e9d3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "b8991ad97a321f20ff2b35786bf7e9d3"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment36\\state4.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment36\\state9.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment36\\state10.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment36\\-315214009988172170.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-315214009988172170"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment36\\158584358392129128.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "158584358392129128"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=6d91963abcf8f775a2f7cae13358b6ae(MainActivity/FrameLayout-Search, Ta:x276:y2016))"
+            },
+            {
+                "from": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "to": "state4",
+                "event": "click(TextView-Nail inspo:[41,429][510,641])"
+            },
+            {
+                "from": "state4",
+                "to": "state9",
+                "event": "click(Button-com.pinterest:id/one_bar_module_filter_button_id:[22,270][132,391])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(TextView-Videos:[66,1497][948,1571])"
+            },
+            {
+                "from": "state10",
+                "to": "-315214009988172170",
+                "event": "click<button id=31 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from 4K Art Studio | Painting Ideas | craft ideas | diy home decor, Title: Simple Easy Pencil Art Tutorial &#128525;&#128578; 4k art studio, This may contain: someone is writing on a piece of paper with a pencil in their left hand and another person's right hand holding a pen\">  </button>"
+            },
+            {
+                "from": "state10",
+                "to": "158584358392129128",
+                "event": "click<button id=46 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

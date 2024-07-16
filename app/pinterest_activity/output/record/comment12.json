@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "Every time I update a pin in my board the date when I last uploaded won't change. Like for example it says \"2 weeks ago\" then I upload a pin and the date won't change and the amount of pin stays the same. It also say \"User not found\" or \"Board not found\". It triggers me and makes my account flop. It's a big problem please fix it. I love this app but this is horrible.",
+        "key sentence": "updating pins, board dates",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state3",
+        "the sub-task list of state": "[{'name': 'View Board Details', 'description': 'Display detailed information about a specific board.'}, {'name': 'Share', 'description': 'Share the current content or board with others.'}, {'name': 'Access More Options', 'description': 'Explore additional options for the current view or content.'}, {'name': 'Invite Collaborators', 'description': 'Send invitations to other users to collaborate on a board.'}, {'name': 'Organize', 'description': 'Arrange and manage the content within a board or view.'}, {'name': 'Add', 'description': 'Include new content or elements to the current view or board.'}, {'name': 'Explore More Ideas', 'description': 'Discover additional suggestions or inspirations related to the current content.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment12\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment12\\state2.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment12\\state3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\Pinterest_activity\\output\\screenshot\\comment12\\-8301100730091795880.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8301100730091795880"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state2",
+                "event": "click(TextView-Saved:[836,2092][948,2136])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(android.view.ViewGroup-Board: picture:[22,524][529,1027])"
+            },
+            {
+                "from": "state3",
+                "to": "-8301100730091795880",
+                "event": "click<button id=31 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from \u211d&#120154;&#120159;&#120159;&#120150;~~\u2661, This may contain: a woman sitting at a desk in front of a window\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

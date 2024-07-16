@@ -1,0 +1,80 @@
+[
+    {
+        "comment": "Pinterest is undoubtedly the best app I can use for art references. However, I dk have a big problem when I created a board and it doesn't show up on my board feed, which is kind of annoying. Please get it fixed",
+        "key sentence": "board feed",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "4da12b747db0462e12ee6303ede5f54b",
+        "the sub-task list of state": "[{'name': 'Create New Pin', 'description': 'Initiate the process of creating a new pin.'}, {'name': 'Create New Board', 'description': 'Initiate the process of creating a new pin.'}, {'name': 'Cancel', 'description': 'Cancel the creating operation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment30\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment30\\4da12b747db0462e12ee6303ede5f54b.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4da12b747db0462e12ee6303ede5f54b"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment30\\-2282301560774612667.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2282301560774612667"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment30\\-4940105227140032705.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-4940105227140032705"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment30\\-8368382071761385934.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8368382071761385934"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment30\\-3639932140080758798.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3639932140080758798"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot-2\\comment30\\-3639932140080758798.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3639932140080758798"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "4da12b747db0462e12ee6303ede5f54b",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=e7c5c61cd1d7e20ff5e11581f09745cd(MainActivity/FrameLayout-Create, Ta:x452:y2016))"
+            },
+            {
+                "from": "4da12b747db0462e12ee6303ede5f54b",
+                "to": "-2282301560774612667",
+                "event": "click<button id=46 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-2282301560774612667",
+                "to": "-4940105227140032705",
+                "event": "click<button id=57 class =\"com.pinterest:id/action_button_icon_container\">  </button>"
+            },
+            {
+                "from": "-4940105227140032705",
+                "to": -8368382071761385934,
+                "event": "back"
+            },
+            {
+                "from": -8368382071761385934,
+                "to": "-3639932140080758798",
+                "event": "click<button id=47 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-3639932140080758798",
+                "to": "-3639932140080758798",
+                "event": "click<div id=20 class =\"com.pinterest:id/profile_boards_tab\">  </div>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]
