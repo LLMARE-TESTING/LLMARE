@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "Good app, however, after the previous update, the layout was totally changed and made it harder to navigate and play specific songs, but other than that, it is a great music streaming app",
+        "key sentence": "the layout",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state9",
+        "the sub-task list of state": "[{'name': 'Download Album', 'description': 'Download the current Album'}, {'name': 'Play Music in Album', 'description': 'Play the music in album.'}, {'name': 'More Options', 'description': 'Access more options for the current item'}, {'name': 'Enable Shuffle', 'description': 'Enable shuffle for the current playlist'}, {'name': 'Back', 'description': 'Navigate back to the previous screen or page'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment57\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment57\\state9.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment57\\-7002102355478979737.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-7002102355478979737"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment57\\110008067420764785.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "110008067420764785"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state9",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/image:[44,1242][476,1674])"
+            },
+            {
+                "from": "state9",
+                "to": "-7002102355478979737",
+                "event": "click<button id=80 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            },
+            {
+                "from": "-7002102355478979737",
+                "to": "110008067420764785",
+                "event": "click<button id=38 class =\"com.spotify.music:id/button_view_density\" alt=\"Show Grid view\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "comment": "Almost all the features that were once available for free are now available only on Spotify premium, n for the most part I Am not bothered but the thing that bothers me is that I can't even choose a song after some point of time.",
+        "key sentence": "Spotify premium",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "a17e568448adcdbafe37f9f618f3f5ca",
+        "the sub-task list of state": "[{'name': 'Profile', 'description': 'View profile'}, {'name': 'Content filters', 'description': 'Apply filters to content'}, {'name': 'Play', 'description': 'Play the currently selected item'}, {'name': 'Pause', 'description': 'Pause the currently playing item'}, {'name': 'Add to Liked Songs', 'description': 'Add the music to liked songs by clicking plus sign.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment29\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment29\\-562707088718557442.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-562707088718557442"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "-562707088718557442",
+                "event": "click<button id=107 class =\"com.spotify.music:id/premium_tab\" alt=\"Premium, Tab 4 of 4\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

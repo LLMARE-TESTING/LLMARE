@@ -1,0 +1,60 @@
+[
+    {
+        "comment": "The new update makes it to where you cant do the song you want in your playlist you can even just press the song you want to hear and when you press the play button on the playlist it doesnt even play the song on their this app used to be so good but now its not",
+        "key sentence": "play button on the playlist",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "8525a40443e9f8deb66355fa4f61e1b5",
+        "the sub-task list of state": "[{'name': 'Input Query', 'description': 'Enter a search query'}, {'name': 'Now Playing Bar', 'description': 'Display the currently playing track'}, {'name': 'Add to Playlist', 'description': 'Add item to playlist'}, {'name': 'Play/Pause', 'description': 'Toggle between play and pause'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment37\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment37\\64239cd48e3f0bfbbd966aceb93854cf.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "64239cd48e3f0bfbbd966aceb93854cf"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment37\\8525a40443e9f8deb66355fa4f61e1b5.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8525a40443e9f8deb66355fa4f61e1b5"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment37\\-8755345988331076049.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-8755345988331076049"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment37\\3811295427871281672.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "3811295427871281672"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "64239cd48e3f0bfbbd966aceb93854cf",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=56487299120c4315f85c53052403234c(MainActivity/LinearLayout-Search, Ta:x270:y1999))"
+            },
+            {
+                "from": "64239cd48e3f0bfbbd966aceb93854cf",
+                "to": "8525a40443e9f8deb66355fa4f61e1b5",
+                "event": "click(state=64239cd48e3f0bfbbd966aceb93854cf, view=b8caa5081f802b9d153d408b190fe205(MainActivity/LinearLayout-Search, Ta:x270:y1999))"
+            },
+            {
+                "from": "8525a40443e9f8deb66355fa4f61e1b5",
+                "to": "-8755345988331076049",
+                "event": "click<button id=15 class =\"com.spotify.music:id/back_button\" alt=\"Cancel\">  </button>"
+            },
+            {
+                "from": "-8755345988331076049",
+                "to": "3811295427871281672",
+                "event": "click<button id=66 class =\"com.spotify.music:id/play_pause_button\" alt=\"Play\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

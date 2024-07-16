@@ -1,0 +1,110 @@
+[
+    {
+        "comment": "I love it at first time but there are few reasons to hate it now 1. Cannot move foward or backwards 2. After few skips it cannot skip anymore and not giving the song of the choice 3.Lyrics also not showing all the time Please do it the same again I just want to enjoy songs just bcuz of those features, it makes it irritating \u5192\u807c\u8075\u9686\u5192\u807c\u8075\u9686",
+        "key sentence": "the key words: forward or backward movement, skipping songs, lyrics not showing",
+        "target activity": "com.spotify.tome.pageactivity.PageActivity",
+        "the function of activity": "The activity allows users to find playlist, navigate menus, manage playlists, control media playback, adjust volume, select/deselect items, filter, sort, favorite/bookmark, and share content.",
+        "target state": "state12",
+        "the sub-task list of state": "[{'name': 'Add to Playlist', 'description': 'Enables user to add an item to a playlist'}, {'name': 'Create New Playlist', 'description': 'Allows user to create a new playlist'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment82\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment82\\state9.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment82\\state10.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment82\\state11.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment82\\state12.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment82\\5171813397380584490.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "5171813397380584490"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment82\\1646579738978320872.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "1646579738978320872"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment82\\-4495374444323251840.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-4495374444323251840"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment82\\-2343034410801577304.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-2343034410801577304"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment82\\8357375573901555457.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "8357375573901555457"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state9",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/image:[44,714][476,1146])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(android.widget.ImageButton-More options for song \u646f\u53cb:[948,1264][1080,1396])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(android.widget.TextView-Add to playlist:[154,1327][1036,1388])"
+            },
+            {
+                "from": "state11",
+                "to": "state12",
+                "event": "click(androidx.cardview.widget.CardView-My playlist #3:[253,824][540,885])"
+            },
+            {
+                "from": "state12",
+                "to": "5171813397380584490",
+                "event": "click<button id=67 class =\"com.spotify.music:id/play_pause_button\" alt=\"Play\">  </button>"
+            },
+            {
+                "from": "5171813397380584490",
+                "to": "1646579738978320872",
+                "event": "click<button id=57 class =\"com.spotify.music:id/now_playing_bar_layout\" alt=\"Now Playing Bar\">  </button>"
+            },
+            {
+                "from": "1646579738978320872",
+                "to": "-4495374444323251840",
+                "event": "click<button id=34 alt=\"Next\">  </button>"
+            },
+            {
+                "from": "-4495374444323251840",
+                "to": "-2343034410801577304",
+                "event": "click<button id=27 class =\"com.spotify.music:id/track_seekbar\">  </button>"
+            },
+            {
+                "from": "-2343034410801577304",
+                "to": "8357375573901555457",
+                "event": "click<button id=32 alt=\"Previous\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

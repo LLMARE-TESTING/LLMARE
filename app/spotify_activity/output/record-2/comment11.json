@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "I love Spotify and use it almost everyday. Smart shuffle and recomended songs features seem to be taking over and are becoming very annoying. I am constantly having to restart a playlist to get it off smart shuffle or recommend songs. STOP TELLING ME WHAT TO DO",
+        "key sentence": "The key words: smart shuffle, recommended songs",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state9",
+        "the sub-task list of state": "[{'name': 'Download Album', 'description': 'Download the current Album'}, {'name': 'Play Music in Album', 'description': 'Play the music in album.'}, {'name': 'More Options', 'description': 'Access more options for the current item'}, {'name': 'Enable Shuffle', 'description': 'Enable shuffle for the current playlist'}, {'name': 'Back', 'description': 'Navigate back to the previous screen or page'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment11\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment11\\state9.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment11\\-4870001448368760738.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-4870001448368760738"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment11\\-534012461062382474.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-534012461062382474"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment11\\824216824358663696.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "824216824358663696"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment11\\8834231474308306670.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8834231474308306670"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment11\\-4870001448368760738.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-4870001448368760738"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment11\\8834231474308306670.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8834231474308306670"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment11\\824216824358663696.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "824216824358663696"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment11\\3313516684493465908.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "3313516684493465908"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment11\\-4870001448368760738.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-4870001448368760738"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state9",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/image:[44,1242][476,1674])"
+            },
+            {
+                "from": "state9",
+                "to": "-4870001448368760738",
+                "event": "click<button id=39 class =\"com.spotify.music:id/shuffle_button\" alt=\"Disable shuffle for this artist\">  </button>"
+            },
+            {
+                "from": "-4870001448368760738",
+                "to": "-534012461062382474",
+                "event": "click<button id=11 class =\"com.spotify.music:id/close_button\"> Dismiss,  </button>"
+            },
+            {
+                "from": "-534012461062382474",
+                "to": "824216824358663696",
+                "event": "click<button id=74 class =\"com.spotify.music:id/home_tab\" alt=\"Home, Tab 1 of 4\">  </button>"
+            },
+            {
+                "from": "824216824358663696",
+                "to": "8834231474308306670",
+                "event": "click<button id=33 class =\"com.spotify.music:id/card_root\">  </button>"
+            },
+            {
+                "from": "8834231474308306670",
+                "to": "-4870001448368760738",
+                "event": "click<button id=44 class =\"com.spotify.music:id/shuffle_button\" alt=\"Disable shuffle for this playlist\">  </button>"
+            },
+            {
+                "from": "-4870001448368760738",
+                "to": "8834231474308306670",
+                "event": "click<button id=11 class =\"com.spotify.music:id/close_button\"> Dismiss,  </button>"
+            },
+            {
+                "from": "8834231474308306670",
+                "to": 824216824358663696,
+                "event": "back"
+            },
+            {
+                "from": 824216824358663696,
+                "to": "3313516684493465908",
+                "event": "click<button id=37 class =\"com.spotify.music:id/card_root\">  </button>"
+            },
+            {
+                "from": "3313516684493465908",
+                "to": "-4870001448368760738",
+                "event": "click<button id=21 class =\"com.spotify.music:id/shuffle_button\" alt=\"Disable shuffle for this Liked Songs\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

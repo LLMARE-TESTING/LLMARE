@@ -1,0 +1,70 @@
+[
+    {
+        "comment": "The new features are the WORST. I have been using this app for last 3 years but I literally uninstalled this app. The update removed all the basic features like shuffle, I can't add to queue, I can't tap on the lyrics i.e I can't listen to the specific part of the song, I can't repeat the song. This updates are worst. If Spotify is doing this for just \"PROFITS\" then it's not beneficial for you because you are already losing your customer base, you're losing the youth population basically.",
+        "key sentence": "the new features, shuffle, add to queue, tap on the lyrics, repeat the song",
+        "target activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity",
+        "the function of activity": "The activity involves searching for contacts, opening menus, initiating playback, controlling playback, managing playlists, sharing tracks, adjusting volume, and connecting to devices.",
+        "target state": "state19",
+        "the sub-task list of state": "[{'name': 'Play', 'description': 'Initiate playback of a track'}, {'name': 'Pause', 'description': 'Pause playback of a track'}, {'name': 'Next', 'description': 'Move to the next track in the playlist'}, {'name': 'Previous', 'description': 'Move to the previous track in the playlist'}, {'name': 'Repeat', 'description': 'Toggle repeat mode on or off'}, {'name': 'Add to Queue', 'description': 'Add the track to the playback queue'}, {'name': 'Share', 'description': 'Share the current track or playlist'}, {'name': 'Show Lyrics', 'description': 'Display the lyrics of the current track'}, {'name': 'Choose a Listening Mode', 'description': 'Select a listening mode or audio output device'}, {'name': 'Volume Control', 'description': 'Adjust the volume using volume keys'}, {'name': 'Access Device Menu', 'description': 'Open the devices menu for additional options'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment34\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment34\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment34\\40e3d8c4e5e1c9c5d8d5ec60f3bc145e.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "40e3d8c4e5e1c9c5d8d5ec60f3bc145e"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment34\\state19.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "state19"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment34\\-4601524269942007536.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-4601524269942007536"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment34\\-4601524269942007536.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-4601524269942007536"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "40e3d8c4e5e1c9c5d8d5ec60f3bc145e",
+                "event": "click(state=be366c2134cc86078896f7869deedcbd, view=75ce19fd7eac1390cb4fea6e59d58f29(MainActivity/ImageView-The cover :x44:y1845))"
+            },
+            {
+                "from": "40e3d8c4e5e1c9c5d8d5ec60f3bc145e",
+                "to": "state19",
+                "event": "click(android.view.ViewGroup-com.spotify.music:id/lyrics_widget_container:[44,2060][1036,2148])"
+            },
+            {
+                "from": "state19",
+                "to": "-4601524269942007536",
+                "event": "click<div id=42 class =\"com.spotify.music:id/lyrics_cell_root\">  </div>"
+            },
+            {
+                "from": "-4601524269942007536",
+                "to": "-4601524269942007536",
+                "event": "click<button id=40 class =\"com.spotify.music:id/lyrics_container\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

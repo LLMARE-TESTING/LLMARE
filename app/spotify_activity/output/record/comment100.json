@@ -1,0 +1,90 @@
+[
+    {
+        "comment": "I don't know what to say. Spotify WAS my fav app. Ever since the new update came, we can't listen to a Playlist in order or start playing the song at a particular time, the experience has become literal trash. Even basic features have become premium options where we don't even feel like playing anything on this app. Please fix this problem so that we can actually enjoy listening to music on this platform.",
+        "key sentence": "the new update, listen to a Playlist in order, playing the song at a particular time, basic features, premium options",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "be366c2134cc86078896f7869deedcbd",
+        "the sub-task list of state": "[{'name': 'Search Playlist', 'description': 'Search item in playlist.'}, {'name': 'Create Playlist', 'description': 'Create a new playlist'}, {'name': 'Show Grid View', 'description': 'Switch to grid view'}, {'name': 'Play', 'description': 'Start playback of the currently selected item'}, {'name': 'Item Added', 'description': 'Indication that an item has been successfully added'}, {'name': 'View recently played tracks', 'description': 'View recent items'}, {'name': 'Liked Songs', 'description': 'View liked songs'}, {'name': 'Podcasts', 'description': 'View podcasts Playlist'}, {'name': 'Artists', 'description': 'View Playlist by artists'}, {'name': 'Downloaded', 'description': 'View downloaded items'}, {'name': 'Sort or Change View Mode', 'description': 'Change sorting options or view mode'}, {'name': 'Now Playing Bar', 'description': 'View the currently playing track'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment100\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment100\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment100\\8864537540560697341.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8864537540560697341"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment100\\-4748941455826935070.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-4748941455826935070"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment100\\-5848096845675858827.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-5848096845675858827"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment100\\2249225012433610450.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2249225012433610450"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment100\\1870831836877681509.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "1870831836877681509"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment100\\2249225012433610450.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2249225012433610450"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "8864537540560697341",
+                "event": "click<button id=26 alt=\"Playlists, show only playlists.\">  </button>"
+            },
+            {
+                "from": "8864537540560697341",
+                "to": "-4748941455826935070",
+                "event": "click<button id=55 class =\"com.spotify.music:id/row_root\" alt=\"My playlist #3, ran Jin, \">  </button>"
+            },
+            {
+                "from": "-4748941455826935070",
+                "to": "-5848096845675858827",
+                "event": "click<button id=46 class =\"com.spotify.music:id/header_play_button\" alt=\"Play playlist\">  </button>"
+            },
+            {
+                "from": "-5848096845675858827",
+                "to": "2249225012433610450",
+                "event": "click<button id=44 class =\"com.spotify.music:id/shuffle_button\" alt=\"Disable shuffle for this playlist\">  </button>"
+            },
+            {
+                "from": "2249225012433610450",
+                "to": "1870831836877681509",
+                "event": "click<button id=11 class =\"com.spotify.music:id/close_button\"> Dismiss,  </button>"
+            },
+            {
+                "from": "1870831836877681509",
+                "to": "2249225012433610450",
+                "event": "click<button id=44 class =\"com.spotify.music:id/shuffle_button\" alt=\"Disable shuffle for this playlist\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

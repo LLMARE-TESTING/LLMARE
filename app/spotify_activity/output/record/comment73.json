@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "I HATE THE SMART SHUFFLE. Please take it off or at least have a button so we can disable it! It turns itself on!!! I have a playlist I NEVER turn on shuffle for and the app always turns on smart shuffle in the middle of it! Or if I turn off regular shuffle, then turn off smart shuffle so it plays the next song, it'll turn the smart shuffle back on after 1 or 2 songs. I'm so mad. It pisses me off. Take it away!!!!",
+        "key sentence": "smart shuffle",
+        "target activity": "com.spotify.tome.pageactivity.PageActivity",
+        "the function of activity": "The activity allows users to find playlist, navigate menus, manage playlists, control media playback, adjust volume, select/deselect items, filter, sort, favorite/bookmark, and share content.",
+        "target state": "state12",
+        "the sub-task list of state": "[{'name': 'Add to Playlist', 'description': 'Enables user to add an item to a playlist'}, {'name': 'Create New Playlist', 'description': 'Allows user to create a new playlist'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment73\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment73\\state9.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment73\\state10.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment73\\state11.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment73\\state12.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment73\\338998014717498097.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "338998014717498097"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment73\\1587959712907219637.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "1587959712907219637"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment73\\-1698770196386241074.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-1698770196386241074"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment73\\-1698770196386241074.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-1698770196386241074"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment73\\8911576209117412718.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8911576209117412718"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment73\\-1698770196386241074.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-1698770196386241074"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state9",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/image:[44,714][476,1146])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(android.widget.ImageButton-More options for song \u646f\u53cb:[948,1264][1080,1396])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(android.widget.TextView-Add to playlist:[154,1327][1036,1388])"
+            },
+            {
+                "from": "state11",
+                "to": "state12",
+                "event": "click(androidx.cardview.widget.CardView-My playlist #3:[253,824][540,885])"
+            },
+            {
+                "from": "state12",
+                "to": "338998014717498097",
+                "event": "click<button id=70 class =\"com.spotify.music:id/now_playing_bar_layout\" alt=\"Now Playing Bar\">  </button>"
+            },
+            {
+                "from": "338998014717498097",
+                "to": "1587959712907219637",
+                "event": "click<button id=34 alt=\"Next\">  </button>"
+            },
+            {
+                "from": "1587959712907219637",
+                "to": "-1698770196386241074",
+                "event": "click<button id=33 alt=\"Pause\">  </button>"
+            },
+            {
+                "from": "-1698770196386241074",
+                "to": "-1698770196386241074",
+                "event": "click<button id=30 class =\"com.spotify.music:id/seekbar\" alt=\"Use volume keys to adjust\"> 27724.0,  </button>"
+            },
+            {
+                "from": "-1698770196386241074",
+                "to": "8911576209117412718",
+                "event": "click<button id=17 alt=\"Close\">  </button>"
+            },
+            {
+                "from": "8911576209117412718",
+                "to": "-1698770196386241074",
+                "event": "click<button id=70 class =\"com.spotify.music:id/now_playing_bar_layout\" alt=\"Now Playing Bar\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

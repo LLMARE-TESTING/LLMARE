@@ -1,0 +1,60 @@
+[
+    {
+        "comment": "I've been a customer for years and I like the music availability as well as the algorithm for new song recommendations. The interface is simple and easy to navigate. I like how easy it is to make collaborative playlists. I am very displeased with the shuffle function as it always plays the same songs in the same order no matter what I do, and that is making my experience dull and disappointing. If shuffle were fixed, I'd rate 5 stars.",
+        "key sentence": "shuffle function",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state13",
+        "the sub-task list of state": "[{'name': 'Download Liked Songs', 'description': 'Download all liked songs'}, {'name': 'Disable Shuffle', 'description': 'Disable shuffle for this liked songs'}, {'name': 'Tap to play Liked Songs', 'description': 'Tap to play a liked songs'}, {'name': 'More Options for Song', 'description': 'Access more options for a specific song'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment7\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment7\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment7\\state13.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment7\\-8495919438590644117.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-8495919438590644117"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot-2\\comment7\\3893828621111483938.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "3893828621111483938"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "state13",
+                "event": "click(android.view.ViewGroup-Liked Songs, Playlist \u2022 19 songs, Pinned, :[0,598][1080,774])"
+            },
+            {
+                "from": "state13",
+                "to": "-8495919438590644117",
+                "event": "click<button id=21 class =\"com.spotify.music:id/shuffle_button\" alt=\"Disable shuffle for this Liked Songs\">  </button>"
+            },
+            {
+                "from": "-8495919438590644117",
+                "to": "3893828621111483938",
+                "event": "click<button id=11 class =\"com.spotify.music:id/close_button\"> Dismiss,  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]
