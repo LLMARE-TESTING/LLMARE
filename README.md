@@ -44,13 +44,13 @@ Organization of the Dataset:
 │   ├── explore.py
 │   ├── tools.py
 │   └── generate_comments.py
-
+├── data.xlsx
 ```
 
 - LLMARE: Project Directory
 - app: Save the test application data.
   - activity: Classify the application's **state files(xml or json)** according to the activity to which the application state belongs.
-  - comment.xlsx: Save user comments for testing.
+  - comments.xlsx: Save user comments for testing.
   - activity_function.json: A functional summary of the activity based on a list of its subtasks.
   - page_html.json: Save the HTML representation of each page obtained during the exploration phase.
   - activity_task.json: Save a list of subtasks for each activity.
@@ -66,7 +66,8 @@ Organization of the Dataset:
   - comment.py: This file is a script file that implements the entire process of reproducing the user-described scenario, corresponding to the functions of LLMARE in the target identfication stage and scenario reproduction stage.
   - explore.py: This script summarizes each state and activity based on the viewtree file of the page, corresponding to the functions of LLMARE in the pre-exploration stage. The output files after the script is executed include activity_function.json,page_html.json,activity_task.json,state_task.json.
   - tools.py: This file holds functions such as converting the viewtree into HTML representation, comparing page similarities, and taking screenshots etc.
-  - generate_comments.py: This script is used to determine whether the scenario described in the user's comment is reproducible and extract the corresponding key information. Its output files is comment.xlsx. 
+  - generate_comments.py: This script is used to determine whether the scenario described in the user's comment is reproducible and extract the corresponding key information. Its output files is comment.xlsx.
+- data.xlsx: For all the user reviews selected by LLM that can be reproduced, we manually screened out the reproducible and non-reproducible content and save in this file.
 
 ## Prerequisite
 
@@ -82,7 +83,7 @@ Organization of the Dataset:
 
 **Usage Steps**:
 
-**1.Upload data:** save the user comments you want to test in the "**comment.xlsx**" file. 
+**1.Upload data:** Save the user comments used for testing in the **comments.xlsx** file in **the corresponding app directory**. 
 
 **2.Modify parameters:**
 
