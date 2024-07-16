@@ -1,0 +1,60 @@
+[
+    {
+        "comment": "I've had TikTok for over 4 years now, and the updates since then have only downgraded this app. All of the recent updates make this app harder to use and are overall just super annoying. My option to comment on reposts, like reposts, and see what date a video was reposted has been taken away. I personally like the repost feature and enjoyed using it before this update. Please take this into consideration and fix this. A lot of people are upset over it. I want the old repost back!",
+        "key sentence": "the repost feature",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Report', 'description': 'Report the video'}, {'name': 'Not interested', 'description': 'Indicate disinterest in the video'}, {'name': 'Save video', 'description': 'Save the video to the device'}, {'name': 'Captions', 'description': 'Toggle captions on/off'}, {'name': 'Clear display', 'description': 'Clear the display'}, {'name': 'Playback speed', 'description': 'Adjust the playback speed'}, {'name': 'Share with', 'description': 'Share the video with others'}, {'name': 'Repost', 'description': 'Repost the video'}, {'name': 'Add to Story', 'description': 'Add the video to your story'}, {'name': 'Send', 'description': 'Send the video to a friend'}, {'name': 'More friends', 'description': 'View more friends to send the video to'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment33\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment33\\state2.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment33\\2496748648856546100.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2496748648856546100"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment33\\1161853638247003415.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "1161853638247003415"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment33\\-5154887153722912333.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-5154887153722912333"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state2",
+                "event": "long-click(android.widget.RelativeLayout-com.zhiliaoapp.musically:id/mx5:[0,83][1080,2013])"
+            },
+            {
+                "from": "state2",
+                "to": "2496748648856546100",
+                "event": "click<button id=54 class =\"com.zhiliaoapp.musically:id/fln\">  </button>"
+            },
+            {
+                "from": "2496748648856546100",
+                "to": "1161853638247003415",
+                "event": "click<button id=57 class =\"com.zhiliaoapp.musically:id/cq3\" alt=\"Share video. Share shares\">  </button>"
+            },
+            {
+                "from": "1161853638247003415",
+                "to": "-5154887153722912333",
+                "event": "click<button id=37 alt=\"Remove repost\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

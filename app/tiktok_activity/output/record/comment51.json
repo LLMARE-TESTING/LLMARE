@@ -1,0 +1,60 @@
+[
+    {
+        "comment": "new update 11/23 is weird -they've removed the editing feature for videos, which is a downgrade. -the camera quality has gotten grainy for some reason -capcut is everywhere no matter how often I \"not interested\" the videos & suggestions -its more difficult to find filters used in other videos when not tagged much mess fun.",
+        "key sentence": "the editing feature for videos, the camera quality, Capcut, find filters used in other videos",
+        "target activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity",
+        "the function of activity": "This activity allows users to record and enhance videos, adjust playback speed, add effects, sound, text, music, and post videos.",
+        "target state": "97fbfdd4dfe5010b5daa588476b0ed04",
+        "the sub-task list of state": "[{'name': 'Record video', 'description': 'Record a video'}, {'name': 'Add sound', 'description': 'Add sound to the video'}, {'name': 'Flip', 'description': 'Flip the camera'}, {'name': 'Effects', 'description': 'Add effects to the video'}, {'name': 'Upload', 'description': 'Upload the video'}, {'name': 'Speed', 'description': 'Adjust the speed of the video'}, {'name': 'Retouch', 'description': 'Retouch the video'}, {'name': 'Mic', 'description': 'Enable or disable microphone'}, {'name': 'Filters', 'description': 'Apply filters to the video'}, {'name': 'Timer', 'description': 'Set a timer for recording'}, {'name': 'Flash', 'description': 'Enable or disable flash'}, {'name': 'Close', 'description': 'Close the current screen'}, {'name': 'Text', 'description': 'Add text to the video'}, {'name': 'Camera', 'description': 'Switch between front and back camera'}, {'name': 'Templates', 'description': 'Choose a template for the video'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment51\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment51\\97fbfdd4dfe5010b5daa588476b0ed04.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "97fbfdd4dfe5010b5daa588476b0ed04"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment51\\-4813775416173359079.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-4813775416173359079"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment51\\-7187313231105901546.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-7187313231105901546"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment51\\6905662114860825549.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "6905662114860825549"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "event": "click(state=86ad15cba4ecd2166c92cbbf7eddfa20, view=553e56e4257e3426ca1ee81e58bd7ec2(SplashActivity/Button-Create:x432:y2013))"
+            },
+            {
+                "from": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "to": "-4813775416173359079",
+                "event": "click<button id=27 class =\"com.zhiliaoapp.musically:id/jte\" alt=\"Record video\">  </button>"
+            },
+            {
+                "from": "-4813775416173359079",
+                "to": "-7187313231105901546",
+                "event": "click<p id=88 class =\"com.zhiliaoapp.musically:id/b6s\"> Filters,  </p>"
+            },
+            {
+                "from": "-7187313231105901546",
+                "to": "6905662114860825549",
+                "event": "click<div id=3 class =\"com.zhiliaoapp.musically:id/kat\">  </div>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

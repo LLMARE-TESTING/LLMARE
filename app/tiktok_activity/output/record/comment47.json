@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "It's been very glitchy in the notification/chat area of the app. Everytime I open a video I was sent or tagged in the whole screen glitches and opens weirdly.",
+        "key sentence": "notification/chat area",
+        "target activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity",
+        "the function of activity": "The page allows users to manage system notifications, account updates, and customize notification settings.",
+        "target state": "state18",
+        "the sub-task list of state": "[{'name': 'View System Notifications', 'description': 'View and manage system notifications'}, {'name': 'Notification Settings', 'description': 'Access and customize system notification settings'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment47\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment47\\state17.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state17"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment47\\state18.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "state18"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment47\\-6991887425326204263.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "-6991887425326204263"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment47\\6990459692113124020.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "6990459692113124020"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment47\\6990459692113124020.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "6990459692113124020"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment47\\1590079641885115899.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "1590079641885115899"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment47\\-5005228210205990662.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "-5005228210205990662"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment47\\-5005228210205990662.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "-5005228210205990662"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment47\\1590079641885115899.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "1590079641885115899"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment47\\-5005228210205990662.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "-5005228210205990662"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state17",
+                "event": "click(android.widget.FrameLayout-com.zhiliaoapp.musically:id/h87:[648,2013][864,2148])"
+            },
+            {
+                "from": "state17",
+                "to": "state18",
+                "event": "click(Button-com.zhiliaoapp.musically:id/kcw:[0,1147][1080,1345])"
+            },
+            {
+                "from": "state18",
+                "to": "-6991887425326204263",
+                "event": "click<button id=66 class =\"com.zhiliaoapp.musically:id/p5\">  </button>"
+            },
+            {
+                "from": "-6991887425326204263",
+                "to": "6990459692113124020",
+                "event": "click<button id=24 class =\"com.zhiliaoapp.musically:id/c5a\">  </button>"
+            },
+            {
+                "from": "6990459692113124020",
+                "to": "6990459692113124020",
+                "event": "click<div id=2 class =\"com.zhiliaoapp.musically:id/j5k\">  </div>"
+            },
+            {
+                "from": "6990459692113124020",
+                "to": "1590079641885115899",
+                "event": "click<img id=13 class =\"com.zhiliaoapp.musically:id/fpi\">  </img>"
+            },
+            {
+                "from": "1590079641885115899",
+                "to": "-5005228210205990662",
+                "event": "click<button id=12 class =\"com.zhiliaoapp.musically:id/hto\"> 12,  </button>"
+            },
+            {
+                "from": "-5005228210205990662",
+                "to": "-5005228210205990662",
+                "event": "click<div id=1 class =\"com.zhiliaoapp.musically:id/htk\">  </div>"
+            },
+            {
+                "from": "-5005228210205990662",
+                "to": "1590079641885115899",
+                "event": "click<div id=3 class =\"com.zhiliaoapp.musically:id/hu4\">  </div>"
+            },
+            {
+                "from": "1590079641885115899",
+                "to": "-5005228210205990662",
+                "event": "click<button id=12 class =\"com.zhiliaoapp.musically:id/hto\"> 12,  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

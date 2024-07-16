@@ -1,0 +1,160 @@
+[
+    {
+        "comment": "I just got the new update, and I'd love to know: what's with the transitions between each tab? It's very unnecessary, like when I exit out of the add tab, the screen spins and then goes away? Sheesh. Also, I don't appreciate the shop section being placed between my 'for you' page and friends page. The shop has never caught my eye before, and it probably never will.",
+        "key sentence": "the transitions between each tab, the shop section",
+        "target activity": "com.ss.android.ugc.aweme.search.pages.core.ui.activity.SearchResultActivity",
+        "the function of activity": "The activity mainly show the result of search.",
+        "target state": "state11",
+        "the sub-task list of state": "[{'name': 'View the search result', 'description': 'View the search result'}, {'name': 'Filter the search result', 'description': 'Filter the search result by top,vedio,users,etc'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment14\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment14\\state10.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment14\\state11.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment14\\5143341480721234710.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "5143341480721234710"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment14\\5143341480721234710.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "5143341480721234710"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment14\\-6168072133295130361.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-6168072133295130361"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment14\\-8437359691381111552.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-8437359691381111552"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment14\\-8437359691381111552.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-8437359691381111552"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment14\\-3846009833055119237.png",
+                "activity": "com.ss.android.ugc.aweme.choosemusic.activity.ChooseMusicActivity}",
+                "state_str": "-3846009833055119237"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment14\\4537654626649992081.png",
+                "activity": "com.ss.android.ugc.aweme.choosemusic.activity.ChooseMusicActivity}",
+                "state_str": "4537654626649992081"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment14\\4537654626649992081.png",
+                "activity": "com.ss.android.ugc.aweme.choosemusic.activity.ChooseMusicActivity}",
+                "state_str": "4537654626649992081"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment14\\4537654626649992081.png",
+                "activity": "com.ss.android.ugc.aweme.choosemusic.activity.ChooseMusicActivity}",
+                "state_str": "4537654626649992081"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment14\\4537654626649992081.png",
+                "activity": "com.ss.android.ugc.aweme.choosemusic.activity.ChooseMusicActivity}",
+                "state_str": "4537654626649992081"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment14\\4537654626649992081.png",
+                "activity": "com.ss.android.ugc.aweme.choosemusic.activity.ChooseMusicActivity}",
+                "state_str": "4537654626649992081"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment14\\4537654626649992081.png",
+                "activity": "com.ss.android.ugc.aweme.choosemusic.activity.ChooseMusicActivity}",
+                "state_str": "4537654626649992081"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state10",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/dn7:[937,83][1080,226])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(com.lynx.tasm.behavior.ui.LynxFlattenUI-\u6dda\u4e4b\u5973\u738b:[0,226][987,336])"
+            },
+            {
+                "from": "state11",
+                "to": "5143341480721234710",
+                "event": "click<div id=10 class =\"com.ss.android.ugc.trill:id/kqt\">  </div>"
+            },
+            {
+                "from": "5143341480721234710",
+                "to": "5143341480721234710",
+                "event": "click<div id=18 class =\"com.ss.android.ugc.trill:id/kqv\">  </div>"
+            },
+            {
+                "from": "5143341480721234710",
+                "to": "-6168072133295130361",
+                "event": "click<button id=23 class =\"com.ss.android.ugc.trill:id/bu2\">  </button>"
+            },
+            {
+                "from": "-6168072133295130361",
+                "to": "-8437359691381111552",
+                "event": "click<button id=4 class =\"com.ss.android.ugc.trill:id/o1w\">  </button>"
+            },
+            {
+                "from": "-8437359691381111552",
+                "to": "-8437359691381111552",
+                "event": "click<div id=6 class =\"com.ss.android.ugc.trill:id/kle\">  </div>"
+            },
+            {
+                "from": "-8437359691381111552",
+                "to": "-3846009833055119237",
+                "event": "click<button id=18 class =\"com.ss.android.ugc.trill:id/e9z\">  </button>"
+            },
+            {
+                "from": "-3846009833055119237",
+                "to": "4537654626649992081",
+                "event": "click<div id=3 class =\"com.ss.android.ugc.trill:id/q6b\">  </div>"
+            },
+            {
+                "from": "4537654626649992081",
+                "to": "4537654626649992081",
+                "event": "click<div id=2 class =\"com.ss.android.ugc.trill:id/lah\">  </div>"
+            },
+            {
+                "from": "4537654626649992081",
+                "to": "4537654626649992081",
+                "event": "click<div id=3 class =\"com.ss.android.ugc.trill:id/q6b\">  </div>"
+            },
+            {
+                "from": "4537654626649992081",
+                "to": "4537654626649992081",
+                "event": "click<div id=1 class =\"com.ss.android.ugc.trill:id/ri\">  </div>"
+            },
+            {
+                "from": "4537654626649992081",
+                "to": "4537654626649992081",
+                "event": "click<div id=2 class =\"com.ss.android.ugc.trill:id/lah\">  </div>"
+            },
+            {
+                "from": "4537654626649992081",
+                "to": "4537654626649992081",
+                "event": "click<div id=3 class =\"com.ss.android.ugc.trill:id/q6b\">  </div>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

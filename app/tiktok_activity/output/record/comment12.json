@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Don't know if it's just me, other people, a glitch, or probably a license kind of thing, but whenever I click on the sound to see other videos that used it, some of them would say \"Sound Not Working.\" But if I search the sound physically instead of clicking on it from a video, the page pops up perfectly fine and I can listen from there. Some work, and some don't. Can you please fix this? Great app btw, too bad it's getting deleted eventually...",
+        "key sentence": "sound not working",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state4",
+        "the sub-task list of state": "[{'name': 'Show captions', 'description': 'Display captions for the content being viewed.'}, {'name': 'Speech recognition', 'description': 'Transcribe spoken words into text.'}, {'name': 'Translate posts', 'description': 'Convert posts into a different language.'}, {'name': 'Do not translate', 'description': 'Keep posts in their original language.'}, {'name': 'Translate into', 'description': 'Select a specific language for translation.'}, {'name': 'Translate more', 'description': 'Provide options for additional translation.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment12\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment12\\state2.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment12\\state3.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment12\\state4.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment12\\-5725233807973613382.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-5725233807973613382"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment12\\7718417499685650991.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "7718417499685650991"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment12\\-231513539086681481.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-231513539086681481"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment12\\-4789770886009475000.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4789770886009475000"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment12\\-4789770886009475000.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4789770886009475000"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment12\\-4789770886009475000.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4789770886009475000"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment12\\-4789770886009475000.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4789770886009475000"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state2",
+                "event": "long-click(android.widget.RelativeLayout-com.zhiliaoapp.musically:id/mx5:[0,83][1080,2013])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/l1a:[587,1129][719,1261])"
+            },
+            {
+                "from": "state3",
+                "to": "state4",
+                "event": "click(android.widget.Switch:[882,1136][1014,1211])"
+            },
+            {
+                "from": "state4",
+                "to": "-5725233807973613382",
+                "event": "click<button id=16 class =\"com.ss.android.ugc.trill:id/bor\" alt=\"Show captions (unavailable), Speech not recognized\">  </button>"
+            },
+            {
+                "from": "-5725233807973613382",
+                "to": "7718417499685650991",
+                "event": "click<div id=3 class =\"com.ss.android.ugc.trill:id/cjh\">  </div>"
+            },
+            {
+                "from": "7718417499685650991",
+                "to": "-231513539086681481",
+                "event": "click<button id=40 class =\"com.ss.android.ugc.trill:id/bor\" alt=\"Translate more\">  </button>"
+            },
+            {
+                "from": "-231513539086681481",
+                "to": "-4789770886009475000",
+                "event": "click<button id=17 class =\"com.ss.android.ugc.trill:id/bor\" alt=\"Text on posts\">  </button>"
+            },
+            {
+                "from": "-4789770886009475000",
+                "to": "-4789770886009475000",
+                "event": "click<div id=3 class =\"com.ss.android.ugc.trill:id/cjh\">  </div>"
+            },
+            {
+                "from": "-4789770886009475000",
+                "to": "-4789770886009475000",
+                "event": "click<button id=4 class =\"com.ss.android.ugc.trill:id/o1w\">  </button>"
+            },
+            {
+                "from": "-4789770886009475000",
+                "to": "-4789770886009475000",
+                "event": "click<div id=3 class =\"com.ss.android.ugc.trill:id/cjh\">  </div>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

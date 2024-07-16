@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "TikTok has many amazing creators but quite the horendous format in which they are displayed. I deleted the app many months ago for the same reason I am writing this review today. TikTok will not let you mute videos unless you pause them. There is a setting that has videos muted upon first opening the app, but you can't play any other audio on your phone. Once you unmute the videos, you can't undo the action. Please add a mute button. It is the bare minimum, and please, let us play our own music.",
+        "key sentence": "the mute button",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state17",
+        "the sub-task list of state": "[{'name': 'Create New Chat', 'description': 'Start a new chat conversation'}, {'name': 'Inbox Page', 'description': 'View the inbox for messages'}, {'name': 'Search Friends', 'description': 'Search and find friends'}, {'name': 'Notification Inbox', 'description': 'Access notifications and updates'}, {'name': 'See New Followers', 'description': 'View new followers and follow requests'}, {'name': 'System Notifications', 'description': 'Access system notifications and account updates'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment7\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment7\\state17.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state17"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment7\\-5329629532589823203.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "-5329629532589823203"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment7\\5373099031550166000.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "5373099031550166000"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment7\\55942708456465746.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "55942708456465746"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment7\\55942708456465746.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "55942708456465746"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment7\\5373099031550166000.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "5373099031550166000"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment7\\-1627695241174067071.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1627695241174067071"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment7\\-5928121651729378888.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-5928121651729378888"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment7\\-3608445166711268153.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-3608445166711268153"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment7\\1960510894675839504.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "1960510894675839504"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state17",
+                "event": "click(android.widget.FrameLayout-com.zhiliaoapp.musically:id/h87:[648,2013][864,2148])"
+            },
+            {
+                "from": "state17",
+                "to": "-5329629532589823203",
+                "event": "click<div id=1 class =\"com.ss.android.ugc.trill:id/ri\">  </div>"
+            },
+            {
+                "from": "-5329629532589823203",
+                "to": "5373099031550166000",
+                "event": "click<button id=7 class =\"com.ss.android.ugc.trill:id/h5r\">  </button>"
+            },
+            {
+                "from": "5373099031550166000",
+                "to": "55942708456465746",
+                "event": "click<button id=12 class =\"com.ss.android.ugc.trill:id/fux\" alt=\"Activity status: turned on\">  </button>"
+            },
+            {
+                "from": "55942708456465746",
+                "to": "55942708456465746",
+                "event": "click<button id=4 class =\"com.ss.android.ugc.trill:id/o1w\">  </button>"
+            },
+            {
+                "from": "55942708456465746",
+                "to": "5373099031550166000",
+                "event": "click<button id=12 alt=\"Close\">  </button>"
+            },
+            {
+                "from": "5373099031550166000",
+                "to": "-1627695241174067071",
+                "event": "click<button id=62 class =\"com.ss.android.ugc.trill:id/hwa\" alt=\"Home\">  </button>"
+            },
+            {
+                "from": "-1627695241174067071",
+                "to": "-5928121651729378888",
+                "event": "click<button id=120 class =\"com.ss.android.ugc.trill:id/hwc\" alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "-5928121651729378888",
+                "to": "-3608445166711268153",
+                "event": "click<button id=64 class =\"com.ss.android.ugc.trill:id/hwa\" alt=\"Home\">  </button>"
+            },
+            {
+                "from": "-3608445166711268153",
+                "to": "1960510894675839504",
+                "event": "click<button id=83 class =\"com.ss.android.ugc.trill:id/long_press_layout\" alt=\"Video\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

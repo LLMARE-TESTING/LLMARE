@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Why do animations play whenever I switch page? The latest new one is spinning my screen for 10 solid seconds, while others include short ones such as swiping the page up or diagonal, but the new one is by far the worst.",
+        "key sentence": "The key words: animations",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "86ad15cba4ecd2166c92cbbf7eddfa20",
+        "the sub-task list of state": "[{'name': 'Follow', 'description': 'Follow a user profile'}, {'name': 'Like', 'description': 'Like a video'}, {'name': 'Share', 'description': 'Share a video'}, {'name': 'Add to Favorites', 'description': 'Add or remove a video from Favorites'}, {'name': 'Comments', 'description': 'Read or add comments on a video'}, {'name': 'Play Video', 'description': 'Play a video'}, {'name': 'Sound', 'description': 'Listen to the sound of a video'}, {'name': 'Friends', 'description': 'Change to friends page'}, {'name': 'Inbox', 'description': 'Change to inbox page'}, {'name': 'Profile', 'description': 'Change to profile page'}, {'name': 'For you', 'description': 'Watch vedio for you'}, {'name': 'HomePage', 'description': 'In homepage, you can scroll to watch vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment30\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment30\\2729766300990637388.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2729766300990637388"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment30\\-1571265145657509510.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1571265145657509510"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment30\\-4955482173274069162.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4955482173274069162"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment30\\-2182275209340767345.png",
+                "activity": "com.ss.android.ugc.aweme.setting.ui.SettingContainerActivity}",
+                "state_str": "-2182275209340767345"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment30\\-2182275209340767345.png",
+                "activity": "com.ss.android.ugc.aweme.setting.ui.SettingContainerActivity}",
+                "state_str": "-2182275209340767345"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment30\\-8238343388783265385.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "-8238343388783265385"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment30\\-8238343388783265385.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "-8238343388783265385"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment30\\-8238343388783265385.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "-8238343388783265385"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment30\\-8238343388783265385.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "-8238343388783265385"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment30\\-8238343388783265385.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "-8238343388783265385"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "2729766300990637388",
+                "event": "click<button id=10 class =\"com.zhiliaoapp.musically:id/dr0\">  </button>"
+            },
+            {
+                "from": "2729766300990637388",
+                "to": "-1571265145657509510",
+                "event": "click<button id=122 class =\"com.zhiliaoapp.musically:id/h88\" alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "-1571265145657509510",
+                "to": "-4955482173274069162",
+                "event": "click<button id=17 alt=\"Profile menu\">  </button>"
+            },
+            {
+                "from": "-4955482173274069162",
+                "to": "-2182275209340767345",
+                "event": "click<p id=15 class =\"com.zhiliaoapp.musically:id/qc\"> Settings and privacy,  </p>"
+            },
+            {
+                "from": "-2182275209340767345",
+                "to": "-2182275209340767345",
+                "event": "click<p id=39 class =\"com.zhiliaoapp.musically:id/text\"> Content &amp; Display,  </p>"
+            },
+            {
+                "from": "-2182275209340767345",
+                "to": "-8238343388783265385",
+                "event": "click<button id=71 class =\"com.zhiliaoapp.musically:id/bh3\" alt=\"Playback\">  </button>"
+            },
+            {
+                "from": "-8238343388783265385",
+                "to": "-8238343388783265385",
+                "event": "click<p id=9 class =\"com.zhiliaoapp.musically:id/hto\"> Playback,  </p>"
+            },
+            {
+                "from": "-8238343388783265385",
+                "to": "-8238343388783265385",
+                "event": "click<div id=5 class =\"com.zhiliaoapp.musically:id/htz\">  </div>"
+            },
+            {
+                "from": "-8238343388783265385",
+                "to": "-8238343388783265385",
+                "event": "click<p id=9 class =\"com.zhiliaoapp.musically:id/hto\"> Playback,  </p>"
+            },
+            {
+                "from": "-8238343388783265385",
+                "to": "-8238343388783265385",
+                "event": "click<div id=3 class =\"com.zhiliaoapp.musically:id/kc9\">  </div>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

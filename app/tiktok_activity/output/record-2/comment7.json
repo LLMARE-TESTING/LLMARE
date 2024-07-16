@@ -1,0 +1,70 @@
+[
+    {
+        "comment": "Honestly deserves 1 star. I've been dealing with this issue over the past two years and l've reported it previously but you guys never fix this issue for me. I try looking at filters and I try to enjoy the filters that I see in my for you page but it never gives me the option to even see them. My friends and other people are able to see these filters and use them but in my case they don't show up on my end. Please fix this issue for me it's been far too long for this continue happening.",
+        "key sentence": "filters not showing up",
+        "target activity": "com.ss.android.ugc.aweme.search.pages.core.ui.activity.SearchResultActivity",
+        "the function of activity": "The activity mainly show the result of search.",
+        "target state": "state11",
+        "the sub-task list of state": "[{'name': 'View the search result', 'description': 'View the search result'}, {'name': 'Filter the search result', 'description': 'Filter the search result by top,vedio,users,etc'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment7\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment7\\state10.png",
+                "activity": "com.ss.android.ugc.aweme.search.pages.core.ui.activity.SearchResultActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment7\\state11.png",
+                "activity": "com.ss.android.ugc.aweme.search.pages.core.ui.activity.SearchResultActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment7\\-765707581603351370.png",
+                "activity": "com.ss.android.ugc.aweme.search.pages.core.ui.activity.SearchResultActivity}",
+                "state_str": "-765707581603351370"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment7\\-7194845649269045109.png",
+                "activity": "com.ss.android.ugc.aweme.search.pages.core.ui.activity.SearchResultActivity}",
+                "state_str": "-7194845649269045109"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment7\\-1826074238324611131.png",
+                "activity": "com.ss.android.ugc.aweme.search.pages.core.ui.activity.SearchResultActivity}",
+                "state_str": "-1826074238324611131"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state10",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/dn7:[937,83][1080,226])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(com.lynx.tasm.behavior.ui.LynxFlattenUI-\u6dda\u4e4b\u5973\u738b:[0,226][987,336])"
+            },
+            {
+                "from": "state11",
+                "to": "-765707581603351370",
+                "event": "click<div id=4 class =\"com.zhiliaoapp.musically:id/eo0\">  </div>"
+            },
+            {
+                "from": "-765707581603351370",
+                "to": "-7194845649269045109",
+                "event": "click<img id=16 class =\"com.zhiliaoapp.musically:id/lqk\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-7194845649269045109",
+                "to": "-1826074238324611131",
+                "event": "click<button id=12 class =\"com.zhiliaoapp.musically:id/boc\" alt=\"\u200e\u2068Filters\u2069\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

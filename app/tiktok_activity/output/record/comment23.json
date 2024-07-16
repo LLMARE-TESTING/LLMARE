@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "This app is an absolute time killer! I love spending time flicking through multiple videos to find a good one. There is so much variety on the app that there is a video for everyone! There is a feature that allows you to like videos and watch them again later, this is extremely useful for crafts or cooking videos.l also really enjoy uploading videos to my channel and shearing my content with others who have the same interest. It is very easy to creat and account and upload videos. For you",
+        "key sentence": "uploading videos",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "86ad15cba4ecd2166c92cbbf7eddfa20",
+        "the sub-task list of state": "[{'name': 'Follow', 'description': 'Follow a user profile'}, {'name': 'Like', 'description': 'Like a video'}, {'name': 'Share', 'description': 'Share a video'}, {'name': 'Add to Favorites', 'description': 'Add or remove a video from Favorites'}, {'name': 'Comments', 'description': 'Read or add comments on a video'}, {'name': 'Play Video', 'description': 'Play a video'}, {'name': 'Sound', 'description': 'Listen to the sound of a video'}, {'name': 'Friends', 'description': 'Change to friends page'}, {'name': 'Inbox', 'description': 'Change to inbox page'}, {'name': 'Profile', 'description': 'Change to profile page'}, {'name': 'For you', 'description': 'Watch vedio for you'}, {'name': 'HomePage', 'description': 'In homepage, you can scroll to watch vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment23\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment23\\5222467072748383128.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "5222467072748383128"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment23\\-6397938270655577059.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-6397938270655577059"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "5222467072748383128",
+                "event": "click<button id=114 class =\"com.zhiliaoapp.musically:id/h83\" alt=\"Create\">  </button>"
+            },
+            {
+                "from": "5222467072748383128",
+                "to": "-6397938270655577059",
+                "event": "click<p id=42 class =\"com.zhiliaoapp.musically:id/o9i\"> Upload,  </p>"
+            }
+        ],
+        "Final answer": "YES"
+    }
+]

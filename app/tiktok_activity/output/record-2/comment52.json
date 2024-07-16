@@ -1,0 +1,60 @@
+[
+    {
+        "comment": "Please just request a quick question.I was trying to edit a video and I found out that there is no option to change text to speech only audio. A l've made sure the app is up to date so I don't know why it's not working. Oh and it would also be nice if everyone had the same editing features. Allowing them on one phone but not other gets really annoying. I am only talking about TikTok editing which other apps can't find to edit clips. My account @aftab.mahar786",
+        "key sentence": "editing features",
+        "target activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity",
+        "the function of activity": "This activity allows users to record and enhance videos, adjust playback speed, add effects, sound, text, music, and post videos.",
+        "target state": "state14",
+        "the sub-task list of state": "[{'name': 'Next', 'description': 'execute next step to post a vedio.'}, {'name': 'Your Story', 'description': 'Post Vedio as your story'}, {'name': 'Remove sound', 'description': 'Remove sound'}, {'name': 'Settings', 'description': 'Access settings'}, {'name': 'Edit', 'description': 'Edit content'}, {'name': 'Templates', 'description': 'Access templates'}, {'name': 'Text', 'description': 'Add text'}, {'name': 'Stickers', 'description': 'Add stickers'}, {'name': 'Effects', 'description': 'Apply effects'}, {'name': 'Filters', 'description': 'Apply filters'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment52\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment52\\state5.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment52\\state13.png",
+                "activity": "com.ss.android.ugc.aweme.tools.draft.DraftBoxActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment52\\state14.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "state14"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment52\\5645330557868100035.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "5645330557868100035"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state5",
+                "event": "click(android.widget.FrameLayout-Profile:[864,2013][1080,2148])"
+            },
+            {
+                "from": "state5",
+                "to": "state13",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/cover:[0,1107][358,1584])"
+            },
+            {
+                "from": "state13",
+                "to": "state14",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/cover:[0,421][358,898])"
+            },
+            {
+                "from": "state14",
+                "to": "5645330557868100035",
+                "event": "click<button id=67 alt=\"Edit\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

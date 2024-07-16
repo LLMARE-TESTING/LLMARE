@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "Very good and accessible app I love the features and it's pretty easy to edit with ..the only problem am having is that after updating the app I can't follow other tiktokers of I follow them it doesn't reflect on my following list and it won't reflect on their page that I have followed them I hope tiktok fix this soon enough Thanks",
+        "key sentence": "the following list",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "86ad15cba4ecd2166c92cbbf7eddfa20",
+        "the sub-task list of state": "[{'name': 'Follow', 'description': 'Follow a user profile'}, {'name': 'Like', 'description': 'Like a video'}, {'name': 'Share', 'description': 'Share a video'}, {'name': 'Add to Favorites', 'description': 'Add or remove a video from Favorites'}, {'name': 'Comments', 'description': 'Read or add comments on a video'}, {'name': 'Play Video', 'description': 'Play a video'}, {'name': 'Sound', 'description': 'Listen to the sound of a video'}, {'name': 'Friends', 'description': 'Change to friends page'}, {'name': 'Inbox', 'description': 'Change to inbox page'}, {'name': 'Profile', 'description': 'Change to profile page'}, {'name': 'For you', 'description': 'Watch vedio for you'}, {'name': 'HomePage', 'description': 'In homepage, you can scroll to watch vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment69\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment69\\-4444250700733181533.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4444250700733181533"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment69\\-6322471356730836232.png",
+                "activity": "com.ss.android.ugc.aweme.following.ui.FollowRelationTabActivity}",
+                "state_str": "-6322471356730836232"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "-4444250700733181533",
+                "event": "click<button id=123 class =\"com.zhiliaoapp.musically:id/h88\" alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "-4444250700733181533",
+                "to": "-6322471356730836232",
+                "event": "click<p id=26 class =\"com.zhiliaoapp.musically:id/jf0\"> Following,  </p>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

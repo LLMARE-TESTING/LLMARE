@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "HORRIBLE, I keep clicking on NOT INTERESTED IN ANY LIVE VIDEOS, and they keep popping up. So, now I'm going on the creator page, blocking them, then reporting it, but STILL I keep receiving live videos suggestions. don't waste your time. Ps: whatever their ROBOTS will answer back here, DON'T trust it.",
+        "key sentence": "live videos suggestion",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Report', 'description': 'Report the video'}, {'name': 'Not interested', 'description': 'Indicate disinterest in the video'}, {'name': 'Save video', 'description': 'Save the video to the device'}, {'name': 'Captions', 'description': 'Toggle captions on/off'}, {'name': 'Clear display', 'description': 'Clear the display'}, {'name': 'Playback speed', 'description': 'Adjust the playback speed'}, {'name': 'Share with', 'description': 'Share the video with others'}, {'name': 'Repost', 'description': 'Repost the video'}, {'name': 'Add to Story', 'description': 'Add the video to your story'}, {'name': 'Send', 'description': 'Send the video to a friend'}, {'name': 'More friends', 'description': 'View more friends to send the video to'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment60\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment60\\state2.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment60\\-2195321257520934485.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-2195321257520934485"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment60\\-2592816590644302728.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-2592816590644302728"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment60\\5068079759535131709.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "5068079759535131709"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment60\\7326131026646853215.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "7326131026646853215"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment60\\415632653610622899.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "415632653610622899"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment60\\7326131026646853215.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "7326131026646853215"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment60\\-7286476151363098020.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-7286476151363098020"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment60\\9219614384341135801.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "9219614384341135801"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment60\\-7286476151363098020.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-7286476151363098020"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state2",
+                "event": "long-click(android.widget.RelativeLayout-com.zhiliaoapp.musically:id/mx5:[0,83][1080,2013])"
+            },
+            {
+                "from": "state2",
+                "to": "-2195321257520934485",
+                "event": "click<button id=19 alt=\"Not interested\">  </button>"
+            },
+            {
+                "from": "-2195321257520934485",
+                "to": "-2592816590644302728",
+                "event": "click<button id=31 class =\"com.zhiliaoapp.musically:id/fgi\">  </button>"
+            },
+            {
+                "from": "-2592816590644302728",
+                "to": "5068079759535131709",
+                "event": "click<button id=37 class =\"com.zhiliaoapp.musically:id/e4a\" alt=\"Follow \u3066n\u3053/Tenko&#129418;&#129418;\u26e9&#128054;\">  </button>"
+            },
+            {
+                "from": "5068079759535131709",
+                "to": "7326131026646853215",
+                "event": "click<button id=129 class =\"com.zhiliaoapp.musically:id/h88\" alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "7326131026646853215",
+                "to": "415632653610622899",
+                "event": "click<button id=67 class =\"com.zhiliaoapp.musically:id/h86\" alt=\"Home\">  </button>"
+            },
+            {
+                "from": "415632653610622899",
+                "to": "7326131026646853215",
+                "event": "click<button id=120 class =\"com.zhiliaoapp.musically:id/h88\" alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "7326131026646853215",
+                "to": "-7286476151363098020",
+                "event": "click<button id=67 class =\"com.zhiliaoapp.musically:id/h86\" alt=\"Home\">  </button>"
+            },
+            {
+                "from": "-7286476151363098020",
+                "to": "9219614384341135801",
+                "event": "click<button id=80 class =\"com.zhiliaoapp.musically:id/long_press_layout\" alt=\"Video\">  </button>"
+            },
+            {
+                "from": "9219614384341135801",
+                "to": "-7286476151363098020",
+                "event": "click<button id=87 class =\"com.zhiliaoapp.musically:id/long_press_layout\" alt=\"Video\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

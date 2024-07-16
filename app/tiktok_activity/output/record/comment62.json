@@ -1,0 +1,70 @@
+[
+    {
+        "comment": "I love tiktok but its kinda glitchy these days and the repost button which is the best feature In tiktok is disappearing so I hope u guys fix that thing and bring the repost button back",
+        "key sentence": "The key words: repost button",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Report', 'description': 'Report the video'}, {'name': 'Not interested', 'description': 'Indicate disinterest in the video'}, {'name': 'Save video', 'description': 'Save the video to the device'}, {'name': 'Captions', 'description': 'Toggle captions on/off'}, {'name': 'Clear display', 'description': 'Clear the display'}, {'name': 'Playback speed', 'description': 'Adjust the playback speed'}, {'name': 'Share with', 'description': 'Share the video with others'}, {'name': 'Repost', 'description': 'Repost the video'}, {'name': 'Add to Story', 'description': 'Add the video to your story'}, {'name': 'Send', 'description': 'Send the video to a friend'}, {'name': 'More friends', 'description': 'View more friends to send the video to'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment62\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment62\\state2.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment62\\5196032658612251083.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "5196032658612251083"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment62\\5327293636704290077.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "5327293636704290077"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment62\\-106930839106454404.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-106930839106454404"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment62\\711048624479600532.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "711048624479600532"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state2",
+                "event": "long-click(android.widget.RelativeLayout-com.zhiliaoapp.musically:id/mx5:[0,83][1080,2013])"
+            },
+            {
+                "from": "state2",
+                "to": "5196032658612251083",
+                "event": "click<button id=54 class =\"com.zhiliaoapp.musically:id/fln\">  </button>"
+            },
+            {
+                "from": "5196032658612251083",
+                "to": "5327293636704290077",
+                "event": "click<button id=57 class =\"com.zhiliaoapp.musically:id/cq3\" alt=\"Share video. 83.9K shares\">  </button>"
+            },
+            {
+                "from": "5327293636704290077",
+                "to": "-106930839106454404",
+                "event": "click<button id=37 alt=\"Remove repost\">  </button>"
+            },
+            {
+                "from": "-106930839106454404",
+                "to": "711048624479600532",
+                "event": "click<button id=57 class =\"com.zhiliaoapp.musically:id/cq3\" alt=\"Share video. 83.9K shares\">  </button>"
+            }
+        ],
+        "Final answer": "YES"
+    }
+]

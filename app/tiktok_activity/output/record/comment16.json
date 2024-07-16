@@ -1,0 +1,80 @@
+[
+    {
+        "comment": "If you try to upload a video using the editing feature, expect to try many, many, many, many times before it works. The app will crash repeatedly, and rarely saves your work. For being the biggest social media platform out there, it runs very poorly.",
+        "key sentence": "upload a video using the editing feature",
+        "target activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity",
+        "the function of activity": "This activity allows users to record and enhance videos, adjust playback speed, add effects, sound, text, music, and post videos.",
+        "target state": "state26",
+        "the sub-task list of state": "[{'name': 'Post Vedio', 'description': 'Create and post content'}, {'name': 'Select cover', 'description': 'Choose a cover image or video for the post'}, {'name': 'Hashtags', 'description': 'Add hashtags to the post'}, {'name': 'Friends', 'description': 'Mention friends in a post'}, {'name': 'Videos', 'description': 'View and manage videos'}, {'name': 'Location', 'description': 'Add location information to the post'}, {'name': 'Add link', 'description': 'Attach a hyperlink to the post'}, {'name': 'Everyone can view this post', 'description': 'Set visibility settings to allow everyone to view the post'}, {'name': 'More options', 'description': 'Access additional options for managing the post'}, {'name': 'Share to', 'description': 'Share the post to other platforms'}, {'name': 'Save to drafts', 'description': 'Save the post as a draft'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment16\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment16\\97fbfdd4dfe5010b5daa588476b0ed04.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "97fbfdd4dfe5010b5daa588476b0ed04"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment16\\state23.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "state23"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment16\\state24.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "state24"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment16\\state25.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "state25"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment16\\state26.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "state26"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment16\\5253650429902515317.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "5253650429902515317"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "event": "click(state=86ad15cba4ecd2166c92cbbf7eddfa20, view=553e56e4257e3426ca1ee81e58bd7ec2(SplashActivity/Button-Create:x432:y2013))"
+            },
+            {
+                "from": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "to": "state23",
+                "event": "click(android.widget.FrameLayout-com.zhiliaoapp.musically:id/b6x:[768,1725][988,1934])"
+            },
+            {
+                "from": "state23",
+                "to": "state24",
+                "event": "click(android.widget.RelativeLayout-com.zhiliaoapp.musically:id/kb6:[360,215][720,339])"
+            },
+            {
+                "from": "state24",
+                "to": "state25",
+                "event": "click(android.widget.FrameLayout:[6,345][358,702])"
+            },
+            {
+                "from": "state25",
+                "to": "state26",
+                "event": "click(android.widget.LinearLayout-com.zhiliaoapp.musically:id/hzg:[545,2027][1047,2148])"
+            },
+            {
+                "from": "state26",
+                "to": "5253650429902515317",
+                "event": "click<button id=65 alt=\"Edit\">  </button>"
+            }
+        ],
+        "Final answer": "YES"
+    }
+]

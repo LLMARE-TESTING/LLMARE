@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Well, tiktok has my whole heart, I love the funny relatable videos and I love making my own, but ever since the last update, it's been hard to pause between clips when recording. And when I tried to use the greenscreen filter for multiple collages of pictures, it glitches really weird and doesn't even show the whole recording right on the editing page. Every update has made tiktok harder to use, please do something about this!",
+        "key sentence": "the last update, pause between clips, greenscreen filter, multiple collages, glitches, editing page",
+        "target activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity",
+        "the function of activity": "This activity allows users to record and enhance videos, adjust playback speed, add effects, sound, text, music, and post videos.",
+        "target state": "97fbfdd4dfe5010b5daa588476b0ed04",
+        "the sub-task list of state": "[{'name': 'Record video', 'description': 'Record a video'}, {'name': 'Add sound', 'description': 'Add sound to the video'}, {'name': 'Flip', 'description': 'Flip the camera'}, {'name': 'Effects', 'description': 'Add effects to the video'}, {'name': 'Upload', 'description': 'Upload the video'}, {'name': 'Speed', 'description': 'Adjust the speed of the video'}, {'name': 'Retouch', 'description': 'Retouch the video'}, {'name': 'Mic', 'description': 'Enable or disable microphone'}, {'name': 'Filters', 'description': 'Apply filters to the video'}, {'name': 'Timer', 'description': 'Set a timer for recording'}, {'name': 'Flash', 'description': 'Enable or disable flash'}, {'name': 'Close', 'description': 'Close the current screen'}, {'name': 'Text', 'description': 'Add text to the video'}, {'name': 'Camera', 'description': 'Switch between front and back camera'}, {'name': 'Templates', 'description': 'Choose a template for the video'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment35\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment35\\97fbfdd4dfe5010b5daa588476b0ed04.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "97fbfdd4dfe5010b5daa588476b0ed04"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment35\\-3905033276733654168.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-3905033276733654168"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment35\\3907229032568090374.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "3907229032568090374"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment35\\2829480254189573913.png",
+                "activity": "com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.MvChoosePhotoActivity}",
+                "state_str": "2829480254189573913"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment35\\6800978274583240845.png",
+                "activity": "com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.MvChoosePhotoActivity}",
+                "state_str": "6800978274583240845"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment35\\8655471819857729528.png",
+                "activity": "com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.MvChoosePhotoActivity}",
+                "state_str": "8655471819857729528"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment35\\9117176352578630740.png",
+                "activity": "com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.MvChoosePhotoActivity}",
+                "state_str": "9117176352578630740"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment35\\9117176352578630740.png",
+                "activity": "com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.MvChoosePhotoActivity}",
+                "state_str": "9117176352578630740"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment35\\-8063865133831745148.png",
+                "activity": "com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.MvChoosePhotoActivity}",
+                "state_str": "-8063865133831745148"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment35\\-8063865133831745148.png",
+                "activity": "com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.MvChoosePhotoActivity}",
+                "state_str": "-8063865133831745148"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "event": "click(state=86ad15cba4ecd2166c92cbbf7eddfa20, view=553e56e4257e3426ca1ee81e58bd7ec2(SplashActivity/Button-Create:x432:y2013))"
+            },
+            {
+                "from": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "to": "-3905033276733654168",
+                "event": "click<button id=27 class =\"com.zhiliaoapp.musically:id/jte\" alt=\"Record video\">  </button>"
+            },
+            {
+                "from": "-3905033276733654168",
+                "to": "3907229032568090374",
+                "event": "click<p id=65 class =\"com.zhiliaoapp.musically:id/b6s\"> Edit,  </p>"
+            },
+            {
+                "from": "3907229032568090374",
+                "to": "2829480254189573913",
+                "event": "click<img id=51 class =\"com.zhiliaoapp.musically:id/fmu\" alt=\"Add clip\">  </img>"
+            },
+            {
+                "from": "2829480254189573913",
+                "to": "6800978274583240845",
+                "event": "click<button id=10 class =\"com.zhiliaoapp.musically:id/bhz\">  </button>"
+            },
+            {
+                "from": "6800978274583240845",
+                "to": "8655471819857729528",
+                "event": "click<button id=45 class =\"com.zhiliaoapp.musically:id/kb6\">  </button>"
+            },
+            {
+                "from": "8655471819857729528",
+                "to": "9117176352578630740",
+                "event": "click<p id=23 class =\"com.zhiliaoapp.musically:id/o62\"> Photos,  </p>"
+            },
+            {
+                "from": "9117176352578630740",
+                "to": "9117176352578630740",
+                "event": "click<button id=116 class =\"com.zhiliaoapp.musically:id/m80\"> Next,  </button>"
+            },
+            {
+                "from": "9117176352578630740",
+                "to": "-8063865133831745148",
+                "event": "click<button id=45 class =\"com.zhiliaoapp.musically:id/dxz\">  </button>"
+            },
+            {
+                "from": "-8063865133831745148",
+                "to": "-8063865133831745148",
+                "event": "click<div id=27 class =\"com.zhiliaoapp.musically:id/ep9\">  </div>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

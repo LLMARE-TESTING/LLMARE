@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "App used to be fine, workable, etc. Recent update added a transition visual effect to opening comments/posting videos that causes flashing and spinning on the screen triggering photosensitivity. Nausea inducing to try to use, please fix or give us the accessibility setting to turn it off at least.",
+        "key sentence": "Key words: transition visual effect, photosensitivity, accessibility setting",
+        "target activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity",
+        "the function of activity": "This activity allows users to record and enhance videos, adjust playback speed, add effects, sound, text, music, and post videos.",
+        "target state": "state14",
+        "the sub-task list of state": "[{'name': 'Next', 'description': 'execute next step to post a vedio.'}, {'name': 'Your Story', 'description': 'Post Vedio as your story'}, {'name': 'Remove sound', 'description': 'Remove sound'}, {'name': 'Settings', 'description': 'Access settings'}, {'name': 'Edit', 'description': 'Edit content'}, {'name': 'Templates', 'description': 'Access templates'}, {'name': 'Text', 'description': 'Add text'}, {'name': 'Stickers', 'description': 'Add stickers'}, {'name': 'Effects', 'description': 'Apply effects'}, {'name': 'Filters', 'description': 'Apply filters'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment48\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment48\\state5.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment48\\state13.png",
+                "activity": "com.ss.android.ugc.aweme.tools.draft.DraftBoxActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment48\\state14.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "state14"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment48\\-3228671801001687433.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-3228671801001687433"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment48\\-3228671801001687433.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-3228671801001687433"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment48\\8588126139639816126.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "8588126139639816126"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment48\\8588126139639816126.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "8588126139639816126"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment48\\8588126139639816126.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "8588126139639816126"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment48\\8588126139639816126.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "8588126139639816126"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment48\\-3228671801001687433.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-3228671801001687433"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state5",
+                "event": "click(android.widget.FrameLayout-Profile:[864,2013][1080,2148])"
+            },
+            {
+                "from": "state5",
+                "to": "state13",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/cover:[0,1107][358,1584])"
+            },
+            {
+                "from": "state13",
+                "to": "state14",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/cover:[0,421][358,898])"
+            },
+            {
+                "from": "state14",
+                "to": "-3228671801001687433",
+                "event": "click<button id=60 alt=\"Settings\">  </button>"
+            },
+            {
+                "from": "-3228671801001687433",
+                "to": "-3228671801001687433",
+                "event": "click<p id=11 class =\"com.zhiliaoapp.musically:id/ilh\"> Settings,  </p>"
+            },
+            {
+                "from": "-3228671801001687433",
+                "to": "8588126139639816126",
+                "event": "click<div id=6 class =\"com.zhiliaoapp.musically:id/knk\">  </div>"
+            },
+            {
+                "from": "8588126139639816126",
+                "to": "8588126139639816126",
+                "event": "click<p id=11 class =\"com.zhiliaoapp.musically:id/ilh\"> Settings,  </p>"
+            },
+            {
+                "from": "8588126139639816126",
+                "to": "8588126139639816126",
+                "event": "click<div id=9 class =\"com.zhiliaoapp.musically:id/ils\">  </div>"
+            },
+            {
+                "from": "8588126139639816126",
+                "to": "8588126139639816126",
+                "event": "click<p id=11 class =\"com.zhiliaoapp.musically:id/ilh\"> Settings,  </p>"
+            },
+            {
+                "from": "8588126139639816126",
+                "to": "-3228671801001687433",
+                "event": "click<button id=4 class =\"com.zhiliaoapp.musically:id/o48\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

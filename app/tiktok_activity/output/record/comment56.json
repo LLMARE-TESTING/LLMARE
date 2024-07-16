@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "I love this app and I would use it more (and give 5x \u5192\u807c\u8066\u807c) but you have this weird feature where you show me stuff when I say (click) I'm not interested in the page from that very same page again and again. You should also allow pages to be muted while scrolling.",
+        "key sentence": "The key words: not interested, muted while scrolling",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Report', 'description': 'Report the video'}, {'name': 'Not interested', 'description': 'Indicate disinterest in the video'}, {'name': 'Save video', 'description': 'Save the video to the device'}, {'name': 'Captions', 'description': 'Toggle captions on/off'}, {'name': 'Clear display', 'description': 'Clear the display'}, {'name': 'Playback speed', 'description': 'Adjust the playback speed'}, {'name': 'Share with', 'description': 'Share the video with others'}, {'name': 'Repost', 'description': 'Repost the video'}, {'name': 'Add to Story', 'description': 'Add the video to your story'}, {'name': 'Send', 'description': 'Send the video to a friend'}, {'name': 'More friends', 'description': 'View more friends to send the video to'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment56\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment56\\state2.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment56\\-5875592458840584709.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-5875592458840584709"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state2",
+                "event": "long-click(android.widget.RelativeLayout-com.zhiliaoapp.musically:id/mx5:[0,83][1080,2013])"
+            },
+            {
+                "from": "state2",
+                "to": "-5875592458840584709",
+                "event": "click<button id=19 alt=\"Not interested\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

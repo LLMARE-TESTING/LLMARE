@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "Please revert this new share page or add an option to choose between this and the old one. This new one takes up too much space and looks awful.",
+        "key sentence": "Key words: new share page",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state21",
+        "the sub-task list of state": "[{'name': 'Share', 'description': 'Share the content'}, {'name': 'Write a message', 'description': 'Write a message to send'}, {'name': 'Send', 'description': 'Send the message or content'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment48\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment48\\state20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment48\\state21.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state21"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state20",
+                "event": "click(Button-Share video.:[914,1664][1080,1851])"
+            },
+            {
+                "from": "state20",
+                "to": "state21",
+                "event": "click(Button-audery0170:[212,1310][383,1503])"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

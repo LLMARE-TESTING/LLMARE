@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "App used to be fine, workable, etc. Recent update added a transition visual effect to opening comments/posting videos that causes flashing and spinning on the screen triggering photosensitivity. Nausea inducing to try to use, please fix or give us the accessibility setting to turn it off at least.",
+        "key sentence": "Key words: transition visual effect, photosensitivity, accessibility setting",
+        "target activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity",
+        "the function of activity": "This activity allows users to record and enhance videos, adjust playback speed, add effects, sound, text, music, and post videos.",
+        "target state": "state15",
+        "the sub-task list of state": "[{'name': 'Add Link', 'description': 'Add a link to the post'}, {'name': 'Allow Comments', 'description': 'Toggle on/off the ability for viewers to leave comments on the post'}, {'name': 'Allow Duet', 'description': 'Toggle on/off the ability for viewers to create a duet video with the post'}, {'name': 'Allow Stitch', 'description': 'Toggle on/off the ability for viewers to stitch the post into their own video'}, {'name': 'Post as Template', 'description': 'Option to post the video as a template for others to use and create their own videos'}, {'name': 'Save to Drafts', 'description': 'Save the post as a draft for future editing and posting'}, {'name': 'Post', 'description': 'Finalize and post the video on the platform'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment47\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment47\\state5.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment47\\state13.png",
+                "activity": "com.ss.android.ugc.aweme.tools.draft.DraftBoxActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment47\\state14.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "state14"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment47\\state15.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "state15"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment47\\2742303490432482825.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "2742303490432482825"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment47\\-8089479835334937475.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-8089479835334937475"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment47\\-8089479835334937475.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-8089479835334937475"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment47\\4634288661701357604.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "4634288661701357604"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment47\\3778715651721702458.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "3778715651721702458"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment47\\-7043657086149104715.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-7043657086149104715"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state5",
+                "event": "click(android.widget.FrameLayout-Profile:[864,2013][1080,2148])"
+            },
+            {
+                "from": "state5",
+                "to": "state13",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/cover:[0,1107][358,1584])"
+            },
+            {
+                "from": "state13",
+                "to": "state14",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/cover:[0,421][358,898])"
+            },
+            {
+                "from": "state14",
+                "to": "state15",
+                "event": "click(android.widget.LinearLayout-com.zhiliaoapp.musically:id/hzg:[545,2027][1047,2148])"
+            },
+            {
+                "from": "state15",
+                "to": "2742303490432482825",
+                "event": "click<button id=64 class =\"com.zhiliaoapp.musically:id/boc\" alt=\"More options, Privacy and more settings have been moved here.\">  </button>"
+            },
+            {
+                "from": "2742303490432482825",
+                "to": "-8089479835334937475",
+                "event": "click<p id=70 class =\"com.zhiliaoapp.musically:id/n9l\"> Privacy and more settings have been moved here.,  </p>"
+            },
+            {
+                "from": "-8089479835334937475",
+                "to": "-8089479835334937475",
+                "event": "click<p id=139 class =\"com.zhiliaoapp.musically:id/nvk\"> Advanced settings,  </p>"
+            },
+            {
+                "from": "-8089479835334937475",
+                "to": "4634288661701357604",
+                "event": "click<button id=142 class =\"com.zhiliaoapp.musically:id/boc\" alt=\"Select video language, Videos in supported languages will show auto-generated captions, English\">  </button>"
+            },
+            {
+                "from": "4634288661701357604",
+                "to": "3778715651721702458",
+                "event": "click<div id=6 class =\"com.zhiliaoapp.musically:id/knk\">  </div>"
+            },
+            {
+                "from": "3778715651721702458",
+                "to": -7043657086149104715,
+                "event": "back"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

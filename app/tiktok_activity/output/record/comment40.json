@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "Edit: Down to one because it's incredibly glitchy. Fix the update. The algorithm sucks; I see the same 4 people over and over again despite trying to \"fix\" it. The search bar across the top of the screen is annoying and just takes up more space. The new draft page layout is irritating because you can't make another video with the same audio like you used to be able to right from the draft; now you've got to search for the audio that you were using every time you want to do a new take.",
+        "key sentence": "The key words:\nthe update\nthe algorithm\nthe search bar\nthe draft page layout",
+        "target activity": "com.ss.android.ugc.aweme.tools.draft.DraftBoxActivity",
+        "the function of activity": "Select a draft to post.",
+        "target state": "state13",
+        "the sub-task list of state": "[{'name': 'Drafts', 'description': 'Select an draft to post'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment40\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment40\\state5.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment40\\state13.png",
+                "activity": "com.ss.android.ugc.aweme.tools.draft.DraftBoxActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment40\\8685239729379621096.png",
+                "activity": "com.ss.android.ugc.aweme.tools.draft.DraftBoxActivity}",
+                "state_str": "8685239729379621096"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state5",
+                "event": "click(android.widget.FrameLayout-Profile:[864,2013][1080,2148])"
+            },
+            {
+                "from": "state5",
+                "to": "state13",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/cover:[0,1107][358,1584])"
+            },
+            {
+                "from": "state13",
+                "to": "8685239729379621096",
+                "event": "click<p id=7 class =\"com.zhiliaoapp.musically:id/hto\"> Drafts,  </p>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

@@ -1,0 +1,160 @@
+[
+    {
+        "comment": "Love the app, but the notifications are a MESS! 1. Live streams notifications is off in settings but I still get them. In the android settings it's categorized under \"other\",but turning it off also turns off the direct messages notifications. 2. Separate notifications in the shade for every single message, instead of one notification saying \"x new messages\". 3. Notifications don't go away even after they're veiwed unless manually dismissed. 4. No feature to reply to a specific DM in chat",
+        "key sentence": "The key words extracted from the comment are:\n\n1. notifications\n2. Live streams notifications\n3. Separate notifications\n4. reply to a specific DM",
+        "target activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity",
+        "the function of activity": "The page allows users to manage system notifications, account updates, and customize notification settings.",
+        "target state": "state18",
+        "the sub-task list of state": "[{'name': 'View System Notifications', 'description': 'View and manage system notifications'}, {'name': 'Notification Settings', 'description': 'Access and customize system notification settings'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\state17.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state17"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\state18.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "state18"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\-6464835858111168293.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "-6464835858111168293"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\-6464835858111168293.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "-6464835858111168293"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\-6464835858111168293.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "-6464835858111168293"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\3871220738339511170.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "3871220738339511170"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\-1581593285176309007.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "-1581593285176309007"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\-1581593285176309007.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "-1581593285176309007"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\-1581593285176309007.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "-1581593285176309007"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\-7381723164818413801.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "-7381723164818413801"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\-7381723164818413801.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "-7381723164818413801"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\470581278113214680.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "470581278113214680"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\6709608084691932505.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "6709608084691932505"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\6709608084691932505.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "6709608084691932505"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state17",
+                "event": "click(android.widget.FrameLayout-com.zhiliaoapp.musically:id/h87:[648,2013][864,2148])"
+            },
+            {
+                "from": "state17",
+                "to": "state18",
+                "event": "click(Button-com.zhiliaoapp.musically:id/kcw:[0,1147][1080,1345])"
+            },
+            {
+                "from": "state18",
+                "to": "-6464835858111168293",
+                "event": "click<button id=5 class =\"com.ss.android.ugc.trill:id/g_k\" alt=\"System notification settings\">  </button>"
+            },
+            {
+                "from": "-6464835858111168293",
+                "to": "-6464835858111168293",
+                "event": "click<p id=5> Notification settings,  </p>"
+            },
+            {
+                "from": "-6464835858111168293",
+                "to": "-6464835858111168293",
+                "event": "click<p id=17 class =\"com.ss.android.ugc.trill:id/ohz\"> Channel notifications,  </p>"
+            },
+            {
+                "from": "-6464835858111168293",
+                "to": "3871220738339511170",
+                "event": "click<button id=8 class =\"com.ss.android.ugc.trill:id/bor\" alt=\"Mute\">  </button>"
+            },
+            {
+                "from": "3871220738339511170",
+                "to": "-1581593285176309007",
+                "event": "click<button id=13 class =\"com.ss.android.ugc.trill:id/bor\" alt=\"Pin to top\">  </button>"
+            },
+            {
+                "from": "-1581593285176309007",
+                "to": "-1581593285176309007",
+                "event": "click<p id=17 class =\"com.ss.android.ugc.trill:id/ohz\"> Channel notifications,  </p>"
+            },
+            {
+                "from": "-1581593285176309007",
+                "to": "-1581593285176309007",
+                "event": "click<p id=5> Notification settings,  </p>"
+            },
+            {
+                "from": "-1581593285176309007",
+                "to": "-7381723164818413801",
+                "event": "click<p id=10 class =\"com.ss.android.ugc.trill:id/nt5\"> Mute,  </p>"
+            },
+            {
+                "from": "-7381723164818413801",
+                "to": "-7381723164818413801",
+                "event": "click<p id=17 class =\"com.ss.android.ugc.trill:id/ohz\"> Channel notifications,  </p>"
+            },
+            {
+                "from": "-7381723164818413801",
+                "to": "470581278113214680",
+                "event": "click<div id=1 class =\"com.ss.android.ugc.trill:id/ri\">  </div>"
+            },
+            {
+                "from": "470581278113214680",
+                "to": "6709608084691932505",
+                "event": "click<button id=16 class =\"com.ss.android.ugc.trill:id/bor\" alt=\"Activities\">  </button>"
+            },
+            {
+                "from": "6709608084691932505",
+                "to": "6709608084691932505",
+                "event": "click<div id=5 class =\"com.ss.android.ugc.trill:id/d0o\" alt=\"Bottom sheet\">  </div>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

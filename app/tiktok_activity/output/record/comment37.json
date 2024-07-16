@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Really good app! One thing that I'm not happy about is the audio sync with duets. I absolutely love the duet feature so u can add harmonies onto friends singing videos, but I have to work some type of magic to get the audio to sync up. I always make sure my phone is optimised before recording, but it doesn't sync up. Other times I have to uninstall/reinstall or even restart my phone to align the audio. Could there be a way to manually sync audio?",
+        "key sentence": "audio sync, duets",
+        "target activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity",
+        "the function of activity": "This activity allows users to record and enhance videos, adjust playback speed, add effects, sound, text, music, and post videos.",
+        "target state": "state15",
+        "the sub-task list of state": "[{'name': 'Add Link', 'description': 'Add a link to the post'}, {'name': 'Allow Comments', 'description': 'Toggle on/off the ability for viewers to leave comments on the post'}, {'name': 'Allow Duet', 'description': 'Toggle on/off the ability for viewers to create a duet video with the post'}, {'name': 'Allow Stitch', 'description': 'Toggle on/off the ability for viewers to stitch the post into their own video'}, {'name': 'Post as Template', 'description': 'Option to post the video as a template for others to use and create their own videos'}, {'name': 'Save to Drafts', 'description': 'Save the post as a draft for future editing and posting'}, {'name': 'Post', 'description': 'Finalize and post the video on the platform'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment37\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment37\\state5.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment37\\state13.png",
+                "activity": "com.ss.android.ugc.aweme.tools.draft.DraftBoxActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment37\\state14.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "state14"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment37\\state15.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "state15"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment37\\-6397261027212314197.png",
+                "activity": "com.ss.android.ugc.aweme.shortvideo.mentionvideo.MentionVideoActivity}",
+                "state_str": "-6397261027212314197"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment37\\-6397261027212314197.png",
+                "activity": "com.ss.android.ugc.aweme.shortvideo.mentionvideo.MentionVideoActivity}",
+                "state_str": "-6397261027212314197"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment37\\-6397261027212314197.png",
+                "activity": "com.ss.android.ugc.aweme.shortvideo.mentionvideo.MentionVideoActivity}",
+                "state_str": "-6397261027212314197"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment37\\-6397261027212314197.png",
+                "activity": "com.ss.android.ugc.aweme.shortvideo.mentionvideo.MentionVideoActivity}",
+                "state_str": "-6397261027212314197"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment37\\-6397261027212314197.png",
+                "activity": "com.ss.android.ugc.aweme.shortvideo.mentionvideo.MentionVideoActivity}",
+                "state_str": "-6397261027212314197"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment37\\-6397261027212314197.png",
+                "activity": "com.ss.android.ugc.aweme.shortvideo.mentionvideo.MentionVideoActivity}",
+                "state_str": "-6397261027212314197"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state5",
+                "event": "click(android.widget.FrameLayout-Profile:[864,2013][1080,2148])"
+            },
+            {
+                "from": "state5",
+                "to": "state13",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/cover:[0,1107][358,1584])"
+            },
+            {
+                "from": "state13",
+                "to": "state14",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/cover:[0,421][358,898])"
+            },
+            {
+                "from": "state14",
+                "to": "state15",
+                "event": "click(android.widget.LinearLayout-com.zhiliaoapp.musically:id/hzg:[545,2027][1047,2148])"
+            },
+            {
+                "from": "state15",
+                "to": "-6397261027212314197",
+                "event": "click<button id=23 class =\"com.zhiliaoapp.musically:id/yn\"> Videos,  </button>"
+            },
+            {
+                "from": "-6397261027212314197",
+                "to": "-6397261027212314197",
+                "event": "click<button id=4 class =\"com.zhiliaoapp.musically:id/myg\">  </button>"
+            },
+            {
+                "from": "-6397261027212314197",
+                "to": "-6397261027212314197",
+                "event": "click<div id=6 class =\"com.zhiliaoapp.musically:id/jqk\">  </div>"
+            },
+            {
+                "from": "-6397261027212314197",
+                "to": "-6397261027212314197",
+                "event": "click<div id=3 class =\"com.zhiliaoapp.musically:id/c8s\">  </div>"
+            },
+            {
+                "from": "-6397261027212314197",
+                "to": "-6397261027212314197",
+                "event": "click<button id=4 class =\"com.zhiliaoapp.musically:id/myg\">  </button>"
+            },
+            {
+                "from": "-6397261027212314197",
+                "to": "-6397261027212314197",
+                "event": "click<div id=6 class =\"com.zhiliaoapp.musically:id/jqk\">  </div>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

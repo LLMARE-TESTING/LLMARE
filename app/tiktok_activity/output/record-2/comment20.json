@@ -1,0 +1,80 @@
+[
+    {
+        "comment": "Was good and really enjoyed it but the new feature of the screen spinning like a transition has made it un usable anytime you go back a tab or hit the back arrow it spins like a slide show transition anytime I see it I'm instantly nauseous lightheaded and have a migraine it would be fine if there was a way to disable it but there isn't.",
+        "key sentence": "the new feature of the screen spinning",
+        "target activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity",
+        "the function of activity": "The page allows users to manage system notifications, account updates, and customize notification settings.",
+        "target state": "state18",
+        "the sub-task list of state": "[{'name': 'View System Notifications', 'description': 'View and manage system notifications'}, {'name': 'Notification Settings', 'description': 'Access and customize system notification settings'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment20\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment20\\state17.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state17"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment20\\state18.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "state18"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment20\\-9165625423277802093.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-9165625423277802093"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment20\\-862198530193925284.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-862198530193925284"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment20\\-7126525549464588286.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-7126525549464588286"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot-2\\comment20\\-6882013934757377476.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-6882013934757377476"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state17",
+                "event": "click(android.widget.FrameLayout-com.zhiliaoapp.musically:id/h87:[648,2013][864,2148])"
+            },
+            {
+                "from": "state17",
+                "to": "state18",
+                "event": "click(Button-com.zhiliaoapp.musically:id/kcw:[0,1147][1080,1345])"
+            },
+            {
+                "from": "state18",
+                "to": -9165625423277802093,
+                "event": "back"
+            },
+            {
+                "from": -9165625423277802093,
+                "to": "-862198530193925284",
+                "event": "click<button id=67 class =\"com.zhiliaoapp.musically:id/hy7\" alt=\"Home\">  </button>"
+            },
+            {
+                "from": "-862198530193925284",
+                "to": "-7126525549464588286",
+                "event": "click<button id=67 class =\"com.zhiliaoapp.musically:id/pu_\">  </button>"
+            },
+            {
+                "from": "-7126525549464588286",
+                "to": "-6882013934757377476",
+                "event": "click<button id=67 class =\"com.zhiliaoapp.musically:id/fz4\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

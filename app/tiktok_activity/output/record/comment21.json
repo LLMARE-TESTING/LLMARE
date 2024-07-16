@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Galaxy Fold problem me and my husband have a galaxy. Fold4, and both of them are having problems with TikTok. The screen will load half of the screen and the other side be black. Also, the comments are always off , With this new update, please fix this now. I know our phones are new so it has nothing to do it .",
+        "key sentence": "The key words: Galaxy Fold4, TikTok",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "86ad15cba4ecd2166c92cbbf7eddfa20",
+        "the sub-task list of state": "[{'name': 'Follow', 'description': 'Follow a user profile'}, {'name': 'Like', 'description': 'Like a video'}, {'name': 'Share', 'description': 'Share a video'}, {'name': 'Add to Favorites', 'description': 'Add or remove a video from Favorites'}, {'name': 'Comments', 'description': 'Read or add comments on a video'}, {'name': 'Play Video', 'description': 'Play a video'}, {'name': 'Sound', 'description': 'Listen to the sound of a video'}, {'name': 'Friends', 'description': 'Change to friends page'}, {'name': 'Inbox', 'description': 'Change to inbox page'}, {'name': 'Profile', 'description': 'Change to profile page'}, {'name': 'For you', 'description': 'Watch vedio for you'}, {'name': 'HomePage', 'description': 'In homepage, you can scroll to watch vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment21\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment21\\-141587978459046310.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-141587978459046310"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment21\\-3580576257636462737.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-3580576257636462737"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment21\\4345866606347970476.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "4345866606347970476"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment21\\6805189305937344956.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "6805189305937344956"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment21\\1952414677174858338.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "1952414677174858338"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment21\\-3838820240458391205.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-3838820240458391205"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment21\\2592351800480847254.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2592351800480847254"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment21\\-3838820240458391205.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-3838820240458391205"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment21\\-8783978452204597399.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8783978452204597399"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment21\\-3354295526068560817.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-3354295526068560817"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "-141587978459046310",
+                "event": "click<button id=82 class =\"com.zhiliaoapp.musically:id/long_press_layout\" alt=\"Video\">  </button>"
+            },
+            {
+                "from": "-141587978459046310",
+                "to": "-3580576257636462737",
+                "event": "click<button id=38 class =\"com.zhiliaoapp.musically:id/bz2\" alt=\"Read or add comments. 547 comments\">  </button>"
+            },
+            {
+                "from": "-3580576257636462737",
+                "to": 4345866606347970476,
+                "event": "back"
+            },
+            {
+                "from": 4345866606347970476,
+                "to": "6805189305937344956",
+                "event": "click<button id=124 class =\"com.zhiliaoapp.musically:id/h88\" alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "6805189305937344956",
+                "to": "1952414677174858338",
+                "event": "click<button id=65 class =\"com.zhiliaoapp.musically:id/h86\" alt=\"Home\">  </button>"
+            },
+            {
+                "from": "1952414677174858338",
+                "to": "-3838820240458391205",
+                "event": "click<button id=87 class =\"com.zhiliaoapp.musically:id/long_press_layout\" alt=\"Video\">  </button>"
+            },
+            {
+                "from": "-3838820240458391205",
+                "to": "2592351800480847254",
+                "event": "click<button id=38 class =\"com.zhiliaoapp.musically:id/bz2\" alt=\"Read or add comments. 547 comments\">  </button>"
+            },
+            {
+                "from": "2592351800480847254",
+                "to": -3838820240458391205,
+                "event": "back"
+            },
+            {
+                "from": -3838820240458391205,
+                "to": "-8783978452204597399",
+                "event": "click<div id=65 class =\"com.zhiliaoapp.musically:id/p42\">  </div>"
+            },
+            {
+                "from": "-8783978452204597399",
+                "to": "-3354295526068560817",
+                "event": "click<button id=87 class =\"com.zhiliaoapp.musically:id/long_press_layout\" alt=\"Video\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]
