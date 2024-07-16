@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "The \"Albums\" feature is difficult and tedious to use, and I can't figure how to make a folder. Also, it's pretty strange and inconvenient that you need wi-fi to access your photos and look at them. However, I like the \"Stylized Photo\" and \"Animation Features,\" those bump it up a star. Overall, this app needs some huge improvements.",
+        "key sentence": "the \"Albums\" feature",
+        "target activity": ".envelope.AlbumActivity",
+        "the function of activity": "add pictures to memory,edit memory.",
+        "target state": "state18",
+        "the sub-task list of state": "[{'name': 'Remove from album', 'description': 'Remove a photo from the current album'}, {'name': 'Use as album cover', 'description': 'Set the selected photo as the cover image for the current album'}, {'name': 'Add to album', 'description': 'Add the selected photo to an album'}, {'name': 'Move to Archive', 'description': 'Move the selected photo to the Archive'}, {'name': 'Create', 'description': 'Create a new album or collection'}, {'name': 'Edit date/time', 'description': 'Modify the date and time of the selected media'}, {'name': 'Add a caption', 'description': 'Add a caption to the selected media'}, {'name': 'Details', 'description': 'View detailed information about the selected media'}, {'name': 'Storage information', 'description': 'View information about the storage location and size of the selected media'}, {'name': 'Backup options', 'description': 'Access options for backing up the selected media'}, {'name': 'Close Info', 'description': 'Close the information panel'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment73\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment73\\f58d07b2dc774e14e82a3c9db70eba73.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "f58d07b2dc774e14e82a3c9db70eba73"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment73\\state16.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "state16"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment73\\state17.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "state17"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment73\\state18.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "state18"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment73\\6889926134856331072.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "6889926134856331072"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment73\\5309904335938971928.png",
+                "activity": "com.google.android.apps.photos.movies.v3.activity.MovieEditorActivity}",
+                "state_str": "5309904335938971928"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment73\\5309904335938971928.png",
+                "activity": "com.google.android.apps.photos.movies.v3.activity.MovieEditorActivity}",
+                "state_str": "5309904335938971928"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment73\\68038467651975546.png",
+                "activity": "com.google.android.apps.photos.movies.v3.activity.MovieEditorActivity}",
+                "state_str": "68038467651975546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment73\\5309904335938971928.png",
+                "activity": "com.google.android.apps.photos.movies.v3.activity.MovieEditorActivity}",
+                "state_str": "5309904335938971928"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment73\\5309904335938971928.png",
+                "activity": "com.google.android.apps.photos.movies.v3.activity.MovieEditorActivity}",
+                "state_str": "5309904335938971928"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "f58d07b2dc774e14e82a3c9db70eba73",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=52242917a0bacb3c7ea0ec114c61d575(HomeActivity/Button-Memories:x270:y1928))"
+            },
+            {
+                "from": "f58d07b2dc774e14e82a3c9db70eba73",
+                "to": "state16",
+                "event": "click(ImageView-com.google.android.apps.photos:id/spotlight_image:[0,303][1080,1653])"
+            },
+            {
+                "from": "state16",
+                "to": "state17",
+                "event": "click(ImageView-Photo taken on Jul 2, 2023 5:29:38 PM:[0,1955][582,2148])"
+            },
+            {
+                "from": "state17",
+                "to": "state18",
+                "event": "click(ImageView-More options:[964,94][1063,248])"
+            },
+            {
+                "from": "state18",
+                "to": "6889926134856331072",
+                "event": "click<button id=29 class =\"com.google.android.apps.photos:id/photos_pager_menu_create\"> Create,  </button>"
+            },
+            {
+                "from": "6889926134856331072",
+                "to": "5309904335938971928",
+                "event": "click<button id=6 class =\"com.google.android.apps.photos:id/new_creation_item\">  </button>"
+            },
+            {
+                "from": "5309904335938971928",
+                "to": "5309904335938971928",
+                "event": "click<div id=6 class =\"com.google.android.apps.photos:id/photos_movies_v3_activity_template_text_fragment_container\">  </div>"
+            },
+            {
+                "from": "5309904335938971928",
+                "to": "68038467651975546",
+                "event": "click<button id=26 class =\"com.google.android.apps.photos:id/photos_movies_v3_smallscreen_cancel_button\"> Cancel,  </button>"
+            },
+            {
+                "from": "68038467651975546",
+                "to": 5309904335938971928,
+                "event": "back"
+            },
+            {
+                "from": 5309904335938971928,
+                "to": "5309904335938971928",
+                "event": "click<button id=5 class =\"com.google.android.apps.photos:id/photos_movies_v3_activity_editor_renderer\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

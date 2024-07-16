@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "I loved this app. It was smart, flexible and straightforward. The search functions were great and useful. But every update Google has applied to this app has made it dumber less intuitive, and more frustrating to use. The album sharing system has always been terrible, but most recently the side navigation window was removed and all your albums are now stuffed into a sensless 'library' section. Why move away from standard, utility oriented navigation to striped, unintuitive ones?",
+        "key sentence": "The key words: the album sharing system",
+        "target activity": ".share.SharouselActivity",
+        "the function of activity": "Share photos or vedios with other.",
+        "target state": "10048492ed176d635fee5dbbd67edd8e",
+        "the sub-task list of state": "[{'name': 'Create link', 'description': 'Create a link to share.'}, {'name': 'Send in Photos', 'description': 'Send selected photos.'}, {'name': 'Create Album', 'description': 'Create a new album.'}, {'name': 'Share', 'description': 'Share selected photos.'}, {'name': 'News Feed', 'description': 'View or interact with a news feed.'}, {'name': 'WhatsApp', 'description': 'Interact with WhatsApp.'}, {'name': 'Your Story', 'description': 'Add content to your story.'}, {'name': 'Your groups', 'description': 'Interact with your groups.'}, {'name': 'Nearby BETA', 'description': 'Access nearby BETA feature.'}, {'name': 'Set as profile picture', 'description': 'Set selected item as profile picture.'}, {'name': 'Momo', 'description': 'Interact with Momo.'}, {'name': 'More', 'description': 'Access more options or features.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment82\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment82\\0cac1a34967dc9a3d638703f8dff5193.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "0cac1a34967dc9a3d638703f8dff5193"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment82\\10048492ed176d635fee5dbbd67edd8e.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "10048492ed176d635fee5dbbd67edd8e"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment82\\-4808062690842652928.png",
+                "activity": "com.google.android.apps.photos.sharingtab.destination.impl.SharingDestinationActivity}",
+                "state_str": "-4808062690842652928"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "0cac1a34967dc9a3d638703f8dff5193",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=08bc7c8154b5c2ab796d26d767a03541(HomeActivity/ImageView-Photo take:x0:y1926))"
+            },
+            {
+                "from": "0cac1a34967dc9a3d638703f8dff5193",
+                "to": "10048492ed176d635fee5dbbd67edd8e",
+                "event": "click(state=0cac1a34967dc9a3d638703f8dff5193, view=6197c1853828cef195f5cb016dab6e60(HomeActivity/ImageView-Share:x86:y1993))"
+            },
+            {
+                "from": "10048492ed176d635fee5dbbd67edd8e",
+                "to": "-4808062690842652928",
+                "event": "click<button id=38 class =\"com.google.android.apps.photos:id/action_bar_sharing\" alt=\"Sharing\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

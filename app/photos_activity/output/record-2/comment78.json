@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Google Photos lacks an option to exclude screenshots and screen recordings, even with a .nomedia file in the folders. Despite turning off all Backup Folders settings, the issue persists. Reply to Developer: I checked the \"Back up device folders.\" settings. Everything is already turned off hence the issue still persist.",
+        "key sentence": "The key words: exclude screenshots and screen recordings",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Account Settings', 'description': 'Accessing and managing account settings'}, {'name': 'Turn ON/OFF Backup', 'description': 'Turn on or turn off backup.'}, {'name': 'Free Up Space', 'description': 'Deleting and managing storage space for photos'}, {'name': 'Photos Settings', 'description': 'Adjusting various settings related to photos'}, {'name': 'Help and Feedback', 'description': 'Accessing help and feedback options'}, {'name': 'Privacy Policy', 'description': 'Viewing the privacy policy'}, {'name': 'Terms of Service', 'description': 'Viewing the terms of service'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment78\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment78\\state8.png",
+                "activity": "",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment78\\-2536954494313953234.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "-2536954494313953234"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment78\\-1209954859216223870.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-1209954859216223870"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment78\\8233662371452667263.png",
+                "activity": "org.lineageos.eleven.ui.activities.HomeActivity}",
+                "state_str": "8233662371452667263"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment78\\-1209954859216223870.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-1209954859216223870"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment78\\7281425007951451669.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7281425007951451669"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment78\\4546396150633629454.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "4546396150633629454"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment78\\-77322570921629367.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "-77322570921629367"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment78\\4739111892426819240.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "4739111892426819240"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment78\\5506007075843632896.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "5506007075843632896"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state8",
+                "event": "click(FrameLayout-Signed in as ran Jin jinran848@gmail.com.Backup is off.Account and settings.:[925,104][1080,237])"
+            },
+            {
+                "from": "state8",
+                "to": -2536954494313953234,
+                "event": "back"
+            },
+            {
+                "from": -2536954494313953234,
+                "to": "-1209954859216223870",
+                "event": "click<button id=6 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-1209954859216223870",
+                "to": "8233662371452667263",
+                "event": "click<button id=4 alt=\"Apps list\">  </button>"
+            },
+            {
+                "from": "8233662371452667263",
+                "to": -1209954859216223870,
+                "event": "back"
+            },
+            {
+                "from": -1209954859216223870,
+                "to": "7281425007951451669",
+                "event": "click<button id=32 class =\"com.android.launcher3:id/icon\"> Photos,  </button>"
+            },
+            {
+                "from": "7281425007951451669",
+                "to": "4546396150633629454",
+                "event": "click<button id=39 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "4546396150633629454",
+                "to": "-77322570921629367",
+                "event": "click<button id=58 class =\"com.google.android.apps.photos:id/og_card\">  </button>"
+            },
+            {
+                "from": "-77322570921629367",
+                "to": "4739111892426819240",
+                "event": "click<button id=46 class =\"com.google.android.gms:id/gh_feedback_option\">  </button>"
+            },
+            {
+                "from": "4739111892426819240",
+                "to": 5506007075843632896,
+                "event": "back"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

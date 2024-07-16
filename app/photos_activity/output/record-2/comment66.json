@@ -1,0 +1,80 @@
+[
+    {
+        "comment": "Bugs in the new 14 update conflicting with photos app. Google photos on pixel 7A will not edit and does not delete photos. Received a loading message that stays on screen and does absolutely nothing. Immediate fix please",
+        "key sentence": "new 14 update, photos app, Google photos, pixel 7A, edit, delete, loading message",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state21",
+        "the sub-task list of state": "[{'name': 'Select Photos', 'description': 'Select photos to operate.'}, {'name': 'Share', 'description': 'Share selected items'}, {'name': 'Delete', 'description': 'Delete selected items'}, {'name': 'Move to Archive', 'description': 'Move selected items to archive'}, {'name': 'Delete from device', 'description': 'Delete selected items from the device'}, {'name': 'Add to album', 'description': 'Add selected items to an album'}, {'name': 'View all', 'description': 'View all items'}, {'name': 'Zoom in', 'description': 'Zoom in on an item or the screen'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment66\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment66\\state22.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state22"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment66\\state21.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state21"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment66\\-982957905596688495.png",
+                "activity": "com.android.providers.media.PermissionActivity}",
+                "state_str": "-982957905596688495"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment66\\-1068143366835789396.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1068143366835789396"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment66\\-5015675789759410778.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5015675789759410778"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment66\\-4452515962954224802.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-4452515962954224802"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state22",
+                "event": "long-click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[363,1010][718,1365])"
+            },
+            {
+                "from": "state22",
+                "to": "state21",
+                "event": "long-click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[726,1010][1080,1365])"
+            },
+            {
+                "from": "state21",
+                "to": "-982957905596688495",
+                "event": "click<button id=42 class =\"com.google.android.apps.photos:id/photos_allphotos_menu_item_trash\"> Delete,  </button>"
+            },
+            {
+                "from": "-982957905596688495",
+                "to": "-1068143366835789396",
+                "event": "click<button id=12 class =\"android:id/button1\"> Allow,  </button>"
+            },
+            {
+                "from": "-1068143366835789396",
+                "to": "-5015675789759410778",
+                "event": "click<img id=18 alt=\"Photo taken on Jun 29, 2024 3:22:00 PM\">  </img>"
+            },
+            {
+                "from": "-5015675789759410778",
+                "to": "-4452515962954224802",
+                "event": "click<img id=31 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

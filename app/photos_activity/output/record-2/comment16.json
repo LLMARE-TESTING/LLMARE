@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "The only problem I have when using Google Photos with my Sony Xperia 1 III is that the phone must stay awake and switch to the Backup page in Google Photos in order to scan and sync for any changes. I have checked that there the power saving / data saving options are all OFF. Tried re-installing Google Photos with data wiped but no improvement was made. Google please help.",
+        "key sentence": "the Backup page",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Account Settings', 'description': 'Accessing and managing account settings'}, {'name': 'Turn ON/OFF Backup', 'description': 'Turn on or turn off backup.'}, {'name': 'Free Up Space', 'description': 'Deleting and managing storage space for photos'}, {'name': 'Photos Settings', 'description': 'Adjusting various settings related to photos'}, {'name': 'Help and Feedback', 'description': 'Accessing help and feedback options'}, {'name': 'Privacy Policy', 'description': 'Viewing the privacy policy'}, {'name': 'Terms of Service', 'description': 'Viewing the terms of service'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment16\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment16\\state8.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment16\\-732189673003552685.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "-732189673003552685"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state8",
+                "event": "click(FrameLayout-Signed in as ran Jin jinran848@gmail.com.Backup is off.Account and settings.:[925,104][1080,237])"
+            },
+            {
+                "from": "state8",
+                "to": "-732189673003552685",
+                "event": "click<button id=21 class =\"com.google.android.apps.photos:id/og_card\" alt=\"Backup&#10;Backup complete\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

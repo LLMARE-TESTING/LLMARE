@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "App doesn't let you do anything, can't share pictures/screenshots, can't even delete stuff just says 'failed to bin' all the time. It is the worst gallery app going. Should have stuck with Samsung instead of getting a Pixel and having to use this rubbish app.",
+        "key sentence": "The key words from the comment are: \"gallery app\", \"can't share pictures/screenshots\", \"can't delete\", \"failed to bin\".",
+        "target activity": ".share.SharouselActivity",
+        "the function of activity": "Share photos or vedios with other.",
+        "target state": "10048492ed176d635fee5dbbd67edd8e",
+        "the sub-task list of state": "[{'name': 'Create link', 'description': 'Create a link to share.'}, {'name': 'Send in Photos', 'description': 'Send selected photos.'}, {'name': 'Create Album', 'description': 'Create a new album.'}, {'name': 'Share', 'description': 'Share selected photos.'}, {'name': 'News Feed', 'description': 'View or interact with a news feed.'}, {'name': 'WhatsApp', 'description': 'Interact with WhatsApp.'}, {'name': 'Your Story', 'description': 'Add content to your story.'}, {'name': 'Your groups', 'description': 'Interact with your groups.'}, {'name': 'Nearby BETA', 'description': 'Access nearby BETA feature.'}, {'name': 'Set as profile picture', 'description': 'Set selected item as profile picture.'}, {'name': 'Momo', 'description': 'Interact with Momo.'}, {'name': 'More', 'description': 'Access more options or features.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment50\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment50\\0cac1a34967dc9a3d638703f8dff5193.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "0cac1a34967dc9a3d638703f8dff5193"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment50\\10048492ed176d635fee5dbbd67edd8e.png",
+                "activity": "com.google.android.apps.photos.share.SharouselActivity}",
+                "state_str": "10048492ed176d635fee5dbbd67edd8e"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "0cac1a34967dc9a3d638703f8dff5193",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=08bc7c8154b5c2ab796d26d767a03541(HomeActivity/ImageView-Photo take:x0:y1926))"
+            },
+            {
+                "from": "0cac1a34967dc9a3d638703f8dff5193",
+                "to": "10048492ed176d635fee5dbbd67edd8e",
+                "event": "click(state=0cac1a34967dc9a3d638703f8dff5193, view=6197c1853828cef195f5cb016dab6e60(HomeActivity/ImageView-Share:x86:y1993))"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

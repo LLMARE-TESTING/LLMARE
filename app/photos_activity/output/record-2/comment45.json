@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "It's a great app but recently started giving problems when saving a photo edited using the native editor on the SD card storage. It had been working well (5 stars) until about a month ago. It is unacceptable for a cataloging/gallery app to not be able to manage/use permissions well. As for now, every time this happens, the fix is to uninstall/disable the app or revert the app to factory settings, and then start again. Simply resetting/denying-and-granting permissions doesn't help.",
+        "key sentence": "SD card storage",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "e7293860b66c73e5472ed81051e992dd",
+        "the sub-task list of state": "[{'name': 'Library Page', 'description': 'Access library page.'}, {'name': 'View floder of backup pictures', 'description': 'View backup pictures in floder camera.'}, {'name': 'View Favorite floder', 'description': 'View Favorite floder'}, {'name': 'View Archive floder', 'description': 'View archive floder'}, {'name': 'View Locked floder', 'description': 'View locked floder'}, {'name': 'View Trash floder', 'description': 'View Trash floder'}, {'name': 'Create new album', 'description': 'Create a new album for organizing photos'}, {'name': 'Share album', 'description': 'Share an album with others'}, {'name': 'Delete album', 'description': 'Delete an existing album'}, {'name': 'Sort albums', 'description': 'Sort albums based on different criteria (e.g., date, name)'}, {'name': 'Account settings', 'description': 'Access and manage account settings'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment45\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment45\\e7293860b66c73e5472ed81051e992dd.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "e7293860b66c73e5472ed81051e992dd"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment45\\368529337133909483.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "368529337133909483"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment45\\514995012770305933.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "514995012770305933"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment45\\368529337133909483.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "368529337133909483"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment45\\368529337133909483.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "368529337133909483"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment45\\368529337133909483.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "368529337133909483"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment45\\368529337133909483.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "368529337133909483"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment45\\368529337133909483.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "368529337133909483"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment45\\368529337133909483.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "368529337133909483"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment45\\3711050050768657175.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "3711050050768657175"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "e7293860b66c73e5472ed81051e992dd",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=509b7bbe0ba0576daba0dd86d2183f27(HomeActivity/Button-Library:x540:y1928))"
+            },
+            {
+                "from": "e7293860b66c73e5472ed81051e992dd",
+                "to": "368529337133909483",
+                "event": "click<button id=35 class =\"com.google.android.gms:id/gh_search_box\" alt=\"Search help\">  </button>"
+            },
+            {
+                "from": "368529337133909483",
+                "to": "514995012770305933",
+                "event": "input<input id=9 class =\"com.google.android.gms:id/open_search_view_edit_text\"> Search help,  </input>SD card storage"
+            },
+            {
+                "from": "514995012770305933",
+                "to": "368529337133909483",
+                "event": "click<button id=10 class =\"com.google.android.gms:id/open_search_view_clear_button\" alt=\"Clear text\">  </button>"
+            },
+            {
+                "from": "368529337133909483",
+                "to": "368529337133909483",
+                "event": "click<button id=33 class =\"com.google.android.gms:id/gh_help_content_line_item\">  </button>"
+            },
+            {
+                "from": "368529337133909483",
+                "to": "368529337133909483",
+                "event": "click<button id=25 class =\"com.google.android.gms:id/gh_help_content_line_item\">  </button>"
+            },
+            {
+                "from": "368529337133909483",
+                "to": "368529337133909483",
+                "event": "click<p id=28 class =\"com.google.android.gms:id/gh_help_content_line_item_title\"> Allow your device's default gallery app to access Google Photos ...,  </p>"
+            },
+            {
+                "from": "368529337133909483",
+                "to": "368529337133909483",
+                "event": "click<button id=29 class =\"com.google.android.gms:id/gh_help_content_line_item\">  </button>"
+            },
+            {
+                "from": "368529337133909483",
+                "to": "368529337133909483",
+                "event": "click<button id=25 class =\"com.google.android.gms:id/gh_help_content_line_item\">  </button>"
+            },
+            {
+                "from": "368529337133909483",
+                "to": "3711050050768657175",
+                "event": "click<button id=16 alt=\"Navigate up\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

@@ -1,0 +1,100 @@
+[
+    {
+        "comment": "This was my absolute favorite app... I would take pictures and save screenshots and took notes. Then every month I would open my Google Drive and sort the pictures on my PC into folders for easy retrieval... But, they took that connection away, now I go through too many steps to sort my pictures anymore... So I stopped using my phone for that. I never realized how useful that was until it was taken away. Was a 5 star program for organizing my life, now it's just a 3 star photo sorting program.",
+        "key sentence": "The key words from the comment are: \"organizing my life\", \"photo sorting program\"",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state1",
+        "the sub-task list of state": "[{'name': 'Navigate up', 'description': 'Move to the parent screen'}, {'name': 'Favorite', 'description': 'Mark the item as a favorite'}, {'name': 'More options', 'description': 'Access additional options'}, {'name': 'Cast', 'description': 'Cast the photo.'}, {'name': 'Share', 'description': 'Share the item with others'}, {'name': 'Edit', 'description': 'Edit the item'}, {'name': 'Lens', 'description': 'Open the lens feature'}, {'name': 'Delete', 'description': 'Delete the item'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment69\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment69\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment69\\8435467178112833458.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8435467178112833458"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment69\\7673877545441569016.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7673877545441569016"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment69\\-6072797163382052762.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6072797163382052762"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment69\\-6072797163382052762.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6072797163382052762"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment69\\-6072797163382052762.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6072797163382052762"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment69\\-6072797163382052762.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6072797163382052762"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment69\\-6072797163382052762.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6072797163382052762"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "8435467178112833458",
+                "event": "click<button id=24 class =\"com.google.android.apps.photos:id/action_bar_overflow\">  </button>"
+            },
+            {
+                "from": "state1",
+                "to": "7673877545441569016",
+                "event": "click<button id=24 class =\"com.google.android.apps.photos:id/photos_pager_menu_save_to_device\"> Download,  </button>"
+            },
+            {
+                "from": "state1",
+                "to": "-6072797163382052762",
+                "event": "click<button id=22 class =\"com.google.android.apps.photos:id/photos_pager_menu_add_to_album\"> Add to album,  </button>"
+            },
+            {
+                "from": "state1",
+                "to": "-6072797163382052762",
+                "event": "click<p id=21 class =\"com.google.android.apps.photos:id/title\"> All albums,  </p>"
+            },
+            {
+                "from": "state1",
+                "to": "-6072797163382052762",
+                "event": "click<p id=8 class =\"com.google.android.apps.photos:id/title\"> Recent,  </p>"
+            },
+            {
+                "from": "state1",
+                "to": "-6072797163382052762",
+                "event": "click<p id=21 class =\"com.google.android.apps.photos:id/title\"> All albums,  </p>"
+            },
+            {
+                "from": "state1",
+                "to": "-6072797163382052762",
+                "event": "click<p id=23 class =\"com.google.android.apps.photos:id/title\"> Shared,  </p>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

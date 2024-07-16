@@ -1,0 +1,170 @@
+[
+    {
+        "comment": "Great App! The photo library and collages are an excellent feature when trying to group photos or send them to friends or family.",
+        "key sentence": "The key words: photo library, collages",
+        "target activity": ".photoeditor.fragments.activity.PhotoEditorActivity",
+        "the function of activity": "An image editing tool with functions to search contacts, open menus, apply blur, remove parts, edit sky, switch tabs, cancel, save, adjust, add text, rotate, resize, adjust brightness, apply filters, undo, and redo.",
+        "target state": "state14",
+        "the sub-task list of state": "[{'name': 'Add text', 'description': 'Insert text onto the photo'}, {'name': 'Pen', 'description': 'Use pen to markup on the photo'}, {'name': 'Highlighter', 'description': 'Use highlighter to markup on the photo'}, {'name': 'Draw', 'description': 'Use a drawing tool to make annotations on the photo'}, {'name': 'Undo/Redo', 'description': 'Undo or redo the last edit made to the photo'}, {'name': 'Save', 'description': 'Save the edited photo'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\state2.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\state10.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\state11.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\state12.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\state13.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\state14.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state14"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\-6147847442780940996.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-6147847442780940996"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\-882634684581670420.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-882634684581670420"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\-882634684581670420.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-882634684581670420"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\-4222133249968865517.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-4222133249968865517"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\-1431334440797853465.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1431334440797853465"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\-8064746023111326644.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-8064746023111326644"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\9210774200973958263.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "9210774200973958263"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\5862882294968131652.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "5862882294968131652"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "state2",
+                "event": "click(ImageView-Edit:[337,1993][491,2148])"
+            },
+            {
+                "from": "state2",
+                "to": "state10",
+                "event": "click(TextView-Crop{Change to crop tab}:[740,1868][952,1966])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(TextView-Tools{Change to tools tab}:[646,1868][864,1966])"
+            },
+            {
+                "from": "state11",
+                "to": "state12",
+                "event": "click(TextView-Adjust{Change to adjust tab}:[649,1868][889,1966])"
+            },
+            {
+                "from": "state12",
+                "to": "state13",
+                "event": "click(TextView-Filters{Change to filters tab}:[660,1868][896,1966])"
+            },
+            {
+                "from": "state13",
+                "to": "state14",
+                "event": "click(TextView-Markup{Change to markup tab}:[658,1868][920,1966])"
+            },
+            {
+                "from": "state14",
+                "to": "-6147847442780940996",
+                "event": "click<p id=31 alt=\"Change to markup tab\"> Markup,  </p>"
+            },
+            {
+                "from": "state14",
+                "to": "-882634684581670420",
+                "event": "click<p id=30 alt=\"Change to filters tab\"> Filters,  </p>"
+            },
+            {
+                "from": "state14",
+                "to": "-882634684581670420",
+                "event": "click<button id=38 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_tab_container\">  </button>"
+            },
+            {
+                "from": "state14",
+                "to": "-4222133249968865517",
+                "event": "click<button id=45 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_cancel\"> Cancel,  </button>"
+            },
+            {
+                "from": "state14",
+                "to": "-1431334440797853465",
+                "event": "click<button id=21 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "state14",
+                "to": "-8064746023111326644",
+                "event": "click<button id=39 class =\"com.google.android.apps.photos:id/action_bar_create\" alt=\"Creations\">  </button>"
+            },
+            {
+                "from": "state14",
+                "to": "9210774200973958263",
+                "event": "click<button id=12 class =\"com.google.android.apps.photos:id/new_creation_item\">  </button>"
+            },
+            {
+                "from": "state14",
+                "to": "5862882294968131652",
+                "event": "click<button id=14 class =\"com.google.android.apps.photos:id/photos_create_movie_assistivecreation_manual_creation\"> or select photos,  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

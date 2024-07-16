@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "Day by day Google is making interface boring. First I open app it shows random photos. Then I have to select library, then I have to select view all, then I have to find folder. Are you guys out of your mind? On the name of update u r playing with interface, and day by day u r making it worst. Just reffer samsung gallery simple yet user friendly. I regret that I bought stock Android.",
+        "key sentence": "The key words: interface, library, view all, folder",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "fdedbaae0d7db088bdc1a119bf22aa84",
+        "the sub-task list of state": "[{'name': 'Creations', 'description': 'Access creations menu'}, {'name': 'Sharing', 'description': 'Access sharing options'}, {'name': 'Account and Settings', 'description': 'Access account and settings information'}, {'name': 'Photos Tab', 'description': 'Navigate to the Photos tab'}, {'name': 'Memories Tab', 'description': 'Navigate to the Memories tab'}, {'name': 'Library Tab', 'description': 'Navigate to the Library tab'}, {'name': 'Search Destination', 'description': 'Navigate to the search destination'}, {'name': 'View Photos', 'description': 'Sorll/swipe to view more photos or vedios.Click to view details about photos or vedios. '}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment63\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment63\\3282137444793660317.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "3282137444793660317"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment63\\-8409974599433186926.png",
+                "activity": "com.google.android.apps.photos.albums.grid.DeviceFoldersActivity}",
+                "state_str": "-8409974599433186926"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "3282137444793660317",
+                "event": "click<button id=47 class =\"com.google.android.apps.photos:id/tab_library\"> Library,  </button>"
+            },
+            {
+                "from": "3282137444793660317",
+                "to": "-8409974599433186926",
+                "event": "click<button id=17 class =\"com.google.android.apps.photos:id/view_all_button\"> View all,  </button>"
+            }
+        ],
+        "Final answer": "YES"
+    }
+]

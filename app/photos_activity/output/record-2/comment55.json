@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "I have a problem which is a very annoying bug and other is a misisng feature. 1. The bug is from my single phone all my photos and videos have got backup second time and now they all are double, which is very annoying to see. 2. The most important and missing feature is automatic delete suggestin of Duplicate photos and videos where the app can simply automatically click the second file and uncheck the first and then we can just simply click delete. Boom, problem solved, please include this.",
+        "key sentence": "duplicate photos and videos",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Account Settings', 'description': 'Accessing and managing account settings'}, {'name': 'Turn ON/OFF Backup', 'description': 'Turn on or turn off backup.'}, {'name': 'Free Up Space', 'description': 'Deleting and managing storage space for photos'}, {'name': 'Photos Settings', 'description': 'Adjusting various settings related to photos'}, {'name': 'Help and Feedback', 'description': 'Accessing help and feedback options'}, {'name': 'Privacy Policy', 'description': 'Viewing the privacy policy'}, {'name': 'Terms of Service', 'description': 'Viewing the terms of service'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment55\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment55\\state8.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment55\\3186036762405748371.png",
+                "activity": "com.google.android.apps.photos.settings.SettingsActivityV2}",
+                "state_str": "3186036762405748371"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment55\\-4335917520237193633.png",
+                "activity": "com.google.android.apps.photos.settings.CustomizationActivity}",
+                "state_str": "-4335917520237193633"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment55\\2414672315499000776.png",
+                "activity": "com.google.android.apps.photos.settings.cleangrid.impl.NearDupesSettingsActivity}",
+                "state_str": "2414672315499000776"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment55\\-3456647600130713411.png",
+                "activity": "com.google.android.apps.photos.settings.cleangrid.impl.NearDupesSettingsActivity}",
+                "state_str": "-3456647600130713411"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment55\\2414672315499000776.png",
+                "activity": "com.google.android.apps.photos.settings.cleangrid.impl.NearDupesSettingsActivity}",
+                "state_str": "2414672315499000776"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment55\\-4335917520237193633.png",
+                "activity": "com.google.android.apps.photos.settings.CustomizationActivity}",
+                "state_str": "-4335917520237193633"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment55\\3186036762405748371.png",
+                "activity": "com.google.android.apps.photos.settings.SettingsActivityV2}",
+                "state_str": "3186036762405748371"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment55\\-6686829782071098053.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "-6686829782071098053"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment55\\1274652210711105213.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.summary.SummaryActivity}",
+                "state_str": "1274652210711105213"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state8",
+                "event": "click(FrameLayout-Signed in as ran Jin jinran848@gmail.com.Backup is off.Account and settings.:[925,104][1080,237])"
+            },
+            {
+                "from": "state8",
+                "to": "3186036762405748371",
+                "event": "click<p id=57 class =\"com.google.android.apps.photos:id/og_text_card_title\"> Photos settings,  </p>"
+            },
+            {
+                "from": "3186036762405748371",
+                "to": "-4335917520237193633",
+                "event": "click<button id=8 class =\"com.google.android.apps.photos:id/customization_button\"> Preferences,  </button>"
+            },
+            {
+                "from": "-4335917520237193633",
+                "to": "2414672315499000776",
+                "event": "click<button id=3 class =\"com.google.android.apps.photos:id/clean_grid_button\">  </button>"
+            },
+            {
+                "from": "2414672315499000776",
+                "to": "-3456647600130713411",
+                "event": "click<button id=5 class =\"com.google.android.apps.photos:id/stack_setting_section\">  </button>"
+            },
+            {
+                "from": "-3456647600130713411",
+                "to": "2414672315499000776",
+                "event": "click<button id=8 class =\"com.google.android.apps.photos:id/stack_setting_switch\">  </button>"
+            },
+            {
+                "from": "2414672315499000776",
+                "to": "-4335917520237193633",
+                "event": "click<button id=11 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-4335917520237193633",
+                "to": "3186036762405748371",
+                "event": "click<button id=21 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "3186036762405748371",
+                "to": "-6686829782071098053",
+                "event": "click<button id=3 class =\"com.google.android.apps.photos:id/backup_button\">  </button>"
+            },
+            {
+                "from": "-6686829782071098053",
+                "to": "1274652210711105213",
+                "event": "click<button id=33 class =\"com.google.android.apps.photos:id/photos_backup_settings_manage_storage_button\"> Manage storage,  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

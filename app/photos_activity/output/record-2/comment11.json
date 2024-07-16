@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Why is it that Google took away the most useful feature of this app from Android but left it for Apple? (i.e. the cloud icon in the upper corner of the photo thumbnails to let you know if a photo is backed up or not). It made managing your backed up photos so much easier! Now you have to guess, unless you choose to have everything backed up to your account (including all your useless and junk photos). At least make it an option to turn on or off! This isn't rocket science Google!",
+        "key sentence": "the cloud icon in the upper corner of the photo thumbnails",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Account Settings', 'description': 'Accessing and managing account settings'}, {'name': 'Turn ON/OFF Backup', 'description': 'Turn on or turn off backup.'}, {'name': 'Free Up Space', 'description': 'Deleting and managing storage space for photos'}, {'name': 'Photos Settings', 'description': 'Adjusting various settings related to photos'}, {'name': 'Help and Feedback', 'description': 'Accessing help and feedback options'}, {'name': 'Privacy Policy', 'description': 'Viewing the privacy policy'}, {'name': 'Terms of Service', 'description': 'Viewing the terms of service'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment11\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment11\\state8.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment11\\3680233561323015239.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "3680233561323015239"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment11\\3680233561323015239.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "3680233561323015239"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment11\\8786701288602698180.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8786701288602698180"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment11\\-6337020350957931820.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-6337020350957931820"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment11\\3680233561323015239.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "3680233561323015239"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment11\\-5857449632641645314.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5857449632641645314"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment11\\6035741312991574954.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "6035741312991574954"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment11\\-5857449632641645314.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5857449632641645314"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment11\\3680233561323015239.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "3680233561323015239"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state8",
+                "event": "click(FrameLayout-Signed in as ran Jin jinran848@gmail.com.Backup is off.Account and settings.:[925,104][1080,237])"
+            },
+            {
+                "from": "state8",
+                "to": 3680233561323015239,
+                "event": "back"
+            },
+            {
+                "from": 3680233561323015239,
+                "to": "3680233561323015239",
+                "event": "click<button id=46 class =\"com.google.android.apps.photos:id/tab_photos\"> Photos,  </button>"
+            },
+            {
+                "from": "3680233561323015239",
+                "to": "8786701288602698180",
+                "event": "click<button id=17 class =\"com.google.android.apps.photos:id/photos_allphotos_gridcontrols_button\" alt=\"Grid controls menu button\">  </button>"
+            },
+            {
+                "from": "8786701288602698180",
+                "to": "-6337020350957931820",
+                "event": "click<button id=10 class =\"com.google.android.apps.photos:id/cleangrid_near_dupes_setting_section\">  </button>"
+            },
+            {
+                "from": "-6337020350957931820",
+                "to": 3680233561323015239,
+                "event": "back"
+            },
+            {
+                "from": 3680233561323015239,
+                "to": "-5857449632641645314",
+                "event": "click<img id=23 alt=\"Photo taken on Jun 14, 2024 3:22:00 PM\">  </img>"
+            },
+            {
+                "from": "-5857449632641645314",
+                "to": "6035741312991574954",
+                "event": "click<button id=24 class =\"com.google.android.apps.photos:id/action_bar_overflow\">  </button>"
+            },
+            {
+                "from": "6035741312991574954",
+                "to": -5857449632641645314,
+                "event": "back"
+            },
+            {
+                "from": -5857449632641645314,
+                "to": "3680233561323015239",
+                "event": "click<button id=21 alt=\"Navigate up\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

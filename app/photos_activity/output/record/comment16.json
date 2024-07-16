@@ -1,0 +1,100 @@
+[
+    {
+        "comment": "This app provides a great way of storing and viewing my photos in an orderly way. You can make it automatically update your photos to your drive so that if you run out of memory you can remove them from your device with the click of a button. It also creates filtered items and albums for you from certain groups of pictures. Really glad I keep it updated for all of the useful features!",
+        "key sentence": "Key words: storing and viewing photos",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "fdedbaae0d7db088bdc1a119bf22aa84",
+        "the sub-task list of state": "[{'name': 'Creations', 'description': 'Access creations menu'}, {'name': 'Sharing', 'description': 'Access sharing options'}, {'name': 'Account and Settings', 'description': 'Access account and settings information'}, {'name': 'Photos Tab', 'description': 'Navigate to the Photos tab'}, {'name': 'Memories Tab', 'description': 'Navigate to the Memories tab'}, {'name': 'Library Tab', 'description': 'Navigate to the Library tab'}, {'name': 'Search Destination', 'description': 'Navigate to the search destination'}, {'name': 'View Photos', 'description': 'Sorll/swipe to view more photos or vedios.Click to view details about photos or vedios. '}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment16\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment16\\-3914234949003939019.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-3914234949003939019"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment16\\-3914234949003939019.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-3914234949003939019"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment16\\-3343345490331798314.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-3343345490331798314"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment16\\-3077369412930940315.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-3077369412930940315"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment16\\-3077369412930940315.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-3077369412930940315"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment16\\1882023243410966824.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "1882023243410966824"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment16\\-1431334440797853465.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1431334440797853465"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment16\\-1431334440797853465.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1431334440797853465"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-3914234949003939019",
+                "event": "click<button id=6 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-3914234949003939019",
+                "event": "click<div id=0 class =\"com.google.android.gms:id/action_bar_root\">  </div>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": -3343345490331798314,
+                "event": "back"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-3077369412930940315",
+                "event": "click<button id=8 class =\"android:id/button1\"> Discard,  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-3077369412930940315",
+                "event": "click<button id=4 alt=\"Apps list\">  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "1882023243410966824",
+                "event": "click<button id=22 alt=\"Folder: Google, 2 items\">  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-1431334440797853465",
+                "event": "click<button id=5> Photos,  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-1431334440797853465",
+                "event": "click<button id=47 class =\"com.google.android.apps.photos:id/tab_photos\"> Photos,  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

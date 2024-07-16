@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "It's a great app but recently started giving problems when saving a photo edited using the native editor on the SD card storage. It had been working well (5 stars) until about a month ago. It is unacceptable for a cataloging/gallery app to not be able to manage/use permissions well. As for now, every time this happens, the fix is to uninstall/disable the app or revert the app to factory settings, and then start again. Simply resetting/denying-and-granting permissions doesn't help.",
+        "key sentence": "SD card storage",
+        "target activity": ".photoeditor.fragments.activity.VideoPhotoEditorActivity",
+        "the function of activity": "The activity involves searching for contacts, opening a menu, editing photos, playing videos, trimming and muting videos, stabilizing videos, exporting frames, changing tabs, cancelling operations, and saving edited copies.",
+        "target state": "state27",
+        "the sub-task list of state": "[{'name': 'Edit Vedio', 'description': 'Open the vedio editing tools'}, {'name': 'Play Video', 'description': 'Start playing a video'}, {'name': 'Trim Video', 'description': 'Trim the video from the start or end'}, {'name': 'Mute Video', 'description': 'Mute the audio of the video'}, {'name': 'Stabilize Video', 'description': 'Apply video stabilization'}, {'name': 'Export Frame', 'description': 'Export a frame from the video'}, {'name': 'Change Tab', 'description': 'Switch between different editing tabs (e.g., video, crop, adjust)'}, {'name': 'Cancel', 'description': 'Cancel the current editing operation'}, {'name': 'Save Copy', 'description': 'Save a copy of the edited photo or video'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment41\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment41\\2bf2129a216d44c43d9582405daea4d6.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2bf2129a216d44c43d9582405daea4d6"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment41\\455b9f0c7c955e9c8f56a725297d2b2e.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "455b9f0c7c955e9c8f56a725297d2b2e"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment41\\state27.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.VideoPhotoEditorActivity}",
+                "state_str": "state27"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment41\\1001706890713877998.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.VideoPhotoEditorActivity}",
+                "state_str": "1001706890713877998"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment41\\-737868558996874855.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-737868558996874855"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment41\\5740401805577770213.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "5740401805577770213"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment41\\-2910754600784438836.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-2910754600784438836"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment41\\-5288867767949163032.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5288867767949163032"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment41\\-2910754600784438836.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-2910754600784438836"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment41\\-2910754600784438836.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-2910754600784438836"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "2bf2129a216d44c43d9582405daea4d6",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=81a0e69badae53d8d68074a18e207d00(HomeActivity/ImageView-Video take:x0:y1010))"
+            },
+            {
+                "from": "2bf2129a216d44c43d9582405daea4d6",
+                "to": "455b9f0c7c955e9c8f56a725297d2b2e",
+                "event": "click(state=2bf2129a216d44c43d9582405daea4d6, view=10af35da841bbb2aecc619e81a2cc7da(HomeActivity/FrameLayout-:x0:y0))"
+            },
+            {
+                "from": "455b9f0c7c955e9c8f56a725297d2b2e",
+                "to": "state27",
+                "event": "click(android.widget.ImageView-com.google.android.apps.photos:id/edit:[462,1993][616,2148])"
+            },
+            {
+                "from": "state27",
+                "to": "1001706890713877998",
+                "event": "click<button id=46 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_save\"> Save copy,  </button>"
+            },
+            {
+                "from": "1001706890713877998",
+                "to": -737868558996874855,
+                "event": "back"
+            },
+            {
+                "from": -737868558996874855,
+                "to": "5740401805577770213",
+                "event": "click<div id=21 class =\"com.google.android.apps.photos:id/drawer_layout\">  </div>"
+            },
+            {
+                "from": "5740401805577770213",
+                "to": "-2910754600784438836",
+                "event": "click<button id=40 class =\"com.google.android.apps.photos:id/action_bar_overflow\">  </button>"
+            },
+            {
+                "from": "-2910754600784438836",
+                "to": "-5288867767949163032",
+                "event": "click<button id=27 class =\"com.google.android.apps.photos:id/photos_pager_menu_remove_from_device\"> Delete from device,  </button>"
+            },
+            {
+                "from": "-5288867767949163032",
+                "to": -2910754600784438836,
+                "event": "back"
+            },
+            {
+                "from": -2910754600784438836,
+                "to": "-2910754600784438836",
+                "event": "click<p id=40 class =\"com.google.android.apps.photos:id/label\"> On device (7.6 MB),  </p>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "comment": "Keeps nagging about updates because I'm \"missing out\" on features. Please allow me to toggle these nags off, it's extremely annoying.",
+        "key sentence": "The key words: updates, nagging",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Account Settings', 'description': 'Accessing and managing account settings'}, {'name': 'Backup Photos', 'description': 'Enabling and managing photo backup settings'}, {'name': 'Free Up Space', 'description': 'Deleting and managing storage space for photos'}, {'name': 'Photos Settings', 'description': 'Adjusting various settings related to photos'}, {'name': 'Help and Feedback', 'description': 'Accessing help and feedback options'}, {'name': 'Privacy Policy', 'description': 'Viewing the privacy policy'}, {'name': 'Terms of Service', 'description': 'Viewing the terms of service'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment76\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment76\\state8.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment76\\5504538258821320894.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "5504538258821320894"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment76\\-3421958005705609441.png",
+                "activity": "",
+                "state_str": "-3421958005705609441"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment76\\5504538258821320894.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "5504538258821320894"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment76\\-3421958005705609441.png",
+                "activity": "",
+                "state_str": "-3421958005705609441"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment76\\5727620145477742411.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "5727620145477742411"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state8",
+                "event": "click(FrameLayout-Signed in as ran Jin jinran848@gmail.com.Backup is off.Account and settings.:[925,104][1080,237])"
+            },
+            {
+                "from": "state8",
+                "to": "5504538258821320894",
+                "event": "click<button id=56 class =\"com.google.android.apps.photos:id/og_card\">  </button>"
+            },
+            {
+                "from": "state8",
+                "to": "-3421958005705609441",
+                "event": "click<img id=9 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "state8",
+                "to": 5504538258821320894,
+                "event": "back"
+            },
+            {
+                "from": "state8",
+                "to": "-3421958005705609441",
+                "event": "click<img id=9 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "state8",
+                "to": "5727620145477742411",
+                "event": "click<p id=5 class =\"com.google.android.gms:id/title\"> Version info,  </p>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

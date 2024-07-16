@@ -1,0 +1,170 @@
+[
+    {
+        "comment": "Keeps nagging about updates because I'm \"missing out\" on features. Please allow me to toggle these nags off, it's extremely annoying.",
+        "key sentence": "The key words: updates, toggle nags off",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state23",
+        "the sub-task list of state": "[{'name': 'Share', 'description': 'Share selected items'}, {'name': 'Add to', 'description': 'Add selected items to another location'}, {'name': 'Delete', 'description': 'Delete selected items'}, {'name': 'Move to Archive', 'description': 'Move selected items to archive'}, {'name': 'Delete from device', 'description': 'Delete selected items from the device'}, {'name': 'Add to album', 'description': 'Add selected items to an album'}, {'name': 'View all', 'description': 'View all album'}, {'name': 'Zoom in', 'description': 'Zoom in on the screen'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment70\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment70\\state22.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state22"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment70\\state21.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state21"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment70\\state23.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state23"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment70\\-5122313701162932767.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5122313701162932767"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment70\\-5122313701162932767.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5122313701162932767"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment70\\-5122313701162932767.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5122313701162932767"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment70\\-3033196105858932010.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-3033196105858932010"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment70\\4647594923503385295.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "4647594923503385295"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment70\\-3033196105858932010.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-3033196105858932010"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment70\\-5122313701162932767.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5122313701162932767"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment70\\4647594923503385295.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "4647594923503385295"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment70\\-5122313701162932767.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5122313701162932767"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment70\\-5122313701162932767.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5122313701162932767"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment70\\4647594923503385295.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "4647594923503385295"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment70\\-5122313701162932767.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5122313701162932767"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state22",
+                "event": "long-click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[363,1010][718,1365])"
+            },
+            {
+                "from": "state22",
+                "to": "state21",
+                "event": "long-click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[726,1010][1080,1365])"
+            },
+            {
+                "from": "state21",
+                "to": "state23",
+                "event": "scroll-up(android.view.View-com.google.android.apps.photos:id/handle:[0,1895][1080,1906])"
+            },
+            {
+                "from": "state23",
+                "to": "-5122313701162932767",
+                "event": "click<button id=33 class =\"com.google.android.apps.photos:id/photos_allphotos_floating_gridcontrols_button\" alt=\"Grid controls menu button\">  </button>"
+            },
+            {
+                "from": "state23",
+                "to": "-5122313701162932767",
+                "event": "click<div id=7 class =\"com.google.android.apps.photos:id/gridcontrols_settings\">  </div>"
+            },
+            {
+                "from": "state23",
+                "to": "-5122313701162932767",
+                "event": "click<div id=6 class =\"com.google.android.apps.photos:id/gridcontrols_settings_menu\">  </div>"
+            },
+            {
+                "from": "state23",
+                "to": "-3033196105858932010",
+                "event": "click<div id=13 class =\"com.google.android.apps.photos:id/cleangrid_setting_switch\">  </div>"
+            },
+            {
+                "from": "state23",
+                "to": 4647594923503385295,
+                "event": "back"
+            },
+            {
+                "from": "state23",
+                "to": "-3033196105858932010",
+                "event": "click<button id=33 class =\"com.google.android.apps.photos:id/photos_allphotos_floating_gridcontrols_button\" alt=\"Grid controls menu button\">  </button>"
+            },
+            {
+                "from": "state23",
+                "to": "-5122313701162932767",
+                "event": "click<div id=13 class =\"com.google.android.apps.photos:id/cleangrid_setting_switch\">  </div>"
+            },
+            {
+                "from": "state23",
+                "to": 4647594923503385295,
+                "event": "back"
+            },
+            {
+                "from": "state23",
+                "to": "-5122313701162932767",
+                "event": "click<button id=33 class =\"com.google.android.apps.photos:id/photos_allphotos_floating_gridcontrols_button\" alt=\"Grid controls menu button\">  </button>"
+            },
+            {
+                "from": "state23",
+                "to": "-5122313701162932767",
+                "event": "click<div id=7 class =\"com.google.android.apps.photos:id/gridcontrols_settings\">  </div>"
+            },
+            {
+                "from": "state23",
+                "to": 4647594923503385295,
+                "event": "back"
+            },
+            {
+                "from": "state23",
+                "to": "-5122313701162932767",
+                "event": "click<button id=33 class =\"com.google.android.apps.photos:id/photos_allphotos_floating_gridcontrols_button\" alt=\"Grid controls menu button\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

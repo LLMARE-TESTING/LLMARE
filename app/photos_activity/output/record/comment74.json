@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "I have used this app for years and love the search feature and person/pet recognition. The memories and short videos it creates automatically are fun! Editing capabilities are getting better, but still no way to adjust exposure. A recent update added extra (security?) steps before saving edited images or deleting from the app - very annoying! I will be looking for a new app to manage my photos if this isn't resolved.",
+        "key sentence": "The key words from the comment are: \"search feature\", \"person/pet recognition\", \"memories\", \"short videos\", \"editing capabilities\", \"adjust exposure\", \"update\", \"extra steps\", \"security\", \"saving edited images\", \"deleting from the app\", \"annoying\", \"looking for a new app\".",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "fdedbaae0d7db088bdc1a119bf22aa84",
+        "the sub-task list of state": "[{'name': 'Creations', 'description': 'Access creations menu'}, {'name': 'Sharing', 'description': 'Access sharing options'}, {'name': 'Account and Settings', 'description': 'Access account and settings information'}, {'name': 'Photos Tab', 'description': 'Navigate to the Photos tab'}, {'name': 'Memories Tab', 'description': 'Navigate to the Memories tab'}, {'name': 'Library Tab', 'description': 'Navigate to the Library tab'}, {'name': 'Search Destination', 'description': 'Navigate to the search destination'}, {'name': 'View Photos', 'description': 'Sorll/swipe to view more photos or vedios.Click to view details about photos or vedios. '}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment74\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment74\\-973611131502739111.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-973611131502739111"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment74\\-973611131502739111.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-973611131502739111"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-973611131502739111",
+                "event": "click<button id=50 class =\"com.google.android.apps.photos:id/search_destination\"> Search,  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-973611131502739111",
+                "event": "click<p id=11 class =\"com.google.android.apps.photos:id/heading_text\"> People,  </p>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

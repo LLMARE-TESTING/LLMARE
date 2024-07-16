@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "Best app on the market. There just needs to be a different password for the locked folder instead of the device screen lock password or the option to use only finger or face to unlock. Everything else is fine.",
+        "key sentence": "the locked folder",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state20",
+        "the sub-task list of state": "[{'name': 'Add to album', 'description': 'Add this photo to an album'}, {'name': 'Move to Archive', 'description': 'Move this photo to archive'}, {'name': 'Delete from device', 'description': 'Delete this photo from the device'}, {'name': 'Create', 'description': 'Create something related to this photo'}, {'name': 'Move to Locked Folder', 'description': 'Move this photo to a locked folder'}, {'name': 'Edit', 'description': 'Edit the date/time of the photo'}, {'name': 'Add a caption', 'description': 'Add a caption to this photo'}, {'name': 'Effects', 'description': 'Apply effects to this photo'}, {'name': 'Search Inside this Photo', 'description': 'Search text inside the photo.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment37\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment37\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment37\\state20.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state20"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment37\\-1826418323548829527.png",
+                "activity": "com.google.android.apps.photos.mars.entry.MarsOnboardingActivity}",
+                "state_str": "-1826418323548829527"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "state20",
+                "event": "click(ImageView-More options:[964,94][1063,248])"
+            },
+            {
+                "from": "state20",
+                "to": "-1826418323548829527",
+                "event": "click<button id=26 class =\"com.google.android.apps.photos:id/photos_pager_menu_move_to_mars\"> Move to Locked Folder,  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

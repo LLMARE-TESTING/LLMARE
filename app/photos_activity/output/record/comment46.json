@@ -1,0 +1,60 @@
+[
+    {
+        "comment": "If the option 'Save to SD card' in the stock camera app is turned on, every picture I take is rotated 90 degrees to the left when I view it. If I press on the preview really quick after taking a picture I see the image with correct orientation and the text 'Processing photo' for a short moment. After that the image is rotated. The thumbnail in the gallery app shows the picture upright, but when I open it to show full screen, the image automatically rotates to the left again.",
+        "key sentence": "The key words from the comment are: \"Save to SD card\", \"stock camera app\", \"rotated 90 degrees\", \"preview\", \"Processing photo\", \"thumbnail\", \"gallery app\", \"full screen\".",
+        "target activity": ".photoeditor.fragments.activity.PhotoEditorActivity",
+        "the function of activity": "An image editing tool with functions to search contacts, open menus, apply blur, remove parts, edit sky, switch tabs, cancel, save, adjust, add text, rotate, resize, adjust brightness, apply filters, undo, and redo.",
+        "target state": "state10",
+        "the sub-task list of state": "[{'name': 'Auto crop and straighten', 'description': 'Automatically crop and straighten the image'}, {'name': 'Choose crop aspect ratio', 'description': 'Select a specific aspect ratio for cropping'}, {'name': 'Rotate 90 degrees counter-clockwise', 'description': 'Rotate the image 90 degrees in a counter-clockwise direction'}, {'name': 'Crop document', 'description': 'Crop the image to focus on a document'}, {'name': 'Reset crop', 'description': 'Reset the cropping of the image to its original state'}, {'name': 'Cancel', 'description': 'Cancel the current editing and go back to the previous screen'}, {'name': 'Save copy', 'description': 'Save a copy of the edited image'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment46\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment46\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment46\\state2.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment46\\state10.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment46\\8579266502692987817.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "8579266502692987817"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "state2",
+                "event": "click(ImageView-Edit:[337,1993][491,2148])"
+            },
+            {
+                "from": "state2",
+                "to": "state10",
+                "event": "click(TextView-Crop{Change to crop tab}:[740,1868][952,1966])"
+            },
+            {
+                "from": "state10",
+                "to": "8579266502692987817",
+                "event": "click<button id=24 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_rotate_90\" alt=\"Rotate 90 degrees counter-clockwise\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

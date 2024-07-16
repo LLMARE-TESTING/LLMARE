@@ -1,0 +1,140 @@
+[
+    {
+        "comment": "Great User Interface! It's easy to navigate, organize, and use and it doesn't feel cluttered or overwhelming. Another great feature is the app's ability to sense when you are low on space, have photos that aren't backed up, or when you have copies of already saved photos and automatically suggest the solution! All a user has to do is press a button and the app with automatically work with your phone to sync photos, archive things, organize your photos by subject, and delete old copies!",
+        "key sentence": "Key words: user interface, navigate, organize, cluttered, overwhelming, low on space, photos, backed up, copies, sync photos, archive, organize by subject, delete old copies",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Account Settings', 'description': 'Accessing and managing account settings'}, {'name': 'Backup Photos', 'description': 'Enabling and managing photo backup settings'}, {'name': 'Free Up Space', 'description': 'Deleting and managing storage space for photos'}, {'name': 'Photos Settings', 'description': 'Adjusting various settings related to photos'}, {'name': 'Help and Feedback', 'description': 'Accessing help and feedback options'}, {'name': 'Privacy Policy', 'description': 'Viewing the privacy policy'}, {'name': 'Terms of Service', 'description': 'Viewing the terms of service'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment8\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment8\\state8.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment8\\-5595025212590715208.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.summary.SummaryActivity}",
+                "state_str": "-5595025212590715208"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment8\\-2695962662536585492.png",
+                "activity": "com.google.android.apps.photos.cloudstorage.buystorage.googleone.directflow.impl.GoogleOneOfferDirectFlowActivity}",
+                "state_str": "-2695962662536585492"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment8\\-5595025212590715208.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.summary.SummaryActivity}",
+                "state_str": "-5595025212590715208"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment8\\-3673165750477658428.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-3673165750477658428"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment8\\-3646949607847993907.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-3646949607847993907"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment8\\8729938983259804625.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8729938983259804625"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment8\\8729938983259804625.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8729938983259804625"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment8\\5254081122367786409.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "5254081122367786409"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment8\\-5595025212590715208.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.summary.SummaryActivity}",
+                "state_str": "-5595025212590715208"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment8\\-5595025212590715208.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.summary.SummaryActivity}",
+                "state_str": "-5595025212590715208"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment8\\-9016878893620886922.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.cleanup.SmartCleanupActivity}",
+                "state_str": "-9016878893620886922"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state8",
+                "event": "click(FrameLayout-Signed in as ran Jin jinran848@gmail.com.Backup is off.Account and settings.:[925,104][1080,237])"
+            },
+            {
+                "from": "state8",
+                "to": "-5595025212590715208",
+                "event": "click<button id=28 class =\"com.google.android.apps.photos:id/og_card\" alt=\"Account storage&#10;84 MB of 15 GB used\">  </button>"
+            },
+            {
+                "from": "state8",
+                "to": "-2695962662536585492",
+                "event": "click<button id=27 class =\"com.google.android.apps.photos:id/storage_purchase_cta\"> Unlock storage discount,  </button>"
+            },
+            {
+                "from": "state8",
+                "to": "-5595025212590715208",
+                "event": "click<img id=2 class =\"com.google.android.apps.photos:id/photos_cloudstorage_ui_freetrial_impl_onboarding_close_button\" alt=\"Dismiss\">  </img>"
+            },
+            {
+                "from": "state8",
+                "to": "-3673165750477658428",
+                "event": "click<button id=4 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "state8",
+                "to": "-3646949607847993907",
+                "event": "click<button id=50 class =\"com.google.android.apps.photos:id/search_destination\"> Search,  </button>"
+            },
+            {
+                "from": "state8",
+                "to": "8729938983259804625",
+                "event": "click<button id=54 class =\"com.google.android.apps.photos:id/tab_library\"> Library,  </button>"
+            },
+            {
+                "from": "state8",
+                "to": "8729938983259804625",
+                "event": "click<button id=64 class =\"com.google.android.apps.photos:id/tab_library\"> Library,  </button>"
+            },
+            {
+                "from": "state8",
+                "to": "5254081122367786409",
+                "event": "click<button id=56 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "state8",
+                "to": "-5595025212590715208",
+                "event": "click<button id=28 class =\"com.google.android.apps.photos:id/og_card\" alt=\"Account storage&#10;84 MB of 15 GB used\">  </button>"
+            },
+            {
+                "from": "state8",
+                "to": "-5595025212590715208",
+                "event": "click<p id=5> Manage storage,  </p>"
+            },
+            {
+                "from": "state8",
+                "to": "-9016878893620886922",
+                "event": "click<p id=30 class =\"com.google.android.apps.photos:id/cleanup_category_title\"> Large photos &amp; videos,  </p>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

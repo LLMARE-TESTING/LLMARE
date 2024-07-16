@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "I love the fact that I can very easily access photos from years prior within seconds by using the search bar at the top. I also really enjoy the \"memories\" feature that pops up daily and shows me pictures of what I was doing 5 years ago, or 1 year ago, etc And I like that the app generates automatic photo edits as suggestions, such as- mini animations, \"color pops,\" collages, \"then and now,\" and more! The organization of the app is pretty phenomenal. I would expect nothing less from Google! \u9983\u69bf",
+        "key sentence": "search bar, memories feature, automatic photo edits, mini animations, color pops, collages, then and now, organization of the app",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Account Settings', 'description': 'Accessing and managing account settings'}, {'name': 'Backup Photos', 'description': 'Enabling and managing photo backup settings'}, {'name': 'Free Up Space', 'description': 'Deleting and managing storage space for photos'}, {'name': 'Photos Settings', 'description': 'Adjusting various settings related to photos'}, {'name': 'Help and Feedback', 'description': 'Accessing help and feedback options'}, {'name': 'Privacy Policy', 'description': 'Viewing the privacy policy'}, {'name': 'Terms of Service', 'description': 'Viewing the terms of service'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment66\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment66\\state8.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment66\\909442514834148229.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "909442514834148229"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment66\\-973611131502739111.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-973611131502739111"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state8",
+                "event": "click(FrameLayout-Signed in as ran Jin jinran848@gmail.com.Backup is off.Account and settings.:[925,104][1080,237])"
+            },
+            {
+                "from": "state8",
+                "to": "909442514834148229",
+                "event": "click<img id=4 class =\"com.google.android.apps.photos:id/og_header_close_button\" alt=\"Close\">  </img>"
+            },
+            {
+                "from": "state8",
+                "to": "-973611131502739111",
+                "event": "click<button id=50 class =\"com.google.android.apps.photos:id/search_destination\"> Search,  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

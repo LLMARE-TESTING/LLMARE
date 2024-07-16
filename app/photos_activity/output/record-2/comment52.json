@@ -1,0 +1,70 @@
+[
+    {
+        "comment": "I have a problem which is a very annoying bug and other is a misisng feature. 1. The bug is from my single phone all my photos and videos have got backup second time and now they all are double, which is very annoying to see. 2. The most important and missing feature is automatic delete suggestin of Duplicate photos and videos where the app can simply automatically click the second file and uncheck the first and then we can just simply click delete. Boom, problem solved, please include this.",
+        "key sentence": "duplicate photos and videos",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Account Settings', 'description': 'Accessing and managing account settings'}, {'name': 'Turn ON/OFF Backup', 'description': 'Turn on or turn off backup.'}, {'name': 'Free Up Space', 'description': 'Deleting and managing storage space for photos'}, {'name': 'Photos Settings', 'description': 'Adjusting various settings related to photos'}, {'name': 'Help and Feedback', 'description': 'Accessing help and feedback options'}, {'name': 'Privacy Policy', 'description': 'Viewing the privacy policy'}, {'name': 'Terms of Service', 'description': 'Viewing the terms of service'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment52\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment52\\state8.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment52\\-761971418818885224.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "-761971418818885224"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment52\\8453018306802207186.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "8453018306802207186"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment52\\-761971418818885224.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "-761971418818885224"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment52\\-761971418818885224.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "-761971418818885224"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state8",
+                "event": "click(FrameLayout-Signed in as ran Jin jinran848@gmail.com.Backup is off.Account and settings.:[925,104][1080,237])"
+            },
+            {
+                "from": "state8",
+                "to": "-761971418818885224",
+                "event": "click<button id=45 class =\"com.google.android.gms:id/gh_search_box\" alt=\"Search help\">  </button>"
+            },
+            {
+                "from": "-761971418818885224",
+                "to": "8453018306802207186",
+                "event": "input<input id=9 class =\"com.google.android.gms:id/open_search_view_edit_text\"> Search help,  </input>duplicate photos and videos"
+            },
+            {
+                "from": "8453018306802207186",
+                "to": "-761971418818885224",
+                "event": "click<button id=10 class =\"com.google.android.gms:id/open_search_view_clear_button\" alt=\"Clear text\">  </button>"
+            },
+            {
+                "from": "-761971418818885224",
+                "to": "-761971418818885224",
+                "event": "click<input id=9 class =\"com.google.android.gms:id/open_search_view_edit_text\"> Search help,  </input>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

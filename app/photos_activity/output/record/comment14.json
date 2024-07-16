@@ -1,0 +1,170 @@
+[
+    {
+        "comment": "My only real gripe with this app is that it doesn't upload albums so when your trying to find a specific picture you have to scroll through EVERYTHING and it's incredibly frustrating. Can you implement this feature please. And to implant a feature that if you backup your photos from your device it automatically sorts out what's there into the allocated albums so I don't have to spend days combing through and sorting them out manually. Thank you.",
+        "key sentence": "The key words: upload albums",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "e7293860b66c73e5472ed81051e992dd",
+        "the sub-task list of state": "[{'name': 'Library Page', 'description': 'Access library page.'}, {'name': 'View all floders/albums', 'description': 'View all photo floders or albums.'}, {'name': 'Create new album', 'description': 'Create a new album for organizing photos'}, {'name': 'Share album', 'description': 'Share an album with others'}, {'name': 'Delete album', 'description': 'Delete an existing album'}, {'name': 'Sort albums', 'description': 'Sort albums based on different criteria (e.g., date, name)'}, {'name': 'Account settings', 'description': 'Access and manage account settings'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment14\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment14\\e7293860b66c73e5472ed81051e992dd.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "e7293860b66c73e5472ed81051e992dd"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment14\\9167114011597841006.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "9167114011597841006"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment14\\23509716555396610.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "23509716555396610"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment14\\9167114011597841006.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "9167114011597841006"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment14\\-8252326666218573007.png",
+                "activity": "com.google.android.apps.photos.share.BottomSheetShareActivity}",
+                "state_str": "-8252326666218573007"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment14\\-8252326666218573007.png",
+                "activity": "com.google.android.apps.photos.share.BottomSheetShareActivity}",
+                "state_str": "-8252326666218573007"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment14\\2363647926232890534.png",
+                "activity": "com.google.android.apps.photos.share.BottomSheetShareActivity}",
+                "state_str": "2363647926232890534"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment14\\1686696594472287241.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "1686696594472287241"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment14\\-412767286002089100.png",
+                "activity": "",
+                "state_str": "-412767286002089100"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment14\\2106123895700928830.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "2106123895700928830"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment14\\1686696594472287241.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "1686696594472287241"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment14\\-1819537750139487474.png",
+                "activity": "com.google.android.apps.photos.envelope.feed.SharedAlbumFeedActivity}",
+                "state_str": "-1819537750139487474"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment14\\-7372025848345090332.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "-7372025848345090332"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment14\\2551236813324282883.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "2551236813324282883"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment14\\1768490520528352746.png",
+                "activity": "com.google.android.apps.photos.envelope.feed.SharedAlbumFeedActivity}",
+                "state_str": "1768490520528352746"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "e7293860b66c73e5472ed81051e992dd",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=509b7bbe0ba0576daba0dd86d2183f27(HomeActivity/Button-Library:x540:y1928))"
+            },
+            {
+                "from": "e7293860b66c73e5472ed81051e992dd",
+                "to": "9167114011597841006",
+                "event": "click<img id=34 class =\"com.google.android.apps.photos:id/photos_albums_grid_add_item_button\">  </img>"
+            },
+            {
+                "from": "e7293860b66c73e5472ed81051e992dd",
+                "to": "23509716555396610",
+                "event": "click<input id=14 class =\"com.google.android.apps.photos:id/collection_title_editing\"> Add a title,  </input>"
+            },
+            {
+                "from": "e7293860b66c73e5472ed81051e992dd",
+                "to": "9167114011597841006",
+                "event": "click<p id=29> Add photos,  </p>"
+            },
+            {
+                "from": "e7293860b66c73e5472ed81051e992dd",
+                "to": "-8252326666218573007",
+                "event": "click<button id=24 class =\"com.google.android.apps.photos:id/photos_album_ui_invite_action_chip_id\"> Share,  </button>"
+            },
+            {
+                "from": "e7293860b66c73e5472ed81051e992dd",
+                "to": "-8252326666218573007",
+                "event": "click<img id=13 class =\"com.google.android.apps.photos:id/album_cover\">  </img>"
+            },
+            {
+                "from": "e7293860b66c73e5472ed81051e992dd",
+                "to": "2363647926232890534",
+                "event": "click<button id=19> Get link,  </button>"
+            },
+            {
+                "from": "e7293860b66c73e5472ed81051e992dd",
+                "to": "1686696594472287241",
+                "event": "click<button id=14 class =\"com.google.android.apps.photos:id/create_link_button\"> Create link,  </button>"
+            },
+            {
+                "from": "e7293860b66c73e5472ed81051e992dd",
+                "to": "-412767286002089100",
+                "event": "click<button id=26 class =\"com.google.android.apps.photos:id/action_bar_overflow\">  </button>"
+            },
+            {
+                "from": "e7293860b66c73e5472ed81051e992dd",
+                "to": "2106123895700928830",
+                "event": "click<p id=4 class =\"com.google.android.apps.photos:id/action_bar_overflow_menu_item_title\"> Options,  </p>"
+            },
+            {
+                "from": "e7293860b66c73e5472ed81051e992dd",
+                "to": "1686696594472287241",
+                "event": "click<button id=45 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "e7293860b66c73e5472ed81051e992dd",
+                "to": "-1819537750139487474",
+                "event": "click<button id=25 class =\"com.google.android.apps.photos:id/launch_album_feed_view_button\" alt=\"View comments\">  </button>"
+            },
+            {
+                "from": "e7293860b66c73e5472ed81051e992dd",
+                "to": "-7372025848345090332",
+                "event": "click<img id=16 class =\"com.google.android.apps.photos:id/add_photos_button\" alt=\"Add photos to shared album\">  </img>"
+            },
+            {
+                "from": "e7293860b66c73e5472ed81051e992dd",
+                "to": "2551236813324282883",
+                "event": "click<p id=16 class =\"com.google.android.apps.photos:id/title\"> Thu, Jun 20,  </p>"
+            },
+            {
+                "from": "e7293860b66c73e5472ed81051e992dd",
+                "to": "1768490520528352746",
+                "event": "click<button id=7 class =\"com.google.android.apps.photos:id/action_button\"> Next,  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

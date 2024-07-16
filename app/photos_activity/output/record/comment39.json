@@ -1,0 +1,170 @@
+[
+    {
+        "comment": "I am facing a problem in this. Face group is on but still not getting results. Even after adding face, photos of that face are not coming. Nor is the option of face group available on the screen, even after turning on face group.",
+        "key sentence": "face group",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "0cac1a34967dc9a3d638703f8dff5193",
+        "the sub-task list of state": "[{'name': 'Search', 'description': 'Search for a contact'}, {'name': 'Menu', 'description': 'Open menu'}, {'name': 'Copy text', 'description': 'Copy selected text'}, {'name': 'Listen', 'description': 'Listen to selected text'}, {'name': 'Crop', 'description': 'Crop an image'}, {'name': 'Favorite', 'description': 'Mark as favorite'}, {'name': 'More options', 'description': 'Access additional options'}, {'name': 'Share', 'description': 'Share content'}, {'name': 'Edit', 'description': 'Edit content'}, {'name': 'Lens', 'description': 'Activate lens feature'}, {'name': 'Delete', 'description': 'Delete selected content'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\0cac1a34967dc9a3d638703f8dff5193.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "0cac1a34967dc9a3d638703f8dff5193"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\-5020905600390482269.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5020905600390482269"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\-1669421652742264225.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-1669421652742264225"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\5315713281988055111.png",
+                "activity": "",
+                "state_str": "5315713281988055111"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\-2563645388894503091.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-2563645388894503091"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\-2563645388894503091.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-2563645388894503091"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\-2563645388894503091.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-2563645388894503091"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\-2563645388894503091.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-2563645388894503091"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\-2563645388894503091.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-2563645388894503091"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\-2563645388894503091.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-2563645388894503091"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\-2563645388894503091.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-2563645388894503091"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\-2563645388894503091.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-2563645388894503091"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\-2563645388894503091.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-2563645388894503091"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\-2563645388894503091.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-2563645388894503091"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\-2563645388894503091.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-2563645388894503091"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "0cac1a34967dc9a3d638703f8dff5193",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=08bc7c8154b5c2ab796d26d767a03541(HomeActivity/ImageView-Photo take:x0:y1926))"
+            },
+            {
+                "from": "0cac1a34967dc9a3d638703f8dff5193",
+                "to": "-5020905600390482269",
+                "event": "click<button id=23 class =\"com.google.android.apps.photos:id/photos_pager_menu_favorites\" alt=\"Favorite\">  </button>"
+            },
+            {
+                "from": "0cac1a34967dc9a3d638703f8dff5193",
+                "to": "-1669421652742264225",
+                "event": "click<button id=11 class =\"android:id/button2\"> View Favorites,  </button>"
+            },
+            {
+                "from": "0cac1a34967dc9a3d638703f8dff5193",
+                "to": "5315713281988055111",
+                "event": "click<img id=30 class =\"com.google.android.apps.photos:id/photos_overflow_icon\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "0cac1a34967dc9a3d638703f8dff5193",
+                "to": "-2563645388894503091",
+                "event": "click<p id=0 class =\"com.google.android.apps.photos:id/action_bar_overflow_menu_item_title\"> Select,  </p>"
+            },
+            {
+                "from": "0cac1a34967dc9a3d638703f8dff5193",
+                "to": "-2563645388894503091",
+                "event": "click<div id=4 class =\"com.google.android.apps.photos:id/search_page\">  </div>"
+            },
+            {
+                "from": "0cac1a34967dc9a3d638703f8dff5193",
+                "to": "-2563645388894503091",
+                "event": "click<div id=20 class =\"com.google.android.apps.photos:id/action_mode_bar\">  </div>"
+            },
+            {
+                "from": "0cac1a34967dc9a3d638703f8dff5193",
+                "to": "-2563645388894503091",
+                "event": "click<div id=19 class =\"com.google.android.apps.photos:id/search_bar_layout\">  </div>"
+            },
+            {
+                "from": "0cac1a34967dc9a3d638703f8dff5193",
+                "to": "-2563645388894503091",
+                "event": "click<div id=4 class =\"com.google.android.apps.photos:id/search_page\">  </div>"
+            },
+            {
+                "from": "0cac1a34967dc9a3d638703f8dff5193",
+                "to": "-2563645388894503091",
+                "event": "click<div id=19 class =\"com.google.android.apps.photos:id/search_bar_layout\">  </div>"
+            },
+            {
+                "from": "0cac1a34967dc9a3d638703f8dff5193",
+                "to": "-2563645388894503091",
+                "event": "click<div id=4 class =\"com.google.android.apps.photos:id/search_page\">  </div>"
+            },
+            {
+                "from": "0cac1a34967dc9a3d638703f8dff5193",
+                "to": "-2563645388894503091",
+                "event": "click<div id=20 class =\"com.google.android.apps.photos:id/action_mode_bar\">  </div>"
+            },
+            {
+                "from": "0cac1a34967dc9a3d638703f8dff5193",
+                "to": "-2563645388894503091",
+                "event": "click<div id=19 class =\"com.google.android.apps.photos:id/search_bar_layout\">  </div>"
+            },
+            {
+                "from": "0cac1a34967dc9a3d638703f8dff5193",
+                "to": "-2563645388894503091",
+                "event": "click<div id=20 class =\"com.google.android.apps.photos:id/action_mode_bar\">  </div>"
+            },
+            {
+                "from": "0cac1a34967dc9a3d638703f8dff5193",
+                "to": "-2563645388894503091",
+                "event": "click<div id=19 class =\"com.google.android.apps.photos:id/search_bar_layout\">  </div>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

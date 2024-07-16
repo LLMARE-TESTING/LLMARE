@@ -1,0 +1,60 @@
+[
+    {
+        "comment": "Horrible, For how many years this app is still broken, first when you delete a picture instead of the 2nd pic the 3rd pic shows up and kinds of blurry and You cant event swipe it left or right, second when editing videos and You open your data unnotice it loads longer than turning off data it doesn't even use network access since I can edit even offline, 3rd the arrangements is horrible why you separate the screenshot to the camera pic its same and you need to go a folder to open the previous.",
+        "key sentence": "the key words: delete a picture, editing videos, loads longer, separate screenshot from camera pic, go to folder to open previous",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state1",
+        "the sub-task list of state": "[{'name': 'Navigate up', 'description': 'Move to the parent screen'}, {'name': 'Favorite', 'description': 'Mark the item as a favorite'}, {'name': 'More options', 'description': 'Access additional options'}, {'name': 'Cast', 'description': 'Cast the photo.'}, {'name': 'Share', 'description': 'Share the item with others'}, {'name': 'Edit', 'description': 'Edit the item'}, {'name': 'Lens', 'description': 'Open the lens feature'}, {'name': 'Delete', 'description': 'Delete the item'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment78\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment78\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment78\\9095899757638869208.png",
+                "activity": "com.android.providers.media.PermissionActivity}",
+                "state_str": "9095899757638869208"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment78\\-7460731338195170392.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-7460731338195170392"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment78\\-5504957166086114508.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5504957166086114508"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "9095899757638869208",
+                "event": "click<img id=35 class =\"com.google.android.apps.photos:id/trash\" alt=\"Delete\">  </img>"
+            },
+            {
+                "from": "state1",
+                "to": "-7460731338195170392",
+                "event": "click<button id=11 class =\"android:id/button1\"> Allow,  </button>"
+            },
+            {
+                "from": "state1",
+                "to": "-5504957166086114508",
+                "event": "click<div id=3 class =\"com.google.android.apps.photos:id/photo_container\">  </div>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

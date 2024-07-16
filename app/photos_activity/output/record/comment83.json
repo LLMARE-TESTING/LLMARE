@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "They make it nearly impossible to download your photos to your device. With all the features they have, they couldn't add a \"select all\" button and a \"download\"?? This app will continue adding photos even after you disable automatic backup. And deleting the photo from the app will FORCE you to also delete it from your phone. This app is like an obsessed ex",
+        "key sentence": "Key words: download photos",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state21",
+        "the sub-task list of state": "[{'name': 'Select Photos', 'description': 'Select photos to operate.'}, {'name': 'Share', 'description': 'Share selected items'}, {'name': 'Delete', 'description': 'Delete selected items'}, {'name': 'Move to Archive', 'description': 'Move selected items to archive'}, {'name': 'Delete from device', 'description': 'Delete selected items from the device'}, {'name': 'Add to album', 'description': 'Add selected items to an album'}, {'name': 'View all', 'description': 'View all items'}, {'name': 'Zoom in', 'description': 'Zoom in on an item or the screen'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment83\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment83\\state22.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state22"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment83\\state21.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state21"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment83\\-7213793072559982579.png",
+                "activity": "com.google.android.apps.photos.share.BottomSheetShareActivity}",
+                "state_str": "-7213793072559982579"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment83\\817959643057444137.png",
+                "activity": "com.google.android.apps.photos.share.BottomSheetShareActivity}",
+                "state_str": "817959643057444137"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment83\\6560649184909257931.png",
+                "activity": "com.android.internal.app.ChooserActivity}",
+                "state_str": "6560649184909257931"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment83\\817959643057444137.png",
+                "activity": "com.google.android.apps.photos.share.BottomSheetShareActivity}",
+                "state_str": "817959643057444137"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment83\\8991892643392538314.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8991892643392538314"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment83\\8278751755201506043.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8278751755201506043"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment83\\8991892643392538314.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8991892643392538314"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment83\\8278751755201506043.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8278751755201506043"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state22",
+                "event": "long-click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[363,1010][718,1365])"
+            },
+            {
+                "from": "state22",
+                "to": "state21",
+                "event": "long-click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[726,1010][1080,1365])"
+            },
+            {
+                "from": "state21",
+                "to": "-7213793072559982579",
+                "event": "click<button id=39 class =\"com.google.android.apps.photos:id/photos_allphotos_menu_item_share\"> Share,  </button>"
+            },
+            {
+                "from": "-7213793072559982579",
+                "to": "817959643057444137",
+                "event": "click<button id=17> Create link,  </button>"
+            },
+            {
+                "from": "817959643057444137",
+                "to": "6560649184909257931",
+                "event": "click<p id=31 class =\"com.google.android.apps.photos:id/peoplekit_third_party_new_app_name_id\"> More,  </p>"
+            },
+            {
+                "from": "6560649184909257931",
+                "to": "817959643057444137",
+                "event": "click<p id=22 class =\"android:id/text1\"> Save,  </p>"
+            },
+            {
+                "from": "817959643057444137",
+                "to": 8991892643392538314,
+                "event": "back"
+            },
+            {
+                "from": 8991892643392538314,
+                "to": "8278751755201506043",
+                "event": "click<button id=43 class =\"com.google.android.apps.photos:id/photos_allphotos_menu_item_delete_local\"> Delete from device,  </button>"
+            },
+            {
+                "from": "8278751755201506043",
+                "to": 8991892643392538314,
+                "event": "back"
+            },
+            {
+                "from": 8991892643392538314,
+                "to": "8278751755201506043",
+                "event": "click<button id=43 class =\"com.google.android.apps.photos:id/photos_allphotos_menu_item_delete_local\"> Delete from device,  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

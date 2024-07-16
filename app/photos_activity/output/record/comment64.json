@@ -1,0 +1,80 @@
+[
+    {
+        "comment": "Whenever you try to edit a photo, the image disappears. The screen goes completely black. How do you go about editing an image that is invisible? I have been very keen to update the app whenever a new version is released hoping that the bug would be resolved but to no avail. To make it worse my phone didn't come with the stock android photo viewer/editor. So this is the only editor available for me. Can you fix this bug please! How about image autorotation by device orientation?",
+        "key sentence": "the photo editor",
+        "target activity": ".photoeditor.fragments.activity.PhotoEditorActivity",
+        "the function of activity": "An image editing tool with functions to search contacts, open menus, apply blur, remove parts, edit sky, switch tabs, cancel, save, adjust, add text, rotate, resize, adjust brightness, apply filters, undo, and redo.",
+        "target state": "state13",
+        "the sub-task list of state": "[{'name': 'Apply Filters', 'description': 'Apply different filters to the photo'}, {'name': 'Save Copy', 'description': 'Save a copy of the edited photo'}, {'name': 'Cancel Edit', 'description': 'Cancel the editing process and go back to the original photo'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment64\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment64\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment64\\state2.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment64\\state10.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment64\\state11.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment64\\state12.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment64\\state13.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state13"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "state2",
+                "event": "click(ImageView-Edit:[337,1993][491,2148])"
+            },
+            {
+                "from": "state2",
+                "to": "state10",
+                "event": "click(TextView-Crop{Change to crop tab}:[740,1868][952,1966])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(TextView-Tools{Change to tools tab}:[646,1868][864,1966])"
+            },
+            {
+                "from": "state11",
+                "to": "state12",
+                "event": "click(TextView-Adjust{Change to adjust tab}:[649,1868][889,1966])"
+            },
+            {
+                "from": "state12",
+                "to": "state13",
+                "event": "click(TextView-Filters{Change to filters tab}:[660,1868][896,1966])"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

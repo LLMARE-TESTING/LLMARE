@@ -1,0 +1,30 @@
+[
+    {
+        "comment": "insanely TERRIBLE ux design. Once you \"backup\" pics they're no longer organized in folders like the camera folder, and instead mixed with all photos including screenshots and downloads into one folder. Also because of this \"feature\" other apps cant find pics that are backed up and instead only show what's on your phone.",
+        "key sentence": "the camera folder",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "e7293860b66c73e5472ed81051e992dd",
+        "the sub-task list of state": "[{'name': 'Library Page', 'description': 'Access library page.'}, {'name': 'View floder of backup pictures', 'description': 'View backup pictures in floder camera.'}, {'name': 'View Favorite floder', 'description': 'View Favorite floder'}, {'name': 'View Archive floder', 'description': 'View archive floder'}, {'name': 'View Locked floder', 'description': 'View locked floder'}, {'name': 'View Trash floder', 'description': 'View Trash floder'}, {'name': 'Create new album', 'description': 'Create a new album for organizing photos'}, {'name': 'Share album', 'description': 'Share an album with others'}, {'name': 'Delete album', 'description': 'Delete an existing album'}, {'name': 'Sort albums', 'description': 'Sort albums based on different criteria (e.g., date, name)'}, {'name': 'Account settings', 'description': 'Access and manage account settings'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment56\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment56\\e7293860b66c73e5472ed81051e992dd.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "e7293860b66c73e5472ed81051e992dd"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "e7293860b66c73e5472ed81051e992dd",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=509b7bbe0ba0576daba0dd86d2183f27(HomeActivity/Button-Library:x540:y1928))"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

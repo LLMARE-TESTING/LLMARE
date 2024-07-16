@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "i love most of it, but it keeps deleting photos in a folder that's not marked to be synced and there's no way to turn it off. it also backs up all of your photos in one place, which is a horrible because i have separate folders for separate photos, i dont want to see them all in once place so im only able to back up pictures from my camera app. i want to backup memes and pictures i take with my friends in separate folders and see them in separate places, not all at once in the \"photos\" tab.",
+        "key sentence": "The key words from the comment are: \"deleting photos\", \"folder not marked to be synced\", \"turn it off\", \"back up all of your photos in one place\", \"separate folders\", \"separate places\".",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Account Settings', 'description': 'Accessing and managing account settings'}, {'name': 'Backup Photos', 'description': 'Enabling and managing photo backup settings'}, {'name': 'Free Up Space', 'description': 'Deleting and managing storage space for photos'}, {'name': 'Photos Settings', 'description': 'Adjusting various settings related to photos'}, {'name': 'Help and Feedback', 'description': 'Accessing help and feedback options'}, {'name': 'Privacy Policy', 'description': 'Viewing the privacy policy'}, {'name': 'Terms of Service', 'description': 'Viewing the terms of service'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\state8.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\7862799056624026200.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7862799056624026200"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state8",
+                "event": "click(FrameLayout-Signed in as ran Jin jinran848@gmail.com.Backup is off.Account and settings.:[925,104][1080,237])"
+            },
+            {
+                "from": "state8",
+                "to": "7862799056624026200",
+                "event": "click<button id=28 class =\"com.google.android.apps.photos:id/photos_autobackup_particle_generic_button\"> Turn on backup,  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

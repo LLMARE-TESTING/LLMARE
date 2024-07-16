@@ -1,0 +1,170 @@
+[
+    {
+        "comment": "Google Photos app is really nice, except for the fact that it's always complaining it needs to update and the app is huge. I'd rather use the memory on photos than on apps, thanks. // Edit: Yes, I have automatic updates disabled. That is why the app detects it is running an \"old\" version and on startup makes a full screen prompt to update, which is ... well, not really usable.",
+        "key sentence": "The key words from the comment are: \"Google Photos app\", \"update\", \"memory on photos\", \"automatic updates\", \"full screen prompt\".",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state21",
+        "the sub-task list of state": "[{'name': 'Select Photos', 'description': 'Select photos to operate.'}, {'name': 'Share', 'description': 'Share selected items'}, {'name': 'Delete', 'description': 'Delete selected items'}, {'name': 'Move to Archive', 'description': 'Move selected items to archive'}, {'name': 'Delete from device', 'description': 'Delete selected items from the device'}, {'name': 'Add to album', 'description': 'Add selected items to an album'}, {'name': 'View all', 'description': 'View all items'}, {'name': 'Zoom in', 'description': 'Zoom in on an item or the screen'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment60\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment60\\state22.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state22"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment60\\state21.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state21"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment60\\-2352575471114588955.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-2352575471114588955"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment60\\3662513562491080185.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "3662513562491080185"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment60\\-2352575471114588955.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-2352575471114588955"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment60\\-7659504806402227095.png",
+                "activity": "com.google.android.apps.photos.share.BottomSheetShareActivity}",
+                "state_str": "-7659504806402227095"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment60\\-821465202444763807.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-821465202444763807"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment60\\-2530156639123964914.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-2530156639123964914"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment60\\-821465202444763807.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-821465202444763807"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment60\\-2530156639123964914.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-2530156639123964914"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment60\\-821465202444763807.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-821465202444763807"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment60\\-2530156639123964914.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-2530156639123964914"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment60\\-821465202444763807.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-821465202444763807"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment60\\-2530156639123964914.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-2530156639123964914"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment60\\-821465202444763807.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-821465202444763807"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state22",
+                "event": "long-click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[363,1010][718,1365])"
+            },
+            {
+                "from": "state22",
+                "to": "state21",
+                "event": "long-click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[726,1010][1080,1365])"
+            },
+            {
+                "from": "state21",
+                "to": "-2352575471114588955",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/action_bar_root\">  </div>"
+            },
+            {
+                "from": "state21",
+                "to": "3662513562491080185",
+                "event": "click<div id=1 class =\"android:id/content\">  </div>"
+            },
+            {
+                "from": "state21",
+                "to": "-2352575471114588955",
+                "event": "click<div id=5 class =\"com.google.android.apps.photos:id/main_container\">  </div>"
+            },
+            {
+                "from": "state21",
+                "to": "-7659504806402227095",
+                "event": "click<button id=39 class =\"com.google.android.apps.photos:id/photos_allphotos_menu_item_share\"> Share,  </button>"
+            },
+            {
+                "from": "state21",
+                "to": "-821465202444763807",
+                "event": "click<div id=1 class =\"android:id/content\">  </div>"
+            },
+            {
+                "from": "state21",
+                "to": "-2530156639123964914",
+                "event": "click<div id=5 class =\"com.google.android.apps.photos:id/main_container\">  </div>"
+            },
+            {
+                "from": "state21",
+                "to": "-821465202444763807",
+                "event": "click<div id=1 class =\"android:id/content\">  </div>"
+            },
+            {
+                "from": "state21",
+                "to": "-2530156639123964914",
+                "event": "click<div id=5 class =\"com.google.android.apps.photos:id/main_container\">  </div>"
+            },
+            {
+                "from": "state21",
+                "to": "-821465202444763807",
+                "event": "click<div id=1 class =\"android:id/content\">  </div>"
+            },
+            {
+                "from": "state21",
+                "to": "-2530156639123964914",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/action_bar_root\">  </div>"
+            },
+            {
+                "from": "state21",
+                "to": "-821465202444763807",
+                "event": "click<div id=5 class =\"com.google.android.apps.photos:id/main_container\">  </div>"
+            },
+            {
+                "from": "state21",
+                "to": "-2530156639123964914",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/action_bar_root\">  </div>"
+            },
+            {
+                "from": "state21",
+                "to": "-821465202444763807",
+                "event": "click<div id=1 class =\"android:id/content\">  </div>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

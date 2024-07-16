@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "It's very use full for video stabilizing",
+        "key sentence": "video stabilizing",
+        "target activity": ".photoeditor.fragments.activity.VideoPhotoEditorActivity",
+        "the function of activity": "The activity involves searching for contacts, opening a menu, editing photos, playing videos, trimming and muting videos, stabilizing videos, exporting frames, changing tabs, cancelling operations, and saving edited copies.",
+        "target state": "state27",
+        "the sub-task list of state": "[{'name': 'Edit Vedio', 'description': 'Open the vedio editing tools'}, {'name': 'Play Video', 'description': 'Start playing a video'}, {'name': 'Trim Video', 'description': 'Trim the video from the start or end'}, {'name': 'Mute Video', 'description': 'Mute the audio of the video'}, {'name': 'Stabilize Video', 'description': 'Apply video stabilization'}, {'name': 'Export Frame', 'description': 'Export a frame from the video'}, {'name': 'Change Tab', 'description': 'Switch between different editing tabs (e.g., video, crop, adjust)'}, {'name': 'Cancel', 'description': 'Cancel the current editing operation'}, {'name': 'Save Copy', 'description': 'Save a copy of the edited photo or video'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\2bf2129a216d44c43d9582405daea4d6.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2bf2129a216d44c43d9582405daea4d6"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\455b9f0c7c955e9c8f56a725297d2b2e.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "455b9f0c7c955e9c8f56a725297d2b2e"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\state27.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.VideoPhotoEditorActivity}",
+                "state_str": "state27"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "2bf2129a216d44c43d9582405daea4d6",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=81a0e69badae53d8d68074a18e207d00(HomeActivity/ImageView-Video take:x0:y1010))"
+            },
+            {
+                "from": "2bf2129a216d44c43d9582405daea4d6",
+                "to": "455b9f0c7c955e9c8f56a725297d2b2e",
+                "event": "click(state=2bf2129a216d44c43d9582405daea4d6, view=10af35da841bbb2aecc619e81a2cc7da(HomeActivity/FrameLayout-:x0:y0))"
+            },
+            {
+                "from": "455b9f0c7c955e9c8f56a725297d2b2e",
+                "to": "state27",
+                "event": "click(android.widget.ImageView-com.google.android.apps.photos:id/edit:[462,1993][616,2148])"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

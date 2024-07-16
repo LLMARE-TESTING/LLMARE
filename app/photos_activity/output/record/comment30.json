@@ -1,0 +1,170 @@
+[
+    {
+        "comment": "It's a great app but recently started giving problems when saving a photo edited using the native editor on the SD card storage. It had been working well (5 stars) until about a month ago. It is unacceptable for a cataloging/gallery app to not be able to manage/use permissions well. As for now, every time this happens, the fix is to uninstall/disable the app or revert the app to factory settings, and then start again. Simply resetting/denying-and-granting permissions doesn't help.",
+        "key sentence": "SD card storage",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Account Settings', 'description': 'Accessing and managing account settings'}, {'name': 'Backup Photos', 'description': 'Enabling and managing photo backup settings'}, {'name': 'Free Up Space', 'description': 'Deleting and managing storage space for photos'}, {'name': 'Photos Settings', 'description': 'Adjusting various settings related to photos'}, {'name': 'Help and Feedback', 'description': 'Accessing help and feedback options'}, {'name': 'Privacy Policy', 'description': 'Viewing the privacy policy'}, {'name': 'Terms of Service', 'description': 'Viewing the terms of service'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\state8.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\6486720238975085842.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.summary.SummaryActivity}",
+                "state_str": "6486720238975085842"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\6486720238975085842.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.summary.SummaryActivity}",
+                "state_str": "6486720238975085842"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\548162532788170816.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "548162532788170816"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\6486720238975085842.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.summary.SummaryActivity}",
+                "state_str": "6486720238975085842"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\6486720238975085842.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.summary.SummaryActivity}",
+                "state_str": "6486720238975085842"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\548162532788170816.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "548162532788170816"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\6486720238975085842.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.summary.SummaryActivity}",
+                "state_str": "6486720238975085842"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\548162532788170816.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "548162532788170816"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\354223338355084707.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "354223338355084707"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\-5179356523410139873.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5179356523410139873"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\-4195832551586065967.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-4195832551586065967"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\-4195832551586065967.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-4195832551586065967"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\-5179356523410139873.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5179356523410139873"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\-4195832551586065967.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-4195832551586065967"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state8",
+                "event": "click(FrameLayout-Signed in as ran Jin jinran848@gmail.com.Backup is off.Account and settings.:[925,104][1080,237])"
+            },
+            {
+                "from": "state8",
+                "to": "6486720238975085842",
+                "event": "click<button id=38 alt=\"Manage storage\">  </button>"
+            },
+            {
+                "from": "state8",
+                "to": "6486720238975085842",
+                "event": "click<p id=5> Manage storage,  </p>"
+            },
+            {
+                "from": "state8",
+                "to": "548162532788170816",
+                "event": "click<button id=4 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "state8",
+                "to": "6486720238975085842",
+                "event": "click<button id=38 alt=\"Manage storage\">  </button>"
+            },
+            {
+                "from": "state8",
+                "to": "6486720238975085842",
+                "event": "click<p id=5> Manage storage,  </p>"
+            },
+            {
+                "from": "state8",
+                "to": "548162532788170816",
+                "event": "click<button id=4 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "state8",
+                "to": "6486720238975085842",
+                "event": "click<button id=38 alt=\"Manage storage\">  </button>"
+            },
+            {
+                "from": "state8",
+                "to": "548162532788170816",
+                "event": "click<button id=4 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "state8",
+                "to": "354223338355084707",
+                "event": "click<button id=10 class =\"com.google.android.apps.photos:id/selected_account_view\">  </button>"
+            },
+            {
+                "from": "state8",
+                "to": "-5179356523410139873",
+                "event": "click<div id=38 class =\"com.google.android.apps.photos:id/og_card_content_root\">  </div>"
+            },
+            {
+                "from": "state8",
+                "to": "-4195832551586065967",
+                "event": "click<button id=32 alt=\"Show Navigation Drawer\">  </button>"
+            },
+            {
+                "from": "state8",
+                "to": "-4195832551586065967",
+                "event": "click<button id=32 alt=\"Hide Navigation Drawer\">  </button>"
+            },
+            {
+                "from": "state8",
+                "to": "-5179356523410139873",
+                "event": "click<button id=36 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Account and settings.&#10;Choose an account\">  </button>"
+            },
+            {
+                "from": "state8",
+                "to": "-4195832551586065967",
+                "event": "click<button id=32 alt=\"Show Navigation Drawer\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

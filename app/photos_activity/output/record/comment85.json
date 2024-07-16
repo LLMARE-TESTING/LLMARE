@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Google Photos lacks an option to exclude screenshots and screen recordings, even with a .nomedia file in the folders. Despite turning off all Backup Folders settings, the issue persists. Reply to Developer: I checked the \"Back up device folders.\" settings. Everything is already turned off hence the issue still persist.",
+        "key sentence": "The key words: exclude screenshots and screen recordings",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Account Settings', 'description': 'Accessing and managing account settings'}, {'name': 'Backup Photos', 'description': 'Enabling and managing photo backup settings'}, {'name': 'Free Up Space', 'description': 'Deleting and managing storage space for photos'}, {'name': 'Photos Settings', 'description': 'Adjusting various settings related to photos'}, {'name': 'Help and Feedback', 'description': 'Accessing help and feedback options'}, {'name': 'Privacy Policy', 'description': 'Viewing the privacy policy'}, {'name': 'Terms of Service', 'description': 'Viewing the terms of service'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment85\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment85\\state8.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment85\\5957317636217999975.png",
+                "activity": "com.google.android.apps.photos.settings.SettingsActivityV2}",
+                "state_str": "5957317636217999975"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment85\\2475824460251569141.png",
+                "activity": "com.google.android.apps.photos.settings.CustomizationActivity}",
+                "state_str": "2475824460251569141"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment85\\2475824460251569141.png",
+                "activity": "com.google.android.apps.photos.settings.CustomizationActivity}",
+                "state_str": "2475824460251569141"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment85\\-8409684327029419251.png",
+                "activity": "com.google.android.apps.photos.settings.faceclustering.advanced.AdvancedFaceClusteringSettingsActivityV2}",
+                "state_str": "-8409684327029419251"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment85\\2475824460251569141.png",
+                "activity": "com.google.android.apps.photos.settings.CustomizationActivity}",
+                "state_str": "2475824460251569141"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment85\\2975155382612984584.png",
+                "activity": "com.google.android.apps.photos.memories.settings.MemoriesSettingsActivity}",
+                "state_str": "2975155382612984584"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment85\\2475824460251569141.png",
+                "activity": "com.google.android.apps.photos.settings.CustomizationActivity}",
+                "state_str": "2475824460251569141"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment85\\-8409684327029419251.png",
+                "activity": "com.google.android.apps.photos.settings.faceclustering.advanced.AdvancedFaceClusteringSettingsActivityV2}",
+                "state_str": "-8409684327029419251"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment85\\6057631272246881853.png",
+                "activity": "com.google.android.apps.photos.settings.faceclustering.advanced.AdvancedFaceClusteringSettingsActivityV2}",
+                "state_str": "6057631272246881853"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state8",
+                "event": "click(FrameLayout-Signed in as ran Jin jinran848@gmail.com.Backup is off.Account and settings.:[925,104][1080,237])"
+            },
+            {
+                "from": "state8",
+                "to": "5957317636217999975",
+                "event": "click<p id=54 class =\"com.google.android.apps.photos:id/og_text_card_title\"> Photos settings,  </p>"
+            },
+            {
+                "from": "5957317636217999975",
+                "to": "2475824460251569141",
+                "event": "click<button id=8 class =\"com.google.android.apps.photos:id/customization_button\"> Preferences,  </button>"
+            },
+            {
+                "from": "2475824460251569141",
+                "to": "2475824460251569141",
+                "event": "click<p id=22> Preferences,  </p>"
+            },
+            {
+                "from": "2475824460251569141",
+                "to": "-8409684327029419251",
+                "event": "click<button id=6 class =\"com.google.android.apps.photos:id/face_grouping_button\">  </button>"
+            },
+            {
+                "from": "-8409684327029419251",
+                "to": 2475824460251569141,
+                "event": "back"
+            },
+            {
+                "from": 2475824460251569141,
+                "to": "2975155382612984584",
+                "event": "click<button id=9 class =\"com.google.android.apps.photos:id/memories_button\">  </button>"
+            },
+            {
+                "from": "2975155382612984584",
+                "to": "2475824460251569141",
+                "event": "click<button id=15 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "2475824460251569141",
+                "to": "-8409684327029419251",
+                "event": "click<p id=8> Manage preferences for Face Groups,  </p>"
+            },
+            {
+                "from": "-8409684327029419251",
+                "to": "6057631272246881853",
+                "event": "click<button id=6 class =\"com.google.android.apps.photos:id/face_grouping_app_switch\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

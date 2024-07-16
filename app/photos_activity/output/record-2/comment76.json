@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Google Photos lacks an option to exclude screenshots and screen recordings, even with a .nomedia file in the folders. Despite turning off all Backup Folders settings, the issue persists. Reply to Developer: I checked the \"Back up device folders.\" settings. Everything is already turned off hence the issue still persist.",
+        "key sentence": "The key words: exclude screenshots and screen recordings",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Account Settings', 'description': 'Accessing and managing account settings'}, {'name': 'Turn ON/OFF Backup', 'description': 'Turn on or turn off backup.'}, {'name': 'Free Up Space', 'description': 'Deleting and managing storage space for photos'}, {'name': 'Photos Settings', 'description': 'Adjusting various settings related to photos'}, {'name': 'Help and Feedback', 'description': 'Accessing help and feedback options'}, {'name': 'Privacy Policy', 'description': 'Viewing the privacy policy'}, {'name': 'Terms of Service', 'description': 'Viewing the terms of service'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment76\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment76\\state8.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment76\\-4953608976078544455.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "-4953608976078544455"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment76\\2079666686574805262.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "2079666686574805262"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment76\\-4953608976078544455.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "-4953608976078544455"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment76\\2079666686574805262.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "2079666686574805262"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment76\\-4953608976078544455.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "-4953608976078544455"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment76\\2079666686574805262.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "2079666686574805262"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment76\\-4953608976078544455.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "-4953608976078544455"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment76\\2079666686574805262.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "2079666686574805262"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment76\\-2536954494313953234.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "-2536954494313953234"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state8",
+                "event": "click(FrameLayout-Signed in as ran Jin jinran848@gmail.com.Backup is off.Account and settings.:[925,104][1080,237])"
+            },
+            {
+                "from": "state8",
+                "to": "-4953608976078544455",
+                "event": "click<button id=21 class =\"com.google.android.apps.photos:id/og_card\" alt=\"Backup&#10;Backup complete\">  </button>"
+            },
+            {
+                "from": "-4953608976078544455",
+                "to": "2079666686574805262",
+                "event": "click<button id=4 class =\"com.google.android.apps.photos:id/photos_backup_overview_settings_button\" alt=\"Backup settings\">  </button>"
+            },
+            {
+                "from": "2079666686574805262",
+                "to": -4953608976078544455,
+                "event": "back"
+            },
+            {
+                "from": -4953608976078544455,
+                "to": "2079666686574805262",
+                "event": "click<button id=4 class =\"com.google.android.apps.photos:id/photos_backup_overview_settings_button\" alt=\"Backup settings\">  </button>"
+            },
+            {
+                "from": "2079666686574805262",
+                "to": "-4953608976078544455",
+                "event": "click<button id=3 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-4953608976078544455",
+                "to": "2079666686574805262",
+                "event": "click<button id=4 class =\"com.google.android.apps.photos:id/photos_backup_overview_settings_button\" alt=\"Backup settings\">  </button>"
+            },
+            {
+                "from": "2079666686574805262",
+                "to": "-4953608976078544455",
+                "event": "click<button id=3 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-4953608976078544455",
+                "to": "2079666686574805262",
+                "event": "click<button id=4 class =\"com.google.android.apps.photos:id/photos_backup_overview_settings_button\" alt=\"Backup settings\">  </button>"
+            },
+            {
+                "from": "2079666686574805262",
+                "to": "-2536954494313953234",
+                "event": "click<button id=5 class =\"com.google.android.apps.photos:id/photos_backup_settings_help\" alt=\"Help\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

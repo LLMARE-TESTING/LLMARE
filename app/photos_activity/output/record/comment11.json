@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "Don't know what I'd do without this! The editor is actually really good and it's really easy trying to find that one picture in a sea of photos. The grouping feature is incredibly helpful by grouping people, pets, places and even things together. All you gotta do is sync it up and you'll have ALL your pics in organized in one spot.",
+        "key sentence": "The key words from the comment are: \"editor\", \"grouping feature\", \"sync\", \"organized\".",
+        "target activity": ".create.CreateActivity",
+        "the function of activity": "The activity involves searching contacts, opening the menu, creating, editing, sorting, filtering, sharing, and deleting albums, as well as creating collages, videos, animations, and cinematic photos.",
+        "target state": "935e626969a3ce205c197bde146151b3",
+        "the sub-task list of state": "[{'name': 'Create Album', 'description': 'Create a new album in the app'}, {'name': 'Shared Album', 'description': 'View and interact with shared albums'}, {'name': 'Create Highlight Video', 'description': 'Create a highlight video from your photos'}, {'name': 'Create Animation', 'description': 'Make an animated creation using your photos'}, {'name': 'Create Collage', 'description': 'Put together a collage of images'}, {'name': 'Create Cinematic Photo', 'description': 'Turn your photos into cinematic masterpieces'}, {'name': 'View All Albums', 'description': 'Browse through all the albums in your library'}, {'name': 'Shared Photos', 'description': 'View photos shared with you by others'}, {'name': 'Share', 'description': 'Share your photos and albums with others'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment11\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment11\\86192f4cf2ee99309110205cefda64f8.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "86192f4cf2ee99309110205cefda64f8"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment11\\935e626969a3ce205c197bde146151b3.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "935e626969a3ce205c197bde146151b3"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment11\\-9207175558796766494.png",
+                "activity": "com.google.android.apps.photos.movies.v3.activity.MovieEditorActivity}",
+                "state_str": "-9207175558796766494"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "86192f4cf2ee99309110205cefda64f8",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=3caa4f71c4c0b3c5fcb899a96ad18a32(HomeActivity/ImageView-:x967:y1794))"
+            },
+            {
+                "from": "86192f4cf2ee99309110205cefda64f8",
+                "to": "935e626969a3ce205c197bde146151b3",
+                "event": "click(state=86192f4cf2ee99309110205cefda64f8, view=45baa8779ea04a3401825a1439830eab(HomeActivity/Button-View all:x794:y2008))"
+            },
+            {
+                "from": "935e626969a3ce205c197bde146151b3",
+                "to": "-9207175558796766494",
+                "event": "click<div id=2 class =\"com.google.android.apps.photos:id/create_expander\">  </div>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

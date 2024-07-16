@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "You need to have a different password option for locked folder in photos. Its shouldn't be same as lock screen password. 5 stars then.",
+        "key sentence": "The key words from the comment are: \"locked folder\", \"photos\", \"password\", \"lock screen\".",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state20",
+        "the sub-task list of state": "[{'name': 'Add to album', 'description': 'Add this photo to an album'}, {'name': 'Move to Archive', 'description': 'Move this photo to archive'}, {'name': 'Delete from device', 'description': 'Delete this photo from the device'}, {'name': 'Create', 'description': 'Create something related to this photo'}, {'name': 'Move to Locked Folder', 'description': 'Move this photo to a locked folder'}, {'name': 'Edit', 'description': 'Edit the date/time of the photo'}, {'name': 'Add a caption', 'description': 'Add a caption to this photo'}, {'name': 'Effects', 'description': 'Apply effects to this photo'}, {'name': 'Search Inside this Photo', 'description': 'Search text inside the photo.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment54\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment54\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment54\\state20.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state20"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment54\\-6662449651111708957.png",
+                "activity": "com.google.android.apps.photos.mars.entry.MarsOnboardingActivity}",
+                "state_str": "-6662449651111708957"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment54\\-8705018753822516935.png",
+                "activity": "com.google.android.apps.photos.mars.entry.MarsOnboardingActivity}",
+                "state_str": "-8705018753822516935"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment54\\-2103304132560712686.png",
+                "activity": "com.android.settings.Settings$SecurityDashboardActivity}",
+                "state_str": "-2103304132560712686"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment54\\-1137947077101344452.png",
+                "activity": "com.android.settings.SubSettings}",
+                "state_str": "-1137947077101344452"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment54\\-4405845504131615363.png",
+                "activity": "com.android.settings.password.ChooseLockPassword}",
+                "state_str": "-4405845504131615363"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment54\\-94193296663504439.png",
+                "activity": "com.android.settings.password.ChooseLockPassword}",
+                "state_str": "-94193296663504439"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment54\\-94193296663504439.png",
+                "activity": "com.android.settings.password.ChooseLockPassword}",
+                "state_str": "-94193296663504439"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment54\\-94193296663504439.png",
+                "activity": "com.android.settings.password.ChooseLockPassword}",
+                "state_str": "-94193296663504439"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "state20",
+                "event": "click(ImageView-More options:[964,94][1063,248])"
+            },
+            {
+                "from": "state20",
+                "to": "-6662449651111708957",
+                "event": "click<button id=26 class =\"com.google.android.apps.photos:id/photos_pager_menu_move_to_mars\"> Move to Locked Folder,  </button>"
+            },
+            {
+                "from": "state20",
+                "to": "-8705018753822516935",
+                "event": "click<button id=10 class =\"com.google.android.apps.photos:id/mars_get_started_button\"> Set up Locked Folder,  </button>"
+            },
+            {
+                "from": "state20",
+                "to": "-2103304132560712686",
+                "event": "click<button id=9 class =\"android:id/button1\"> Go to Settings,  </button>"
+            },
+            {
+                "from": "state20",
+                "to": "-1137947077101344452",
+                "event": "click<p id=20 class =\"android:id/title\"> Screen lock,  </p>"
+            },
+            {
+                "from": "state20",
+                "to": "-4405845504131615363",
+                "event": "click<button id=18 class =\"com.android.settings:id/lock_password\">  </button>"
+            },
+            {
+                "from": "state20",
+                "to": "-94193296663504439",
+                "event": "input<input id=13 class =\"com.android.settings:id/password_entry\" alt=\"Password\">  </input>different_password"
+            },
+            {
+                "from": "state20",
+                "to": "-94193296663504439",
+                "event": "click<button id=17> Next,  </button>"
+            },
+            {
+                "from": "state20",
+                "to": "-94193296663504439",
+                "event": "click<input id=13 class =\"com.android.settings:id/password_entry\" alt=\"Password\"> \u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022,  </input>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "Accidentally freeded up space on my phone because of the garbage \"Free up space\" button that I though would free up space on the Google Photos. Now all my photos completely erased from my phone, and there're also some photos that I like even it has a bad quality or blurry. Probably leave -5 star if I'm able to and then throw this app to the trash can if I don't have photos there. Rather lost my memory or phone than backing up my new photos or videos to the app.",
+        "key sentence": "the \"Free up space\" button",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Account Settings', 'description': 'Accessing and managing account settings'}, {'name': 'Backup Photos', 'description': 'Enabling and managing photo backup settings'}, {'name': 'Free Up Space', 'description': 'Deleting and managing storage space for photos'}, {'name': 'Photos Settings', 'description': 'Adjusting various settings related to photos'}, {'name': 'Help and Feedback', 'description': 'Accessing help and feedback options'}, {'name': 'Privacy Policy', 'description': 'Viewing the privacy policy'}, {'name': 'Terms of Service', 'description': 'Viewing the terms of service'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment9\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment9\\state8.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment9\\-1527611039753043958.png",
+                "activity": "com.google.android.apps.photos.devicemanagement.activity.FreeUpSpaceActivity}",
+                "state_str": "-1527611039753043958"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state8",
+                "event": "click(FrameLayout-Signed in as ran Jin jinran848@gmail.com.Backup is off.Account and settings.:[925,104][1080,237])"
+            },
+            {
+                "from": "state8",
+                "to": "-1527611039753043958",
+                "event": "click<p id=44 class =\"com.google.android.apps.photos:id/og_text_card_title\"> Free up space on this device,  </p>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

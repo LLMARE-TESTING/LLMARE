@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "Was using the default version of the app that came with the Pixel 7 Pro and in the edit window under suggestions it had options such as dynamic, color pop, vivid, luminous, radiant etc. Suddenly it changed and only has enhance, warm and cool. Why have these options disappeared? How do you get them back? Great app if I can get these features back otherwise it's very basic and buggy.",
+        "key sentence": "edit window, suggestions, dynamic, color pop, vivid, luminous, radiant, disappeared, basic, buggy",
+        "target activity": ".photoeditor.fragments.activity.PhotoEditorActivity",
+        "the function of activity": "An image editing tool with functions to search contacts, open menus, apply blur, remove parts, edit sky, switch tabs, cancel, save, adjust, add text, rotate, resize, adjust brightness, apply filters, undo, and redo.",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Suggestion Dynamic', 'description': 'Dynamic suggestion'}, {'name': 'Suggestion Enhance', 'description': 'Enhance suggestion'}, {'name': 'Suggestion Vivid', 'description': 'Vivid suggestion'}, {'name': 'Suggestion Luminous', 'description': 'Luminous suggestion'}, {'name': 'Change to crop tab', 'description': 'Change to crop tab'}, {'name': 'Change to tools tab', 'description': 'Change to tools tab'}, {'name': 'Cancel', 'description': 'Cancel editing'}, {'name': 'Save copy', 'description': 'Save edited photo as a copy'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment55\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment55\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment55\\state2.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state2"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "state2",
+                "event": "click(ImageView-Edit:[337,1993][491,2148])"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

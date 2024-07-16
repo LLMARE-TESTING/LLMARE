@@ -1,0 +1,90 @@
+[
+    {
+        "comment": "I used to create a video using a series of Dynamic photos under utilities. Now after update this feature is not working. Video comes out with still photos. Dynamic is not working",
+        "key sentence": "Dynamic photos, video creation, utilities, update issue",
+        "target activity": ".create.CreateActivity",
+        "the function of activity": "The activity involves searching contacts, opening the menu, creating, editing, sorting, filtering, sharing, and deleting albums, as well as creating collages, videos, animations, and cinematic photos.",
+        "target state": "state6",
+        "the sub-task list of state": "[{'name': 'Create new Album', 'description': 'Initiate the process of creating a new album in the photo application'}, {'name': 'Create new Collage', 'description': 'Begin the process of creating a new collage in the photo application'}, {'name': 'Create new Highlight video', 'description': 'Start creating a new highlight video in the photo application'}, {'name': 'Create new Cinematic photo', 'description': 'Initiate the process of creating a new cinematic photo in the photo application'}, {'name': 'Create new Animation', 'description': 'Start creating a new animation in the photo application'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment77\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment77\\state5.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment77\\state6.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "state6"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment77\\7776936914044729082.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "7776936914044729082"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment77\\7776936914044729082.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "7776936914044729082"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment77\\-6055950725998050443.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-6055950725998050443"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment77\\7776936914044729082.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "7776936914044729082"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment77\\6790252066434218478.png",
+                "activity": "",
+                "state_str": "6790252066434218478"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state5",
+                "event": "click(Button-Memories:[270,1928][540,2148])"
+            },
+            {
+                "from": "state5",
+                "to": "state6",
+                "event": "click(Button-Creations:[661,105][793,237])"
+            },
+            {
+                "from": "state6",
+                "to": "7776936914044729082",
+                "event": "click<button id=6 class =\"com.google.android.apps.photos:id/new_creation_item\">  </button>"
+            },
+            {
+                "from": "state6",
+                "to": "7776936914044729082",
+                "event": "click<div id=6 class =\"com.google.android.apps.photos:id/album_fragment_container\">  </div>"
+            },
+            {
+                "from": "state6",
+                "to": "-6055950725998050443",
+                "event": "click<button id=19 alt=\"Cast. Disconnected\">  </button>"
+            },
+            {
+                "from": "state6",
+                "to": 7776936914044729082,
+                "event": "back"
+            },
+            {
+                "from": "state6",
+                "to": "6790252066434218478",
+                "event": "click<button id=20 class =\"com.google.android.apps.photos:id/action_bar_overflow\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

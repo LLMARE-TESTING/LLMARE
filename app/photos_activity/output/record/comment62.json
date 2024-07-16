@@ -1,0 +1,70 @@
+[
+    {
+        "comment": "One star for taking away the background blur option and making it a paid feature. If you want to charge for features make them new don't just put a price on what you already had available for free",
+        "key sentence": "Key words: background blur option",
+        "target activity": ".photoeditor.fragments.activity.PhotoEditorActivity",
+        "the function of activity": "An image editing tool with functions to search contacts, open menus, apply blur, remove parts, edit sky, switch tabs, cancel, save, adjust, add text, rotate, resize, adjust brightness, apply filters, undo, and redo.",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Suggestion Dynamic', 'description': 'Dynamic suggestion'}, {'name': 'Suggestion Enhance', 'description': 'Enhance suggestion'}, {'name': 'Suggestion Vivid', 'description': 'Vivid suggestion'}, {'name': 'Suggestion Luminous', 'description': 'Luminous suggestion'}, {'name': 'Change to crop tab', 'description': 'Change to crop tab'}, {'name': 'Change to tools tab', 'description': 'Change to tools tab'}, {'name': 'Cancel', 'description': 'Cancel editing'}, {'name': 'Save copy', 'description': 'Save edited photo as a copy'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment62\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment62\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment62\\state2.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment62\\-2470681959734384703.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-2470681959734384703"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment62\\-2470681959734384703.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-2470681959734384703"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment62\\8289815431879380602.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "8289815431879380602"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "state2",
+                "event": "click(ImageView-Edit:[337,1993][491,2148])"
+            },
+            {
+                "from": "state2",
+                "to": "-2470681959734384703",
+                "event": "click<p id=32 alt=\"Change to tools tab\"> Tools,  </p>"
+            },
+            {
+                "from": "state2",
+                "to": "-2470681959734384703",
+                "event": "click<p id=28 alt=\"Change to tools tab\"> Tools,  </p>"
+            },
+            {
+                "from": "state2",
+                "to": "8289815431879380602",
+                "event": "click<p id=15 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_tools_text\"> Blur,  </p>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

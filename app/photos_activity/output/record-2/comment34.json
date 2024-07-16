@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "The app was good for a while. But the loss of a key feature has made it difficult to enjoy using. We could once select which album(s) on our phone we wanted to back up to photos, now everything is automatically uploaded and saved under \"Camera\" with pictures/vids you DIDN'T want saved now saved and its frustrating. Cause if you send them to trash it will delete them from your phone. I sent feedback about it and never got a reply. That one feature loss screwed this app up for me.",
+        "key sentence": "key words: album selection for backup",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "c192b558d12163d5e71f6357e9b41a43",
+        "the sub-task list of state": "[{'name': 'Merory Page', 'description': 'Access memory page.'}, {'name': 'Search', 'description': 'Search for specific photos or albums using keywords or filters'}, {'name': 'Create', 'description': 'Create new albums or collages with selected photos'}, {'name': 'Share', 'description': 'Share photos or albums with contacts or on social media platforms'}, {'name': 'Settings', 'description': 'Adjust app settings such as photo quality, storage location, or account information'}, {'name': 'View All', 'description': 'View all photos or albums in a comprehensive grid layout'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment34\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment34\\c192b558d12163d5e71f6357e9b41a43.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "c192b558d12163d5e71f6357e9b41a43"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment34\\-4739993695853432579.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-4739993695853432579"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment34\\727661516834132079.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "727661516834132079"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment34\\3067086708924987583.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "3067086708924987583"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment34\\7712287920904772701.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "7712287920904772701"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment34\\3067086708924987583.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "3067086708924987583"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment34\\-8301571859574335330.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-8301571859574335330"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment34\\-8207802605624549057.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-8207802605624549057"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment34\\7712287920904772701.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "7712287920904772701"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment34\\-8207802605624549057.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-8207802605624549057"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "c192b558d12163d5e71f6357e9b41a43",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=0defdfb86c70b5625b13d581a159ceea(HomeActivity/Button-Search:x810:y1928))"
+            },
+            {
+                "from": "c192b558d12163d5e71f6357e9b41a43",
+                "to": "-4739993695853432579",
+                "event": "click<button id=46 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "-4739993695853432579",
+                "to": "727661516834132079",
+                "event": "click<button id=58 class =\"com.google.android.apps.photos:id/og_card\">  </button>"
+            },
+            {
+                "from": "727661516834132079",
+                "to": "3067086708924987583",
+                "event": "click<button id=46 class =\"com.google.android.gms:id/gh_feedback_option\">  </button>"
+            },
+            {
+                "from": "3067086708924987583",
+                "to": "7712287920904772701",
+                "event": "click<button id=6 alt=\"Close Feedback\">  </button>"
+            },
+            {
+                "from": "7712287920904772701",
+                "to": 3067086708924987583,
+                "event": "back"
+            },
+            {
+                "from": 3067086708924987583,
+                "to": "-8301571859574335330",
+                "event": "click<button id=21> Get Started,  </button>"
+            },
+            {
+                "from": "-8301571859574335330",
+                "to": -8207802605624549057,
+                "event": "back"
+            },
+            {
+                "from": -8207802605624549057,
+                "to": "7712287920904772701",
+                "event": "click<button id=6 alt=\"Close Feedback\">  </button>"
+            },
+            {
+                "from": "7712287920904772701",
+                "to": -8207802605624549057,
+                "event": "back"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

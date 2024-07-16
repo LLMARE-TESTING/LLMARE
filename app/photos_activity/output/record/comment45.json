@@ -1,0 +1,100 @@
+[
+    {
+        "comment": "It'd be nice if there's a feature to hide photos and have them accessible via a password or fingerprint. Also, I don't like that it sorts or groups the photos by date, I hope there's a feature to disable that. The albums look very stylish and simple though which I love but I opted out of it eventually because of customization issues which other photo galleries have ease of access.",
+        "key sentence": "the key words: hide photos, password, fingerprint, sorts photos by date, disable sorting by date, customization issues, photo galleries",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state20",
+        "the sub-task list of state": "[{'name': 'Add to album', 'description': 'Add this photo to an album'}, {'name': 'Move to Archive', 'description': 'Move this photo to archive'}, {'name': 'Delete from device', 'description': 'Delete this photo from the device'}, {'name': 'Create', 'description': 'Create something related to this photo'}, {'name': 'Move to Locked Folder', 'description': 'Move this photo to a locked folder'}, {'name': 'Edit', 'description': 'Edit the date/time of the photo'}, {'name': 'Add a caption', 'description': 'Add a caption to this photo'}, {'name': 'Effects', 'description': 'Apply effects to this photo'}, {'name': 'Search Inside this Photo', 'description': 'Search text inside the photo.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment45\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment45\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment45\\state20.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state20"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment45\\-5841251519610401341.png",
+                "activity": "com.google.android.apps.photos.mars.entry.MarsOnboardingActivity}",
+                "state_str": "-5841251519610401341"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment45\\5967784012220940841.png",
+                "activity": "com.google.android.apps.photos.mars.entry.MarsOnboardingActivity}",
+                "state_str": "5967784012220940841"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment45\\-5002213899175398583.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "-5002213899175398583"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment45\\8604622197429146103.png",
+                "activity": "com.android.internal.app.ResolverActivity}",
+                "state_str": "8604622197429146103"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment45\\7471772109471079205.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "7471772109471079205"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment45\\3551353627102700342.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "3551353627102700342"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "state20",
+                "event": "click(ImageView-More options:[964,94][1063,248])"
+            },
+            {
+                "from": "state20",
+                "to": "-5841251519610401341",
+                "event": "click<button id=26 class =\"com.google.android.apps.photos:id/photos_pager_menu_move_to_mars\"> Move to Locked Folder,  </button>"
+            },
+            {
+                "from": "state20",
+                "to": "5967784012220940841",
+                "event": "click<button id=10 class =\"com.google.android.apps.photos:id/mars_get_started_button\"> Set up Locked Folder,  </button>"
+            },
+            {
+                "from": "state20",
+                "to": "-5002213899175398583",
+                "event": "click<div id=1 class =\"android:id/content\">  </div>"
+            },
+            {
+                "from": "state20",
+                "to": "8604622197429146103",
+                "event": "click<div id=13> Hide your sensitive photos &amp; videos,  </div>"
+            },
+            {
+                "from": "state20",
+                "to": "7471772109471079205",
+                "event": "click<div id=1 class =\"android:id/contentPanel\">  </div>"
+            },
+            {
+                "from": "state20",
+                "to": "3551353627102700342",
+                "event": "click<p id=26> \u2022,  </p>"
+            }
+        ],
+        "Final answer": "YES"
+    }
+]

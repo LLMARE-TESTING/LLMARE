@@ -1,0 +1,30 @@
+[
+    {
+        "comment": "Stop the Music!! I want the memories feature but the overdubbing of music is AWFUL. Can't hear my videos because of it. Please, please, \u9983\u6ab9, give us a way to turn this off.",
+        "key sentence": "The key words: the memories feature",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "f58d07b2dc774e14e82a3c9db70eba73",
+        "the sub-task list of state": "[{'name': 'Share', 'description': 'Share content'}, {'name': 'Settings', 'description': 'Access account and app settings'}, {'name': 'Creations', 'description': 'Create new content'}, {'name': 'Sharing', 'description': 'Share content with others'}, {'name': 'View Memories', 'description': 'View photos of memories.'}, {'name': 'Memories', 'description': 'Access memories'}, {'name': 'Add Memory', 'description': 'Add a new memory.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment6\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot-2\\comment6\\f58d07b2dc774e14e82a3c9db70eba73.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "f58d07b2dc774e14e82a3c9db70eba73"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "f58d07b2dc774e14e82a3c9db70eba73",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=52242917a0bacb3c7ea0ec114c61d575(HomeActivity/Button-Memories:x270:y1928))"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]
