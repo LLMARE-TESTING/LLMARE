@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "There is a terrible big bug in this app for a long time that they do not tend to solve it and that is why I give them this score :\" you comfortably type for a long time and when you tap to translate,suddenly the app closes and you miss all your writing.The same happens when you edit tour text.\" Is there anything worse than this? That is crazy!!!!!",
+        "key sentence": "The key words: app closes, miss all your writing, edit your text",
+        "target activity": "com.google.android.apps.translate.pref.SettingsActivity",
+        "the function of activity": "The setting of 'Tap to Translate','Data usage','keyboard','voice region','voice speed','voice speech input'.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'More Options', 'description': \"Open additional options by clicking the 'More options' icon.\"}, {'name': 'Manage Activity', 'description': \"Manage your translation history by clicking the 'Manage activity' button.\"}, {'name': 'Tap to Translate Setting', 'description': \"The setting of 'Tap to Translate' feature.\"}, {'name': 'Data Usage Setting', 'description': 'Configure data usage settings by selecting this option.'}, {'name': 'Keyboard Settings', 'description': 'Adjust keyboard settings by selecting this option.'}, {'name': 'Voice Settings', 'description': 'Adjust voice settings by selecting this option.'}, {'name': 'Voice Region Settings', 'description': 'Configure voice region settings by selecting this option.'}, {'name': 'Voice Speed Settings', 'description': 'Adjust translation or speech speed settings by selecting this option.'}, {'name': 'Voice Speech Input', 'description': 'Configure voice speech input settings by selecting this option.'}, {'name': 'Version Info', 'description': 'View the version information of the application.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment2\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment2\\state5.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment2\\state7.png",
+                "activity": "com.google.android.apps.translate.offline.OfflineManagerActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment2\\-3664350363471903705.png",
+                "activity": "com.google.android.apps.translate.pref.SettingsActivity}",
+                "state_str": "-3664350363471903705"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment2\\-2663480776315899479.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-2663480776315899479"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment2\\3745618258970591215.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "3745618258970591215"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment2\\3298239550579381843.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "3298239550579381843"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment2\\4301767277796025291.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4301767277796025291"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment2\\3298239550579381843.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "3298239550579381843"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment2\\3745618258970591215.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "3745618258970591215"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment2\\3745618258970591215.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "3745618258970591215"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state5",
+                "event": "click(ImageView-Signed in as ran Jin jinran848@gmail.com:[925,104][1080,237])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(TextView-Settings:[254,1062][970,1123])"
+            },
+            {
+                "from": "state7",
+                "to": -3664350363471903705,
+                "event": "back"
+            },
+            {
+                "from": -3664350363471903705,
+                "to": "-2663480776315899479",
+                "event": "click<button id=4 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-2663480776315899479",
+                "to": "3745618258970591215",
+                "event": "click<p id=17 class =\"com.google.android.apps.translate:id/enter_text_label\"> Enter text,  </p>"
+            },
+            {
+                "from": "3745618258970591215",
+                "to": "3298239550579381843",
+                "event": "input<input id=14 class =\"com.google.android.apps.translate:id/text_input_field\"> Enter text,  </input>This is a test text."
+            },
+            {
+                "from": "3298239550579381843",
+                "to": "4301767277796025291",
+                "event": "click<button id=16 class =\"com.google.android.apps.translate:id/text_output_field\"> \u8fd9\u662f\u4e00\u4e2a\u6d4b\u8bd5\u6587\u672c\u3002,  </button>"
+            },
+            {
+                "from": "4301767277796025291",
+                "to": "3298239550579381843",
+                "event": "click<input id=14 class =\"com.google.android.apps.translate:id/original_text\"> This is a test text.,  </input>"
+            },
+            {
+                "from": "3298239550579381843",
+                "to": "3745618258970591215",
+                "event": "click<button id=10 class =\"com.google.android.apps.translate:id/item_clear\" alt=\"Clear\">  </button>"
+            },
+            {
+                "from": "3745618258970591215",
+                "to": "3745618258970591215",
+                "event": "click<input id=14 class =\"com.google.android.apps.translate:id/text_input_field\"> Enter text,  </input>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

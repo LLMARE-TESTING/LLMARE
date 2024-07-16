@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "New layout/UI is downright awful. Why change what was already good? Functions remain mostly the same, but the new UI obscures and hinders the fast and easy use that the old UI had. Also as far as I can tell, 'previous translations' (as in words or phrases you have translated before) have been removed.",
+        "key sentence": "The key words: new layout/UI, previous translations",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state1",
+        "the sub-task list of state": "[{'name': 'History', 'description': 'View translation history'}, {'name': 'Save Translation', 'description': 'Save the current translation to a phrasebook'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment100\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment100\\state1.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment100\\6862057640134440346.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "6862057640134440346"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment100\\-7028955966053600653.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-7028955966053600653"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state1",
+                "event": "scroll-down(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state1",
+                "to": 6862057640134440346,
+                "event": "back"
+            },
+            {
+                "from": 6862057640134440346,
+                "to": "-7028955966053600653",
+                "event": "click<div id=2 class =\"com.google.android.apps.translate:id/history_fragment\">  </div>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

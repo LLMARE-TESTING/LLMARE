@@ -1,0 +1,70 @@
+[
+    {
+        "comment": "Please bring back useful feature, it has been removed in latest update. After translating, we can see full screen text/word by rotating phone to landscape mode. We unable to get text/word larger anymore. Please bring this back.",
+        "key sentence": "landscape mode",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "9a9a74ecea6bed329effbd37c31bf348",
+        "the sub-task list of state": "[{'name': 'Close Settings', 'description': 'Close the settings window or menu'}, {'name': 'Make on-screen text smaller', 'description': 'Reduce the size of the on-screen text for better visibility'}, {'name': 'Make on-screen text larger', 'description': 'Increase the size of the on-screen text for better visibility'}, {'name': 'Auto playback', 'description': 'Enable or disable automatic reading of translations aloud after speaking'}, {'name': 'Send feedback', 'description': 'Provide feedback or suggestions about the screen content or functionality'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\9b7c15805532475387b4dc32a87d80ed.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "9b7c15805532475387b4dc32a87d80ed"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\226481ed7f29bc8a96dcce7f89c420e8.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "226481ed7f29bc8a96dcce7f89c420e8"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\9a9a74ecea6bed329effbd37c31bf348.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "9a9a74ecea6bed329effbd37c31bf348"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\-7131037700489441081.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-7131037700489441081"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\-5411224368953067312.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-5411224368953067312"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "9b7c15805532475387b4dc32a87d80ed",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=cf82f2647f332a31a519428d9a0454b5(TranslateActivity/Button-Conversati:x133:y1884))"
+            },
+            {
+                "from": "9b7c15805532475387b4dc32a87d80ed",
+                "to": "226481ed7f29bc8a96dcce7f89c420e8",
+                "event": "click(state=9b7c15805532475387b4dc32a87d80ed, view=c398d5fe9c997d38a2556f53ba4905ea(TranslateActivity/Button-Got it:x744:y1277))"
+            },
+            {
+                "from": "226481ed7f29bc8a96dcce7f89c420e8",
+                "to": "9a9a74ecea6bed329effbd37c31bf348",
+                "event": "click(state=226481ed7f29bc8a96dcce7f89c420e8, view=43e7fbc58f4cd07c1e684b3446c050fb(TranslateActivity/Button-Settings:x937:y105))"
+            },
+            {
+                "from": "9a9a74ecea6bed329effbd37c31bf348",
+                "to": -7131037700489441081,
+                "event": "back"
+            },
+            {
+                "from": "9a9a74ecea6bed329effbd37c31bf348",
+                "to": "-5411224368953067312",
+                "event": "click<button id=10 class =\"com.google.android.apps.translate:id/item_settings\" alt=\"Settings\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

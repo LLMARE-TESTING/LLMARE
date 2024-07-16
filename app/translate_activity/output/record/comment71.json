@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "Translations of individually inputted phrases and words seem to work fairly well. App layout and UI is easy to use. However, I wish there was the ability to translate live conversations at the rate of two native speakers conversing. This allows a non-native third party to listen to native speakers. Currently, the conversations mode seems to require distinct pauses between short phrases that suggest the two speakers are slowly taking turns to handicap the conversation down to the app's abilities. Make the app disappear into the background by streaming a normal paced conversation (native to native) live via scrolling text! Not sure if the tech is possible but I believe in you guys!",
+        "key sentence": "conversations mode",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "c9051d1595727256dded4d6f12a85dac",
+        "the sub-task list of state": "[{'name': 'Translate Start Text', 'description': 'Display the prompt to start speaking for translation'}, {'name': 'Translate End Text', 'description': 'Display the prompt after finishing speaking for translation'}, {'name': 'Switch to Standard Mode', 'description': 'Toggle to switch between different modes'}, {'name': 'Listen for Both Languages', 'description': 'Enable listening for audio in both Azerbaijani and Bengali'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment71\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment71\\9b7c15805532475387b4dc32a87d80ed.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "9b7c15805532475387b4dc32a87d80ed"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment71\\226481ed7f29bc8a96dcce7f89c420e8.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "226481ed7f29bc8a96dcce7f89c420e8"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment71\\c9051d1595727256dded4d6f12a85dac.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "c9051d1595727256dded4d6f12a85dac"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "9b7c15805532475387b4dc32a87d80ed",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=cf82f2647f332a31a519428d9a0454b5(TranslateActivity/Button-Conversati:x133:y1884))"
+            },
+            {
+                "from": "9b7c15805532475387b4dc32a87d80ed",
+                "to": "226481ed7f29bc8a96dcce7f89c420e8",
+                "event": "click(state=9b7c15805532475387b4dc32a87d80ed, view=c398d5fe9c997d38a2556f53ba4905ea(TranslateActivity/Button-Got it:x744:y1277))"
+            },
+            {
+                "from": "226481ed7f29bc8a96dcce7f89c420e8",
+                "to": "c9051d1595727256dded4d6f12a85dac",
+                "event": "click(state=226481ed7f29bc8a96dcce7f89c420e8, view=fcbf9b11893ae9d5fbebfa14559ffaef(TranslateActivity/Button-Switch to :x805:y105))"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

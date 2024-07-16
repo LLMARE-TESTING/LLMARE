@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Hi, I am Using Google Translate for 4 years. It was perfect but, Now when you have changed the interface, it is not working fast as it was working earlier. My issue is now it shows only one meaning of a word and also it doesn't shows the meaning in sentences as it was showing. Please fix it.",
+        "key sentence": "the interface",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state4",
+        "the sub-task list of state": "[{'name': 'New translation', 'description': 'Start a new translation session'}, {'name': 'History', 'description': 'View translation history'}, {'name': 'More options', 'description': 'Open additional options'}, {'name': 'Speak original word', 'description': 'Listen to the spoken version of the original text'}, {'name': 'Copy original word', 'description': 'Copy the original text to clipboard'}, {'name': 'Speak translated word', 'description': 'Listen to the spoken version of the translated text'}, {'name': 'Copy translated word', 'description': 'Copy the translated text to clipboard'}, {'name': 'Submit Translation Feedback', 'description': 'Provide feedback on the translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment30\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment30\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment30\\state3.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment30\\state4.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment30\\-3889445124937959806.png",
+                "activity": "",
+                "state_str": "-3889445124937959806"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment30\\-3659488956392153124.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-3659488956392153124"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment30\\-3889445124937959806.png",
+                "activity": "",
+                "state_str": "-3889445124937959806"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment30\\-865127576041061540.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-865127576041061540"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment30\\-865127576041061540.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-865127576041061540"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment30\\2278597296581079016.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "2278597296581079016"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment30\\-3895989918638761941.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-3895989918638761941"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "input(EditText-com.google.android.apps.translate:id/text_input_field:[66,347][1014,474])(enter)"
+            },
+            {
+                "from": "state3",
+                "to": "state4",
+                "event": "click(ViewGroup-Edit Query Completion entertainment:[0,876][1080,1045])"
+            },
+            {
+                "from": "state4",
+                "to": "-3889445124937959806",
+                "event": "click<img id=9 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-3889445124937959806",
+                "to": "-3659488956392153124",
+                "event": "click<p id=6 class =\"com.google.android.apps.translate:id/title\"> Reverse translate,  </p>"
+            },
+            {
+                "from": "-3659488956392153124",
+                "to": "-3889445124937959806",
+                "event": "click<img id=9 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-3889445124937959806",
+                "to": "-865127576041061540",
+                "event": "click<p id=12 class =\"com.google.android.apps.translate:id/title\"> Send feedback,  </p>"
+            },
+            {
+                "from": "-865127576041061540",
+                "to": "-865127576041061540",
+                "event": "click<div id=5 alt=\"Send feedback to Google\">  </div>"
+            },
+            {
+                "from": "-865127576041061540",
+                "to": "2278597296581079016",
+                "event": "click<button id=21> Get Started,  </button>"
+            },
+            {
+                "from": "2278597296581079016",
+                "to": "-3895989918638761941",
+                "event": "input<input id=12 class =\"com.google.android.gms:id/text_input_edit_text\"> Tell us how we can improve our product,  </input>Hi, I am Using Google Translate for 4 years. It was perfect but, Now when you have changed the interface, it is not working fast as it was working earlier. My issue is now it shows only one meaning of a word and also it doesn't shows the meaning in sentences as it was showing. Please fix it."
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

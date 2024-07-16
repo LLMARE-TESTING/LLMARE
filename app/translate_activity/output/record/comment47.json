@@ -1,0 +1,60 @@
+[
+    {
+        "comment": "Interface is not really good. After importing a picture, if you want to change translation language, you have to re-import the picture after that. Also, would be nice to have an option to share an image from any other app into the translator and have it translate the image, as if you had imported it. Copy anywhere to translate is gone too - which was the key feature for me.",
+        "key sentence": "The key words: importing a picture, change translation language, share an image, Copy anywhere to translate",
+        "target activity": "com.google.android.apps.lens.MainActivity",
+        "the function of activity": "The activity facilitates user interaction: search contacts, enable camera flash, access options, select gallery image, use camera for search, and expand translation choices.",
+        "target state": "7bdc16aba671b5811d835b68b453fdff",
+        "the sub-task list of state": "[{'name': 'Turn flash on', 'description': 'Enable flash for the camera'}, {'name': 'More options', 'description': 'Access additional options menu'}, {'name': 'Select an image from gallery', 'description': \"Choose an image from the device's gallery\"}, {'name': 'Camera search', 'description': 'Activate camera for search functionality'}, {'name': 'Expand translation menu', 'description': 'Show more translation options'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment47\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment47\\7bdc16aba671b5811d835b68b453fdff.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "7bdc16aba671b5811d835b68b453fdff"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment47\\5666665034311933138.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "5666665034311933138"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment47\\7763094591325898570.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "7763094591325898570"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment47\\8650092923331761361.png",
+                "activity": "",
+                "state_str": "8650092923331761361"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "7bdc16aba671b5811d835b68b453fdff",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=2da0330ccba2d015a9b7a753d43dc9df(TranslateActivity/Button-Camera:x815:y1884))"
+            },
+            {
+                "from": "7bdc16aba671b5811d835b68b453fdff",
+                "to": "5666665034311933138",
+                "event": "click<img id=63 class =\"com.google.android.googlequicksearchbox:id/lens_gallery_picker_button_m2_thumbnail\" alt=\"Select an image from gallery\">  </img>"
+            },
+            {
+                "from": "7bdc16aba671b5811d835b68b453fdff",
+                "to": "7763094591325898570",
+                "event": "click<img id=50 class =\"com.google.android.googlequicksearchbox:id/lens_gallery_item_image_view\" alt=\"Screenshot\">  </img>"
+            },
+            {
+                "from": "7bdc16aba671b5811d835b68b453fdff",
+                "to": "8650092923331761361",
+                "event": "click<button id=92 class =\"com.google.android.googlequicksearchbox:id/lens_language_button_target\"> English,  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

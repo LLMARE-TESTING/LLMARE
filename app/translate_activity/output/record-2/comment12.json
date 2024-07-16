@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "In general & functionally it is a very good app just recently: the \"tap to translates\" function got some problems after your last update. 1- now it is alway on the screen the way is bothering! 2- after killing it, if I want to have it again, must go to app setting to reactivate 3- this translation ball's function also got some problems itself! sometimes runaway from my finger touch! and hide at the top right corner of the screen! appreciate your attention \u9983\u69c9\u9983\u5c2e",
+        "key sentence": "**Key words**: tap to translate function",
+        "target activity": "com.google.android.apps.translate.pref.SettingsActivity",
+        "the function of activity": "The setting of 'Tap to Translate','Data usage','keyboard','voice region','voice speed','voice speech input'.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'More Options', 'description': \"Open additional options by clicking the 'More options' icon.\"}, {'name': 'Manage Activity', 'description': \"Manage your translation history by clicking the 'Manage activity' button.\"}, {'name': 'Tap to Translate Setting', 'description': \"The setting of 'Tap to Translate' feature.\"}, {'name': 'Data Usage Setting', 'description': 'Configure data usage settings by selecting this option.'}, {'name': 'Keyboard Settings', 'description': 'Adjust keyboard settings by selecting this option.'}, {'name': 'Voice Settings', 'description': 'Adjust voice settings by selecting this option.'}, {'name': 'Voice Region Settings', 'description': 'Configure voice region settings by selecting this option.'}, {'name': 'Voice Speed Settings', 'description': 'Adjust translation or speech speed settings by selecting this option.'}, {'name': 'Voice Speech Input', 'description': 'Configure voice speech input settings by selecting this option.'}, {'name': 'Version Info', 'description': 'View the version information of the application.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment12\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment12\\state5.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment12\\state7.png",
+                "activity": "com.google.android.apps.translate.offline.OfflineManagerActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment12\\-219679585370957145.png",
+                "activity": "com.google.android.apps.translate.offline.OfflineManagerActivity}",
+                "state_str": "-219679585370957145"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment12\\1073483454979681884.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1073483454979681884"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment12\\-6534234745465009349.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-6534234745465009349"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment12\\-2991253759185185917.png",
+                "activity": "com.google.android.apps.translate.help.HelpActivity}",
+                "state_str": "-2991253759185185917"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment12\\341794847896033296.png",
+                "activity": "",
+                "state_str": "341794847896033296"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment12\\-1482120917328437491.png",
+                "activity": "com.google.android.apps.translate.help.HelpActivity}",
+                "state_str": "-1482120917328437491"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment12\\-865127576041061540.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-865127576041061540"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment12\\-863802395188536947.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-863802395188536947"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state5",
+                "event": "click(ImageView-Signed in as ran Jin jinran848@gmail.com:[925,104][1080,237])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(TextView-Settings:[254,1062][970,1123])"
+            },
+            {
+                "from": "state7",
+                "to": "-219679585370957145",
+                "event": "click<button id=36 class =\"android:id/text1\"> Tap to download,  </button>"
+            },
+            {
+                "from": "-219679585370957145",
+                "to": 1073483454979681884,
+                "event": "back"
+            },
+            {
+                "from": 1073483454979681884,
+                "to": "-6534234745465009349",
+                "event": "click<button id=12 class =\"com.google.android.apps.translate:id/selected_account_disc\" alt=\"Account and settings.\">  </button>"
+            },
+            {
+                "from": "-6534234745465009349",
+                "to": "-2991253759185185917",
+                "event": "click<button id=46 class =\"com.google.android.apps.translate:id/og_card\">  </button>"
+            },
+            {
+                "from": "-2991253759185185917",
+                "to": "341794847896033296",
+                "event": "click<img id=8 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "341794847896033296",
+                "to": -1482120917328437491,
+                "event": "back"
+            },
+            {
+                "from": -1482120917328437491,
+                "to": "-865127576041061540",
+                "event": "click<button id=7 class =\"com.google.android.apps.translate:id/menu_feedback\"> FEEDBACK,  </button>"
+            },
+            {
+                "from": "-865127576041061540",
+                "to": -863802395188536947,
+                "event": "back"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

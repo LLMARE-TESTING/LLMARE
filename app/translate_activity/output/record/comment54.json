@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "What have you DONE and why?? I used this app frequently now I miss some of the features even before a history was listed down now you have to stop writing and hit a button that brings you to another window. To many clicks for a simple translation, history was all listed in one screen during writing. Not my favourite anymore!",
+        "key sentence": "history, writing",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state1",
+        "the sub-task list of state": "[{'name': 'History', 'description': 'View translation history'}, {'name': 'Save Translation', 'description': 'Save the current translation to a phrasebook'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment54\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment54\\state1.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment54\\7183368097215946326.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "7183368097215946326"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment54\\4352571848209725442.png",
+                "activity": "com.google.android.apps.translate.inputs.PhrasebookActivity}",
+                "state_str": "4352571848209725442"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment54\\7183368097215946326.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "7183368097215946326"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment54\\4352571848209725442.png",
+                "activity": "com.google.android.apps.translate.inputs.PhrasebookActivity}",
+                "state_str": "4352571848209725442"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment54\\7183368097215946326.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "7183368097215946326"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment54\\4352571848209725442.png",
+                "activity": "com.google.android.apps.translate.inputs.PhrasebookActivity}",
+                "state_str": "4352571848209725442"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment54\\7183368097215946326.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "7183368097215946326"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment54\\4352571848209725442.png",
+                "activity": "com.google.android.apps.translate.inputs.PhrasebookActivity}",
+                "state_str": "4352571848209725442"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment54\\7183368097215946326.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "7183368097215946326"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state1",
+                "event": "scroll-down(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state1",
+                "to": "7183368097215946326",
+                "event": "click<button id=7 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "state1",
+                "to": "4352571848209725442",
+                "event": "click<button id=8 class =\"com.google.android.apps.translate:id/phrasebook_button\" alt=\"Saved\">  </button>"
+            },
+            {
+                "from": "state1",
+                "to": 7183368097215946326,
+                "event": "back"
+            },
+            {
+                "from": "state1",
+                "to": "4352571848209725442",
+                "event": "click<button id=8 class =\"com.google.android.apps.translate:id/phrasebook_button\" alt=\"Saved\">  </button>"
+            },
+            {
+                "from": "state1",
+                "to": 7183368097215946326,
+                "event": "back"
+            },
+            {
+                "from": "state1",
+                "to": "4352571848209725442",
+                "event": "click<button id=8 class =\"com.google.android.apps.translate:id/phrasebook_button\" alt=\"Saved\">  </button>"
+            },
+            {
+                "from": "state1",
+                "to": 7183368097215946326,
+                "event": "back"
+            },
+            {
+                "from": "state1",
+                "to": "4352571848209725442",
+                "event": "click<button id=8 class =\"com.google.android.apps.translate:id/phrasebook_button\" alt=\"Saved\">  </button>"
+            },
+            {
+                "from": "state1",
+                "to": 7183368097215946326,
+                "event": "back"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

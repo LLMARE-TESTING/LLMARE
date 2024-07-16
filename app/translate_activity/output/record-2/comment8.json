@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "For this app to be useful while traveling, it needs to function without internet. So it has you download specific languages for that, alright. The text based translate works just fine, but the photo based one does not. It asks you to download a language to use this feature offline no matter what. Suppose it's just a separate download from the settings menu, nope. Even if you clear your downloads and try downloading it from the photo prompt, nothing happens, nothing downloads, doesn't work.",
+        "key sentence": "photo translation offline functionality",
+        "target activity": ".languagepicker.LanguagePickerActivity",
+        "the function of activity": "The activity facilitates user interactions: search contacts, access menus, translate text, download offline files, cancel actions, and confirm decisions.",
+        "target state": "8de392d4a1a62f8f1162ec326d1cf594",
+        "the sub-task list of state": "[{'name': 'Translate', 'description': 'Perform text translation'}, {'name': 'Download Offline Files', 'description': 'Download offline translation files'}, {'name': 'Cancel', 'description': 'Cancel the current operation or action'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment8\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment8\\b1318bbb23a1113677d8040c5b4078df.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "b1318bbb23a1113677d8040c5b4078df"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment8\\8de392d4a1a62f8f1162ec326d1cf594.png",
+                "activity": "",
+                "state_str": "8de392d4a1a62f8f1162ec326d1cf594"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment8\\3487828732912952052.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "3487828732912952052"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment8\\3716417960039358765.png",
+                "activity": "",
+                "state_str": "3716417960039358765"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment8\\775700646848208891.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "775700646848208891"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment8\\3151276041118276249.png",
+                "activity": "",
+                "state_str": "3151276041118276249"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment8\\775700646848208891.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "775700646848208891"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment8\\3151276041118276249.png",
+                "activity": "",
+                "state_str": "3151276041118276249"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment8\\775700646848208891.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "775700646848208891"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment8\\-3122486731366817686.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "-3122486731366817686"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "b1318bbb23a1113677d8040c5b4078df",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=445338357d585d5588a2c84fb52b11a0(TranslateActivity/Button-Bengali:x617:y1587))"
+            },
+            {
+                "from": "b1318bbb23a1113677d8040c5b4078df",
+                "to": "8de392d4a1a62f8f1162ec326d1cf594",
+                "event": "click(state=b1318bbb23a1113677d8040c5b4078df, view=d5a18f3e048be36d6d269c4b81c33618(LanguagePickerActivity/ImageView-Download B:x882:y2070))"
+            },
+            {
+                "from": "8de392d4a1a62f8f1162ec326d1cf594",
+                "to": "3487828732912952052",
+                "event": "click<img id=12 class =\"com.google.android.googlequicksearchbox:id/lens_translate_download_icon\">  </img>"
+            },
+            {
+                "from": "3487828732912952052",
+                "to": "3716417960039358765",
+                "event": "click<button id=11 class =\"android:id/button2\"> Cancel,  </button>"
+            },
+            {
+                "from": "3716417960039358765",
+                "to": "775700646848208891",
+                "event": "click<button id=4 alt=\"Back\">  </button>"
+            },
+            {
+                "from": "775700646848208891",
+                "to": "3151276041118276249",
+                "event": "click<img id=47 class =\"com.google.android.googlequicksearchbox:id/overflow_menu_button\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "3151276041118276249",
+                "to": 775700646848208891,
+                "event": "back"
+            },
+            {
+                "from": 775700646848208891,
+                "to": "3151276041118276249",
+                "event": "click<img id=47 class =\"com.google.android.googlequicksearchbox:id/overflow_menu_button\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "3151276041118276249",
+                "to": 775700646848208891,
+                "event": "back"
+            },
+            {
+                "from": 775700646848208891,
+                "to": "-3122486731366817686",
+                "event": "click<button id=66 class =\"com.google.android.googlequicksearchbox:id/shutter_button_view\" alt=\"Camera search\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

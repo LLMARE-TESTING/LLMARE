@@ -1,0 +1,70 @@
+[
+    {
+        "comment": "Hate the new layout. I hate having to hide the keyboard just access the copy function. I use this app a lot when conversing with friends in another language and it used to be so quick and easy....now it's so tedious having to hide the keyboard every single time I want to copy and paste a translation. Please fix!! Just add a persistent copy button to the screen thst can be accessed all the time.",
+        "key sentence": "keyboard, copy function",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state6",
+        "the sub-task list of state": "[{'name': 'History', 'description': 'View translation history'}, {'name': 'Keyboard', 'description': 'Open virtual keyboard for text input'}, {'name': 'Enter text', 'description': 'Input text using the keyboard or other input methods'}, {'name': 'Paste', 'description': 'Insert copied text into the translation area'}, {'name': 'Swap languages', 'description': 'Switch the languages being translated'}, {'name': 'Select language', 'description': 'Choose the source or target language for translation'}, {'name': 'Handwriting input', 'description': 'Use handwriting recognition for text input'}, {'name': 'Undo', 'description': 'Reverse the last action performed'}, {'name': 'Space bar', 'description': 'Insert a space while using handwriting input'}, {'name': 'Backspace key', 'description': 'Delete the previous character or action'}, {'name': 'Show details', 'description': 'Display more information or options related to the translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment40\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment40\\state2.png",
+                "activity": "com.android.deskclock.DeskClock}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment40\\state6.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state6"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment40\\8366124796283642163.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "8366124796283642163"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment40\\8630287064166278191.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "8630287064166278191"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment40\\7600742764595554064.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "7600742764595554064"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "state6",
+                "event": "click(Button-Handwriting:[805,105][937,237])"
+            },
+            {
+                "from": "state6",
+                "to": "8366124796283642163",
+                "event": "input<input id=14 class =\"com.google.android.apps.translate:id/text_input_field\"> Enter text,  </input>Hello"
+            },
+            {
+                "from": "state6",
+                "to": "8630287064166278191",
+                "event": "click<button id=11 class =\"com.google.android.apps.translate:id/item_keyboard\" alt=\"Keyboard\">  </button>"
+            },
+            {
+                "from": "state6",
+                "to": "7600742764595554064",
+                "event": "click<button id=16 class =\"com.google.android.apps.translate:id/text_output_field\"> Hello,  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

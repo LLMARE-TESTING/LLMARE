@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "The new ui update is a huge downgrade and really unecessary. I can no longer adjust the height of handwriting option and it doesn't show at all in split screen. Bring back the old version please it was much better than the new update.",
+        "key sentence": "The key words: handwriting option, split screen",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Navigate up', 'description': 'Go up one level or return to previous screen'}, {'name': 'History', 'description': 'View history of previous actions or translations'}, {'name': 'Handwriting', 'description': 'Access handwriting input for text entry'}, {'name': 'Enter text', 'description': 'Input text using the on-screen keyboard'}, {'name': 'Paste', 'description': 'Paste copied text into the current input field'}, {'name': 'Swap languages', 'description': 'Exchange the source and target languages'}, {'name': 'Select language (A)', 'description': 'Choose the source language for translation'}, {'name': 'Select language (B)', 'description': 'Choose the target language for translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment86\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment86\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment86\\-1904645176476368710.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-1904645176476368710"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment86\\-2077790731016598277.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-2077790731016598277"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment86\\-6339065198362315105.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-6339065198362315105"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment86\\-5265481235564679940.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-5265481235564679940"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment86\\-7356335008458086347.png",
+                "activity": "",
+                "state_str": "-7356335008458086347"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment86\\6739774928872725366.png",
+                "activity": "com.android.internal.app.ChooserActivity}",
+                "state_str": "6739774928872725366"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment86\\-5265481235564679940.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-5265481235564679940"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment86\\-7356335008458086347.png",
+                "activity": "",
+                "state_str": "-7356335008458086347"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment86\\-5265481235564679940.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-5265481235564679940"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "-1904645176476368710",
+                "event": "click<button id=11 class =\"com.google.android.apps.translate:id/item_handwriting\" alt=\"Handwriting\">  </button>"
+            },
+            {
+                "from": "state2",
+                "to": "-2077790731016598277",
+                "event": "click<div id=28 class =\"com.google.android.apps.translate:id/handwriting_overlay\" alt=\"Handwriting area. Double tap to activate.\">  </div>"
+            },
+            {
+                "from": "state2",
+                "to": "-6339065198362315105",
+                "event": "click<div id=37 class =\"com.google.android.apps.translate:id/handwriting_overlay\" alt=\"Handwriting area. Double tap to activate.\">  </div>"
+            },
+            {
+                "from": "state2",
+                "to": -5265481235564679940,
+                "event": "back"
+            },
+            {
+                "from": "state2",
+                "to": "-7356335008458086347",
+                "event": "click<img id=9 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "state2",
+                "to": "6739774928872725366",
+                "event": "click<img id=8 class =\"com.google.android.apps.translate:id/icon\">  </img>"
+            },
+            {
+                "from": "state2",
+                "to": -5265481235564679940,
+                "event": "back"
+            },
+            {
+                "from": "state2",
+                "to": "-7356335008458086347",
+                "event": "click<img id=9 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "state2",
+                "to": -5265481235564679940,
+                "event": "back"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

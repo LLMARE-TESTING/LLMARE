@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "The new design is wonderful however, in the recent months, the old layout had a new feature which automatically changed the keyboard to the chosen language alphabet (if the language was set up), and since the design upgrade this feature has gone. It's a shame it was one of the best features amongst all android apps, preventing having to annoying change the language. I wish you'll put it back quick.",
+        "key sentence": "keyboard language switching",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state6",
+        "the sub-task list of state": "[{'name': 'History', 'description': 'View translation history'}, {'name': 'Keyboard', 'description': 'Open virtual keyboard for text input'}, {'name': 'Enter text', 'description': 'Input text using the keyboard or other input methods'}, {'name': 'Paste', 'description': 'Insert copied text into the translation area'}, {'name': 'Swap languages', 'description': 'Switch the languages being translated'}, {'name': 'Select language', 'description': 'Choose the source or target language for translation'}, {'name': 'Handwriting input', 'description': 'Use handwriting recognition for text input'}, {'name': 'Undo', 'description': 'Reverse the last action performed'}, {'name': 'Space bar', 'description': 'Insert a space while using handwriting input'}, {'name': 'Backspace key', 'description': 'Delete the previous character or action'}, {'name': 'Show details', 'description': 'Display more information or options related to the translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment52\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment52\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment52\\state6.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state6"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment52\\5746608792443787105.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "5746608792443787105"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment52\\-6320486424775547037.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "-6320486424775547037"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment52\\-365484922040382349.png",
+                "activity": "",
+                "state_str": "-365484922040382349"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment52\\-6320486424775547037.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "-6320486424775547037"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment52\\-365484922040382349.png",
+                "activity": "",
+                "state_str": "-365484922040382349"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment52\\-6320486424775547037.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "-6320486424775547037"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment52\\-365484922040382349.png",
+                "activity": "",
+                "state_str": "-365484922040382349"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment52\\-9103662665830685248.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-9103662665830685248"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "state6",
+                "event": "click(Button-Handwriting:[805,105][937,237])"
+            },
+            {
+                "from": "state6",
+                "to": "5746608792443787105",
+                "event": "click<button id=11 class =\"com.google.android.apps.translate:id/item_keyboard\" alt=\"Keyboard\">  </button>"
+            },
+            {
+                "from": "state6",
+                "to": "-6320486424775547037",
+                "event": "click<button id=18 class =\"com.google.android.apps.translate:id/language_button_a\"> Chinese (Simplified),  </button>"
+            },
+            {
+                "from": "state6",
+                "to": "-365484922040382349",
+                "event": "click<img id=7 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "state6",
+                "to": -6320486424775547037,
+                "event": "back"
+            },
+            {
+                "from": "state6",
+                "to": "-365484922040382349",
+                "event": "click<img id=7 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "state6",
+                "to": -6320486424775547037,
+                "event": "back"
+            },
+            {
+                "from": "state6",
+                "to": "-365484922040382349",
+                "event": "click<img id=7 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "state6",
+                "to": "-9103662665830685248",
+                "event": "click<button id=4 alt=\"Apps list\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

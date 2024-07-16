@@ -1,0 +1,80 @@
+[
+    {
+        "comment": "How did you screw this up? I loved this app, especially the tap to translate. My wife's family is Colombian, so lots of Spanish in our texts. I could simply long press the text, copy, the button would pop up, tap it, and bam! Translated. Then the icon went away until I copied something. Now you want to keep the icon on my screen the whole time? And a drop down menu entry? You guys went stupid. EDIT: I don't care why you ruined it.",
+        "key sentence": "tap to translate",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state5",
+        "the sub-task list of state": "[{'name': 'Close Dialog', 'description': 'Close the translation dialog.'}, {'name': 'Change Profile Picture', 'description': 'Change the current profile picture associated with the account.'}, {'name': 'Manage Google Account', 'description': 'Access and manage settings related to the Google Account.'}, {'name': 'Expand Account List', 'description': 'Expand the list of accounts to show more details or options.'}, {'name': 'Downloaded Languages', 'description': 'View and manage languages that have been downloaded for offline use.'}, {'name': 'History', 'description': 'View the history of translations or actions taken within the application.'}, {'name': 'Privacy Policy', 'description': 'View the privacy policy information.'}, {'name': 'Terms of Service', 'description': 'View the terms of service information.'}, {'name': 'Help & Feedback', 'description': 'Access help resources or provide feedback.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment22\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment22\\state5.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment22\\-937591610525877659.png",
+                "activity": "com.google.android.apps.translate.pref.SettingsActivity}",
+                "state_str": "-937591610525877659"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment22\\2317212426018668728.png",
+                "activity": "com.google.android.apps.translate.pref.SettingsActivity}",
+                "state_str": "2317212426018668728"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment22\\6665248499992627919.png",
+                "activity": "com.google.android.apps.translate.copydrop.gm3.TapToTranslateShowFloatingIconOnboardingActivity}",
+                "state_str": "6665248499992627919"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment22\\6665248499992627919.png",
+                "activity": "com.google.android.apps.translate.copydrop.gm3.TapToTranslateShowFloatingIconOnboardingActivity}",
+                "state_str": "6665248499992627919"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment22\\2317212426018668728.png",
+                "activity": "com.google.android.apps.translate.pref.SettingsActivity}",
+                "state_str": "2317212426018668728"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state5",
+                "event": "click(ImageView-Signed in as ran Jin jinran848@gmail.com:[925,104][1080,237])"
+            },
+            {
+                "from": "state5",
+                "to": "-937591610525877659",
+                "event": "click<p id=45 class =\"com.google.android.apps.translate:id/og_text_card_title\"> Settings,  </p>"
+            },
+            {
+                "from": "state5",
+                "to": "2317212426018668728",
+                "event": "click<p id=10 class =\"android:id/title\"> Tap to Translate,  </p>"
+            },
+            {
+                "from": "state5",
+                "to": "6665248499992627919",
+                "event": "click<div id=18 class =\"android:id/switch_widget\">  </div>"
+            },
+            {
+                "from": "state5",
+                "to": "6665248499992627919",
+                "event": "click<img id=3 class =\"com.google.android.apps.translate:id/show_floating_icon_image\">  </img>"
+            },
+            {
+                "from": "state5",
+                "to": 2317212426018668728,
+                "event": "back"
+            }
+        ],
+        "Final answer": "YES"
+    }
+]

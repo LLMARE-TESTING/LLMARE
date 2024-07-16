@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "The most useful feature of this app is now gone. We can no longer turn our device in landscape to show text in fullscreen. That was incredibly useful when traveling and communicating with locals. Now we can't do this anymore. This app is just another basic dictionary now.",
+        "key sentence": "landscape mode",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Navigate up', 'description': 'Go up one level or return to previous screen'}, {'name': 'History', 'description': 'View history of previous actions or translations'}, {'name': 'Handwriting', 'description': 'Access handwriting input for text entry'}, {'name': 'Enter text', 'description': 'Input text using the on-screen keyboard'}, {'name': 'Paste', 'description': 'Paste copied text into the current input field'}, {'name': 'Swap languages', 'description': 'Exchange the source and target languages'}, {'name': 'Select language (A)', 'description': 'Choose the source language for translation'}, {'name': 'Select language (B)', 'description': 'Choose the target language for translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment31\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment31\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment31\\9181909172925348634.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "9181909172925348634"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment31\\5640256010586898835.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "5640256010586898835"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment31\\6419807830666451579.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "6419807830666451579"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment31\\1323924892554069087.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "1323924892554069087"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment31\\243667799323487933.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "243667799323487933"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment31\\5303925296827841438.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "5303925296827841438"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment31\\5303925296827841438.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "5303925296827841438"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment31\\-2138119817723503213.png",
+                "activity": "com.android.vending.AssetBrowserActivity}",
+                "state_str": "-2138119817723503213"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment31\\-2138119817723503213.png",
+                "activity": "com.android.vending.AssetBrowserActivity}",
+                "state_str": "-2138119817723503213"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "9181909172925348634",
+                "event": "input<input id=14 class =\"com.google.android.apps.translate:id/text_input_field\"> Enter text,  </input>Hello world"
+            },
+            {
+                "from": "state2",
+                "to": "5640256010586898835",
+                "event": "click<button id=16 class =\"com.google.android.apps.translate:id/text_output_field\"> Hello world,  </button>"
+            },
+            {
+                "from": "state2",
+                "to": 6419807830666451579,
+                "event": "back"
+            },
+            {
+                "from": "state2",
+                "to": "1323924892554069087",
+                "event": "click<button id=4 alt=\"Apps list\">  </button>"
+            },
+            {
+                "from": "state2",
+                "to": "243667799323487933",
+                "event": "click<button id=22 alt=\"Folder: Google, 2 items\">  </button>"
+            },
+            {
+                "from": "state2",
+                "to": 5303925296827841438,
+                "event": "back"
+            },
+            {
+                "from": "state2",
+                "to": "5303925296827841438",
+                "event": "click<button id=4 alt=\"Apps list\">  </button>"
+            },
+            {
+                "from": "state2",
+                "to": "-2138119817723503213",
+                "event": "click<button id=24> Play Store,  </button>"
+            },
+            {
+                "from": "state2",
+                "to": -2138119817723503213,
+                "event": "back"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

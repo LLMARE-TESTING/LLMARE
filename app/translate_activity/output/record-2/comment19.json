@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Horrible new layout.. You've ruined the app.. Now I have to find an older version.. I think I have to turn off auto-updates because this keeps happening to me. I couldn't even see the language pairs properly because the fonts were cut off.",
+        "key sentence": "The key words\uff1anew layout",
+        "target activity": ".languagepicker.LanguagePickerActivity",
+        "the function of activity": "The activity facilitates user interactions: search contacts, access menus, translate text, download offline files, cancel actions, and confirm decisions.",
+        "target state": "b1318bbb23a1113677d8040c5b4078df",
+        "the sub-task list of state": "[{'name': 'Search', 'description': 'Search for a language'}, {'name': 'Download Offline Translation File', 'description': 'Download offline translation file for a specific language'}, {'name': 'Select Language', 'description': 'Choose a language for translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment19\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment19\\b1318bbb23a1113677d8040c5b4078df.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "b1318bbb23a1113677d8040c5b4078df"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment19\\-3632798955359645745.png",
+                "activity": "",
+                "state_str": "-3632798955359645745"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment19\\-863802395188536947.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-863802395188536947"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment19\\-865127576041061540.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-865127576041061540"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment19\\-863802395188536947.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-863802395188536947"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment19\\8248771617052381280.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "8248771617052381280"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment19\\-3632798955359645745.png",
+                "activity": "",
+                "state_str": "-3632798955359645745"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment19\\8248771617052381280.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "8248771617052381280"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment19\\-3632798955359645745.png",
+                "activity": "",
+                "state_str": "-3632798955359645745"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment19\\8248771617052381280.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "8248771617052381280"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "b1318bbb23a1113677d8040c5b4078df",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=445338357d585d5588a2c84fb52b11a0(TranslateActivity/Button-Bengali:x617:y1587))"
+            },
+            {
+                "from": "b1318bbb23a1113677d8040c5b4078df",
+                "to": "-3632798955359645745",
+                "event": "click<img id=7 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-3632798955359645745",
+                "to": "-863802395188536947",
+                "event": "click<div id=0 class =\"com.google.android.apps.translate:id/content\">  </div>"
+            },
+            {
+                "from": "-863802395188536947",
+                "to": "-865127576041061540",
+                "event": "click<button id=7 class =\"android:id/button2\"> Continue writing,  </button>"
+            },
+            {
+                "from": "-865127576041061540",
+                "to": -863802395188536947,
+                "event": "back"
+            },
+            {
+                "from": -863802395188536947,
+                "to": "8248771617052381280",
+                "event": "click<button id=8 class =\"android:id/button1\"> Discard,  </button>"
+            },
+            {
+                "from": "8248771617052381280",
+                "to": "-3632798955359645745",
+                "event": "click<img id=7 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-3632798955359645745",
+                "to": 8248771617052381280,
+                "event": "back"
+            },
+            {
+                "from": 8248771617052381280,
+                "to": "-3632798955359645745",
+                "event": "click<img id=7 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-3632798955359645745",
+                "to": 8248771617052381280,
+                "event": "back"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

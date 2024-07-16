@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "Before update: \u9983\u5e23->\u9983\u5e23 . After update: \u9983\u5e23-> \u9241?->\u9983\u5e23. I use the microphone translate quite often. After updating the apps, I now have to clear the current translated text before I can click the microphone button again. This is so not used friendly. And it's time consuming. Second, the new transcript feature was cool. Please make it available for Japanese language.",
+        "key sentence": "microphone translate",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "1e0a8968f43dbb61fd758c305c65c40a",
+        "the sub-task list of state": "[{'name': 'Saved', 'description': 'Access saved translations'}, {'name': 'Enter Text Label', 'description': 'Label for text input field'}, {'name': 'Paste Button', 'description': 'Button to paste text'}, {'name': 'Control Area Container', 'description': 'Container for control elements'}, {'name': 'Language Picker', 'description': 'Select languages for translation'}, {'name': 'Swap Languages Button', 'description': 'Button to swap input and output languages'}, {'name': 'Conversation Button', 'description': 'Button to start conversation mode'}, {'name': 'Camera Button', 'description': 'Button to access camera for translation'}, {'name': 'Start Dictation Button', 'description': 'Button to start speech dictation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment13\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment13\\-7172221531827303336.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-7172221531827303336"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment13\\-3836654056768860187.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-3836654056768860187"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "-7172221531827303336",
+                "event": "click<button id=28 class =\"com.google.android.apps.translate:id/dictation_button\" alt=\"Start dictation\">  </button>"
+            },
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "-3836654056768860187",
+                "event": "click<button id=17 class =\"com.google.android.apps.translate:id/dictation_button\" alt=\"Stop dictation\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

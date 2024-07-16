@@ -1,0 +1,70 @@
+[
+    {
+        "comment": "Latest update is HORRENDOUS. **Used** to be an amazing app. Target translation field cannot be edited. It can only be copied or shared. Both field boxes should directly editable. Reverse Translate is inconveniently behind the hamburger button. It should be rapidly accessible. Cannot scroll down to view definitions while editing the text box. Main page has a LOT of wasted space. UI is inaccessible, unintuitive, and inefficient. This is not the Google way.",
+        "key sentence": "Target translation field, Reverse Translate, definitions, text box, Main page",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Navigate up', 'description': 'Go up one level or return to previous screen'}, {'name': 'History', 'description': 'View history of previous actions or translations'}, {'name': 'Handwriting', 'description': 'Access handwriting input for text entry'}, {'name': 'Enter text', 'description': 'Input text using the on-screen keyboard'}, {'name': 'Paste', 'description': 'Paste copied text into the current input field'}, {'name': 'Swap languages', 'description': 'Exchange the source and target languages'}, {'name': 'Select language (A)', 'description': 'Choose the source language for translation'}, {'name': 'Select language (B)', 'description': 'Choose the target language for translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment68\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment68\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment68\\-8590599678008373197.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-8590599678008373197"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment68\\-2762122816778144798.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-2762122816778144798"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment68\\-8081839799888119823.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-8081839799888119823"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment68\\-7619031343587050500.png",
+                "activity": "",
+                "state_str": "-7619031343587050500"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "-8590599678008373197",
+                "event": "input<input id=14 class =\"com.google.android.apps.translate:id/text_input_field\"> Enter text,  </input>Hello world"
+            },
+            {
+                "from": "state2",
+                "to": "-2762122816778144798",
+                "event": "click<button id=16 class =\"com.google.android.apps.translate:id/text_output_field\"> Hello world,  </button>"
+            },
+            {
+                "from": "state2",
+                "to": "-8081839799888119823",
+                "event": "click<p id=27 class =\"com.google.android.apps.translate:id/translated_text\"> Hello world,  </p>"
+            },
+            {
+                "from": "state2",
+                "to": "-7619031343587050500",
+                "event": "click<img id=9 alt=\"More options\">  </img>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

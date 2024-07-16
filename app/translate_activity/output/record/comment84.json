@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "In recent update from Android 10 . On copying the text widget doesn't open. On close it need to manually open when copying text. Previous version work better. This have issues",
+        "key sentence": "copying the text",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "b9d3528850e9a316b3af2e022312377e",
+        "the sub-task list of state": "[{'name': 'New translation', 'description': 'Start a new translation session'}, {'name': 'History', 'description': 'View translation history'}, {'name': 'More options', 'description': 'Open additional options'}, {'name': 'Speak original text', 'description': 'Listen to the spoken version of the original text'}, {'name': 'Copy original text', 'description': 'Copy the original text to clipboard'}, {'name': 'Speak translated text', 'description': 'Listen to the spoken version of the translated text'}, {'name': 'Copy translated text', 'description': 'Copy the translated text to clipboard'}, {'name': 'Submit Translation Feedback', 'description': 'Provide feedback on the translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment84\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment84\\b9d3528850e9a316b3af2e022312377e.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "b9d3528850e9a316b3af2e022312377e"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment84\\4169382609897473168.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4169382609897473168"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "b9d3528850e9a316b3af2e022312377e",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=f3f547e2be6a280f397b3ad8c6a7014b(TranslateActivity/Button-Paste:x66:y606))"
+            },
+            {
+                "from": "b9d3528850e9a316b3af2e022312377e",
+                "to": "4169382609897473168",
+                "event": "click<button id=17 class =\"com.google.android.apps.translate:id/copy_text_button\" alt=\"Copy original text\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

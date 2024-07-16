@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Hello .When I try to edit my text after reviewing the translation the edit box is tiny and at the top of the screen. Most of the screen is, wasted and its very difficult to edit the text. I cannot believe that Google would build an editor as poor as this. Is there a work around. surely there must be. If not, it need an aftermarket editor of some description. The editing window is shown below minus the popup keyboard.Please resolve this issue \u9983\u6ab9.",
+        "key sentence": "editing text after translation",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Navigate up', 'description': 'Go up one level or return to previous screen'}, {'name': 'History', 'description': 'View history of previous actions or translations'}, {'name': 'Handwriting', 'description': 'Access handwriting input for text entry'}, {'name': 'Enter text', 'description': 'Input text using the on-screen keyboard'}, {'name': 'Paste', 'description': 'Paste copied text into the current input field'}, {'name': 'Swap languages', 'description': 'Exchange the source and target languages'}, {'name': 'Select language (A)', 'description': 'Choose the source language for translation'}, {'name': 'Select language (B)', 'description': 'Choose the target language for translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment41\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment41\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment41\\499160863715187415.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "499160863715187415"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment41\\4834999131326505908.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4834999131326505908"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment41\\4834999131326505908.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4834999131326505908"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment41\\-1590050924532166152.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-1590050924532166152"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment41\\4834999131326505908.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4834999131326505908"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment41\\-1590050924532166152.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-1590050924532166152"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment41\\4834999131326505908.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4834999131326505908"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment41\\4834999131326505908.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4834999131326505908"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment41\\-1590050924532166152.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-1590050924532166152"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "499160863715187415",
+                "event": "click<input id=14 class =\"com.google.android.apps.translate:id/text_input_field\"> Enter text,  </input>"
+            },
+            {
+                "from": "state2",
+                "to": "4834999131326505908",
+                "event": "input<input id=14 class =\"com.google.android.apps.translate:id/text_input_field\"> Enter text,  </input>Hello, this is a test translation"
+            },
+            {
+                "from": "state2",
+                "to": "4834999131326505908",
+                "event": "click<input id=14 class =\"com.google.android.apps.translate:id/text_input_field\"> Hello, this is a test translation,  </input>"
+            },
+            {
+                "from": "state2",
+                "to": "-1590050924532166152",
+                "event": "click<button id=16 class =\"com.google.android.apps.translate:id/text_output_field\"> Hello, this is a test translation,  </button>"
+            },
+            {
+                "from": "state2",
+                "to": "4834999131326505908",
+                "event": "click<input id=14 class =\"com.google.android.apps.translate:id/original_text\"> Hello, this is a test translation,  </input>"
+            },
+            {
+                "from": "state2",
+                "to": "-1590050924532166152",
+                "event": "click<button id=16 class =\"com.google.android.apps.translate:id/text_output_field\"> Hello, this is a test translation,  </button>"
+            },
+            {
+                "from": "state2",
+                "to": "4834999131326505908",
+                "event": "click<input id=14 class =\"com.google.android.apps.translate:id/original_text\"> Hello, this is a test translation,  </input>"
+            },
+            {
+                "from": "state2",
+                "to": "4834999131326505908",
+                "event": "click<input id=14 class =\"com.google.android.apps.translate:id/text_input_field\"> Hello, this is a test translation,  </input>"
+            },
+            {
+                "from": "state2",
+                "to": "-1590050924532166152",
+                "event": "click<button id=16 class =\"com.google.android.apps.translate:id/text_output_field\"> Hello, this is a test translation,  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

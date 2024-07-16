@@ -1,0 +1,30 @@
+[
+    {
+        "comment": "Since the integration with Google Lens, NOW I must log in to my google account when trying to translate words from images, screenshots or photos. If I don't log in, I can't use the image translation. What the heck? It didn't happened in old UI and functionality. When using the voice or typing translation, I can choose not using my google account, so why the image translation FORCE IT to log in? It's too instrusive! I like the old UI and functionality because it respect the anonimity principle.",
+        "key sentence": "image translation",
+        "target activity": "com.google.android.apps.lens.MainActivity",
+        "the function of activity": "The activity facilitates user interaction: search contacts, enable camera flash, access options, select gallery image, use camera for search, and expand translation choices.",
+        "target state": "7bdc16aba671b5811d835b68b453fdff",
+        "the sub-task list of state": "[{'name': 'Turn flash on', 'description': 'Enable flash for the camera'}, {'name': 'More options', 'description': 'Access additional options menu'}, {'name': 'Select an image from gallery', 'description': \"Choose an image from the device's gallery\"}, {'name': 'Camera search', 'description': 'Activate camera for search functionality'}, {'name': 'Expand translation menu', 'description': 'Show more translation options'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment103\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment103\\7bdc16aba671b5811d835b68b453fdff.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "7bdc16aba671b5811d835b68b453fdff"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "7bdc16aba671b5811d835b68b453fdff",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=2da0330ccba2d015a9b7a753d43dc9df(TranslateActivity/Button-Camera:x815:y1884))"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

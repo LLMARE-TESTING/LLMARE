@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "I want to rate it 5 but It is a frustrating that all my downloaded offline languages suddenly disappeared. What happend I don't know. Even I can't download them again because the option doesn't work any more. It just shows a blank page on the offline translation page. I wish you solve this issue as soon as possible.",
+        "key sentence": "offline languages, offline translation page",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state5",
+        "the sub-task list of state": "[{'name': 'Close Dialog', 'description': 'Close the translation dialog.'}, {'name': 'Change Profile Picture', 'description': 'Change the current profile picture associated with the account.'}, {'name': 'Manage Google Account', 'description': 'Access and manage settings related to the Google Account.'}, {'name': 'Expand Account List', 'description': 'Expand the list of accounts to show more details or options.'}, {'name': 'Downloaded Languages', 'description': 'View and manage languages that have been downloaded for offline use.'}, {'name': 'History', 'description': 'View the history of translations or actions taken within the application.'}, {'name': 'Privacy Policy', 'description': 'View the privacy policy information.'}, {'name': 'Terms of Service', 'description': 'View the terms of service information.'}, {'name': 'Help & Feedback', 'description': 'Access help resources or provide feedback.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment33\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment33\\state5.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment33\\-6499410559969519880.png",
+                "activity": "com.google.android.apps.translate.offline.OfflineManagerActivity}",
+                "state_str": "-6499410559969519880"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state5",
+                "event": "click(ImageView-Signed in as ran Jin jinran848@gmail.com:[925,104][1080,237])"
+            },
+            {
+                "from": "state5",
+                "to": "-6499410559969519880",
+                "event": "click<button id=33 class =\"com.google.android.apps.translate:id/og_card\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

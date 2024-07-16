@@ -1,0 +1,30 @@
+[
+    {
+        "comment": "This used to be a really great app, easy to use and quick to translate. You could even change languages without having to re-type your phrase. Now it is confusing and difficult to use. Far too many button presses, extra menus & windows which are just totally unnecessary! Please revert this app back to the way it was before the update.",
+        "key sentence": "changing languages",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "1e0a8968f43dbb61fd758c305c65c40a",
+        "the sub-task list of state": "[{'name': 'Saved', 'description': 'Access saved translations'}, {'name': 'Enter Text Label', 'description': 'Label for text input field'}, {'name': 'Paste Button', 'description': 'Button to paste text'}, {'name': 'Control Area Container', 'description': 'Container for control elements'}, {'name': 'Language Picker', 'description': 'Select languages for translation'}, {'name': 'Swap Languages Button', 'description': 'Button to swap input and output languages'}, {'name': 'Conversation Button', 'description': 'Button to start conversation mode'}, {'name': 'Camera Button', 'description': 'Button to access camera for translation'}, {'name': 'Start Dictation Button', 'description': 'Button to start speech dictation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment62\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment62\\-4724958771495635270.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "-4724958771495635270"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "-4724958771495635270",
+                "event": "click<button id=21 class =\"com.google.android.apps.translate:id/language_button_a\"> Chinese (Simplified),  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

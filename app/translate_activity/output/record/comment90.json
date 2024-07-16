@@ -1,0 +1,30 @@
+[
+    {
+        "comment": "The previous version before this update was way easier to access now if you wanna see your history you gotta click two buttons to do so while previously it was on the main screen of the app, updates should be for more convenient access and bugs fixing",
+        "key sentence": "history",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "b9d3528850e9a316b3af2e022312377e",
+        "the sub-task list of state": "[{'name': 'New translation', 'description': 'Start a new translation session'}, {'name': 'History', 'description': 'View translation history'}, {'name': 'More options', 'description': 'Open additional options'}, {'name': 'Speak original text', 'description': 'Listen to the spoken version of the original text'}, {'name': 'Copy original text', 'description': 'Copy the original text to clipboard'}, {'name': 'Speak translated text', 'description': 'Listen to the spoken version of the translated text'}, {'name': 'Copy translated text', 'description': 'Copy the translated text to clipboard'}, {'name': 'Submit Translation Feedback', 'description': 'Provide feedback on the translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment90\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment90\\b9d3528850e9a316b3af2e022312377e.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "b9d3528850e9a316b3af2e022312377e"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "b9d3528850e9a316b3af2e022312377e",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=f3f547e2be6a280f397b3ad8c6a7014b(TranslateActivity/Button-Paste:x66:y606))"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

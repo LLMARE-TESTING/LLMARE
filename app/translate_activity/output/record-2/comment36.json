@@ -1,0 +1,80 @@
+[
+    {
+        "comment": "The app was superb until the recent update where they completely changed the UI, which now sucks. The most inconvenient part? I've to tap in the typing space to be able to see a small little history symbol on the top left. And what happens when I click on it? They have categorised my history into languages, like wow. And I don't need the typing space to cover my whole screen. Who's the product/UX guy who thought this kind of revamp was a good idea? Keep these in beta and AB tests, not the main v",
+        "key sentence": "UI update, history symbol, categorised history, typing space covering screen",
+        "target activity": "com.google.android.apps.translate.pref.SettingsActivity",
+        "the function of activity": "The setting of 'Tap to Translate','Data usage','keyboard','voice region','voice speed','voice speech input'.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'More Options', 'description': \"Open additional options by clicking the 'More options' icon.\"}, {'name': 'Manage Activity', 'description': \"Manage your translation history by clicking the 'Manage activity' button.\"}, {'name': 'Tap to Translate Setting', 'description': \"The setting of 'Tap to Translate' feature.\"}, {'name': 'Data Usage Setting', 'description': 'Configure data usage settings by selecting this option.'}, {'name': 'Keyboard Settings', 'description': 'Adjust keyboard settings by selecting this option.'}, {'name': 'Voice Settings', 'description': 'Adjust voice settings by selecting this option.'}, {'name': 'Voice Region Settings', 'description': 'Configure voice region settings by selecting this option.'}, {'name': 'Voice Speed Settings', 'description': 'Adjust translation or speech speed settings by selecting this option.'}, {'name': 'Voice Speech Input', 'description': 'Configure voice speech input settings by selecting this option.'}, {'name': 'Version Info', 'description': 'View the version information of the application.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment36\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment36\\state5.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment36\\state7.png",
+                "activity": "com.google.android.apps.translate.offline.OfflineManagerActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment36\\6359914962213005713.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "6359914962213005713"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment36\\-1701635363350412633.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-1701635363350412633"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment36\\-1701635363350412633.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-1701635363350412633"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment36\\-2640124869197978309.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-2640124869197978309"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state5",
+                "event": "click(ImageView-Signed in as ran Jin jinran848@gmail.com:[925,104][1080,237])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(TextView-Settings:[254,1062][970,1123])"
+            },
+            {
+                "from": "state7",
+                "to": 6359914962213005713,
+                "event": "back"
+            },
+            {
+                "from": 6359914962213005713,
+                "to": "-1701635363350412633",
+                "event": "click<p id=17 class =\"com.google.android.apps.translate:id/enter_text_label\"> Enter text,  </p>"
+            },
+            {
+                "from": "-1701635363350412633",
+                "to": "-1701635363350412633",
+                "event": "click<input id=14 class =\"com.google.android.apps.translate:id/text_input_field\"> Enter text,  </input>"
+            },
+            {
+                "from": "-1701635363350412633",
+                "to": "-2640124869197978309",
+                "event": "click<button id=10 class =\"com.google.android.apps.translate:id/item_open_history\" alt=\"History\">  </button>"
+            }
+        ],
+        "Final answer": "YES"
+    }
+]

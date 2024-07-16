@@ -1,0 +1,60 @@
+[
+    {
+        "comment": "This is amazing, such a smart app, you can translate in any form, verbal, typing, pictures and writing. The only problem is that sometimes it doesnt use the right words in the right senses and sometimes it messes up a bit. Apart from that, this is the best app ever.",
+        "key sentence": "verbal, typing, pictures, writing",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "b454d0d74c68a9b2aabf2c718cba43ba",
+        "the sub-task list of state": "[{'name': 'Navigate up', 'description': 'Click to navigate up'}, {'name': 'More options', 'description': 'Click to see more options'}, {'name': 'Speak', 'description': 'Speak to perform voice input'}, {'name': 'Transcribe', 'description': 'Click to transcribe voice input'}, {'name': 'Language selection', 'description': 'Select language for translation'}, {'name': 'Swap languages', 'description': 'Click to swap the input and output languages for translation'}, {'name': 'Select language', 'description': 'Select a specific language for translation'}, {'name': 'Stop dictation', 'description': 'Click to stop voice input or dictation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment69\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment69\\b454d0d74c68a9b2aabf2c718cba43ba.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "b454d0d74c68a9b2aabf2c718cba43ba"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment69\\8156682088129260799.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "8156682088129260799"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment69\\5955807059130567978.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "5955807059130567978"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment69\\1577098156808811399.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1577098156808811399"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "b454d0d74c68a9b2aabf2c718cba43ba",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=be0600451bb67b95461db018233858df(TranslateActivity/Button-Start dict:x408:y1818))"
+            },
+            {
+                "from": "b454d0d74c68a9b2aabf2c718cba43ba",
+                "to": "8156682088129260799",
+                "event": "click<button id=9 class =\"com.google.android.apps.translate:id/recognized_text_field\"> Speak now\u2026,  </button>"
+            },
+            {
+                "from": "b454d0d74c68a9b2aabf2c718cba43ba",
+                "to": "5955807059130567978",
+                "event": "click<button id=10 class =\"com.google.android.apps.translate:id/transcribe_button\"> Transcribe,  </button>"
+            },
+            {
+                "from": "b454d0d74c68a9b2aabf2c718cba43ba",
+                "to": "1577098156808811399",
+                "event": "click<div id=22 class =\"com.google.android.apps.translate:id/waveform_button_view_start_side\" alt=\"Listen for \u4e2d\u6587 Chinese (Simplified)\">  </div>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

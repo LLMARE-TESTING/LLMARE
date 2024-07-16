@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "Nice app, but I noticed a bug. When I open the app in pop up view (in Samsung one UI 3) and try either to close it or minimize the pop up window, there is still another window that it needs to be closed. Please fix it, this bug is noticed in 2 different devices (Samsung Galaxy a52s and Galaxy tab s6).",
+        "key sentence": "pop up view",
+        "target activity": ".feedback.FeedbackAlohaActivity",
+        "the function of activity": "The activity manages user interaction: search contacts, navigate menus, close the app, and wait during processes.",
+        "target state": "19d890e2322f7f99c78e8f44069d77ee",
+        "the sub-task list of state": "[{'name': 'Close App', 'description': 'Terminate or close the application'}, {'name': 'Wait', 'description': 'Pause and wait for an action or process to complete'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment57\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment57\\b454d0d74c68a9b2aabf2c718cba43ba.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "b454d0d74c68a9b2aabf2c718cba43ba"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment57\\c81660eb86e8ebae99b2f2caddaf5d9e.png",
+                "activity": "",
+                "state_str": "c81660eb86e8ebae99b2f2caddaf5d9e"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment57\\1313640145004720029.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1313640145004720029"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "b454d0d74c68a9b2aabf2c718cba43ba",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=be0600451bb67b95461db018233858df(TranslateActivity/Button-Start dict:x408:y1818))"
+            },
+            {
+                "from": "b454d0d74c68a9b2aabf2c718cba43ba",
+                "to": "c81660eb86e8ebae99b2f2caddaf5d9e",
+                "event": "click(state=b454d0d74c68a9b2aabf2c718cba43ba, view=f71880a46c86d349cc87b463c2e55959(TranslateActivity/ImageView-More optio:x948:y105))"
+            },
+            {
+                "from": "19d890e2322f7f99c78e8f44069d77ee",
+                "to": 1313640145004720029,
+                "event": "back"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

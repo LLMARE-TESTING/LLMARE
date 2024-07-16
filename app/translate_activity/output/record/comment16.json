@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Translated Chinese to English (from Amazon packaging). No issues. I would like the ability to save the translated image; if I pause and do a screen capture I get the \"continue\" message overwriting the image.",
+        "key sentence": "The key words: Translated Chinese to English, save the translated image",
+        "target activity": "com.google.android.apps.lens.MainActivity",
+        "the function of activity": "The activity facilitates user interaction: search contacts, enable camera flash, access options, select gallery image, use camera for search, and expand translation choices.",
+        "target state": "7bdc16aba671b5811d835b68b453fdff",
+        "the sub-task list of state": "[{'name': 'Turn flash on', 'description': 'Enable flash for the camera'}, {'name': 'More options', 'description': 'Access additional options menu'}, {'name': 'Select an image from gallery', 'description': \"Choose an image from the device's gallery\"}, {'name': 'Camera search', 'description': 'Activate camera for search functionality'}, {'name': 'Expand translation menu', 'description': 'Show more translation options'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment16\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment16\\7bdc16aba671b5811d835b68b453fdff.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "7bdc16aba671b5811d835b68b453fdff"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment16\\-3536778106238132556.png",
+                "activity": "",
+                "state_str": "-3536778106238132556"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment16\\7957946235350777900.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "7957946235350777900"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment16\\-3536778106238132556.png",
+                "activity": "",
+                "state_str": "-3536778106238132556"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment16\\6031843313994116748.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "6031843313994116748"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment16\\-224526401030416352.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-224526401030416352"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment16\\6031843313994116748.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "6031843313994116748"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment16\\-224526401030416352.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-224526401030416352"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment16\\6031843313994116748.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "6031843313994116748"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment16\\-224526401030416352.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-224526401030416352"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "7bdc16aba671b5811d835b68b453fdff",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=2da0330ccba2d015a9b7a753d43dc9df(TranslateActivity/Button-Camera:x815:y1884))"
+            },
+            {
+                "from": "7bdc16aba671b5811d835b68b453fdff",
+                "to": "-3536778106238132556",
+                "event": "click<img id=46 class =\"com.google.android.googlequicksearchbox:id/overflow_menu_button\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "7bdc16aba671b5811d835b68b453fdff",
+                "to": 7957946235350777900,
+                "event": "back"
+            },
+            {
+                "from": "7bdc16aba671b5811d835b68b453fdff",
+                "to": "-3536778106238132556",
+                "event": "click<img id=46 class =\"com.google.android.googlequicksearchbox:id/overflow_menu_button\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "7bdc16aba671b5811d835b68b453fdff",
+                "to": "6031843313994116748",
+                "event": "click<div id=0 class =\"com.google.android.googlequicksearchbox:id/content\">  </div>"
+            },
+            {
+                "from": "7bdc16aba671b5811d835b68b453fdff",
+                "to": -224526401030416352,
+                "event": "back"
+            },
+            {
+                "from": "7bdc16aba671b5811d835b68b453fdff",
+                "to": "6031843313994116748",
+                "event": "click<button id=7 class =\"android:id/button2\"> Continue writing,  </button>"
+            },
+            {
+                "from": "7bdc16aba671b5811d835b68b453fdff",
+                "to": -224526401030416352,
+                "event": "back"
+            },
+            {
+                "from": "7bdc16aba671b5811d835b68b453fdff",
+                "to": "6031843313994116748",
+                "event": "click<button id=7 class =\"android:id/button2\"> Continue writing,  </button>"
+            },
+            {
+                "from": "7bdc16aba671b5811d835b68b453fdff",
+                "to": -224526401030416352,
+                "event": "back"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "Do a fix already that you application time to time lags and crushes when I open it/start typing something/tap a sign \u9225\u6e03hange languge\u9225?and all other actions! This bug is take place more that ONE YEAR! The same error on 3 android devices Galaxy Note 10 plus, Tab s6, galaxy s9. Android of the 9th version. I have the latest version of ur program. This bug has taken place in each version within all releases of last year.",
+        "key sentence": "The key words: application lags and crashes, change language",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Navigate up', 'description': 'Go up one level or return to previous screen'}, {'name': 'History', 'description': 'View history of previous actions or translations'}, {'name': 'Handwriting', 'description': 'Access handwriting input for text entry'}, {'name': 'Enter text', 'description': 'Input text using the on-screen keyboard'}, {'name': 'Paste', 'description': 'Paste copied text into the current input field'}, {'name': 'Swap languages', 'description': 'Exchange the source and target languages'}, {'name': 'Select language (A)', 'description': 'Choose the source language for translation'}, {'name': 'Select language (B)', 'description': 'Choose the target language for translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment38\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment38\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment38\\767768201561227539.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "767768201561227539"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment38\\7484252554037326764.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "7484252554037326764"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "767768201561227539",
+                "event": "click<button id=21 class =\"com.google.android.apps.translate:id/language_button_b\"> English,  </button>"
+            },
+            {
+                "from": "state2",
+                "to": "7484252554037326764",
+                "event": "click<p id=17 class =\"android:id/text1\"> Acehnese,  </p>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

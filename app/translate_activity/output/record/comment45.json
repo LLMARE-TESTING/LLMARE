@@ -1,0 +1,30 @@
+[
+    {
+        "comment": "For some reason the pictures aren't working for me. One of my favorite additions to this app is you can take a picture of a full page and it translates the whole thing, but for some reason it's not working anymore. Anytime I try to click the small camera in the bottom right corner it says \"Update required\". So I went to the play store to update the app, but there's so option to do so. I'm not sure what's going on, but if someone knows what I should do then please let me know, thanks.",
+        "key sentence": "the small camera in the bottom right corner",
+        "target activity": "com.google.android.apps.lens.MainActivity",
+        "the function of activity": "The activity facilitates user interaction: search contacts, enable camera flash, access options, select gallery image, use camera for search, and expand translation choices.",
+        "target state": "7bdc16aba671b5811d835b68b453fdff",
+        "the sub-task list of state": "[{'name': 'Turn flash on', 'description': 'Enable flash for the camera'}, {'name': 'More options', 'description': 'Access additional options menu'}, {'name': 'Select an image from gallery', 'description': \"Choose an image from the device's gallery\"}, {'name': 'Camera search', 'description': 'Activate camera for search functionality'}, {'name': 'Expand translation menu', 'description': 'Show more translation options'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment45\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment45\\7bdc16aba671b5811d835b68b453fdff.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "7bdc16aba671b5811d835b68b453fdff"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "7bdc16aba671b5811d835b68b453fdff",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=2da0330ccba2d015a9b7a753d43dc9df(TranslateActivity/Button-Camera:x815:y1884))"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

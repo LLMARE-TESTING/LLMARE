@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Audio playback only works once, then all the buttons stop working for some reason. The touch areas on the sides seem to not work for some reason on the s23 ultra, android 14 in portrait. Rotating it via landscape and it works fine again. So clearly something about portrait touch zones are bugged....",
+        "key sentence": "Audio playback, portrait mode, S23 Ultra, Android 14",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "b9d3528850e9a316b3af2e022312377e",
+        "the sub-task list of state": "[{'name': 'New translation', 'description': 'Start a new translation session'}, {'name': 'History', 'description': 'View translation history'}, {'name': 'More options', 'description': 'Open additional options'}, {'name': 'Speak original text', 'description': 'Listen to the spoken version of the original text'}, {'name': 'Copy original text', 'description': 'Copy the original text to clipboard'}, {'name': 'Speak translated text', 'description': 'Listen to the spoken version of the translated text'}, {'name': 'Copy translated text', 'description': 'Copy the translated text to clipboard'}, {'name': 'Submit Translation Feedback', 'description': 'Provide feedback on the translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment34\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment34\\b9d3528850e9a316b3af2e022312377e.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "b9d3528850e9a316b3af2e022312377e"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment34\\-8172899700694427386.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-8172899700694427386"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment34\\-8172899700694427386.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-8172899700694427386"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment34\\-8172899700694427386.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-8172899700694427386"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment34\\2835892438975855613.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "2835892438975855613"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment34\\-1655618886036820169.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-1655618886036820169"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment34\\-8172899700694427386.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-8172899700694427386"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment34\\-8172899700694427386.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-8172899700694427386"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment34\\-8172899700694427386.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-8172899700694427386"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment34\\2835892438975855613.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "2835892438975855613"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "b9d3528850e9a316b3af2e022312377e",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=f3f547e2be6a280f397b3ad8c6a7014b(TranslateActivity/Button-Paste:x66:y606))"
+            },
+            {
+                "from": "b9d3528850e9a316b3af2e022312377e",
+                "to": "-8172899700694427386",
+                "event": "click<button id=29 class =\"com.google.android.apps.translate:id/speak_text_button\" alt=\"Speak translated text\">  </button>"
+            },
+            {
+                "from": "b9d3528850e9a316b3af2e022312377e",
+                "to": "-8172899700694427386",
+                "event": "click<button id=16 class =\"com.google.android.apps.translate:id/speak_text_button\" alt=\"Speak original text\">  </button>"
+            },
+            {
+                "from": "b9d3528850e9a316b3af2e022312377e",
+                "to": "-8172899700694427386",
+                "event": "click<button id=29 class =\"com.google.android.apps.translate:id/speak_text_button\" alt=\"Speak translated text\">  </button>"
+            },
+            {
+                "from": "b9d3528850e9a316b3af2e022312377e",
+                "to": "2835892438975855613",
+                "event": "click<button id=33 class =\"com.google.android.apps.translate:id/new_translation_fab\"> New translation,  </button>"
+            },
+            {
+                "from": "b9d3528850e9a316b3af2e022312377e",
+                "to": "-1655618886036820169",
+                "event": "click<button id=15 class =\"com.google.android.apps.translate:id/paste_button\"> Paste,  </button>"
+            },
+            {
+                "from": "b9d3528850e9a316b3af2e022312377e",
+                "to": "-8172899700694427386",
+                "event": "click<button id=29 class =\"com.google.android.apps.translate:id/speak_text_button\" alt=\"Speak translated text\">  </button>"
+            },
+            {
+                "from": "b9d3528850e9a316b3af2e022312377e",
+                "to": "-8172899700694427386",
+                "event": "click<button id=16 class =\"com.google.android.apps.translate:id/speak_text_button\" alt=\"Speak original text\">  </button>"
+            },
+            {
+                "from": "b9d3528850e9a316b3af2e022312377e",
+                "to": "-8172899700694427386",
+                "event": "click<button id=29 class =\"com.google.android.apps.translate:id/speak_text_button\" alt=\"Speak translated text\">  </button>"
+            },
+            {
+                "from": "b9d3528850e9a316b3af2e022312377e",
+                "to": "2835892438975855613",
+                "event": "click<button id=7 class =\"com.google.android.apps.translate:id/item_new_translation\" alt=\"New translation\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

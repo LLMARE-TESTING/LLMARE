@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "After the latest update, tapping on a word to translate (from browser) shows a \"Translate from Portugese\" rather than defaultly translating from English (to Arabic). The issue is a bit irritating as now I have to tap once or twice more to show the full translation information from the English to Arabic language. Moreover, it's been an eternity for issue's occurance of offline translation no longer working after a few weeks. For the love of god, please fix the aforementioned issues. Thanks.",
+        "key sentence": "tapping on a word to translate (from browser)",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "c81660eb86e8ebae99b2f2caddaf5d9e",
+        "the sub-task list of state": "[{'name': 'Translate', 'description': 'Perform translation of text'}, {'name': 'Send Feedback', 'description': 'Send feedback'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment17\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment17\\b454d0d74c68a9b2aabf2c718cba43ba.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "b454d0d74c68a9b2aabf2c718cba43ba"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment17\\c81660eb86e8ebae99b2f2caddaf5d9e.png",
+                "activity": "",
+                "state_str": "c81660eb86e8ebae99b2f2caddaf5d9e"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment17\\-4023564272192468261.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-4023564272192468261"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment17\\-4023564272192468261.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-4023564272192468261"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment17\\3753399178614987512.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "3753399178614987512"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment17\\-1831621039970980605.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "-1831621039970980605"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment17\\3753399178614987512.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "3753399178614987512"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment17\\-1831621039970980605.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "-1831621039970980605"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment17\\-6254980937221281585.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "-6254980937221281585"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment17\\-6254980937221281585.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "-6254980937221281585"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "b454d0d74c68a9b2aabf2c718cba43ba",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=be0600451bb67b95461db018233858df(TranslateActivity/Button-Start dict:x408:y1818))"
+            },
+            {
+                "from": "b454d0d74c68a9b2aabf2c718cba43ba",
+                "to": "c81660eb86e8ebae99b2f2caddaf5d9e",
+                "event": "click(state=b454d0d74c68a9b2aabf2c718cba43ba, view=f71880a46c86d349cc87b463c2e55959(TranslateActivity/ImageView-More optio:x948:y105))"
+            },
+            {
+                "from": "c81660eb86e8ebae99b2f2caddaf5d9e",
+                "to": -4023564272192468261,
+                "event": "back"
+            },
+            {
+                "from": "c81660eb86e8ebae99b2f2caddaf5d9e",
+                "to": "-4023564272192468261",
+                "event": "click<button id=9 class =\"com.google.android.apps.translate:id/recognized_text_field\"> Speak now\u2026,  </button>"
+            },
+            {
+                "from": "c81660eb86e8ebae99b2f2caddaf5d9e",
+                "to": 3753399178614987512,
+                "event": "back"
+            },
+            {
+                "from": "c81660eb86e8ebae99b2f2caddaf5d9e",
+                "to": "-1831621039970980605",
+                "event": "click<button id=26 class =\"com.google.android.apps.translate:id/camera_button\" alt=\"Camera\">  </button>"
+            },
+            {
+                "from": "c81660eb86e8ebae99b2f2caddaf5d9e",
+                "to": 3753399178614987512,
+                "event": "back"
+            },
+            {
+                "from": "c81660eb86e8ebae99b2f2caddaf5d9e",
+                "to": "-1831621039970980605",
+                "event": "click<button id=26 class =\"com.google.android.apps.translate:id/camera_button\" alt=\"Camera\">  </button>"
+            },
+            {
+                "from": "c81660eb86e8ebae99b2f2caddaf5d9e",
+                "to": "-6254980937221281585",
+                "event": "click<button id=65 class =\"com.google.android.googlequicksearchbox:id/shutter_button_view\" alt=\"Camera search\">  </button>"
+            },
+            {
+                "from": "c81660eb86e8ebae99b2f2caddaf5d9e",
+                "to": "-6254980937221281585",
+                "event": "click<div id=65 class =\"com.google.android.googlequicksearchbox:id/panel_web_lrp_fragment_container\">  </div>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

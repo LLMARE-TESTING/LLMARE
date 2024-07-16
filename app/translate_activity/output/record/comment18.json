@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "I desired to communicate with more people from around the world compatently while I learn their language. The app is amazing in that the text to speech can allow you to train yourself on how to pronounce cirtain words albeit with a very butchered accent, but c'est la vie. I find it's interface very user friendly and, there is a copy and paste button at the ready, there are so many more features still to discover, but it is a must have if you dream to understand the world better through language.",
+        "key sentence": "text to speech",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "b9d3528850e9a316b3af2e022312377e",
+        "the sub-task list of state": "[{'name': 'New translation', 'description': 'Start a new translation session'}, {'name': 'History', 'description': 'View translation history'}, {'name': 'More options', 'description': 'Open additional options'}, {'name': 'Speak original text', 'description': 'Listen to the spoken version of the original text'}, {'name': 'Copy original text', 'description': 'Copy the original text to clipboard'}, {'name': 'Speak translated text', 'description': 'Listen to the spoken version of the translated text'}, {'name': 'Copy translated text', 'description': 'Copy the translated text to clipboard'}, {'name': 'Submit Translation Feedback', 'description': 'Provide feedback on the translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment18\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment18\\b9d3528850e9a316b3af2e022312377e.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "b9d3528850e9a316b3af2e022312377e"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment18\\383954204556519730.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "383954204556519730"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "b9d3528850e9a316b3af2e022312377e",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=f3f547e2be6a280f397b3ad8c6a7014b(TranslateActivity/Button-Paste:x66:y606))"
+            },
+            {
+                "from": "b9d3528850e9a316b3af2e022312377e",
+                "to": "383954204556519730",
+                "event": "click<button id=29 class =\"com.google.android.apps.translate:id/speak_text_button\" alt=\"Speak translated text\">  </button>"
+            }
+        ],
+        "Final answer": "YES"
+    }
+]

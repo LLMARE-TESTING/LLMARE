@@ -1,0 +1,30 @@
+[
+    {
+        "comment": "Update: Since my last, (scathing), review much has been done to improve the translator's UI. Since then Google's Translate app is back near the top of the heap, though I still avoid the floating translate button. (-1 star) The instant translation feature using the phone's camera is especially useful and the inclusion of \"translate\" within most cut/paste dialogues is also valuable.",
+        "key sentence": "The key words: floating translate button, instant translation feature, phone's camera, cut/paste dialogues",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "1e0a8968f43dbb61fd758c305c65c40a",
+        "the sub-task list of state": "[{'name': 'Saved', 'description': 'Access saved translations'}, {'name': 'Enter Text Label', 'description': 'Label for text input field'}, {'name': 'Paste Button', 'description': 'Button to paste text'}, {'name': 'Control Area Container', 'description': 'Container for control elements'}, {'name': 'Language Picker', 'description': 'Select languages for translation'}, {'name': 'Swap Languages Button', 'description': 'Button to swap input and output languages'}, {'name': 'Conversation Button', 'description': 'Button to start conversation mode'}, {'name': 'Camera Button', 'description': 'Button to access camera for translation'}, {'name': 'Start Dictation Button', 'description': 'Button to start speech dictation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment64\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment64\\-3233432056723651957.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "-3233432056723651957"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "-3233432056723651957",
+                "event": "click<button id=26 class =\"com.google.android.apps.translate:id/camera_button\" alt=\"Camera\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "It's good but it could use a pause button to allow you to gather your thoughts if you are not quite ready. Over all does the trick isn't always perfect i would say 90% it could use a little AI to work on when you are actually finished with your sentence",
+        "key sentence": "The key words: pause button",
+        "target activity": ".feedback.FeedbackAlohaActivity",
+        "the function of activity": "The activity manages user interaction: search contacts, navigate menus, close the app, and wait during processes.",
+        "target state": "19d890e2322f7f99c78e8f44069d77ee",
+        "the sub-task list of state": "[{'name': 'Close App', 'description': 'Terminate or close the application'}, {'name': 'Wait', 'description': 'Pause and wait for an action or process to complete'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment89\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment89\\b454d0d74c68a9b2aabf2c718cba43ba.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "b454d0d74c68a9b2aabf2c718cba43ba"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment89\\c81660eb86e8ebae99b2f2caddaf5d9e.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "c81660eb86e8ebae99b2f2caddaf5d9e"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment89\\6979827905324636523.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "6979827905324636523"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment89\\6961946054978101675.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "6961946054978101675"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment89\\6979827905324636523.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "6979827905324636523"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment89\\6979827905324636523.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "6979827905324636523"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment89\\-8822293593751170024.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-8822293593751170024"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment89\\6979827905324636523.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "6979827905324636523"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment89\\8942641735632552643.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "8942641735632552643"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment89\\-8822293593751170024.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-8822293593751170024"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "b454d0d74c68a9b2aabf2c718cba43ba",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=be0600451bb67b95461db018233858df(TranslateActivity/Button-Start dict:x408:y1818))"
+            },
+            {
+                "from": "b454d0d74c68a9b2aabf2c718cba43ba",
+                "to": "c81660eb86e8ebae99b2f2caddaf5d9e",
+                "event": "click(state=b454d0d74c68a9b2aabf2c718cba43ba, view=f71880a46c86d349cc87b463c2e55959(TranslateActivity/ImageView-More optio:x948:y105))"
+            },
+            {
+                "from": "19d890e2322f7f99c78e8f44069d77ee",
+                "to": "6979827905324636523",
+                "event": "click<button id=30 class =\"com.google.android.apps.translate:id/dictation_button\" alt=\"Start dictation\">  </button>"
+            },
+            {
+                "from": "19d890e2322f7f99c78e8f44069d77ee",
+                "to": "6961946054978101675",
+                "event": "click<button id=17 class =\"com.google.android.apps.translate:id/dictation_button\" alt=\"Stop dictation\">  </button>"
+            },
+            {
+                "from": "19d890e2322f7f99c78e8f44069d77ee",
+                "to": "6979827905324636523",
+                "event": "click<button id=17 class =\"com.google.android.apps.translate:id/dictation_button\" alt=\"Start dictation\">  </button>"
+            },
+            {
+                "from": "19d890e2322f7f99c78e8f44069d77ee",
+                "to": "6979827905324636523",
+                "event": "click<button id=17 class =\"com.google.android.apps.translate:id/dictation_button\" alt=\"Stop dictation\">  </button>"
+            },
+            {
+                "from": "19d890e2322f7f99c78e8f44069d77ee",
+                "to": -8822293593751170024,
+                "event": "back"
+            },
+            {
+                "from": "19d890e2322f7f99c78e8f44069d77ee",
+                "to": "6979827905324636523",
+                "event": "click<button id=28 class =\"com.google.android.apps.translate:id/dictation_button\" alt=\"Start dictation\">  </button>"
+            },
+            {
+                "from": "19d890e2322f7f99c78e8f44069d77ee",
+                "to": "8942641735632552643",
+                "event": "click<button id=17 class =\"com.google.android.apps.translate:id/dictation_button\" alt=\"Stop dictation\">  </button>"
+            },
+            {
+                "from": "19d890e2322f7f99c78e8f44069d77ee",
+                "to": -8822293593751170024,
+                "event": "back"
+            }
+        ],
+        "Final answer": "YES"
+    }
+]

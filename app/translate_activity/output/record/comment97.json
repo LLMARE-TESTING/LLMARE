@@ -1,0 +1,40 @@
+[
+    {
+        "comment": "I was liking this app before forcefully adding google lens, this broke the easy operability, I can't select one line for example and now getting lost in unnecessary 10 options. Have to find a suitable replacement. This sucks now.",
+        "key sentence": "google lens",
+        "target activity": "com.google.android.apps.lens.MainActivity",
+        "the function of activity": "The activity facilitates user interaction: search contacts, enable camera flash, access options, select gallery image, use camera for search, and expand translation choices.",
+        "target state": "7bdc16aba671b5811d835b68b453fdff",
+        "the sub-task list of state": "[{'name': 'Turn flash on', 'description': 'Enable flash for the camera'}, {'name': 'More options', 'description': 'Access additional options menu'}, {'name': 'Select an image from gallery', 'description': \"Choose an image from the device's gallery\"}, {'name': 'Camera search', 'description': 'Activate camera for search functionality'}, {'name': 'Expand translation menu', 'description': 'Show more translation options'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment97\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment97\\7bdc16aba671b5811d835b68b453fdff.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "7bdc16aba671b5811d835b68b453fdff"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment97\\-9130559523731028496.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "-9130559523731028496"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "7bdc16aba671b5811d835b68b453fdff",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=2da0330ccba2d015a9b7a753d43dc9df(TranslateActivity/Button-Camera:x815:y1884))"
+            },
+            {
+                "from": "7bdc16aba671b5811d835b68b453fdff",
+                "to": "-9130559523731028496",
+                "event": "click<button id=26 class =\"com.google.android.apps.translate:id/camera_button\" alt=\"Camera\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

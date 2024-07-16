@@ -1,0 +1,90 @@
+[
+    {
+        "comment": "Dont update! I updated to the latest version, but the new UI doesn't do the job anymore. There is no more two sided translate, now you speak you language, they hear it, then you must back out of that page and select language two then they speak and you hear it, then back out of the page... rinse and repeat. It's not usable this way. Fortunately I did not update in my other phone, so when I'm home we talk with that phone. This phone I switched to Microsoft Translator which sort of gets it right",
+        "key sentence": "two sided translate",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "226481ed7f29bc8a96dcce7f89c420e8",
+        "the sub-task list of state": "[{'name': 'Switch to face to face mode', 'description': 'Change to a mode for face-to-face interaction'}, {'name': 'Search', 'description': 'Look for a specific item or content'}, {'name': 'Open menu', 'description': 'Display a list of available options or actions'}, {'name': 'Enable automatic language detection', 'description': 'Turn on automatic identification of languages'}, {'name': 'Listen for both Chinese (Simplified) and Korean', 'description': 'Activate listening mode for both languages'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment93\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment93\\9b7c15805532475387b4dc32a87d80ed.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "9b7c15805532475387b4dc32a87d80ed"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment93\\226481ed7f29bc8a96dcce7f89c420e8.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "226481ed7f29bc8a96dcce7f89c420e8"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment93\\8805546120717778704.png",
+                "activity": "",
+                "state_str": "8805546120717778704"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment93\\-8977858572332822934.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-8977858572332822934"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment93\\-4813794765475381043.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-4813794765475381043"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment93\\-2459267179621705276.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-2459267179621705276"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment93\\-8088605731171070572.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-8088605731171070572"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "9b7c15805532475387b4dc32a87d80ed",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=cf82f2647f332a31a519428d9a0454b5(TranslateActivity/Button-Conversati:x133:y1884))"
+            },
+            {
+                "from": "9b7c15805532475387b4dc32a87d80ed",
+                "to": "226481ed7f29bc8a96dcce7f89c420e8",
+                "event": "click(state=9b7c15805532475387b4dc32a87d80ed, view=c398d5fe9c997d38a2556f53ba4905ea(TranslateActivity/Button-Got it:x744:y1277))"
+            },
+            {
+                "from": "226481ed7f29bc8a96dcce7f89c420e8",
+                "to": "8805546120717778704",
+                "event": "click<img id=12 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "226481ed7f29bc8a96dcce7f89c420e8",
+                "to": "-8977858572332822934",
+                "event": "click<p id=2 class =\"com.google.android.apps.translate:id/title\"> Send feedback,  </p>"
+            },
+            {
+                "from": "226481ed7f29bc8a96dcce7f89c420e8",
+                "to": "-4813794765475381043",
+                "event": "click<button id=21> Get Started,  </button>"
+            },
+            {
+                "from": "226481ed7f29bc8a96dcce7f89c420e8",
+                "to": "-2459267179621705276",
+                "event": "input<input id=12 class =\"com.google.android.gms:id/text_input_edit_text\"> Tell us how we can improve our product,  </input>The new UI removed the two-sided translate feature, making conversations much more difficult. Please bring back the ability to have a continuous two-way conversation without constantly switching between languages."
+            },
+            {
+                "from": "226481ed7f29bc8a96dcce7f89c420e8",
+                "to": "-8088605731171070572",
+                "event": "click<button id=15 alt=\"Submit the feedback that you entered\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

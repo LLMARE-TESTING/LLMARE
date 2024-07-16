@@ -1,0 +1,80 @@
+[
+    {
+        "comment": "Very useful for traveling/living abroad. The latest version has broken, \"tap to translate\" feature. The button that would pop up when you copied text then disappear when used is now there all the time. It's very annoying and had to be turned off.",
+        "key sentence": "tap to translate",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "c81660eb86e8ebae99b2f2caddaf5d9e",
+        "the sub-task list of state": "[{'name': 'Translate', 'description': 'Perform translation of text'}, {'name': 'Send Feedback', 'description': 'Send feedback'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment65\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment65\\b454d0d74c68a9b2aabf2c718cba43ba.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "b454d0d74c68a9b2aabf2c718cba43ba"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment65\\c81660eb86e8ebae99b2f2caddaf5d9e.png",
+                "activity": "",
+                "state_str": "c81660eb86e8ebae99b2f2caddaf5d9e"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment65\\-2061513937227268603.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-2061513937227268603"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment65\\-3332187427548522984.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-3332187427548522984"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment65\\6610699892723045661.png",
+                "activity": "com.google.android.apps.translate.pref.SettingsActivity}",
+                "state_str": "6610699892723045661"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment65\\-165194509995118578.png",
+                "activity": "com.google.android.apps.translate.pref.SettingsActivity}",
+                "state_str": "-165194509995118578"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "b454d0d74c68a9b2aabf2c718cba43ba",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=be0600451bb67b95461db018233858df(TranslateActivity/Button-Start dict:x408:y1818))"
+            },
+            {
+                "from": "b454d0d74c68a9b2aabf2c718cba43ba",
+                "to": "c81660eb86e8ebae99b2f2caddaf5d9e",
+                "event": "click(state=b454d0d74c68a9b2aabf2c718cba43ba, view=f71880a46c86d349cc87b463c2e55959(TranslateActivity/ImageView-More optio:x948:y105))"
+            },
+            {
+                "from": "c81660eb86e8ebae99b2f2caddaf5d9e",
+                "to": -2061513937227268603,
+                "event": "back"
+            },
+            {
+                "from": "c81660eb86e8ebae99b2f2caddaf5d9e",
+                "to": "-3332187427548522984",
+                "event": "click<button id=12 class =\"com.google.android.apps.translate:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "c81660eb86e8ebae99b2f2caddaf5d9e",
+                "to": "6610699892723045661",
+                "event": "click<p id=45 class =\"com.google.android.apps.translate:id/og_text_card_title\"> Settings,  </p>"
+            },
+            {
+                "from": "c81660eb86e8ebae99b2f2caddaf5d9e",
+                "to": "-165194509995118578",
+                "event": "click<p id=10 class =\"android:id/title\"> Tap to Translate,  </p>"
+            }
+        ],
+        "Final answer": "YES"
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Hate the new layout. I hate having to hide the keyboard just access the copy function. I use this app a lot when conversing with friends in another language and it used to be so quick and easy....now it's so tedious having to hide the keyboard every single time I want to copy and paste a translation. Please fix!! Just add a persistent copy button to the screen thst can be accessed all the time.",
+        "key sentence": "The key words: new layout, hide the keyboard, copy function",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state6",
+        "the sub-task list of state": "[{'name': 'History', 'description': 'View translation history'}, {'name': 'Keyboard', 'description': 'Open virtual keyboard for text input'}, {'name': 'Enter text', 'description': 'Input text using the keyboard or other input methods'}, {'name': 'Paste', 'description': 'Insert copied text into the translation area'}, {'name': 'Swap languages', 'description': 'Switch the languages being translated'}, {'name': 'Select language', 'description': 'Choose the source or target language for translation'}, {'name': 'Handwriting input', 'description': 'Use handwriting recognition for text input'}, {'name': 'Undo', 'description': 'Reverse the last action performed'}, {'name': 'Space bar', 'description': 'Insert a space while using handwriting input'}, {'name': 'Backspace key', 'description': 'Delete the previous character or action'}, {'name': 'Show details', 'description': 'Display more information or options related to the translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment33\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment33\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment33\\state6.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state6"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment33\\-5097314337998008767.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-5097314337998008767"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment33\\-5097314337998008767.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-5097314337998008767"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment33\\-4473508281934197619.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-4473508281934197619"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment33\\-4473508281934197619.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-4473508281934197619"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment33\\-8133015814370553073.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-8133015814370553073"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment33\\-8133015814370553073.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-8133015814370553073"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment33\\-8133015814370553073.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-8133015814370553073"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot-2\\comment33\\-8133015814370553073.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-8133015814370553073"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "state6",
+                "event": "click(Button-Handwriting:[805,105][937,237])"
+            },
+            {
+                "from": "state6",
+                "to": "-5097314337998008767",
+                "event": "click<button id=11 class =\"com.google.android.apps.translate:id/item_keyboard\" alt=\"Keyboard\">  </button>"
+            },
+            {
+                "from": "-5097314337998008767",
+                "to": "-5097314337998008767",
+                "event": "click<input id=14 class =\"com.google.android.apps.translate:id/text_input_field\"> Enter text,  </input>"
+            },
+            {
+                "from": "-5097314337998008767",
+                "to": "-4473508281934197619",
+                "event": "click<button id=15 class =\"com.google.android.apps.translate:id/paste_button\"> Paste,  </button>"
+            },
+            {
+                "from": "-4473508281934197619",
+                "to": "-4473508281934197619",
+                "event": "click<button id=17 class =\"com.google.android.apps.translate:id/copy_text_button\" alt=\"Copy original text\">  </button>"
+            },
+            {
+                "from": "-4473508281934197619",
+                "to": "-8133015814370553073",
+                "event": "click<div id=11 class =\"com.google.android.apps.translate:id/original_text_card\">  </div>"
+            },
+            {
+                "from": "-8133015814370553073",
+                "to": "-8133015814370553073",
+                "event": "click<input id=14 class =\"com.google.android.apps.translate:id/text_input_field\"> cutekitten37,  </input>"
+            },
+            {
+                "from": "-8133015814370553073",
+                "to": "-8133015814370553073",
+                "event": "click<div id=17 class =\"com.google.android.apps.translate:id/pad_area_footer\">  </div>"
+            },
+            {
+                "from": "-8133015814370553073",
+                "to": "-8133015814370553073",
+                "event": "click<input id=14 class =\"com.google.android.apps.translate:id/text_input_field\"> cutekitten37,  </input>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

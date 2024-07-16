@@ -1,0 +1,60 @@
+[
+    {
+        "comment": "Got new version with new phone. Design change made it worse and less user friendly. I use 3 languages and now it is a mess to switch and to enter, as well to hear. All options are scattered across the screen. No way to swap the languages if i need to. Also a quick translate from other app is less convinient now. Previous version worked just fine. When I swap the language I expect it swaps the text as well like in web version.",
+        "key sentence": "language switching, text input, audio playback, language swapping, quick translate",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Navigate up', 'description': 'Go up one level or return to previous screen'}, {'name': 'History', 'description': 'View history of previous actions or translations'}, {'name': 'Handwriting', 'description': 'Access handwriting input for text entry'}, {'name': 'Enter text', 'description': 'Input text using the on-screen keyboard'}, {'name': 'Paste', 'description': 'Paste copied text into the current input field'}, {'name': 'Swap languages', 'description': 'Exchange the source and target languages'}, {'name': 'Select language (A)', 'description': 'Choose the source language for translation'}, {'name': 'Select language (B)', 'description': 'Choose the target language for translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment53\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment53\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment53\\-6320486424775547037.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "-6320486424775547037"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment53\\-8498001967042832326.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-8498001967042832326"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment53\\-664882429062636926.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-664882429062636926"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "-6320486424775547037",
+                "event": "click<button id=18 class =\"com.google.android.apps.translate:id/language_button_a\"> Chinese (Simplified),  </button>"
+            },
+            {
+                "from": "state2",
+                "to": "-8498001967042832326",
+                "event": "click<p id=21 class =\"android:id/text1\"> English,  </p>"
+            },
+            {
+                "from": "state2",
+                "to": "-664882429062636926",
+                "event": "click<button id=20 class =\"com.google.android.apps.translate:id/swap_languages_button\" alt=\"Swap languages\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]
