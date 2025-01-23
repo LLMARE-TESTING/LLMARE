@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "It was amazing until Spotify updated to show every artist under the music tab instead of just the ones I had downloaded, I loved being able to go and listen to only the downloaded songs of a particular artist, not their whole discography and not artists I have no interest in",
+        "key sentence": "The key words from the comment are: \"Spotify\", \"updated\", \"music tab\", \"downloaded songs\", \"particular artist\", \"whole discography\", \"artists I have no interest in\".",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state13",
+        "the sub-task list of state": "[{'name': 'Download Liked Songs', 'description': 'Download all liked songs'}, {'name': 'Disable Shuffle', 'description': 'Disable shuffle for this liked songs'}, {'name': 'Tap to play Liked Songs', 'description': 'Tap to play a liked songs'}, {'name': 'More Options for Song', 'description': 'Access more options for a specific song'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment1\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment1\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment1\\state13.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment1\\8725444539678419477.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8725444539678419477"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "state13",
+                "event": "click(android.view.ViewGroup-Liked Songs, Playlist \u2022 19 songs, Pinned, :[0,598][1080,774])"
+            },
+            {
+                "from": "state13",
+                "to": "8725444539678419477",
+                "event": "click<button id=99 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "comment": "I have been using Spotify regularly since 2017. I have 300 Playlists. Unfortunately, spotify fascistically decided that every user must use their new feature 'smart shuffle' which constantly turns on by default for every playlist every time you reopen the app, and takes 5 full seconds of loading to turn off. Every. Single. Time. you open a playlist. I have never used this feature. I never will use this feature. Spotify provides no way to turn it off permanently. I will be canceling membership.",
+        "key sentence": "smart shuffle",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state9",
+        "the sub-task list of state": "[{'name': 'Download Album', 'description': 'Download the current Album'}, {'name': 'Play Music in Album', 'description': 'Play the music in album.'}, {'name': 'More Options', 'description': 'Access more options for the current item'}, {'name': 'Enable Shuffle', 'description': 'Enable shuffle for the current playlist'}, {'name': 'Back', 'description': 'Navigate back to the previous screen or page'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment85\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment85\\state9.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment85\\4435475134828408232.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "4435475134828408232"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment85\\-3547389216507929517.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-3547389216507929517"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment85\\-2292461196860537019.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-2292461196860537019"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state9",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/image:[44,714][476,1146])"
+            },
+            {
+                "from": "state9",
+                "to": "4435475134828408232",
+                "event": "click<button id=109 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            },
+            {
+                "from": "4435475134828408232",
+                "to": "-3547389216507929517",
+                "event": "click<button id=25 alt=\"Playlists, show only playlists.\">  </button>"
+            },
+            {
+                "from": "-3547389216507929517",
+                "to": "-2292461196860537019",
+                "event": "click<button id=54 class =\"com.spotify.music:id/row_root\" alt=\"My playlist #3, ran Jin, \">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

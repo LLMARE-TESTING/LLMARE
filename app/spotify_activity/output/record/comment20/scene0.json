@@ -1,0 +1,164 @@
+[
+    {
+        "round": 1,
+        "comment": "Like Button Issues; Adding songs is the same in the new update, but un-adding is NOT. You have to click the checkmark to open playlists, uncheck liked songs, and click done. It went from one tap to three taps, including an extra menu. Seriously, how in the world am I supposed to do that while driving? You made things more difficult for absolutely no reason. You marketed it as the same experience with an extra feature, but in reality, it is NOT the same experience. Absolutely terrible change.",
+        "scenarios": [
+            "When trying to un-add a song from liked songs, the user has to click the checkmark, open playlists, uncheck liked songs, and click done, which is now a three-tap process including an extra menu."
+        ],
+        "key sentence": "When trying to un-add a song from liked songs, the user has to click the checkmark, open playlists, uncheck liked songs, and click done, which is now a three-tap process including an extra menu.",
+        "target activity": "MainActivity",
+        "the function of activity": "The activity involves searching, library function(playlist/artist), playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state10",
+        "the sub-task list of state": "[{'name': 'Add to Liked Songs', 'description': 'Add the currently playing song to Liked Songs list.'}, {'name': 'Add to playlist', 'description': 'Add the currently playing song to a specific playlist.'}, {'name': 'Hide this song', 'description': 'Remove the current song from the visible list.'}, {'name': 'Add to queue', 'description': 'Add the current song to the music queue.'}, {'name': 'View album', 'description': 'View details and information about the album of the current song.'}, {'name': 'View artist', 'description': 'Get more information about the artist of the current song.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\scene0\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\scene0\\state9.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\scene0\\state10.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\scene0\\2247160810987982555.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2247160810987982555"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\scene0\\4989584730184435214.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "4989584730184435214"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\scene0\\2247160810987982555.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2247160810987982555"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\scene0\\2247160810987982555.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2247160810987982555"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\scene0\\1352816677493107287.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "1352816677493107287"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\scene0\\6299791093614761634.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "6299791093614761634"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\scene0\\2645419460072112539.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2645419460072112539"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\scene0\\4446132929471663325.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "4446132929471663325"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\scene0\\-4175357512022309838.png",
+                "activity": "com.spotify.tome.pageactivity.PageActivity}",
+                "state_str": "-4175357512022309838"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\scene0\\-4175357512022309838.png",
+                "activity": "com.spotify.tome.pageactivity.PageActivity}",
+                "state_str": "-4175357512022309838"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\scene0\\1838132948713515620.png",
+                "activity": "com.spotify.tome.pageactivity.PageActivity}",
+                "state_str": "1838132948713515620"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\scene0\\6980115821510543774.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "6980115821510543774"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state9",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/image:[44,1242][476,1674])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(android.widget.ImageButton-More options for song \u646f\u53cb:[948,1264][1080,1396])"
+            },
+            {
+                "from": "state10",
+                "to": "2247160810987982555",
+                "event": "click<p id=3 class =\"com.spotify.music:id/title\"> Off The Record,  </p>"
+            },
+            {
+                "from": "2247160810987982555",
+                "to": "4989584730184435214",
+                "event": "click<p id=8 class =\"com.spotify.music:id/title\"> Add to Queue,  </p>"
+            },
+            {
+                "from": "4989584730184435214",
+                "to": "2247160810987982555",
+                "event": "click<button id=21 class =\"com.spotify.music:id/accessory\" alt=\"More options for song Off The Record\">  </button>"
+            },
+            {
+                "from": "2247160810987982555",
+                "to": "2247160810987982555",
+                "event": "click<p id=3 class =\"com.spotify.music:id/title\"> Off The Record,  </p>"
+            },
+            {
+                "from": "2247160810987982555",
+                "to": "1352816677493107287",
+                "event": "click<div id=5 class =\"com.spotify.music:id/context_menu_rows\">  </div>"
+            },
+            {
+                "from": "1352816677493107287",
+                "to": "6299791093614761634",
+                "event": "click<button id=18 class =\"com.spotify.music:id/accessory\" alt=\"More options for song Off The Record\">  </button>"
+            },
+            {
+                "from": "6299791093614761634",
+                "to": "2645419460072112539",
+                "event": "click<div id=5 class =\"com.spotify.music:id/context_menu_rows\">  </div>"
+            },
+            {
+                "from": "2645419460072112539",
+                "to": "4446132929471663325",
+                "event": "click<button id=20 class =\"com.spotify.music:id/heart_button\" alt=\"Stop liking\">  </button>"
+            },
+            {
+                "from": "4446132929471663325",
+                "to": "-4175357512022309838",
+                "event": "click<button id=23 class =\"com.spotify.music:id/add_to_button\" alt=\"Item added\">  </button>"
+            },
+            {
+                "from": "-4175357512022309838",
+                "to": "-4175357512022309838",
+                "event": "click<button id=5 class =\"com.spotify.music:id/title\"> Saved in,  </button>"
+            },
+            {
+                "from": "-4175357512022309838",
+                "to": "1838132948713515620",
+                "event": "click<p id=8 class =\"com.spotify.music:id/title_text\"> Liked Songs,  </p>"
+            },
+            {
+                "from": "1838132948713515620",
+                "to": "6980115821510543774",
+                "event": "click<p id=20> Done,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

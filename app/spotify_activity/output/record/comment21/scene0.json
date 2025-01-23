@@ -1,0 +1,165 @@
+[
+    {
+        "round": 1,
+        "comment": "Please add a sort by setting named \"oldest to newest\" you'd think they would've made a way to organize and reorganize your Playlist or like lists already. Keep the option to have them like by age. But also a way to have it editable",
+        "scenarios": [
+            "Add a \"sort by\" setting named \"oldest to newest\" for playlists or liked lists.",
+            "Keep the option to sort playlists or liked lists by age while also making it editable."
+        ],
+        "key sentence": "Add a \"sort by\" setting named \"oldest to newest\" for playlists or liked lists.",
+        "target activity": "MainActivity",
+        "the function of activity": "The activity involves searching, library function(playlist/artist), playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state21",
+        "the sub-task list of state": "[{'name': 'Downloaded', 'description': 'View only downloaded playlists'}, {'name': 'Filter by Playlists', 'description': 'Filter content to show only playlists'}, {'name': 'Filter by Podcasts', 'description': 'Filter content to show only podcasts'}, {'name': 'Sort Content', 'description': 'Change the sorting order of displayed content'}, {'name': 'Change View Mode', 'description': 'Switch between different view modes (e.g., grid view, list view)'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment21\\scene0\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment21\\scene0\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment21\\scene0\\state21.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state21"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment21\\scene0\\1531552114400380932.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "1531552114400380932"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment21\\scene0\\1531552114400380932.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "1531552114400380932"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment21\\scene0\\-3100175969672780669.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-3100175969672780669"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment21\\scene0\\1604453626402613744.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "1604453626402613744"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment21\\scene0\\-3100175969672780669.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-3100175969672780669"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment21\\scene0\\6979443557525124014.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "6979443557525124014"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment21\\scene0\\6410660983589593965.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "6410660983589593965"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment21\\scene0\\6410660983589593965.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "6410660983589593965"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment21\\scene0\\-3014965199533419468.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-3014965199533419468"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment21\\scene0\\6829461156682159634.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "6829461156682159634"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment21\\scene0\\6829461156682159634.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "6829461156682159634"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment21\\scene0\\4275442979211667914.png",
+                "activity": "com.android.dialer.main.impl.MainActivity}",
+                "state_str": "4275442979211667914"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "state21",
+                "event": "click(android.view.View-Downloaded, show only downloaded.:[754,317][1049,449])"
+            },
+            {
+                "from": "state21",
+                "to": "1531552114400380932",
+                "event": "click<button id=13 class =\"com.spotify.music:id/button_sort_order\"> Recents,  </button>"
+            },
+            {
+                "from": "1531552114400380932",
+                "to": "1531552114400380932",
+                "event": "click<p id=2 class =\"com.spotify.music:id/title\"> Sort by,  </p>"
+            },
+            {
+                "from": "1531552114400380932",
+                "to": "-3100175969672780669",
+                "event": "click<p id=4 class =\"com.spotify.music:id/title\"> Recents,  </p>"
+            },
+            {
+                "from": "-3100175969672780669",
+                "to": "1604453626402613744",
+                "event": "click<div id=0 class =\"com.spotify.music:id/content\">  </div>"
+            },
+            {
+                "from": "1604453626402613744",
+                "to": -3100175969672780669,
+                "event": "back"
+            },
+            {
+                "from": -3100175969672780669,
+                "to": "6979443557525124014",
+                "event": "click<button id=13 class =\"com.spotify.music:id/button_sort_order\"> Recents,  </button>"
+            },
+            {
+                "from": "6979443557525124014",
+                "to": "6410660983589593965",
+                "event": "click<p id=6 class =\"com.spotify.music:id/title\"> Recently added,  </p>"
+            },
+            {
+                "from": "6410660983589593965",
+                "to": "6410660983589593965",
+                "event": "click<button id=12 class =\"com.spotify.music:id/library_sort_row_root\" alt=\"your library display options, sort or change view mode\">  </button>"
+            },
+            {
+                "from": "6410660983589593965",
+                "to": "-3014965199533419468",
+                "event": "click<button id=10 alt=\"Playlists, show only playlists.\">  </button>"
+            },
+            {
+                "from": "-3014965199533419468",
+                "to": "6829461156682159634",
+                "event": "click<button id=13 class =\"com.spotify.music:id/library_sort_row_root\" alt=\"your library display options, sort or change view mode\">  </button>"
+            },
+            {
+                "from": "6829461156682159634",
+                "to": 6829461156682159634,
+                "event": "back"
+            },
+            {
+                "from": 6829461156682159634,
+                "to": "4275442979211667914",
+                "event": "click<button id=13> Phone,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

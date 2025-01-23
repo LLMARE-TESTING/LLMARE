@@ -1,0 +1,80 @@
+[
+    {
+        "comment": "Love the app but quality of life changes u may consider: (1) Please make the toggle button to offline mode much easier to find by putting it on top over all the settings or just placing it with the sidebar outside of the settings (if that makes sense), just pls put it on the front page where i dont have to scroll thru settings. (2) same goes for the equalizer but maybe place it as part of the kebab button/options menu on a song. Thank you! Fingers crossed u consider",
+        "key sentence": "toggle button to offline mode, equalizer",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state25",
+        "the sub-task list of state": "[{'name': 'Equlizer', 'description': 'Open th equalizer control panel'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment81\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment81\\state5.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment81\\state23.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state23"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment81\\state24.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state24"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment81\\state25.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state25"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment81\\7889823833347603618.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "7889823833347603618"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment81\\5206672354147206262.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "5206672354147206262"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state5",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/faceheader_image:[22,171][154,303])"
+            },
+            {
+                "from": "state5",
+                "to": "state23",
+                "event": "click(TextView-Settings and privacy:[1016,1242][1080,1815])"
+            },
+            {
+                "from": "state23",
+                "to": "state24",
+                "event": "click(TextView-Audio quality:[44,1351][309,1412])"
+            },
+            {
+                "from": "state24",
+                "to": "state25",
+                "event": "scroll-up(TextView-Audio quality:[44,1351][309,1412])"
+            },
+            {
+                "from": "state25",
+                "to": "7889823833347603618",
+                "event": "scroll up"
+            },
+            {
+                "from": "7889823833347603618",
+                "to": "5206672354147206262",
+                "event": "click<p id=25> Equalizer,  </p>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]
