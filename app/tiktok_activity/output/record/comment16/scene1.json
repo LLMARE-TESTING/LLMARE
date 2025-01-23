@@ -1,0 +1,45 @@
+[
+    {
+        "round": 1,
+        "comment": "I hate that they try new arrangements in the buttons, me as autistic i like how is always or if it easier. The new update for sharing is horrible, the friends icon its too big unnecessary. And for sharing to other apps i need everytime choose other because it will only save 2 app on the fast share.",
+        "scenarios": [
+            "When sharing, the placement of the friends icon is too big and unnecessary.",
+            "For sharing to other apps, the user has to choose \"other\" every time because the app only saves 2 apps in the fast share menu."
+        ],
+        "key sentence": "For sharing to other apps, the user has to choose \"other\" every time because the app only saves 2 apps in the fast share menu.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state20",
+        "the sub-task list of state": "[{'name': 'Share to', 'description': 'Share the video to another platform'}, {'name': 'Add to Story', 'description': 'Add the video to your story'}, {'name': 'Repost', 'description': 'Repost the video'}, {'name': 'Copy link', 'description': \"Copy the video's link\"}, {'name': 'Report', 'description': 'Report the video'}, {'name': 'Not interested', 'description': 'Mark the video as not interesting'}, {'name': 'Save video', 'description': 'Save the video to your device'}, {'name': 'Cast', 'description': 'Cast the video to another device'}, {'name': 'Why this video', 'description': 'Find out why this video was suggested to you'}, {'name': 'Captions', 'description': 'View captions/subtitles for the video'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment16\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment16\\scene1\\state20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment16\\scene1\\8114800506822633517.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8114800506822633517"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state20",
+                "event": "click(Button-Share video.:[914,1664][1080,1851])"
+            },
+            {
+                "from": "state20",
+                "to": "8114800506822633517",
+                "event": "click<button id=10 alt=\"More\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

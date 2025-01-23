@@ -1,0 +1,161 @@
+[
+    {
+        "round": 1,
+        "comment": "The app runs fine, it is fun and I get to enjoy a variety of content, but, and I don't know if I'm the only one this happens to, there are filters that don't work on my device, the app says it, it pulls up a little message, like I can't even open the record page when trying to use certain filters, not that they dont work on me, I am on a Samsung galaxy S21 FE btw Update: they have fixed whatever it was that was going on.",
+        "scenarios": [
+            "The user attempts to use certain filters, but a message appears indicating the filters don't work on their Samsung Galaxy S21 FE, preventing access to the record page."
+        ],
+        "key sentence": "The user attempts to use certain filters, but a message appears indicating the filters don't work on their Samsung Galaxy S21 FE, preventing access to the record page.",
+        "target activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity",
+        "the function of activity": "This activity allows users to record and enhance videos, adjust playback speed, add effects, sound, text, music, and post videos.",
+        "target state": "97fbfdd4dfe5010b5daa588476b0ed04",
+        "the sub-task list of state": "[{'name': 'Record video', 'description': 'Record a video'}, {'name': 'Add sound', 'description': 'Add sound to the video'}, {'name': 'Flip', 'description': 'Flip the camera'}, {'name': 'Effects', 'description': 'Add effects to the video'}, {'name': 'Upload', 'description': 'Upload the video'}, {'name': 'Speed', 'description': 'Adjust the speed of the video'}, {'name': 'Retouch', 'description': 'Retouch the video'}, {'name': 'Mic', 'description': 'Enable or disable microphone'}, {'name': 'Filters', 'description': 'Apply filters to the video'}, {'name': 'Timer', 'description': 'Set a timer for recording'}, {'name': 'Flash', 'description': 'Enable or disable flash'}, {'name': 'Close', 'description': 'Close the current screen'}, {'name': 'Text', 'description': 'Add text to the video'}, {'name': 'Camera', 'description': 'Switch between front and back camera'}, {'name': 'Templates', 'description': 'Choose a template for the video'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment20\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment20\\scene0\\97fbfdd4dfe5010b5daa588476b0ed04.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "97fbfdd4dfe5010b5daa588476b0ed04"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment20\\scene0\\-5020599575854528498.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-5020599575854528498"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment20\\scene0\\-8982157194343718039.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-8982157194343718039"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment20\\scene0\\182548582006223749.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "182548582006223749"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "event": "click(state=86ad15cba4ecd2166c92cbbf7eddfa20, view=553e56e4257e3426ca1ee81e58bd7ec2(SplashActivity/Button-Create:x432:y2013))"
+            },
+            {
+                "from": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "to": "-5020599575854528498",
+                "event": "click<button id=0 alt=\"Record video\">  </button>"
+            },
+            {
+                "from": "-5020599575854528498",
+                "to": "-8982157194343718039",
+                "event": "click<button id=8 alt=\"Filters\">  </button>"
+            },
+            {
+                "from": "-8982157194343718039",
+                "to": "182548582006223749",
+                "event": "click<button id=0 alt=\"Portrait\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "The app runs fine, it is fun and I get to enjoy a variety of content, but, and I don't know if I'm the only one this happens to, there are filters that don't work on my device, the app says it, it pulls up a little message, like I can't even open the record page when trying to use certain filters, not that they dont work on me, I am on a Samsung galaxy S21 FE btw Update: they have fixed whatever it was that was going on.",
+        "scenarios": [
+            "The user attempts to use certain filters, but a message appears indicating the filters don't work on their Samsung Galaxy S21 FE, preventing access to the record page."
+        ],
+        "key sentence": "The user attempts to use certain filters, but a message appears indicating the filters don't work on their Samsung Galaxy S21 FE, preventing access to the record page.",
+        "target activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity",
+        "the function of activity": "This activity allows users to record and enhance videos, adjust playback speed, add effects, sound, text, music, and post videos.",
+        "target state": "97fbfdd4dfe5010b5daa588476b0ed04",
+        "the sub-task list of state": "[{'name': 'Record video', 'description': 'Record a video'}, {'name': 'Add sound', 'description': 'Add sound to the video'}, {'name': 'Flip', 'description': 'Flip the camera'}, {'name': 'Effects', 'description': 'Add effects to the video'}, {'name': 'Upload', 'description': 'Upload the video'}, {'name': 'Speed', 'description': 'Adjust the speed of the video'}, {'name': 'Retouch', 'description': 'Retouch the video'}, {'name': 'Mic', 'description': 'Enable or disable microphone'}, {'name': 'Filters', 'description': 'Apply filters to the video'}, {'name': 'Timer', 'description': 'Set a timer for recording'}, {'name': 'Flash', 'description': 'Enable or disable flash'}, {'name': 'Close', 'description': 'Close the current screen'}, {'name': 'Text', 'description': 'Add text to the video'}, {'name': 'Camera', 'description': 'Switch between front and back camera'}, {'name': 'Templates', 'description': 'Choose a template for the video'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment20\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment20\\scene0\\97fbfdd4dfe5010b5daa588476b0ed04.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "97fbfdd4dfe5010b5daa588476b0ed04"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment20\\scene0\\-5020599575854528498.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-5020599575854528498"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment20\\scene0\\-8982157194343718039.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-8982157194343718039"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment20\\scene0\\182548582006223749.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "182548582006223749"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment20\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment20\\scene0\\97fbfdd4dfe5010b5daa588476b0ed04.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "97fbfdd4dfe5010b5daa588476b0ed04"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment20\\scene0\\2190874010901048279.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "2190874010901048279"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment20\\scene0\\-8982157194343718039.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-8982157194343718039"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "event": "click(state=86ad15cba4ecd2166c92cbbf7eddfa20, view=553e56e4257e3426ca1ee81e58bd7ec2(SplashActivity/Button-Create:x432:y2013))"
+            },
+            {
+                "from": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "to": "-5020599575854528498",
+                "event": "click<button id=0 alt=\"Record video\">  </button>"
+            },
+            {
+                "from": "-5020599575854528498",
+                "to": "-8982157194343718039",
+                "event": "click<button id=8 alt=\"Filters\">  </button>"
+            },
+            {
+                "from": "-8982157194343718039",
+                "to": "182548582006223749",
+                "event": "click<button id=0 alt=\"Portrait\">  </button>"
+            },
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "event": "click(state=86ad15cba4ecd2166c92cbbf7eddfa20, view=553e56e4257e3426ca1ee81e58bd7ec2(SplashActivity/Button-Create:x432:y2013))"
+            },
+            {
+                "from": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "to": "2190874010901048279",
+                "event": "click<button id=0 alt=\"Record video\">  </button>"
+            },
+            {
+                "from": "2190874010901048279",
+                "to": "-8982157194343718039",
+                "event": "click<button id=8 alt=\"Filters\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "round": 1,
+        "comment": "This latest update messed up the videos. Half of them are scrunched to one side and you can't see part of it. The other ones don't show any options on the screen sometimes.",
+        "scenarios": [
+            "Videos are scrunched to one side, and users can't see part of the video.",
+            "Videos don't show any options on the screen sometimes."
+        ],
+        "key sentence": "Videos don't show any options on the screen sometimes.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "86ad15cba4ecd2166c92cbbf7eddfa20",
+        "the sub-task list of state": "[{'name': 'Follow', 'description': 'Follow a user profile'}, {'name': 'Like', 'description': 'Like a video'}, {'name': 'Share', 'description': 'Share a video'}, {'name': 'Add to Favorites', 'description': 'Add or remove a video from Favorites'}, {'name': 'Comments', 'description': 'Read or add comments on a video'}, {'name': 'Play Video', 'description': 'Play a video'}, {'name': 'Sound', 'description': 'Listen to the sound of a video'}, {'name': 'Friends', 'description': 'Change to friends page'}, {'name': 'Inbox', 'description': 'Change to inbox page'}, {'name': 'Profile', 'description': 'Change to profile page'}, {'name': 'For you', 'description': 'Watch vedio for you'}, {'name': 'HomePage', 'description': 'In homepage, you can scroll to watch vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment8\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment8\\scene1\\-831150035948816436.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-831150035948816436"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment8\\scene1\\7165168653534031785.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "7165168653534031785"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment8\\scene1\\-831150035948816436.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-831150035948816436"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment8\\scene1\\5312798373493926674.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "5312798373493926674"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "-831150035948816436",
+                "event": "click<button id=15 alt=\"Video\">  </button>"
+            },
+            {
+                "from": "-831150035948816436",
+                "to": "7165168653534031785",
+                "event": "click<button id=10 alt=\"Share video. 93 shares\">  </button>"
+            },
+            {
+                "from": "7165168653534031785",
+                "to": -831150035948816436,
+                "event": "back"
+            },
+            {
+                "from": -831150035948816436,
+                "to": "5312798373493926674",
+                "event": "click<button id=15 alt=\"Video\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

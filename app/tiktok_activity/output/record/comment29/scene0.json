@@ -1,0 +1,81 @@
+[
+    {
+        "round": 1,
+        "comment": "This app is okay and all, but an bug i recently encountered is that whenever i press and hold the screen to bring up the menu to add the video to favorites and others doesn't appear. Once that happens I can't exit out of it, neither does switching to \"following\" or \"for you\" fixes the issue I have to close the app and open it back up. I'm not sure if anyone else encountered this issue but please fix it in the next update.",
+        "scenarios": [
+            "Press and hold the screen to bring up the menu to add the video to favorites, but the menu does not appear. Once this happens, the user cannot exit out of it."
+        ],
+        "key sentence": "Press and hold the screen to bring up the menu to add the video to favorites, but the menu does not appear. Once this happens, the user cannot exit out of it.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "86ad15cba4ecd2166c92cbbf7eddfa20",
+        "the sub-task list of state": "[{'name': 'Follow', 'description': 'Follow a user profile'}, {'name': 'Like', 'description': 'Like a video'}, {'name': 'Share', 'description': 'Share a video'}, {'name': 'Add to Favorites', 'description': 'Add or remove a video from Favorites'}, {'name': 'Comments', 'description': 'Read or add comments on a video'}, {'name': 'Play Video', 'description': 'Play a video'}, {'name': 'Sound', 'description': 'Listen to the sound of a video'}, {'name': 'Friends', 'description': 'Change to friends page'}, {'name': 'Inbox', 'description': 'Change to inbox page'}, {'name': 'Profile', 'description': 'Change to profile page'}, {'name': 'For you', 'description': 'Watch vedio for you'}, {'name': 'HomePage', 'description': 'In homepage, you can scroll to watch vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment29\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment29\\scene0\\7413323948267967123.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "7413323948267967123"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "7413323948267967123",
+                "event": "long-click"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "This app is okay and all, but an bug i recently encountered is that whenever i press and hold the screen to bring up the menu to add the video to favorites and others doesn't appear. Once that happens I can't exit out of it, neither does switching to \"following\" or \"for you\" fixes the issue I have to close the app and open it back up. I'm not sure if anyone else encountered this issue but please fix it in the next update.",
+        "scenarios": [
+            "Press and hold the screen to bring up the menu to add the video to favorites, but the menu does not appear. Once this happens, the user cannot exit out of it."
+        ],
+        "key sentence": "Press and hold the screen to bring up the menu to add the video to favorites, but the menu does not appear. Once this happens, the user cannot exit out of it.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "86ad15cba4ecd2166c92cbbf7eddfa20",
+        "the sub-task list of state": "[{'name': 'Follow', 'description': 'Follow a user profile'}, {'name': 'Like', 'description': 'Like a video'}, {'name': 'Share', 'description': 'Share a video'}, {'name': 'Add to Favorites', 'description': 'Add or remove a video from Favorites'}, {'name': 'Comments', 'description': 'Read or add comments on a video'}, {'name': 'Play Video', 'description': 'Play a video'}, {'name': 'Sound', 'description': 'Listen to the sound of a video'}, {'name': 'Friends', 'description': 'Change to friends page'}, {'name': 'Inbox', 'description': 'Change to inbox page'}, {'name': 'Profile', 'description': 'Change to profile page'}, {'name': 'For you', 'description': 'Watch vedio for you'}, {'name': 'HomePage', 'description': 'In homepage, you can scroll to watch vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment29\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment29\\scene0\\7413323948267967123.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "7413323948267967123"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment29\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment29\\scene0\\-1885870482901987814.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1885870482901987814"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "7413323948267967123",
+                "event": "long-click"
+            },
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "-1885870482901987814",
+                "event": "long-click"
+            }
+        ],
+        "Final answer": 1
+    }
+]

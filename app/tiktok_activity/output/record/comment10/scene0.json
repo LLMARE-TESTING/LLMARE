@@ -1,0 +1,76 @@
+[
+    {
+        "round": 1,
+        "comment": "Extra movement with the new update when swapping from videos to settings or friends DMs is absolutely irritating to look at. It's unnecessary to have extreme movement when opening someone's DM, or opening an video from the DM, or closing out of settings/DMs. Remove this feature or at least make it an option to disable this extra movement in accessibility.",
+        "scenarios": [
+            "Swapping from videos to settings or friends DMs involves unnecessary extreme movement.",
+            "Opening someone's DM or a video from the DM involves unnecessary extreme movement.",
+            "Closing out of settings or DMs involves unnecessary extreme movement."
+        ],
+        "key sentence": "Swapping from videos to settings or friends DMs involves unnecessary extreme movement.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "86ad15cba4ecd2166c92cbbf7eddfa20",
+        "the sub-task list of state": "[{'name': 'Follow', 'description': 'Follow a user profile'}, {'name': 'Like', 'description': 'Like a video'}, {'name': 'Share', 'description': 'Share a video'}, {'name': 'Add to Favorites', 'description': 'Add or remove a video from Favorites'}, {'name': 'Comments', 'description': 'Read or add comments on a video'}, {'name': 'Play Video', 'description': 'Play a video'}, {'name': 'Sound', 'description': 'Listen to the sound of a video'}, {'name': 'Friends', 'description': 'Change to friends page'}, {'name': 'Inbox', 'description': 'Change to inbox page'}, {'name': 'Profile', 'description': 'Change to profile page'}, {'name': 'For you', 'description': 'Watch vedio for you'}, {'name': 'HomePage', 'description': 'In homepage, you can scroll to watch vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment10\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment10\\scene0\\5724728447633528663.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "5724728447633528663"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment10\\scene0\\4543641458120065102.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "4543641458120065102"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment10\\scene0\\8717651312246805547.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "8717651312246805547"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment10\\scene0\\1580200365795661983.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "1580200365795661983"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment10\\scene0\\1580200365795661983.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "1580200365795661983"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "5724728447633528663",
+                "event": "click<button id=30 alt=\"Inbox\">  </button>"
+            },
+            {
+                "from": "5724728447633528663",
+                "to": "4543641458120065102",
+                "event": "click<button id=7 alt=\"Lillian Caballero\">  </button>"
+            },
+            {
+                "from": "4543641458120065102",
+                "to": "8717651312246805547",
+                "event": "click<img id=11 alt=\"Close\">  </img>"
+            },
+            {
+                "from": "8717651312246805547",
+                "to": "1580200365795661983",
+                "event": "click<img id=0 alt=\"Back\">  </img>"
+            },
+            {
+                "from": "1580200365795661983",
+                "to": "1580200365795661983",
+                "event": "click<button id=41 alt=\"Inbox\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

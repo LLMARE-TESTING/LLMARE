@@ -1,0 +1,145 @@
+[
+    {
+        "round": 1,
+        "comment": "Created an account a few days ago, and haven't been able to use the app whatsoever. App crashes constantly, freezes when trying to scroll. I cannot follow, like, or comment on videos at all. Every account I follow immediately unfollows after refreshing the page, and all my likes immediately unlike once I scroll. What's the point of joining if you won't let me use the app whatsoever?",
+        "scenarios": [
+            "Cannot follow, like, or comment on videos at all.",
+            "Every account I follow immediately unfollows after refreshing the page.",
+            "All my likes immediately unlike once I scroll."
+        ],
+        "key sentence": "Cannot follow, like, or comment on videos at all.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "86ad15cba4ecd2166c92cbbf7eddfa20",
+        "the sub-task list of state": "[{'name': 'Follow', 'description': 'Follow a user profile'}, {'name': 'Like', 'description': 'Like a video'}, {'name': 'Share', 'description': 'Share a video'}, {'name': 'Add to Favorites', 'description': 'Add or remove a video from Favorites'}, {'name': 'Comments', 'description': 'Read or add comments on a video'}, {'name': 'Play Video', 'description': 'Play a video'}, {'name': 'Sound', 'description': 'Listen to the sound of a video'}, {'name': 'Friends', 'description': 'Change to friends page'}, {'name': 'Inbox', 'description': 'Change to inbox page'}, {'name': 'Profile', 'description': 'Change to profile page'}, {'name': 'For you', 'description': 'Watch vedio for you'}, {'name': 'HomePage', 'description': 'In homepage, you can scroll to watch vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment303\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment303\\scene0\\8938792421368143801.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8938792421368143801"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment303\\scene0\\-4284586839165591923.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4284586839165591923"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment303\\scene0\\-2563533711717272370.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-2563533711717272370"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "8938792421368143801",
+                "event": "click<button id=1 alt=\"Follow NuiPass\">  </button>"
+            },
+            {
+                "from": "8938792421368143801",
+                "to": "-4284586839165591923",
+                "event": "click<img id=2 alt=\"Like\">  </img>"
+            },
+            {
+                "from": "-4284586839165591923",
+                "to": "-2563533711717272370",
+                "event": "click<button id=4 alt=\"Read or add comments. 1,024 comments\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Created an account a few days ago, and haven't been able to use the app whatsoever. App crashes constantly, freezes when trying to scroll. I cannot follow, like, or comment on videos at all. Every account I follow immediately unfollows after refreshing the page, and all my likes immediately unlike once I scroll. What's the point of joining if you won't let me use the app whatsoever?",
+        "scenarios": [
+            "Cannot follow, like, or comment on videos at all.",
+            "Every account I follow immediately unfollows after refreshing the page.",
+            "All my likes immediately unlike once I scroll."
+        ],
+        "key sentence": "Cannot follow, like, or comment on videos at all.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "86ad15cba4ecd2166c92cbbf7eddfa20",
+        "the sub-task list of state": "[{'name': 'Follow', 'description': 'Follow a user profile'}, {'name': 'Like', 'description': 'Like a video'}, {'name': 'Share', 'description': 'Share a video'}, {'name': 'Add to Favorites', 'description': 'Add or remove a video from Favorites'}, {'name': 'Comments', 'description': 'Read or add comments on a video'}, {'name': 'Play Video', 'description': 'Play a video'}, {'name': 'Sound', 'description': 'Listen to the sound of a video'}, {'name': 'Friends', 'description': 'Change to friends page'}, {'name': 'Inbox', 'description': 'Change to inbox page'}, {'name': 'Profile', 'description': 'Change to profile page'}, {'name': 'For you', 'description': 'Watch vedio for you'}, {'name': 'HomePage', 'description': 'In homepage, you can scroll to watch vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment303\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment303\\scene0\\8938792421368143801.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8938792421368143801"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment303\\scene0\\-4284586839165591923.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4284586839165591923"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment303\\scene0\\-2563533711717272370.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-2563533711717272370"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment303\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment303\\scene0\\8777414926400878349.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8777414926400878349"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment303\\scene0\\3975412271800758976.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "3975412271800758976"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment303\\scene0\\1391176495035335403.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "1391176495035335403"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "8938792421368143801",
+                "event": "click<button id=1 alt=\"Follow NuiPass\">  </button>"
+            },
+            {
+                "from": "8938792421368143801",
+                "to": "-4284586839165591923",
+                "event": "click<img id=2 alt=\"Like\">  </img>"
+            },
+            {
+                "from": "-4284586839165591923",
+                "to": "-2563533711717272370",
+                "event": "click<button id=4 alt=\"Read or add comments. 1,024 comments\">  </button>"
+            },
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "8777414926400878349",
+                "event": "click<button id=1 alt=\"Follow MeowMeow\">  </button>"
+            },
+            {
+                "from": "8777414926400878349",
+                "to": "3975412271800758976",
+                "event": "click<img id=2 alt=\"Like\">  </img>"
+            },
+            {
+                "from": "3975412271800758976",
+                "to": "1391176495035335403",
+                "event": "click<button id=4 alt=\"Read or add comments. 6,636 comments\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

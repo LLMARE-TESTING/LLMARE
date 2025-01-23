@@ -1,0 +1,36 @@
+[
+    {
+        "round": 1,
+        "comment": "Extra movement with the new update when swapping from videos to settings or friends DMs is absolutely irritating to look at. It's unnecessary to have extreme movement when opening someone's DM, or opening an video from the DM, or closing out of settings/DMs. Remove this feature or at least make it an option to disable this extra movement in accessibility.",
+        "scenarios": [
+            "Swapping from videos to settings or friends DMs involves unnecessary extreme movement.",
+            "Opening someone's DM or a video from the DM involves unnecessary extreme movement.",
+            "Closing out of settings or DMs involves unnecessary extreme movement."
+        ],
+        "key sentence": "Opening someone's DM or a video from the DM involves unnecessary extreme movement.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "86ad15cba4ecd2166c92cbbf7eddfa20",
+        "the sub-task list of state": "[{'name': 'Follow', 'description': 'Follow a user profile'}, {'name': 'Like', 'description': 'Like a video'}, {'name': 'Share', 'description': 'Share a video'}, {'name': 'Add to Favorites', 'description': 'Add or remove a video from Favorites'}, {'name': 'Comments', 'description': 'Read or add comments on a video'}, {'name': 'Play Video', 'description': 'Play a video'}, {'name': 'Sound', 'description': 'Listen to the sound of a video'}, {'name': 'Friends', 'description': 'Change to friends page'}, {'name': 'Inbox', 'description': 'Change to inbox page'}, {'name': 'Profile', 'description': 'Change to profile page'}, {'name': 'For you', 'description': 'Watch vedio for you'}, {'name': 'HomePage', 'description': 'In homepage, you can scroll to watch vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment10\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment10\\scene1\\-2641553895288933591.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-2641553895288933591"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "-2641553895288933591",
+                "event": "click<button id=21 alt=\"Inbox\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]
