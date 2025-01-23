@@ -2,7 +2,7 @@
 
 ## About
 
-This repository contains the code for the system for the paper: 
+This repository contains the code for the system for the paper: Reproducing UI Contexts Described in App Reviews with LLM
 
 LLMARE is a LLM-based system for reproducing user-described scenarios in app reviews. It can automatically reproduce the scenarios described in user reviews, and save screenshots of the reproduction process along with records of the executed actions and other related information.
 
@@ -53,7 +53,7 @@ Organization of the Dataset:
 ```
 
 - LLMARE: Project Directory
-- app: Save the test application data.
+- app: Save the test application data. Since the app directory is large and has not been fully uploaded to the warehouse, you can download it through the link(https://drive.google.com/file/d/1qUwEZChYkL5Rs06TUFvkyH3CNCCeaVKb/view?usp=drive_link).
   - activity: Classify the application's **state files(xml or json)** according to the activity to which the application state belongs.
   - comments.xlsx: Save user comments for testing.
   - activity_function.json: A functional summary of the activity based on a list of its subtasks.
