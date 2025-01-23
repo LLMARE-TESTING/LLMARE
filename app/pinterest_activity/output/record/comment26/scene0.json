@@ -1,0 +1,106 @@
+[
+    {
+        "comment": "For the most part, Pinterest is fun and easy to use. However, with the recent update, the app has become annoying. I used to be able to hear audio on every video without any problems, but now most videos have a \"no audio in location available,\" and sometimes pins i have not added show up in my boards. i have heard these complaints from several others, and it can be quite frustrating.",
+        "key sentence": "Hear audio on every video, but now most videos have a \"no audio in location available.\"",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [],
+        "operations": [],
+        "Final answer": ""
+    },
+    {
+        "round": 2,
+        "comment": "For the most part, Pinterest is fun and easy to use. However, with the recent update, the app has become annoying. I used to be able to hear audio on every video without any problems, but now most videos have a \"no audio in location available,\" and sometimes pins i have not added show up in my boards. i have heard these complaints from several others, and it can be quite frustrating.",
+        "scenarios": [
+            "Hear audio on every video, but now most videos have a \"no audio in location available.\"",
+            "Pins not added by the user show up in their boards."
+        ],
+        "key sentence": "Hear audio on every video, but now most videos have a \"no audio in location available.\"",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state10",
+        "the sub-task list of state": "[{'name': 'View All Pins', 'description': 'View all pinned items or content.'}, {'name': 'View Videos', 'description': 'View video content.'}, {'name': 'View Boards', 'description': 'View boards or collections of related content.'}, {'name': 'View Profiles', 'description': 'View user profiles or accounts.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment26\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment26\\scene0\\b8991ad97a321f20ff2b35786bf7e9d3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "b8991ad97a321f20ff2b35786bf7e9d3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment26\\scene0\\state4.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment26\\scene0\\state9.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment26\\scene0\\state10.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment26\\scene0\\8598319571553688685.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8598319571553688685"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment26\\scene0\\3851974613212068880.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3851974613212068880"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment26\\scene0\\6083409577309519707.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "6083409577309519707"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=6d91963abcf8f775a2f7cae13358b6ae(MainActivity/FrameLayout-Search, Ta:x276:y2016))"
+            },
+            {
+                "from": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "to": "state4",
+                "event": "click(TextView-Nail inspo:[41,429][510,641])"
+            },
+            {
+                "from": "state4",
+                "to": "state9",
+                "event": "click(Button-com.pinterest:id/one_bar_module_filter_button_id:[22,270][132,391])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(TextView-Videos:[66,1497][948,1571])"
+            },
+            {
+                "from": "state10",
+                "to": "8598319571553688685",
+                "event": "click<button id=18 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Video pin from &#120029;&#120050;&#120066;&#120042;&#120055; \u263d&#78834;\u2738:, Title: &#128571;&#128571;&#128571;&#128573;\">  </button>"
+            },
+            {
+                "from": "8598319571553688685",
+                "to": "3851974613212068880",
+                "event": "click<div id=17 class =\"com.pinterest:id/simple_exoplayer_view\">  </div>"
+            },
+            {
+                "from": "3851974613212068880",
+                "to": 6083409577309519707,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    }
+]

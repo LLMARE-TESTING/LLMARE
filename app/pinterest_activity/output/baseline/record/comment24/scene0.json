@@ -1,0 +1,125 @@
+[
+    {
+        "round": 1,
+        "comment": "A great app deeply diminished by poor UI. The tap and hold options should be below the tap to stop accidental selection. A user presses and drags up to scroll down. This function overlaps the tap hold and drag up to select. The number of times I have accidentally added something to my google favourites instead of scrolling is too high. Maximum frustration. Minor fix would make it 999 times better to use.",
+        "scenarios": [
+            "A user presses and drags up to scroll down, but this action overlaps with the tap, hold, and drag up to select, leading to accidental selection.\n",
+            "When trying to scroll, the user accidentally adds items to Google favorites due to overlapping gestural actions."
+        ],
+        "key sentence": "A user presses and drags up to scroll down, but this action overlaps with the tap, hold, and drag up to select, leading to accidental selection.\n",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment24\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment24\\scene0\\-7617561413399715214.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7617561413399715214"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment24\\scene0\\5902796069007742096.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5902796069007742096"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment24\\scene0\\7553682828058354549.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7553682828058354549"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment24\\scene0\\-7686996122787386728.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7686996122787386728"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment24\\scene0\\6394517345822270134.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "6394517345822270134"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment24\\scene0\\-7348940585256341193.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7348940585256341193"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment24\\scene0\\-2070555477974832052.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2070555477974832052"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment24\\scene0\\-7348940585256341193.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7348940585256341193"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment24\\scene0\\-7276213334993250099.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7276213334993250099"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment24\\scene0\\1843253084926908495.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1843253084926908495"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-7617561413399715214",
+                "event": "scroll up"
+            },
+            {
+                "from": "-7617561413399715214",
+                "to": "5902796069007742096",
+                "event": "scroll down"
+            },
+            {
+                "from": "5902796069007742096",
+                "to": "7553682828058354549",
+                "event": "scroll down"
+            },
+            {
+                "from": "7553682828058354549",
+                "to": "-7686996122787386728",
+                "event": "scroll down"
+            },
+            {
+                "from": "-7686996122787386728",
+                "to": "6394517345822270134",
+                "event": "scroll down"
+            },
+            {
+                "from": "6394517345822270134",
+                "to": "-7348940585256341193",
+                "event": "scroll down"
+            },
+            {
+                "from": "-7348940585256341193",
+                "to": "-2070555477974832052",
+                "event": "scroll up"
+            },
+            {
+                "from": "-2070555477974832052",
+                "to": "-7348940585256341193",
+                "event": "scroll down"
+            },
+            {
+                "from": "-7348940585256341193",
+                "to": "-7276213334993250099",
+                "event": "scroll down"
+            },
+            {
+                "from": "-7276213334993250099",
+                "to": "1843253084926908495",
+                "event": "scroll down"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,143 @@
+[
+    {
+        "round": 1,
+        "comment": "I love this app soo much, I always check it in the day twice or thrice but nowadays whenever I open the app and see a nice pin I save it in my board and it's doesn't get saved. It shows 'Save failed' and whenever i download a pin that same thing happens so if I uninstall it would be not good so rather you guys fix it please ASAP!!!!",
+        "scenarios": [
+            "The user opens the app, sees a pin, tries to save it to their board, but it shows 'Save failed'.  ",
+            "The user tries to download a pin, but it also shows 'Save failed'."
+        ],
+        "key sentence": "The user tries to download a pin, but it also shows 'Save failed'.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Copy Pin Link', 'description': 'Copy the link to a pin'}, {'name': 'Download Pin Image', 'description': 'Download the image of a pin'}, {'name': 'Hide Pin', 'description': 'Hide a pin from view'}, {'name': 'Report Pin', 'description': 'Report a pin for violating community guidelines'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment0\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment0\\scene1\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment0\\scene1\\state8.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment0\\scene1\\-7383485259641906961.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7383485259641906961"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state8",
+                "event": "click(Button-More options:[937,105][1058,226])"
+            },
+            {
+                "from": "state8",
+                "to": "-7383485259641906961",
+                "event": "click<p id=28 class =\"com.pinterest:id/option_title\"> Download image,  </p>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "I love this app soo much, I always check it in the day twice or thrice but nowadays whenever I open the app and see a nice pin I save it in my board and it's doesn't get saved. It shows 'Save failed' and whenever i download a pin that same thing happens so if I uninstall it would be not good so rather you guys fix it please ASAP!!!!",
+        "scenarios": [
+            "The user opens the app, sees a pin, tries to save it to their board, but it shows 'Save failed'.  ",
+            "The user tries to download a pin, but it also shows 'Save failed'."
+        ],
+        "key sentence": "The user tries to download a pin, but it also shows 'Save failed'.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Copy Pin Link', 'description': 'Copy the link to a pin'}, {'name': 'Download Pin Image', 'description': 'Download the image of a pin'}, {'name': 'Hide Pin', 'description': 'Hide a pin from view'}, {'name': 'Report Pin', 'description': 'Report a pin for violating community guidelines'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment0\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment0\\scene1\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment0\\scene1\\state8.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment0\\scene1\\-7383485259641906961.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7383485259641906961"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment0\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment0\\scene1\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment0\\scene1\\state8.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment0\\scene1\\-5109592210474214619.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-5109592210474214619"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state8",
+                "event": "click(Button-More options:[937,105][1058,226])"
+            },
+            {
+                "from": "state8",
+                "to": "-7383485259641906961",
+                "event": "click<p id=28 class =\"com.pinterest:id/option_title\"> Download image,  </p>"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state8",
+                "event": "click(Button-More options:[937,105][1058,226])"
+            },
+            {
+                "from": "state8",
+                "to": "-5109592210474214619",
+                "event": "click<p id=26 class =\"com.pinterest:id/cell_title\"> Download image,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

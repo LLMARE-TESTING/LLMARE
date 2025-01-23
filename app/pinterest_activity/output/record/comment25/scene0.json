@@ -1,0 +1,441 @@
+[
+    {
+        "round": 1,
+        "comment": "One thing I don't like is that when u scroll down on a pin for \"more like it\" it doesn't let u swipe through those pins. That makes it hard for me to read them. I would give five stars if this changed back to where u could swipe through them at all times.",
+        "scenarios": [
+            "Scroll down on a pin to view \"more like it\" suggestions, and find that it doesn't let the user swipe through those pins, making it hard to read them."
+        ],
+        "key sentence": "Scroll down on a pin to view \"more like it\" suggestions, and find that it doesn't let the user swipe through those pins, making it hard to read them.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state11",
+        "the sub-task list of state": "[{'name': 'Filter', 'description': 'Apply filters to refine search results'}, {'name': 'View Video', 'description': 'View a video by clicking it.'}, {'name': 'Scroll through Vidoes', 'description': 'Scroll through videos.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\b8991ad97a321f20ff2b35786bf7e9d3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "b8991ad97a321f20ff2b35786bf7e9d3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\state4.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\state9.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\state10.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\state11.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\4374760581794177173.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4374760581794177173"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\-2121570448355618054.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2121570448355618054"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\-5351084396333409161.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-5351084396333409161"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\-6995605887691807618.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6995605887691807618"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\-7166294673762581772.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7166294673762581772"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\7970421195461354343.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7970421195461354343"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\7805455394099095103.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7805455394099095103"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\5868709021101064601.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5868709021101064601"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=6d91963abcf8f775a2f7cae13358b6ae(MainActivity/FrameLayout-Search, Ta:x276:y2016))"
+            },
+            {
+                "from": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "to": "state4",
+                "event": "click(TextView-Nail inspo:[41,429][510,641])"
+            },
+            {
+                "from": "state4",
+                "to": "state9",
+                "event": "click(Button-com.pinterest:id/one_bar_module_filter_button_id:[22,270][132,391])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(TextView-Videos:[66,1497][948,1571])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(Button-View results:[364,1961][716,2126])"
+            },
+            {
+                "from": "state11",
+                "to": "4374760581794177173",
+                "event": "scroll down"
+            },
+            {
+                "from": "4374760581794177173",
+                "to": "-2121570448355618054",
+                "event": "scroll down"
+            },
+            {
+                "from": "-2121570448355618054",
+                "to": "-5351084396333409161",
+                "event": "click<button id=16 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Video pin from Androf | Best DIY &amp; Ideas | Unique Drawing | Amazing Art:, Title: How to make small wallet paper &#128525;\">  </button>"
+            },
+            {
+                "from": "-5351084396333409161",
+                "to": "-6995605887691807618",
+                "event": "scroll down"
+            },
+            {
+                "from": "-6995605887691807618",
+                "to": "-7166294673762581772",
+                "event": "scroll down"
+            },
+            {
+                "from": "-7166294673762581772",
+                "to": "7970421195461354343",
+                "event": "scroll down"
+            },
+            {
+                "from": "7970421195461354343",
+                "to": "7805455394099095103",
+                "event": "scroll down"
+            },
+            {
+                "from": "7805455394099095103",
+                "to": "5868709021101064601",
+                "event": "scroll down"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "One thing I don't like is that when u scroll down on a pin for \"more like it\" it doesn't let u swipe through those pins. That makes it hard for me to read them. I would give five stars if this changed back to where u could swipe through them at all times.",
+        "scenarios": [
+            "Scroll down on a pin to view \"more like it\" suggestions, and find that it doesn't let the user swipe through those pins, making it hard to read them."
+        ],
+        "key sentence": "Scroll down on a pin to view \"more like it\" suggestions, and find that it doesn't let the user swipe through those pins, making it hard to read them.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state11",
+        "the sub-task list of state": "[{'name': 'Filter', 'description': 'Apply filters to refine search results'}, {'name': 'View Video', 'description': 'View a video by clicking it.'}, {'name': 'Scroll through Vidoes', 'description': 'Scroll through videos.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\b8991ad97a321f20ff2b35786bf7e9d3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "b8991ad97a321f20ff2b35786bf7e9d3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\state4.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\state9.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\state10.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\state11.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\4374760581794177173.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4374760581794177173"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\-2121570448355618054.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2121570448355618054"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\-5351084396333409161.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-5351084396333409161"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\-6995605887691807618.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6995605887691807618"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\-7166294673762581772.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7166294673762581772"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\7970421195461354343.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7970421195461354343"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\7805455394099095103.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7805455394099095103"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\5868709021101064601.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5868709021101064601"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\b8991ad97a321f20ff2b35786bf7e9d3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "b8991ad97a321f20ff2b35786bf7e9d3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\state4.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\state9.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\state10.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\state11.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\-3262776859049624787.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3262776859049624787"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\-5119103734306643528.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-5119103734306643528"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\-2040821641486010328.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2040821641486010328"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\2697963117545274616.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "2697963117545274616"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\4611471558011788194.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4611471558011788194"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\-413782969686557498.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-413782969686557498"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\-1689254300151271750.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1689254300151271750"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\-4751014025398036758.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4751014025398036758"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=6d91963abcf8f775a2f7cae13358b6ae(MainActivity/FrameLayout-Search, Ta:x276:y2016))"
+            },
+            {
+                "from": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "to": "state4",
+                "event": "click(TextView-Nail inspo:[41,429][510,641])"
+            },
+            {
+                "from": "state4",
+                "to": "state9",
+                "event": "click(Button-com.pinterest:id/one_bar_module_filter_button_id:[22,270][132,391])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(TextView-Videos:[66,1497][948,1571])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(Button-View results:[364,1961][716,2126])"
+            },
+            {
+                "from": "state11",
+                "to": "4374760581794177173",
+                "event": "scroll down"
+            },
+            {
+                "from": "4374760581794177173",
+                "to": "-2121570448355618054",
+                "event": "scroll down"
+            },
+            {
+                "from": "-2121570448355618054",
+                "to": "-5351084396333409161",
+                "event": "click<button id=16 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Video pin from Androf | Best DIY &amp; Ideas | Unique Drawing | Amazing Art:, Title: How to make small wallet paper &#128525;\">  </button>"
+            },
+            {
+                "from": "-5351084396333409161",
+                "to": "-6995605887691807618",
+                "event": "scroll down"
+            },
+            {
+                "from": "-6995605887691807618",
+                "to": "-7166294673762581772",
+                "event": "scroll down"
+            },
+            {
+                "from": "-7166294673762581772",
+                "to": "7970421195461354343",
+                "event": "scroll down"
+            },
+            {
+                "from": "7970421195461354343",
+                "to": "7805455394099095103",
+                "event": "scroll down"
+            },
+            {
+                "from": "7805455394099095103",
+                "to": "5868709021101064601",
+                "event": "scroll down"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=6d91963abcf8f775a2f7cae13358b6ae(MainActivity/FrameLayout-Search, Ta:x276:y2016))"
+            },
+            {
+                "from": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "to": "state4",
+                "event": "click(TextView-Nail inspo:[41,429][510,641])"
+            },
+            {
+                "from": "state4",
+                "to": "state9",
+                "event": "click(Button-com.pinterest:id/one_bar_module_filter_button_id:[22,270][132,391])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(TextView-Videos:[66,1497][948,1571])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(Button-View results:[364,1961][716,2126])"
+            },
+            {
+                "from": "state11",
+                "to": "-3262776859049624787",
+                "event": "click<button id=19 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Video pin from Pet Holic | Dogs and Cats | Pet lover's space:, Title: munchkin kitten\">  </button>"
+            },
+            {
+                "from": "-3262776859049624787",
+                "to": "-5119103734306643528",
+                "event": "scroll down"
+            },
+            {
+                "from": "-5119103734306643528",
+                "to": "-2040821641486010328",
+                "event": "scroll down"
+            },
+            {
+                "from": "-2040821641486010328",
+                "to": "2697963117545274616",
+                "event": "scroll down"
+            },
+            {
+                "from": "2697963117545274616",
+                "to": "4611471558011788194",
+                "event": "scroll down"
+            },
+            {
+                "from": "4611471558011788194",
+                "to": "-413782969686557498",
+                "event": "scroll down"
+            },
+            {
+                "from": "-413782969686557498",
+                "to": "-1689254300151271750",
+                "event": "scroll down"
+            },
+            {
+                "from": "-1689254300151271750",
+                "to": "-4751014025398036758",
+                "event": "scroll down"
+            }
+        ],
+        "Final answer": 1
+    }
+]

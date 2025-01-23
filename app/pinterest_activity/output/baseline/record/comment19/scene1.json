@@ -1,0 +1,125 @@
+[
+    {
+        "round": 1,
+        "comment": "love the app, but there are some things that are annoying. When you go back onto the homepage not too long after, your feed resets automatically, not being able to find the pins before it restarted, nothing. It's annoying because it automatically decides to refresh my page without me doing so and not being able to browse the pins I'd like. Pinterest also sent me several emails saying they've removed pins from my board and ones I've created, and doesn't show which pins or lets me send an appeal.",
+        "scenarios": [
+            "When the user goes back onto the homepage not too long after, the feed resets automatically, making it impossible to find the pins that were visible before it restarted.",
+            "Pinterest sends the user several emails stating that pins have been removed from their board and ones they've created, but does not show which pins were removed or allow the user to send an appeal."
+        ],
+        "key sentence": "Pinterest sends the user several emails stating that pins have been removed from their board and ones they've created, but does not show which pins were removed or allow the user to send an appeal.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\scene1\\-7688156459543322617.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7688156459543322617"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\scene1\\-7688156459543322617.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7688156459543322617"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\scene1\\-7401223545417565484.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7401223545417565484"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\scene1\\8129882380079163120.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8129882380079163120"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\scene1\\-8280586183366862564.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8280586183366862564"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\scene1\\-8280586183366862564.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8280586183366862564"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\scene1\\7020874964210135503.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7020874964210135503"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\scene1\\5802480769287995440.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5802480769287995440"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\scene1\\7020874964210135503.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7020874964210135503"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\scene1\\7020874964210135503.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7020874964210135503"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-7688156459543322617",
+                "event": "click<button id=25 class =\"com.pinterest:id/menu_notifications\" alt=\"Notifications, Tab\">  </button>"
+            },
+            {
+                "from": "-7688156459543322617",
+                "to": "-7688156459543322617",
+                "event": "click<div id=1 class =\"com.pinterest:id/notification_tabs_layout\">  </div>"
+            },
+            {
+                "from": "-7688156459543322617",
+                "to": "-7401223545417565484",
+                "event": "click<p id=5 class =\"com.pinterest:id/tab_text\"> Inbox,  </p>"
+            },
+            {
+                "from": "-7401223545417565484",
+                "to": "8129882380079163120",
+                "event": "click<div id=16 class =\"com.pinterest:id/conversation_container\" alt=\"Avatar: o3122032@gmail.com\">  </div>"
+            },
+            {
+                "from": "8129882380079163120",
+                "to": "-8280586183366862564",
+                "event": "click<button id=13 class =\"com.pinterest:id/settings_btn\">  </button>"
+            },
+            {
+                "from": "-8280586183366862564",
+                "to": "-8280586183366862564",
+                "event": "scroll down"
+            },
+            {
+                "from": "-8280586183366862564",
+                "to": "7020874964210135503",
+                "event": "click<p id=14 class =\"com.pinterest:id/conversation_settings_menu_item_title\"> Report this conversation,  </p>"
+            },
+            {
+                "from": "7020874964210135503",
+                "to": "5802480769287995440",
+                "event": "click<button id=3 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "5802480769287995440",
+                "to": 7020874964210135503,
+                "event": "back"
+            },
+            {
+                "from": 7020874964210135503,
+                "to": "7020874964210135503",
+                "event": "scroll down"
+            }
+        ],
+        "Final answer": 1
+    }
+]

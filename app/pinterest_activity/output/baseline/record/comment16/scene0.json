@@ -1,0 +1,126 @@
+[
+    {
+        "round": 1,
+        "comment": "Please make a filter so that one can choose which boards to see with their pins mixed together within the new \"pin\" section. Over the years I spent hours managing and ordering my boards on the (former) \"profile\" section to have a neat overview of several ajacent themed boards. I am disappointed by this new version, Pinterest loses a big part of its appeal to me.",
+        "scenarios": [
+            "Request to create a filter for selecting which boards to view with their pins mixed in the new \"pin\" section.  ",
+            "Mention of spending hours managing and ordering boards in the former \"profile\" section for a neat overview.  ",
+            "Expression of disappointment with the new version of Pinterest affecting the overall appeal of the app.  "
+        ],
+        "key sentence": "Request to create a filter for selecting which boards to view with their pins mixed in the new \"pin\" section.  ",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\1998183780545090309.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1998183780545090309"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\-4838547926456047808.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4838547926456047808"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\-5747865494131845479.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-5747865494131845479"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\-2497715249536586546.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2497715249536586546"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\-5747865494131845479.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-5747865494131845479"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\-8142833135967645947.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8142833135967645947"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\7482671385530225313.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7482671385530225313"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\4535426055802144014.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4535426055802144014"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\4535426055802144014.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4535426055802144014"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\1695192533903730063.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "1695192533903730063"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "1998183780545090309",
+                "event": "click<button id=28 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "1998183780545090309",
+                "to": "-4838547926456047808",
+                "event": "click<div id=5 class =\"com.pinterest:id/profile_pins_tab\" alt=\"Pins\">  </div>"
+            },
+            {
+                "from": "-4838547926456047808",
+                "to": "-5747865494131845479",
+                "event": "click<button id=16 class =\"com.pinterest:id/pins_filter_favorites\"> Favorites,  </button>"
+            },
+            {
+                "from": "-5747865494131845479",
+                "to": "-2497715249536586546",
+                "event": "click<button id=14 class =\"com.pinterest:id/icon_button\">  </button>"
+            },
+            {
+                "from": "-2497715249536586546",
+                "to": "-5747865494131845479",
+                "event": "click<button id=18 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "-5747865494131845479",
+                "to": -8142833135967645947,
+                "event": "back"
+            },
+            {
+                "from": -8142833135967645947,
+                "to": "7482671385530225313",
+                "event": "click<div id=14 class =\"com.pinterest:id/multi_tab_view\" alt=\"Ideas for your board Kittens cutest\">  </div>"
+            },
+            {
+                "from": "7482671385530225313",
+                "to": 4535426055802144014,
+                "event": "back"
+            },
+            {
+                "from": 4535426055802144014,
+                "to": "4535426055802144014",
+                "event": "click<div id=10 class =\"com.pinterest:id/multi_tab_homefeed_tab_id\" alt=\"All recommended Pins\">  </div>"
+            },
+            {
+                "from": "4535426055802144014",
+                "to": 1695192533903730063,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    }
+]

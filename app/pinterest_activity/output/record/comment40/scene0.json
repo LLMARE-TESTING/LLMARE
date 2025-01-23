@@ -1,0 +1,45 @@
+[
+    {
+        "round": 1,
+        "comment": "I love this app soo much, I always check it in the day twice or thrice but nowadays whenever I open the app and see a nice pin I save it in my board and it's doesn't get saved. It shows 'Save failed' and whenever i download a pin that same thing happens so if I uninstall it would be not good so rather you guys fix it please ASAP!!!!",
+        "scenarios": [
+            "User opens the app, tries to save a pin to a board, but gets a \"Save failed\" message, meaning the pin does not get saved.",
+            "User downloads a pin and encounters the same \"Save failed\" issue."
+        ],
+        "key sentence": "User opens the app, tries to save a pin to a board, but gets a \"Save failed\" message, meaning the pin does not get saved.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state5",
+        "the sub-task list of state": "[{'name': 'View Image', 'description': 'View a larger version of an image or pin on the screen.'}, {'name': 'Save Pin', 'description': 'Save a pin or item to a collection or board for later reference.'}, {'name': 'Share', 'description': 'Share content via various platforms or methods such as social media or messaging.'}, {'name': 'View Comments', 'description': 'Read and engage with comments associated with a pin or post.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene0\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene0\\2202498378921832600.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "2202498378921832600"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "2202498378921832600",
+                "event": "click<button id=12 class =\"com.pinterest:id/save_pinit_bt\"> Save,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

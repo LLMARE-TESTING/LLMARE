@@ -1,0 +1,223 @@
+[
+    {
+        "round": 1,
+        "comment": "idk what happened. I used to just keep scrolling for a while with endless pictures but now when scrolling the suggested images just end. also when I'm trying to look through all my boards alphabetically it'll just skip right back to where A starts. I can't even look at all my pins (like S or T) without it freaking out and scrolling back up to A. annoying.",
+        "scenarios": [
+            "Scroll through images but suggested images end abruptly.",
+            "Look through all boards alphabetically but it skips back to A, preventing viewing of pins in later sections like S or T."
+        ],
+        "key sentence": "Scroll through images but suggested images end abruptly.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state18",
+        "the sub-task list of state": "[{'name': 'Follow User', 'description': 'Subscribe to updates or content from a specific user or account.'}, {'name': 'Interact with Pins', 'description': 'Perform actions such as saving, copying link, hiding, or reporting pins.'}, {'name': 'Visit Site', 'description': 'Visit site of the vedio.'}, {'name': 'Copy Vedio Link', 'description': 'Copy the link of the vedio.'}, {'name': 'Hide Vedio Pin', 'description': 'Hide a vedio pin from view to see fewer pins like this.'}, {'name': 'Report Vedio Pin', 'description': 'Report the vedio pin.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\b8991ad97a321f20ff2b35786bf7e9d3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "b8991ad97a321f20ff2b35786bf7e9d3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\state4.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\state9.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\state10.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\state11.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\state17.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state17"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\state18.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state18"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\-8004078463552306232.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8004078463552306232"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=6d91963abcf8f775a2f7cae13358b6ae(MainActivity/FrameLayout-Search, Ta:x276:y2016))"
+            },
+            {
+                "from": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "to": "state4",
+                "event": "click(TextView-Nail inspo:[41,429][510,641])"
+            },
+            {
+                "from": "state4",
+                "to": "state9",
+                "event": "click(Button-com.pinterest:id/one_bar_module_filter_button_id:[22,270][132,391])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(TextView-Videos:[66,1497][948,1571])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(Button-View results:[364,1961][716,2126])"
+            },
+            {
+                "from": "state11",
+                "to": "state17",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[22,446][529,1422])"
+            },
+            {
+                "from": "state17",
+                "to": "state18",
+                "event": "click(Button-More options:[937,105][1058,226])"
+            },
+            {
+                "from": "state18",
+                "to": "-8004078463552306232",
+                "event": "scroll down"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "idk what happened. I used to just keep scrolling for a while with endless pictures but now when scrolling the suggested images just end. also when I'm trying to look through all my boards alphabetically it'll just skip right back to where A starts. I can't even look at all my pins (like S or T) without it freaking out and scrolling back up to A. annoying.",
+        "scenarios": [
+            "Scroll through images but suggested images end abruptly.",
+            "Look through all boards alphabetically but it skips back to A, preventing viewing of pins in later sections like S or T."
+        ],
+        "key sentence": "Scroll through images but suggested images end abruptly.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "ba5f165ac71b67896bd0c28f07857be5",
+        "the sub-task list of state": "[{'name': 'Create', 'description': 'Tab for creating something'}, {'name': 'Notifications', 'description': 'Tab for viewing notifications'}, {'name': 'Saved', 'description': 'Tab for viewing saved items'}, {'name': 'Avatar: Jane', 'description': 'Display the avatar for the user Jane'}, {'name': 'Access Search Page', 'description': 'Access the search page.'}, {'name': 'Browse content', 'description': 'Browse recommended pins.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\b8991ad97a321f20ff2b35786bf7e9d3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "b8991ad97a321f20ff2b35786bf7e9d3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\state4.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\state9.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\state10.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\state11.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\state17.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state17"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\state18.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state18"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\-8004078463552306232.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8004078463552306232"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\-4276372842591111664.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4276372842591111664"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=6d91963abcf8f775a2f7cae13358b6ae(MainActivity/FrameLayout-Search, Ta:x276:y2016))"
+            },
+            {
+                "from": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "to": "state4",
+                "event": "click(TextView-Nail inspo:[41,429][510,641])"
+            },
+            {
+                "from": "state4",
+                "to": "state9",
+                "event": "click(Button-com.pinterest:id/one_bar_module_filter_button_id:[22,270][132,391])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(TextView-Videos:[66,1497][948,1571])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(Button-View results:[364,1961][716,2126])"
+            },
+            {
+                "from": "state11",
+                "to": "state17",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[22,446][529,1422])"
+            },
+            {
+                "from": "state17",
+                "to": "state18",
+                "event": "click(Button-More options:[937,105][1058,226])"
+            },
+            {
+                "from": "state18",
+                "to": "-8004078463552306232",
+                "event": "scroll down"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-4276372842591111664",
+                "event": "scroll down"
+            }
+        ],
+        "Final answer": 1
+    }
+]

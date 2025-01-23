@@ -1,0 +1,126 @@
+[
+    {
+        "round": 1,
+        "comment": "I've used this app for years and the last few updates have tanked the ability to use the app. You can't even swipe easily, as the pin will stop part way through swiping before freezing, or not allow you to swipe at all. The only time you can be sure this won't happen is when trying to move through multi page ads. In addition with this last update it will randomly scroll to the bottom of the pin to expose the comments, which is annoying for long pins. This used to be fun, now it's barely running.",
+        "scenarios": [
+            "Attempting to swipe through pins, but experiencing issues where the pin stops partway through swiping or freezes, or the app does not allow swiping at all.",
+            "Trying to move through multi-page ads with swiping, which is the only scenario where swiping works reliably. ",
+            "Experiencing random scrolling to the bottom of a pin to expose the comments, particularly for long pins."
+        ],
+        "key sentence": "Trying to move through multi-page ads with swiping, which is the only scenario where swiping works reliably. ",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-7303602423216150863.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7303602423216150863"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-7303602423216150863.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7303602423216150863"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\scene1\\8399741920626881050.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8399741920626881050"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\scene1\\8399741920626881050.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8399741920626881050"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\scene1\\8399741920626881050.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8399741920626881050"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-7303602423216150863.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7303602423216150863"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-7303602423216150863.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7303602423216150863"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-7303602423216150863.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7303602423216150863"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\scene1\\2966483519687736714.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "2966483519687736714"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-1094237011762355000.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1094237011762355000"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-7303602423216150863",
+                "event": "click<div id=10 class =\"com.pinterest:id/multi_tab_homefeed_tab_id\" alt=\"All recommended Pins\">  </div>"
+            },
+            {
+                "from": "-7303602423216150863",
+                "to": "-7303602423216150863",
+                "event": "click<button id=1 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "-7303602423216150863",
+                "to": "8399741920626881050",
+                "event": "click<button id=2 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from TheLoudCorner, This may contain: a fluffy white cat sitting on top of a shelf\">  </button>"
+            },
+            {
+                "from": "8399741920626881050",
+                "to": "8399741920626881050",
+                "event": "scroll down"
+            },
+            {
+                "from": "8399741920626881050",
+                "to": "8399741920626881050",
+                "event": "scroll down"
+            },
+            {
+                "from": "8399741920626881050",
+                "to": -7303602423216150863,
+                "event": "back"
+            },
+            {
+                "from": -7303602423216150863,
+                "to": "-7303602423216150863",
+                "event": "click<div id=0 class =\"com.pinterest:id/coordinator\">  </div>"
+            },
+            {
+                "from": "-7303602423216150863",
+                "to": "-7303602423216150863",
+                "event": "click<button id=1 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "-7303602423216150863",
+                "to": "2966483519687736714",
+                "event": "scroll down"
+            },
+            {
+                "from": "2966483519687736714",
+                "to": "-1094237011762355000",
+                "event": "click<button id=2 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from Afsa l Affordable Fashion + Beauty Tips, Title: Adorable Cat Dream Pet Cute Animal, This may contain: a white cat laying on top of a bed\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

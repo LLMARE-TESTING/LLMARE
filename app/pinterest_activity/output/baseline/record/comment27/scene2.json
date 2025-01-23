@@ -1,0 +1,126 @@
+[
+    {
+        "round": 3,
+        "comment": "The app was great, was fun, I still miss the ability to see what other boards have pinned the same pin since that let me find boards easier but it's something I can deal with... Unlike getting rid of the ability to search for boards, both in the search tab while searching (it at least still shows People, which is something I've never used but at least that isn't also useless now) and with the button that used to be beside the search bar after searching. Can this be fixed, undone, opted out of??",
+        "scenarios": [
+            "The user wants to see what other boards have pinned the same pin to find boards more easily.",
+            "The user wants the ability to search for boards in the search tab while searching.",
+            "The user wants the button beside the search bar after searching to be restored for searching boards."
+        ],
+        "key sentence": "The user wants the button beside the search bar after searching to be restored for searching boards.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment27\\scene0\\scene1\\scene2\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment27\\scene0\\scene1\\scene2\\-5601273326206328235.png",
+                "activity": "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint}",
+                "state_str": "-5601273326206328235"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment27\\scene0\\scene1\\scene2\\1788638663485157593.png",
+                "activity": "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint}",
+                "state_str": "1788638663485157593"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment27\\scene0\\scene1\\scene2\\1788638663485157593.png",
+                "activity": "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint}",
+                "state_str": "1788638663485157593"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment27\\scene0\\scene1\\scene2\\-5139076720072728921.png",
+                "activity": "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint}",
+                "state_str": "-5139076720072728921"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment27\\scene0\\scene1\\scene2\\-5139076720072728921.png",
+                "activity": "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint}",
+                "state_str": "-5139076720072728921"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment27\\scene0\\scene1\\scene2\\-1937327324084744106.png",
+                "activity": "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint}",
+                "state_str": "-1937327324084744106"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment27\\scene0\\scene1\\scene2\\-5139076720072728921.png",
+                "activity": "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint}",
+                "state_str": "-5139076720072728921"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment27\\scene0\\scene1\\scene2\\-1937327324084744106.png",
+                "activity": "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint}",
+                "state_str": "-1937327324084744106"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment27\\scene0\\scene1\\scene2\\1433602761649591119.png",
+                "activity": "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint}",
+                "state_str": "1433602761649591119"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment27\\scene0\\scene1\\scene2\\1433602761649591119.png",
+                "activity": "com.google.android.googlequicksearchbox.InternalGoogleAppActivityEntrypoint}",
+                "state_str": "1433602761649591119"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-5601273326206328235",
+                "event": "click<button id=5 class =\"com.google.android.googlequicksearchbox:id/googleapp_search_widget_google_logo\" alt=\"Google app\">  </button>"
+            },
+            {
+                "from": "-5601273326206328235",
+                "to": "1788638663485157593",
+                "event": "click<button id=25 class =\"com.google.android.googlequicksearchbox:id/googleapp_navigation_bar_search\" alt=\"Search\">  </button>"
+            },
+            {
+                "from": "1788638663485157593",
+                "to": "1788638663485157593",
+                "event": "click<input id=2 class =\"com.google.android.googlequicksearchbox:id/googleapp_search_box\"> Search\u2026,  </input>"
+            },
+            {
+                "from": "1788638663485157593",
+                "to": "-5139076720072728921",
+                "event": "click<img id=10 class =\"com.google.android.googlequicksearchbox:id/googleapp_primary_action_icon\" alt=\"Show predictions for google\u7ffb\u8bd1\">  </img>"
+            },
+            {
+                "from": "-5139076720072728921",
+                "to": "-5139076720072728921",
+                "event": "click<input id=2 class =\"com.google.android.googlequicksearchbox:id/googleapp_search_box\"> google\u7ffb\u8bd1 ,  </input>"
+            },
+            {
+                "from": "-5139076720072728921",
+                "to": -1937327324084744106,
+                "event": "back"
+            },
+            {
+                "from": -1937327324084744106,
+                "to": "-5139076720072728921",
+                "event": "click<input id=2 class =\"com.google.android.googlequicksearchbox:id/googleapp_search_box\"> google\u7ffb\u8bd1 ,  </input>"
+            },
+            {
+                "from": "-5139076720072728921",
+                "to": -1937327324084744106,
+                "event": "back"
+            },
+            {
+                "from": -1937327324084744106,
+                "to": "1433602761649591119",
+                "event": "click<img id=9 class =\"com.google.android.googlequicksearchbox:id/googleapp_primary_action_icon\" alt=\"Show predictions for google\u7ffb\u8bd1\u4e0b\u8f7d\">  </img>"
+            },
+            {
+                "from": "1433602761649591119",
+                "to": "1433602761649591119",
+                "event": "click<input id=2 class =\"com.google.android.googlequicksearchbox:id/googleapp_search_box\"> google\u7ffb\u8bd1\u4e0b\u8f7d ,  </input>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

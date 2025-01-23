@@ -1,0 +1,105 @@
+[
+    {
+        "round": 1,
+        "comment": "Every time I update a pin in my board the date when I last uploaded won't change. Like for example it says \"2 weeks ago\" then I upload a pin and the date won't change and the amount of pin stays the same. It also say \"User not found\" or \"Board not found\". It triggers me and makes my account flop. It's a big problem please fix it. I love this app but this is horrible.",
+        "scenarios": [
+            "After updating a pin in a board, the date of the last upload does not change, and the number of pins remains the same.",
+            "Receiving errors such as \"User not found\" or \"Board not found\" while using the app."
+        ],
+        "key sentence": "After updating a pin in a board, the date of the last upload does not change, and the number of pins remains the same.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\-1064148678181079057.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1064148678181079057"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\705015586294609680.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "705015586294609680"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\-4226273697148547825.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4226273697148547825"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\-3125922167823660463.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-3125922167823660463"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\-3125922167823660463.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-3125922167823660463"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\-1864148393299461005.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-1864148393299461005"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\462222064135547603.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "462222064135547603"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\-8188353627830885601.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8188353627830885601"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-1064148678181079057",
+                "event": "click<button id=24 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-1064148678181079057",
+                "to": "705015586294609680",
+                "event": "click<button id=18 alt=\"Board: Pretty cats\">  </button>"
+            },
+            {
+                "from": "705015586294609680",
+                "to": "-4226273697148547825",
+                "event": "click<p id=17 class =\"com.pinterest:id/text\"> Add,  </p>"
+            },
+            {
+                "from": "-4226273697148547825",
+                "to": "-3125922167823660463",
+                "event": "click<p id=20 class =\"com.pinterest:id/option_title\"> Pin,  </p>"
+            },
+            {
+                "from": "-3125922167823660463",
+                "to": "-3125922167823660463",
+                "event": "click<button id=5 class =\"com.pinterest:id/gallery_next_gestalt_button\"> Next,  </button>"
+            },
+            {
+                "from": "-3125922167823660463",
+                "to": "-1864148393299461005",
+                "event": "click<button id=14 alt=\"Photo: /storage/emulated/0/Pictures/100PINT/Pins/6c96531379fd4a19ff0b4d0f4ab56f8d.jpg\">  </button>"
+            },
+            {
+                "from": "-1864148393299461005",
+                "to": "462222064135547603",
+                "event": "click<button id=5 class =\"com.pinterest:id/gallery_next_gestalt_button\"> Next,  </button>"
+            },
+            {
+                "from": "462222064135547603",
+                "to": "-8188353627830885601",
+                "event": "click<button id=23 class =\"com.pinterest:id/create_gestalt_button\"> Create,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

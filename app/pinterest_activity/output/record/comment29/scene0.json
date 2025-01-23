@@ -1,0 +1,333 @@
+[
+    {
+        "round": 1,
+        "comment": "I love Pinterest, but it could use 2 quality of life updates: 1. Update the reorder function. When using a separate layout for reordering, its almost impossible to tell how the final layout will look. This is incredibly frustrating when trying to get pins to be in a specific order. 2. More of a request, but it would be really cool if you had the ability to create sections within sections.",
+        "scenarios": [
+            "When using the reorder function with a separate layout, it's almost impossible to tell how the final layout will look, causing frustration when trying to get pins in a specific order.",
+            "Requesting the ability to create sections within sections."
+        ],
+        "key sentence": "When using the reorder function with a separate layout, it's almost impossible to tell how the final layout will look, causing frustration when trying to get pins in a specific order.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state14",
+        "the sub-task list of state": "[{'name': 'Select All Pins', 'description': 'Select all pins displayed on the screen.'}, {'name': 'Move Pins', 'description': 'Move selected pins to another location or board.'}, {'name': 'Add Section', 'description': 'Create a new section or category for organizing content.'}, {'name': 'Delete Selected Pins', 'description': 'Remove selected pins from the screen.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\state2.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\state3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\state12.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\state13.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\state14.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state14"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\84770310979224529.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "84770310979224529"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\84770310979224529.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "84770310979224529"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\84770310979224529.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "84770310979224529"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\84770310979224529.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "84770310979224529"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\84770310979224529.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "84770310979224529"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\84770310979224529.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "84770310979224529"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state2",
+                "event": "click(TextView-Saved:[836,2092][948,2136])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(android.view.ViewGroup-Board: picture:[22,524][529,1027])"
+            },
+            {
+                "from": "state3",
+                "to": "state12",
+                "event": "click(android.widget.LinearLayout-Organize:[254,1950][430,2060])"
+            },
+            {
+                "from": "state12",
+                "to": "state13",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[22,439][352,770])"
+            },
+            {
+                "from": "state13",
+                "to": "state14",
+                "event": "click(ImageView-Move selected pins:[312,1933][433,2054])"
+            },
+            {
+                "from": "state14",
+                "to": "84770310979224529",
+                "event": "click<button id=4 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "84770310979224529",
+                "to": "84770310979224529",
+                "event": "click<button id=10 alt=\"Move selected pins\">  </button>"
+            },
+            {
+                "from": "84770310979224529",
+                "to": "84770310979224529",
+                "event": "click<button id=4 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "84770310979224529",
+                "to": "84770310979224529",
+                "event": "click<button id=10 alt=\"Move selected pins\">  </button>"
+            },
+            {
+                "from": "84770310979224529",
+                "to": "84770310979224529",
+                "event": "click<button id=4 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "84770310979224529",
+                "to": "84770310979224529",
+                "event": "click<button id=10 alt=\"Move selected pins\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "I love Pinterest, but it could use 2 quality of life updates: 1. Update the reorder function. When using a separate layout for reordering, its almost impossible to tell how the final layout will look. This is incredibly frustrating when trying to get pins to be in a specific order. 2. More of a request, but it would be really cool if you had the ability to create sections within sections.",
+        "scenarios": [
+            "When using the reorder function with a separate layout, it's almost impossible to tell how the final layout will look, causing frustration when trying to get pins in a specific order.",
+            "Requesting the ability to create sections within sections."
+        ],
+        "key sentence": "When using the reorder function with a separate layout, it's almost impossible to tell how the final layout will look, causing frustration when trying to get pins in a specific order.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state14",
+        "the sub-task list of state": "[{'name': 'Select All Pins', 'description': 'Select all pins displayed on the screen.'}, {'name': 'Move Pins', 'description': 'Move selected pins to another location or board.'}, {'name': 'Add Section', 'description': 'Create a new section or category for organizing content.'}, {'name': 'Delete Selected Pins', 'description': 'Remove selected pins from the screen.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\state2.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\state3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\state12.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\state13.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\state14.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state14"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\84770310979224529.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "84770310979224529"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\84770310979224529.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "84770310979224529"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\84770310979224529.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "84770310979224529"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\84770310979224529.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "84770310979224529"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\84770310979224529.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "84770310979224529"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\84770310979224529.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "84770310979224529"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\state2.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\state3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\state12.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\state13.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\state14.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state14"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\84770310979224529.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "84770310979224529"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state2",
+                "event": "click(TextView-Saved:[836,2092][948,2136])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(android.view.ViewGroup-Board: picture:[22,524][529,1027])"
+            },
+            {
+                "from": "state3",
+                "to": "state12",
+                "event": "click(android.widget.LinearLayout-Organize:[254,1950][430,2060])"
+            },
+            {
+                "from": "state12",
+                "to": "state13",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[22,439][352,770])"
+            },
+            {
+                "from": "state13",
+                "to": "state14",
+                "event": "click(ImageView-Move selected pins:[312,1933][433,2054])"
+            },
+            {
+                "from": "state14",
+                "to": "84770310979224529",
+                "event": "click<button id=4 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "84770310979224529",
+                "to": "84770310979224529",
+                "event": "click<button id=10 alt=\"Move selected pins\">  </button>"
+            },
+            {
+                "from": "84770310979224529",
+                "to": "84770310979224529",
+                "event": "click<button id=4 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "84770310979224529",
+                "to": "84770310979224529",
+                "event": "click<button id=10 alt=\"Move selected pins\">  </button>"
+            },
+            {
+                "from": "84770310979224529",
+                "to": "84770310979224529",
+                "event": "click<button id=4 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "84770310979224529",
+                "to": "84770310979224529",
+                "event": "click<button id=10 alt=\"Move selected pins\">  </button>"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state2",
+                "event": "click(TextView-Saved:[836,2092][948,2136])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(android.view.ViewGroup-Board: picture:[22,524][529,1027])"
+            },
+            {
+                "from": "state3",
+                "to": "state12",
+                "event": "click(android.widget.LinearLayout-Organize:[254,1950][430,2060])"
+            },
+            {
+                "from": "state12",
+                "to": "state13",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[22,439][352,770])"
+            },
+            {
+                "from": "state13",
+                "to": "state14",
+                "event": "click(ImageView-Move selected pins:[312,1933][433,2054])"
+            },
+            {
+                "from": "state14",
+                "to": "84770310979224529",
+                "event": "click<button id=4 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]
