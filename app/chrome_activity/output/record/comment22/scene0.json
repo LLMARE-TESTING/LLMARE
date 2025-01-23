@@ -1,0 +1,114 @@
+[
+    {
+        "round": 1,
+        "comment": "if I close all tab then chrome application automatically shutdown do something it's very irritating do something fixed it",
+        "scenarios": [
+            "Close all tabs, then observe that the Chrome application automatically shuts down."
+        ],
+        "key sentence": "Close all tabs, then observe that the Chrome application automatically shuts down.",
+        "target activity": "com.google.android.apps.chrome.Main",
+        "the function of activity": "The activity consolidates essential browser and application functions, including navigation, bookmarking, downloading, tab management, privacy, customization, and content translating, content sharing for enhanced user experience and accessibility.",
+        "target state": "46b6ba6ad81aa0f1b3a4bdba4d9ab204",
+        "the sub-task list of state": "[{'name': 'Open Preferences', 'description': 'Opens a menu to adjust settings and preferences for the application or page.'}, {'name': 'Open the home page', 'description': 'Navigates to the predefined home page of the browser or application.'}, {'name': 'Bookmark this page', 'description': 'Adds the currently viewed page to bookmarks for easy access in the future.'}, {'name': 'Switch or close tabs', 'description': 'Switches between open tabs or closes existing tabs within the browser or application.'}, {'name': 'Customize and control Google Chrome', 'description': 'Opens a menu with options to customize and control various settings in Google Chrome, including but not limited to bookmarks, settings, and extensions.'}, {'name': 'Search', 'description': 'Initiates a search function within the application or webpage to find specific content.'}, {'name': 'Subscribe', 'description': 'Subscribes to a newsletter or service, often after inputting an email address.'}, {'name': 'Begin the survey', 'description': 'Starts a survey to collect information or feedback from the user.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment22\\scene0\\4e5cd78cfbca801ea96edfce1920b231.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4e5cd78cfbca801ea96edfce1920b231"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment22\\scene0\\46b6ba6ad81aa0f1b3a4bdba4d9ab204.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "46b6ba6ad81aa0f1b3a4bdba4d9ab204"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment22\\scene0\\-2481054610853975206.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-2481054610853975206"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment22\\scene0\\-4661307802248336292.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-4661307802248336292"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment22\\scene0\\1915548416067556050.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "1915548416067556050"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment22\\scene0\\-8567490450670593105.png",
+                "activity": "",
+                "state_str": "-8567490450670593105"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment22\\scene0\\-8567490450670593105.png",
+                "activity": "",
+                "state_str": "-8567490450670593105"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment22\\scene0\\-8318313178745349899.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-8318313178745349899"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment22\\scene0\\-8567490450670593105.png",
+                "activity": "",
+                "state_str": "-8567490450670593105"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment22\\scene0\\-8567490450670593105.png",
+                "activity": "",
+                "state_str": "-8567490450670593105"
+            }
+        ],
+        "operations": [
+            {
+                "from": "4e5cd78cfbca801ea96edfce1920b231",
+                "to": "46b6ba6ad81aa0f1b3a4bdba4d9ab204",
+                "event": "click(state=4e5cd78cfbca801ea96edfce1920b231, view=1ea7bf2929151e8de0c9f30905be5733(Main/Button-:x0:y1405))"
+            },
+            {
+                "from": "46b6ba6ad81aa0f1b3a4bdba4d9ab204",
+                "to": "-2481054610853975206",
+                "event": "click<button id=24 class =\"com.android.chrome:id/tab_switcher_button\" alt=\"See 2 tabs\">  </button>"
+            },
+            {
+                "from": "-2481054610853975206",
+                "to": "-4661307802248336292",
+                "event": "click<img id=7 class =\"com.android.chrome:id/action_button\" alt=\"Close Best Fixed Deposit Rates in December 2024 - My Sweet Retirement tab\">  </img>"
+            },
+            {
+                "from": "-4661307802248336292",
+                "to": "1915548416067556050",
+                "event": "click<img id=7 class =\"com.android.chrome:id/action_button\" alt=\"Close New tab tab\">  </img>"
+            },
+            {
+                "from": "1915548416067556050",
+                "to": "-8567490450670593105",
+                "event": "click<button id=2 class =\"com.android.chrome:id/menu_button\" alt=\"Customize and control Google Chrome\">  </button>"
+            },
+            {
+                "from": "-8567490450670593105",
+                "to": "-8567490450670593105",
+                "event": "click<p id=4 class =\"com.android.chrome:id/menu_item_text\"> Close all tabs,  </p>"
+            },
+            {
+                "from": "-8567490450670593105",
+                "to": -8318313178745349899,
+                "event": "back"
+            },
+            {
+                "from": -8318313178745349899,
+                "to": "-8567490450670593105",
+                "event": "click<button id=2 class =\"com.android.chrome:id/menu_button\" alt=\"Customize and control Google Chrome\">  </button>"
+            },
+            {
+                "from": "-8567490450670593105",
+                "to": "-8567490450670593105",
+                "event": "click<p id=4 class =\"com.android.chrome:id/menu_item_text\"> Close all tabs,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

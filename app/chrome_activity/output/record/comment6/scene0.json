@@ -1,0 +1,383 @@
+[
+    {
+        "round": 1,
+        "comment": "Recently Google has pushed through several changes that have soured my experience with the browser. First, there was google lens (not as good as the original image search feature and frequently buggy). And now there is AI overview. I don't want AI search results shoved in my face when I go onto google and I want the option to opt-out of them. If this doesn't change, then I'll be looking for another internet browser since it's clear Google thinks it knows best and doesn't want to give me choices.",
+        "scenarios": [
+            "Attempt to use Google Lens and experience it being not as good as the original image search feature and frequently buggy.",
+            "Encounter AI overview and want the option to opt-out of AI search results when using Google search."
+        ],
+        "key sentence": "Attempt to use Google Lens and experience it being not as good as the original image search feature and frequently buggy.",
+        "target activity": "com.google.android.apps.lens.MainActivity",
+        "the function of activity": "The activity facilitates users to interact with Google Lens features, manage settings, view content, and control camera functions for image analysis, search, and image translation tasks.",
+        "target state": "1066043e315f82031c99d60bbec1155d",
+        "the sub-task list of state": "[{'name': 'Open Lens View', 'description': 'Access the Lens view container to use the Google Lens functionalities.'}, {'name': 'View Promo Banner', 'description': 'Check any promotional banners available in the promo banner container.'}, {'name': 'Interact with Lens Content', 'description': 'Engage with the content available in the Lens content area, possibly images or text to analyze.'}, {'name': 'Manage Lens Settings', 'description': 'Adjust lens-related settings within the coordinator container.'}, {'name': 'Display Lens Error Message', 'description': 'View any error messages when Lens encounters issues, shown in the error message container.'}, {'name': 'Access Action Menu', 'description': 'Open the action menu which might contain additional options or settings.'}, {'name': 'Use Magnifier', 'description': 'Activate the magnifier container for a closer view of elements on-screen.'}, {'name': 'Use Camera', 'description': 'Capture images or videos through the camera fragment container for processing with Google Lens.'}, {'name': 'Open Lens Gallery', 'description': 'View and select images from the Lens gallery to analyze or search.'}, {'name': 'Toggle Filter Options', 'description': 'Switch between various filter settings for specific Lens modes.'}, {'name': 'Select Image from Gallery', 'description': 'Choose an image from the gallery using the picker button for Lens analysis.'}, {'name': 'Use Shutter Button', 'description': 'Capture a new image using the shutter button view for immediate analysis.'}, {'name': 'Navigate Overlay Buttons', 'description': 'Utilize overlay buttons for actions such as closing, going back, or accessing more options.'}, {'name': 'Search with Camera', 'description': \"Enable the feature to search for objects using the phone's camera directly within the app.\"}, {'name': 'Translate Text', 'description': 'Use Lens to translate text from an image in the Translate mode of filters.'}, {'name': 'Review Search History', 'description': 'Access past searches performed with Lens in the history button container.'}, {'name': 'Adjust Flash', 'description': 'Toggle the flash settings for better visibility in low light conditions when using the camera.'}, {'name': 'Engage with Google Lens Features', 'description': 'Further interact with the features, like recognizing objects or extracting text, provided by Google Lens.'}, {'name': 'Manage Overlays', 'description': 'Handle multiple overlays that might present additional information or settings on top of the visual interface.'}, {'name': 'Explore Other Options', 'description': 'Utilize the overflow menu to explore more options or settings within the app.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\4e5cd78cfbca801ea96edfce1920b231.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4e5cd78cfbca801ea96edfce1920b231"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\1066043e315f82031c99d60bbec1155d.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "1066043e315f82031c99d60bbec1155d"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\5843074532957819155.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "5843074532957819155"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\5843074532957819155.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "5843074532957819155"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\7118529816270832245.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "7118529816270832245"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\8523808166646403733.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "8523808166646403733"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\-1144243986519788272.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "-1144243986519788272"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\-1144243986519788272.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "-1144243986519788272"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\-2623528690107493098.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "-2623528690107493098"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\-2623528690107493098.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "-2623528690107493098"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\-2623528690107493098.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "-2623528690107493098"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\7118529816270832245.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "7118529816270832245"
+            }
+        ],
+        "operations": [
+            {
+                "from": "4e5cd78cfbca801ea96edfce1920b231",
+                "to": "1066043e315f82031c99d60bbec1155d",
+                "event": "click(state=4e5cd78cfbca801ea96edfce1920b231, view=1516a5b46dd783fc79a005c37622db88(Main/ImageView-Search wit:x871:y490))"
+            },
+            {
+                "from": "1066043e315f82031c99d60bbec1155d",
+                "to": "5843074532957819155",
+                "event": "click<img id=2 class =\"com.google.android.googlequicksearchbox:id/lens_gallery_picker_button_thumbnail\" alt=\"Select an image from gallery\">  </img>"
+            },
+            {
+                "from": "5843074532957819155",
+                "to": "5843074532957819155",
+                "event": "click<img id=18 class =\"com.google.android.googlequicksearchbox:id/lens_gallery_item_image_view\" alt=\"Image\">  </img>"
+            },
+            {
+                "from": "5843074532957819155",
+                "to": "7118529816270832245",
+                "event": "click<p id=11 class =\"com.google.android.googlequicksearchbox:id/filter_item_view_auto\" alt=\"Switch to Search mode\"> Search,  </p>"
+            },
+            {
+                "from": "7118529816270832245",
+                "to": "8523808166646403733",
+                "event": "click<button id=3 class =\"com.google.android.googlequicksearchbox:id/shutter_button_view\" alt=\"Camera search\">  </button>"
+            },
+            {
+                "from": "8523808166646403733",
+                "to": "-1144243986519788272",
+                "event": "click<div id=0 class =\"com.google.android.googlequicksearchbox:id/lens_snackbar_container\">  </div>"
+            },
+            {
+                "from": "-1144243986519788272",
+                "to": "-1144243986519788272",
+                "event": "click<div id=3 class =\"com.google.android.googlequicksearchbox:id/product_lockup_view\" alt=\"Google Lens\">  </div>"
+            },
+            {
+                "from": "-1144243986519788272",
+                "to": "-2623528690107493098",
+                "event": "click<img id=13 class =\"com.google.android.googlequicksearchbox:id/lensient_searchbox_thumbnail\" alt=\"Select image\">  </img>"
+            },
+            {
+                "from": "-2623528690107493098",
+                "to": "-2623528690107493098",
+                "event": "click<div id=3 class =\"com.google.android.googlequicksearchbox:id/product_lockup_view\" alt=\"Google Lens\">  </div>"
+            },
+            {
+                "from": "-2623528690107493098",
+                "to": "-2623528690107493098",
+                "event": "click<img id=13 class =\"com.google.android.googlequicksearchbox:id/lensient_searchbox_thumbnail\" alt=\"Select image\">  </img>"
+            },
+            {
+                "from": "-2623528690107493098",
+                "to": "7118529816270832245",
+                "event": "click<img id=1 class =\"com.google.android.googlequicksearchbox:id/back_button\" alt=\"Go back\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Recently Google has pushed through several changes that have soured my experience with the browser. First, there was google lens (not as good as the original image search feature and frequently buggy). And now there is AI overview. I don't want AI search results shoved in my face when I go onto google and I want the option to opt-out of them. If this doesn't change, then I'll be looking for another internet browser since it's clear Google thinks it knows best and doesn't want to give me choices.",
+        "scenarios": [
+            "Attempt to use Google Lens and experience it being not as good as the original image search feature and frequently buggy.",
+            "Encounter AI overview and want the option to opt-out of AI search results when using Google search."
+        ],
+        "key sentence": "Attempt to use Google Lens and experience it being not as good as the original image search feature and frequently buggy.",
+        "target activity": "com.google.android.apps.lens.MainActivity",
+        "the function of activity": "The activity facilitates users to interact with Google Lens features, manage settings, view content, and control camera functions for image analysis, search, and image translation tasks.",
+        "target state": "1066043e315f82031c99d60bbec1155d",
+        "the sub-task list of state": "[{'name': 'Open Lens View', 'description': 'Access the Lens view container to use the Google Lens functionalities.'}, {'name': 'View Promo Banner', 'description': 'Check any promotional banners available in the promo banner container.'}, {'name': 'Interact with Lens Content', 'description': 'Engage with the content available in the Lens content area, possibly images or text to analyze.'}, {'name': 'Manage Lens Settings', 'description': 'Adjust lens-related settings within the coordinator container.'}, {'name': 'Display Lens Error Message', 'description': 'View any error messages when Lens encounters issues, shown in the error message container.'}, {'name': 'Access Action Menu', 'description': 'Open the action menu which might contain additional options or settings.'}, {'name': 'Use Magnifier', 'description': 'Activate the magnifier container for a closer view of elements on-screen.'}, {'name': 'Use Camera', 'description': 'Capture images or videos through the camera fragment container for processing with Google Lens.'}, {'name': 'Open Lens Gallery', 'description': 'View and select images from the Lens gallery to analyze or search.'}, {'name': 'Toggle Filter Options', 'description': 'Switch between various filter settings for specific Lens modes.'}, {'name': 'Select Image from Gallery', 'description': 'Choose an image from the gallery using the picker button for Lens analysis.'}, {'name': 'Use Shutter Button', 'description': 'Capture a new image using the shutter button view for immediate analysis.'}, {'name': 'Navigate Overlay Buttons', 'description': 'Utilize overlay buttons for actions such as closing, going back, or accessing more options.'}, {'name': 'Search with Camera', 'description': \"Enable the feature to search for objects using the phone's camera directly within the app.\"}, {'name': 'Translate Text', 'description': 'Use Lens to translate text from an image in the Translate mode of filters.'}, {'name': 'Review Search History', 'description': 'Access past searches performed with Lens in the history button container.'}, {'name': 'Adjust Flash', 'description': 'Toggle the flash settings for better visibility in low light conditions when using the camera.'}, {'name': 'Engage with Google Lens Features', 'description': 'Further interact with the features, like recognizing objects or extracting text, provided by Google Lens.'}, {'name': 'Manage Overlays', 'description': 'Handle multiple overlays that might present additional information or settings on top of the visual interface.'}, {'name': 'Explore Other Options', 'description': 'Utilize the overflow menu to explore more options or settings within the app.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\4e5cd78cfbca801ea96edfce1920b231.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4e5cd78cfbca801ea96edfce1920b231"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\1066043e315f82031c99d60bbec1155d.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "1066043e315f82031c99d60bbec1155d"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\5843074532957819155.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "5843074532957819155"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\5843074532957819155.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "5843074532957819155"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\7118529816270832245.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "7118529816270832245"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\8523808166646403733.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "8523808166646403733"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\-1144243986519788272.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "-1144243986519788272"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\-1144243986519788272.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "-1144243986519788272"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\-2623528690107493098.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "-2623528690107493098"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\-2623528690107493098.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "-2623528690107493098"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\-2623528690107493098.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "-2623528690107493098"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\7118529816270832245.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "7118529816270832245"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\4e5cd78cfbca801ea96edfce1920b231.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4e5cd78cfbca801ea96edfce1920b231"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\1066043e315f82031c99d60bbec1155d.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "1066043e315f82031c99d60bbec1155d"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\7118529816270832245.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "7118529816270832245"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\5843074532957819155.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "5843074532957819155"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\5843074532957819155.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "5843074532957819155"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\7118529816270832245.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "7118529816270832245"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\4757956043996497424.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "4757956043996497424"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\-201467798241979569.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "-201467798241979569"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\-201467798241979569.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "-201467798241979569"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\7118529816270832245.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "7118529816270832245"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\5843074532957819155.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "5843074532957819155"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment6\\scene0\\5843074532957819155.png",
+                "activity": "com.google.android.apps.lens.MainActivity}",
+                "state_str": "5843074532957819155"
+            }
+        ],
+        "operations": [
+            {
+                "from": "4e5cd78cfbca801ea96edfce1920b231",
+                "to": "1066043e315f82031c99d60bbec1155d",
+                "event": "click(state=4e5cd78cfbca801ea96edfce1920b231, view=1516a5b46dd783fc79a005c37622db88(Main/ImageView-Search wit:x871:y490))"
+            },
+            {
+                "from": "1066043e315f82031c99d60bbec1155d",
+                "to": "5843074532957819155",
+                "event": "click<img id=2 class =\"com.google.android.googlequicksearchbox:id/lens_gallery_picker_button_thumbnail\" alt=\"Select an image from gallery\">  </img>"
+            },
+            {
+                "from": "5843074532957819155",
+                "to": "5843074532957819155",
+                "event": "click<img id=18 class =\"com.google.android.googlequicksearchbox:id/lens_gallery_item_image_view\" alt=\"Image\">  </img>"
+            },
+            {
+                "from": "5843074532957819155",
+                "to": "7118529816270832245",
+                "event": "click<p id=11 class =\"com.google.android.googlequicksearchbox:id/filter_item_view_auto\" alt=\"Switch to Search mode\"> Search,  </p>"
+            },
+            {
+                "from": "7118529816270832245",
+                "to": "8523808166646403733",
+                "event": "click<button id=3 class =\"com.google.android.googlequicksearchbox:id/shutter_button_view\" alt=\"Camera search\">  </button>"
+            },
+            {
+                "from": "8523808166646403733",
+                "to": "-1144243986519788272",
+                "event": "click<div id=0 class =\"com.google.android.googlequicksearchbox:id/lens_snackbar_container\">  </div>"
+            },
+            {
+                "from": "-1144243986519788272",
+                "to": "-1144243986519788272",
+                "event": "click<div id=3 class =\"com.google.android.googlequicksearchbox:id/product_lockup_view\" alt=\"Google Lens\">  </div>"
+            },
+            {
+                "from": "-1144243986519788272",
+                "to": "-2623528690107493098",
+                "event": "click<img id=13 class =\"com.google.android.googlequicksearchbox:id/lensient_searchbox_thumbnail\" alt=\"Select image\">  </img>"
+            },
+            {
+                "from": "-2623528690107493098",
+                "to": "-2623528690107493098",
+                "event": "click<div id=3 class =\"com.google.android.googlequicksearchbox:id/product_lockup_view\" alt=\"Google Lens\">  </div>"
+            },
+            {
+                "from": "-2623528690107493098",
+                "to": "-2623528690107493098",
+                "event": "click<img id=13 class =\"com.google.android.googlequicksearchbox:id/lensient_searchbox_thumbnail\" alt=\"Select image\">  </img>"
+            },
+            {
+                "from": "-2623528690107493098",
+                "to": "7118529816270832245",
+                "event": "click<img id=1 class =\"com.google.android.googlequicksearchbox:id/back_button\" alt=\"Go back\">  </img>"
+            },
+            {
+                "from": "4e5cd78cfbca801ea96edfce1920b231",
+                "to": "1066043e315f82031c99d60bbec1155d",
+                "event": "click(state=4e5cd78cfbca801ea96edfce1920b231, view=1516a5b46dd783fc79a005c37622db88(Main/ImageView-Search wit:x871:y490))"
+            },
+            {
+                "from": "1066043e315f82031c99d60bbec1155d",
+                "to": "7118529816270832245",
+                "event": "click<div id=7 class =\"com.google.android.googlequicksearchbox:id/product_lockup_view\" alt=\"Google Lens\">  </div>"
+            },
+            {
+                "from": "7118529816270832245",
+                "to": "5843074532957819155",
+                "event": "click<img id=2 class =\"com.google.android.googlequicksearchbox:id/lens_gallery_picker_button_thumbnail\" alt=\"Select an image from gallery\">  </img>"
+            },
+            {
+                "from": "5843074532957819155",
+                "to": "5843074532957819155",
+                "event": "click<img id=18 class =\"com.google.android.googlequicksearchbox:id/lens_gallery_item_image_view\" alt=\"Image\">  </img>"
+            },
+            {
+                "from": "5843074532957819155",
+                "to": "7118529816270832245",
+                "event": "click<p id=11 class =\"com.google.android.googlequicksearchbox:id/filter_item_view_auto\" alt=\"Switch to Search mode\"> Search,  </p>"
+            },
+            {
+                "from": "7118529816270832245",
+                "to": "4757956043996497424",
+                "event": "click<button id=3 class =\"com.google.android.googlequicksearchbox:id/shutter_button_view\" alt=\"Camera search\">  </button>"
+            },
+            {
+                "from": "4757956043996497424",
+                "to": "-201467798241979569",
+                "event": "click<div id=0 class =\"com.google.android.googlequicksearchbox:id/lens_snackbar_container\">  </div>"
+            },
+            {
+                "from": "-201467798241979569",
+                "to": "-201467798241979569",
+                "event": "click<div id=3 class =\"com.google.android.googlequicksearchbox:id/product_lockup_view\" alt=\"Google Lens\">  </div>"
+            },
+            {
+                "from": "-201467798241979569",
+                "to": "7118529816270832245",
+                "event": "click<img id=1 class =\"com.google.android.googlequicksearchbox:id/back_button\" alt=\"Go back\">  </img>"
+            },
+            {
+                "from": "7118529816270832245",
+                "to": "5843074532957819155",
+                "event": "click<img id=2 class =\"com.google.android.googlequicksearchbox:id/lens_gallery_picker_button_thumbnail\" alt=\"Select an image from gallery\">  </img>"
+            },
+            {
+                "from": "5843074532957819155",
+                "to": "5843074532957819155",
+                "event": "click<img id=18 class =\"com.google.android.googlequicksearchbox:id/lens_gallery_item_image_view\" alt=\"Image\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+]
