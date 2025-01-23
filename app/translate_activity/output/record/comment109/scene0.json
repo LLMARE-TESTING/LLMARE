@@ -1,0 +1,251 @@
+[
+    {
+        "round": 1,
+        "comment": "Hello .When I try to edit my text after reviewing the translation the edit box is tiny and at the top of the screen. Most of the screen is, wasted and its very difficult to edit the text. I cannot believe that Google would build an editor as poor as this. Is there a work around. surely there must be. If not, it need an aftermarket editor of some description. The editing window is shown below minus the popup keyboard.Please resolve this issue.",
+        "scenarios": [
+            "Trying to edit text after reviewing the translation, but finding the edit box too small and difficult to use. "
+        ],
+        "key sentence": "Trying to edit text after reviewing the translation, but finding the edit box too small and difficult to use. ",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state6",
+        "the sub-task list of state": "[{'name': 'History', 'description': 'View translation history'}, {'name': 'Keyboard', 'description': 'Open virtual keyboard for text input'}, {'name': 'Enter text', 'description': 'Input text using the keyboard or other input methods'}, {'name': 'Paste', 'description': 'Insert copied text into the translation area'}, {'name': 'Swap languages', 'description': 'Switch the languages being translated'}, {'name': 'Select language', 'description': 'Choose the source or target language for translation'}, {'name': 'Handwriting input', 'description': 'Use handwriting recognition for text input'}, {'name': 'Undo', 'description': 'Reverse the last action performed'}, {'name': 'Space bar', 'description': 'Insert a space while using handwriting input'}, {'name': 'Backspace key', 'description': 'Delete the previous character or action'}, {'name': 'Show details', 'description': 'Display more information or options related to the translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\state6.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state6"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\4947759934226661622.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4947759934226661622"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "state6",
+                "event": "click(Button-Handwriting:[805,105][937,237])"
+            },
+            {
+                "from": "state6",
+                "to": "4947759934226661622",
+                "event": "click<button id=12 class =\"com.google.android.apps.translate:id/resize_button\" alt=\"Expand\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Hello .When I try to edit my text after reviewing the translation the edit box is tiny and at the top of the screen. Most of the screen is, wasted and its very difficult to edit the text. I cannot believe that Google would build an editor as poor as this. Is there a work around. surely there must be. If not, it need an aftermarket editor of some description. The editing window is shown below minus the popup keyboard.Please resolve this issue.",
+        "scenarios": [
+            "Trying to edit text after reviewing the translation, but finding the edit box too small and difficult to use. "
+        ],
+        "key sentence": "Trying to edit text after reviewing the translation, but finding the edit box too small and difficult to use. ",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state3",
+        "the sub-task list of state": "[{'name': 'Navigate up', 'description': 'Go to the previous screen or level'}, {'name': 'Clear', 'description': 'Clear input'}, {'name': 'Handwriting', 'description': 'Switch to handwriting input mode'}, {'name': 'Submit or Select Text to Translate', 'description': 'Submit the entered text or selection'}, {'name': 'Edit Query Completion entertainment', 'description': 'Modify the current query related to entertainment'}, {'name': 'Edit Query Completion enterprise', 'description': 'Modify the current query related to enterprise'}, {'name': 'Swap languages', 'description': 'Switch between source and target languages'}, {'name': 'English', 'description': 'Select English language'}, {'name': 'Chinese (Simplified)', 'description': 'Select Chinese (Simplified) language'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\state6.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state6"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\4947759934226661622.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4947759934226661622"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\state3.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\4820729057858474520.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4820729057858474520"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\3358102736348644952.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "3358102736348644952"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\4933343970936344330.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4933343970936344330"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\4933343970936344330.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4933343970936344330"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\7423992580442322154.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "7423992580442322154"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\2296216029651589579.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "2296216029651589579"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\2296216029651589579.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "2296216029651589579"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\4933343970936344330.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4933343970936344330"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\7423992580442322154.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "7423992580442322154"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\2296216029651589579.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "2296216029651589579"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\2296216029651589579.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "2296216029651589579"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment109\\scene0\\4933343970936344330.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4933343970936344330"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "state6",
+                "event": "click(Button-Handwriting:[805,105][937,237])"
+            },
+            {
+                "from": "state6",
+                "to": "4947759934226661622",
+                "event": "click<button id=12 class =\"com.google.android.apps.translate:id/resize_button\" alt=\"Expand\">  </button>"
+            },
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "input(EditText-com.google.android.apps.translate:id/text_input_field:[66,347][1014,474])(enter)"
+            },
+            {
+                "from": "state3",
+                "to": "4820729057858474520",
+                "event": "click<button id=7 class =\"com.google.android.apps.translate:id/text_output_field\"> dony,  </button>"
+            },
+            {
+                "from": "4820729057858474520",
+                "to": "3358102736348644952",
+                "event": "click<button id=14 class =\"com.google.android.apps.translate:id/language_label\"> Acholi,  </button>"
+            },
+            {
+                "from": "3358102736348644952",
+                "to": "4933343970936344330",
+                "event": "click<div id=7 class =\"android:id/list\">  </div>"
+            },
+            {
+                "from": "4933343970936344330",
+                "to": "4933343970936344330",
+                "event": "click<button id=17 class =\"com.google.android.apps.translate:id/copy_text_button\" alt=\"Copy translated text\">  </button>"
+            },
+            {
+                "from": "4933343970936344330",
+                "to": "7423992580442322154",
+                "event": "click<p id=15 class =\"com.google.android.apps.translate:id/translated_text\"> tamong,  </p>"
+            },
+            {
+                "from": "7423992580442322154",
+                "to": "2296216029651589579",
+                "event": "click<input id=6 class =\"com.google.android.apps.translate:id/original_text\"> enter,  </input>"
+            },
+            {
+                "from": "2296216029651589579",
+                "to": "2296216029651589579",
+                "event": "click<input id=5 class =\"com.google.android.apps.translate:id/text_input_field\"> enter,  </input>"
+            },
+            {
+                "from": "2296216029651589579",
+                "to": "4933343970936344330",
+                "event": "click<button id=7 class =\"com.google.android.apps.translate:id/text_output_field\"> tamong,  </button>"
+            },
+            {
+                "from": "4933343970936344330",
+                "to": "7423992580442322154",
+                "event": "click<p id=15 class =\"com.google.android.apps.translate:id/translated_text\"> tamong,  </p>"
+            },
+            {
+                "from": "7423992580442322154",
+                "to": "2296216029651589579",
+                "event": "click<input id=6 class =\"com.google.android.apps.translate:id/original_text\"> enter,  </input>"
+            },
+            {
+                "from": "2296216029651589579",
+                "to": "2296216029651589579",
+                "event": "click<input id=5 class =\"com.google.android.apps.translate:id/text_input_field\"> enter,  </input>"
+            },
+            {
+                "from": "2296216029651589579",
+                "to": "4933343970936344330",
+                "event": "click<button id=7 class =\"com.google.android.apps.translate:id/text_output_field\"> tamong,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

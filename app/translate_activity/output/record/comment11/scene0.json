@@ -1,0 +1,65 @@
+[
+    {
+        "round": 1,
+        "comment": "It's too easy to misclick the handwriting mode with your thumb. Then when you try to switch back to keyboard - active window for enter stays on the top of display, but the keyboard appears on the moment and then you got full clear display with small entering window on top, which is very hard to reach especially on long display. Please fix both of this problem, it's very uncomfortable.",
+        "scenarios": [
+            "User accidentally switches to handwriting mode with a thumb misclick.",
+            "User tries to switch back to keyboard mode, but the active window for input stays at the top of the display. The keyboard initially appears but then disappears, leaving a clear display with a small input window at the top, which is difficult to reach, especially on a long display."
+        ],
+        "key sentence": "User accidentally switches to handwriting mode with a thumb misclick.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "251515d7e28a1c395982fa1a3f23ac41",
+        "the sub-task list of state": "[{'name': 'Handwriting', 'description': 'Switch to handwriting input mode'}, {'name': 'History', 'description': 'View translation history'}, {'name': 'Enter text', 'description': 'Input text for translation'}, {'name': 'Paste', 'description': 'Paste copied text'}, {'name': 'Swap languages', 'description': 'Switch between source and target languages'}, {'name': 'Albanian', 'description': 'Set Albanian as the target language'}, {'name': 'Arabic', 'description': 'Set Arabic as the target language'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment11\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment11\\scene0\\b9d3528850e9a316b3af2e022312377e.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "b9d3528850e9a316b3af2e022312377e"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment11\\scene0\\4f34ffc9c1798a671126b55f2fae3f6d.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4f34ffc9c1798a671126b55f2fae3f6d"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment11\\scene0\\251515d7e28a1c395982fa1a3f23ac41.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "251515d7e28a1c395982fa1a3f23ac41"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment11\\scene0\\705464398130832172.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "705464398130832172"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "b9d3528850e9a316b3af2e022312377e",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=f3f547e2be6a280f397b3ad8c6a7014b(TranslateActivity/Button-Paste:x66:y606))"
+            },
+            {
+                "from": "b9d3528850e9a316b3af2e022312377e",
+                "to": "4f34ffc9c1798a671126b55f2fae3f6d",
+                "event": "click(state=b9d3528850e9a316b3af2e022312377e, view=4c91a6386df6e541cce287a355be8c2e(TranslateActivity/Button-Speak tran:x30:y1956))"
+            },
+            {
+                "from": "4f34ffc9c1798a671126b55f2fae3f6d",
+                "to": "251515d7e28a1c395982fa1a3f23ac41",
+                "event": "click(state=4f34ffc9c1798a671126b55f2fae3f6d, view=25fb1c73b41351b601bb6324e05af865(TranslateActivity/Button-Copy trans:x775:y1956))"
+            },
+            {
+                "from": "251515d7e28a1c395982fa1a3f23ac41",
+                "to": "705464398130832172",
+                "event": "click<button id=3 class =\"com.google.android.apps.translate:id/item_handwriting\" alt=\"Handwriting\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

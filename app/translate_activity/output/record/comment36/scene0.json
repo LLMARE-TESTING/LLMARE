@@ -1,0 +1,311 @@
+[
+    {
+        "round": 1,
+        "comment": "Horrible new layout.. You've ruined the app.. Now I have to find an older version.. I think I have to turn off auto-updates because this keeps happening to me. I couldn't even see the language pairs properly because the fonts were cut off.",
+        "scenarios": [
+            "Couldn't see the language pairs properly because the fonts were cut off."
+        ],
+        "key sentence": "Couldn't see the language pairs properly because the fonts were cut off.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Navigate up', 'description': 'Go up one level or return to previous screen'}, {'name': 'History', 'description': 'View history of previous actions or translations'}, {'name': 'Handwriting', 'description': 'Access handwriting input for text entry'}, {'name': 'Enter text', 'description': 'Input text using the on-screen keyboard'}, {'name': 'Paste', 'description': 'Paste copied text into the current input field'}, {'name': 'Swap languages', 'description': 'Exchange the source and target languages'}, {'name': 'Select language (A)', 'description': 'Choose the source language for translation'}, {'name': 'Select language (B)', 'description': 'Choose the target language for translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\-5733799107687638521.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "-5733799107687638521"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\3480160523043054518.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "3480160523043054518"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\7374736806466759149.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "7374736806466759149"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\1910863821400921890.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "1910863821400921890"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\4129998673844015366.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "4129998673844015366"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\-202934697450171942.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "-202934697450171942"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\4977257435345506364.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "4977257435345506364"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\-4771811113085245264.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "-4771811113085245264"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\7051445234228701227.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "7051445234228701227"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\-1479736209536212438.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "-1479736209536212438"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "-5733799107687638521",
+                "event": "click<button id=8 class =\"com.google.android.apps.translate:id/language_button_a\"> Chinese (Simplified),  </button>"
+            },
+            {
+                "from": "-5733799107687638521",
+                "to": "3480160523043054518",
+                "event": "scroll down"
+            },
+            {
+                "from": "3480160523043054518",
+                "to": "7374736806466759149",
+                "event": "scroll down"
+            },
+            {
+                "from": "7374736806466759149",
+                "to": "1910863821400921890",
+                "event": "scroll down"
+            },
+            {
+                "from": "1910863821400921890",
+                "to": "4129998673844015366",
+                "event": "scroll down"
+            },
+            {
+                "from": "4129998673844015366",
+                "to": "-202934697450171942",
+                "event": "scroll down"
+            },
+            {
+                "from": "-202934697450171942",
+                "to": "4977257435345506364",
+                "event": "scroll down"
+            },
+            {
+                "from": "4977257435345506364",
+                "to": "-4771811113085245264",
+                "event": "scroll down"
+            },
+            {
+                "from": "-4771811113085245264",
+                "to": "7051445234228701227",
+                "event": "scroll down"
+            },
+            {
+                "from": "7051445234228701227",
+                "to": "-1479736209536212438",
+                "event": "scroll down"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Horrible new layout.. You've ruined the app.. Now I have to find an older version.. I think I have to turn off auto-updates because this keeps happening to me. I couldn't even see the language pairs properly because the fonts were cut off.",
+        "scenarios": [
+            "Couldn't see the language pairs properly because the fonts were cut off."
+        ],
+        "key sentence": "Couldn't see the language pairs properly because the fonts were cut off.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "9a9a74ecea6bed329effbd37c31bf348",
+        "the sub-task list of state": "[{'name': 'Close Settings', 'description': 'Close the settings window or menu'}, {'name': 'Make on-screen text smaller', 'description': 'Reduce the size of the on-screen text for better visibility'}, {'name': 'Make on-screen text larger', 'description': 'Increase the size of the on-screen text for better visibility'}, {'name': 'Auto playback', 'description': 'Enable or disable automatic reading of translations aloud after speaking'}, {'name': 'Send feedback', 'description': 'Provide feedback or suggestions about the screen content or functionality'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\-5733799107687638521.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "-5733799107687638521"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\3480160523043054518.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "3480160523043054518"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\7374736806466759149.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "7374736806466759149"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\1910863821400921890.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "1910863821400921890"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\4129998673844015366.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "4129998673844015366"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\-202934697450171942.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "-202934697450171942"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\4977257435345506364.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "4977257435345506364"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\-4771811113085245264.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "-4771811113085245264"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\7051445234228701227.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "7051445234228701227"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\-1479736209536212438.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "-1479736209536212438"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\9b7c15805532475387b4dc32a87d80ed.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "9b7c15805532475387b4dc32a87d80ed"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\226481ed7f29bc8a96dcce7f89c420e8.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "226481ed7f29bc8a96dcce7f89c420e8"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\9a9a74ecea6bed329effbd37c31bf348.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "9a9a74ecea6bed329effbd37c31bf348"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment36\\scene0\\-2931255747319477798.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-2931255747319477798"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "-5733799107687638521",
+                "event": "click<button id=8 class =\"com.google.android.apps.translate:id/language_button_a\"> Chinese (Simplified),  </button>"
+            },
+            {
+                "from": "-5733799107687638521",
+                "to": "3480160523043054518",
+                "event": "scroll down"
+            },
+            {
+                "from": "3480160523043054518",
+                "to": "7374736806466759149",
+                "event": "scroll down"
+            },
+            {
+                "from": "7374736806466759149",
+                "to": "1910863821400921890",
+                "event": "scroll down"
+            },
+            {
+                "from": "1910863821400921890",
+                "to": "4129998673844015366",
+                "event": "scroll down"
+            },
+            {
+                "from": "4129998673844015366",
+                "to": "-202934697450171942",
+                "event": "scroll down"
+            },
+            {
+                "from": "-202934697450171942",
+                "to": "4977257435345506364",
+                "event": "scroll down"
+            },
+            {
+                "from": "4977257435345506364",
+                "to": "-4771811113085245264",
+                "event": "scroll down"
+            },
+            {
+                "from": "-4771811113085245264",
+                "to": "7051445234228701227",
+                "event": "scroll down"
+            },
+            {
+                "from": "7051445234228701227",
+                "to": "-1479736209536212438",
+                "event": "scroll down"
+            },
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "9b7c15805532475387b4dc32a87d80ed",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=cf82f2647f332a31a519428d9a0454b5(TranslateActivity/Button-Conversati:x133:y1884))"
+            },
+            {
+                "from": "9b7c15805532475387b4dc32a87d80ed",
+                "to": "226481ed7f29bc8a96dcce7f89c420e8",
+                "event": "click(state=9b7c15805532475387b4dc32a87d80ed, view=c398d5fe9c997d38a2556f53ba4905ea(TranslateActivity/Button-Got it:x744:y1277))"
+            },
+            {
+                "from": "226481ed7f29bc8a96dcce7f89c420e8",
+                "to": "9a9a74ecea6bed329effbd37c31bf348",
+                "event": "click(state=226481ed7f29bc8a96dcce7f89c420e8, view=43e7fbc58f4cd07c1e684b3446c050fb(TranslateActivity/Button-Settings:x937:y105))"
+            },
+            {
+                "from": "9a9a74ecea6bed329effbd37c31bf348",
+                "to": "-2931255747319477798",
+                "event": "click<button id=9 class =\"com.google.android.apps.translate:id/higher\" alt=\"Make on screen text larger\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

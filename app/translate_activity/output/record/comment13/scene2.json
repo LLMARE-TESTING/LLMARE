@@ -1,0 +1,66 @@
+[
+    {
+        "round": 1,
+        "comment": "There's a bug with the app all of a sudden. Now when you press the mike button to speak, it vibrates but it's not transcribing. And if it doesn't transcribe, it can't translate either. I can't even type the text. It won't let me. And sometimes the copy paste doesn't work for the translation.",
+        "scenarios": [
+            "Press the microphone button to speak; the app vibrates but does not transcribe, and therefore cannot translate.",
+            "Cannot type the text for translation.",
+            "Sometimes the copy-paste function does not work for the translation."
+        ],
+        "key sentence": "Sometimes the copy-paste function does not work for the translation.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state6",
+        "the sub-task list of state": "[{'name': 'History', 'description': 'View translation history'}, {'name': 'Keyboard', 'description': 'Open virtual keyboard for text input'}, {'name': 'Enter text', 'description': 'Input text using the keyboard or other input methods'}, {'name': 'Paste', 'description': 'Insert copied text into the translation area'}, {'name': 'Swap languages', 'description': 'Switch the languages being translated'}, {'name': 'Select language', 'description': 'Choose the source or target language for translation'}, {'name': 'Handwriting input', 'description': 'Use handwriting recognition for text input'}, {'name': 'Undo', 'description': 'Reverse the last action performed'}, {'name': 'Space bar', 'description': 'Insert a space while using handwriting input'}, {'name': 'Backspace key', 'description': 'Delete the previous character or action'}, {'name': 'Show details', 'description': 'Display more information or options related to the translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment13\\scene2\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment13\\scene2\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment13\\scene2\\state6.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state6"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment13\\scene2\\-2729149320782984778.png",
+                "activity": "",
+                "state_str": "-2729149320782984778"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment13\\scene2\\-5213877587636595969.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-5213877587636595969"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "state6",
+                "event": "click(Button-Handwriting:[805,105][937,237])"
+            },
+            {
+                "from": "state6",
+                "to": "-2729149320782984778",
+                "event": "click<img id=4 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-2729149320782984778",
+                "to": "-5213877587636595969",
+                "event": "click<img id=0 class =\"com.google.android.apps.translate:id/icon\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

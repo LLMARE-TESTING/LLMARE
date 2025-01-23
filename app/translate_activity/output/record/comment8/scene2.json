@@ -1,0 +1,56 @@
+[
+    {
+        "round": 1,
+        "comment": "Do a fix already that you application time to time lags and crushes when I open it/start typing something/tap a sign \u9225\u6e03hange languge\u9225?and all other actions! This bug is take place more that ONE YEAR! The same error on 3 android devices Galaxy Note 10 plus, Tab s6, galaxy s9. Android of the 9th version. I have the latest version of ur program. This bug has taken place in each version within all releases of last year.",
+        "scenarios": [
+            "The application lags and crashes when the user opens it.",
+            "The application lags and crashes when the user starts typing something.",
+            "The application lags and crashes when the user taps the \"change language\" button."
+        ],
+        "key sentence": "The application lags and crashes when the user taps the \"change language\" button.",
+        "target activity": ".languagepicker.LanguagePickerActivity",
+        "the function of activity": "The activity facilitates user interactions: search contacts, access menus, translate text, download offline files, cancel actions, and confirm decisions.",
+        "target state": "b1318bbb23a1113677d8040c5b4078df",
+        "the sub-task list of state": "[{'name': 'Search', 'description': 'Search for a language'}, {'name': 'Download Offline Translation File', 'description': 'Download offline translation file for a specific language'}, {'name': 'Select Language', 'description': 'Choose a language for translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment8\\scene2\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment8\\scene2\\b1318bbb23a1113677d8040c5b4078df.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "b1318bbb23a1113677d8040c5b4078df"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment8\\scene2\\796789847178469462.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "796789847178469462"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment8\\scene2\\8527643817866577049.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "8527643817866577049"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "b1318bbb23a1113677d8040c5b4078df",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=445338357d585d5588a2c84fb52b11a0(TranslateActivity/Button-Bengali:x617:y1587))"
+            },
+            {
+                "from": "b1318bbb23a1113677d8040c5b4078df",
+                "to": "796789847178469462",
+                "event": "click<p id=10 class =\"android:id/text1\" alt=\"Selected Language: Chinese (Simplified)\"> Chinese (Simplified),  </p>"
+            },
+            {
+                "from": "796789847178469462",
+                "to": "8527643817866577049",
+                "event": "click<button id=8 class =\"com.google.android.apps.translate:id/language_button_a\"> English,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

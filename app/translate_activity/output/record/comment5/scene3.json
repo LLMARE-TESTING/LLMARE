@@ -1,0 +1,37 @@
+[
+    {
+        "round": 1,
+        "comment": "Very buggy recently. Does not show pin yin during chinese translations, tap to translate has persistent notif, screen shifts when accessing translate Update 03/03/2020: understand tap to translate security removal. But the fact that pin yin does not show in translationa from Chinese to eng still an issue. Also, when tapping text entry area, the area moves to the top of the screen with a slow animation, increasing user friction.",
+        "scenarios": [
+            "Pin yin does not show during Chinese to English translations.  ",
+            "Tap to translate has a persistent notification.  ",
+            "Screen shifts when accessing the translate feature.  ",
+            "Text entry area moves to the top of the screen with a slow animation when tapped."
+        ],
+        "key sentence": "Text entry area moves to the top of the screen with a slow animation when tapped.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "1e0a8968f43dbb61fd758c305c65c40a",
+        "the sub-task list of state": "[{'name': 'Saved', 'description': 'Access saved translations'}, {'name': 'Enter Text Label', 'description': 'Label for text input field'}, {'name': 'Paste Button', 'description': 'Button to paste text'}, {'name': 'Control Area Container', 'description': 'Container for control elements'}, {'name': 'Language Picker', 'description': 'Select languages for translation'}, {'name': 'Swap Languages Button', 'description': 'Button to swap input and output languages'}, {'name': 'Conversation Button', 'description': 'Button to start conversation mode'}, {'name': 'Camera Button', 'description': 'Button to access camera for translation'}, {'name': 'Start Dictation Button', 'description': 'Button to start speech dictation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment5\\scene3\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment5\\scene3\\3010464209881864339.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "3010464209881864339"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "3010464209881864339",
+                "event": "click<p id=6 class =\"com.google.android.apps.translate:id/enter_text_label\"> Enter text,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

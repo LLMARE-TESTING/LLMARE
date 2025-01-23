@@ -1,0 +1,173 @@
+[
+    {
+        "round": 1,
+        "comment": "What have you DONE and why?? I used this app frequently now I miss some of the features even before a history was listed down now you have to stop writing and hit a button that brings you to another window. To many clicks for a simple translation, history was all listed in one screen during writing. Not my favourite anymore!",
+        "scenarios": [
+            "Previously, a history of translations was listed down automatically during writing, allowing for easy reference without additional actions.  ",
+            "Now, users have to stop writing and hit a button that brings them to another window to access translation history, requiring too many clicks for a simple translation."
+        ],
+        "key sentence": "Now, users have to stop writing and hit a button that brings them to another window to access translation history, requiring too many clicks for a simple translation.",
+        "target activity": "com.google.android.apps.translate.pref.SettingsActivity",
+        "the function of activity": "The setting of 'Tap to Translate','Data usage','keyboard','voice region','voice speed','voice speech input'.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'More Options', 'description': \"Open additional options by clicking the 'More options' icon.\"}, {'name': 'Manage Activity', 'description': \"Manage your translation history by clicking the 'Manage activity' button.\"}, {'name': 'Tap to Translate Setting', 'description': \"The setting of 'Tap to Translate' feature.\"}, {'name': 'Data Usage Setting', 'description': 'Configure data usage settings by selecting this option.'}, {'name': 'Keyboard Settings', 'description': 'Adjust keyboard settings by selecting this option.'}, {'name': 'Voice Settings', 'description': 'Adjust voice settings by selecting this option.'}, {'name': 'Voice Region Settings', 'description': 'Configure voice region settings by selecting this option.'}, {'name': 'Voice Speed Settings', 'description': 'Adjust translation or speech speed settings by selecting this option.'}, {'name': 'Voice Speech Input', 'description': 'Configure voice speech input settings by selecting this option.'}, {'name': 'Version Info', 'description': 'View the version information of the application.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment20\\scene1\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment20\\scene1\\state5.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment20\\scene1\\state7.png",
+                "activity": "com.google.android.apps.translate.pref.SettingsActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment20\\scene1\\-2168856670147296425.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "-2168856670147296425"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment20\\scene1\\8952271950684431542.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "8952271950684431542"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state5",
+                "event": "click(ImageView-Signed in as ran Jin jinran848@gmail.com:[925,104][1080,237])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(TextView-Settings:[254,1249][970,1310])"
+            },
+            {
+                "from": "state7",
+                "to": "-2168856670147296425",
+                "event": "click<button id=14 class =\"com.google.android.apps.translate:id/history_management_button\"> Manage activity,  </button>"
+            },
+            {
+                "from": "-2168856670147296425",
+                "to": "8952271950684431542",
+                "event": "click<button id=8 class =\"xid('historyTabId')\"> History,  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "What have you DONE and why?? I used this app frequently now I miss some of the features even before a history was listed down now you have to stop writing and hit a button that brings you to another window. To many clicks for a simple translation, history was all listed in one screen during writing. Not my favourite anymore!",
+        "scenarios": [
+            "Previously, a history of translations was listed down automatically during writing, allowing for easy reference without additional actions.  ",
+            "Now, users have to stop writing and hit a button that brings them to another window to access translation history, requiring too many clicks for a simple translation."
+        ],
+        "key sentence": "Now, users have to stop writing and hit a button that brings them to another window to access translation history, requiring too many clicks for a simple translation.",
+        "target activity": "com.google.android.apps.translate.pref.SettingsActivity",
+        "the function of activity": "The setting of 'Tap to Translate','Data usage','keyboard','voice region','voice speed','voice speech input'.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'More Options', 'description': \"Open additional options by clicking the 'More options' icon.\"}, {'name': 'Manage Activity', 'description': \"Manage your translation history by clicking the 'Manage activity' button.\"}, {'name': 'Tap to Translate Setting', 'description': \"The setting of 'Tap to Translate' feature.\"}, {'name': 'Data Usage Setting', 'description': 'Configure data usage settings by selecting this option.'}, {'name': 'Keyboard Settings', 'description': 'Adjust keyboard settings by selecting this option.'}, {'name': 'Voice Settings', 'description': 'Adjust voice settings by selecting this option.'}, {'name': 'Voice Region Settings', 'description': 'Configure voice region settings by selecting this option.'}, {'name': 'Voice Speed Settings', 'description': 'Adjust translation or speech speed settings by selecting this option.'}, {'name': 'Voice Speech Input', 'description': 'Configure voice speech input settings by selecting this option.'}, {'name': 'Version Info', 'description': 'View the version information of the application.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment20\\scene1\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment20\\scene1\\state5.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment20\\scene1\\state7.png",
+                "activity": "com.google.android.apps.translate.pref.SettingsActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment20\\scene1\\-2168856670147296425.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "-2168856670147296425"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment20\\scene1\\8952271950684431542.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "8952271950684431542"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment20\\scene1\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment20\\scene1\\state5.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment20\\scene1\\state7.png",
+                "activity": "com.google.android.apps.translate.pref.SettingsActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment20\\scene1\\-3539666797526142082.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "-3539666797526142082"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment20\\scene1\\-406733458760386840.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "-406733458760386840"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state5",
+                "event": "click(ImageView-Signed in as ran Jin jinran848@gmail.com:[925,104][1080,237])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(TextView-Settings:[254,1249][970,1310])"
+            },
+            {
+                "from": "state7",
+                "to": "-2168856670147296425",
+                "event": "click<button id=14 class =\"com.google.android.apps.translate:id/history_management_button\"> Manage activity,  </button>"
+            },
+            {
+                "from": "-2168856670147296425",
+                "to": "8952271950684431542",
+                "event": "click<button id=8 class =\"xid('historyTabId')\"> History,  </button>"
+            },
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state5",
+                "event": "click(ImageView-Signed in as ran Jin jinran848@gmail.com:[925,104][1080,237])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(TextView-Settings:[254,1249][970,1310])"
+            },
+            {
+                "from": "state7",
+                "to": "-3539666797526142082",
+                "event": "click<button id=14 class =\"com.google.android.apps.translate:id/history_management_button\"> Manage activity,  </button>"
+            },
+            {
+                "from": "-3539666797526142082",
+                "to": "-406733458760386840",
+                "event": "click<button id=8 class =\"xid('historyTabId')\"> History,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]
