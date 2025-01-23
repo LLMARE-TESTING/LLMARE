@@ -1,0 +1,65 @@
+[
+    {
+        "round": 1,
+        "comment": "I enjoy using Google Photos overall, but there is room for improvement. One feature I would like to see added is the ability to view all the folders I've got my photos organized in, and the ability to sort the folders in alphabetical order. I can get to my photos via the \"Library\", but I can't the folders are not sorry in alphabetical order. So I have to scroll through the list until I find the folder I'm looking for. It would also be good to be able to sort them in selectable date order.",
+        "scenarios": [
+            "Navigate to the \"Library\" to view photos, but the folders are not sorted in alphabetical order, requiring the user to scroll through the list to find a specific folder.",
+            "Sort folders in selectable date order."
+        ],
+        "key sentence": "Sort folders in selectable date order.",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "e7293860b66c73e5472ed81051e992dd",
+        "the sub-task list of state": "[{'name': 'Library Page', 'description': 'Access library page.'}, {'name': 'View floder of backup pictures', 'description': 'View backup pictures in floder camera.'}, {'name': 'View Favorite floder', 'description': 'View Favorite floder'}, {'name': 'View Archive floder', 'description': 'View archive floder'}, {'name': 'View Locked floder', 'description': 'View locked floder'}, {'name': 'View Trash floder', 'description': 'View Trash floder'}, {'name': 'Create new album', 'description': 'Create a new album for organizing photos'}, {'name': 'Share album', 'description': 'Share an album with others'}, {'name': 'Delete album', 'description': 'Delete an existing album'}, {'name': 'Sort albums', 'description': 'Sort albums based on different criteria (e.g., date, name)'}, {'name': 'Account settings', 'description': 'Access and manage account settings'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene1\\e7293860b66c73e5472ed81051e992dd.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "e7293860b66c73e5472ed81051e992dd"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene1\\8422096304111902464.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "8422096304111902464"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene1\\6412458173185135653.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "6412458173185135653"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene1\\6162559782738907780.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "6162559782738907780"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "e7293860b66c73e5472ed81051e992dd",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=509b7bbe0ba0576daba0dd86d2183f27(HomeActivity/Button-Library:x540:y1928))"
+            },
+            {
+                "from": "e7293860b66c73e5472ed81051e992dd",
+                "to": "8422096304111902464",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "8422096304111902464",
+                "to": "6412458173185135653",
+                "event": "click<div id=1 alt=\"View as list\">  </div>"
+            },
+            {
+                "from": "6412458173185135653",
+                "to": "6162559782738907780",
+                "event": "click<p id=0> Last modified,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

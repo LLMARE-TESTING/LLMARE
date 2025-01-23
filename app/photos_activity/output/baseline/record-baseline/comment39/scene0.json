@@ -1,0 +1,126 @@
+[
+    {
+        "round": 18,
+        "comment": "The app was good for a while. But the loss of a key feature has made it difficult to enjoy using. We could once select which album(s) on our phone we wanted to back up to photos, now everything is automatically uploaded and saved under \"Camera\" with pictures/vids you DIDN'T want saved now saved and its frustrating. Cause if you send them to trash it will delete them from your phone. I sent feedback about it and never got a reply. That one feature loss screwed this app up for me.",
+        "scenarios": [
+            "Selecting specific albums on the phone to back up to the app instead of automatic uploads.  ",
+            "Managing photos/vids that were not intended to be saved, leading to frustration.  ",
+            "Deleting items from the app's trash that also removes them from the phone."
+        ],
+        "key sentence": "Selecting specific albums on the phone to back up to the app instead of automatic uploads.  ",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\9196250197343569419.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "9196250197343569419"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\396595707160318670.png",
+                "activity": "com.google.android.apps.photos.settings.SettingsActivityV2}",
+                "state_str": "396595707160318670"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\-2545476741453450888.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-2545476741453450888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\79952453030376750.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "79952453030376750"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\-2543133396598339467.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-2543133396598339467"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\3470008492181866975.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "3470008492181866975"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\-2543133396598339467.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-2543133396598339467"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\-497193114735489088.png",
+                "activity": "",
+                "state_str": "-497193114735489088"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\5331771017308540395.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "5331771017308540395"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "9196250197343569419",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "9196250197343569419",
+                "to": "396595707160318670",
+                "event": "click<p id=20 class =\"com.google.android.apps.photos:id/og_text_card_title\"> Photos settings,  </p>"
+            },
+            {
+                "from": "396595707160318670",
+                "to": -2545476741453450888,
+                "event": "back"
+            },
+            {
+                "from": -2545476741453450888,
+                "to": "2694856776442896546",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "79952453030376750",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "79952453030376750",
+                "to": "-2543133396598339467",
+                "event": "click<div id=9 alt=\"Create album\">  </div>"
+            },
+            {
+                "from": "-2543133396598339467",
+                "to": "3470008492181866975",
+                "event": "click<p id=13 class =\"com.google.android.apps.photos:id/button_title\"> Select photos,  </p>"
+            },
+            {
+                "from": "3470008492181866975",
+                "to": -2543133396598339467,
+                "event": "back"
+            },
+            {
+                "from": -2543133396598339467,
+                "to": "-497193114735489088",
+                "event": "click<img id=7 class =\"com.google.android.apps.photos:id/photos_overflow_icon\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-497193114735489088",
+                "to": "5331771017308540395",
+                "event": "click<p id=3 class =\"com.google.android.apps.photos:id/action_bar_overflow_menu_item_title\"> Options,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

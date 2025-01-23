@@ -1,0 +1,85 @@
+[
+    {
+        "comment": "A simple feature as cropping a video turns the saved video into pixelated garbage. I can't believe this hasn't been fixed yet. There has been at least half a dozen updates since I first sent a report about this. I can't be the only one that is getting this problem or nobody gives a shitto fix it. I'll stick with Samsung gallery photo editor it works fine.",
+        "key sentence": "Crop a video and save it, resulting in the saved video becoming pixelated.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [],
+        "operations": [],
+        "Final answer": ""
+    },
+    {
+        "round": 2,
+        "comment": "A simple feature as cropping a video turns the saved video into pixelated garbage. I can't believe this hasn't been fixed yet. There has been at least half a dozen updates since I first sent a report about this. I can't be the only one that is getting this problem or nobody gives a shitto fix it. I'll stick with Samsung gallery photo editor it works fine.",
+        "scenarios": [
+            "Crop a video and save it, resulting in the saved video becoming pixelated."
+        ],
+        "key sentence": "Crop a video and save it, resulting in the saved video becoming pixelated.",
+        "target activity": ".photoeditor.fragments.activity.VideoPhotoEditorActivity",
+        "the function of activity": "The activity involves editing vedioss, playing videos, trimming and muting videos, stabilizing videos, exporting frames, changing tabs, cancelling operations, and saving edited copies.",
+        "target state": "state28",
+        "the sub-task list of state": "[{'name': 'Crop Vedio', 'description': 'Adjust the boundaries of the Vedio to focus on a specific area'}, {'name': 'Rotate Vedio', 'description': 'Rotate the vedio clockwise or counter-clockwise'}, {'name': 'Adjust Aspect Ratio', 'description': 'Change the aspect ratio of the vedio'}, {'name': 'Reset Crop', 'description': 'Reset the cropping boundaries to their original position'}, {'name': 'Change to Video Tab', 'description': 'Switch to the video editing tab'}, {'name': 'Change to Crop Tab', 'description': 'Switch to the crop editing tab'}, {'name': 'Change to Adjust Tab', 'description': 'Switch to the adjust editing tab'}, {'name': 'Change to Effects Tab', 'description': 'Switch to the effects editing tab'}, {'name': 'Cancel Editing', 'description': 'Discard any changes and exit the editing mode'}, {'name': 'Save Copy', 'description': 'Save the edited vedio as a copy without altering the original'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\2bf2129a216d44c43d9582405daea4d6.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2bf2129a216d44c43d9582405daea4d6"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\455b9f0c7c955e9c8f56a725297d2b2e.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "455b9f0c7c955e9c8f56a725297d2b2e"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\state27.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.VideoPhotoEditorActivity}",
+                "state_str": "state27"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\state28.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.VideoPhotoEditorActivity}",
+                "state_str": "state28"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\-4584693674307815047.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.VideoPhotoEditorActivity}",
+                "state_str": "-4584693674307815047"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "2bf2129a216d44c43d9582405daea4d6",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=81a0e69badae53d8d68074a18e207d00(HomeActivity/ImageView-Video take:x0:y1010))"
+            },
+            {
+                "from": "2bf2129a216d44c43d9582405daea4d6",
+                "to": "455b9f0c7c955e9c8f56a725297d2b2e",
+                "event": "click(state=2bf2129a216d44c43d9582405daea4d6, view=10af35da841bbb2aecc619e81a2cc7da(HomeActivity/FrameLayout-:x0:y0))"
+            },
+            {
+                "from": "455b9f0c7c955e9c8f56a725297d2b2e",
+                "to": "state27",
+                "event": "click(android.widget.ImageView-com.google.android.apps.photos:id/edit:[462,1993][616,2148])"
+            },
+            {
+                "from": "state27",
+                "to": "state28",
+                "event": "click(android.widget.TextView-Change to crop tab:[653,1868][865,1966])"
+            },
+            {
+                "from": "state28",
+                "to": "-4584693674307815047",
+                "event": "click<button id=25 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_save\"> Save copy,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

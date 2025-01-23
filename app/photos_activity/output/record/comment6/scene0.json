@@ -1,0 +1,45 @@
+[
+    {
+        "round": 1,
+        "comment": "They changed the memories feature this Fall 2023 to be substantially worse. I used to love the memories at the top, now the dedicated menu at the bottom is so bad and doesn't have the 1 year ago, 2 years ago ... features I really used to enjoy.",
+        "scenarios": [
+            "Attempt to view the \"memories\" feature, which has changed from being displayed at the top to a dedicated menu at the bottom.",
+            "Try to access the \"1 year ago, 2 years ago...\" feature within the \"memories\" that the user used to enjoy, which is now missing."
+        ],
+        "key sentence": "Attempt to view the \"memories\" feature, which has changed from being displayed at the top to a dedicated menu at the bottom.",
+        "target activity": ".envelope.AlbumActivity",
+        "the function of activity": "add pictures to memory,edit memory.",
+        "target state": "state16",
+        "the sub-task list of state": "[{'name': 'Add description', 'description': 'Add a description to memory.'}, {'name': 'Share Memory', 'description': 'Share memory.'}, {'name': 'Add photos', 'description': 'Add photos to memory'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\f58d07b2dc774e14e82a3c9db70eba73.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "f58d07b2dc774e14e82a3c9db70eba73"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\state16.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "state16"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "f58d07b2dc774e14e82a3c9db70eba73",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=52242917a0bacb3c7ea0ec114c61d575(HomeActivity/Button-Memories:x270:y1928))"
+            },
+            {
+                "from": "f58d07b2dc774e14e82a3c9db70eba73",
+                "to": "state16",
+                "event": "click(ImageView-com.google.android.apps.photos:id/spotlight_image:[0,303][1080,1653])"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,535 @@
+[
+    {
+        "round": 1,
+        "comment": "If the option 'Save to SD card' in the stock camera app is turned on, every picture I take is rotated 90 degrees to the left when I view it. If I press on the preview really quick after taking a picture I see the image with correct orientation and the text 'Processing photo' for a short moment. After that the image is rotated. The thumbnail in the gallery app shows the picture upright, but when I open it to show full screen, the image automatically rotates to the left again.",
+        "scenarios": [
+            "The thumbnail of the picture in the gallery app shows the picture upright."
+        ],
+        "key sentence": "The thumbnail of the picture in the gallery app shows the picture upright.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-1310266658379120280.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1310266658379120280"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\290781514662626337.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "290781514662626337"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\290781514662626337.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "290781514662626337"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-1310266658379120280",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 29, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "-1310266658379120280",
+                "to": -8377347787560832794,
+                "event": "back"
+            },
+            {
+                "from": -8377347787560832794,
+                "to": "290781514662626337",
+                "event": "click<img id=10 alt=\"Photo taken on Jun 14, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "290781514662626337",
+                "to": -8377347787560832794,
+                "event": "back"
+            },
+            {
+                "from": -8377347787560832794,
+                "to": "290781514662626337",
+                "event": "click<img id=10 alt=\"Photo taken on Jun 14, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "290781514662626337",
+                "to": -8377347787560832794,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    }
+][
+    {
+        "round": 2,
+        "comment": "If the option 'Save to SD card' in the stock camera app is turned on, every picture I take is rotated 90 degrees to the left when I view it. If I press on the preview really quick after taking a picture I see the image with correct orientation and the text 'Processing photo' for a short moment. After that the image is rotated. The thumbnail in the gallery app shows the picture upright, but when I open it to show full screen, the image automatically rotates to the left again.",
+        "scenarios": [
+            "The thumbnail of the picture in the gallery app shows the picture upright."
+        ],
+        "key sentence": "The thumbnail of the picture in the gallery app shows the picture upright.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-1310266658379120280.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1310266658379120280"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\290781514662626337.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "290781514662626337"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\290781514662626337.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "290781514662626337"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-1310266658379120280.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1310266658379120280"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-1310266658379120280.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1310266658379120280"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-1310266658379120280.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1310266658379120280"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-1310266658379120280.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1310266658379120280"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-1310266658379120280.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1310266658379120280"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\7439492222360442917.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "7439492222360442917"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-1310266658379120280",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 29, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "-1310266658379120280",
+                "to": -8377347787560832794,
+                "event": "back"
+            },
+            {
+                "from": -8377347787560832794,
+                "to": "290781514662626337",
+                "event": "click<img id=10 alt=\"Photo taken on Jun 14, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "290781514662626337",
+                "to": -8377347787560832794,
+                "event": "back"
+            },
+            {
+                "from": -8377347787560832794,
+                "to": "290781514662626337",
+                "event": "click<img id=10 alt=\"Photo taken on Jun 14, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "290781514662626337",
+                "to": -8377347787560832794,
+                "event": "back"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-1310266658379120280",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 29, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "-1310266658379120280",
+                "to": "-8377347787560832794",
+                "event": "click<button id=3 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-8377347787560832794",
+                "to": "-1310266658379120280",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 29, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "-1310266658379120280",
+                "to": "-8377347787560832794",
+                "event": "click<button id=3 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-8377347787560832794",
+                "to": "-1310266658379120280",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 29, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "-1310266658379120280",
+                "to": -8377347787560832794,
+                "event": "back"
+            },
+            {
+                "from": -8377347787560832794,
+                "to": "-1310266658379120280",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 29, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "-1310266658379120280",
+                "to": -8377347787560832794,
+                "event": "back"
+            },
+            {
+                "from": -8377347787560832794,
+                "to": "-1310266658379120280",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 29, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "-1310266658379120280",
+                "to": "7439492222360442917",
+                "event": "click<img id=2 class =\"com.google.android.apps.photos:id/photos_photofragment_components_background_photo_view\" alt=\"Photo taken on Jun 29, 2024 3:22 PM\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+][
+    {
+        "round": 3,
+        "comment": "If the option 'Save to SD card' in the stock camera app is turned on, every picture I take is rotated 90 degrees to the left when I view it. If I press on the preview really quick after taking a picture I see the image with correct orientation and the text 'Processing photo' for a short moment. After that the image is rotated. The thumbnail in the gallery app shows the picture upright, but when I open it to show full screen, the image automatically rotates to the left again.",
+        "scenarios": [
+            "The thumbnail of the picture in the gallery app shows the picture upright."
+        ],
+        "key sentence": "The thumbnail of the picture in the gallery app shows the picture upright.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-1310266658379120280.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1310266658379120280"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\290781514662626337.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "290781514662626337"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\290781514662626337.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "290781514662626337"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-1310266658379120280.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1310266658379120280"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-1310266658379120280.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1310266658379120280"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-1310266658379120280.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1310266658379120280"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-1310266658379120280.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1310266658379120280"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-1310266658379120280.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1310266658379120280"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\7439492222360442917.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "7439492222360442917"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-1310266658379120280.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1310266658379120280"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-1310266658379120280.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1310266658379120280"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-1310266658379120280.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1310266658379120280"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene0\\-8377347787560832794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8377347787560832794"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-1310266658379120280",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 29, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "-1310266658379120280",
+                "to": -8377347787560832794,
+                "event": "back"
+            },
+            {
+                "from": -8377347787560832794,
+                "to": "290781514662626337",
+                "event": "click<img id=10 alt=\"Photo taken on Jun 14, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "290781514662626337",
+                "to": -8377347787560832794,
+                "event": "back"
+            },
+            {
+                "from": -8377347787560832794,
+                "to": "290781514662626337",
+                "event": "click<img id=10 alt=\"Photo taken on Jun 14, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "290781514662626337",
+                "to": -8377347787560832794,
+                "event": "back"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-1310266658379120280",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 29, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "-1310266658379120280",
+                "to": "-8377347787560832794",
+                "event": "click<button id=3 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-8377347787560832794",
+                "to": "-1310266658379120280",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 29, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "-1310266658379120280",
+                "to": "-8377347787560832794",
+                "event": "click<button id=3 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-8377347787560832794",
+                "to": "-1310266658379120280",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 29, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "-1310266658379120280",
+                "to": -8377347787560832794,
+                "event": "back"
+            },
+            {
+                "from": -8377347787560832794,
+                "to": "-1310266658379120280",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 29, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "-1310266658379120280",
+                "to": -8377347787560832794,
+                "event": "back"
+            },
+            {
+                "from": -8377347787560832794,
+                "to": "-1310266658379120280",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 29, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "-1310266658379120280",
+                "to": "7439492222360442917",
+                "event": "click<img id=2 class =\"com.google.android.apps.photos:id/photos_photofragment_components_background_photo_view\" alt=\"Photo taken on Jun 29, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-1310266658379120280",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 29, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "-1310266658379120280",
+                "to": "-8377347787560832794",
+                "event": "click<button id=3 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-8377347787560832794",
+                "to": "-8377347787560832794",
+                "event": "click<div id=2 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            },
+            {
+                "from": "-8377347787560832794",
+                "to": "-1310266658379120280",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 29, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "-1310266658379120280",
+                "to": "-8377347787560832794",
+                "event": "click<button id=3 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-8377347787560832794",
+                "to": "-1310266658379120280",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 29, 2024 3:22 PM\">  </img>"
+            },
+            {
+                "from": "-1310266658379120280",
+                "to": -8377347787560832794,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    }
+]

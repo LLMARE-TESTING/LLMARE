@@ -1,0 +1,105 @@
+[
+    {
+        "round": 1,
+        "comment": "Stop the Music!! I want the memories feature but the overdubbing of music is AWFUL. Can't hear my videos because of it. Please, please, \u9983\u6ab9, give us a way to turn this off.",
+        "scenarios": [
+            "Using the \"memories\" feature and experiencing music overdubbing.",
+            "Attempting to hear videos but being unable to because of the music overdubbing.",
+            "Requesting a way to turn off the music overdubbing feature."
+        ],
+        "key sentence": "Requesting a way to turn off the music overdubbing feature.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment33\\scene0\\scene1\\scene2\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment33\\scene0\\scene1\\scene2\\3899094444557313125.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "3899094444557313125"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "3899094444557313125",
+                "event": "click<button id=17 class =\"com.google.android.apps.photos:id/tab_memories\"> Memories,  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 24,
+        "comment": "Stop the Music!! I want the memories feature but the overdubbing of music is AWFUL. Can't hear my videos because of it. Please, please, \u9983\u6ab9, give us a way to turn this off.",
+        "scenarios": [
+            "Using the \"memories\" feature and experiencing music overdubbing.",
+            "Attempting to hear videos but being unable to because of the music overdubbing.",
+            "Requesting a way to turn off the music overdubbing feature."
+        ],
+        "key sentence": "Requesting a way to turn off the music overdubbing feature.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment33\\scene0\\scene1\\scene2\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment33\\scene0\\scene1\\scene2\\3899094444557313125.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "3899094444557313125"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment33\\scene0\\scene1\\scene2\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment33\\scene0\\scene1\\scene2\\3899094444557313125.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "3899094444557313125"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment33\\scene0\\scene1\\scene2\\-1038470297095881920.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1038470297095881920"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment33\\scene0\\scene1\\scene2\\-2381195042246234349.png",
+                "activity": "com.google.android.apps.photos.settings.SettingsActivityV2}",
+                "state_str": "-2381195042246234349"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "3899094444557313125",
+                "event": "click<button id=17 class =\"com.google.android.apps.photos:id/tab_memories\"> Memories,  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "3899094444557313125",
+                "event": "click<button id=17 class =\"com.google.android.apps.photos:id/tab_memories\"> Memories,  </button>"
+            },
+            {
+                "from": "3899094444557313125",
+                "to": "-1038470297095881920",
+                "event": "click<button id=12 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Backup is off.&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "-1038470297095881920",
+                "to": "-2381195042246234349",
+                "event": "click<p id=21 class =\"com.google.android.apps.photos:id/og_text_card_title\"> Photos settings,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

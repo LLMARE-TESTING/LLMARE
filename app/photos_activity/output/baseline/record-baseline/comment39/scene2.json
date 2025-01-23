@@ -1,0 +1,76 @@
+[
+    {
+        "round": 9,
+        "comment": "The app was good for a while. But the loss of a key feature has made it difficult to enjoy using. We could once select which album(s) on our phone we wanted to back up to photos, now everything is automatically uploaded and saved under \"Camera\" with pictures/vids you DIDN'T want saved now saved and its frustrating. Cause if you send them to trash it will delete them from your phone. I sent feedback about it and never got a reply. That one feature loss screwed this app up for me.",
+        "scenarios": [
+            "Selecting specific albums on the phone to back up to the app instead of automatic uploads.  ",
+            "Managing photos/vids that were not intended to be saved, leading to frustration.  ",
+            "Deleting items from the app's trash that also removes them from the phone."
+        ],
+        "key sentence": "Deleting items from the app's trash that also removes them from the phone.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\scene1\\scene2\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\scene1\\scene2\\9196250197343569419.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "9196250197343569419"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\scene1\\scene2\\-1387278956332582707.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "-1387278956332582707"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\scene1\\scene2\\2697629858148322660.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "2697629858148322660"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\scene1\\scene2\\2697629858148322660.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "2697629858148322660"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment39\\scene0\\scene1\\scene2\\-2931062436345221881.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-2931062436345221881"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "9196250197343569419",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "9196250197343569419",
+                "to": "-1387278956332582707",
+                "event": "click<p id=21 class =\"com.google.android.apps.photos:id/og_text_card_title\"> Help &amp; feedback,  </p>"
+            },
+            {
+                "from": "-1387278956332582707",
+                "to": "2697629858148322660",
+                "event": "click<p id=19 class =\"com.google.android.gms:id/gh_feedback_text\"> Send feedback,  </p>"
+            },
+            {
+                "from": "2697629858148322660",
+                "to": "2697629858148322660",
+                "event": "click<div id=1 alt=\"Send feedback to Google\">  </div>"
+            },
+            {
+                "from": "2697629858148322660",
+                "to": "-2931062436345221881",
+                "event": "click<button id=2 alt=\"Close Feedback\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

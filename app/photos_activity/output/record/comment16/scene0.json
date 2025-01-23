@@ -1,0 +1,65 @@
+[
+    {
+        "round": 1,
+        "comment": "Usually good, but every update breaks it more. After editing photos, either with the markup tool or by cropping them, I can't save the changes. The \"done\" button exists, but nothing happens when you press it. Can't uninstall/reinstall as it's a system app. Tried force stopping it and clearing the cache. Nope. I wish there was the option to install the previous version of the app.",
+        "scenarios": [
+            "After editing photos, either with the markup tool or by cropping them, the user can't save the changes because pressing the \"done\" button does not have any effect.\n",
+            "The user can't uninstall/reinstall the app as it is a system app and has tried force stopping it and clearing the cache to no effect."
+        ],
+        "key sentence": "After editing photos, either with the markup tool or by cropping them, the user can't save the changes because pressing the \"done\" button does not have any effect.\n",
+        "target activity": ".photoeditor.fragments.activity.PhotoEditorActivity",
+        "the function of activity": "An image editing tool with functions to search contacts, open menus, apply blur, remove parts, edit sky, switch tabs, cancel, save, adjust, add text, rotate, resize, adjust brightness, apply filters, undo, and redo.",
+        "target state": "9e029c6e3ddcf7232f1f599e43b207c1",
+        "the sub-task list of state": "[{'name': 'Search', 'description': 'Search for a contact'}, {'name': 'Open Menu', 'description': 'Access the menu options'}, {'name': 'Upload Photo', 'description': 'Select and upload a photo to edit'}, {'name': 'Apply Filters', 'description': 'Choose and apply filters to the photo'}, {'name': 'Adjust Settings', 'description': 'Adjust brightness, contrast, and other settings'}, {'name': 'Crop Image', 'description': 'Crop the photo to the desired dimensions'}, {'name': 'Add Text', 'description': 'Insert text onto the photo'}, {'name': 'Draw or Doodle', 'description': 'Draw or add doodles to the photo'}, {'name': 'Save Changes', 'description': 'Save the edited photo'}, {'name': 'Cancel Editing', 'description': 'Cancel and discard any changes made to the photo'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment16\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment16\\scene0\\5309a201b0e8b320234b13f3aca179de.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "5309a201b0e8b320234b13f3aca179de"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment16\\scene0\\9e029c6e3ddcf7232f1f599e43b207c1.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "9e029c6e3ddcf7232f1f599e43b207c1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment16\\scene0\\-1671921473275868405.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-1671921473275868405"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment16\\scene0\\-1671921473275868405.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-1671921473275868405"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "5309a201b0e8b320234b13f3aca179de",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=08bc7c8154b5c2ab796d26d767a03541(HomeActivity/ImageView-Photo take:x0:y1373))"
+            },
+            {
+                "from": "5309a201b0e8b320234b13f3aca179de",
+                "to": "9e029c6e3ddcf7232f1f599e43b207c1",
+                "event": "click(state=5309a201b0e8b320234b13f3aca179de, view=76247ff6f57ef311b4b61a661f433449(HomeActivity/ImageView-Edit:x337:y1993))"
+            },
+            {
+                "from": "9e029c6e3ddcf7232f1f599e43b207c1",
+                "to": "-1671921473275868405",
+                "event": "click<p id=15 alt=\"Change to crop tab\"> Crop,  </p>"
+            },
+            {
+                "from": "-1671921473275868405",
+                "to": "-1671921473275868405",
+                "event": "click<button id=25 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_save\"> Save,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

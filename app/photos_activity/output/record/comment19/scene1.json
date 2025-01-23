@@ -1,0 +1,135 @@
+[
+    {
+        "round": 1,
+        "comment": "Update: now the memories tab has taking over for sharing on the bottom. I don't want auto-curated memory albums. Allow us to keep the sharing portion as one of the main tabs. Terrible update. Terrible new logo. The editing is now a complicated mess to navigate. Each type of adjustment is now separated in a horizontal scrolling menu so you have to slide back and forth as you try to make adjustments. Go back to the single view of the adjustment sliders so we can actually see what we're doing!",
+        "scenarios": [
+            "The memories tab has taken over the sharing portion, and the user wants sharing to remain a main tab instead of auto-curated memory albums.",
+            "The user finds the new editing process complicated and prefers a single view of adjustment sliders rather than a horizontal scrolling menu."
+        ],
+        "key sentence": "The user finds the new editing process complicated and prefers a single view of adjustment sliders rather than a horizontal scrolling menu.",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state20",
+        "the sub-task list of state": "[{'name': 'Add to album', 'description': 'Add this photo to an album'}, {'name': 'Move to Archive', 'description': 'Move this photo to archive'}, {'name': 'Delete from device', 'description': 'Delete this photo from the device'}, {'name': 'Create', 'description': 'Create something related to this photo'}, {'name': 'Move to Locked Folder', 'description': 'Move this photo to a locked folder'}, {'name': 'Edit', 'description': 'Edit the date/time of the photo'}, {'name': 'Add a caption', 'description': 'Add a caption to this photo'}, {'name': 'Effects', 'description': 'Apply effects to this photo'}, {'name': 'Search Inside this Photo', 'description': 'Search text inside the photo.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment19\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment19\\scene1\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment19\\scene1\\state20.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state20"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment19\\scene1\\2478607051471589843.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2478607051471589843"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment19\\scene1\\952884237169546186.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "952884237169546186"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment19\\scene1\\2478607051471589843.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2478607051471589843"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment19\\scene1\\2478607051471589843.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2478607051471589843"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment19\\scene1\\952884237169546186.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "952884237169546186"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment19\\scene1\\2478607051471589843.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2478607051471589843"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment19\\scene1\\952884237169546186.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "952884237169546186"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment19\\scene1\\2478607051471589843.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2478607051471589843"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment19\\scene1\\952884237169546186.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "952884237169546186"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "state20",
+                "event": "click(ImageView-More options:[964,94][1063,248])"
+            },
+            {
+                "from": "state20",
+                "to": "2478607051471589843",
+                "event": "click<img id=11 class =\"com.google.android.apps.photos:id/edit_button\" alt=\"Edit the date/time of the media.\">  </img>"
+            },
+            {
+                "from": "2478607051471589843",
+                "to": "952884237169546186",
+                "event": "scroll down"
+            },
+            {
+                "from": "952884237169546186",
+                "to": "2478607051471589843",
+                "event": "click<img id=11 class =\"com.google.android.apps.photos:id/edit_button\" alt=\"Edit the date/time of the media.\">  </img>"
+            },
+            {
+                "from": "2478607051471589843",
+                "to": "2478607051471589843",
+                "event": "click<p id=2 class =\"com.google.android.apps.photos:id/bulk_edits_title\"> Edit date &amp; time,  </p>"
+            },
+            {
+                "from": "2478607051471589843",
+                "to": 952884237169546186,
+                "event": "back"
+            },
+            {
+                "from": 952884237169546186,
+                "to": "2478607051471589843",
+                "event": "click<img id=11 class =\"com.google.android.apps.photos:id/edit_button\" alt=\"Edit the date/time of the media.\">  </img>"
+            },
+            {
+                "from": "2478607051471589843",
+                "to": 952884237169546186,
+                "event": "back"
+            },
+            {
+                "from": 952884237169546186,
+                "to": "2478607051471589843",
+                "event": "click<img id=11 class =\"com.google.android.apps.photos:id/edit_button\" alt=\"Edit the date/time of the media.\">  </img>"
+            },
+            {
+                "from": "2478607051471589843",
+                "to": 952884237169546186,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    }
+]

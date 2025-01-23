@@ -1,0 +1,46 @@
+[
+    {
+        "round": 1,
+        "comment": "If the option 'Save to SD card' in the stock camera app is turned on, every picture I take is rotated 90 degrees to the left when I view it. If I press on the preview really quick after taking a picture I see the image with correct orientation and the text 'Processing photo' for a short moment. After that the image is rotated. The thumbnail in the gallery app shows the picture upright, but when I open it to show full screen, the image automatically rotates to the left again.",
+        "scenarios": [
+            "Taking a picture with the 'Save to SD card' option turned on results in the image being rotated 90 degrees to the left when viewed in full screen.  ",
+            "Seeing the correct orientation briefly with the text 'Processing photo' after pressing the preview quickly after taking a picture.  ",
+            "Viewing the thumbnail in the gallery app shows the picture upright, but it rotates to the left when opened in full screen."
+        ],
+        "key sentence": "Viewing the thumbnail in the gallery app shows the picture upright, but it rotates to the left when opened in full screen.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene2\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene2\\-6835800819847816149.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-6835800819847816149"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene2\\-8042734819282671.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-8042734819282671"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-6835800819847816149",
+                "event": "click<div id=2 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            },
+            {
+                "from": "-6835800819847816149",
+                "to": "-8042734819282671",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/photo_pager\">  </div>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

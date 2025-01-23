@@ -1,0 +1,125 @@
+[
+    {
+        "round": 1,
+        "comment": "10/19/21 Addition to my review, the archive feature is nice, but it would be great to be able to lock archived photos. With this last update to fix save changes feature, now, after editing when you hit done, it comes up instead of save, it says save copy... Ok, I don't want to save copy, that used to be a feature you could choose, and I did occasionally. No, your only choice is \" save copy\" ... Ok, but it doesn't work. It says \" unable to save changes\" and it spins and spins!!!!!!!",
+        "scenarios": [
+            "Ability to lock archived photos.",
+            "Editing a photo leads to \"save copy\" option instead of \"save,\" but it results in \"unable to save changes\" error and the app spins."
+        ],
+        "key sentence": "Editing a photo leads to \"save copy\" option instead of \"save,\" but it results in \"unable to save changes\" error and the app spins.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene1\\-3829212396954816019.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-3829212396954816019"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene1\\-3829212396954816019.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-3829212396954816019"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene1\\5935767244118584764.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "5935767244118584764"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene1\\7271204994434529497.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7271204994434529497"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene1\\-6118383896878166948.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-6118383896878166948"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene1\\-5643647402820654808.png",
+                "activity": "com.google.android.apps.photos.movies.v3.activity.MovieEditorActivity}",
+                "state_str": "-5643647402820654808"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene1\\5532510616075143681.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "5532510616075143681"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene1\\4831620223253907025.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "4831620223253907025"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene1\\-5688194788750045669.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5688194788750045669"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene1\\-6396970580470867861.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-6396970580470867861"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": -3829212396954816019,
+                "event": "back"
+            },
+            {
+                "from": -3829212396954816019,
+                "to": "-3829212396954816019",
+                "event": "click<button id=1 alt=\"Apps list\">  </button>"
+            },
+            {
+                "from": "-3829212396954816019",
+                "to": "5935767244118584764",
+                "event": "click<button id=10 alt=\"Folder: Google, 2 items\">  </button>"
+            },
+            {
+                "from": "5935767244118584764",
+                "to": "7271204994434529497",
+                "event": "click<img id=6 alt=\"Movie taken on Sep 22, 2024 1:00 AM\">  </img>"
+            },
+            {
+                "from": "7271204994434529497",
+                "to": "-6118383896878166948",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/photo_pager\">  </div>"
+            },
+            {
+                "from": "-6118383896878166948",
+                "to": "-5643647402820654808",
+                "event": "click<img id=16 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            },
+            {
+                "from": "-5643647402820654808",
+                "to": "5532510616075143681",
+                "event": "click<button id=12 class =\"com.google.android.apps.photos:id/photos_movies_v3_smallscreen_save_button\"> Save,  </button>"
+            },
+            {
+                "from": "5532510616075143681",
+                "to": "4831620223253907025",
+                "event": "click<div id=1 class =\"com.google.android.apps.photos:id/photo_view_pager\">  </div>"
+            },
+            {
+                "from": "4831620223253907025",
+                "to": "-5688194788750045669",
+                "event": "click<img id=13 class =\"com.google.android.apps.photos:id/photos_overflow_icon\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-5688194788750045669",
+                "to": "-6396970580470867861",
+                "event": "click<img id=10 class =\"com.google.android.apps.photos:id/edit_button\" alt=\"Edit the date/time of the media.\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,355 @@
+[
+    {
+        "round": 1,
+        "comment": "Why is it that Google took away the most useful feature of this app from Android but left it for Apple? (i.e. the cloud icon in the upper corner of the photo thumbnails to let you know if a photo is backed up or not). It made managing your backed up photos so much easier! Now you have to guess, unless you choose to have everything backed up to your account (including all your useless and junk photos). At least make it an option to turn on or off! This isn't rocket science Google!",
+        "scenarios": [
+            "Check for the presence of the cloud icon in the upper corner of photo thumbnails to determine if photos are backed up.",
+            "Manage backed up photos by using the cloud icon for easy identification of which photos are backed up or not.",
+            "(Proposed feature) Turn on or off the option to display the cloud icon in the upper corner of photo thumbnails to manage photo backups."
+        ],
+        "key sentence": "Manage backed up photos by using the cloud icon for easy identification of which photos are backed up or not.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\-1038470297095881920.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1038470297095881920"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\-3877682430028021884.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-3877682430028021884"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\-4804543648553922463.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-4804543648553922463"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\850849498886752014.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "850849498886752014"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\-3316138906996555009.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-3316138906996555009"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\-5598485256232547286.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5598485256232547286"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\342382168599225623.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "342382168599225623"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\7131528509153571450.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7131528509153571450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\7131528509153571450.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7131528509153571450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\5280728035727132796.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "5280728035727132796"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-1038470297095881920",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Backup is off.&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "-1038470297095881920",
+                "to": -3877682430028021884,
+                "event": "back"
+            },
+            {
+                "from": -3877682430028021884,
+                "to": "-4804543648553922463",
+                "event": "scroll up"
+            },
+            {
+                "from": "-4804543648553922463",
+                "to": 850849498886752014,
+                "event": "back"
+            },
+            {
+                "from": 850849498886752014,
+                "to": "-3316138906996555009",
+                "event": "click<button id=10 alt=\"Folder: Google, 2 items\">  </button>"
+            },
+            {
+                "from": "-3316138906996555009",
+                "to": "-5598485256232547286",
+                "event": "click<button id=2> Photos,  </button>"
+            },
+            {
+                "from": "-5598485256232547286",
+                "to": "342382168599225623",
+                "event": "scroll up"
+            },
+            {
+                "from": "342382168599225623",
+                "to": "7131528509153571450",
+                "event": "scroll down"
+            },
+            {
+                "from": "7131528509153571450",
+                "to": "7131528509153571450",
+                "event": "scroll down"
+            },
+            {
+                "from": "7131528509153571450",
+                "to": "5280728035727132796",
+                "event": "scroll up"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 6,
+        "comment": "Why is it that Google took away the most useful feature of this app from Android but left it for Apple? (i.e. the cloud icon in the upper corner of the photo thumbnails to let you know if a photo is backed up or not). It made managing your backed up photos so much easier! Now you have to guess, unless you choose to have everything backed up to your account (including all your useless and junk photos). At least make it an option to turn on or off! This isn't rocket science Google!",
+        "scenarios": [
+            "Check for the presence of the cloud icon in the upper corner of photo thumbnails to determine if photos are backed up.",
+            "Manage backed up photos by using the cloud icon for easy identification of which photos are backed up or not.",
+            "(Proposed feature) Turn on or off the option to display the cloud icon in the upper corner of photo thumbnails to manage photo backups."
+        ],
+        "key sentence": "Manage backed up photos by using the cloud icon for easy identification of which photos are backed up or not.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\-1038470297095881920.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1038470297095881920"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\-3877682430028021884.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-3877682430028021884"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\-4804543648553922463.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-4804543648553922463"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\850849498886752014.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "850849498886752014"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\-3316138906996555009.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-3316138906996555009"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\-5598485256232547286.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5598485256232547286"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\342382168599225623.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "342382168599225623"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\7131528509153571450.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7131528509153571450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\7131528509153571450.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7131528509153571450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\5280728035727132796.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "5280728035727132796"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\7131528509153571450.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7131528509153571450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\-1038470297095881920.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1038470297095881920"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\7131528509153571450.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7131528509153571450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\5693472273937026663.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "5693472273937026663"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\7131528509153571450.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7131528509153571450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\-1038470297095881920.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1038470297095881920"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\700421893297595093.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "700421893297595093"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\6025037651609903172.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "6025037651609903172"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\6025037651609903172.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "6025037651609903172"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\scene1\\5869965590727120003.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "5869965590727120003"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-1038470297095881920",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Backup is off.&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "-1038470297095881920",
+                "to": -3877682430028021884,
+                "event": "back"
+            },
+            {
+                "from": -3877682430028021884,
+                "to": "-4804543648553922463",
+                "event": "scroll up"
+            },
+            {
+                "from": "-4804543648553922463",
+                "to": 850849498886752014,
+                "event": "back"
+            },
+            {
+                "from": 850849498886752014,
+                "to": "-3316138906996555009",
+                "event": "click<button id=10 alt=\"Folder: Google, 2 items\">  </button>"
+            },
+            {
+                "from": "-3316138906996555009",
+                "to": "-5598485256232547286",
+                "event": "click<button id=2> Photos,  </button>"
+            },
+            {
+                "from": "-5598485256232547286",
+                "to": "342382168599225623",
+                "event": "scroll up"
+            },
+            {
+                "from": "342382168599225623",
+                "to": "7131528509153571450",
+                "event": "scroll down"
+            },
+            {
+                "from": "7131528509153571450",
+                "to": "7131528509153571450",
+                "event": "scroll down"
+            },
+            {
+                "from": "7131528509153571450",
+                "to": "5280728035727132796",
+                "event": "scroll up"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "7131528509153571450",
+                "event": "click<button id=16 class =\"com.google.android.apps.photos:id/tab_photos\"> Photos,  </button>"
+            },
+            {
+                "from": "7131528509153571450",
+                "to": "-1038470297095881920",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Backup is off.&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "-1038470297095881920",
+                "to": 7131528509153571450,
+                "event": "back"
+            },
+            {
+                "from": 7131528509153571450,
+                "to": "5693472273937026663",
+                "event": "click<div id=2 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            },
+            {
+                "from": "5693472273937026663",
+                "to": 7131528509153571450,
+                "event": "back"
+            },
+            {
+                "from": 7131528509153571450,
+                "to": "-1038470297095881920",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Backup is off.&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "-1038470297095881920",
+                "to": "700421893297595093",
+                "event": "click<button id=9 class =\"com.google.android.apps.photos:id/og_card\" alt=\"Backup is off&#10;Keep your photos safe by backing them up to your Google account.\">  </button>"
+            },
+            {
+                "from": "700421893297595093",
+                "to": "6025037651609903172",
+                "event": "click<button id=2 class =\"com.google.android.apps.photos:id/photos_backup_overview_settings_button\" alt=\"Backup settings\">  </button>"
+            },
+            {
+                "from": "6025037651609903172",
+                "to": "6025037651609903172",
+                "event": "click<div id=4 class =\"android:id/list\">  </div>"
+            },
+            {
+                "from": "6025037651609903172",
+                "to": "5869965590727120003",
+                "event": "click<div id=6 class =\"com.google.android.apps.photos:id/switchWidget\">  </div>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

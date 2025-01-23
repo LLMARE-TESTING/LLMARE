@@ -1,0 +1,126 @@
+[
+    {
+        "round": 1,
+        "comment": "If the option 'Save to SD card' in the stock camera app is turned on, every picture I take is rotated 90 degrees to the left when I view it. If I press on the preview really quick after taking a picture I see the image with correct orientation and the text 'Processing photo' for a short moment. After that the image is rotated. The thumbnail in the gallery app shows the picture upright, but when I open it to show full screen, the image automatically rotates to the left again.",
+        "scenarios": [
+            "Taking a picture with the 'Save to SD card' option turned on results in the image being rotated 90 degrees to the left when viewed in full screen.  ",
+            "Seeing the correct orientation briefly with the text 'Processing photo' after pressing the preview quickly after taking a picture.  ",
+            "Viewing the thumbnail in the gallery app shows the picture upright, but it rotates to the left when opened in full screen."
+        ],
+        "key sentence": "Seeing the correct orientation briefly with the text 'Processing photo' after pressing the preview quickly after taking a picture.  ",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene1\\-6835800819847816149.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-6835800819847816149"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene1\\-876247167439422055.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-876247167439422055"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene1\\3015442439223644875.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "3015442439223644875"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene1\\-876247167439422055.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-876247167439422055"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene1\\3015442439223644875.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "3015442439223644875"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene1\\-876247167439422055.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-876247167439422055"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene1\\3015442439223644875.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "3015442439223644875"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene1\\-876247167439422055.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-876247167439422055"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene1\\-6835800819847816149.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-6835800819847816149"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene1\\-876247167439422055.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-876247167439422055"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-6835800819847816149",
+                "event": "click<img id=6 alt=\"Video taken on Sep 26, 2024 12:12 PM\">  </img>"
+            },
+            {
+                "from": "-6835800819847816149",
+                "to": -876247167439422055,
+                "event": "back"
+            },
+            {
+                "from": -876247167439422055,
+                "to": "3015442439223644875",
+                "event": "click<img id=8 alt=\"Movie taken on Sep 22, 2024 1:00 AM\">  </img>"
+            },
+            {
+                "from": "3015442439223644875",
+                "to": -876247167439422055,
+                "event": "back"
+            },
+            {
+                "from": -876247167439422055,
+                "to": "3015442439223644875",
+                "event": "click<img id=8 alt=\"Movie taken on Sep 22, 2024 1:00 AM\">  </img>"
+            },
+            {
+                "from": "3015442439223644875",
+                "to": -876247167439422055,
+                "event": "back"
+            },
+            {
+                "from": -876247167439422055,
+                "to": "3015442439223644875",
+                "event": "click<img id=8 alt=\"Movie taken on Sep 22, 2024 1:00 AM\">  </img>"
+            },
+            {
+                "from": "3015442439223644875",
+                "to": -876247167439422055,
+                "event": "back"
+            },
+            {
+                "from": -876247167439422055,
+                "to": "-6835800819847816149",
+                "event": "click<img id=6 alt=\"Video taken on Sep 26, 2024 12:13 PM\">  </img>"
+            },
+            {
+                "from": "-6835800819847816149",
+                "to": -876247167439422055,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    }
+]

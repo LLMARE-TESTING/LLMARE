@@ -1,0 +1,45 @@
+[
+    {
+        "round": 58,
+        "comment": "I'm tired of the Google photos best shot and the constant suggestions when I view each picture. A message pops up on each picture, either saying, fix lighting, order photo, rotate screen, archive, etc. It's annoying. Also, I don't like the best shot feature. I'll edit my pictures if I want to. I don't need these constant annoying suggestions. Please fix this. Thank you.",
+        "scenarios": [
+            "When viewing a picture, a message consistently appears suggesting actions such as fixing lighting, ordering a photo, rotating the screen, or archiving the image.",
+            "The \"best shot\" feature automatically suggests edits to pictures, which the user finds unnecessary and would prefer to edit pictures manually."
+        ],
+        "key sentence": "The \"best shot\" feature automatically suggests edits to pictures, which the user finds unnecessary and would prefer to edit pictures manually.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment32\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment32\\scene0\\scene1\\-1038470297095881920.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1038470297095881920"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment32\\scene0\\scene1\\-2381195042246234349.png",
+                "activity": "com.google.android.apps.photos.settings.SettingsActivityV2}",
+                "state_str": "-2381195042246234349"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-1038470297095881920",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Backup is off.&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "-1038470297095881920",
+                "to": "-2381195042246234349",
+                "event": "click<p id=21 class =\"com.google.android.apps.photos:id/og_text_card_title\"> Photos settings,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]
