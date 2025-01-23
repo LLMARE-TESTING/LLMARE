@@ -1,0 +1,47 @@
+[
+    {
+        "round": 1,
+        "comment": "I'm sorry to say that but, it's not a really good app to make videos. It almost happens everytime that it doesn't save some scences or it starts to lack. It feels like you could only make like 30 - 45 second videos with it, if you don't want it to crash or something. Even though it has a lot of features I have to give it one star \\u9983\\u6aa8\\u9983\\u69f7\\u9225\\u5d90\\u7149?\\nI wants to give this 5 stars it's amazing app But here I have some issues there auto caption cannot working properly .\\nThis is very amazing.It's has user friendly interface. Editing is very with this app I am using this for almost 2 years and I don't see any issue.\\nconstantly crashing and not smoothly running with the scenes just use another app not worth the struggle\\nThis app is too much good but the problem that I face almost everytime is that when I change the videos speed or put effects in that the preview in editor got laggy and not smooth and because of this I cannot edit properly but the result is fine. Also the audios that are safe in my device don't show up in audios section. Please fix this issue because it is getting irritating\\nIt's been twitching lately",
+        "scenarios": [
+            "Not saving some scenes and crashing when attempting to make longer videos (30-45 seconds).",
+            "Auto caption feature not working properly.",
+            "Laggy preview in the editor when changing video speed or applying effects, affecting editing quality.",
+            "Audios saved on the device not showing up in the audios section."
+        ],
+        "key sentence": "Auto caption feature not working properly.",
+        "target activity": "com.vega.main.MainActivity",
+        "the function of activity": "Manage projects and media by renaming, duplicating, or deleting them. Access creation tools and interfaces for editing, capturing, and enhancing images. Use features for project setup and user interaction.",
+        "target state": "state1",
+        "the sub-task list of state": "[{'name': 'AI model', 'description': 'Access the tool of AI model.'}, {'name': 'Camera Access', 'description': 'Access the tool of camera.'}, {'name': 'Retouch', 'description': 'Access the tool of retouch.'}, {'name': 'Auto captions', 'description': 'Access the tool of auto captions.'}, {'name': 'Teleprompter', 'description': 'Access the tool of teleprompter.'}, {'name': 'Remove Background', 'description': 'Access the tool of remove background.'}, {'name': 'Image Enhancement', 'description': 'Access the tool of image enhancement.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment1\\scene1\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment1\\scene1\\state1.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment1\\scene1\\7758607886407384993.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "7758607886407384993"
+            }
+        ],
+        "operations": [
+            {
+                "from": "b3c2b8cf7b8f3959cd3c2bd09dbce71a",
+                "to": "state1",
+                "event": "click(com.lemon.lvoverseas:id/home_tool_iv:[849,221][1025,375])"
+            },
+            {
+                "from": "state1",
+                "to": "7758607886407384993",
+                "event": "click<p id=23 class =\"com.lemon.lvoverseas:id/home_tool_tv\"> Auto captions,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

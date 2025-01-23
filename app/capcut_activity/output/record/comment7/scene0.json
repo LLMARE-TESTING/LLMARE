@@ -1,0 +1,65 @@
+[
+    {
+        "round": 1,
+        "comment": "too much glitches, getting back to homescreen after choosing a picture, and please, fix video flickering problem after exporting, ive been sending reports and got no replies, also no solution, 0 user service, 0 solution, absolute 0 for everything.",
+        "scenarios": [
+            "After choosing a picture in the app, the user gets returned to the home screen.",
+            "After exporting a video, the video has a flickering problem."
+        ],
+        "key sentence": "After choosing a picture in the app, the user gets returned to the home screen.",
+        "target activity": "com.vega.gallery.activity.MediaSelectActivity",
+        "the function of activity": "This activity allows users to switch media categories, select specific items, view thumbnails, and proceed after selections.",
+        "target state": "state11",
+        "the sub-task list of state": "[{'name': 'Media Tab', 'description': 'Switch between different media categories such as photos or videos.'}, {'name': 'Select Media', 'description': 'Individually select specific media items from the gallery.'}, {'name': 'View Thumbnails', 'description': 'Display thumbnail views of images and videos in the gallery.'}, {'name': 'Next Action', 'description': 'Proceed to the next step or screen after making selections.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment7\\scene0\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment7\\scene0\\state9.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment7\\scene0\\state10.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment7\\scene0\\state11.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment7\\scene0\\4548270572368264648.png",
+                "activity": "com.vega.multicutsame.view.MultiCutSamePreviewActivity}",
+                "state_str": "4548270572368264648"
+            }
+        ],
+        "operations": [
+            {
+                "from": "b3c2b8cf7b8f3959cd3c2bd09dbce71a",
+                "to": "state9",
+                "event": "click(com.lemon.lvoverseas:id/home_tool_iv_container:[253,221][430,375])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(com.lemon.lvoverseas:id/iv_local_multi_media_select_index:[290,287][339,336])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(com.lemon.lvoverseas:id/iv_local_multi_media_select_index:[650,287][699,336])"
+            },
+            {
+                "from": "state11",
+                "to": "4548270572368264648",
+                "event": "click<button id=26 class =\"com.lemon.lvoverseas:id/sb_media_select_done\"> Next (2),  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

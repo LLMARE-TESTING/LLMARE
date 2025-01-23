@@ -1,0 +1,104 @@
+[
+    {
+        "round": 1,
+        "comment": "Its a good editing app but I have one massive hate with this is that next to the full screen and play button is a invisible bar that if u put your finger on it it will drag u to the very beginning of other points of the video they need to remove this feature cause its so distracting.",
+        "scenarios": [
+            "User accidentally drags to the very beginning or other points of the video when trying to use the full screen or play button due to an invisible bar next to these buttons."
+        ],
+        "key sentence": "User accidentally drags to the very beginning or other points of the video when trying to use the full screen or play button due to an invisible bar next to these buttons.",
+        "target activity": "com.vega.edit.editpage.activity.EditActivity",
+        "the function of activity": "The activity includes searching, navigating, exporting, editing, managing audio, adding media, controlling playback, adjusting visuals, applying effects, and enhancing projects.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Full Screen Play', 'description': 'Play the video being edited in full screen.'}, {'name': 'Cancel full screen', 'description': 'Cancel full screen playback'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment9\\scene0\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment9\\scene0\\state2.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment9\\scene0\\state3.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment9\\scene0\\state4.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment9\\scene0\\state7.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment9\\scene0\\5277200904864488778.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "5277200904864488778"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment9\\scene0\\6840253340014343973.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "6840253340014343973"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment9\\scene0\\6840253340014343973.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "6840253340014343973"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment9\\scene0\\6840253340014343973.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "6840253340014343973"
+            }
+        ],
+        "operations": [
+            {
+                "from": "b3c2b8cf7b8f3959cd3c2bd09dbce71a",
+                "to": "state2",
+                "event": "click(com.lemon.lvoverseas:id/create_project_tv:[443,639][735,707])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(com.lemon.lvoverseas:id/iv_local_multi_media_select_index:[290,1367][339,1416])"
+            },
+            {
+                "from": "state3",
+                "to": "state4",
+                "event": "click(com.lemon.lvoverseas:id/sb_media_select_done:[843,2013][1036,2090])"
+            },
+            {
+                "from": "state4",
+                "to": "state7",
+                "event": "click(com.lemon.lvoverseas:id/abFullscreenPreview:[28,1188][111,1271])"
+            },
+            {
+                "from": "state7",
+                "to": "5277200904864488778",
+                "event": "click<img id=8 class =\"com.lemon.lvoverseas:id/ivFullScreenPlay\" alt=\"pause\">  </img>"
+            },
+            {
+                "from": "5277200904864488778",
+                "to": "6840253340014343973",
+                "event": "click<img id=6 class =\"com.lemon.lvoverseas:id/ivFullScreenPlay\" alt=\"play\">  </img>"
+            },
+            {
+                "from": "6840253340014343973",
+                "to": "6840253340014343973",
+                "event": "click<div id=4 class =\"com.lemon.lvoverseas:id/multiTrack\">  </div>"
+            },
+            {
+                "from": "6840253340014343973",
+                "to": "6840253340014343973",
+                "event": "click<div id=0 class =\"com.lemon.lvoverseas:id/varHeightView\">  </div>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

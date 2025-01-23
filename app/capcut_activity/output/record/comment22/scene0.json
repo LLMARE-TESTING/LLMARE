@@ -1,0 +1,301 @@
+[
+    {
+        "round": 1,
+        "comment": "Thanks for the nice and easy layouts for this app. It was great with the templates and all, but one thing is that when the template has slow motion or applying something heavy, it always shows black screen and suddenly my phone black out itself. It was such lame to experience that. maybe just me tho, but so far it was fine. I suggest to make this app has it own storage like how telegram works. Thank You !!",
+        "scenarios": [
+            "When using a template that includes slow motion or a heavy feature, the app displays a black screen and subsequently causes the phone to black out."
+        ],
+        "key sentence": "When using a template that includes slow motion or a heavy feature, the app displays a black screen and subsequently causes the phone to black out.",
+        "target activity": "com.vega.edit.editpage.activity.EditActivity",
+        "the function of activity": "The activity includes exporting, editing, managing audio, adding media, controlling playback, adjusting visuals, applying effects, adjusting speed and enhancing projects.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Speed', 'description': 'Adjust the speed of the project.'}, {'name': 'Animations', 'description': 'Add animations to the project.'}, {'name': 'Effects Options', 'description': 'Add effects to the project.'}, {'name': 'Delete', 'description': 'Delete the clip of the project.'}, {'name': 'Enhance voice', 'description': 'Enhance the voice of the project.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\state2.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\state3.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\state4.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\state8.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\2311569080304802081.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "2311569080304802081"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\-1291341480336528927.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "-1291341480336528927"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\4203825235366159650.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "4203825235366159650"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\5805608414638919297.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "5805608414638919297"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\4203825235366159650.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "4203825235366159650"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\2374223520999814068.png",
+                "activity": "com.vega.export.edit.view.ExportActivity}",
+                "state_str": "2374223520999814068"
+            }
+        ],
+        "operations": [
+            {
+                "from": "b3c2b8cf7b8f3959cd3c2bd09dbce71a",
+                "to": "state2",
+                "event": "click(com.lemon.lvoverseas:id/create_project_tv:[443,639][735,707])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(com.lemon.lvoverseas:id/iv_local_multi_media_select_index:[290,1367][339,1416])"
+            },
+            {
+                "from": "state3",
+                "to": "state4",
+                "event": "click(com.lemon.lvoverseas:id/sb_media_select_done:[843,2013][1036,2090])"
+            },
+            {
+                "from": "state4",
+                "to": "state8",
+                "event": "click(com.lemon.lvoverseas:id/ivIcon:[63,1983][146,2066])"
+            },
+            {
+                "from": "state8",
+                "to": "2311569080304802081",
+                "event": "click<p id=13 class =\"com.lemon.lvoverseas:id/ttvTitle\"> Speed,  </p>"
+            },
+            {
+                "from": "2311569080304802081",
+                "to": "-1291341480336528927",
+                "event": "click<p id=14 class =\"com.lemon.lvoverseas:id/ttvTitle\"> Velocity effects,  </p>"
+            },
+            {
+                "from": "-1291341480336528927",
+                "to": "4203825235366159650",
+                "event": "click<button id=2 class =\"com.lemon.lvoverseas:id/upload_ok\"> Allow,  </button>"
+            },
+            {
+                "from": "4203825235366159650",
+                "to": "5805608414638919297",
+                "event": "click<p id=6 class =\"com.lemon.lvoverseas:id/tv_name\"> Fade blur,  </p>"
+            },
+            {
+                "from": "5805608414638919297",
+                "to": 4203825235366159650,
+                "event": "back"
+            },
+            {
+                "from": 4203825235366159650,
+                "to": "2374223520999814068",
+                "event": "click<button id=10 class =\"com.lemon.lvoverseas:id/tvExport\"> Export,  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Thanks for the nice and easy layouts for this app. It was great with the templates and all, but one thing is that when the template has slow motion or applying something heavy, it always shows black screen and suddenly my phone black out itself. It was such lame to experience that. maybe just me tho, but so far it was fine. I suggest to make this app has it own storage like how telegram works. Thank You !!",
+        "scenarios": [
+            "When using a template that includes slow motion or a heavy feature, the app displays a black screen and subsequently causes the phone to black out."
+        ],
+        "key sentence": "When using a template that includes slow motion or a heavy feature, the app displays a black screen and subsequently causes the phone to black out.",
+        "target activity": "com.vega.edit.editpage.activity.EditActivity",
+        "the function of activity": "The activity includes exporting, editing, managing audio, adding media, controlling playback, adjusting visuals, applying effects, adjusting speed and enhancing projects.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Speed', 'description': 'Adjust the speed of the project.'}, {'name': 'Animations', 'description': 'Add animations to the project.'}, {'name': 'Effects Options', 'description': 'Add effects to the project.'}, {'name': 'Delete', 'description': 'Delete the clip of the project.'}, {'name': 'Enhance voice', 'description': 'Enhance the voice of the project.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\state2.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\state3.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\state4.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\state8.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\2311569080304802081.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "2311569080304802081"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\-1291341480336528927.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "-1291341480336528927"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\4203825235366159650.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "4203825235366159650"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\5805608414638919297.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "5805608414638919297"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\4203825235366159650.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "4203825235366159650"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\2374223520999814068.png",
+                "activity": "com.vega.export.edit.view.ExportActivity}",
+                "state_str": "2374223520999814068"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\state2.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\state3.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\state4.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\state8.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment22\\scene0\\-3617240895930662812.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "-3617240895930662812"
+            }
+        ],
+        "operations": [
+            {
+                "from": "b3c2b8cf7b8f3959cd3c2bd09dbce71a",
+                "to": "state2",
+                "event": "click(com.lemon.lvoverseas:id/create_project_tv:[443,639][735,707])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(com.lemon.lvoverseas:id/iv_local_multi_media_select_index:[290,1367][339,1416])"
+            },
+            {
+                "from": "state3",
+                "to": "state4",
+                "event": "click(com.lemon.lvoverseas:id/sb_media_select_done:[843,2013][1036,2090])"
+            },
+            {
+                "from": "state4",
+                "to": "state8",
+                "event": "click(com.lemon.lvoverseas:id/ivIcon:[63,1983][146,2066])"
+            },
+            {
+                "from": "state8",
+                "to": "2311569080304802081",
+                "event": "click<p id=13 class =\"com.lemon.lvoverseas:id/ttvTitle\"> Speed,  </p>"
+            },
+            {
+                "from": "2311569080304802081",
+                "to": "-1291341480336528927",
+                "event": "click<p id=14 class =\"com.lemon.lvoverseas:id/ttvTitle\"> Velocity effects,  </p>"
+            },
+            {
+                "from": "-1291341480336528927",
+                "to": "4203825235366159650",
+                "event": "click<button id=2 class =\"com.lemon.lvoverseas:id/upload_ok\"> Allow,  </button>"
+            },
+            {
+                "from": "4203825235366159650",
+                "to": "5805608414638919297",
+                "event": "click<p id=6 class =\"com.lemon.lvoverseas:id/tv_name\"> Fade blur,  </p>"
+            },
+            {
+                "from": "5805608414638919297",
+                "to": 4203825235366159650,
+                "event": "back"
+            },
+            {
+                "from": 4203825235366159650,
+                "to": "2374223520999814068",
+                "event": "click<button id=10 class =\"com.lemon.lvoverseas:id/tvExport\"> Export,  </button>"
+            },
+            {
+                "from": "b3c2b8cf7b8f3959cd3c2bd09dbce71a",
+                "to": "state2",
+                "event": "click(com.lemon.lvoverseas:id/create_project_tv:[443,639][735,707])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(com.lemon.lvoverseas:id/iv_local_multi_media_select_index:[290,1367][339,1416])"
+            },
+            {
+                "from": "state3",
+                "to": "state4",
+                "event": "click(com.lemon.lvoverseas:id/sb_media_select_done:[843,2013][1036,2090])"
+            },
+            {
+                "from": "state4",
+                "to": "state8",
+                "event": "click(com.lemon.lvoverseas:id/ivIcon:[63,1983][146,2066])"
+            },
+            {
+                "from": "state8",
+                "to": "-3617240895930662812",
+                "event": "click<p id=13 class =\"com.lemon.lvoverseas:id/ttvTitle\"> Speed,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

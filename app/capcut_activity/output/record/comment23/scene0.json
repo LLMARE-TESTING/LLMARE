@@ -1,0 +1,211 @@
+[
+    {
+        "round": 1,
+        "comment": "There is this issue when you are exporting a video, it's stuck to 0% and just completely lags. I hope you fix this.",
+        "scenarios": [
+            "When exporting a video, it gets stuck at 0% and lags."
+        ],
+        "key sentence": "When exporting a video, it gets stuck at 0% and lags.",
+        "target activity": "com.vega.multicutsame.view.MultiCutSamePreviewActivity",
+        "the function of activity": "The activity allows users to select and edit templates, manage music tracks, export projects, and access author information while facilitating media playback.",
+        "target state": "state12",
+        "the sub-task list of state": "[{'name': 'Template Selection', 'description': 'Select different templates available for the current project or file.'}, {'name': 'Export', 'description': 'Initiate the export process for the current file or project.'}, {'name': 'Edit', 'description': 'Open the editing interface to make changes to the current item.'}, {'name': 'Replace Music', 'description': 'Replace the current background music with a different track.'}, {'name': 'Play', 'description': 'Start or resume the playback of the video or audio track.'}, {'name': 'Select Music', 'description': 'Choose a music track from the available options for replacement.'}, {'name': 'Show Author Info', 'description': 'Display information about the author of the current template.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment23\\scene0\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment23\\scene0\\state9.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment23\\scene0\\state10.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment23\\scene0\\state11.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment23\\scene0\\state12.png",
+                "activity": "com.vega.multicutsame.view.MultiCutSamePreviewActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment23\\scene0\\3642221487460220944.png",
+                "activity": "com.vega.multicutsame.view.MultiCutSamePreviewActivity}",
+                "state_str": "3642221487460220944"
+            }
+        ],
+        "operations": [
+            {
+                "from": "b3c2b8cf7b8f3959cd3c2bd09dbce71a",
+                "to": "state9",
+                "event": "click(com.lemon.lvoverseas:id/home_tool_iv_container:[253,221][430,375])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(com.lemon.lvoverseas:id/iv_local_multi_media_select_index:[290,287][339,336])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(com.lemon.lvoverseas:id/iv_local_multi_media_select_index:[650,287][699,336])"
+            },
+            {
+                "from": "state11",
+                "to": "state12",
+                "event": "click(com.lemon.lvoverseas:id/sb_media_select_done:[833,2013][1036,2090])"
+            },
+            {
+                "from": "state12",
+                "to": "3642221487460220944",
+                "event": "click<button id=3 class =\"com.lemon.lvoverseas:id/ivExport\"> Export,  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "There is this issue when you are exporting a video, it's stuck to 0% and just completely lags. I hope you fix this.",
+        "scenarios": [
+            "When exporting a video, it gets stuck at 0% and lags."
+        ],
+        "key sentence": "When exporting a video, it gets stuck at 0% and lags.",
+        "target activity": "com.vega.multicutsame.view.MultiCutSamePreviewActivity",
+        "the function of activity": "The activity allows users to select and edit templates, manage music tracks, export projects, and access author information while facilitating media playback.",
+        "target state": "state12",
+        "the sub-task list of state": "[{'name': 'Template Selection', 'description': 'Select different templates available for the current project or file.'}, {'name': 'Export', 'description': 'Initiate the export process for the current file or project.'}, {'name': 'Edit', 'description': 'Open the editing interface to make changes to the current item.'}, {'name': 'Replace Music', 'description': 'Replace the current background music with a different track.'}, {'name': 'Play', 'description': 'Start or resume the playback of the video or audio track.'}, {'name': 'Select Music', 'description': 'Choose a music track from the available options for replacement.'}, {'name': 'Show Author Info', 'description': 'Display information about the author of the current template.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment23\\scene0\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment23\\scene0\\state9.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment23\\scene0\\state10.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment23\\scene0\\state11.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment23\\scene0\\state12.png",
+                "activity": "com.vega.multicutsame.view.MultiCutSamePreviewActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment23\\scene0\\3642221487460220944.png",
+                "activity": "com.vega.multicutsame.view.MultiCutSamePreviewActivity}",
+                "state_str": "3642221487460220944"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment23\\scene0\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment23\\scene0\\state9.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment23\\scene0\\state10.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment23\\scene0\\state11.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment23\\scene0\\state12.png",
+                "activity": "com.vega.multicutsame.view.MultiCutSamePreviewActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment23\\scene0\\3642221487460220944.png",
+                "activity": "com.vega.multicutsame.view.MultiCutSamePreviewActivity}",
+                "state_str": "3642221487460220944"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment23\\scene0\\-7436463934849662357.png",
+                "activity": "com.vega.export.template.view.TemplateExportActivity}",
+                "state_str": "-7436463934849662357"
+            }
+        ],
+        "operations": [
+            {
+                "from": "b3c2b8cf7b8f3959cd3c2bd09dbce71a",
+                "to": "state9",
+                "event": "click(com.lemon.lvoverseas:id/home_tool_iv_container:[253,221][430,375])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(com.lemon.lvoverseas:id/iv_local_multi_media_select_index:[290,287][339,336])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(com.lemon.lvoverseas:id/iv_local_multi_media_select_index:[650,287][699,336])"
+            },
+            {
+                "from": "state11",
+                "to": "state12",
+                "event": "click(com.lemon.lvoverseas:id/sb_media_select_done:[833,2013][1036,2090])"
+            },
+            {
+                "from": "state12",
+                "to": "3642221487460220944",
+                "event": "click<button id=3 class =\"com.lemon.lvoverseas:id/ivExport\"> Export,  </button>"
+            },
+            {
+                "from": "b3c2b8cf7b8f3959cd3c2bd09dbce71a",
+                "to": "state9",
+                "event": "click(com.lemon.lvoverseas:id/home_tool_iv_container:[253,221][430,375])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(com.lemon.lvoverseas:id/iv_local_multi_media_select_index:[290,287][339,336])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(com.lemon.lvoverseas:id/iv_local_multi_media_select_index:[650,287][699,336])"
+            },
+            {
+                "from": "state11",
+                "to": "state12",
+                "event": "click(com.lemon.lvoverseas:id/sb_media_select_done:[833,2013][1036,2090])"
+            },
+            {
+                "from": "state12",
+                "to": "3642221487460220944",
+                "event": "click<button id=3 class =\"com.lemon.lvoverseas:id/ivExport\"> Export,  </button>"
+            },
+            {
+                "from": "3642221487460220944",
+                "to": "-7436463934849662357",
+                "event": "click<button id=3 class =\"com.lemon.lvoverseas:id/shareAweme\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

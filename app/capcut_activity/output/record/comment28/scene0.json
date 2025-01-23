@@ -1,0 +1,113 @@
+[
+    {
+        "round": 1,
+        "comment": "This app came from a 4.5star to a 1star. I'm aorry but it's functionality over features. It has many feature's but too many bugs. When I'm editing something for example, i press play and the timeline is not moving at all. I have 0 ways to use it. It literally is good only for TikTok templates and not even for that cause even there the clip si moving in 3fps.",
+        "scenarios": [
+            "When editing something and pressing play, the timeline is not moving at all. ",
+            "When using TikTok templates, the clip is moving in 3fps."
+        ],
+        "key sentence": "When editing something and pressing play, the timeline is not moving at all. ",
+        "target activity": "com.vega.libcutsame.activity.LiteEditorActivity",
+        "the function of activity": "This activity focuses on editing, exporting, adjusting, and managing the audio and video elements of multimedia templates.",
+        "target state": "9118aa4e89af0bb4e4e41d32dca9d329",
+        "the sub-task list of state": "[{'name': 'Extract Audio', 'description': 'Initiate the process to extract audio from a selected multimedia file or track.'}, {'name': 'Add Sound', 'description': 'Add a new sound to the current media project or playlist.'}, {'name': 'Play/Pause Audio', 'description': 'Toggle the play or pause state of the audio track using the play/pause icon.'}, {'name': 'Edit audio', 'description': 'Trim or adjust the volume of the audio of the vedio.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment28\\scene0\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment28\\scene0\\-6521068198411563714.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "-6521068198411563714"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment28\\scene0\\-5609716233399789908.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "-5609716233399789908"
+            }
+        ],
+        "operations": [
+            {
+                "from": "9118aa4e89af0bb4e4e41d32dca9d329",
+                "to": "-6521068198411563714",
+                "event": "click<p id=8 class =\"com.lemon.lvoverseas:id/tvName\"> 20241007-12,  </p>"
+            },
+            {
+                "from": "-6521068198411563714",
+                "to": "-5609716233399789908",
+                "event": "click<img id=5 class =\"com.lemon.lvoverseas:id/ivPlay\" alt=\"pause\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "This app came from a 4.5star to a 1star. I'm aorry but it's functionality over features. It has many feature's but too many bugs. When I'm editing something for example, i press play and the timeline is not moving at all. I have 0 ways to use it. It literally is good only for TikTok templates and not even for that cause even there the clip si moving in 3fps.",
+        "scenarios": [
+            "When editing something and pressing play, the timeline is not moving at all. ",
+            "When using TikTok templates, the clip is moving in 3fps."
+        ],
+        "key sentence": "When editing something and pressing play, the timeline is not moving at all. ",
+        "target activity": "com.vega.libcutsame.activity.LiteEditorActivity",
+        "the function of activity": "This activity focuses on editing, exporting, adjusting, and managing the audio and video elements of multimedia templates.",
+        "target state": "9118aa4e89af0bb4e4e41d32dca9d329",
+        "the sub-task list of state": "[{'name': 'Extract Audio', 'description': 'Initiate the process to extract audio from a selected multimedia file or track.'}, {'name': 'Add Sound', 'description': 'Add a new sound to the current media project or playlist.'}, {'name': 'Play/Pause Audio', 'description': 'Toggle the play or pause state of the audio track using the play/pause icon.'}, {'name': 'Edit audio', 'description': 'Trim or adjust the volume of the audio of the vedio.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment28\\scene0\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment28\\scene0\\-6521068198411563714.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "-6521068198411563714"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment28\\scene0\\-5609716233399789908.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "-5609716233399789908"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment28\\scene0\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment28\\scene0\\-6521068198411563714.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "-6521068198411563714"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment28\\scene0\\-5609716233399789908.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "-5609716233399789908"
+            }
+        ],
+        "operations": [
+            {
+                "from": "9118aa4e89af0bb4e4e41d32dca9d329",
+                "to": "-6521068198411563714",
+                "event": "click<p id=8 class =\"com.lemon.lvoverseas:id/tvName\"> 20241007-12,  </p>"
+            },
+            {
+                "from": "-6521068198411563714",
+                "to": "-5609716233399789908",
+                "event": "click<img id=5 class =\"com.lemon.lvoverseas:id/ivPlay\" alt=\"pause\">  </img>"
+            },
+            {
+                "from": "9118aa4e89af0bb4e4e41d32dca9d329",
+                "to": "-6521068198411563714",
+                "event": "click<p id=8 class =\"com.lemon.lvoverseas:id/tvName\"> 20241007-12,  </p>"
+            },
+            {
+                "from": "-6521068198411563714",
+                "to": "-5609716233399789908",
+                "event": "click<img id=5 class =\"com.lemon.lvoverseas:id/ivPlay\" alt=\"pause\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+]
