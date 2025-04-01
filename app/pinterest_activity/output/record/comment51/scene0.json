@@ -1,0 +1,303 @@
+[
+    {
+        "round": 1,
+        "comment": "I love this app soo much, I always check it in the day twice or thrice but nowadays whenever I open the app and see a nice pin I save it in my board and it's doesn't get saved. It shows 'Save failed' and whenever i download a pin that same thing happens so if I uninstall it would be not good so rather you guys fix it please ASAP!!!!",
+        "scenarios": [
+            "The user opens the app, sees a pin, tries to save it to their board, but it shows 'Save failed'.  "
+        ],
+        "key sentence": "The user opens the app, sees a pin, tries to save it to their board, but it shows 'Save failed'.  ",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Save Pin', 'description': 'Save a pin or item to a board for later reference.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\state7.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\4904228063786645055.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4904228063786645055"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "4904228063786645055",
+                "event": "click<button id=5 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "I love this app soo much, I always check it in the day twice or thrice but nowadays whenever I open the app and see a nice pin I save it in my board and it's doesn't get saved. It shows 'Save failed' and whenever i download a pin that same thing happens so if I uninstall it would be not good so rather you guys fix it please ASAP!!!!",
+        "scenarios": [
+            "The user opens the app, sees a pin, tries to save it to their board, but it shows 'Save failed'.  "
+        ],
+        "key sentence": "The user opens the app, sees a pin, tries to save it to their board, but it shows 'Save failed'.  ",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Save Pin', 'description': 'Save a pin or item to a board for later reference.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\state7.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\4904228063786645055.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4904228063786645055"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\state7.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\-931003493130501061.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-931003493130501061"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\2562281549310005762.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "2562281549310005762"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\-5430077309971719586.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-5430077309971719586"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "4904228063786645055",
+                "event": "click<button id=5 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "-931003493130501061",
+                "event": "click<button id=15 class =\"com.pinterest:id/save_pinit_bt\"> Save,  </button>"
+            },
+            {
+                "from": "-931003493130501061",
+                "to": "2562281549310005762",
+                "event": "click<p id=30 class =\"com.pinterest:id/board_name\" alt=\"k, Double tap to open sections\"> k,  </p>"
+            },
+            {
+                "from": "2562281549310005762",
+                "to": "-5430077309971719586",
+                "event": "click<button id=15 class =\"com.pinterest:id/save_pinit_bt\"> Save,  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 3,
+        "comment": "I love this app soo much, I always check it in the day twice or thrice but nowadays whenever I open the app and see a nice pin I save it in my board and it's doesn't get saved. It shows 'Save failed' and whenever i download a pin that same thing happens so if I uninstall it would be not good so rather you guys fix it please ASAP!!!!",
+        "scenarios": [
+            "The user opens the app, sees a pin, tries to save it to their board, but it shows 'Save failed'.  "
+        ],
+        "key sentence": "The user opens the app, sees a pin, tries to save it to their board, but it shows 'Save failed'.  ",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state5",
+        "the sub-task list of state": "[{'name': 'View Image', 'description': 'View a larger version of an image or pin on the screen.'}, {'name': 'Save Pin', 'description': 'Save a pin or item to a collection or board for later reference.'}, {'name': 'Share', 'description': 'Share content via various platforms or methods such as social media or messaging.'}, {'name': 'View Comments', 'description': 'Read and engage with comments associated with a pin or post.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\state7.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\4904228063786645055.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4904228063786645055"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\state7.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\-931003493130501061.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-931003493130501061"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\2562281549310005762.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "2562281549310005762"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\-5430077309971719586.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-5430077309971719586"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\-1250257351254208870.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1250257351254208870"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment51\\scene0\\-3503811629280665578.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3503811629280665578"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "4904228063786645055",
+                "event": "click<button id=5 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "-931003493130501061",
+                "event": "click<button id=15 class =\"com.pinterest:id/save_pinit_bt\"> Save,  </button>"
+            },
+            {
+                "from": "-931003493130501061",
+                "to": "2562281549310005762",
+                "event": "click<p id=30 class =\"com.pinterest:id/board_name\" alt=\"k, Double tap to open sections\"> k,  </p>"
+            },
+            {
+                "from": "2562281549310005762",
+                "to": "-5430077309971719586",
+                "event": "click<button id=15 class =\"com.pinterest:id/save_pinit_bt\"> Save,  </button>"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "-1250257351254208870",
+                "event": "click<button id=16 class =\"com.pinterest:id/save_pinit_bt\"> Save,  </button>"
+            },
+            {
+                "from": "-1250257351254208870",
+                "to": "-3503811629280665578",
+                "event": "click<p id=37 class =\"com.pinterest:id/board_name\" alt=\"a, Double tap to save this Pin to board\"> a,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

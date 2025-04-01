@@ -1,0 +1,96 @@
+[
+    {
+        "round": 1,
+        "comment": "ABYSMAL. The app is slow, it often won't upload at all, refuses to save downloads to boards, and when it does, it's apt to save the pictures to the WRONG boards!! \u9983\u304c",
+        "scenarios": [
+            "The app often won't upload content at all.",
+            "The app refuses to save downloads to boards.",
+            "When the app does save, it saves the pictures to the wrong boards."
+        ],
+        "key sentence": "The app refuses to save downloads to boards.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Save Pin', 'description': 'Save a pin or item to a board for later reference.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment46\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment46\\scene1\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment46\\scene1\\state7.png",
+                "activity": "org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment46\\scene1\\-2576409446072708648.png",
+                "activity": "com.pinterest.activity.create.PinItActivity}",
+                "state_str": "-2576409446072708648"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment46\\scene1\\-2576409446072708648.png",
+                "activity": "com.pinterest.activity.create.PinItActivity}",
+                "state_str": "-2576409446072708648"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment46\\scene1\\-1797067756048721796.png",
+                "activity": "com.pinterest.activity.create.PinItActivity}",
+                "state_str": "-1797067756048721796"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment46\\scene1\\7819959431877919366.png",
+                "activity": "com.pinterest.activity.create.PinItActivity}",
+                "state_str": "7819959431877919366"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment46\\scene1\\966878573434849750.png",
+                "activity": "com.pinterest.activity.create.PinItActivity}",
+                "state_str": "966878573434849750"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "-2576409446072708648",
+                "event": "click<img id=8 alt=\"Save\">  </img>"
+            },
+            {
+                "from": "-2576409446072708648",
+                "to": "-2576409446072708648",
+                "event": "click<button id=13 class =\"com.pinterest:id/pin_marklet_next_bt\"> Next,  </button>"
+            },
+            {
+                "from": "-2576409446072708648",
+                "to": "-1797067756048721796",
+                "event": "click<button id=3 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin, Description: 564 x 751\">  </button>"
+            },
+            {
+                "from": "-1797067756048721796",
+                "to": "7819959431877919366",
+                "event": "click<button id=14 class =\"com.pinterest:id/pin_marklet_next_bt\"> Next,  </button>"
+            },
+            {
+                "from": "7819959431877919366",
+                "to": "966878573434849750",
+                "event": "click<p id=6 class =\"com.pinterest:id/board_name\" alt=\"g, Double tap to save this Pin to board\"> g,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

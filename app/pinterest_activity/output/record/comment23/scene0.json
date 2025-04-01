@@ -1,0 +1,113 @@
+[
+    {
+        "round": 1,
+        "comment": "I use Pinterest a lot but the recent update seems to had a detrimental effect on the usability of the app. I can no longer click on a thumb image and have it open up properly. It zooms in to one section of the image leaving the rest off screen. If you try to zoom out if just runs a visual search on the item in the photo. I hope this gets sorted in the next update.",
+        "scenarios": [
+            "Click on a thumbnail image, but it opens up improperly by zooming into one section of the image, leaving the rest off-screen.",
+            "Try to zoom out of the image, but it initiates a visual search on the item in the photo instead."
+        ],
+        "key sentence": "Click on a thumbnail image, but it opens up improperly by zooming into one section of the image, leaving the rest off-screen.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state5",
+        "the sub-task list of state": "[{'name': 'View Image', 'description': 'View a larger version of an image or pin on the screen.'}, {'name': 'Save Pin', 'description': 'Save a pin or item to a collection or board for later reference.'}, {'name': 'Share', 'description': 'Share content via various platforms or methods such as social media or messaging.'}, {'name': 'View Comments', 'description': 'Read and engage with comments associated with a pin or post.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "I use Pinterest a lot but the recent update seems to had a detrimental effect on the usability of the app. I can no longer click on a thumb image and have it open up properly. It zooms in to one section of the image leaving the rest off screen. If you try to zoom out if just runs a visual search on the item in the photo. I hope this gets sorted in the next update.",
+        "scenarios": [
+            "Click on a thumbnail image, but it opens up improperly by zooming into one section of the image, leaving the rest off-screen.",
+            "Try to zoom out of the image, but it initiates a visual search on the item in the photo instead."
+        ],
+        "key sentence": "Click on a thumbnail image, but it opens up improperly by zooming into one section of the image, leaving the rest off-screen.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "b8991ad97a321f20ff2b35786bf7e9d3",
+        "the sub-task list of state": "[{'name': 'Lens', 'description': 'Camera Search'}, {'name': 'Search for Ideas', 'description': 'Search for content related to your idea.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\b8991ad97a321f20ff2b35786bf7e9d3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "b8991ad97a321f20ff2b35786bf7e9d3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\240460104859455005.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "240460104859455005"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\-7064494981508443657.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7064494981508443657"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\8768987526756567535.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8768987526756567535"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=6d91963abcf8f775a2f7cae13358b6ae(MainActivity/FrameLayout-Search, Ta:x276:y2016))"
+            },
+            {
+                "from": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "to": "240460104859455005",
+                "event": "click<button id=1 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "240460104859455005",
+                "to": "-7064494981508443657",
+                "event": "click<button id=13 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from Rossya\">  </button>"
+            },
+            {
+                "from": "-7064494981508443657",
+                "to": "8768987526756567535",
+                "event": "click<button id=2 class =\"com.pinterest:id/pin_image_view\" alt=\"Pin from Rossya\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

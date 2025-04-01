@@ -1,0 +1,125 @@
+[
+    {
+        "round": 1,
+        "comment": "Overall good app,can show your stats and everything. I would give it a 5 stars but no,since you guys removed the feature of single post with multiple images thingy,I am not able to post various photos at once -_- it's kinda annoying . Bring it back please.",
+        "scenarios": [
+            "Viewing statistics within the app.",
+            "Posting multiple images in a single post."
+        ],
+        "key sentence": "Posting multiple images in a single post.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-5038876947588179378.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-5038876947588179378"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-1254726203524502036.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-1254726203524502036"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\scene1\\9003916120519217949.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "9003916120519217949"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\scene1\\9003916120519217949.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "9003916120519217949"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-5277848229884702095.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-5277848229884702095"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\scene1\\1068413877099908747.png",
+                "activity": "com.android.vending.AssetBrowserActivity}",
+                "state_str": "1068413877099908747"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-1400922725044314549.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-1400922725044314549"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-1400922725044314549.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-1400922725044314549"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-1400922725044314549.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-1400922725044314549"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\scene1\\1246458108173432516.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "1246458108173432516"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-5038876947588179378",
+                "event": "click<button id=24 class =\"com.pinterest:id/menu_creation\" alt=\"Create, Tab\">  </button>"
+            },
+            {
+                "from": "-5038876947588179378",
+                "to": "-1254726203524502036",
+                "event": "click<button id=34 class =\"com.pinterest:id/action_button_label\"> Pin,  </button>"
+            },
+            {
+                "from": "-1254726203524502036",
+                "to": "9003916120519217949",
+                "event": "click<button id=2 class =\"com.pinterest:id/icon_button\">  </button>"
+            },
+            {
+                "from": "9003916120519217949",
+                "to": "9003916120519217949",
+                "event": "click<button id=1 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "9003916120519217949",
+                "to": -5277848229884702095,
+                "event": "back"
+            },
+            {
+                "from": -5277848229884702095,
+                "to": "1068413877099908747",
+                "event": "click<button id=12> Play Store,  </button>"
+            },
+            {
+                "from": "1068413877099908747",
+                "to": -1400922725044314549,
+                "event": "back"
+            },
+            {
+                "from": -1400922725044314549,
+                "to": "-1400922725044314549",
+                "event": "click<button id=1 alt=\"Apps list\">  </button>"
+            },
+            {
+                "from": "-1400922725044314549",
+                "to": -1400922725044314549,
+                "event": "back"
+            },
+            {
+                "from": -1400922725044314549,
+                "to": "1246458108173432516",
+                "event": "click<button id=1 alt=\"Apps list\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

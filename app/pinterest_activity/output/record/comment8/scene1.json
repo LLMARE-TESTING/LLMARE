@@ -1,0 +1,253 @@
+[
+    {
+        "round": 1,
+        "comment": "I love pinterest and have used it for about as long as I've had a cell phone, but lately it's been giving me a lot of trouble with saving pins. I'm an artist so I have multiple boards for inspiration for poses, fashion, etc. And I've missed out on saving so many inspiring pins because the save button completely disappeared on me. I've restarted my phone, logged out and back in, and nothing changed, it's quite frustrating.",
+        "scenarios": [
+            "Encountering issues with the \"save\" feature for pins: The save button disappears, preventing the user from saving pins to their boards.\n",
+            "Attempting troubleshooting methods to resolve the save button issue: The user restarts their phone and logs out and back into their account without resolving the issue."
+        ],
+        "key sentence": "Attempting troubleshooting methods to resolve the save button issue: The user restarts their phone and logs out and back into their account without resolving the issue.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Save Pin', 'description': 'Save a pin or item to a board for later reference.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\state7.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\-1846932484282531982.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1846932484282531982"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\5671831729718901959.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5671831729718901959"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\4525111925266065917.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4525111925266065917"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\8128303924411562753.png",
+                "activity": "com.pinterest.identity.UnauthActivity}",
+                "state_str": "8128303924411562753"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "-1846932484282531982",
+                "event": "click<button id=9 class =\"com.pinterest:id/closeup_back_button\" alt=\"Back\">  </button>"
+            },
+            {
+                "from": "-1846932484282531982",
+                "to": "5671831729718901959",
+                "event": "click<button id=26 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "5671831729718901959",
+                "to": "4525111925266065917",
+                "event": "click<div id=2 class =\"com.pinterest:id/profile_user_avatar_component\" alt=\"Avatar: Jane\">  </div>"
+            },
+            {
+                "from": "4525111925266065917",
+                "to": "8128303924411562753",
+                "event": "click<p id=21 class =\"com.pinterest:id/settings_menu_item_title\"> Log out,  </p>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "I love pinterest and have used it for about as long as I've had a cell phone, but lately it's been giving me a lot of trouble with saving pins. I'm an artist so I have multiple boards for inspiration for poses, fashion, etc. And I've missed out on saving so many inspiring pins because the save button completely disappeared on me. I've restarted my phone, logged out and back in, and nothing changed, it's quite frustrating.",
+        "scenarios": [
+            "Encountering issues with the \"save\" feature for pins: The save button disappears, preventing the user from saving pins to their boards.\n",
+            "Attempting troubleshooting methods to resolve the save button issue: The user restarts their phone and logs out and back into their account without resolving the issue."
+        ],
+        "key sentence": "Attempting troubleshooting methods to resolve the save button issue: The user restarts their phone and logs out and back into their account without resolving the issue.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Save Pin', 'description': 'Save a pin or item to a board for later reference.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\state7.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\-1846932484282531982.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1846932484282531982"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\5671831729718901959.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5671831729718901959"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\4525111925266065917.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4525111925266065917"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\8128303924411562753.png",
+                "activity": "com.pinterest.identity.UnauthActivity}",
+                "state_str": "8128303924411562753"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\state7.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\-5411689555735547424.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-5411689555735547424"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\5478744243406263204.png",
+                "activity": "com.google.android.gms.auth.api.credentials.assistedsignin.ui.AssistedSignInActivity}",
+                "state_str": "5478744243406263204"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\8128303924411562753.png",
+                "activity": "com.pinterest.identity.UnauthActivity}",
+                "state_str": "8128303924411562753"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\-5170460166123354252.png",
+                "activity": "",
+                "state_str": "-5170460166123354252"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\2579258523709051361.png",
+                "activity": "com.pinterest.identity.UnauthActivity}",
+                "state_str": "2579258523709051361"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment8\\scene1\\2579258523709051361.png",
+                "activity": "com.pinterest.identity.UnauthActivity}",
+                "state_str": "2579258523709051361"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "-1846932484282531982",
+                "event": "click<button id=9 class =\"com.pinterest:id/closeup_back_button\" alt=\"Back\">  </button>"
+            },
+            {
+                "from": "-1846932484282531982",
+                "to": "5671831729718901959",
+                "event": "click<button id=26 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "5671831729718901959",
+                "to": "4525111925266065917",
+                "event": "click<div id=2 class =\"com.pinterest:id/profile_user_avatar_component\" alt=\"Avatar: Jane\">  </div>"
+            },
+            {
+                "from": "4525111925266065917",
+                "to": "8128303924411562753",
+                "event": "click<p id=21 class =\"com.pinterest:id/settings_menu_item_title\"> Log out,  </p>"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "-5411689555735547424",
+                "event": "click<button id=6 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-5411689555735547424",
+                "to": 5478744243406263204,
+                "event": "back"
+            },
+            {
+                "from": 5478744243406263204,
+                "to": "8128303924411562753",
+                "event": "click<img id=3 class =\"com.google.android.gms:id/cancel\" alt=\"Cancel\">  </img>"
+            },
+            {
+                "from": "8128303924411562753",
+                "to": "-5170460166123354252",
+                "event": "click<input id=4 class =\"com.pinterest:id/edit_text\"> Email address,  </input>"
+            },
+            {
+                "from": "-5170460166123354252",
+                "to": 2579258523709051361,
+                "event": "back"
+            },
+            {
+                "from": 2579258523709051361,
+                "to": "2579258523709051361",
+                "event": "click<input id=4 class =\"com.pinterest:id/edit_text\"> Email address,  </input>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

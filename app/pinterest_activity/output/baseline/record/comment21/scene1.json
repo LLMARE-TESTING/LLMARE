@@ -1,0 +1,95 @@
+[
+    {
+        "round": 1,
+        "comment": "Please, introduce a sound off feature for the video content. There is a lot of video clips on pinterest nowadays. Often you stumble into videos unintentionally, while sliding through photo content and I am often overwhelmed by audio tracks that are very noisy, unpleasant or too loud. Also it makes it very inappropriate to use this app in public places.",
+        "scenarios": [
+            "While scrolling through photo content on Pinterest, the user unintentionally encounters video clips with audio tracks.\n",
+            "The user experiences audio tracks that are noisy, unpleasant, or too loud when viewing video content on Pinterest."
+        ],
+        "key sentence": "The user experiences audio tracks that are noisy, unpleasant, or too loud when viewing video content on Pinterest.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment21\\scene0\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-7313290829008637368.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7313290829008637368"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment21\\scene0\\scene1\\8024288882407716729.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8024288882407716729"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-5135102363276830124.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-5135102363276830124"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment21\\scene0\\scene1\\6186051840008059396.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "6186051840008059396"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-5135102363276830124.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-5135102363276830124"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment21\\scene0\\scene1\\6186051840008059396.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "6186051840008059396"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-5135102363276830124.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-5135102363276830124"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-7313290829008637368",
+                "event": "click<div id=7 class =\"com.pinterest:id/browse_watch_tab_layout\">  </div>"
+            },
+            {
+                "from": "-7313290829008637368",
+                "to": "8024288882407716729",
+                "event": "click<div id=9 class =\"com.pinterest:id/simple_exoplayer_view\">  </div>"
+            },
+            {
+                "from": "8024288882407716729",
+                "to": "-5135102363276830124",
+                "event": "click<div id=5 class =\"com.pinterest:id/simple_exoplayer_view\">  </div>"
+            },
+            {
+                "from": "-5135102363276830124",
+                "to": "6186051840008059396",
+                "event": "click<button id=3 class =\"com.pinterest:id/closeup_overflow_button\" alt=\"More options\">  </button>"
+            },
+            {
+                "from": "6186051840008059396",
+                "to": "-5135102363276830124",
+                "event": "click<div id=2 alt=\"Hide player controls\">  </div>"
+            },
+            {
+                "from": "-5135102363276830124",
+                "to": "6186051840008059396",
+                "event": "click<button id=3 class =\"com.pinterest:id/closeup_overflow_button\" alt=\"More options\">  </button>"
+            },
+            {
+                "from": "6186051840008059396",
+                "to": "-5135102363276830124",
+                "event": "click<button id=4 class =\"com.pinterest:id/icon_button\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "round": 1,
+        "comment": "Notifications are a bit weird. When I'm outside of the app, I'll get comments and replies that show up in my notification bar. But when I click them, it won't bring me to the comment, it'll just bring me to my Pinterest homepage. I can look through my notifications in the app, but not all comments show up. This happens EVERY time, I've never been able to see what people reply to me.",
+        "scenarios": [
+            "Receiving comments and replies in the notification bar, but clicking them only redirects to the Pinterest homepage instead of the specific comment.  ",
+            "Not all comments are visible when checking notifications within the app."
+        ],
+        "key sentence": "Not all comments are visible when checking notifications within the app.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "ba5f165ac71b67896bd0c28f07857be5",
+        "the sub-task list of state": "[{'name': 'Create', 'description': 'Tab for creating something'}, {'name': 'Notifications', 'description': 'Tab for viewing notifications'}, {'name': 'Saved', 'description': 'Tab for viewing saved items'}, {'name': 'Avatar: Jane', 'description': 'Display the avatar for the user Jane'}, {'name': 'Access Search Page', 'description': 'Access the search page.'}, {'name': 'Browse content', 'description': 'Browse recommended pins.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment15\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment15\\scene1\\5933791096382601724.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5933791096382601724"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "5933791096382601724",
+                "event": "click<button id=21 class =\"com.pinterest:id/menu_notifications\" alt=\"Notifications, Tab\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Notifications are a bit weird. When I'm outside of the app, I'll get comments and replies that show up in my notification bar. But when I click them, it won't bring me to the comment, it'll just bring me to my Pinterest homepage. I can look through my notifications in the app, but not all comments show up. This happens EVERY time, I've never been able to see what people reply to me.",
+        "scenarios": [
+            "Receiving comments and replies in the notification bar, but clicking them only redirects to the Pinterest homepage instead of the specific comment.  ",
+            "Not all comments are visible when checking notifications within the app."
+        ],
+        "key sentence": "Not all comments are visible when checking notifications within the app.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "ba5f165ac71b67896bd0c28f07857be5",
+        "the sub-task list of state": "[{'name': 'Create', 'description': 'Tab for creating something'}, {'name': 'Notifications', 'description': 'Tab for viewing notifications'}, {'name': 'Saved', 'description': 'Tab for viewing saved items'}, {'name': 'Avatar: Jane', 'description': 'Display the avatar for the user Jane'}, {'name': 'Access Search Page', 'description': 'Access the search page.'}, {'name': 'Browse content', 'description': 'Browse recommended pins.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment15\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment15\\scene1\\5933791096382601724.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5933791096382601724"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment15\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment15\\scene1\\5933791096382601724.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5933791096382601724"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "5933791096382601724",
+                "event": "click<button id=21 class =\"com.pinterest:id/menu_notifications\" alt=\"Notifications, Tab\">  </button>"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "5933791096382601724",
+                "event": "click<button id=22 class =\"com.pinterest:id/menu_notifications\" alt=\"Notifications, Tab\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

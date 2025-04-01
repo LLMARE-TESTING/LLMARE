@@ -1,0 +1,383 @@
+[
+    {
+        "round": 1,
+        "comment": "The app was great until the update where it automatically saves everything to your profile. Why would you make me go through more steps just to save a photo or recipe?? Why would I bother making boards if they're going to make the app useless by throwing them all together and making me save them twice. Hoping they get rid of this \"feature\" in the next update. It's annoying.",
+        "scenarios": [
+            "Save a photo or recipe to a profile, which now requires going through additional steps due to an automatic save feature.",
+            "Create boards to organize content but find it useless if everything is thrown together and saved twice due to the automatic save feature."
+        ],
+        "key sentence": "Create boards to organize content but find it useless if everything is thrown together and saved twice due to the automatic save feature.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-1269813036850796587.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1269813036850796587"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\7507432169160504671.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "7507432169160504671"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-6547116064776451190.png",
+                "activity": "org.lineageos.eleven.ui.activities.HomeActivity}",
+                "state_str": "-6547116064776451190"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-6547116064776451190.png",
+                "activity": "org.lineageos.eleven.ui.activities.HomeActivity}",
+                "state_str": "-6547116064776451190"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\291288317585678795.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "291288317585678795"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-728369492829837050.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-728369492829837050"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\120066547501024273.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "120066547501024273"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-1561230200416354794.png",
+                "activity": "com.android.permissioncontroller.permission.ui.GrantPermissionsActivity}",
+                "state_str": "-1561230200416354794"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-1713575270881948194.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-1713575270881948194"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-1561230200416354794.png",
+                "activity": "com.android.permissioncontroller.permission.ui.GrantPermissionsActivity}",
+                "state_str": "-1561230200416354794"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-8447086249541475614.png",
+                "activity": "com.instagram.modal.TransparentModalActivity}",
+                "state_str": "-8447086249541475614"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-1269813036850796587",
+                "event": "click<button id=25 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-1269813036850796587",
+                "to": "7507432169160504671",
+                "event": "click<div id=7 class =\"com.pinterest:id/profile_boards_tab\" alt=\"Boards\">  </div>"
+            },
+            {
+                "from": "7507432169160504671",
+                "to": "-6547116064776451190",
+                "event": "click<p id=7 class =\"org.lineageos.eleven:id/app_widget_large_line_one\">  </p>"
+            },
+            {
+                "from": "-6547116064776451190",
+                "to": "-6547116064776451190",
+                "event": "click<button id=2> ARTISTS,  </button>"
+            },
+            {
+                "from": "-6547116064776451190",
+                "to": 291288317585678795,
+                "event": "back"
+            },
+            {
+                "from": 291288317585678795,
+                "to": "-728369492829837050",
+                "event": "click<button id=15> Instagram,  </button>"
+            },
+            {
+                "from": "-728369492829837050",
+                "to": "120066547501024273",
+                "event": "click<button id=20 class =\"com.instagram.android:id/profile_tab\" alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "120066547501024273",
+                "to": "-1561230200416354794",
+                "event": "click<button id=30 class =\"com.instagram.android:id/creation_tab\" alt=\"Create\">  </button>"
+            },
+            {
+                "from": "-1561230200416354794",
+                "to": -1713575270881948194,
+                "event": "back"
+            },
+            {
+                "from": -1713575270881948194,
+                "to": "-1561230200416354794",
+                "event": "click<button id=5 class =\"com.instagram.android:id/next_button_textview\"> Next,  </button>"
+            },
+            {
+                "from": "-1561230200416354794",
+                "to": -8447086249541475614,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "The app was great until the update where it automatically saves everything to your profile. Why would you make me go through more steps just to save a photo or recipe?? Why would I bother making boards if they're going to make the app useless by throwing them all together and making me save them twice. Hoping they get rid of this \"feature\" in the next update. It's annoying.",
+        "scenarios": [
+            "Save a photo or recipe to a profile, which now requires going through additional steps due to an automatic save feature.",
+            "Create boards to organize content but find it useless if everything is thrown together and saved twice due to the automatic save feature."
+        ],
+        "key sentence": "Create boards to organize content but find it useless if everything is thrown together and saved twice due to the automatic save feature.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-1269813036850796587.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1269813036850796587"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\7507432169160504671.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "7507432169160504671"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-6547116064776451190.png",
+                "activity": "org.lineageos.eleven.ui.activities.HomeActivity}",
+                "state_str": "-6547116064776451190"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-6547116064776451190.png",
+                "activity": "org.lineageos.eleven.ui.activities.HomeActivity}",
+                "state_str": "-6547116064776451190"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\291288317585678795.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "291288317585678795"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-728369492829837050.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-728369492829837050"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\120066547501024273.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "120066547501024273"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-1561230200416354794.png",
+                "activity": "com.android.permissioncontroller.permission.ui.GrantPermissionsActivity}",
+                "state_str": "-1561230200416354794"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-1713575270881948194.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-1713575270881948194"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-1561230200416354794.png",
+                "activity": "com.android.permissioncontroller.permission.ui.GrantPermissionsActivity}",
+                "state_str": "-1561230200416354794"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-8447086249541475614.png",
+                "activity": "com.instagram.modal.TransparentModalActivity}",
+                "state_str": "-8447086249541475614"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-2303808482796319533.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2303808482796319533"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-2303808482796319533.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2303808482796319533"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-6506176289591306631.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6506176289591306631"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\910971174245750243.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "910971174245750243"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\910971174245750243.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "910971174245750243"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\4099342038409218240.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4099342038409218240"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\4099342038409218240.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4099342038409218240"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\-1355256779707531969.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1355256779707531969"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\910971174245750243.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "910971174245750243"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\4099342038409218240.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4099342038409218240"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment45\\scene1\\4099342038409218240.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4099342038409218240"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-1269813036850796587",
+                "event": "click<button id=25 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-1269813036850796587",
+                "to": "7507432169160504671",
+                "event": "click<div id=7 class =\"com.pinterest:id/profile_boards_tab\" alt=\"Boards\">  </div>"
+            },
+            {
+                "from": "7507432169160504671",
+                "to": "-6547116064776451190",
+                "event": "click<p id=7 class =\"org.lineageos.eleven:id/app_widget_large_line_one\">  </p>"
+            },
+            {
+                "from": "-6547116064776451190",
+                "to": "-6547116064776451190",
+                "event": "click<button id=2> ARTISTS,  </button>"
+            },
+            {
+                "from": "-6547116064776451190",
+                "to": 291288317585678795,
+                "event": "back"
+            },
+            {
+                "from": 291288317585678795,
+                "to": "-728369492829837050",
+                "event": "click<button id=15> Instagram,  </button>"
+            },
+            {
+                "from": "-728369492829837050",
+                "to": "120066547501024273",
+                "event": "click<button id=20 class =\"com.instagram.android:id/profile_tab\" alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "120066547501024273",
+                "to": "-1561230200416354794",
+                "event": "click<button id=30 class =\"com.instagram.android:id/creation_tab\" alt=\"Create\">  </button>"
+            },
+            {
+                "from": "-1561230200416354794",
+                "to": -1713575270881948194,
+                "event": "back"
+            },
+            {
+                "from": -1713575270881948194,
+                "to": "-1561230200416354794",
+                "event": "click<button id=5 class =\"com.instagram.android:id/next_button_textview\"> Next,  </button>"
+            },
+            {
+                "from": "-1561230200416354794",
+                "to": -8447086249541475614,
+                "event": "back"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-2303808482796319533",
+                "event": "click<button id=25 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-2303808482796319533",
+                "to": "-2303808482796319533",
+                "event": "click<div id=7 class =\"com.pinterest:id/profile_boards_tab\" alt=\"Boards\">  </div>"
+            },
+            {
+                "from": "-2303808482796319533",
+                "to": "-6506176289591306631",
+                "event": "click<button id=13 class =\"com.pinterest:id/gestalt_end_action_one\" alt=\"Create\">  </button>"
+            },
+            {
+                "from": "-6506176289591306631",
+                "to": "910971174245750243",
+                "event": "click<button id=49 class =\"com.pinterest:id/action_button_label\"> Board,  </button>"
+            },
+            {
+                "from": "910971174245750243",
+                "to": "910971174245750243",
+                "event": "click<div id=1 class =\"com.pinterest:id/bottom_sheet_view\" alt=\"Create board\">  </div>"
+            },
+            {
+                "from": "910971174245750243",
+                "to": "4099342038409218240",
+                "event": "click<button id=2 class =\"com.pinterest:id/icon\" alt=\"Cancel\">  </button>"
+            },
+            {
+                "from": "4099342038409218240",
+                "to": "4099342038409218240",
+                "event": "click<div id=7 class =\"com.pinterest:id/profile_boards_tab\" alt=\"Boards\">  </div>"
+            },
+            {
+                "from": "4099342038409218240",
+                "to": "-1355256779707531969",
+                "event": "click<button id=13 class =\"com.pinterest:id/gestalt_end_action_one\" alt=\"Create\">  </button>"
+            },
+            {
+                "from": "-1355256779707531969",
+                "to": "910971174245750243",
+                "event": "click<button id=49 class =\"com.pinterest:id/action_button_label\"> Board,  </button>"
+            },
+            {
+                "from": "910971174245750243",
+                "to": "4099342038409218240",
+                "event": "click<button id=2 class =\"com.pinterest:id/icon\" alt=\"Cancel\">  </button>"
+            },
+            {
+                "from": "4099342038409218240",
+                "to": "4099342038409218240",
+                "event": "click<div id=7 class =\"com.pinterest:id/profile_boards_tab\" alt=\"Boards\">  </div>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "round": 1,
+        "comment": " This is the biggest issue I'm facing, since a while ago, I can't hear the audio of most of the videos and if I want to listen it I have to save it and then watch it. Please fix this glitch ASAP!!",
+        "scenarios": [
+            "Can't hear the audio of most of the videos directly on the app.",
+            "Have to save the video first and then watch it to listen to the audio."
+        ],
+        "key sentence": "Have to save the video first and then watch it to listen to the audio.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state5",
+        "the sub-task list of state": "[{'name': 'View Image', 'description': 'View a larger version of an image or pin on the screen.'}, {'name': 'Save Pin', 'description': 'Save a pin or item to a collection or board for later reference.'}, {'name': 'Share', 'description': 'Share content via various platforms or methods such as social media or messaging.'}, {'name': 'View Comments', 'description': 'Read and engage with comments associated with a pin or post.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment50\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment50\\scene1\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment50\\scene1\\-5466109352962060952.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-5466109352962060952"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment50\\scene1\\8211738254661810536.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8211738254661810536"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "-5466109352962060952",
+                "event": "click<button id=16 class =\"com.pinterest:id/save_pinit_bt\"> Save,  </button>"
+            },
+            {
+                "from": "-5466109352962060952",
+                "to": "8211738254661810536",
+                "event": "click<p id=28 class =\"com.pinterest:id/board_name\" alt=\"Cute drawings, Double tap to open sections\"> Cute drawings,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

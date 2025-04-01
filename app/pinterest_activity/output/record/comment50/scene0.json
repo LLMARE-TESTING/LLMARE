@@ -1,0 +1,125 @@
+[
+    {
+        "round": 1,
+        "comment": " This is the biggest issue I'm facing, since a while ago, I can't hear the audio of most of the videos and if I want to listen it I have to save it and then watch it. Please fix this glitch ASAP!!",
+        "scenarios": [
+            "Can't hear the audio of most of the videos directly on the app.",
+            "Have to save the video first and then watch it to listen to the audio."
+        ],
+        "key sentence": "Can't hear the audio of most of the videos directly on the app.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state17",
+        "the sub-task list of state": "[{'name': 'Play Video', 'description': 'Start playing a video content within the application or webpage.'}, {'name': 'Toggle Mute', 'description': 'Enable or disable audio output for the currently playing media.'}, {'name': 'Enter Fullscreen', 'description': 'Expand the video or media content to occupy the entire screen.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment50\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment50\\scene0\\b8991ad97a321f20ff2b35786bf7e9d3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "b8991ad97a321f20ff2b35786bf7e9d3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment50\\scene0\\state4.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment50\\scene0\\state9.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment50\\scene0\\state10.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment50\\scene0\\state11.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment50\\scene0\\state17.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state17"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment50\\scene0\\2513125231342526542.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "2513125231342526542"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment50\\scene0\\-2228857231637984438.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2228857231637984438"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment50\\scene0\\-2228857231637984438.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2228857231637984438"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment50\\scene0\\-2228857231637984438.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2228857231637984438"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=6d91963abcf8f775a2f7cae13358b6ae(MainActivity/FrameLayout-Search, Ta:x276:y2016))"
+            },
+            {
+                "from": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "to": "state4",
+                "event": "click(TextView-Nail inspo:[41,429][510,641])"
+            },
+            {
+                "from": "state4",
+                "to": "state9",
+                "event": "click(Button-com.pinterest:id/one_bar_module_filter_button_id:[22,270][132,391])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(TextView-Videos:[66,1497][948,1571])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(Button-View results:[364,1961][716,2126])"
+            },
+            {
+                "from": "state11",
+                "to": "state17",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[22,446][529,1422])"
+            },
+            {
+                "from": "state17",
+                "to": "2513125231342526542",
+                "event": "click<div id=5 class =\"com.pinterest:id/simple_exoplayer_view\">  </div>"
+            },
+            {
+                "from": "2513125231342526542",
+                "to": "-2228857231637984438",
+                "event": "click<button id=3 class =\"com.pinterest:id/closeup_overflow_button\" alt=\"More options\">  </button>"
+            },
+            {
+                "from": "-2228857231637984438",
+                "to": "-2228857231637984438",
+                "event": "click<button id=14 class =\"com.pinterest:id/save_pinit_bt\"> Save,  </button>"
+            },
+            {
+                "from": "-2228857231637984438",
+                "to": "-2228857231637984438",
+                "event": "click<div id=5 class =\"com.pinterest:id/simple_exoplayer_view\">  </div>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,125 @@
+[
+    {
+        "round": 1,
+        "comment": "Not sure what's going on now (really, what isn't going on with this app is more accurate...) But recently I can't seem to upload pictures to any of my boards that have sections... Only the ones that don't. Boards without sections are fine, they'll receive pics from my photo app no problem. Seriously, if I could get rid of this app, I honestly would. \u9983\u69d5",
+        "scenarios": [
+            "The user tries to upload pictures to boards that have sections, but the upload fails.",
+            "The user successfully uploads pictures to boards that do not have sections from their photo app."
+        ],
+        "key sentence": "The user tries to upload pictures to boards that have sections, but the upload fails.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\-1349314516129287006.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1349314516129287006"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\-1349314516129287006.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1349314516129287006"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\-8441019988973621174.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8441019988973621174"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\-6008815614429010912.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6008815614429010912"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\-6008815614429010912.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6008815614429010912"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\-2270567021074214443.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2270567021074214443"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\-3944256870547187130.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3944256870547187130"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\-3944256870547187130.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3944256870547187130"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\914025208724662304.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "914025208724662304"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment23\\scene0\\914025208724662304.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "914025208724662304"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-1349314516129287006",
+                "event": "click<button id=28 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-1349314516129287006",
+                "to": "-1349314516129287006",
+                "event": "click<div id=7 class =\"com.pinterest:id/profile_boards_tab\" alt=\"Boards\">  </div>"
+            },
+            {
+                "from": "-1349314516129287006",
+                "to": "-8441019988973621174",
+                "event": "click<button id=18 alt=\"Board: k\">  </button>"
+            },
+            {
+                "from": "-8441019988973621174",
+                "to": "-6008815614429010912",
+                "event": "click<button id=8 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "-6008815614429010912",
+                "to": "-6008815614429010912",
+                "event": "click<button id=4 class =\"com.pinterest:id/icon_button\">  </button>"
+            },
+            {
+                "from": "-6008815614429010912",
+                "to": "-2270567021074214443",
+                "event": "click<img id=12 class =\"com.pinterest:id/bar_home\" alt=\"Back\">  </img>"
+            },
+            {
+                "from": "-2270567021074214443",
+                "to": "-3944256870547187130",
+                "event": "click<button id=8 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "-3944256870547187130",
+                "to": "-3944256870547187130",
+                "event": "click<button id=4 class =\"com.pinterest:id/icon_button\">  </button>"
+            },
+            {
+                "from": "-3944256870547187130",
+                "to": 914025208724662304,
+                "event": "back"
+            },
+            {
+                "from": 914025208724662304,
+                "to": "914025208724662304",
+                "event": "click<button id=8 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]
