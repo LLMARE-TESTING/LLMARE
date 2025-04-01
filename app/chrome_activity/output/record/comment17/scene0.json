@@ -1,0 +1,135 @@
+[
+    {
+        "round": 1,
+        "comment": "Thanks for brining back web page zoom, now please make the dark theme available for web pages.",
+        "scenarios": [
+            "Use web page zoom after it has been brought back.",
+            "Make the dark theme available for web pages."
+        ],
+        "key sentence": "Use web page zoom after it has been brought back.",
+        "target activity": "com.google.android.apps.chrome.Main",
+        "the function of activity": "The activity consolidates essential browser and application functions, including navigation, bookmarking, downloading, tab management, privacy, customization, and content translating, content sharing for enhanced user experience and accessibility.",
+        "target state": "46b6ba6ad81aa0f1b3a4bdba4d9ab204",
+        "the sub-task list of state": "[{'name': 'Open Preferences', 'description': 'Opens a menu to adjust settings and preferences for the application or page.'}, {'name': 'Open the home page', 'description': 'Navigates to the predefined home page of the browser or application.'}, {'name': 'Bookmark this page', 'description': 'Adds the currently viewed page to bookmarks for easy access in the future.'}, {'name': 'Switch or close tabs', 'description': 'Switches between open tabs or closes existing tabs within the browser or application.'}, {'name': 'Customize and control Google Chrome', 'description': 'Opens a menu with options to customize and control various settings in Google Chrome, including but not limited to bookmarks, settings, and extensions.'}, {'name': 'Search', 'description': 'Initiates a search function within the application or webpage to find specific content.'}, {'name': 'Subscribe', 'description': 'Subscribes to a newsletter or service, often after inputting an email address.'}, {'name': 'Begin the survey', 'description': 'Starts a survey to collect information or feedback from the user.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment17\\scene0\\4e5cd78cfbca801ea96edfce1920b231.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4e5cd78cfbca801ea96edfce1920b231"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment17\\scene0\\46b6ba6ad81aa0f1b3a4bdba4d9ab204.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "46b6ba6ad81aa0f1b3a4bdba4d9ab204"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment17\\scene0\\-4941546568216170015.png",
+                "activity": "",
+                "state_str": "-4941546568216170015"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment17\\scene0\\-4294773806287001608.png",
+                "activity": "org.chromium.chrome.browser.settings.SettingsActivity}",
+                "state_str": "-4294773806287001608"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment17\\scene0\\-4294773806287001608.png",
+                "activity": "org.chromium.chrome.browser.settings.SettingsActivity}",
+                "state_str": "-4294773806287001608"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment17\\scene0\\7310162128861133117.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "7310162128861133117"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment17\\scene0\\-4941546568216170015.png",
+                "activity": "",
+                "state_str": "-4941546568216170015"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment17\\scene0\\-6208554789892825539.png",
+                "activity": "org.chromium.chrome.browser.settings.SettingsActivity}",
+                "state_str": "-6208554789892825539"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment17\\scene0\\7310162128861133117.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "7310162128861133117"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment17\\scene0\\-4941546568216170015.png",
+                "activity": "",
+                "state_str": "-4941546568216170015"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment17\\scene0\\-6208554789892825539.png",
+                "activity": "org.chromium.chrome.browser.settings.SettingsActivity}",
+                "state_str": "-6208554789892825539"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment17\\scene0\\-6208554789892825539.png",
+                "activity": "org.chromium.chrome.browser.settings.SettingsActivity}",
+                "state_str": "-6208554789892825539"
+            }
+        ],
+        "operations": [
+            {
+                "from": "4e5cd78cfbca801ea96edfce1920b231",
+                "to": "46b6ba6ad81aa0f1b3a4bdba4d9ab204",
+                "event": "click(state=4e5cd78cfbca801ea96edfce1920b231, view=1ea7bf2929151e8de0c9f30905be5733(Main/Button-:x0:y1405))"
+            },
+            {
+                "from": "46b6ba6ad81aa0f1b3a4bdba4d9ab204",
+                "to": "-4941546568216170015",
+                "event": "click<button id=7 class =\"com.android.chrome:id/menu_button\" alt=\"Customize and control Google Chrome\">  </button>"
+            },
+            {
+                "from": "-4941546568216170015",
+                "to": "-4294773806287001608",
+                "event": "click<p id=20 class =\"com.android.chrome:id/menu_item_text\"> Settings,  </p>"
+            },
+            {
+                "from": "-4294773806287001608",
+                "to": "-4294773806287001608",
+                "event": "click<p id=2> Settings,  </p>"
+            },
+            {
+                "from": "-4294773806287001608",
+                "to": 7310162128861133117,
+                "event": "back"
+            },
+            {
+                "from": 7310162128861133117,
+                "to": "-4941546568216170015",
+                "event": "click<button id=7 class =\"com.android.chrome:id/menu_button\" alt=\"Customize and control Google Chrome\">  </button>"
+            },
+            {
+                "from": "-4941546568216170015",
+                "to": "-6208554789892825539",
+                "event": "click<p id=20 class =\"com.android.chrome:id/menu_item_text\"> Settings,  </p>"
+            },
+            {
+                "from": "-6208554789892825539",
+                "to": 7310162128861133117,
+                "event": "back"
+            },
+            {
+                "from": 7310162128861133117,
+                "to": "-4941546568216170015",
+                "event": "click<button id=7 class =\"com.android.chrome:id/menu_button\" alt=\"Customize and control Google Chrome\">  </button>"
+            },
+            {
+                "from": "-4941546568216170015",
+                "to": "-6208554789892825539",
+                "event": "click<p id=20 class =\"com.android.chrome:id/menu_item_text\"> Settings,  </p>"
+            },
+            {
+                "from": "-6208554789892825539",
+                "to": "-6208554789892825539",
+                "event": "scroll down"
+            }
+        ],
+        "Final answer": 1
+    }
+]

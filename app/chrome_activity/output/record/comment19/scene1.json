@@ -1,0 +1,66 @@
+[
+    {
+        "round": 1,
+        "comment": "Generally chrome used to be ok Lately, it's been slow across all my devices, switching tabs, pressing the new tab button, and opening the tab switcher is always delayed.. did not happen in previous versions",
+        "scenarios": [
+            "Switching tabs is delayed.",
+            "Pressing the new tab button is delayed.",
+            "Opening the tab switcher is delayed."
+        ],
+        "key sentence": "Pressing the new tab button is delayed.",
+        "target activity": "com.google.android.apps.chrome.Main",
+        "the function of activity": "The activity consolidates essential browser and application functions, including navigation, bookmarking, downloading, tab management, privacy, customization, and content translating, content sharing for enhanced user experience and accessibility.",
+        "target state": "a1c93982f450227f94a1c765fdaa693f",
+        "the sub-task list of state": "[{'name': 'Open New Tab', 'description': \"Opens a new tab in the browser by clicking the 'New tab' button.\"}, {'name': 'Customize and Control', 'description': \"Accesses Chrome's customization and control options by clicking the 'Customize and control Google Chrome' button.\"}, {'name': 'Close Tab', 'description': \"Closes the current tab by clicking on the 'Close New tab tab' button.\"}, {'name': 'View Tab List', 'description': \"Displays the list of opened tabs in the browser using the 'tab_list_recycler_view' component.\"}]",
+        "nodes": [
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment19\\scene1\\4e5cd78cfbca801ea96edfce1920b231.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4e5cd78cfbca801ea96edfce1920b231"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment19\\scene1\\a1c93982f450227f94a1c765fdaa693f.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "a1c93982f450227f94a1c765fdaa693f"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment19\\scene1\\-3130389790622620399.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-3130389790622620399"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment19\\scene1\\-4635320317274302260.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-4635320317274302260"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment19\\scene1\\-71551965236043980.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-71551965236043980"
+            }
+        ],
+        "operations": [
+            {
+                "from": "4e5cd78cfbca801ea96edfce1920b231",
+                "to": "a1c93982f450227f94a1c765fdaa693f",
+                "event": "click(state=4e5cd78cfbca801ea96edfce1920b231, view=cb975ef8c0aedf0508d0f3e9dc0b6469(Main/ImageButton-Switch or :x816:y83))"
+            },
+            {
+                "from": "a1c93982f450227f94a1c765fdaa693f",
+                "to": "-3130389790622620399",
+                "event": "click<button id=1 class =\"com.android.chrome:id/toolbar_action_button\" alt=\"New tab\">  </button>"
+            },
+            {
+                "from": "-3130389790622620399",
+                "to": "-4635320317274302260",
+                "event": "click<button id=22 class =\"com.android.chrome:id/tab_switcher_button\" alt=\"See 3 tabs\">  </button>"
+            },
+            {
+                "from": "-4635320317274302260",
+                "to": "-71551965236043980",
+                "event": "click<button id=1 class =\"com.android.chrome:id/toolbar_action_button\" alt=\"New tab\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]
