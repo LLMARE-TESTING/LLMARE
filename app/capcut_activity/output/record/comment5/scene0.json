@@ -1,0 +1,65 @@
+[
+    {
+        "round": 1,
+        "comment": "Recently the app does not open videos on full screen, I've reinstalled the app but the issue persist, I've contacted support but no response.",
+        "scenarios": [
+            "The app does not open videos on full screen despite reinstalling.  ",
+            "The user contacted support but received no response."
+        ],
+        "key sentence": "The app does not open videos on full screen despite reinstalling.  ",
+        "target activity": "com.vega.edit.editpage.activity.EditActivity",
+        "the function of activity": "The activity includes searching, navigating, exporting, editing, managing audio, adding media, controlling playback, adjusting visuals, applying effects, and enhancing projects.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Full Screen Play', 'description': 'Play the video being edited in full screen.'}, {'name': 'Cancel full screen', 'description': 'Cancel full screen playback'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment5\\scene0\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment5\\scene0\\state2.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment5\\scene0\\state3.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment5\\scene0\\state4.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment5\\scene0\\state7.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "state7"
+            }
+        ],
+        "operations": [
+            {
+                "from": "b3c2b8cf7b8f3959cd3c2bd09dbce71a",
+                "to": "state2",
+                "event": "click(com.lemon.lvoverseas:id/create_project_tv:[443,639][735,707])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(com.lemon.lvoverseas:id/iv_local_multi_media_select_index:[290,287][339,336])"
+            },
+            {
+                "from": "state3",
+                "to": "state4",
+                "event": "click(com.lemon.lvoverseas:id/sb_media_select_done:[843,2013][1036,2090])"
+            },
+            {
+                "from": "state4",
+                "to": "state7",
+                "event": "click(com.lemon.lvoverseas:id/abFullscreenPreview:[28,1188][111,1271])"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,600 @@
+{
+  "tag": "2024-05-29_155246",
+  "state_str": "7179e15a2374f9b0d1813d1d5852c089",
+  "state_str_content_free": "920d1df58d98f3437b022e9dd7731908",
+  "foreground_activity": "com.lemon.lvoverseas/com.vega.main.MainActivity",
+  "activity_stack": [
+    "com.lemon.lvoverseas/com.vega.main.MainActivity"
+  ],
+  "background_services": [
+    "vendor.qti.iwlan/.QualifiedNetworksServiceImpl",
+    "vendor.qti.iwlan/.IWlanDataService",
+    "com.qualcomm.atfwd/.AtFwdService",
+    "org.codeaurora.ims/.ImsService",
+    "com.google.android.euicc/com.android.euicc.service.EuiccServiceImpl",
+    "org.protonaosp.elmyra/.ElmyraService",
+    "com.android.bluetooth/.hearingaid.HearingAidService",
+    "com.google.android.gms/.nearby.sharing.ReceiveSurfaceService",
+    "com.qualcomm.qti.uceShimService/.RCSService",
+    "com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "eu.airaudio.aarscservice/.AARSCService",
+    "com.qualcomm.qti.cne/.CneApp",
+    "com.google.android.gms/.tapandpay.hce.service.TpHceService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.vending/com.google.android.finsky.billing.iab.InAppBillingService",
+    "com.google.android.gms/org.chromium.content.app.SandboxedProcessService0",
+    "com.android.vending/com.google.android.finsky.developergroupidinfo.DeveloperGroupIdInfoService",
+    "com.android.systemui/.ImageWallpaper",
+    "io.appium.settings/.NLService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService",
+    "com.accuweather.android/com.google.firebase.sessions.SessionLifecycleService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.common.superpacks.impl.AiAiSuperpacksService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.android.service.ims.presence/.PollingService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.google.android.gms/.location.geocode.GeocodeService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.accuweather.android/com.mapbox.common.LifecycleService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsApiService",
+    "com.instagram.android/com.instagram.notifications.push.fcm.FcmListenerService",
+    "com.android.hbmsvmanager/.DisplayService",
+    "com.google.android.gms/.tron.CollectionService",
+    "app.airmusic.amrscservice/.AMRSCService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.google.android.gms/.nearby.sharing.SendSurfaceService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.android.networkstack/com.android.server.NetworkStackService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.lemon.lvoverseas/com.bytedance.common.wschannel.client.WsClientService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService",
+    "com.android.cellbroadcastservice/.DefaultCellBroadcastService",
+    "com.lemon.lvoverseas/com.bytedance.common.wschannel.server.WsChannelService",
+    "com.google.android.gms/.gcm.http.GoogleHttpService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nga.engine.viss.NgaService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.common.notification.service.AiAiNotificationListenerService",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "vendor.qti.iwlan/.IWlanNetworkService",
+    "vendor.qti.hardware.cacert.server/.CACertService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.lemon.lvoverseas/com.bytedance.common.process.service.CrossProcessServiceForMain",
+    "com.lemon.lvoverseas/com.bytedance.common.process.service.CrossProcessServiceForPush",
+    "com.google.android.gms/.auth.GetToken",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.ss.android.ugc.aweme/com.bytedance.bdauditsdkbase.stub.p0.StubService5",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.networkstack.tethering/.TetheringService",
+    "com.google.android.gms/.wallet.service.PaymentService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.facebook.katana/com.facebook.video.heroplayer.service.HeroKeepAliveService",
+    "com.android.service.ims/.RcsService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.android.launcher3/com.android.quickstep.TouchInteractionService",
+    "com.qti.qualcomm.datastatusnotification/.DataStatusNotificationService",
+    "org.lineageos.audiofx/.service.AudioFxService",
+    "com.lemon.lvoverseas/com.ss.android.message.NotifyService",
+    "com.google.android.gms/.auth.be.appcert.AppCertService",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.huajiao/com.qihoo.pushsdk.cx.PushService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.android.service.ims.presence/.EABService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.qualcomm.qti.telephonyservice/.QtiTelephonyService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.google.android.gms/.personalsafety.service.PersonalSafetyService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.qualcomm.qti.services.secureui/.SecureUIService",
+    "com.facebook.katana/com.facebook.mqtt.service.MqttServiceV2",
+    "com.lemon.lvoverseas/com.ss.android.socialbase.downloader.notification.DownloadNotificationService",
+    "com.pinterest/org.chromium.content.app.SandboxedProcessService0",
+    "android.ext.services/.autofill.InlineSuggestionRenderServiceImpl"
+  ],
+  "width": 1080,
+  "height": 2280,
+  "views": [
+    {
+      "package": "com.lemon.lvoverseas",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          130,
+          729
+        ],
+        [
+          950,
+          1501
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "820*772",
+      "x": 130,
+      "y": 729,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "cc3b5f6d0d68570f6152e7992b490b60",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.lemon.lvoverseas",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          174,
+          773
+        ],
+        [
+          906,
+          1457
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "732*684",
+      "x": 174,
+      "y": 773,
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[enabled,,]",
+      "view_str": "8e6115a69aa328eb7ffa5f3dba8681f3",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.lemon.lvoverseas",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          174,
+          773
+        ],
+        [
+          906,
+          1457
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "732*684",
+      "x": 174,
+      "y": 773,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "1b91c620cbbfab76fe300dc7ba56f0f6",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.lemon.lvoverseas",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          174,
+          773
+        ],
+        [
+          906,
+          1457
+        ]
+      ],
+      "resource_id": "com.lemon.lvoverseas:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "732*684",
+      "x": 174,
+      "y": 773,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.lemon.lvoverseas:id/action_bar_root[enabled,,]",
+      "view_str": "a98f0aadee5cd73d3b9df419a4d3cd5e",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.lemon.lvoverseas:id/action_bar_root"
+    },
+    {
+      "package": "com.lemon.lvoverseas",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          174,
+          773
+        ],
+        [
+          906,
+          1457
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "732*684",
+      "x": 174,
+      "y": 773,
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[enabled,,]",
+      "view_str": "8cf8b47491604f1b770954ff2f8c11c1",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "com.lemon.lvoverseas",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          174,
+          773
+        ],
+        [
+          906,
+          1457
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "732*684",
+      "x": 174,
+      "y": 773,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "de7b002fd423193a7f13d1e544dc0291",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.lemon.lvoverseas",
+      "visible": true,
+      "checkable": false,
+      "child_count": 5,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          174,
+          773
+        ],
+        [
+          906,
+          1457
+        ]
+      ],
+      "resource_id": "com.lemon.lvoverseas:id/llayout_root",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "732*684",
+      "x": 174,
+      "y": 773,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.lemon.lvoverseas:id/llayout_root[enabled,,]",
+      "view_str": "af84654305f80b3824e3d4f1f4260e73",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.lemon.lvoverseas:id/llayout_root"
+    },
+    {
+      "package": "com.lemon.lvoverseas",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          352,
+          856
+        ],
+        [
+          729,
+          915
+        ]
+      ],
+      "resource_id": "com.lemon.lvoverseas:id/title_enter_draft_name",
+      "checked": false,
+      "text": "Enter project name",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "377*59",
+      "x": 352,
+      "y": 856,
+      "signature": "[class]android.widget.TextView[resource_id]com.lemon.lvoverseas:id/title_enter_draft_name[enabled,,]",
+      "view_str": "9d311e99adb344170a0835f805826716",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.lemon.lvoverseas:id/title_enter_draft_name"
+    },
+    {
+      "package": "com.lemon.lvoverseas",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": true,
+      "bounds": [
+        [
+          251,
+          959
+        ],
+        [
+          829,
+          1015
+        ]
+      ],
+      "resource_id": "com.lemon.lvoverseas:id/etName",
+      "checked": false,
+      "text": "Romantic",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 6,
+      "temp_id": 8,
+      "size": "578*56",
+      "x": 251,
+      "y": 959,
+      "signature": "[class]android.widget.EditText[resource_id]com.lemon.lvoverseas:id/etName[enabled,,]",
+      "view_str": "15164eec1ca14bccc450803425ef7d0e",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.lemon.lvoverseas:id/etName"
+    },
+    {
+      "package": "com.lemon.lvoverseas",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          251,
+          1037
+        ],
+        [
+          829,
+          1038
+        ]
+      ],
+      "resource_id": "com.lemon.lvoverseas:id/divider",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 9,
+      "size": "578*1",
+      "x": 251,
+      "y": 1037,
+      "signature": "[class]android.view.View[resource_id]com.lemon.lvoverseas:id/divider[enabled,,]",
+      "view_str": "998d951448ef4aede1ce8b5bff99a6d6",
+      "content_free_signature": "[class]android.view.View[resource_id]com.lemon.lvoverseas:id/divider"
+    },
+    {
+      "package": "com.lemon.lvoverseas",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          257,
+          1143
+        ],
+        [
+          823,
+          1253
+        ]
+      ],
+      "resource_id": "com.lemon.lvoverseas:id/tvConfirm",
+      "checked": false,
+      "text": "Confirm",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 10,
+      "size": "566*110",
+      "x": 257,
+      "y": 1143,
+      "signature": "[class]android.widget.Button[resource_id]com.lemon.lvoverseas:id/tvConfirm[enabled,,]",
+      "view_str": "3a1b615ae7f7ea63d076ff16191f8ec0",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.lemon.lvoverseas:id/tvConfirm"
+    },
+    {
+      "package": "com.lemon.lvoverseas",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          257,
+          1281
+        ],
+        [
+          823,
+          1391
+        ]
+      ],
+      "resource_id": "com.lemon.lvoverseas:id/close",
+      "checked": false,
+      "text": "Cancel",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 11,
+      "size": "566*110",
+      "x": 257,
+      "y": 1281,
+      "signature": "[class]android.widget.TextView[resource_id]com.lemon.lvoverseas:id/close[enabled,,]",
+      "view_str": "858c2c1cc532a91942a23f0c2a49fc41",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.lemon.lvoverseas:id/close"
+    }
+  ]
+}
