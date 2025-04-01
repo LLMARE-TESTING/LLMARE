@@ -1,0 +1,164 @@
+[
+    {
+        "round": 1,
+        "comment": "I've been using Spotify for over a decade, been paying for premium the majority of the time as well. Over the past year, the ability to listen to downloaded music \"offline\" has failed. It's the main reason I pay for premium; I live in a rural area with spotty cell service coverage & therefore would rely on my downloaded music to listen to on long drives. It's upsetting that this paid-for feature isn't working the way it should be. AND you raised the price for premium when it doesn't fully work.",
+        "scenarios": [
+            "The ability to listen to downloaded music offline has failed, which is a feature the user relies on due to living in a rural area with spotty cell service."
+        ],
+        "key sentence": "The ability to listen to downloaded music offline has failed, which is a feature the user relies on due to living in a rural area with spotty cell service.",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function(playlist/artist), playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state22",
+        "the sub-task list of state": "[{'name': 'Downloaded Episodes', 'description': 'Listen the downloaded episodes.'}, {'name': 'Share', 'description': 'Share the currently playing track or episode'}, {'name': 'More Options', 'description': 'Access more options for the currently playing track or episode'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment5\\scene0\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment5\\scene0\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment5\\scene0\\state21.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state21"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment5\\scene0\\state22.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state22"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment5\\scene0\\-5624007616528307580.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-5624007616528307580"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment5\\scene0\\-4742783530702602101.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-4742783530702602101"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment5\\scene0\\5514103331954053148.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "5514103331954053148"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment5\\scene0\\-4742783530702602101.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-4742783530702602101"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment5\\scene0\\960596889504936702.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "960596889504936702"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment5\\scene0\\-5624007616528307580.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-5624007616528307580"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment5\\scene0\\960596889504936702.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "960596889504936702"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment5\\scene0\\-5624007616528307580.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-5624007616528307580"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment5\\scene0\\960596889504936702.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "960596889504936702"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment5\\scene0\\-4126895033880042356.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-4126895033880042356"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment5\\scene0\\-5624007616528307580.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-5624007616528307580"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "state21",
+                "event": "click(android.view.View-Downloaded, show only downloaded.:[754,317][1049,449])"
+            },
+            {
+                "from": "state21",
+                "to": "state22",
+                "event": "click(android.view.ViewGroup-Your Episodes, 4 downloaded episodes, Downloaded, Pinned, :[0,598][1080,774])"
+            },
+            {
+                "from": "state22",
+                "to": "-5624007616528307580",
+                "event": "click<button id=4 alt=\"Downloaded\">  </button>"
+            },
+            {
+                "from": "-5624007616528307580",
+                "to": "-4742783530702602101",
+                "event": "click<button id=5 class =\"android:id/button2\"> CANCEL,  </button>"
+            },
+            {
+                "from": "-4742783530702602101",
+                "to": "5514103331954053148",
+                "event": "click<button id=5 alt=\"Choose a Listening Mode\">  </button>"
+            },
+            {
+                "from": "5514103331954053148",
+                "to": -4742783530702602101,
+                "event": "back"
+            },
+            {
+                "from": -4742783530702602101,
+                "to": "960596889504936702",
+                "event": "click<button id=5 alt=\"Choose a Listening Mode\">  </button>"
+            },
+            {
+                "from": "960596889504936702",
+                "to": "-5624007616528307580",
+                "event": "click<button id=4 alt=\"Downloaded\">  </button>"
+            },
+            {
+                "from": "-5624007616528307580",
+                "to": 960596889504936702,
+                "event": "back"
+            },
+            {
+                "from": 960596889504936702,
+                "to": "-5624007616528307580",
+                "event": "click<button id=4 alt=\"Downloaded\">  </button>"
+            },
+            {
+                "from": "-5624007616528307580",
+                "to": 960596889504936702,
+                "event": "back"
+            },
+            {
+                "from": 960596889504936702,
+                "to": "-4126895033880042356",
+                "event": "click<button id=7 alt=\"Play playlist\">  </button>"
+            },
+            {
+                "from": "-4126895033880042356",
+                "to": "-5624007616528307580",
+                "event": "click<button id=4 alt=\"Downloaded\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,164 @@
+[
+    {
+        "round": 1,
+        "comment": "Great content, suggestions, and well organized. For a while the app was running slow on start up, but that seems to be figured out. My main gripe now is when you navigate to a podcast, it takes you to the newest episode rather than back to where you left off. Not sure why they removed that feature.",
+        "scenarios": [
+            "Navigate to a podcast, and it takes you to the newest episode rather than back to where you left off."
+        ],
+        "key sentence": "Navigate to a podcast, and it takes you to the newest episode rather than back to where you left off.",
+        "target activity": "MainActivity",
+        "the function of activity": "The activity involves searching, library function(playlist/artist), playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Play/Pause', 'description': 'Control playback by playing or pausing the currently playing podcast'}, {'name': 'Add to Playlist', 'description': 'Option to add the currently playing track to a playlist'}, {'name': 'Episode Details', 'description': 'View detailed information about the current episode or track'}, {'name': 'More Options', 'description': 'Access additional options and settings for the current track or episode'}, {'name': 'Show Description', 'description': 'Expand to show more detailed information about the current episode or track'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\scene0\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\scene0\\state1.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\scene0\\state2.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\scene0\\2089745736835199865.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2089745736835199865"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\scene0\\-6388151198883148260.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-6388151198883148260"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\scene0\\5054400344860391353.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "5054400344860391353"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\scene0\\-5445545125390306160.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-5445545125390306160"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\scene0\\-703005174648815960.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-703005174648815960"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\scene0\\4905381754939994904.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "4905381754939994904"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\scene0\\3613349539883312390.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "3613349539883312390"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\scene0\\-1576557381861624290.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-1576557381861624290"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\scene0\\-7108697403181832673.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-7108697403181832673"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\scene0\\155062500041927178.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "155062500041927178"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\scene0\\2372310825053758139.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2372310825053758139"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\scene0\\-5620203114874440858.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-5620203114874440858"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state1",
+                "event": "click(android.widget.TextView-Podcasts:[527,190][760,284])"
+            },
+            {
+                "from": "state1",
+                "to": "state2",
+                "event": "click(android.widget.Button-Play #29 2024\u5e744\u670830\u65e5\u306e\u96fb\u96fb\u96fb\u8a71:[882,1282][1014,1414])"
+            },
+            {
+                "from": "state2",
+                "to": "2089745736835199865",
+                "event": "click<p id=6> Podcasts,  </p>"
+            },
+            {
+                "from": "2089745736835199865",
+                "to": "-6388151198883148260",
+                "event": "click<p id=5> Podcasts,  </p>"
+            },
+            {
+                "from": "-6388151198883148260",
+                "to": "5054400344860391353",
+                "event": "click<p id=6> Podcasts,  </p>"
+            },
+            {
+                "from": "5054400344860391353",
+                "to": "-5445545125390306160",
+                "event": "click<p id=5> Podcasts,  </p>"
+            },
+            {
+                "from": "-5445545125390306160",
+                "to": "-703005174648815960",
+                "event": "click<p id=6> Podcasts,  </p>"
+            },
+            {
+                "from": "-703005174648815960",
+                "to": "4905381754939994904",
+                "event": "click<p id=5> Podcasts,  </p>"
+            },
+            {
+                "from": "4905381754939994904",
+                "to": "3613349539883312390",
+                "event": "click<p id=6> Podcasts,  </p>"
+            },
+            {
+                "from": "3613349539883312390",
+                "to": "-1576557381861624290",
+                "event": "click<p id=5> Podcasts,  </p>"
+            },
+            {
+                "from": "-1576557381861624290",
+                "to": "-7108697403181832673",
+                "event": "click<p id=6> Podcasts,  </p>"
+            },
+            {
+                "from": "-7108697403181832673",
+                "to": "155062500041927178",
+                "event": "click<p id=5> Podcasts,  </p>"
+            },
+            {
+                "from": "155062500041927178",
+                "to": "2372310825053758139",
+                "event": "click<p id=6> Podcasts,  </p>"
+            },
+            {
+                "from": "2372310825053758139",
+                "to": "-5620203114874440858",
+                "event": "click<p id=5> Podcasts,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

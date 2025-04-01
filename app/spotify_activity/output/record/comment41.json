@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "This app is the only music streaming app that I use but after the new update I'm really starting to hate it. Basic functions which a music streaming app should have for free were made premium and I'm very upset about this. Before we could look at the queue easily and choose what music we wanted to play next. Now we can't even view the queue without buying premium. At this point you should consider bringing the features back without having to buy premium. I see a dark future ahead if continues.",
+        "key sentence": "The key words from the user comment are: \"new update\", \"premium\", \"queue\", \"basic functions\".",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state10",
+        "the sub-task list of state": "[{'name': 'Add to Liked Songs', 'description': 'Add the currently playing song to Liked Songs list.'}, {'name': 'Add to playlist', 'description': 'Add the currently playing song to a specific playlist.'}, {'name': 'Hide this song', 'description': 'Remove the current song from the visible list.'}, {'name': 'Add to queue', 'description': 'Add the current song to the music queue.'}, {'name': 'View album', 'description': 'View details and information about the album of the current song.'}, {'name': 'View artist', 'description': 'Get more information about the artist of the current song.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment41\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment41\\state9.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment41\\state10.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment41\\-8637801687061093629.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-8637801687061093629"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment41\\-8637801687061093629.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-8637801687061093629"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment41\\-3422190501606650482.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-3422190501606650482"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment41\\-3680958358644344262.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-3680958358644344262"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment41\\-6971880245858241817.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-6971880245858241817"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment41\\6630963207945934704.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "6630963207945934704"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment41\\-3422190501606650482.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-3422190501606650482"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment41\\-3680958358644344262.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-3680958358644344262"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state9",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/image:[44,714][476,1146])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(android.widget.ImageButton-More options for song \u646f\u53cb:[948,1264][1080,1396])"
+            },
+            {
+                "from": "state10",
+                "to": "-8637801687061093629",
+                "event": "click<button id=92 class =\"com.spotify.music:id/premium_tab\" alt=\"Premium, Tab 4 of 4\">  </button>"
+            },
+            {
+                "from": "-8637801687061093629",
+                "to": "-8637801687061093629",
+                "event": "click<button id=63 class =\"com.spotify.music:id/premium_tab\" alt=\"Premium, Tab 4 of 4\">  </button>"
+            },
+            {
+                "from": "-8637801687061093629",
+                "to": "-3422190501606650482",
+                "event": "click<button id=41 class =\"com.spotify.music:id/now_playing_bar_layout\" alt=\"Now Playing Bar\">  </button>"
+            },
+            {
+                "from": "-3422190501606650482",
+                "to": "-3680958358644344262",
+                "event": "click<button id=20 alt=\"More options for song \u5bcc\u58eb\u5c71\u4e0b\">  </button>"
+            },
+            {
+                "from": "-3680958358644344262",
+                "to": "-6971880245858241817",
+                "event": "click<p id=19 class =\"com.spotify.music:id/title\"> Listen to music ad-free,  </p>"
+            },
+            {
+                "from": "-6971880245858241817",
+                "to": "6630963207945934704",
+                "event": "click<button id=60 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            },
+            {
+                "from": "6630963207945934704",
+                "to": "-3422190501606650482",
+                "event": "click<button id=76 class =\"com.spotify.music:id/now_playing_bar_layout\" alt=\"Now Playing Bar\">  </button>"
+            },
+            {
+                "from": "-3422190501606650482",
+                "to": "-3680958358644344262",
+                "event": "click<button id=20 alt=\"More options for song \u5bcc\u58eb\u5c71\u4e0b\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

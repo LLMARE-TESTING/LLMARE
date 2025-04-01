@@ -1,0 +1,70 @@
+[
+    {
+        "comment": "IT FREAKING WONT STOP GOING ON SHUFFLE NOT ONLY MY PLAYLIST BUT LITERALLY EVERYTHING!!!!! Like if I search up a song and press on it, it will go to the playlist and when I press play it goes on a different God damn song. I have tried everything nothing in the settings is helping and it doesn't have that button for the shuffle thing. I am losing my darn mind. SPOTIFY CAN YOU PLEASE FIX THIS",
+        "key sentence": "shuffle mode",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state13",
+        "the sub-task list of state": "[{'name': 'Download Liked Songs', 'description': 'Download all liked songs'}, {'name': 'Disable Shuffle', 'description': 'Disable shuffle for this liked songs'}, {'name': 'Tap to play Liked Songs', 'description': 'Tap to play a liked songs'}, {'name': 'More Options for Song', 'description': 'Access more options for a specific song'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment61\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment61\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment61\\state13.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment61\\-6190559058342975267.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-6190559058342975267"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment61\\5032877280561600639.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "5032877280561600639"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment61\\1391313231319280460.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "1391313231319280460"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "state13",
+                "event": "click(android.view.ViewGroup-Liked Songs, Playlist \u2022 19 songs, Pinned, :[0,598][1080,774])"
+            },
+            {
+                "from": "state13",
+                "to": "-6190559058342975267",
+                "event": "click<button id=20 class =\"com.spotify.music:id/shuffle_button\" alt=\"Disable shuffle for this liked songs\">  </button>"
+            },
+            {
+                "from": "-6190559058342975267",
+                "to": "5032877280561600639",
+                "event": "click<button id=11 class =\"com.spotify.music:id/close_button\"> Dismiss,  </button>"
+            },
+            {
+                "from": "5032877280561600639",
+                "to": "1391313231319280460",
+                "event": "click<button id=22 class =\"com.spotify.music:id/header_play_button\" alt=\"Play liked songs\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

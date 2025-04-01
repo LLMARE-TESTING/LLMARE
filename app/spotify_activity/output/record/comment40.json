@@ -1,0 +1,110 @@
+[
+    {
+        "comment": "I don't know what to say. Spotify WAS my fav app. Ever since the new update came, we can't listen to a Playlist in order or start playing the song at a particular time, the experience has become literal trash. Even basic features have become premium options where we don't even feel like playing anything on this app. Please fix this problem so that we can actually enjoy listening to music on this platform.",
+        "key sentence": "new update, Playlist in order, start playing the song at a particular time, basic features, premium options",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Play/Pause', 'description': 'Control playback by playing or pausing the currently playing podcast'}, {'name': 'Add to Playlist', 'description': 'Option to add the currently playing track to a playlist'}, {'name': 'Episode Details', 'description': 'View detailed information about the current episode or track'}, {'name': 'More Options', 'description': 'Access additional options and settings for the current track or episode'}, {'name': 'Show Description', 'description': 'Expand to show more detailed information about the current episode or track'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment40\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment40\\state1.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment40\\state2.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment40\\2747132377900001426.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2747132377900001426"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment40\\-2195802253900940624.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-2195802253900940624"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment40\\-8867420133413612515.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-8867420133413612515"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment40\\6630963207945934704.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "6630963207945934704"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment40\\-2600415450449243897.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-2600415450449243897"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment40\\2958464622854353823.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2958464622854353823"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment40\\8464258832407581903.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8464258832407581903"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state1",
+                "event": "click(android.widget.TextView-Podcasts:[405,213][547,262])"
+            },
+            {
+                "from": "state1",
+                "to": "state2",
+                "event": "click(android.widget.Button-Play #29 2024\u5e744\u670830\u65e5\u306e\u96fb\u96fb\u96fb\u8a71:[882,1282][1014,1414])"
+            },
+            {
+                "from": "state2",
+                "to": "2747132377900001426",
+                "event": "click<button id=77 class =\"com.spotify.music:id/search_tab\" alt=\"Search, Tab 2 of 4\">  </button>"
+            },
+            {
+                "from": "2747132377900001426",
+                "to": "-2195802253900940624",
+                "event": "click<button id=65 class =\"com.spotify.music:id/play_pause_button\" alt=\"Play\">  </button>"
+            },
+            {
+                "from": "-2195802253900940624",
+                "to": "-8867420133413612515",
+                "event": "click<button id=65 class =\"com.spotify.music:id/play_pause_button\" alt=\"Pause\">  </button>"
+            },
+            {
+                "from": "-8867420133413612515",
+                "to": "6630963207945934704",
+                "event": "click<button id=74 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            },
+            {
+                "from": "6630963207945934704",
+                "to": "-2600415450449243897",
+                "event": "click<button id=25 alt=\"Playlists, show only playlists.\">  </button>"
+            },
+            {
+                "from": "-2600415450449243897",
+                "to": "2958464622854353823",
+                "event": "click<button id=39 class =\"com.spotify.music:id/row_root\" alt=\"Liked Songs, 19 songs, Pinned, \">  </button>"
+            },
+            {
+                "from": "2958464622854353823",
+                "to": "8464258832407581903",
+                "event": "click<button id=20 class =\"com.spotify.music:id/shuffle_button\" alt=\"Disable shuffle for this liked songs\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "round": 1,
+        "comment": "Look, the service Spotify provides is great. But the fact is that the interface of the app changes fairly often. The intention is of course to improve the user experience, but that is exactly why I can't comprehend that I now have to dig through 3 layers of menu settings to access the equalizer. Spotify is an audio service where 99% of the content is either music or podcasts, if I have to dig through 3 layers of settings to acces the equalizer everytime, that is just plain out tiring....",
+        "scenarios": [
+            "User has to dig through 3 layers of menu settings to access the equalizer in the Spotify app."
+        ],
+        "key sentence": "User has to dig through 3 layers of menu settings to access the equalizer in the Spotify app.",
+        "target activity": "MainActivity",
+        "the function of activity": "The activity involves searching, library function(playlist/artist), playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state25",
+        "the sub-task list of state": "[{'name': 'Equlizer', 'description': 'Open th equalizer control panel'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment11\\scene0\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment11\\scene0\\state5.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment11\\scene0\\state23.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state23"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment11\\scene0\\state24.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state24"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment11\\scene0\\state25.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state25"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state5",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/faceheader_image:[22,171][154,303])"
+            },
+            {
+                "from": "state5",
+                "to": "state23",
+                "event": "click(TextView-Settings and privacy:[154,815][558,876])"
+            },
+            {
+                "from": "state23",
+                "to": "state24",
+                "event": "click(TextView-Playback:[0,589][1080,754])"
+            },
+            {
+                "from": "state24",
+                "to": "state25",
+                "event": "scroll-down(TextView-Audio quality:[44,1351][309,1412])"
+            }
+        ],
+        "Final answer": 1
+    }
+]

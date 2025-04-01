@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Honestly really good (for me at least) when it comes to listening to music. I have premium, and imo it's worth it, but that might just be me. but when I tried to reorganize my main playlist just to make everything easier on my perfectionist ah brain, it keeps moving VALENTINE (M\u8119\u697cneskin) to the top of the Vocaloid section. That's less of a criticism more of an inconvenience, but it's really annoying cuz I get bothered by the little things. Also sometimes it just won't play a song despite being on",
+        "key sentence": "reorganize playlist",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state14",
+        "the sub-task list of state": "[{'name': 'Add to other playlist', 'description': 'Add the current music to another playlist'}, {'name': 'Remove from this playlist', 'description': 'Remove the current music from the current playlist'}, {'name': 'Add to queue', 'description': 'Add the current music to the playback queue'}, {'name': 'View album', 'description': 'View details of the album containing the current music'}, {'name': 'View artist', 'description': 'View details of the artist of the current music'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment27\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment27\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment27\\state13.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment27\\state14.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state14"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment27\\-5728233799783695362.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-5728233799783695362"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment27\\-5728233799783695362.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-5728233799783695362"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment27\\-6988934030402838730.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-6988934030402838730"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment27\\-7469156573944633487.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-7469156573944633487"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment27\\-3750028573313193262.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-3750028573313193262"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment27\\-5498677786907845363.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-5498677786907845363"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment27\\-5498677786907845363.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-5498677786907845363"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "state13",
+                "event": "click(android.view.ViewGroup-Liked Songs, Playlist \u2022 19 songs, Pinned, :[0,598][1080,774])"
+            },
+            {
+                "from": "state13",
+                "to": "state14",
+                "event": "click(android.widget.ImageButton-More options for song \u6700\u60b2\u50b7\u7684\u4e8b - \u300a\u6bd4\u60b2\u50b7\u66f4\u60b2\u50b7\u7684\u6545\u4e8b\u300b\u5f71\u96c6\u7248 \u4e3b\u984c\u66f2:[948,664][1080,796])"
+            },
+            {
+                "from": "state14",
+                "to": "-5728233799783695362",
+                "event": "click<img id=21 class =\"com.spotify.music:id/icon\">  </img>"
+            },
+            {
+                "from": "-5728233799783695362",
+                "to": "-5728233799783695362",
+                "event": "scroll up"
+            },
+            {
+                "from": "-5728233799783695362",
+                "to": "-6988934030402838730",
+                "event": "click<button id=82 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            },
+            {
+                "from": "-6988934030402838730",
+                "to": "-7469156573944633487",
+                "event": "click<button id=25 alt=\"Playlists, show only playlists.\">  </button>"
+            },
+            {
+                "from": "-7469156573944633487",
+                "to": "-3750028573313193262",
+                "event": "click<button id=90 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            },
+            {
+                "from": "-3750028573313193262",
+                "to": "-5498677786907845363",
+                "event": "click<button id=38 class =\"com.spotify.music:id/row_root\" alt=\"Liked Songs, Playlist \u2022 20 songs, Pinned, \">  </button>"
+            },
+            {
+                "from": "-5498677786907845363",
+                "to": "-5498677786907845363",
+                "event": "click<p id=17 class =\"com.spotify.music:id/title\"> Liked Songs,  </p>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

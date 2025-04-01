@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "I've been a premium user for a couple yrs now. Never faced a major issue everything worked well. But after the new update everything looks broken. I'm unable to play a single song on loop. And the whole concept of loop button looks broken to me. This is the worst update you've provided till date. Even the shuffle button doesn't seem to work as before. You can't make such stupid mistakes.",
+        "key sentence": "loop button, shuffle button",
+        "target activity": "com.spotify.tome.pageactivity.PageActivity",
+        "the function of activity": "The activity allows users to find playlist, navigate menus, manage playlists, control media playback, adjust volume, select/deselect items, filter, sort, favorite/bookmark, and share content.",
+        "target state": "state12",
+        "the sub-task list of state": "[{'name': 'Add to Playlist', 'description': 'Enables user to add an item to a playlist'}, {'name': 'Create New Playlist', 'description': 'Allows user to create a new playlist'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment23\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment23\\state9.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment23\\state10.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment23\\state11.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment23\\state12.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment23\\547615158540928934.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "547615158540928934"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment23\\288997533463958362.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "288997533463958362"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment23\\-3780037141712841855.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-3780037141712841855"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment23\\-2705095193324276874.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-2705095193324276874"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment23\\-2705095193324276874.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-2705095193324276874"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment23\\5969496920506722391.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "5969496920506722391"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state9",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/image:[44,714][476,1146])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(android.widget.ImageButton-More options for song \u646f\u53cb:[948,1264][1080,1396])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(android.widget.TextView-Add to playlist:[154,1327][1036,1388])"
+            },
+            {
+                "from": "state11",
+                "to": "state12",
+                "event": "click(androidx.cardview.widget.CardView-My playlist #3:[253,824][540,885])"
+            },
+            {
+                "from": "state12",
+                "to": "547615158540928934",
+                "event": "click<button id=70 class =\"com.spotify.music:id/now_playing_bar_layout\" alt=\"Now Playing Bar\">  </button>"
+            },
+            {
+                "from": "547615158540928934",
+                "to": "288997533463958362",
+                "event": "click<button id=33 alt=\"Play\">  </button>"
+            },
+            {
+                "from": "288997533463958362",
+                "to": "-3780037141712841855",
+                "event": "click<button id=30 class =\"com.spotify.music:id/seekbar\" alt=\"Use volume keys to adjust\"> 18748.0,  </button>"
+            },
+            {
+                "from": "-3780037141712841855",
+                "to": "-2705095193324276874",
+                "event": "click<button id=33 alt=\"Pause\">  </button>"
+            },
+            {
+                "from": "-2705095193324276874",
+                "to": "-2705095193324276874",
+                "event": "click<button id=30 class =\"com.spotify.music:id/seekbar\" alt=\"Use volume keys to adjust\"> 55469.0,  </button>"
+            },
+            {
+                "from": "-2705095193324276874",
+                "to": "5969496920506722391",
+                "event": "click<button id=33 alt=\"Play\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

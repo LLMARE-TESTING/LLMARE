@@ -1,0 +1,95 @@
+[
+    {
+        "round": 1,
+        "comment": "The new + feature sucks. When I go into my liked songs list and search for artists like Jazmine Sullivan I get no results, where if I go through normal search it says that the song is already in my liked songs playlist. Also my daily drive has been playing the same songs over and over again. I've tried listening to different songs and emptying my cache but it's not working. Algorithms always suck.",
+        "scenarios": [
+            "When searching for artists like Jazmine Sullivan in the liked songs list, no results are found, even though the normal search indicates that the song is already in the liked songs playlist.\n",
+            "The daily drive feature plays the same songs repeatedly, despite attempts to listen to different songs and empty the cache."
+        ],
+        "key sentence": "When searching for artists like Jazmine Sullivan in the liked songs list, no results are found, even though the normal search indicates that the song is already in the liked songs playlist.\n",
+        "target activity": "MainActivity",
+        "the function of activity": "The activity involves searching, library function(playlist/artist), playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state31",
+        "the sub-task list of state": "[{'name': 'Find in Liked Songs.', 'description': 'Search for artist or songs in liked list.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment12\\scene0\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment12\\scene0\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment12\\scene0\\state13.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment12\\scene0\\state31.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state31"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment12\\scene0\\-5968005223583146779.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-5968005223583146779"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment12\\scene0\\7773910973811555404.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "7773910973811555404"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment12\\scene0\\-5968005223583146779.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-5968005223583146779"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment12\\scene0\\-6567233913300085588.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-6567233913300085588"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "state13",
+                "event": "click(android.view.ViewGroup-Liked Songs, Playlist \u2022 19 songs, Pinned, :[0,598][1080,774])"
+            },
+            {
+                "from": "state13",
+                "to": "state31",
+                "event": "scroll-up(com.spotify.music:id/header_layout:[0,0][1080,2148])"
+            },
+            {
+                "from": "state31",
+                "to": "-5968005223583146779",
+                "event": "input<input id=2 class =\"com.spotify.music:id/edit_text\"> Find in Liked Songs,  </input>Jazmine Sullivan"
+            },
+            {
+                "from": "-5968005223583146779",
+                "to": "7773910973811555404",
+                "event": "input<input id=5 class =\"com.spotify.music:id/edit_text\"> Find in Liked Songs,  </input>Jazmine Sullivan"
+            },
+            {
+                "from": "7773910973811555404",
+                "to": "-5968005223583146779",
+                "event": "click<button id=6 class =\"com.spotify.music:id/clear_text_button\" alt=\"Clear Find in Liked Songs\">  </button>"
+            },
+            {
+                "from": "-5968005223583146779",
+                "to": "-6567233913300085588",
+                "event": "click<button id=6 class =\"com.spotify.music:id/back_button\" alt=\"Back\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

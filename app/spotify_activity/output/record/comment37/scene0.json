@@ -1,0 +1,164 @@
+[
+    {
+        "round": 1,
+        "comment": "new update changes the like button to a plus which is the same as the add to playlist button, small but unnecessarily complicated update. After searching for a song, tapping the three dots menu does not include an option to add to liked songs like it used to. That means I have to stop listening to the song I'm currently playing to play the new song so I can like it. Why?? Suggestion; Allow download of lyrics along with the download of songs. Still love the app. Thanks!",
+        "scenarios": [
+            "After searching for a song, tapping the three dots menu does not include an option to add to liked songs, requiring the user to stop listening to the currently playing song in order to play and like the new song."
+        ],
+        "key sentence": "After searching for a song, tapping the three dots menu does not include an option to add to liked songs, requiring the user to stop listening to the currently playing song in order to play and like the new song.",
+        "target activity": "MainActivity",
+        "the function of activity": "The activity involves searching, library function(playlist/artist), playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "a17e568448adcdbafe37f9f618f3f5ca",
+        "the sub-task list of state": "[{'name': 'Profile', 'description': 'View profile'}, {'name': 'Content filters', 'description': 'Apply filters to content'}, {'name': 'Play', 'description': 'Play the currently selected item'}, {'name': 'Pause', 'description': 'Pause the currently playing item'}, {'name': 'Add to Liked Songs', 'description': 'Add the music to liked songs by clicking plus sign.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\scene0\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\scene0\\15457846382925254.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "15457846382925254"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\scene0\\-1163890379677371604.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-1163890379677371604"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\scene0\\6092142317921936082.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "6092142317921936082"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\scene0\\2313026421880653786.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2313026421880653786"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\scene0\\-9122208379557004717.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-9122208379557004717"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\scene0\\-4573486186626479627.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-4573486186626479627"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\scene0\\8957817117926328733.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8957817117926328733"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\scene0\\8663994476732239512.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "8663994476732239512"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\scene0\\8859381962647417020.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "8859381962647417020"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\scene0\\5665090580674218657.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "5665090580674218657"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\scene0\\5665090580674218657.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "5665090580674218657"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\scene0\\378128853774805759.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "378128853774805759"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\scene0\\9075581578796025704.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "9075581578796025704"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\scene0\\-3617030392933473620.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-3617030392933473620"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "15457846382925254",
+                "event": "click<button id=44 class =\"com.spotify.music:id/search_tab\" alt=\"Search, Tab 2 of 4\">  </button>"
+            },
+            {
+                "from": "15457846382925254",
+                "to": "-1163890379677371604",
+                "event": "click<button id=4 class =\"com.spotify.music:id/find_search_field\">  </button>"
+            },
+            {
+                "from": "-1163890379677371604",
+                "to": "6092142317921936082",
+                "event": "input<input id=2 class =\"com.spotify.music:id/query\"> What do you want to listen to?,  </input>Taylor Swift"
+            },
+            {
+                "from": "6092142317921936082",
+                "to": "2313026421880653786",
+                "event": "click<img id=8 class =\"com.spotify.music:id/tap_ahead_button\" alt=\"Add suggestion \u201ctaylor swift\u201d\">  </img>"
+            },
+            {
+                "from": "2313026421880653786",
+                "to": "-9122208379557004717",
+                "event": "click<button id=20 class =\"com.spotify.music:id/context_menu_button\" alt=\"More options for song Lover\">  </button>"
+            },
+            {
+                "from": "-9122208379557004717",
+                "to": "-4573486186626479627",
+                "event": "click<p id=6 class =\"com.spotify.music:id/title\"> Add to other playlist,  </p>"
+            },
+            {
+                "from": "-4573486186626479627",
+                "to": "8957817117926328733",
+                "event": "click<button id=3 class =\"com.spotify.music:id/back_button\" alt=\"Back\">  </button>"
+            },
+            {
+                "from": "8957817117926328733",
+                "to": "8663994476732239512",
+                "event": "click<button id=29 class =\"com.spotify.music:id/now_playing_bar_layout\" alt=\"Now Playing Bar\">  </button>"
+            },
+            {
+                "from": "8663994476732239512",
+                "to": "8859381962647417020",
+                "event": "click<button id=17 class =\"com.spotify.music:id/play_pause\" alt=\"Play\">  </button>"
+            },
+            {
+                "from": "8859381962647417020",
+                "to": "5665090580674218657",
+                "event": "click<button id=7 alt=\"More options for song \u4e0d\u70ba\u8ab0\u800c\u4f5c\u7684\u6b4c\">  </button>"
+            },
+            {
+                "from": "5665090580674218657",
+                "to": "5665090580674218657",
+                "event": "click<p id=3 class =\"com.spotify.music:id/title\"> \u4e0d\u70ba\u8ab0\u800c\u4f5c\u7684\u6b4c,  </p>"
+            },
+            {
+                "from": "5665090580674218657",
+                "to": 378128853774805759,
+                "event": "back"
+            },
+            {
+                "from": 378128853774805759,
+                "to": "9075581578796025704",
+                "event": "click<button id=18 alt=\"Next\">  </button>"
+            },
+            {
+                "from": "9075581578796025704",
+                "to": "-3617030392933473620",
+                "event": "click<button id=7 alt=\"More options for song \u4e2d\u5834\u4f11\u606f\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

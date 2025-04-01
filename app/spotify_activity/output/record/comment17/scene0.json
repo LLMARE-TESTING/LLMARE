@@ -1,0 +1,74 @@
+[
+    {
+        "round": 1,
+        "comment": "Pros : A ton of good songs. Cons : It's so annoying when I click on my playlist, and some random song starts playing. Like, I want to listen to MY music, not whatever Spotify is adding for me. It would totally be 5 stars if Spotify would take out that feature, cause I don't want to pay 30 dollars a month just to listen to ONLY my music.",
+        "scenarios": [
+            "A random song starts playing instead of the selected song from the user's playlist when the playlist is clicked."
+        ],
+        "key sentence": "A random song starts playing instead of the selected song from the user's playlist when the playlist is clicked.",
+        "target activity": "MainActivity",
+        "the function of activity": "The activity involves searching, library function(playlist/artist), playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "be366c2134cc86078896f7869deedcbd",
+        "the sub-task list of state": "[{'name': 'Search Playlist', 'description': 'Search item in playlist.'}, {'name': 'Create Playlist', 'description': 'Create a new playlist'}, {'name': 'Show Grid View', 'description': 'Switch to grid view'}, {'name': 'Play', 'description': 'Start playback of the currently selected item'}, {'name': 'Item Added', 'description': 'Indication that an item has been successfully added'}, {'name': 'View recently played tracks', 'description': 'View recent items'}, {'name': 'Liked Songs', 'description': 'View liked songs'}, {'name': 'Podcasts', 'description': 'View podcasts Playlist'}, {'name': 'Artists', 'description': 'View Playlist by artists'}, {'name': 'Downloaded', 'description': 'View downloaded items'}, {'name': 'Sort or Change View Mode', 'description': 'Change sorting options or view mode'}, {'name': 'Now Playing Bar', 'description': 'View the currently playing track'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment17\\scene0\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment17\\scene0\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment17\\scene0\\-9140385133835747728.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-9140385133835747728"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment17\\scene0\\4768075156629280907.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "4768075156629280907"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment17\\scene0\\-8114770228902417576.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-8114770228902417576"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment17\\scene0\\7769388557142140550.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "7769388557142140550"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "-9140385133835747728",
+                "event": "click<button id=30 class =\"com.spotify.music:id/row_root\" alt=\"My playlist #2, Playlist \u2022 Testing, Downloaded, \">  </button>"
+            },
+            {
+                "from": "-9140385133835747728",
+                "to": "4768075156629280907",
+                "event": "click<button id=14 alt=\"Play playlist\">  </button>"
+            },
+            {
+                "from": "4768075156629280907",
+                "to": "-8114770228902417576",
+                "event": "click<button id=8 alt=\"Explore My playlist #2\">  </button>"
+            },
+            {
+                "from": "-8114770228902417576",
+                "to": "7769388557142140550",
+                "event": "click<p id=18 class =\"com.spotify.music:id/title\"> My playlist #2,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]
