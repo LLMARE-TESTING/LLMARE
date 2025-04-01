@@ -1,0 +1,46 @@
+[
+    {
+        "round": 1,
+        "comment": "Love the experience, but absolutely no optimization for the Fold 5. I've reinstalled, etc. A few updates ago, they broke how videos are viewed when unfolded, half the time the comments open randomly, and push the video off the screen. I've waited for a fix to no avail.",
+        "scenarios": [
+            "Videos are viewed incorrectly when unfolded, affecting the viewing experience.  ",
+            "Comments open randomly, pushing the video off the screen.  ",
+            "User has reinstalled the app but the issues persist."
+        ],
+        "key sentence": "Comments open randomly, pushing the video off the screen.  ",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state1",
+        "the sub-task list of state": "[{'name': 'Comment on Video', 'description': 'Add a comment to the video'}, {'name': 'View the comments', 'description': 'View the comments of vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment4\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment4\\scene1\\state1.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment4\\scene1\\-5333496181012635977.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-5333496181012635977"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state1",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/bwl:[953,1336][1041,1424])"
+            },
+            {
+                "from": "state1",
+                "to": "-5333496181012635977",
+                "event": "click<button id=5 alt=\"Read or add comments. 317 comments\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "round": 1,
+        "comment": "Very buggy after latest update on note 4 and 5. When you open comments on larger screen is skews the video off screen and will offset most videos after comments are closed. Needs new update",
+        "scenarios": [
+            "After comments are closed, it offsets most videos."
+        ],
+        "key sentence": "After comments are closed, it offsets most videos.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state1",
+        "the sub-task list of state": "[{'name': 'Comment on Video', 'description': 'Add a comment to the video'}, {'name': 'View the comments', 'description': 'View the comments of vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment100\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment100\\scene0\\state1.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment100\\scene0\\-9127731082118580481.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-9127731082118580481"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment100\\scene0\\7095156803771052848.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "7095156803771052848"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment100\\scene0\\-7298644558082260095.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-7298644558082260095"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state1",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/bwl:[953,1336][1041,1424])"
+            },
+            {
+                "from": "state1",
+                "to": "-9127731082118580481",
+                "event": "click<img id=35 alt=\"Close comments\">  </img>"
+            },
+            {
+                "from": "-9127731082118580481",
+                "to": "7095156803771052848",
+                "event": "click<button id=5 alt=\"Read or add comments. 0 comments\">  </button>"
+            },
+            {
+                "from": "7095156803771052848",
+                "to": "-7298644558082260095",
+                "event": "click<img id=35 alt=\"Close comments\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

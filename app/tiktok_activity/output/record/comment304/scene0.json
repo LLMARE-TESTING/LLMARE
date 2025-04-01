@@ -1,0 +1,163 @@
+[
+    {
+        "round": 1,
+        "comment": "Created an account a few days ago, and haven't been able to use the app whatsoever. App crashes constantly, freezes when trying to scroll. I cannot follow, like, or comment on videos at all. Every account I follow immediately unfollows after refreshing the page, and all my likes immediately unlike once I scroll. What's the point of joining if you won't let me use the app whatsoever?",
+        "scenarios": [
+            "Cannot follow, like, or comment on videos at all.",
+            "Every account I follow immediately unfollows after refreshing the page."
+        ],
+        "key sentence": "Cannot follow, like, or comment on videos at all.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "86ad15cba4ecd2166c92cbbf7eddfa20",
+        "the sub-task list of state": "[{'name': 'Follow', 'description': 'Follow a user profile'}, {'name': 'Like', 'description': 'Like a video'}, {'name': 'Share', 'description': 'Share a video'}, {'name': 'Add to Favorites', 'description': 'Add or remove a video from Favorites'}, {'name': 'Comments', 'description': 'Read or add comments on a video'}, {'name': 'Play Video', 'description': 'Play a video'}, {'name': 'Sound', 'description': 'Listen to the sound of a video'}, {'name': 'Friends', 'description': 'Change to friends page'}, {'name': 'Inbox', 'description': 'Change to inbox page'}, {'name': 'Profile', 'description': 'Change to profile page'}, {'name': 'For you', 'description': 'Watch vedio for you'}, {'name': 'HomePage', 'description': 'In homepage, you can scroll to watch vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment304\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment304\\scene0\\-4779901372006954391.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4779901372006954391"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment304\\scene0\\-7965431601200398003.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-7965431601200398003"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment304\\scene0\\-1826407489119462468.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1826407489119462468"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "-4779901372006954391",
+                "event": "click<button id=1 alt=\"Follow \u30de\u30a4\">  </button>"
+            },
+            {
+                "from": "-4779901372006954391",
+                "to": "-7965431601200398003",
+                "event": "click<button id=4 alt=\"Read or add comments. 348 comments\">  </button>"
+            },
+            {
+                "from": "-7965431601200398003",
+                "to": "-1826407489119462468",
+                "event": "click<button id=6 alt=\"Like or undo like\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Created an account a few days ago, and haven't been able to use the app whatsoever. App crashes constantly, freezes when trying to scroll. I cannot follow, like, or comment on videos at all. Every account I follow immediately unfollows after refreshing the page, and all my likes immediately unlike once I scroll. What's the point of joining if you won't let me use the app whatsoever?",
+        "scenarios": [
+            "Cannot follow, like, or comment on videos at all.",
+            "Every account I follow immediately unfollows after refreshing the page."
+        ],
+        "key sentence": "Cannot follow, like, or comment on videos at all.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "86ad15cba4ecd2166c92cbbf7eddfa20",
+        "the sub-task list of state": "[{'name': 'Follow', 'description': 'Follow a user profile'}, {'name': 'Like', 'description': 'Like a video'}, {'name': 'Share', 'description': 'Share a video'}, {'name': 'Add to Favorites', 'description': 'Add or remove a video from Favorites'}, {'name': 'Comments', 'description': 'Read or add comments on a video'}, {'name': 'Play Video', 'description': 'Play a video'}, {'name': 'Sound', 'description': 'Listen to the sound of a video'}, {'name': 'Friends', 'description': 'Change to friends page'}, {'name': 'Inbox', 'description': 'Change to inbox page'}, {'name': 'Profile', 'description': 'Change to profile page'}, {'name': 'For you', 'description': 'Watch vedio for you'}, {'name': 'HomePage', 'description': 'In homepage, you can scroll to watch vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment304\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment304\\scene0\\-4779901372006954391.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4779901372006954391"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment304\\scene0\\-7965431601200398003.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-7965431601200398003"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment304\\scene0\\-1826407489119462468.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1826407489119462468"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment304\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment304\\scene0\\-5471491720193646849.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-5471491720193646849"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment304\\scene0\\-829399488048731967.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-829399488048731967"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment304\\scene0\\1571846584731215698.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "1571846584731215698"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment304\\scene0\\1682752938823973302.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "1682752938823973302"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment304\\scene0\\-1748242408418504891.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1748242408418504891"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "-4779901372006954391",
+                "event": "click<button id=1 alt=\"Follow \u30de\u30a4\">  </button>"
+            },
+            {
+                "from": "-4779901372006954391",
+                "to": "-7965431601200398003",
+                "event": "click<button id=4 alt=\"Read or add comments. 348 comments\">  </button>"
+            },
+            {
+                "from": "-7965431601200398003",
+                "to": "-1826407489119462468",
+                "event": "click<button id=6 alt=\"Like or undo like\">  </button>"
+            },
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "-5471491720193646849",
+                "event": "click<button id=1 alt=\"Follow Meow Diary\">  </button>"
+            },
+            {
+                "from": "-5471491720193646849",
+                "to": "-829399488048731967",
+                "event": "click<button id=1 alt=\"Like video. 88.5K likes\">  </button>"
+            },
+            {
+                "from": "-829399488048731967",
+                "to": "1571846584731215698",
+                "event": "click<button id=4 alt=\"Read or add comments. 719 comments\">  </button>"
+            },
+            {
+                "from": "1571846584731215698",
+                "to": "1682752938823973302",
+                "event": "click<button id=4 alt=\"Like or undo like\">  </button>"
+            },
+            {
+                "from": "1682752938823973302",
+                "to": "-1748242408418504891",
+                "event": "click<input id=33> Add comment...,  </input>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

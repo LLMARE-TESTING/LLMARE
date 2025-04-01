@@ -1,0 +1,75 @@
+[
+    {
+        "round": 1,
+        "comment": "Nice expirience except for just one problem with the repost button, I've had the app for a few months and i just cannot find the repost button, deleting and redownloading solves this for about 10 minutes but it will dissapear again.",
+        "scenarios": [
+            "Unable to find the repost button even after having the app for a few months.",
+            "Reinstalling the app solves the issue with the repost button for about 10 minutes, but then it disappears again."
+        ],
+        "key sentence": "Unable to find the repost button even after having the app for a few months.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Report', 'description': 'Report the video'}, {'name': 'Not interested', 'description': 'Indicate disinterest in the video'}, {'name': 'Save video', 'description': 'Save the video to the device'}, {'name': 'Captions', 'description': 'Toggle captions on/off'}, {'name': 'Clear display', 'description': 'Clear the display'}, {'name': 'Playback speed', 'description': 'Adjust the playback speed'}, {'name': 'Share with', 'description': 'Share the video with others'}, {'name': 'Repost', 'description': 'Repost the video'}, {'name': 'Add to Story', 'description': 'Add the video to your story'}, {'name': 'Send', 'description': 'Send the video to a friend'}, {'name': 'More friends', 'description': 'View more friends to send the video to'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment7\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment7\\scene0\\state2.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment7\\scene0\\4475069104725843710.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "4475069104725843710"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment7\\scene0\\-3331079610309448335.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-3331079610309448335"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment7\\scene0\\7132470484860250960.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "7132470484860250960"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment7\\scene0\\7132470484860250960.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "7132470484860250960"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state2",
+                "event": "long-click(android.widget.RelativeLayout-com.zhiliaoapp.musically:id/mx5:[0,83][1080,2013])"
+            },
+            {
+                "from": "state2",
+                "to": 4475069104725843710,
+                "event": "back"
+            },
+            {
+                "from": 4475069104725843710,
+                "to": "-3331079610309448335",
+                "event": "click<button id=13 alt=\"Home\">  </button>"
+            },
+            {
+                "from": "-3331079610309448335",
+                "to": "7132470484860250960",
+                "event": "click<button id=9 alt=\"Share video. 11.9K shares\">  </button>"
+            },
+            {
+                "from": "7132470484860250960",
+                "to": "7132470484860250960",
+                "event": "click<p id=2> Repost,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,275 @@
+[
+    {
+        "round": 1,
+        "comment": "The TikTok experience has become increasingly frustrating. I deleted and reinstalled the app hoping to fix the editing issue, only to encounter more problems?no 2x feature, still unable to edit, and reposting is no longer possible. It's disappointing for both viewers and creators. Please address these issues. I can't believe I risked all my drafts for a complete downgrade. ",
+        "scenarios": [
+            "Deleted and reinstalled the app hoping to fix the editing issue, but still unable to edit.",
+            "Encountered the issue of no 2x feature in the app.",
+            "Unable to repost content on the app."
+        ],
+        "key sentence": "Encountered the issue of no 2x feature in the app.",
+        "target activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity",
+        "the function of activity": "This activity allows users to record and enhance videos, adjust playback speed, add effects, sound, text, music, and post videos.",
+        "target state": "97fbfdd4dfe5010b5daa588476b0ed04",
+        "the sub-task list of state": "[{'name': 'Record video', 'description': 'Record a video'}, {'name': 'Add sound', 'description': 'Add sound to the video'}, {'name': 'Flip', 'description': 'Flip the camera'}, {'name': 'Effects', 'description': 'Add effects to the video'}, {'name': 'Upload', 'description': 'Upload the video'}, {'name': 'Speed', 'description': 'Adjust the speed of the video'}, {'name': 'Retouch', 'description': 'Retouch the video'}, {'name': 'Mic', 'description': 'Enable or disable microphone'}, {'name': 'Filters', 'description': 'Apply filters to the video'}, {'name': 'Timer', 'description': 'Set a timer for recording'}, {'name': 'Flash', 'description': 'Enable or disable flash'}, {'name': 'Close', 'description': 'Close the current screen'}, {'name': 'Text', 'description': 'Add text to the video'}, {'name': 'Camera', 'description': 'Switch between front and back camera'}, {'name': 'Templates', 'description': 'Choose a template for the video'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\97fbfdd4dfe5010b5daa588476b0ed04.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "97fbfdd4dfe5010b5daa588476b0ed04"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\3495614024246058117.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "3495614024246058117"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\-1597275104864969527.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-1597275104864969527"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\-7369540686571796766.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-7369540686571796766"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\-7369540686571796766.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-7369540686571796766"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\-7369540686571796766.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-7369540686571796766"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\-5650263494879396936.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-5650263494879396936"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\4695135177983238638.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "4695135177983238638"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\-5434924467533075713.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-5434924467533075713"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\-5434924467533075713.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-5434924467533075713"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "event": "click(state=86ad15cba4ecd2166c92cbbf7eddfa20, view=553e56e4257e3426ca1ee81e58bd7ec2(SplashActivity/Button-Create:x432:y2013))"
+            },
+            {
+                "from": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "to": "3495614024246058117",
+                "event": "click<button id=0 alt=\"Record video\">  </button>"
+            },
+            {
+                "from": "3495614024246058117",
+                "to": "-1597275104864969527",
+                "event": "click<button id=6 alt=\"Edit\">  </button>"
+            },
+            {
+                "from": "-1597275104864969527",
+                "to": "-7369540686571796766",
+                "event": "click<p id=9> Edit,  </p>"
+            },
+            {
+                "from": "-7369540686571796766",
+                "to": "-7369540686571796766",
+                "event": "click<p id=13> Speed,  </p>"
+            },
+            {
+                "from": "-7369540686571796766",
+                "to": "-7369540686571796766",
+                "event": "click<p id=13> Speed,  </p>"
+            },
+            {
+                "from": "-7369540686571796766",
+                "to": "-5650263494879396936",
+                "event": "click<div id=2 alt=\"Next\">  </div>"
+            },
+            {
+                "from": "-5650263494879396936",
+                "to": "4695135177983238638",
+                "event": "click<button id=6 alt=\"Edit\">  </button>"
+            },
+            {
+                "from": "4695135177983238638",
+                "to": "-5434924467533075713",
+                "event": "click<button id=6 alt=\"Play video\">  </button>"
+            },
+            {
+                "from": "-5434924467533075713",
+                "to": "-5434924467533075713",
+                "event": "click<button id=6 alt=\"Play video\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "The TikTok experience has become increasingly frustrating. I deleted and reinstalled the app hoping to fix the editing issue, only to encounter more problems?no 2x feature, still unable to edit, and reposting is no longer possible. It's disappointing for both viewers and creators. Please address these issues. I can't believe I risked all my drafts for a complete downgrade. ",
+        "scenarios": [
+            "Deleted and reinstalled the app hoping to fix the editing issue, but still unable to edit.",
+            "Encountered the issue of no 2x feature in the app.",
+            "Unable to repost content on the app."
+        ],
+        "key sentence": "Encountered the issue of no 2x feature in the app.",
+        "target activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity",
+        "the function of activity": "This activity allows users to record and enhance videos, adjust playback speed, add effects, sound, text, music, and post videos.",
+        "target state": "97fbfdd4dfe5010b5daa588476b0ed04",
+        "the sub-task list of state": "[{'name': 'Record video', 'description': 'Record a video'}, {'name': 'Add sound', 'description': 'Add sound to the video'}, {'name': 'Flip', 'description': 'Flip the camera'}, {'name': 'Effects', 'description': 'Add effects to the video'}, {'name': 'Upload', 'description': 'Upload the video'}, {'name': 'Speed', 'description': 'Adjust the speed of the video'}, {'name': 'Retouch', 'description': 'Retouch the video'}, {'name': 'Mic', 'description': 'Enable or disable microphone'}, {'name': 'Filters', 'description': 'Apply filters to the video'}, {'name': 'Timer', 'description': 'Set a timer for recording'}, {'name': 'Flash', 'description': 'Enable or disable flash'}, {'name': 'Close', 'description': 'Close the current screen'}, {'name': 'Text', 'description': 'Add text to the video'}, {'name': 'Camera', 'description': 'Switch between front and back camera'}, {'name': 'Templates', 'description': 'Choose a template for the video'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\97fbfdd4dfe5010b5daa588476b0ed04.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "97fbfdd4dfe5010b5daa588476b0ed04"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\3495614024246058117.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "3495614024246058117"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\-1597275104864969527.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-1597275104864969527"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\-7369540686571796766.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-7369540686571796766"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\-7369540686571796766.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-7369540686571796766"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\-7369540686571796766.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-7369540686571796766"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\-5650263494879396936.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-5650263494879396936"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\4695135177983238638.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "4695135177983238638"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\-5434924467533075713.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-5434924467533075713"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\-5434924467533075713.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-5434924467533075713"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\97fbfdd4dfe5010b5daa588476b0ed04.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "97fbfdd4dfe5010b5daa588476b0ed04"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene1\\-8999486076680255893.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-8999486076680255893"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "event": "click(state=86ad15cba4ecd2166c92cbbf7eddfa20, view=553e56e4257e3426ca1ee81e58bd7ec2(SplashActivity/Button-Create:x432:y2013))"
+            },
+            {
+                "from": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "to": "3495614024246058117",
+                "event": "click<button id=0 alt=\"Record video\">  </button>"
+            },
+            {
+                "from": "3495614024246058117",
+                "to": "-1597275104864969527",
+                "event": "click<button id=6 alt=\"Edit\">  </button>"
+            },
+            {
+                "from": "-1597275104864969527",
+                "to": "-7369540686571796766",
+                "event": "click<p id=9> Edit,  </p>"
+            },
+            {
+                "from": "-7369540686571796766",
+                "to": "-7369540686571796766",
+                "event": "click<p id=13> Speed,  </p>"
+            },
+            {
+                "from": "-7369540686571796766",
+                "to": "-7369540686571796766",
+                "event": "click<p id=13> Speed,  </p>"
+            },
+            {
+                "from": "-7369540686571796766",
+                "to": "-5650263494879396936",
+                "event": "click<div id=2 alt=\"Next\">  </div>"
+            },
+            {
+                "from": "-5650263494879396936",
+                "to": "4695135177983238638",
+                "event": "click<button id=6 alt=\"Edit\">  </button>"
+            },
+            {
+                "from": "4695135177983238638",
+                "to": "-5434924467533075713",
+                "event": "click<button id=6 alt=\"Play video\">  </button>"
+            },
+            {
+                "from": "-5434924467533075713",
+                "to": "-5434924467533075713",
+                "event": "click<button id=6 alt=\"Play video\">  </button>"
+            },
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "event": "click(state=86ad15cba4ecd2166c92cbbf7eddfa20, view=553e56e4257e3426ca1ee81e58bd7ec2(SplashActivity/Button-Create:x432:y2013))"
+            },
+            {
+                "from": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "to": "-8999486076680255893",
+                "event": "click<button id=0 alt=\"Record video\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]
