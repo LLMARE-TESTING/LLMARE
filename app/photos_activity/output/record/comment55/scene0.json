@@ -1,0 +1,123 @@
+[
+    {
+        "round": 1,
+        "comment": "Whenever you try to edit a photo, the image disappears. The screen goes completely black. How do you go about editing an image that is invisible? I have been very keen to update the app whenever a new version is released hoping that the bug would be resolved but to no avail. To make it worse my phone didn't come with the stock android photo viewer/editor. So this is the only editor available for me. Can you fix this bug please! How about image autorotation by device orientation?",
+        "scenarios": [
+            "Try to edit a photo, the image disappears, and the screen goes completely black.",
+            "(Indirectly referenced) Image autorotation by device orientation.  \n"
+        ],
+        "key sentence": "Try to edit a photo, the image disappears, and the screen goes completely black.",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, view archive/locked floder, cast content, back up photos, favorite items, and access various deleting and sharing options.",
+        "target state": "state1",
+        "the sub-task list of state": "[{'name': 'Navigate up', 'description': 'Move to the parent screen'}, {'name': 'Favorite', 'description': 'Mark the item as a favorite'}, {'name': 'More options', 'description': 'Access additional options'}, {'name': 'Cast', 'description': 'Cast the photo.'}, {'name': 'Share', 'description': 'Share the item with others'}, {'name': 'Edit', 'description': 'Edit the item'}, {'name': 'Lens', 'description': 'Open the lens feature'}, {'name': 'Delete', 'description': 'Delete the item'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment55\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment55\\scene0\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment55\\scene0\\7839236967880028472.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "7839236967880028472"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "7839236967880028472",
+                "event": "click<img id=9 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Whenever you try to edit a photo, the image disappears. The screen goes completely black. How do you go about editing an image that is invisible? I have been very keen to update the app whenever a new version is released hoping that the bug would be resolved but to no avail. To make it worse my phone didn't come with the stock android photo viewer/editor. So this is the only editor available for me. Can you fix this bug please! How about image autorotation by device orientation?",
+        "scenarios": [
+            "Try to edit a photo, the image disappears, and the screen goes completely black.",
+            "(Indirectly referenced) Image autorotation by device orientation.  \n"
+        ],
+        "key sentence": "Try to edit a photo, the image disappears, and the screen goes completely black.",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, view archive/locked floder, cast content, back up photos, favorite items, and access various deleting and sharing options.",
+        "target state": "0cac1a34967dc9a3d638703f8dff5193",
+        "the sub-task list of state": "[{'name': 'Search', 'description': 'Search for a contact'}, {'name': 'Menu', 'description': 'Open menu'}, {'name': 'Copy text', 'description': 'Copy selected text'}, {'name': 'Listen', 'description': 'Listen to selected text'}, {'name': 'Crop', 'description': 'Crop an image'}, {'name': 'Favorite', 'description': 'Mark as favorite'}, {'name': 'More options', 'description': 'Access additional options'}, {'name': 'Share', 'description': 'Share content'}, {'name': 'Edit', 'description': 'Edit content'}, {'name': 'Lens', 'description': 'Activate lens feature'}, {'name': 'Delete', 'description': 'Delete selected content'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment55\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment55\\scene0\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment55\\scene0\\7839236967880028472.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "7839236967880028472"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment55\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment55\\scene0\\0cac1a34967dc9a3d638703f8dff5193.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "0cac1a34967dc9a3d638703f8dff5193"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment55\\scene0\\6141111544296965388.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "6141111544296965388"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment55\\scene0\\7839236967880028472.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "7839236967880028472"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "7839236967880028472",
+                "event": "click<img id=9 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "0cac1a34967dc9a3d638703f8dff5193",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=08bc7c8154b5c2ab796d26d767a03541(HomeActivity/ImageView-Photo take:x0:y1926))"
+            },
+            {
+                "from": "0cac1a34967dc9a3d638703f8dff5193",
+                "to": "6141111544296965388",
+                "event": "click<img id=6 alt=\"Photo taken on Oct 5, 2024 3:48 PM\">  </img>"
+            },
+            {
+                "from": "6141111544296965388",
+                "to": "7839236967880028472",
+                "event": "click<img id=9 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

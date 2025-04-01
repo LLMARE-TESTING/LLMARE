@@ -1,0 +1,135 @@
+[
+    {
+        "round": 1,
+        "comment": "I enjoy using Google Photos overall, but there is room for improvement. One feature I would like to see added is the ability to view all the folders I've got my photos organized in, and the ability to sort the folders in alphabetical order. I can get to my photos via the \"Library\", but I can't the folders are not sorry in alphabetical order. So I have to scroll through the list until I find the folder I'm looking for. It would also be good to be able to sort them in selectable date order.",
+        "scenarios": [
+            "Navigate to the \"Library\" to view photos, but the folders are not sorted in alphabetical order, requiring the user to scroll through the list to find a specific folder.",
+            "Sort folders in selectable date order."
+        ],
+        "key sentence": "Navigate to the \"Library\" to view photos, but the folders are not sorted in alphabetical order, requiring the user to scroll through the list to find a specific folder.",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "fdedbaae0d7db088bdc1a119bf22aa84",
+        "the sub-task list of state": "[{'name': 'Creations', 'description': 'Access creations menu'}, {'name': 'Sharing', 'description': 'Access sharing options'}, {'name': 'Account and Settings', 'description': 'Access account and settings information'}, {'name': 'Photos Tab', 'description': 'Navigate to the Photos tab'}, {'name': 'Memories Tab', 'description': 'Navigate to the Memories tab'}, {'name': 'Library Tab', 'description': 'Navigate to the Library tab'}, {'name': 'Search Destination', 'description': 'Navigate to the search destination'}, {'name': 'View Photos', 'description': 'Sorll/swipe to view more photos or vedios.Click to view details about photos or vedios. '}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\252925492886292432.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "252925492886292432"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\252925492886292432.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "252925492886292432"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\8422096304111902464.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "8422096304111902464"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\6176902899613602292.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "6176902899613602292"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\-1259510506838548382.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-1259510506838548382"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\-1259510506838548382.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-1259510506838548382"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\-1259510506838548382.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-1259510506838548382"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\-1259510506838548382.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-1259510506838548382"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\4658354601727327869.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "4658354601727327869"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\-1259510506838548382.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-1259510506838548382"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\4658354601727327869.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "4658354601727327869"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "252925492886292432",
+                "event": "click<button id=21 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "252925492886292432",
+                "to": "252925492886292432",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "252925492886292432",
+                "to": "8422096304111902464",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "8422096304111902464",
+                "to": "6176902899613602292",
+                "event": "scroll down"
+            },
+            {
+                "from": "6176902899613602292",
+                "to": "-1259510506838548382",
+                "event": "scroll down"
+            },
+            {
+                "from": "-1259510506838548382",
+                "to": "-1259510506838548382",
+                "event": "scroll down"
+            },
+            {
+                "from": "-1259510506838548382",
+                "to": "-1259510506838548382",
+                "event": "scroll down"
+            },
+            {
+                "from": "-1259510506838548382",
+                "to": "-1259510506838548382",
+                "event": "click<p id=12> Albums,  </p>"
+            },
+            {
+                "from": "-1259510506838548382",
+                "to": "4658354601727327869",
+                "event": "click<p id=9> photo,  </p>"
+            },
+            {
+                "from": "4658354601727327869",
+                "to": -1259510506838548382,
+                "event": "back"
+            },
+            {
+                "from": -1259510506838548382,
+                "to": "4658354601727327869",
+                "event": "click<p id=9> photo,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

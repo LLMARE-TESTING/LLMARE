@@ -1,0 +1,126 @@
+[
+    {
+        "round": 9,
+        "comment": "The only problem I have when using Google Photos with my Sony Xperia 1 III is that the phone must stay awake and switch to the Backup page in Google Photos in order to scan and sync for any changes. I have checked that there the power saving / data saving options are all OFF. Tried re-installing Google Photos with data wiped but no improvement was made. Google please help.",
+        "scenarios": [
+            "The phone must stay awake and switch to the Backup page in Google Photos in order to scan and sync for any changes.",
+            "I have checked that the power saving / data saving options are all OFF.",
+            "Tried re-installing Google Photos with data wiped but no improvement was made."
+        ],
+        "key sentence": "I have checked that the power saving / data saving options are all OFF.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\scene1\\9196250197343569419.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "9196250197343569419"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\scene1\\396595707160318670.png",
+                "activity": "com.google.android.apps.photos.settings.SettingsActivityV2}",
+                "state_str": "396595707160318670"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\scene1\\-259806923485475152.png",
+                "activity": "com.google.android.apps.photos.settings.AppsAndDevicesActivity}",
+                "state_str": "-259806923485475152"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\scene1\\-259806923485475152.png",
+                "activity": "com.google.android.apps.photos.settings.AppsAndDevicesActivity}",
+                "state_str": "-259806923485475152"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\scene1\\-259806923485475152.png",
+                "activity": "com.google.android.apps.photos.settings.AppsAndDevicesActivity}",
+                "state_str": "-259806923485475152"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\scene1\\396595707160318670.png",
+                "activity": "com.google.android.apps.photos.settings.SettingsActivityV2}",
+                "state_str": "396595707160318670"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\scene1\\-2545476741453450888.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-2545476741453450888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\scene1\\-2545476741453450888.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-2545476741453450888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\scene1\\9196250197343569419.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "9196250197343569419"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\scene1\\396595707160318670.png",
+                "activity": "com.google.android.apps.photos.settings.SettingsActivityV2}",
+                "state_str": "396595707160318670"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "9196250197343569419",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "9196250197343569419",
+                "to": "396595707160318670",
+                "event": "click<p id=20 class =\"com.google.android.apps.photos:id/og_text_card_title\"> Photos settings,  </p>"
+            },
+            {
+                "from": "396595707160318670",
+                "to": "-259806923485475152",
+                "event": "click<button id=7 class =\"com.google.android.apps.photos:id/apps_and_devices_button\"> Apps &amp; devices,  </button>"
+            },
+            {
+                "from": "-259806923485475152",
+                "to": "-259806923485475152",
+                "event": "click<img id=1 class =\"com.google.android.apps.photos:id/settings_button_icon\">  </img>"
+            },
+            {
+                "from": "-259806923485475152",
+                "to": "-259806923485475152",
+                "event": "click<p id=2 class =\"com.google.android.apps.photos:id/settings_button_text_title\"> This device,  </p>"
+            },
+            {
+                "from": "-259806923485475152",
+                "to": "396595707160318670",
+                "event": "click<button id=11 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "396595707160318670",
+                "to": -2545476741453450888,
+                "event": "back"
+            },
+            {
+                "from": -2545476741453450888,
+                "to": "-2545476741453450888",
+                "event": "click<div id=11 class =\"com.google.android.apps.photos:id/product_lockup_view\" alt=\"Google Photos\">  </div>"
+            },
+            {
+                "from": "-2545476741453450888",
+                "to": "9196250197343569419",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "9196250197343569419",
+                "to": "396595707160318670",
+                "event": "click<p id=20 class =\"com.google.android.apps.photos:id/og_text_card_title\"> Photos settings,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

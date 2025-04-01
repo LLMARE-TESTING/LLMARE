@@ -1,0 +1,206 @@
+[
+    {
+        "round": 1,
+        "comment": "Whenever you try to edit a photo, the image disappears. The screen goes completely black. How do you go about editing an image that is invisible? I have been very keen to update the app whenever a new version is released hoping that the bug would be resolved but to no avail. To make it worse my phone didn't come with the stock android photo viewer/editor. So this is the only editor available for me. Can you fix this bug please! How about image autorotation by device orientation?",
+        "scenarios": [
+            "When trying to edit a photo in the app, the image disappears, and the screen goes completely black, preventing the user from editing the photo because the image is invisible.\n",
+            "Inquiry or suggestion about the feature of image autorotation based on the device's orientation."
+        ],
+        "key sentence": "When trying to edit a photo in the app, the image disappears, and the screen goes completely black, preventing the user from editing the photo because the image is invisible.\n",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\-3651863223876768060.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-3651863223876768060"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\5360697576480134574.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "5360697576480134574"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-3651863223876768060",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 5, 2024 11:08 AM\">  </img>"
+            },
+            {
+                "from": "-3651863223876768060",
+                "to": "5360697576480134574",
+                "event": "click<img id=13 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Whenever you try to edit a photo, the image disappears. The screen goes completely black. How do you go about editing an image that is invisible? I have been very keen to update the app whenever a new version is released hoping that the bug would be resolved but to no avail. To make it worse my phone didn't come with the stock android photo viewer/editor. So this is the only editor available for me. Can you fix this bug please! How about image autorotation by device orientation?",
+        "scenarios": [
+            "When trying to edit a photo in the app, the image disappears, and the screen goes completely black, preventing the user from editing the photo because the image is invisible.\n",
+            "Inquiry or suggestion about the feature of image autorotation based on the device's orientation."
+        ],
+        "key sentence": "When trying to edit a photo in the app, the image disappears, and the screen goes completely black, preventing the user from editing the photo because the image is invisible.\n",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\-3651863223876768060.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-3651863223876768060"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\5360697576480134574.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "5360697576480134574"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\-3651863223876768060.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-3651863223876768060"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\5360697576480134574.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "5360697576480134574"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-3651863223876768060",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 5, 2024 11:08 AM\">  </img>"
+            },
+            {
+                "from": "-3651863223876768060",
+                "to": "5360697576480134574",
+                "event": "click<img id=13 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-3651863223876768060",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 5, 2024 11:08 AM\">  </img>"
+            },
+            {
+                "from": "-3651863223876768060",
+                "to": "5360697576480134574",
+                "event": "click<img id=13 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 3,
+        "comment": "Whenever you try to edit a photo, the image disappears. The screen goes completely black. How do you go about editing an image that is invisible? I have been very keen to update the app whenever a new version is released hoping that the bug would be resolved but to no avail. To make it worse my phone didn't come with the stock android photo viewer/editor. So this is the only editor available for me. Can you fix this bug please! How about image autorotation by device orientation?",
+        "scenarios": [
+            "When trying to edit a photo in the app, the image disappears, and the screen goes completely black, preventing the user from editing the photo because the image is invisible.\n",
+            "Inquiry or suggestion about the feature of image autorotation based on the device's orientation."
+        ],
+        "key sentence": "When trying to edit a photo in the app, the image disappears, and the screen goes completely black, preventing the user from editing the photo because the image is invisible.\n",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\-3651863223876768060.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-3651863223876768060"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\5360697576480134574.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "5360697576480134574"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\-3651863223876768060.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-3651863223876768060"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\5360697576480134574.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "5360697576480134574"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\-3651863223876768060.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-3651863223876768060"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\5360697576480134574.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "5360697576480134574"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-3651863223876768060",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 5, 2024 11:08 AM\">  </img>"
+            },
+            {
+                "from": "-3651863223876768060",
+                "to": "5360697576480134574",
+                "event": "click<img id=13 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-3651863223876768060",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 5, 2024 11:08 AM\">  </img>"
+            },
+            {
+                "from": "-3651863223876768060",
+                "to": "5360697576480134574",
+                "event": "click<img id=13 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-3651863223876768060",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 5, 2024 11:08 AM\">  </img>"
+            },
+            {
+                "from": "-3651863223876768060",
+                "to": "5360697576480134574",
+                "event": "click<img id=13 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

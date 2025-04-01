@@ -1,0 +1,79 @@
+[
+    {
+        "round": 3,
+        "comment": "There are few things that I like about this app. Not \"a few\" ... \"very few\". First thing: I had the WORST time syncing things so that they would show up on my computer/desktop, from my phone. When I realised they weren't syncing, there were over 5000 photos to sync (I take a lot, and edit a lot). So then I try to sync them. For the life of me, I can't get them to sync over. So... I start searching. Seems like a few people (that I could find) had the same problem. The fix? I had to shut off my wi-fi, turn on the sync over data option, go back in, then it starts syncing, so I turn the wi-fi on again... it goes for about 250-350 photos... so I think... cool - it's working. NOPE. It goes back to the \"preparing backup\" spinning circle of death. So then I do the same thing. And it works again. Then it gets stuck again. So far I think I've done it about 12 or 15 times... and I still have over 2100 photos to do. So - THAT'S annoying. Second... I have to agree with someone else here, on their low review. WHY, when you delete a phone from Google Photos, does it delete on the stock photo app of the phone as well. Oh and I dislike the editing feature as well - it's very limited. But now maybe I'm just getting picky...",
+        "scenarios": [
+            "Attempting to sync over 5000 photos from the phone to the computer/desktop. Initial attempts to sync do not work.",
+            "Searching online for solutions to the syncing issue and discovering that others have had the same problem.",
+            "Following a suggested fix: shutting off wi-fi, turning on the sync over data option, going back into the app, and starting the sync process. Then turning the wi-fi back on and observing partial success as the app syncs 250-350 photos before getting stuck again.",
+            "Repeating the above steps multiple times (12 or 15 times) to sync remaining photos but still having over 2100 photos left to sync.",
+            "Deleting a photo from Google Photos results in the photo being deleted from the stock photo app on the phone as well.",
+            "Using the editing feature in the app and finding it very limited."
+        ],
+        "key sentence": "Deleting a photo from Google Photos results in the photo being deleted from the stock photo app on the phone as well.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\scene2\\scene3\\scene4\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\scene2\\scene3\\scene4\\-3969574706181324984.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-3969574706181324984"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\scene2\\scene3\\scene4\\-8960754623614355569.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "-8960754623614355569"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\scene2\\scene3\\scene4\\3932530976628098840.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "3932530976628098840"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\scene2\\scene3\\scene4\\2527037363374829736.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2527037363374829736"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\scene2\\scene3\\scene4\\-1090367074838242789.png",
+                "activity": "com.android.providers.media.PermissionActivity}",
+                "state_str": "-1090367074838242789"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-3969574706181324984",
+                "event": "click<button id=13 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Backup is off.&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "-3969574706181324984",
+                "to": "-8960754623614355569",
+                "event": "click<button id=9 class =\"com.google.android.apps.photos:id/og_card\" alt=\"Backup is off&#10;Keep your photos safe by backing them up to your Google account.\">  </button>"
+            },
+            {
+                "from": "-8960754623614355569",
+                "to": 3932530976628098840,
+                "event": "back"
+            },
+            {
+                "from": 3932530976628098840,
+                "to": "2527037363374829736",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 11, 2024 3:21 PM\">  </img>"
+            },
+            {
+                "from": "2527037363374829736",
+                "to": "-1090367074838242789",
+                "event": "click<img id=17 class =\"com.google.android.apps.photos:id/trash\" alt=\"Delete\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

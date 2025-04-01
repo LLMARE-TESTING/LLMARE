@@ -1,0 +1,45 @@
+[
+    {
+        "round": 1,
+        "comment": "App doesn't let you do anything, can't share pictures/screenshots, can't even delete stuff just says 'failed to bin' all the time. It is the worst gallery app going. Should have stuck with Samsung instead of getting a Pixel and having to use this rubbish app.",
+        "scenarios": [
+            "Cannot share pictures/screenshots.  ",
+            "Cannot delete items, with the error message 'failed to bin'.  "
+        ],
+        "key sentence": "Cannot share pictures/screenshots.  ",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "f58d07b2dc774e14e82a3c9db70eba73",
+        "the sub-task list of state": "[{'name': 'Share', 'description': 'Share content'}, {'name': 'Settings', 'description': 'Access account and app settings'}, {'name': 'Creations', 'description': 'Create new content'}, {'name': 'Sharing', 'description': 'Share content with others'}, {'name': 'View Memories', 'description': 'View photos of memories.'}, {'name': 'Memories', 'description': 'Access memories'}, {'name': 'Add Memory', 'description': 'Add a new memory.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment8\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment8\\scene0\\f58d07b2dc774e14e82a3c9db70eba73.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "f58d07b2dc774e14e82a3c9db70eba73"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment8\\scene0\\-7530105996793812837.png",
+                "activity": "com.google.android.apps.photos.sharingtab.destination.impl.SharingDestinationActivity}",
+                "state_str": "-7530105996793812837"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "f58d07b2dc774e14e82a3c9db70eba73",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=52242917a0bacb3c7ea0ec114c61d575(HomeActivity/Button-Memories:x270:y1928))"
+            },
+            {
+                "from": "f58d07b2dc774e14e82a3c9db70eba73",
+                "to": "-7530105996793812837",
+                "event": "click<button id=11 class =\"com.google.android.apps.photos:id/action_bar_sharing\" alt=\"Sharing\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

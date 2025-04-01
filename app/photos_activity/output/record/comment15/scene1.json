@@ -1,0 +1,85 @@
+[
+    {
+        "round": 1,
+        "comment": "Whenever you try to edit a photo, the image disappears. The screen goes completely black. How do you go about editing an image that is invisible? I have been very keen to update the app whenever a new version is released hoping that the bug would be resolved but to no avail. To make it worse my phone didn't come with the stock android photo viewer/editor. So this is the only editor available for me. Can you fix this bug please! How about image autorotation by device orientation?",
+        "scenarios": [
+            "Try to edit a photo, and the image disappears, resulting in the screen going completely black.",
+            "Image autorotation by device orientation."
+        ],
+        "key sentence": "Image autorotation by device orientation.",
+        "target activity": ".photoeditor.fragments.activity.PhotoEditorActivity",
+        "the function of activity": "An image editing tool with functions to search contacts, open menus, apply blur, remove parts, edit sky, switch tabs, cancel, save, adjust, add text, rotate, resize, adjust brightness, apply filters, undo, and redo.",
+        "target state": "state10",
+        "the sub-task list of state": "[{'name': 'Auto crop and straighten', 'description': 'Automatically crop and straighten the image'}, {'name': 'Choose crop aspect ratio', 'description': 'Select a specific aspect ratio for cropping'}, {'name': 'Rotate 90 degrees counter-clockwise', 'description': 'Rotate the image 90 degrees in a counter-clockwise direction'}, {'name': 'Crop document', 'description': 'Crop the image to focus on a document'}, {'name': 'Reset crop', 'description': 'Reset the cropping of the image to its original state'}, {'name': 'Cancel', 'description': 'Cancel the current editing and go back to the previous screen'}, {'name': 'Save copy', 'description': 'Save a copy of the edited image'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment15\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment15\\scene1\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment15\\scene1\\state2.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment15\\scene1\\state10.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment15\\scene1\\-9049295736916957379.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-9049295736916957379"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment15\\scene1\\-9049295736916957379.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-9049295736916957379"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment15\\scene1\\4999221789802857720.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "4999221789802857720"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "state2",
+                "event": "click(ImageView-Edit:[337,1993][491,2148])"
+            },
+            {
+                "from": "state2",
+                "to": "state10",
+                "event": "click(TextView-Crop{Change to crop tab}:[740,1868][952,1966])"
+            },
+            {
+                "from": "state10",
+                "to": "-9049295736916957379",
+                "event": "click<button id=13 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_rotate_90\" alt=\"Rotate 90 degrees counter-clockwise\">  </button>"
+            },
+            {
+                "from": "-9049295736916957379",
+                "to": "-9049295736916957379",
+                "event": "click<button id=11 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_crop_slider\" alt=\"Image tilt\"> 0.0,  </button>"
+            },
+            {
+                "from": "-9049295736916957379",
+                "to": "4999221789802857720",
+                "event": "click<button id=25 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_save\"> Save,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

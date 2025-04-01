@@ -1,0 +1,45 @@
+[
+    {
+        "round": 1,
+        "comment": "Since last week I have been unable to use the app. I always have it set to not auto back up or sync anything when I open the app. Now everytime I try to open the app it has 2 buttons, turn on back up or don't turn back up on. Why is it always trying to make me auto back up for one..when I press do not turn on back up it just spins forever and doesn't let me into my photos at all.",
+        "scenarios": [
+            "The user tries to open the app and encounters two buttons: \"turn on back up\" or \"don't turn back up on\". ",
+            "When the user presses \"do not turn on back up\", the app spins indefinitely and does not allow access to their photos."
+        ],
+        "key sentence": "The user tries to open the app and encounters two buttons: \"turn on back up\" or \"don't turn back up on\". ",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Account Settings', 'description': 'Accessing and managing account settings'}, {'name': 'Turn ON/OFF Backup', 'description': 'Turn on or turn off backup.'}, {'name': 'Free Up Space', 'description': 'Deleting and managing storage space for photos'}, {'name': 'Photos Settings', 'description': 'Adjusting various settings related to photos'}, {'name': 'Help and Feedback', 'description': 'Accessing help and feedback options'}, {'name': 'Privacy Policy', 'description': 'Viewing the privacy policy'}, {'name': 'Terms of Service', 'description': 'Viewing the terms of service'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\state8.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment17\\scene0\\6896706538538890937.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "6896706538538890937"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state8",
+                "event": "click(FrameLayout-Signed in as ran Jin jinran848@gmail.com.Backup is off.Account and settings.:[925,104][1080,237])"
+            },
+            {
+                "from": "state8",
+                "to": 6896706538538890937,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    }
+]

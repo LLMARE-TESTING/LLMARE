@@ -1,0 +1,134 @@
+[
+    {
+        "round": 1,
+        "comment": "I much prefer the original design over this new UI. It used to be very simple to switch between photos and albums, but now it is all redesigned to the library tab. I am all for security and bug fixes, though I would have given 5 stars if I could opt out of a UI redesign. IMO, such jarring changes detract from the usability experience customers have become accustomed to over the last few years. Good idea fairies should stay silent and leave well enough alone if the customers are already happy.",
+        "scenarios": [
+            "Switch between photos and albums, which used to be very simple but now is all redesigned to the library tab."
+        ],
+        "key sentence": "Switch between photos and albums, which used to be very simple but now is all redesigned to the library tab.",
+        "target activity": ".envelope.AlbumActivity",
+        "the function of activity": "add pictures to memory,edit memory.",
+        "target state": "state18",
+        "the sub-task list of state": "[{'name': 'Remove from album', 'description': 'Remove a photo from the current album'}, {'name': 'Use as album cover', 'description': 'Set the selected photo as the cover image for the current album'}, {'name': 'Add to album', 'description': 'Add the selected photo to an album'}, {'name': 'Move to Archive', 'description': 'Move the selected photo to the Archive'}, {'name': 'Create', 'description': 'Create a new album or collection'}, {'name': 'Edit date/time', 'description': 'Modify the date and time of the selected media'}, {'name': 'Add a caption', 'description': 'Add a caption to the selected media'}, {'name': 'Details', 'description': 'View detailed information about the selected media'}, {'name': 'Storage information', 'description': 'View information about the storage location and size of the selected media'}, {'name': 'Backup options', 'description': 'Access options for backing up the selected media'}, {'name': 'Close Info', 'description': 'Close the information panel'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment5\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment5\\scene0\\f58d07b2dc774e14e82a3c9db70eba73.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "f58d07b2dc774e14e82a3c9db70eba73"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment5\\scene0\\state16.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "state16"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment5\\scene0\\state17.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "state17"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment5\\scene0\\state18.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "state18"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment5\\scene0\\2991726669939923672.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "2991726669939923672"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment5\\scene0\\-7450226631078347798.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-7450226631078347798"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment5\\scene0\\-740921032243399378.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-740921032243399378"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment5\\scene0\\1194812502114689475.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "1194812502114689475"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment5\\scene0\\1194812502114689475.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "1194812502114689475"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment5\\scene0\\-8584694360704475351.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-8584694360704475351"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment5\\scene0\\1194812502114689475.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "1194812502114689475"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "f58d07b2dc774e14e82a3c9db70eba73",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=52242917a0bacb3c7ea0ec114c61d575(HomeActivity/Button-Memories:x270:y1928))"
+            },
+            {
+                "from": "f58d07b2dc774e14e82a3c9db70eba73",
+                "to": "state16",
+                "event": "click(ImageView-com.google.android.apps.photos:id/spotlight_image:[0,303][1080,1653])"
+            },
+            {
+                "from": "state16",
+                "to": "state17",
+                "event": "click(ImageView-Photo taken on Jul 2, 2023 5:29:38 PM:[0,1955][582,2148])"
+            },
+            {
+                "from": "state17",
+                "to": "state18",
+                "event": "click(ImageView-More options:[964,94][1063,248])"
+            },
+            {
+                "from": "state18",
+                "to": "2991726669939923672",
+                "event": "click<p id=22 class =\"com.google.android.apps.photos:id/collapse_info_panel_fab\" alt=\"Close Info\">  </p>"
+            },
+            {
+                "from": "2991726669939923672",
+                "to": "-7450226631078347798",
+                "event": "click<button id=3 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-7450226631078347798",
+                "to": "-740921032243399378",
+                "event": "click<button id=4 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-740921032243399378",
+                "to": "1194812502114689475",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "1194812502114689475",
+                "to": "1194812502114689475",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "1194812502114689475",
+                "to": "-8584694360704475351",
+                "event": "click<button id=16 class =\"com.google.android.apps.photos:id/tab_photos\"> Photos,  </button>"
+            },
+            {
+                "from": "-8584694360704475351",
+                "to": "1194812502114689475",
+                "event": "click<button id=21 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,361 @@
+[
+    {
+        "round": 2,
+        "comment": "There are few things that I like about this app. Not \"a few\" ... \"very few\". First thing: I had the WORST time syncing things so that they would show up on my computer/desktop, from my phone. When I realised they weren't syncing, there were over 5000 photos to sync (I take a lot, and edit a lot). So then I try to sync them. For the life of me, I can't get them to sync over. So... I start searching. Seems like a few people (that I could find) had the same problem. The fix? I had to shut off my wi-fi, turn on the sync over data option, go back in, then it starts syncing, so I turn the wi-fi on again... it goes for about 250-350 photos... so I think... cool - it's working. NOPE. It goes back to the \"preparing backup\" spinning circle of death. So then I do the same thing. And it works again. Then it gets stuck again. So far I think I've done it about 12 or 15 times... and I still have over 2100 photos to do. So - THAT'S annoying. Second... I have to agree with someone else here, on their low review. WHY, when you delete a phone from Google Photos, does it delete on the stock photo app of the phone as well. Oh and I dislike the editing feature as well - it's very limited. But now maybe I'm just getting picky...",
+        "scenarios": [
+            "Attempting to sync over 5000 photos from the phone to the computer/desktop. Initial attempts to sync do not work.",
+            "Searching online for solutions to the syncing issue and discovering that others have had the same problem.",
+            "Following a suggested fix: shutting off wi-fi, turning on the sync over data option, going back into the app, and starting the sync process. Then turning the wi-fi back on and observing partial success as the app syncs 250-350 photos before getting stuck again.",
+            "Repeating the above steps multiple times (12 or 15 times) to sync remaining photos but still having over 2100 photos left to sync.",
+            "Deleting a photo from Google Photos results in the photo being deleted from the stock photo app on the phone as well.",
+            "Using the editing feature in the app and finding it very limited."
+        ],
+        "key sentence": "Searching online for solutions to the syncing issue and discovering that others have had the same problem.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\5450324681995535743.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "5450324681995535743"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\8619546310551781920.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "8619546310551781920"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\8619546310551781920.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "8619546310551781920"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\5923991043825458384.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "5923991043825458384"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\-146721603951482841.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-146721603951482841"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\3176491210986483312.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "3176491210986483312"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\3176491210986483312.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "3176491210986483312"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\2154626311114421655.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "2154626311114421655"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\-5767179036610150100.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-5767179036610150100"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\-5440264357164390148.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-5440264357164390148"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "5450324681995535743",
+                "event": "click<button id=17 class =\"com.google.android.apps.photos:id/search_destination\"> Search,  </button>"
+            },
+            {
+                "from": "5450324681995535743",
+                "to": "8619546310551781920",
+                "event": "click<p id=16 class =\"com.google.android.apps.photos:id/searchbar\"> Search your photos,  </p>"
+            },
+            {
+                "from": "8619546310551781920",
+                "to": "8619546310551781920",
+                "event": "click<input id=12 class =\"com.google.android.apps.photos:id/search_box\"> Search your photos,  </input>"
+            },
+            {
+                "from": "8619546310551781920",
+                "to": "5923991043825458384",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/search_container\">  </div>"
+            },
+            {
+                "from": "5923991043825458384",
+                "to": "-146721603951482841",
+                "event": "click<input id=21 class =\"com.google.android.apps.photos:id/search_box\"> Recently Added,  </input>"
+            },
+            {
+                "from": "-146721603951482841",
+                "to": "3176491210986483312",
+                "event": "click<button id=22 class =\"com.google.android.apps.photos:id/clear_button\" alt=\"Clear search text\">  </button>"
+            },
+            {
+                "from": "3176491210986483312",
+                "to": "3176491210986483312",
+                "event": "click<input id=26 class =\"com.google.android.apps.photos:id/search_box\"> Search your photos,  </input>"
+            },
+            {
+                "from": "3176491210986483312",
+                "to": 2154626311114421655,
+                "event": "back"
+            },
+            {
+                "from": 2154626311114421655,
+                "to": "-5767179036610150100",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/search_container\">  </div>"
+            },
+            {
+                "from": "-5767179036610150100",
+                "to": "-5440264357164390148",
+                "event": "click<input id=10 class =\"com.google.android.apps.photos:id/search_box\"> Creations,  </input>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 3,
+        "comment": "There are few things that I like about this app. Not \"a few\" ... \"very few\". First thing: I had the WORST time syncing things so that they would show up on my computer/desktop, from my phone. When I realised they weren't syncing, there were over 5000 photos to sync (I take a lot, and edit a lot). So then I try to sync them. For the life of me, I can't get them to sync over. So... I start searching. Seems like a few people (that I could find) had the same problem. The fix? I had to shut off my wi-fi, turn on the sync over data option, go back in, then it starts syncing, so I turn the wi-fi on again... it goes for about 250-350 photos... so I think... cool - it's working. NOPE. It goes back to the \"preparing backup\" spinning circle of death. So then I do the same thing. And it works again. Then it gets stuck again. So far I think I've done it about 12 or 15 times... and I still have over 2100 photos to do. So - THAT'S annoying. Second... I have to agree with someone else here, on their low review. WHY, when you delete a phone from Google Photos, does it delete on the stock photo app of the phone as well. Oh and I dislike the editing feature as well - it's very limited. But now maybe I'm just getting picky...",
+        "scenarios": [
+            "Attempting to sync over 5000 photos from the phone to the computer/desktop. Initial attempts to sync do not work.",
+            "Searching online for solutions to the syncing issue and discovering that others have had the same problem.",
+            "Following a suggested fix: shutting off wi-fi, turning on the sync over data option, going back into the app, and starting the sync process. Then turning the wi-fi back on and observing partial success as the app syncs 250-350 photos before getting stuck again.",
+            "Repeating the above steps multiple times (12 or 15 times) to sync remaining photos but still having over 2100 photos left to sync.",
+            "Deleting a photo from Google Photos results in the photo being deleted from the stock photo app on the phone as well.",
+            "Using the editing feature in the app and finding it very limited."
+        ],
+        "key sentence": "Searching online for solutions to the syncing issue and discovering that others have had the same problem.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\5450324681995535743.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "5450324681995535743"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\8619546310551781920.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "8619546310551781920"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\8619546310551781920.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "8619546310551781920"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\5923991043825458384.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "5923991043825458384"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\-146721603951482841.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-146721603951482841"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\3176491210986483312.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "3176491210986483312"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\3176491210986483312.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "3176491210986483312"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\2154626311114421655.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "2154626311114421655"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\-5767179036610150100.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-5767179036610150100"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\-5440264357164390148.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-5440264357164390148"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\4483692202415901155.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "4483692202415901155"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\8618299134161623413.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "8618299134161623413"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\176755417791513230.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "176755417791513230"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\-8212577289284008779.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-8212577289284008779"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\-8212577289284008779.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-8212577289284008779"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\-8212577289284008779.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-8212577289284008779"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\-8212577289284008779.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-8212577289284008779"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\4483692202415901155.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "4483692202415901155"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\-1293795438642518442.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-1293795438642518442"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\-1293795438642518442.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "-1293795438642518442"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "5450324681995535743",
+                "event": "click<button id=17 class =\"com.google.android.apps.photos:id/search_destination\"> Search,  </button>"
+            },
+            {
+                "from": "5450324681995535743",
+                "to": "8619546310551781920",
+                "event": "click<p id=16 class =\"com.google.android.apps.photos:id/searchbar\"> Search your photos,  </p>"
+            },
+            {
+                "from": "8619546310551781920",
+                "to": "8619546310551781920",
+                "event": "click<input id=12 class =\"com.google.android.apps.photos:id/search_box\"> Search your photos,  </input>"
+            },
+            {
+                "from": "8619546310551781920",
+                "to": "5923991043825458384",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/search_container\">  </div>"
+            },
+            {
+                "from": "5923991043825458384",
+                "to": "-146721603951482841",
+                "event": "click<input id=21 class =\"com.google.android.apps.photos:id/search_box\"> Recently Added,  </input>"
+            },
+            {
+                "from": "-146721603951482841",
+                "to": "3176491210986483312",
+                "event": "click<button id=22 class =\"com.google.android.apps.photos:id/clear_button\" alt=\"Clear search text\">  </button>"
+            },
+            {
+                "from": "3176491210986483312",
+                "to": "3176491210986483312",
+                "event": "click<input id=26 class =\"com.google.android.apps.photos:id/search_box\"> Search your photos,  </input>"
+            },
+            {
+                "from": "3176491210986483312",
+                "to": 2154626311114421655,
+                "event": "back"
+            },
+            {
+                "from": 2154626311114421655,
+                "to": "-5767179036610150100",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/search_container\">  </div>"
+            },
+            {
+                "from": "-5767179036610150100",
+                "to": "-5440264357164390148",
+                "event": "click<input id=10 class =\"com.google.android.apps.photos:id/search_box\"> Creations,  </input>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "4483692202415901155",
+                "event": "click<button id=17 class =\"com.google.android.apps.photos:id/search_destination\"> Search,  </button>"
+            },
+            {
+                "from": "4483692202415901155",
+                "to": "8618299134161623413",
+                "event": "click<p id=15 class =\"com.google.android.apps.photos:id/searchbar\"> Search your photos,  </p>"
+            },
+            {
+                "from": "8618299134161623413",
+                "to": "176755417791513230",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/search_container\">  </div>"
+            },
+            {
+                "from": "176755417791513230",
+                "to": "-8212577289284008779",
+                "event": "click<input id=10 class =\"com.google.android.apps.photos:id/search_box\"> Favorites,  </input>"
+            },
+            {
+                "from": "-8212577289284008779",
+                "to": "-8212577289284008779",
+                "event": "click<button id=5 class =\"com.google.android.apps.photos:id/photos_help_lostphotostroubleshooter_entrypoints_chip\"> Can\u2019t find your photo or video?,  </button>"
+            },
+            {
+                "from": "-8212577289284008779",
+                "to": "-8212577289284008779",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/search_container\">  </div>"
+            },
+            {
+                "from": "-8212577289284008779",
+                "to": "-8212577289284008779",
+                "event": "click<input id=10 class =\"com.google.android.apps.photos:id/search_box\"> Favorites,  </input>"
+            },
+            {
+                "from": "-8212577289284008779",
+                "to": "4483692202415901155",
+                "event": "click<button id=9 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "4483692202415901155",
+                "to": "-1293795438642518442",
+                "event": "click<button id=24 class =\"com.google.android.apps.photos:id/search_destination\"> Search,  </button>"
+            },
+            {
+                "from": "-1293795438642518442",
+                "to": "-1293795438642518442",
+                "event": "click<input id=13 class =\"com.google.android.apps.photos:id/search_box\"> Search your photos,  </input>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

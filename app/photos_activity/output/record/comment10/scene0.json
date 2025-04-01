@@ -1,0 +1,134 @@
+[
+    {
+        "round": 1,
+        "comment": "You need to have a different password option for locked folder in photos. Its shouldn't be same as lock screen password. 5 stars then.",
+        "scenarios": [
+            "Attempt to set a different password for the locked folder in the photos app, but the available option requires using the same password as the lock screen password."
+        ],
+        "key sentence": "Attempt to set a different password for the locked folder in the photos app, but the available option requires using the same password as the lock screen password.",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state20",
+        "the sub-task list of state": "[{'name': 'Add to album', 'description': 'Add this photo to an album'}, {'name': 'Move to Archive', 'description': 'Move this photo to archive'}, {'name': 'Delete from device', 'description': 'Delete this photo from the device'}, {'name': 'Create', 'description': 'Create something related to this photo'}, {'name': 'Move to Locked Folder', 'description': 'Move this photo to a locked folder'}, {'name': 'Edit', 'description': 'Edit the date/time of the photo'}, {'name': 'Add a caption', 'description': 'Add a caption to this photo'}, {'name': 'Effects', 'description': 'Apply effects to this photo'}, {'name': 'Search Inside this Photo', 'description': 'Search text inside the photo.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\state20.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state20"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\4794586310327926610.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "4794586310327926610"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\8693191425608453681.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8693191425608453681"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\969299931559958509.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "969299931559958509"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-8281884711551287600.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-8281884711551287600"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\8938119713558332704.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8938119713558332704"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3860054359668329309.png",
+                "activity": "com.google.android.apps.photos.settings.SettingsActivityV2}",
+                "state_str": "-3860054359668329309"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3970513182341790313.png",
+                "activity": "com.google.android.apps.photos.settings.PrivacyActivity}",
+                "state_str": "-3970513182341790313"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3970513182341790313.png",
+                "activity": "com.google.android.apps.photos.settings.PrivacyActivity}",
+                "state_str": "-3970513182341790313"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-4687564703887506717.png",
+                "activity": "com.google.android.apps.photos.settings.PrivacyActivity}",
+                "state_str": "-4687564703887506717"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "state20",
+                "event": "click(ImageView-More options:[964,94][1063,248])"
+            },
+            {
+                "from": "state20",
+                "to": "4794586310327926610",
+                "event": "click<img id=12 class =\"com.google.android.apps.photos:id/photos_overflow_icon\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "4794586310327926610",
+                "to": 8693191425608453681,
+                "event": "back"
+            },
+            {
+                "from": 8693191425608453681,
+                "to": "969299931559958509",
+                "event": "click<div id=3 class =\"com.google.android.apps.photos:id/drawer_layout\">  </div>"
+            },
+            {
+                "from": "969299931559958509",
+                "to": -8281884711551287600,
+                "event": "back"
+            },
+            {
+                "from": -8281884711551287600,
+                "to": "8938119713558332704",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "8938119713558332704",
+                "to": "-3860054359668329309",
+                "event": "click<p id=20 class =\"com.google.android.apps.photos:id/og_text_card_title\"> Photos settings,  </p>"
+            },
+            {
+                "from": "-3860054359668329309",
+                "to": "-3970513182341790313",
+                "event": "click<button id=8 class =\"com.google.android.apps.photos:id/privacy_button\"> Privacy,  </button>"
+            },
+            {
+                "from": "-3970513182341790313",
+                "to": "-3970513182341790313",
+                "event": "click<p id=16> Privacy,  </p>"
+            },
+            {
+                "from": "-3970513182341790313",
+                "to": "-4687564703887506717",
+                "event": "scroll down"
+            }
+        ],
+        "Final answer": 1
+    }
+]

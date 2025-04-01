@@ -1,0 +1,686 @@
+[
+    {
+        "round": 1,
+        "comment": "Whatever's happened in the most recent update has knackered the ability to add text to images in the editing features. I can get the words on the image but controlling the location and sizing has become a pain. Assuming this is investigated and fixed, it would be nice to see the text autofill the box size fully rather than just on height. Otherwise it's a decent photo storage app and I'm quite happy using it.",
+        "scenarios": [
+            "Attempting to add text to images using the editing features, and experiencing difficulty in controlling the location and sizing of the text.\n",
+            "(Assuming successful investigation and fix of the first issue) Expectation for the text to autofill the box size fully, rather than just adjusting based on the height."
+        ],
+        "key sentence": "(Assuming successful investigation and fix of the first issue) Expectation for the text to autofill the box size fully, rather than just adjusting based on the height.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-6908774015091784709.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6908774015091784709"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\2504367391671841450.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "2504367391671841450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-7177989497206605896.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "-7177989497206605896"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\2847116908753251930.png",
+                "activity": "com.google.android.apps.photos.collageeditor.ui.CollageEditorActivity}",
+                "state_str": "2847116908753251930"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-2042848290200244991.png",
+                "activity": "com.google.android.apps.photos.collageeditor.ui.CollageEditorActivity}",
+                "state_str": "-2042848290200244991"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\823285221543788537.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "823285221543788537"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-6476396602950341340.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-6476396602950341340"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-5941414240415505423.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-5941414240415505423"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\6586652360206818952.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "6586652360206818952"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\6586652360206818952.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "6586652360206818952"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-6908774015091784709",
+                "event": "click<button id=11 class =\"com.google.android.apps.photos:id/action_bar_create\" alt=\"Creations\">  </button>"
+            },
+            {
+                "from": "-6908774015091784709",
+                "to": "2504367391671841450",
+                "event": "click<p id=4 class =\"com.google.android.apps.photos:id/title\"> Collage,  </p>"
+            },
+            {
+                "from": "2504367391671841450",
+                "to": "-7177989497206605896",
+                "event": "click<img id=7 alt=\"Photo taken on May 27, 2024 1:58 PM\">  </img>"
+            },
+            {
+                "from": "-7177989497206605896",
+                "to": "2847116908753251930",
+                "event": "click<button id=4 class =\"com.google.android.apps.photos:id/action_button\"> Create,  </button>"
+            },
+            {
+                "from": "2847116908753251930",
+                "to": "-2042848290200244991",
+                "event": "click<img id=0 class =\"com.google.android.apps.photos:id/photos_collageeditor_ui_preview\">  </img>"
+            },
+            {
+                "from": "-2042848290200244991",
+                "to": "823285221543788537",
+                "event": "click<p id=3 class =\"com.google.android.apps.photos:id/photos_collageeditor_ui_tools_item_text\"> Edit,  </p>"
+            },
+            {
+                "from": "823285221543788537",
+                "to": "-6476396602950341340",
+                "event": "click<p id=15 alt=\"Change to tools tab\"> Tools,  </p>"
+            },
+            {
+                "from": "-6476396602950341340",
+                "to": "-5941414240415505423",
+                "event": "click<p id=6 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_tools_text\"> Unblur,  </p>"
+            },
+            {
+                "from": "-5941414240415505423",
+                "to": 6586652360206818952,
+                "event": "back"
+            },
+            {
+                "from": 6586652360206818952,
+                "to": "6586652360206818952",
+                "event": "click<p id=11 alt=\"Change to tools tab\"> Tools,  </p>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Whatever's happened in the most recent update has knackered the ability to add text to images in the editing features. I can get the words on the image but controlling the location and sizing has become a pain. Assuming this is investigated and fixed, it would be nice to see the text autofill the box size fully rather than just on height. Otherwise it's a decent photo storage app and I'm quite happy using it.",
+        "scenarios": [
+            "Attempting to add text to images using the editing features, and experiencing difficulty in controlling the location and sizing of the text.\n",
+            "(Assuming successful investigation and fix of the first issue) Expectation for the text to autofill the box size fully, rather than just adjusting based on the height."
+        ],
+        "key sentence": "(Assuming successful investigation and fix of the first issue) Expectation for the text to autofill the box size fully, rather than just adjusting based on the height.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-6908774015091784709.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6908774015091784709"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\2504367391671841450.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "2504367391671841450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-7177989497206605896.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "-7177989497206605896"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\2847116908753251930.png",
+                "activity": "com.google.android.apps.photos.collageeditor.ui.CollageEditorActivity}",
+                "state_str": "2847116908753251930"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-2042848290200244991.png",
+                "activity": "com.google.android.apps.photos.collageeditor.ui.CollageEditorActivity}",
+                "state_str": "-2042848290200244991"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\823285221543788537.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "823285221543788537"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-6476396602950341340.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-6476396602950341340"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-5941414240415505423.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-5941414240415505423"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\6586652360206818952.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "6586652360206818952"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\6586652360206818952.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "6586652360206818952"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-6908774015091784709.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6908774015091784709"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-2543133396598339467.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-2543133396598339467"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\8308755251883498849.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "8308755251883498849"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\1613160418900126454.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "1613160418900126454"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-1178025874031906841.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-1178025874031906841"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-5711995774225303120.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-5711995774225303120"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\6215095525552392135.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "6215095525552392135"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-3428371687908015.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-3428371687908015"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-8091206797801963897.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-8091206797801963897"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\3768925909898578319.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "3768925909898578319"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-6908774015091784709",
+                "event": "click<button id=11 class =\"com.google.android.apps.photos:id/action_bar_create\" alt=\"Creations\">  </button>"
+            },
+            {
+                "from": "-6908774015091784709",
+                "to": "2504367391671841450",
+                "event": "click<p id=4 class =\"com.google.android.apps.photos:id/title\"> Collage,  </p>"
+            },
+            {
+                "from": "2504367391671841450",
+                "to": "-7177989497206605896",
+                "event": "click<img id=7 alt=\"Photo taken on May 27, 2024 1:58 PM\">  </img>"
+            },
+            {
+                "from": "-7177989497206605896",
+                "to": "2847116908753251930",
+                "event": "click<button id=4 class =\"com.google.android.apps.photos:id/action_button\"> Create,  </button>"
+            },
+            {
+                "from": "2847116908753251930",
+                "to": "-2042848290200244991",
+                "event": "click<img id=0 class =\"com.google.android.apps.photos:id/photos_collageeditor_ui_preview\">  </img>"
+            },
+            {
+                "from": "-2042848290200244991",
+                "to": "823285221543788537",
+                "event": "click<p id=3 class =\"com.google.android.apps.photos:id/photos_collageeditor_ui_tools_item_text\"> Edit,  </p>"
+            },
+            {
+                "from": "823285221543788537",
+                "to": "-6476396602950341340",
+                "event": "click<p id=15 alt=\"Change to tools tab\"> Tools,  </p>"
+            },
+            {
+                "from": "-6476396602950341340",
+                "to": "-5941414240415505423",
+                "event": "click<p id=6 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_tools_text\"> Unblur,  </p>"
+            },
+            {
+                "from": "-5941414240415505423",
+                "to": 6586652360206818952,
+                "event": "back"
+            },
+            {
+                "from": 6586652360206818952,
+                "to": "6586652360206818952",
+                "event": "click<p id=11 alt=\"Change to tools tab\"> Tools,  </p>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-6908774015091784709",
+                "event": "click<button id=11 class =\"com.google.android.apps.photos:id/action_bar_create\" alt=\"Creations\">  </button>"
+            },
+            {
+                "from": "-6908774015091784709",
+                "to": "-2543133396598339467",
+                "event": "click<p id=3 class =\"com.google.android.apps.photos:id/title\"> Album,  </p>"
+            },
+            {
+                "from": "-2543133396598339467",
+                "to": "8308755251883498849",
+                "event": "click<img id=12 class =\"com.google.android.apps.photos:id/button_icon\">  </img>"
+            },
+            {
+                "from": "8308755251883498849",
+                "to": "1613160418900126454",
+                "event": "click<img id=11 alt=\"Photo taken on May 27, 2024 1:57 PM\">  </img>"
+            },
+            {
+                "from": "1613160418900126454",
+                "to": "-1178025874031906841",
+                "event": "click<button id=4 class =\"com.google.android.apps.photos:id/action_button\"> Add,  </button>"
+            },
+            {
+                "from": "-1178025874031906841",
+                "to": "-5711995774225303120",
+                "event": "click<img id=13 alt=\"Photo taken on May 27, 2024 1:57 PM\">  </img>"
+            },
+            {
+                "from": "-5711995774225303120",
+                "to": "6215095525552392135",
+                "event": "click<img id=9 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            },
+            {
+                "from": "6215095525552392135",
+                "to": "-3428371687908015",
+                "event": "click<p id=16 alt=\"Change to tools tab\"> Tools,  </p>"
+            },
+            {
+                "from": "-3428371687908015",
+                "to": "-8091206797801963897",
+                "event": "click<p id=12 alt=\"Change to tools tab\"> Tools,  </p>"
+            },
+            {
+                "from": "-8091206797801963897",
+                "to": "3768925909898578319",
+                "event": "click<p id=7 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_tools_text\"> Magic eraser,  </p>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 3,
+        "comment": "Whatever's happened in the most recent update has knackered the ability to add text to images in the editing features. I can get the words on the image but controlling the location and sizing has become a pain. Assuming this is investigated and fixed, it would be nice to see the text autofill the box size fully rather than just on height. Otherwise it's a decent photo storage app and I'm quite happy using it.",
+        "scenarios": [
+            "Attempting to add text to images using the editing features, and experiencing difficulty in controlling the location and sizing of the text.\n",
+            "(Assuming successful investigation and fix of the first issue) Expectation for the text to autofill the box size fully, rather than just adjusting based on the height."
+        ],
+        "key sentence": "(Assuming successful investigation and fix of the first issue) Expectation for the text to autofill the box size fully, rather than just adjusting based on the height.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-6908774015091784709.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6908774015091784709"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\2504367391671841450.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "2504367391671841450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-7177989497206605896.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "-7177989497206605896"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\2847116908753251930.png",
+                "activity": "com.google.android.apps.photos.collageeditor.ui.CollageEditorActivity}",
+                "state_str": "2847116908753251930"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-2042848290200244991.png",
+                "activity": "com.google.android.apps.photos.collageeditor.ui.CollageEditorActivity}",
+                "state_str": "-2042848290200244991"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\823285221543788537.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "823285221543788537"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-6476396602950341340.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-6476396602950341340"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-5941414240415505423.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-5941414240415505423"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\6586652360206818952.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "6586652360206818952"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\6586652360206818952.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "6586652360206818952"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-6908774015091784709.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6908774015091784709"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-2543133396598339467.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-2543133396598339467"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\8308755251883498849.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "8308755251883498849"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\1613160418900126454.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "1613160418900126454"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-1178025874031906841.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-1178025874031906841"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-5711995774225303120.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-5711995774225303120"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\6215095525552392135.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "6215095525552392135"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-3428371687908015.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-3428371687908015"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-8091206797801963897.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-8091206797801963897"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\3768925909898578319.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "3768925909898578319"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-6908774015091784709.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6908774015091784709"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\1526552440193018063.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "1526552440193018063"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-8448637431599334165.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "-8448637431599334165"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\7661729169683725248.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "7661729169683725248"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\1461845621540529320.png",
+                "activity": "com.google.android.apps.photos.collageeditor.ui.CollageEditorActivity}",
+                "state_str": "1461845621540529320"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\1461845621540529320.png",
+                "activity": "com.google.android.apps.photos.collageeditor.ui.CollageEditorActivity}",
+                "state_str": "1461845621540529320"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-7975634503550727714.png",
+                "activity": "com.google.android.apps.photos.pager.HostPhotoPagerActivity}",
+                "state_str": "-7975634503550727714"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\-3310152724034897007.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-3310152724034897007"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\4489258991041670045.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "4489258991041670045"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\scene1\\4489258991041670045.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "4489258991041670045"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-6908774015091784709",
+                "event": "click<button id=11 class =\"com.google.android.apps.photos:id/action_bar_create\" alt=\"Creations\">  </button>"
+            },
+            {
+                "from": "-6908774015091784709",
+                "to": "2504367391671841450",
+                "event": "click<p id=4 class =\"com.google.android.apps.photos:id/title\"> Collage,  </p>"
+            },
+            {
+                "from": "2504367391671841450",
+                "to": "-7177989497206605896",
+                "event": "click<img id=7 alt=\"Photo taken on May 27, 2024 1:58 PM\">  </img>"
+            },
+            {
+                "from": "-7177989497206605896",
+                "to": "2847116908753251930",
+                "event": "click<button id=4 class =\"com.google.android.apps.photos:id/action_button\"> Create,  </button>"
+            },
+            {
+                "from": "2847116908753251930",
+                "to": "-2042848290200244991",
+                "event": "click<img id=0 class =\"com.google.android.apps.photos:id/photos_collageeditor_ui_preview\">  </img>"
+            },
+            {
+                "from": "-2042848290200244991",
+                "to": "823285221543788537",
+                "event": "click<p id=3 class =\"com.google.android.apps.photos:id/photos_collageeditor_ui_tools_item_text\"> Edit,  </p>"
+            },
+            {
+                "from": "823285221543788537",
+                "to": "-6476396602950341340",
+                "event": "click<p id=15 alt=\"Change to tools tab\"> Tools,  </p>"
+            },
+            {
+                "from": "-6476396602950341340",
+                "to": "-5941414240415505423",
+                "event": "click<p id=6 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_tools_text\"> Unblur,  </p>"
+            },
+            {
+                "from": "-5941414240415505423",
+                "to": 6586652360206818952,
+                "event": "back"
+            },
+            {
+                "from": 6586652360206818952,
+                "to": "6586652360206818952",
+                "event": "click<p id=11 alt=\"Change to tools tab\"> Tools,  </p>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-6908774015091784709",
+                "event": "click<button id=11 class =\"com.google.android.apps.photos:id/action_bar_create\" alt=\"Creations\">  </button>"
+            },
+            {
+                "from": "-6908774015091784709",
+                "to": "-2543133396598339467",
+                "event": "click<p id=3 class =\"com.google.android.apps.photos:id/title\"> Album,  </p>"
+            },
+            {
+                "from": "-2543133396598339467",
+                "to": "8308755251883498849",
+                "event": "click<img id=12 class =\"com.google.android.apps.photos:id/button_icon\">  </img>"
+            },
+            {
+                "from": "8308755251883498849",
+                "to": "1613160418900126454",
+                "event": "click<img id=11 alt=\"Photo taken on May 27, 2024 1:57 PM\">  </img>"
+            },
+            {
+                "from": "1613160418900126454",
+                "to": "-1178025874031906841",
+                "event": "click<button id=4 class =\"com.google.android.apps.photos:id/action_button\"> Add,  </button>"
+            },
+            {
+                "from": "-1178025874031906841",
+                "to": "-5711995774225303120",
+                "event": "click<img id=13 alt=\"Photo taken on May 27, 2024 1:57 PM\">  </img>"
+            },
+            {
+                "from": "-5711995774225303120",
+                "to": "6215095525552392135",
+                "event": "click<img id=9 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            },
+            {
+                "from": "6215095525552392135",
+                "to": "-3428371687908015",
+                "event": "click<p id=16 alt=\"Change to tools tab\"> Tools,  </p>"
+            },
+            {
+                "from": "-3428371687908015",
+                "to": "-8091206797801963897",
+                "event": "click<p id=12 alt=\"Change to tools tab\"> Tools,  </p>"
+            },
+            {
+                "from": "-8091206797801963897",
+                "to": "3768925909898578319",
+                "event": "click<p id=7 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_tools_text\"> Magic eraser,  </p>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-6908774015091784709",
+                "event": "click<button id=11 class =\"com.google.android.apps.photos:id/action_bar_create\" alt=\"Creations\">  </button>"
+            },
+            {
+                "from": "-6908774015091784709",
+                "to": "1526552440193018063",
+                "event": "click<p id=4 class =\"com.google.android.apps.photos:id/title\"> Collage,  </p>"
+            },
+            {
+                "from": "1526552440193018063",
+                "to": "-8448637431599334165",
+                "event": "click<img id=7 alt=\"Photo taken on May 27, 2024 1:58 PM\">  </img>"
+            },
+            {
+                "from": "-8448637431599334165",
+                "to": "7661729169683725248",
+                "event": "click<img id=8 class =\"com.google.android.apps.photos:id/end_checkmark\">  </img>"
+            },
+            {
+                "from": "7661729169683725248",
+                "to": "1461845621540529320",
+                "event": "click<button id=4 class =\"com.google.android.apps.photos:id/action_button\"> Create,  </button>"
+            },
+            {
+                "from": "1461845621540529320",
+                "to": "1461845621540529320",
+                "event": "click<img id=0 class =\"com.google.android.apps.photos:id/photos_collageeditor_ui_preview\">  </img>"
+            },
+            {
+                "from": "1461845621540529320",
+                "to": "-7975634503550727714",
+                "event": "click<button id=11 class =\"com.google.android.apps.photos:id/photos_collageeditor_ui_save\"> Save,  </button>"
+            },
+            {
+                "from": "-7975634503550727714",
+                "to": "-3310152724034897007",
+                "event": "click<img id=10 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            },
+            {
+                "from": "-3310152724034897007",
+                "to": "4489258991041670045",
+                "event": "click<p id=14 alt=\"Change to tools tab\"> Tools,  </p>"
+            },
+            {
+                "from": "4489258991041670045",
+                "to": "4489258991041670045",
+                "event": "click<p id=11 alt=\"Change to tools tab\"> Tools,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]
