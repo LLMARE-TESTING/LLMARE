@@ -1,0 +1,185 @@
+[
+    {
+        "round": 1,
+        "comment": "Everytime I open Saved files it keeps on saying \"Couldn't Refresh feed? Please fix it. This is being going on for 2 days. Please Fix it. I have tried everything possible, but it's still not working. Please fix this problem. And also my videos and pictures are not getting saved in certain albums Please fix it",
+        "scenarios": [
+            "Opening Saved files results in the error message \"Couldn't Refresh feed\" repeatedly.  ",
+            "Videos and pictures are not getting saved in certain albums.  "
+        ],
+        "key sentence": "Opening Saved files results in the error message \"Couldn't Refresh feed\" repeatedly.  ",
+        "target activity": "com.instagram.mainactivity.InstagramMainActivity",
+        "the function of activity": "This activity involves managing user profiles and interactions, creating and editing content, exploring media, and adjusting privacy and notification settings on a social media platform.",
+        "target state": "state1",
+        "the sub-task list of state": "[{'name': 'View Profile', 'description': \"View the user's profile page including their posts, followers, and following details.\"}, {'name': 'Edit Profile', 'description': 'Open the edit profile screen to update profile information, including bio, name, and other details.'}, {'name': 'Share Profile', 'description': \"Share the user's profile with others through available sharing options.\"}, {'name': 'Follow User', 'description': \"Follow or unfollow the user displayed on the profile by interacting with the 'Follow' button.\"}, {'name': 'View Posts', 'description': \"View the user's posts, organized in grid view or other display formats like reels or highlights.\"}, {'name': 'View Story Highlights', 'description': \"View the user's story highlights by interacting with the highlights carousel.\"}, {'name': 'View Recent Story', 'description': \"View the user's recent story by clicking on their avatar or story thumbnail.\"}, {'name': 'Create Highlight', 'description': \"Create a new highlight from the user's existing stories by clicking the 'Create Highlight' button.\"}, {'name': 'Open Menu', 'description': 'Open the navigation menu for further options such as settings or other app features.'}, {'name': 'Search', 'description': 'Search for other users, posts, hashtags, or content by interacting with the search icon in the navigation bar.'}, {'name': 'Explore Content', 'description': 'Explore recommended or trending content based on user interests and activities.'}, {'name': 'Send Message', 'description': 'Send a direct message to the user by clicking on the message icon or button in their profile.'}, {'name': 'View Reel', 'description': 'View a short video (reel) posted by the user by interacting with the reel thumbnail or button.'}, {'name': 'View Followers', 'description': \"Click on the 'Followers' button to see the list of people following the user.\"}, {'name': 'View Following', 'description': \"Click on the 'Following' button to see the list of people the user is following.\"}, {'name': 'View Profile Picture', 'description': \"Click on the user's profile picture to view it in full size or edit the avatar image.\"}, {'name': 'Dismiss Suggested User', 'description': \"Dismiss a suggested user from the suggestions carousel by clicking the 'Dismiss' button.\"}, {'name': 'Like a Post', 'description': \"Like a post displayed on the user's profile by clicking on the heart icon associated with the post.\"}, {'name': 'Comment on Post', 'description': 'Comment on a post by tapping the comment icon and typing a response.'}, {'name': 'Save Post', 'description': 'Save a post to your collection by clicking on the bookmark icon.'}, {'name': 'Share Post', 'description': 'Share a post to your story or with other users via direct message by clicking the share icon.'}, {'name': 'View Suggested Account', 'description': 'View and follow suggested users based on mutual connections or common interests.'}, {'name': 'Scroll Feed', 'description': \"Scroll through the user's post feed to view their latest content.\"}, {'name': 'Interact with Tab Bar', 'description': 'Switch between different sections of the app like Home, Search, Reels, and Profile by clicking on the corresponding icons in the tab bar.'}, {'name': 'Open Profile Tabs', 'description': 'Navigate between profile tabs like Grid, Reels, and Photos of You by interacting with the profile tab layout.'}, {'name': 'Change Avatar', 'description': \"Change the user's profile avatar by clicking on the avatar image or button to upload a new picture.\"}, {'name': 'View Notifications', 'description': 'View notifications for activities like new followers, comments, or likes by interacting with the notification icon in the action bar.'}, {'name': 'View Settings', 'description': \"Access the app's settings menu to adjust preferences and privacy settings.\"}, {'name': 'Switch Accounts', 'description': 'Switch between different Instagram accounts by clicking the account switcher button in the action bar.'}, {'name': 'Log Out', 'description': 'Log out of the current Instagram account from the settings or menu.'}, {'name': 'Refresh Feed', 'description': 'Refresh the profile feed by pulling down or using the swipe-refresh feature to load new content.'}, {'name': 'View Media Set', 'description': 'View a media set or album associated with a particular post or user.'}, {'name': 'Close App', 'description': 'Close the app or navigate away from the profile page to another screen.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment9\\scene0\\52e92cce957416c52f0c11fa5490fd56.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "52e92cce957416c52f0c11fa5490fd56"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment9\\scene0\\state1.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment9\\scene0\\-5649412583627967190.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-5649412583627967190"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment9\\scene0\\3959338578154860537.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "3959338578154860537"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment9\\scene0\\-5663311127210051575.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-5663311127210051575"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment9\\scene0\\-5488639156291202236.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-5488639156291202236"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment9\\scene0\\-5191197718876914571.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-5191197718876914571"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment9\\scene0\\7541710949293559195.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "7541710949293559195"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment9\\scene0\\5035660391020775506.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "5035660391020775506"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment9\\scene0\\5035660391020775506.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "5035660391020775506"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment9\\scene0\\5858014739854846267.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "5858014739854846267"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment9\\scene0\\3017254385877269835.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "3017254385877269835"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment9\\scene0\\-5488639156291202236.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-5488639156291202236"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment9\\scene0\\-5191197718876914571.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-5191197718876914571"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment9\\scene0\\7541710949293559195.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "7541710949293559195"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment9\\scene0\\5035660391020775506.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "5035660391020775506"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment9\\scene0\\5035660391020775506.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "5035660391020775506"
+            }
+        ],
+        "operations": [
+            {
+                "from": "52e92cce957416c52f0c11fa5490fd56",
+                "to": "state1",
+                "event": "click(com.instagram.android:id/profile_tab-Profile:[864,2027][1080,2148])"
+            },
+            {
+                "from": "state1",
+                "to": "-5649412583627967190",
+                "event": "click<button id=5 class =\"com.instagram.android:id/row_profile_header_post_count_container\" alt=\"9posts\">  </button>"
+            },
+            {
+                "from": "-5649412583627967190",
+                "to": "3959338578154860537",
+                "event": "click<div id=1 class =\"com.instagram.android:id/profile_viewpager\">  </div>"
+            },
+            {
+                "from": "3959338578154860537",
+                "to": "-5663311127210051575",
+                "event": "click<button id=16 class =\"com.instagram.android:id/profile_tab\" alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "-5663311127210051575",
+                "to": "-5488639156291202236",
+                "event": "click<button id=22 class =\"com.instagram.android:id/profile_tab\" alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "-5488639156291202236",
+                "to": "-5191197718876914571",
+                "event": "click<button id=49 alt=\"Options\">  </button>"
+            },
+            {
+                "from": "-5191197718876914571",
+                "to": "7541710949293559195",
+                "event": "click<p id=10> Saved,  </p>"
+            },
+            {
+                "from": "7541710949293559195",
+                "to": "5035660391020775506",
+                "event": "click<p id=5 class =\"com.instagram.android:id/saved_collection_name\"> All posts,  </p>"
+            },
+            {
+                "from": "5035660391020775506",
+                "to": "5035660391020775506",
+                "event": "click<img id=2 class =\"com.instagram.android:id/profile_tab_icon_view\" alt=\"Saved posts\">  </img>"
+            },
+            {
+                "from": "5035660391020775506",
+                "to": "5858014739854846267",
+                "event": "click<div id=5 class =\"com.instagram.android:id/save_collection_viewpager\">  </div>"
+            },
+            {
+                "from": "5858014739854846267",
+                "to": "3017254385877269835",
+                "event": "click<button id=20 class =\"com.instagram.android:id/action_bar_title\"> All posts,  </button>"
+            },
+            {
+                "from": "3017254385877269835",
+                "to": "-5488639156291202236",
+                "event": "click<button id=24 class =\"com.instagram.android:id/profile_tab\" alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "-5488639156291202236",
+                "to": "-5191197718876914571",
+                "event": "click<button id=49 alt=\"Options\">  </button>"
+            },
+            {
+                "from": "-5191197718876914571",
+                "to": "7541710949293559195",
+                "event": "click<p id=10> Saved,  </p>"
+            },
+            {
+                "from": "7541710949293559195",
+                "to": "5035660391020775506",
+                "event": "click<p id=5 class =\"com.instagram.android:id/saved_collection_name\"> All posts,  </p>"
+            },
+            {
+                "from": "5035660391020775506",
+                "to": "5035660391020775506",
+                "event": "click<img id=2 class =\"com.instagram.android:id/profile_tab_icon_view\" alt=\"Saved posts\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

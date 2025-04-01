@@ -1,0 +1,185 @@
+[
+    {
+        "round": 1,
+        "comment": "I noticed some of my stories are missing from my archives, especially 3 out of 4 from 4/13. After updating and logging out of, and then, back into the app, the 3 appeared the archives. But the 1 that was previously showing is no longer there. I'm tired of having stories missing from the archives!",
+        "scenarios": [
+            "Notice some stories are missing from the archives, especially 3 out of 4 from a specific date.",
+            "Update the app and log out and back in, resulting in the previously missing 3 stories appearing in the archives, but the 1 story that was previously showing is no longer there."
+        ],
+        "key sentence": "Notice some stories are missing from the archives, especially 3 out of 4 from a specific date.",
+        "target activity": "com.instagram.mainactivity.InstagramMainActivity",
+        "the function of activity": "This activity involves managing user profiles and interactions, creating and editing content, exploring media, and adjusting privacy and notification settings on a social media platform.",
+        "target state": "state4",
+        "the sub-task list of state": "[{'name': 'Open Settings', 'description': \"Tap on the 'Settings' section to access your account settings, privacy settings, and activity preferences.\"}, {'name': 'Access Account', 'description': \"Tap on 'Your Account' to access or manage your profile and account settings.\"}, {'name': 'Manage Accounts Center', 'description': \"Tap on 'Accounts Center' to manage your account settings across Meta technologies.\"}, {'name': 'Password and Security Settings', 'description': \"Tap 'Password, security, personal details, ad preferences' to adjust security settings and manage preferences.\"}, {'name': 'View Saved Items', 'description': \"Tap on 'Saved' to view posts, photos, and other items you have saved on Instagram.\"}, {'name': 'View Archive', 'description': \"Tap on 'Archive' to view your archived posts and stories.\"}, {'name': 'View Your Activity', 'description': \"Tap on 'Your Activity' to manage and view your Instagram activity, including interactions and media.\"}, {'name': 'Manage Notifications', 'description': \"Tap on 'Notifications' to access and adjust your notification preferences.\"}, {'name': 'Time Management Settings', 'description': \"Tap on 'Time management' to view and set time limits for using Instagram.\"}, {'name': 'Account Privacy Settings', 'description': \"Tap on 'Account privacy' to check or change your account privacy settings (e.g., public or private).\"}]",
+        "nodes": [
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment35\\scene0\\52e92cce957416c52f0c11fa5490fd56.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "52e92cce957416c52f0c11fa5490fd56"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment35\\scene0\\state1.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment35\\scene0\\state25.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state25"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment35\\scene0\\state26.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state26"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment35\\scene0\\state4.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment35\\scene0\\-43652775769824168.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "-43652775769824168"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment35\\scene0\\-2584677954966021867.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "-2584677954966021867"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment35\\scene0\\-43652775769824168.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "-43652775769824168"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment35\\scene0\\-6983590636380819686.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "-6983590636380819686"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment35\\scene0\\-7625801801317239555.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "-7625801801317239555"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment35\\scene0\\-6983590636380819686.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "-6983590636380819686"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment35\\scene0\\-6983590636380819686.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "-6983590636380819686"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment35\\scene0\\-7625801801317239555.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "-7625801801317239555"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment35\\scene0\\-6983590636380819686.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "-6983590636380819686"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment35\\scene0\\3071547203832863432.png",
+                "activity": "com.android.camera.CameraLauncher}",
+                "state_str": "3071547203832863432"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment35\\scene0\\-6128478605761267365.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-6128478605761267365"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment35\\scene0\\-6128478605761267365.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-6128478605761267365"
+            }
+        ],
+        "operations": [
+            {
+                "from": "52e92cce957416c52f0c11fa5490fd56",
+                "to": "state1",
+                "event": "click(com.instagram.android:id/profile_tab-Profile:[864,2027][1080,2148])"
+            },
+            {
+                "from": "state1",
+                "to": "state25",
+                "event": "scroll-down(com.instagram.android:id/profile_header_fixed_list:[0,237][1080,1874])"
+            },
+            {
+                "from": "state25",
+                "to": "state26",
+                "event": "scroll-up(com.instagram.android:id/profile_header_fixed_list:[0,237][1080,1874])"
+            },
+            {
+                "from": "state26",
+                "to": "state4",
+                "event": "click(android.widget.Button-Options:[926,83][1058,237])"
+            },
+            {
+                "from": "state4",
+                "to": "-43652775769824168",
+                "event": "click<p id=11> Archive,  </p>"
+            },
+            {
+                "from": "-43652775769824168",
+                "to": "-2584677954966021867",
+                "event": "click<button id=13 class =\"com.instagram.android:id/action_bar_title\"> Stories archive,  </button>"
+            },
+            {
+                "from": "-2584677954966021867",
+                "to": "-43652775769824168",
+                "event": "click<button id=18 class =\"com.instagram.android:id/action_bar_title\"> Stories archive,  </button>"
+            },
+            {
+                "from": "-43652775769824168",
+                "to": "-6983590636380819686",
+                "event": "scroll down"
+            },
+            {
+                "from": "-6983590636380819686",
+                "to": "-7625801801317239555",
+                "event": "click<button id=12 class =\"com.instagram.android:id/action_bar_title\"> Stories archive,  </button>"
+            },
+            {
+                "from": "-7625801801317239555",
+                "to": "-6983590636380819686",
+                "event": "click<button id=17 class =\"com.instagram.android:id/action_bar_title\"> Stories archive,  </button>"
+            },
+            {
+                "from": "-6983590636380819686",
+                "to": "-6983590636380819686",
+                "event": "click<button id=1 alt=\", 1 of 3.\">  </button>"
+            },
+            {
+                "from": "-6983590636380819686",
+                "to": "-7625801801317239555",
+                "event": "click<button id=12 class =\"com.instagram.android:id/action_bar_title\"> Stories archive,  </button>"
+            },
+            {
+                "from": "-7625801801317239555",
+                "to": "-6983590636380819686",
+                "event": "click<button id=17 class =\"com.instagram.android:id/action_bar_title\"> Stories archive,  </button>"
+            },
+            {
+                "from": "-6983590636380819686",
+                "to": "3071547203832863432",
+                "event": "click<button id=18> Camera,  </button>"
+            },
+            {
+                "from": "3071547203832863432",
+                "to": -6128478605761267365,
+                "event": "back"
+            },
+            {
+                "from": -6128478605761267365,
+                "to": "-6128478605761267365",
+                "event": "click<button id=1 alt=\"Apps list\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

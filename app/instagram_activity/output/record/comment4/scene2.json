@@ -1,0 +1,186 @@
+[
+    {
+        "round": 1,
+        "comment": "After updating Instagram I have VERY issue in my account 1- I can not see comments on reel 2- I can't see my profile and I can go to my saved option 3- when I see this type I think their must be some issues so I log out and then try to login but now I can't login to my account \u9983\u69d5\u9983\u69d5 So, I am requesting Instagram to look into this issue and pls solve it because It is not a problem with one account I can't login to my other account also",
+        "scenarios": [
+            "After updating Instagram, the user cannot see comments on a reel.",
+            "After updating Instagram, the user cannot see their profile and cannot access the saved option.",
+            "The user logs out due to the above issues and attempts to log back in but cannot log in to their account. Additionally, they cannot log in to another account either."
+        ],
+        "key sentence": "The user logs out due to the above issues and attempts to log back in but cannot log in to their account. Additionally, they cannot log in to another account either.",
+        "target activity": "com.instagram.modal.ModalActivity",
+        "the function of activity": "The activity facilitates Instagram account management, post creation, and customization features, including profile settings, media selection, audience targeting, and editing options for posts and highlights.",
+        "target state": "state12",
+        "the sub-task list of state": "[{'name': 'Open Settings', 'description': \"Access the settings menu by clicking the 'Settings' button.\"}, {'name': 'View Profile', 'description': \"Access the profile section by clicking the 'Profile photo' button.\"}, {'name': 'Log In', 'description': \"Sign in to your account by clicking the 'Log in' button.\"}, {'name': 'Log Into Another Account', 'description': \"Sign in using a different Instagram account by clicking the 'Log into another account' button.\"}, {'name': 'Create New Account', 'description': \"Register a new Instagram account by clicking the 'Create new account' button.\"}]",
+        "nodes": [
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene2\\52e92cce957416c52f0c11fa5490fd56.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "52e92cce957416c52f0c11fa5490fd56"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene2\\state1.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene2\\state25.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state25"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene2\\state26.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state26"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene2\\state4.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene2\\state5.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene2\\state6.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state6"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene2\\state7.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene2\\state8.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene2\\state9.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene2\\state10.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene2\\state11.png",
+                "activity": "",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene2\\state12.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene2\\6550865344227547680.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "6550865344227547680"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene2\\1187700535842835969.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "1187700535842835969"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene2\\5672572436626602411.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "5672572436626602411"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene2\\6885934851041958922.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "6885934851041958922"
+            }
+        ],
+        "operations": [
+            {
+                "from": "52e92cce957416c52f0c11fa5490fd56",
+                "to": "state1",
+                "event": "click(com.instagram.android:id/profile_tab-Profile:[864,2027][1080,2148])"
+            },
+            {
+                "from": "state1",
+                "to": "state25",
+                "event": "scroll-down(com.instagram.android:id/profile_header_fixed_list:[0,237][1080,1874])"
+            },
+            {
+                "from": "state25",
+                "to": "state26",
+                "event": "scroll-up(com.instagram.android:id/profile_header_fixed_list:[0,237][1080,1874])"
+            },
+            {
+                "from": "state26",
+                "to": "state4",
+                "event": "click(android.widget.Button-Options:[926,83][1058,237])"
+            },
+            {
+                "from": "state4",
+                "to": "state5",
+                "event": "scroll-down(android.view.View:[0,237][1080,2027])"
+            },
+            {
+                "from": "state5",
+                "to": "state6",
+                "event": "scroll-down(android.view.View:[0,237][1080,2027])"
+            },
+            {
+                "from": "state6",
+                "to": "state7",
+                "event": "scroll-down(android.view.View:[0,237][1080,2027])"
+            },
+            {
+                "from": "state7",
+                "to": "state8",
+                "event": "scroll-down(android.view.View:[0,237][1080,2027])"
+            },
+            {
+                "from": "state8",
+                "to": "state9",
+                "event": "scroll-down(android.view.View:[0,237][1080,2027])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "scroll-down(android.view.View:[0,237][1080,2027])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(android.widget.Button-Log out:[0,1781][1080,1911])"
+            },
+            {
+                "from": "state11",
+                "to": "state12",
+                "event": "click(com.instagram.android:id/primary_button-Log out:[237,1157][842,1289])"
+            },
+            {
+                "from": "state12",
+                "to": "6550865344227547680",
+                "event": "click<button id=5 alt=\"Log in\">  </button>"
+            },
+            {
+                "from": "6550865344227547680",
+                "to": "1187700535842835969",
+                "event": "click<button id=39 class =\"com.instagram.android:id/profile_tab\" alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "1187700535842835969",
+                "to": "5672572436626602411",
+                "event": "click<button id=48 class =\"com.instagram.android:id/action_bar_large_title_auto_size\"> huhuli65,  </button>"
+            },
+            {
+                "from": "5672572436626602411",
+                "to": "6885934851041958922",
+                "event": "click<button id=4> Go to Accounts Center,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

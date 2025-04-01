@@ -1,0 +1,5661 @@
+{
+  "tag": "2024-04-26_191039",
+  "state_str": "77067d25fe3a2b4308b551c5cd0fdeab",
+  "state_str_content_free": "1f73ab2e73021ed52add380ed39213ec",
+  "foreground_activity": "com.instagram.android/com.instagram.mainactivity.InstagramMainActivity",
+  "activity_stack": [
+    "com.instagram.android/com.instagram.mainactivity.InstagramMainActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.ads.identifier.service.AdvertisingIdService",
+    "vendor.qti.iwlan/.QualifiedNetworksServiceImpl",
+    "vendor.qti.iwlan/.IWlanDataService",
+    "com.qualcomm.atfwd/.AtFwdService",
+    "org.codeaurora.ims/.ImsService",
+    "com.google.android.euicc/com.android.euicc.service.EuiccServiceImpl",
+    "org.protonaosp.elmyra/.ElmyraService",
+    "com.android.bluetooth/.hearingaid.HearingAidService",
+    "com.google.android.gms/.nearby.sharing.ReceiveSurfaceService",
+    "com.qualcomm.qti.uceShimService/.RCSService",
+    "com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "eu.airaudio.aarscservice/.AARSCService",
+    "com.github.kr328.clash/.service.RemoteService",
+    "com.qualcomm.qti.cne/.CneApp",
+    "com.google.android.gms/.tapandpay.hce.service.TpHceService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.systemui/.ImageWallpaper",
+    "io.appium.settings/.NLService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.common.superpacks.impl.AiAiSuperpacksService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.android.service.ims.presence/.PollingService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.github.kr328.clash/.service.TunService",
+    "com.google.android.gms/.location.geocode.GeocodeService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.android.hbmsvmanager/.DisplayService",
+    "com.smile.gifmaker/androidx.work.impl.background.systemjob.SystemJobService",
+    "com.google.android.gms/.tron.CollectionService",
+    "app.airmusic.amrscservice/.AMRSCService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.android.vending/com.google.android.finsky.crossprofile.ProfileStateService",
+    "com.google.android.gms/.nearby.sharing.SendSurfaceService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.android.networkstack/com.android.server.NetworkStackService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService",
+    "com.android.cellbroadcastservice/.DefaultCellBroadcastService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nga.engine.viss.NgaService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.immomo.momo/.android.service.XServiceX",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.common.notification.service.AiAiNotificationListenerService",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "vendor.qti.iwlan/.IWlanNetworkService",
+    "vendor.qti.hardware.cacert.server/.CACertService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.networkstack.tethering/.TetheringService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.facebook.katana/com.facebook.video.heroplayer.service.HeroKeepAliveService",
+    "io.appium.settings/.ForegroundService",
+    "com.android.service.ims/.RcsService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.android.launcher3/com.android.quickstep.TouchInteractionService",
+    "com.qti.qualcomm.datastatusnotification/.DataStatusNotificationService",
+    "org.lineageos.audiofx/.service.AudioFxService",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.huajiao/com.qihoo.pushsdk.cx.PushService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.android.service.ims.presence/.EABService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.qualcomm.qti.telephonyservice/.QtiTelephonyService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.instagram.android/com.instagram.util.startup.tracking.TaskLifeDetectingService",
+    "com.google.android.gms/.personalsafety.service.PersonalSafetyService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.qualcomm.qti.services.secureui/.SecureUIService",
+    "com.facebook.katana/com.facebook.mqtt.service.MqttServiceV2",
+    "android.ext.services/.autofill.InlineSuggestionRenderServiceImpl",
+    "com.instagram.android/com.facebook.rti.push.service.FbnsService"
+  ],
+  "width": 1080,
+  "height": 2280,
+  "views": [
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        131,
+        135,
+        136
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*2280",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "d19529093bd22ae73edf28830d791bb3",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1080*2280",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[enabled,,]",
+      "view_str": "db16b8885fd279374faecceb820eba27",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1080*2280",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "2c023bfeee665d1ec3f45761e08f10c5",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1080*2280",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/action_bar_root[enabled,,]",
+      "view_str": "809272a8bfc6058161645758114d742e",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/action_bar_root"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1080*2280",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[enabled,,]",
+      "view_str": "e10db45daf7220083206bff7d768bf2e",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/swipe_navigation_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1080*2280",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/swipe_navigation_container[enabled,,]",
+      "view_str": "2e2d63edca9a2ba612c9d6cbbcac8cb3",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/swipe_navigation_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2280
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/layout_container_left",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "0*2280",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/layout_container_left[enabled,,]",
+      "view_str": "67db03a48857baeeb110051bbc14b39b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/layout_container_left"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/bottom_sheet_camera_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 7,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/bottom_sheet_camera_container[enabled,,]",
+      "view_str": "d7e49fe3d4c25782e93e7454295c7bdf",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/bottom_sheet_camera_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/overlay_layout_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 8,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/overlay_layout_container[enabled,,]",
+      "view_str": "22e1a0c68a259b9848f5fb8837ccb17c",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/overlay_layout_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10,
+        11,
+        12
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/layout_container_center_right_coordinator_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 9,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/layout_container_center_right_coordinator_layout[enabled,,]",
+      "view_str": "ba686d4d34b1bf71166fa9de4bdddaf1",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/layout_container_center_right_coordinator_layout"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          83
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/layout_container_right",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "0*2065",
+      "x": 1080,
+      "y": 83,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/layout_container_right[enabled,,]",
+      "view_str": "d19b79d0c12cd7cc46344131ccb84671",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/layout_container_right"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/activity_and_camera_shared_views_main_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 11,
+      "size": "1080*2065",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/activity_and_camera_shared_views_main_container[enabled,,]",
+      "view_str": "95bee4294761b8f95012456d4d78ef49",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/activity_and_camera_shared_views_main_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13,
+        14,
+        130
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/layout_container_main_panel",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 12,
+      "size": "1080*2065",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/layout_container_main_panel[enabled,,]",
+      "view_str": "33a5d62372aec67adb3f1e69ed1acde9",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/layout_container_main_panel"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          83
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "1080*0",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "f2cbbadd50af574e54bfb634068015f7",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        15,
+        99,
+        114,
+        115
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/layout_container_main_wrapper",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 14,
+      "size": "1080*2065",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/layout_container_main_wrapper[enabled,,]",
+      "view_str": "4993c8f7cd4a167fca3c8c7e8c3d316c",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/layout_container_main_wrapper"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        16
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          2016
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/layout_container_main",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "1080*1933",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/layout_container_main[enabled,,]",
+      "view_str": "52a48182a9e6ad0ea3db060b214a2b0c",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/layout_container_main"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        17,
+        98
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          2016
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/sticky_header_list",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "1080*1933",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/sticky_header_list[enabled,,]",
+      "view_str": "d4da93120919c8fb175c846a52b47886",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/sticky_header_list"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        18
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          2016
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/refreshable_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "1080*1933",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/refreshable_container[enabled,,]",
+      "view_str": "06d9c738c1f51e15cd6d5371244d51fd",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/refreshable_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 7,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        19,
+        20,
+        60,
+        66,
+        80,
+        86,
+        92
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          2016
+        ]
+      ],
+      "resource_id": "android:id/list",
+      "checked": false,
+      "text": null,
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 18,
+      "size": "1080*1933",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]android:id/list[enabled,,]",
+      "view_str": "e4ca1e98110a43738bd45e5638a968a8",
+      "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]android:id/list"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          237
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/gap_binder_group",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "1080*154",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.view.View[resource_id]com.instagram.android:id/gap_binder_group[enabled,,]",
+      "view_str": "b92efa5d464a0f9a4f4ddfe2f68068fd",
+      "content_free_signature": "[class]android.view.View[resource_id]com.instagram.android:id/gap_binder_group"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        21,
+        59
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          237
+        ],
+        [
+          1080,
+          564
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 20,
+      "size": "1080*327",
+      "x": 0,
+      "y": 237,
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[enabled,,]",
+      "view_str": "b0df79bc25201bc97e4458c38895e44c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        22
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          237
+        ],
+        [
+          1080,
+          563
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/reels_tray_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 20,
+      "temp_id": 21,
+      "size": "1080*326",
+      "x": 0,
+      "y": 237,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/reels_tray_container[enabled,,]",
+      "view_str": "affcfac38f4a089a0e2bfc9779f92da3",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/reels_tray_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "reels_tray_container",
+      "children": [
+        23,
+        32,
+        41,
+        50
+      ],
+      "focused": true,
+      "bounds": [
+        [
+          0,
+          237
+        ],
+        [
+          1080,
+          563
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "reels_tray_container",
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 22,
+      "size": "1080*326",
+      "x": 0,
+      "y": 237,
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]None[enabled,,]",
+      "view_str": "183ffc12ef7b44179f8a77ccbbbf6d38",
+      "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        24,
+        30
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          11,
+          237
+        ],
+        [
+          282,
+          563
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/outer_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 23,
+      "size": "271*326",
+      "x": 11,
+      "y": 237,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/outer_container[enabled,,]",
+      "view_str": "90e700a1cdbf03a8451906d3312a0f7f",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/outer_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        25
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          11,
+          237
+        ],
+        [
+          282,
+          497
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/avatar_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 23,
+      "temp_id": 24,
+      "size": "271*260",
+      "x": 11,
+      "y": 237,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/avatar_view[enabled,,]",
+      "view_str": "5e386d4b15363560a18a86a6bd2d8896",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/avatar_view"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        26
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          11,
+          237
+        ],
+        [
+          282,
+          497
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 24,
+      "temp_id": 25,
+      "size": "271*260",
+      "x": 11,
+      "y": 237,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "14181fbfe1afb5943722d66dd95d4167",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        27,
+        28,
+        29
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          11,
+          237
+        ],
+        [
+          282,
+          497
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/avatar_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 25,
+      "temp_id": 26,
+      "size": "271*260",
+      "x": 11,
+      "y": 237,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/avatar_container[enabled,,]",
+      "view_str": "221a54e573288d300958ef9ef8f74109",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/avatar_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "ranjin428's story at column 0. Unseen.",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          45,
+          271
+        ],
+        [
+          247,
+          473
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/avatar_image_view",
+      "checked": false,
+      "text": "ranjin428's story at column 0. Unseen.",
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 26,
+      "temp_id": 27,
+      "size": "202*202",
+      "x": 45,
+      "y": 271,
+      "signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/avatar_image_view[enabled,,]",
+      "view_str": "ba9664ae06627b0a8391e1d12ea1fcf1",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/avatar_image_view"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          177,
+          403
+        ],
+        [
+          249,
+          475
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/reel_empty_badge",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 26,
+      "temp_id": 28,
+      "size": "72*72",
+      "x": 177,
+      "y": 403,
+      "signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/reel_empty_badge[enabled,,]",
+      "view_str": "71594a23fed448c92bc204b699551cd4",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/reel_empty_badge"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          199,
+          425
+        ],
+        [
+          265,
+          491
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 26,
+      "temp_id": 29,
+      "size": "66*66",
+      "x": 199,
+      "y": 425,
+      "signature": "[class]android.widget.ImageView[resource_id]None[enabled,,]",
+      "view_str": "5654f5698ed76621b665da695ab79911",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        31
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          11,
+          497
+        ],
+        [
+          282,
+          541
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/title_container",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 23,
+      "temp_id": 30,
+      "size": "271*44",
+      "x": 11,
+      "y": 497,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/title_container[enabled,,]",
+      "view_str": "15b2890a1c0eabd00d301165b66c47d5",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/title_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          497
+        ],
+        [
+          221,
+          541
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/username",
+      "checked": false,
+      "text": "Your story",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 30,
+      "temp_id": 31,
+      "size": "149*44",
+      "x": 72,
+      "y": 497,
+      "signature": "[class]android.widget.TextView[resource_id]com.instagram.android:id/username[enabled,,]",
+      "view_str": "1145aa72f822b4761eeb3527082e8749",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.instagram.android:id/username"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        33,
+        39
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          282,
+          237
+        ],
+        [
+          553,
+          563
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/outer_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 32,
+      "size": "271*326",
+      "x": 282,
+      "y": 237,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/outer_container[enabled,,]",
+      "view_str": "90e700a1cdbf03a8451906d3312a0f7f",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/outer_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        34
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          282,
+          237
+        ],
+        [
+          553,
+          497
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/avatar_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 33,
+      "size": "271*260",
+      "x": 282,
+      "y": 237,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/avatar_view[enabled,,]",
+      "view_str": "5e386d4b15363560a18a86a6bd2d8896",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/avatar_view"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        35
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          282,
+          237
+        ],
+        [
+          553,
+          497
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 33,
+      "temp_id": 34,
+      "size": "271*260",
+      "x": 282,
+      "y": 237,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "14181fbfe1afb5943722d66dd95d4167",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        36,
+        37,
+        38
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          282,
+          237
+        ],
+        [
+          553,
+          497
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/avatar_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 34,
+      "temp_id": 35,
+      "size": "271*260",
+      "x": 282,
+      "y": 237,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/avatar_container[enabled,,]",
+      "view_str": "0eaef1ee24fb05f30a512010c353814c",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/avatar_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          299,
+          254
+        ],
+        [
+          536,
+          491
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/seen_state",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 36,
+      "size": "237*237",
+      "x": 299,
+      "y": 254,
+      "signature": "[class]android.view.View[resource_id]com.instagram.android:id/seen_state[enabled,,]",
+      "view_str": "35e56d8b863149f2fe91876cc25fc848",
+      "content_free_signature": "[class]android.view.View[resource_id]com.instagram.android:id/seen_state"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "leomessi's story at column 1. Unseen.",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          316,
+          271
+        ],
+        [
+          518,
+          473
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/avatar_image_view",
+      "checked": false,
+      "text": "leomessi's story at column 1. Unseen.",
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 37,
+      "size": "202*202",
+      "x": 316,
+      "y": 271,
+      "signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/avatar_image_view[enabled,,]",
+      "view_str": "ba9664ae06627b0a8391e1d12ea1fcf1",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/avatar_image_view"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          470,
+          425
+        ],
+        [
+          536,
+          491
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 38,
+      "size": "66*66",
+      "x": 470,
+      "y": 425,
+      "signature": "[class]android.widget.ImageView[resource_id]None[enabled,,]",
+      "view_str": "5654f5698ed76621b665da695ab79911",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        40
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          282,
+          497
+        ],
+        [
+          553,
+          541
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/title_container",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 39,
+      "size": "271*44",
+      "x": 282,
+      "y": 497,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/title_container[enabled,,]",
+      "view_str": "15b2890a1c0eabd00d301165b66c47d5",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/title_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          351,
+          497
+        ],
+        [
+          485,
+          541
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/username",
+      "checked": false,
+      "text": "leomessi",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 39,
+      "temp_id": 40,
+      "size": "134*44",
+      "x": 351,
+      "y": 497,
+      "signature": "[class]android.widget.TextView[resource_id]com.instagram.android:id/username[enabled,,]",
+      "view_str": "1145aa72f822b4761eeb3527082e8749",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.instagram.android:id/username"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        42,
+        48
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          553,
+          237
+        ],
+        [
+          824,
+          563
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/outer_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 41,
+      "size": "271*326",
+      "x": 553,
+      "y": 237,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/outer_container[enabled,,]",
+      "view_str": "90e700a1cdbf03a8451906d3312a0f7f",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/outer_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        43
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          553,
+          237
+        ],
+        [
+          824,
+          497
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/avatar_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 41,
+      "temp_id": 42,
+      "size": "271*260",
+      "x": 553,
+      "y": 237,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/avatar_view[enabled,,]",
+      "view_str": "5e386d4b15363560a18a86a6bd2d8896",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/avatar_view"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        44
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          553,
+          237
+        ],
+        [
+          824,
+          497
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 42,
+      "temp_id": 43,
+      "size": "271*260",
+      "x": 553,
+      "y": 237,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "14181fbfe1afb5943722d66dd95d4167",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        45,
+        46,
+        47
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          553,
+          237
+        ],
+        [
+          824,
+          497
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/avatar_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 44,
+      "size": "271*260",
+      "x": 553,
+      "y": 237,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/avatar_container[enabled,,]",
+      "view_str": "0eaef1ee24fb05f30a512010c353814c",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/avatar_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          570,
+          254
+        ],
+        [
+          807,
+          491
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/seen_state",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 44,
+      "temp_id": 45,
+      "size": "237*237",
+      "x": 570,
+      "y": 254,
+      "signature": "[class]android.view.View[resource_id]com.instagram.android:id/seen_state[enabled,,]",
+      "view_str": "35e56d8b863149f2fe91876cc25fc848",
+      "content_free_signature": "[class]android.view.View[resource_id]com.instagram.android:id/seen_state"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "jennierubyjane's story at column 2. Unseen.",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          587,
+          271
+        ],
+        [
+          789,
+          473
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/avatar_image_view",
+      "checked": false,
+      "text": "jennierubyjane's story at column 2. Unseen.",
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 44,
+      "temp_id": 46,
+      "size": "202*202",
+      "x": 587,
+      "y": 271,
+      "signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/avatar_image_view[enabled,,]",
+      "view_str": "ba9664ae06627b0a8391e1d12ea1fcf1",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/avatar_image_view"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          741,
+          425
+        ],
+        [
+          807,
+          491
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 44,
+      "temp_id": 47,
+      "size": "66*66",
+      "x": 741,
+      "y": 425,
+      "signature": "[class]android.widget.ImageView[resource_id]None[enabled,,]",
+      "view_str": "5654f5698ed76621b665da695ab79911",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        49
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          553,
+          497
+        ],
+        [
+          824,
+          541
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/title_container",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 41,
+      "temp_id": 48,
+      "size": "271*44",
+      "x": 553,
+      "y": 497,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/title_container[enabled,,]",
+      "view_str": "15b2890a1c0eabd00d301165b66c47d5",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/title_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          582,
+          497
+        ],
+        [
+          796,
+          541
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/username",
+      "checked": false,
+      "text": "jennierubyjane",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 48,
+      "temp_id": 49,
+      "size": "214*44",
+      "x": 582,
+      "y": 497,
+      "signature": "[class]android.widget.TextView[resource_id]com.instagram.android:id/username[enabled,,]",
+      "view_str": "1145aa72f822b4761eeb3527082e8749",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.instagram.android:id/username"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        51,
+        57
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          824,
+          237
+        ],
+        [
+          1080,
+          563
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/outer_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 50,
+      "size": "256*326",
+      "x": 824,
+      "y": 237,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/outer_container[enabled,,]",
+      "view_str": "90e700a1cdbf03a8451906d3312a0f7f",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/outer_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        52
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          824,
+          237
+        ],
+        [
+          1080,
+          497
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/avatar_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 50,
+      "temp_id": 51,
+      "size": "256*260",
+      "x": 824,
+      "y": 237,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/avatar_view[enabled,,]",
+      "view_str": "5e386d4b15363560a18a86a6bd2d8896",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/avatar_view"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        53
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          824,
+          237
+        ],
+        [
+          1080,
+          497
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 51,
+      "temp_id": 52,
+      "size": "256*260",
+      "x": 824,
+      "y": 237,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "14181fbfe1afb5943722d66dd95d4167",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        54,
+        55,
+        56
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          824,
+          237
+        ],
+        [
+          1080,
+          497
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/avatar_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 52,
+      "temp_id": 53,
+      "size": "256*260",
+      "x": 824,
+      "y": 237,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/avatar_container[enabled,,]",
+      "view_str": "0eaef1ee24fb05f30a512010c353814c",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/avatar_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          841,
+          254
+        ],
+        [
+          1078,
+          491
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/seen_state",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 53,
+      "temp_id": 54,
+      "size": "237*237",
+      "x": 841,
+      "y": 254,
+      "signature": "[class]android.view.View[resource_id]com.instagram.android:id/seen_state[enabled,,]",
+      "view_str": "35e56d8b863149f2fe91876cc25fc848",
+      "content_free_signature": "[class]android.view.View[resource_id]com.instagram.android:id/seen_state"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "xeesoxee's story at column 3. Unseen.",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          858,
+          271
+        ],
+        [
+          1060,
+          473
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/avatar_image_view",
+      "checked": false,
+      "text": "xeesoxee's story at column 3. Unseen.",
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 53,
+      "temp_id": 55,
+      "size": "202*202",
+      "x": 858,
+      "y": 271,
+      "signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/avatar_image_view[enabled,,]",
+      "view_str": "ba9664ae06627b0a8391e1d12ea1fcf1",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/avatar_image_view"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1012,
+          425
+        ],
+        [
+          1078,
+          491
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 53,
+      "temp_id": 56,
+      "size": "66*66",
+      "x": 1012,
+      "y": 425,
+      "signature": "[class]android.widget.ImageView[resource_id]None[enabled,,]",
+      "view_str": "5654f5698ed76621b665da695ab79911",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        58
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          824,
+          497
+        ],
+        [
+          1080,
+          541
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/title_container",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 50,
+      "temp_id": 57,
+      "size": "256*44",
+      "x": 824,
+      "y": 497,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/title_container[enabled,,]",
+      "view_str": "15b2890a1c0eabd00d301165b66c47d5",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/title_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          890,
+          497
+        ],
+        [
+          1030,
+          541
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/username",
+      "checked": false,
+      "text": "xeesoxee",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 57,
+      "temp_id": 58,
+      "size": "140*44",
+      "x": 890,
+      "y": 497,
+      "signature": "[class]android.widget.TextView[resource_id]com.instagram.android:id/username[enabled,,]",
+      "view_str": "1145aa72f822b4761eeb3527082e8749",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.instagram.android:id/username"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          563
+        ],
+        [
+          1080,
+          564
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/stories_tray_separator",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 20,
+      "temp_id": 59,
+      "size": "1080*1",
+      "x": 0,
+      "y": 563,
+      "signature": "[class]android.view.View[resource_id]com.instagram.android:id/stories_tray_separator[enabled,,]",
+      "view_str": "1e67dfe02f49d69328611913478ecf7d",
+      "content_free_signature": "[class]android.view.View[resource_id]com.instagram.android:id/stories_tray_separator"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        61
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          564
+        ],
+        [
+          1080,
+          707
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 60,
+      "size": "1080*143",
+      "x": 0,
+      "y": 564,
+      "signature": "[class]android.view.ViewGroup[resource_id]None[enabled,,]",
+      "view_str": "101feea126be2b0a1151df390bc0e146",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        62,
+        64,
+        65
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          564
+        ],
+        [
+          1080,
+          707
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/row_feed_profile_header",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 60,
+      "temp_id": 61,
+      "size": "1080*143",
+      "x": 0,
+      "y": 564,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/row_feed_profile_header[enabled,,]",
+      "view_str": "ca920114461e3cb8a27406239d11757d",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/row_feed_profile_header"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        63
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          30,
+          586
+        ],
+        [
+          129,
+          685
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 61,
+      "temp_id": 62,
+      "size": "99*99",
+      "x": 30,
+      "y": 586,
+      "signature": "[class]android.view.ViewGroup[resource_id]None[enabled,,]",
+      "view_str": "dcb5ebc28aa0e1f96b535aa41b3e536e",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Profile picture of geewonii",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          38,
+          594
+        ],
+        [
+          121,
+          677
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/row_feed_photo_profile_imageview",
+      "checked": false,
+      "text": "Profile picture of geewonii",
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 62,
+      "temp_id": 63,
+      "size": "83*83",
+      "x": 38,
+      "y": 594,
+      "signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/row_feed_photo_profile_imageview[enabled,,]",
+      "view_str": "6b5718c06c5c1397af9f1b1285c4816b",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/row_feed_photo_profile_imageview"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "geewonii  ",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          151,
+          564
+        ],
+        [
+          936,
+          707
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/row_feed_photo_profile_name",
+      "checked": false,
+      "text": "geewonii  ",
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 61,
+      "temp_id": 64,
+      "size": "785*143",
+      "x": 151,
+      "y": 564,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/row_feed_photo_profile_name[enabled,,]",
+      "view_str": "bf213ce2370ce237554c493ca78e0253",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/row_feed_photo_profile_name"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "More actions for this post",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          958,
+          570
+        ],
+        [
+          1080,
+          702
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/media_option_button",
+      "checked": false,
+      "text": "More actions for this post",
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 61,
+      "temp_id": 65,
+      "size": "122*132",
+      "x": 958,
+      "y": 570,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/media_option_button[enabled,,]",
+      "view_str": "d0cb979616db30f738e47a86beae9890",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/media_option_button"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        67
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          707
+        ],
+        [
+          1080,
+          1787
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 66,
+      "size": "1080*1080",
+      "x": 0,
+      "y": 707,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "a3b8a45bffc5ccd9568f436eb1dfb037",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 5,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        68,
+        69,
+        76,
+        78,
+        79
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          707
+        ],
+        [
+          1080,
+          1787
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/carousel_media_group",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 66,
+      "temp_id": 67,
+      "size": "1080*1080",
+      "x": 0,
+      "y": 707,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/carousel_media_group[enabled,,]",
+      "view_str": "c50bd3b6b0455c41921dbc5eaf26f00b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/carousel_media_group"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          707
+        ],
+        [
+          1080,
+          1787
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/row_carousel_media_actions",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 67,
+      "temp_id": 68,
+      "size": "1080*1080",
+      "x": 0,
+      "y": 707,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/row_carousel_media_actions[enabled,,]",
+      "view_str": "f52101450360e0f5654c17aa433dbacf",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/row_carousel_media_actions"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        70
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          707
+        ],
+        [
+          1080,
+          1787
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/carousel_viewpager",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 67,
+      "temp_id": 69,
+      "size": "1080*1080",
+      "x": 0,
+      "y": 707,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/carousel_viewpager[enabled,,]",
+      "view_str": "42b15ccc35adddddc35f2e472b4a47ff",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/carousel_viewpager"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        71
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          707
+        ],
+        [
+          1080,
+          1787
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/zoomable_view_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 69,
+      "temp_id": 70,
+      "size": "1080*1080",
+      "x": 0,
+      "y": 707,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/zoomable_view_container[enabled,,]",
+      "view_str": "ac3e782d080935a53d81cd7cb07f202e",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/zoomable_view_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        72,
+        73,
+        75
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          707
+        ],
+        [
+          1080,
+          1787
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/carousel_image_media_group",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 70,
+      "temp_id": 71,
+      "size": "1080*1080",
+      "x": 0,
+      "y": 707,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/carousel_image_media_group[enabled,,]",
+      "view_str": "7ef0965c2c26e703193c95ee55b33127",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/carousel_image_media_group"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          707
+        ],
+        [
+          1080,
+          1787
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/row_feed_photo_media_tag_hints",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 71,
+      "temp_id": 72,
+      "size": "1080*1080",
+      "x": 0,
+      "y": 707,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/row_feed_photo_media_tag_hints[enabled,,]",
+      "view_str": "ef095fce8c0e1840e0b79438c0931ef3",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/row_feed_photo_media_tag_hints"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Photo 1 of 2 by \uae40\uc9c0\uc6d0, 1,800,473 likes, 13.3K comments",
+      "children": [
+        74
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          707
+        ],
+        [
+          1080,
+          1787
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/carousel_image",
+      "checked": false,
+      "text": "Photo 1 of 2 by \uae40\uc9c0\uc6d0, 1,800,473 likes, 13.3K comments",
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 71,
+      "temp_id": 73,
+      "size": "1080*1080",
+      "x": 0,
+      "y": 707,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/carousel_image[enabled,,]",
+      "view_str": "0cde7c3ce48cfcd69b0a5601f0d81975",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/carousel_image"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          707
+        ],
+        [
+          1080,
+          1787
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 73,
+      "temp_id": 74,
+      "size": "1080*1080",
+      "x": 0,
+      "y": 707,
+      "signature": "[class]android.widget.ImageView[resource_id]None[enabled,,]",
+      "view_str": "fa49478b56a2e42d95d21c648dd3500e",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1787
+        ],
+        [
+          0,
+          1787
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 71,
+      "temp_id": 75,
+      "size": "0*0",
+      "x": 0,
+      "y": 1787,
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[enabled,,]",
+      "view_str": "2001682b8a40ca32a1da58ba89c0cd14",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        77
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          893,
+          707
+        ],
+        [
+          1080,
+          860
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 67,
+      "temp_id": 76,
+      "size": "187*153",
+      "x": 893,
+      "y": 707,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "0ea3935b661e94035ac3bcd9684ef2d5",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "1/2",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          932,
+          746
+        ],
+        [
+          1041,
+          821
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/carousel_index_indicator_text_view",
+      "checked": false,
+      "text": "1/2",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 76,
+      "temp_id": 77,
+      "size": "109*75",
+      "x": 932,
+      "y": 746,
+      "signature": "[class]android.widget.TextView[resource_id]com.instagram.android:id/carousel_index_indicator_text_view[enabled,,]",
+      "view_str": "07a2a801737182345d6e56dc4f8c27e4",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.instagram.android:id/carousel_index_indicator_text_view"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          540,
+          1247
+        ],
+        [
+          540,
+          1247
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/like_heart",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 67,
+      "temp_id": 78,
+      "size": "0*0",
+      "x": 540,
+      "y": 1247,
+      "signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/like_heart[enabled,,]",
+      "view_str": "e4a03b3e5645f97c2014c46dd61cd86c",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/like_heart"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1002,
+          1748
+        ],
+        [
+          1080,
+          1787
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/indicator_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 67,
+      "temp_id": 79,
+      "size": "78*39",
+      "x": 1002,
+      "y": 1748,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/indicator_container[enabled,,]",
+      "view_str": "c37719dc3c2eccc893d0166b3fb6488b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/indicator_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 5,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1787
+        ],
+        [
+          1080,
+          1914
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/row_feed_view_group_buttons",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 80,
+      "size": "1080*127",
+      "x": 0,
+      "y": 1787,
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.instagram.android:id/row_feed_view_group_buttons[enabled,,]",
+      "view_str": "9276a694ddc788acc04f62343523ff46",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.instagram.android:id/row_feed_view_group_buttons"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Like",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          17,
+          1787
+        ],
+        [
+          138,
+          1914
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/row_feed_button_like",
+      "checked": false,
+      "text": "Like",
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 80,
+      "temp_id": 81,
+      "size": "121*127",
+      "x": 17,
+      "y": 1787,
+      "signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/row_feed_button_like[enabled,,]",
+      "view_str": "d8dccb49aa8ad2c5bc8f02642d58904c",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/row_feed_button_like"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Comment",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          138,
+          1787
+        ],
+        [
+          259,
+          1914
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/row_feed_button_comment",
+      "checked": false,
+      "text": "Comment",
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 80,
+      "temp_id": 82,
+      "size": "121*127",
+      "x": 138,
+      "y": 1787,
+      "signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/row_feed_button_comment[enabled,,]",
+      "view_str": "faca9e74ce711da7a109cad0815ea5c4",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/row_feed_button_comment"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Send post",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          259,
+          1787
+        ],
+        [
+          380,
+          1914
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/row_feed_button_share",
+      "checked": false,
+      "text": "Send post",
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 80,
+      "temp_id": 83,
+      "size": "121*127",
+      "x": 259,
+      "y": 1787,
+      "signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/row_feed_button_share[enabled,,]",
+      "view_str": "a5d1daa4820125eb60c7146331c35407",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/row_feed_button_share"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          465,
+          1787
+        ],
+        [
+          615,
+          1908
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/carousel_page_indicator",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 80,
+      "temp_id": 84,
+      "size": "150*121",
+      "x": 465,
+      "y": 1787,
+      "signature": "[class]android.view.View[resource_id]com.instagram.android:id/carousel_page_indicator[enabled,,]",
+      "view_str": "edcd9a84996f277e2ddf36be7858137a",
+      "content_free_signature": "[class]android.view.View[resource_id]com.instagram.android:id/carousel_page_indicator"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Add to Saved",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          942,
+          1787
+        ],
+        [
+          1063,
+          1908
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/row_feed_button_save",
+      "checked": false,
+      "text": "Add to Saved",
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 80,
+      "temp_id": 85,
+      "size": "121*121",
+      "x": 942,
+      "y": 1787,
+      "signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/row_feed_button_save[enabled,,]",
+      "view_str": "ceb3e49d8b388730791ef8649beee055",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/row_feed_button_save"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        87
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1914
+        ],
+        [
+          1080,
+          1988
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/row_feed_media_feedback_content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 86,
+      "size": "1080*74",
+      "x": 0,
+      "y": 1914,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/row_feed_media_feedback_content[enabled,,]",
+      "view_str": "14ac36eac729a54f96691e7438bfabc0",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/row_feed_media_feedback_content"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        88
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1914
+        ],
+        [
+          1080,
+          1977
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/like_row_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 86,
+      "temp_id": 87,
+      "size": "1080*63",
+      "x": 0,
+      "y": 1914,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/like_row_container[enabled,,]",
+      "view_str": "c83864feaa6ab6ea2e2dc21bb1afef20",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/like_row_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        89,
+        90
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          39,
+          1914
+        ],
+        [
+          1041,
+          1977
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/like_row",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 87,
+      "temp_id": 88,
+      "size": "1002*63",
+      "x": 39,
+      "y": 1914,
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.instagram.android:id/like_row[enabled,,]",
+      "view_str": "8ab9f314b8d80876d821009de4205a7b",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.instagram.android:id/like_row"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "User avatars",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          39,
+          1914
+        ],
+        [
+          102,
+          1977
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/row_feed_like_more_info_stub",
+      "checked": false,
+      "text": "User avatars",
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 88,
+      "temp_id": 89,
+      "size": "63*63",
+      "x": 39,
+      "y": 1914,
+      "signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/row_feed_like_more_info_stub[enabled,,]",
+      "view_str": "b11c1956d5e0ec94a76007e47bd83e81",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/row_feed_like_more_info_stub"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        91
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          119,
+          1922
+        ],
+        [
+          1041,
+          1968
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/row_feed_textview_likes",
+      "checked": false,
+      "text": "Liked by jiwoooniie and 1,800,472 others",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 88,
+      "temp_id": 90,
+      "size": "922*46",
+      "x": 119,
+      "y": 1922,
+      "signature": "[class]android.widget.TextView[resource_id]com.instagram.android:id/row_feed_textview_likes[enabled,,]",
+      "view_str": "f1abc03c0237a826e4bbb487fcbfe902",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.instagram.android:id/row_feed_textview_likes"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "jiwoooniie",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          271,
+          1922
+        ],
+        [
+          449,
+          1968
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "jiwoooniie",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 90,
+      "temp_id": 91,
+      "size": "178*46",
+      "x": 271,
+      "y": 1922,
+      "signature": "[class]android.widget.Button[resource_id]None[enabled,,]",
+      "view_str": "be7327f0b718a082a0c2adf279a9f7cd",
+      "content_free_signature": "[class]android.widget.Button[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        93
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1988
+        ],
+        [
+          1080,
+          2016
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 92,
+      "size": "1080*28",
+      "x": 0,
+      "y": 1988,
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[enabled,,]",
+      "view_str": "912f85e55ed6fb2ff8fad4c612896be6",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        94,
+        95,
+        96,
+        97
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          39,
+          1988
+        ],
+        [
+          1080,
+          2016
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/row_feed_comment_textview_layout",
+      "checked": false,
+      "text": "geewonii \ub3c5\uc77c \ucd2c\uc601\uc5d0\uc11c \ub9cc\ub09c \ub124\uc78e\ud074\ub85c\ubc84\ud83c\udf40 \n\uc624\ub298\ub3c4 \ub208\ubb3c\uc758 \uc5ec\uc655\uc5d0\uc11c \ud568\uaed8 \ud574\uc694\ud83d\udca7\ud83d\udc51\u2764\ufe0f\u2026 more",
+      "class": "com.instagram.ui.widget.textview.IgTextLayoutView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 92,
+      "temp_id": 93,
+      "size": "1041*28",
+      "x": 39,
+      "y": 1988,
+      "signature": "[class]com.instagram.ui.widget.textview.IgTextLayoutView[resource_id]com.instagram.android:id/row_feed_comment_textview_layout[enabled,,]",
+      "view_str": "45d3bc2f356affcd69db9307c1989363",
+      "content_free_signature": "[class]com.instagram.ui.widget.textview.IgTextLayoutView[resource_id]com.instagram.android:id/row_feed_comment_textview_layout"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "geewonii",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          39,
+          1988
+        ],
+        [
+          192,
+          2033
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "geewonii",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 93,
+      "temp_id": 94,
+      "size": "153*45",
+      "x": 39,
+      "y": 1988,
+      "signature": "[class]android.widget.Button[resource_id]None[enabled,,]",
+      "view_str": "ab9e87048e2b2fbaa1937498a7a17ce9",
+      "content_free_signature": "[class]android.widget.Button[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "\ub3c5\uc77c \ucd2c\uc601\uc5d0\uc11c \ub9cc\ub09c \ub124\uc78e\ud074\ub85c\ubc84\ud83c\udf40 \n\uc624\ub298\ub3c4 \ub208\ubb3c\uc758 \uc5ec\uc655\uc5d0\uc11c \ud568\uaed8 \ud574\uc694\ud83d\udca7\ud83d\udc51\u2764\ufe0f",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          201,
+          1988
+        ],
+        [
+          739,
+          2033
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\ub3c5\uc77c \ucd2c\uc601\uc5d0\uc11c \ub9cc\ub09c \ub124\uc78e\ud074\ub85c\ubc84\ud83c\udf40 \n\uc624\ub298\ub3c4 \ub208\ubb3c\uc758 \uc5ec\uc655\uc5d0\uc11c \ud568\uaed8 \ud574\uc694\ud83d\udca7\ud83d\udc51\u2764\ufe0f",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 93,
+      "temp_id": 95,
+      "size": "538*45",
+      "x": 201,
+      "y": 1988,
+      "signature": "[class]android.widget.Button[resource_id]None[enabled,,]",
+      "view_str": "ab9e87048e2b2fbaa1937498a7a17ce9",
+      "content_free_signature": "[class]android.widget.Button[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "\ub3c5\uc77c \ucd2c\uc601\uc5d0\uc11c \ub9cc\ub09c \ub124\uc78e\ud074\ub85c\ubc84\ud83c\udf40 \n\uc624\ub298\ub3c4 \ub208\ubb3c\uc758 \uc5ec\uc655\uc5d0\uc11c \ud568\uaed8 \ud574\uc694\ud83d\udca7\ud83d\udc51\u2764\ufe0f",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          201,
+          1988
+        ],
+        [
+          739,
+          2033
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "\ub3c5\uc77c \ucd2c\uc601\uc5d0\uc11c \ub9cc\ub09c \ub124\uc78e\ud074\ub85c\ubc84\ud83c\udf40 \n\uc624\ub298\ub3c4 \ub208\ubb3c\uc758 \uc5ec\uc655\uc5d0\uc11c \ud568\uaed8 \ud574\uc694\ud83d\udca7\ud83d\udc51\u2764\ufe0f",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 93,
+      "temp_id": 96,
+      "size": "538*45",
+      "x": 201,
+      "y": 1988,
+      "signature": "[class]android.widget.Button[resource_id]None[enabled,,]",
+      "view_str": "ab9e87048e2b2fbaa1937498a7a17ce9",
+      "content_free_signature": "[class]android.widget.Button[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "more",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          740,
+          2039
+        ],
+        [
+          828,
+          2084
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "more",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 93,
+      "temp_id": 97,
+      "size": "88*45",
+      "x": 740,
+      "y": 2039,
+      "signature": "[class]android.widget.Button[resource_id]None[enabled,,]",
+      "view_str": "ab9e87048e2b2fbaa1937498a7a17ce9",
+      "content_free_signature": "[class]android.widget.Button[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          540,
+          2016
+        ],
+        [
+          540,
+          2016
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/feed_pill_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 98,
+      "size": "0*0",
+      "x": 540,
+      "y": 2016,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/feed_pill_container[enabled,,]",
+      "view_str": "5d446bfaa20068b0e7e67da318a4f8c7",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/feed_pill_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        100
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          237
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/action_bar_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 99,
+      "size": "1080*154",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/action_bar_container[enabled,,]",
+      "view_str": "cb55fc9a95aa0c0431ff0f26ba424871",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/action_bar_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        101
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          237
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/action_bar_wrapper",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 99,
+      "temp_id": 100,
+      "size": "1080*154",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/action_bar_wrapper[enabled,,]",
+      "view_str": "68bea2be63de7a228833445c5208df5c",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/action_bar_wrapper"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        102,
+        106,
+        109,
+        113
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          237
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/action_bar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 100,
+      "temp_id": 101,
+      "size": "1080*154",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/action_bar[enabled,,]",
+      "view_str": "a884b2153245b769ab233e18a453baaa",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/action_bar"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        103
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          794,
+          237
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/action_bar_textview_custom_title_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 101,
+      "temp_id": 102,
+      "size": "794*154",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/action_bar_textview_custom_title_container[enabled,,]",
+      "view_str": "5bf7b0896c6340bc0dd6995445fd9d78",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/action_bar_textview_custom_title_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Instagram Home Feed",
+      "children": [
+        104
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          130
+        ],
+        [
+          341,
+          237
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Instagram Home Feed",
+      "class": "android.widget.ViewAnimator",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 102,
+      "temp_id": 103,
+      "size": "297*107",
+      "x": 44,
+      "y": 130,
+      "signature": "[class]android.widget.ViewAnimator[resource_id]None[enabled,,]",
+      "view_str": "d95195ac0b52eb1e0b2e0606b70b5bf2",
+      "content_free_signature": "[class]android.widget.ViewAnimator[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        105
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          130
+        ],
+        [
+          341,
+          215
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/title_logo_chevron_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 103,
+      "temp_id": 104,
+      "size": "297*85",
+      "x": 44,
+      "y": 130,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/title_logo_chevron_container[enabled,,]",
+      "view_str": "d3081c1499c4a6f60a00331a89cb59c1",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/title_logo_chevron_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          130
+        ],
+        [
+          341,
+          215
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/title_logo",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 104,
+      "temp_id": 105,
+      "size": "297*85",
+      "x": 44,
+      "y": 130,
+      "signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/title_logo[enabled,,]",
+      "view_str": "5a80554758e6449be54610ad5a878bde",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/title_logo"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        107
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          160
+        ],
+        [
+          0,
+          160
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/action_bar_new_title_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 101,
+      "temp_id": 106,
+      "size": "0*0",
+      "x": 0,
+      "y": 160,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/action_bar_new_title_container[enabled,,]",
+      "view_str": "8ccb9f78d54543a88730ec846f49d495",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/action_bar_new_title_container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        108
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          160
+        ],
+        [
+          0,
+          160
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 106,
+      "temp_id": 107,
+      "size": "0*0",
+      "x": 0,
+      "y": 160,
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[enabled,,]",
+      "view_str": "e547645df2fea94b281ccb81613306f4",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          160
+        ],
+        [
+          0,
+          160
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 107,
+      "temp_id": 108,
+      "size": "0*0",
+      "x": 0,
+      "y": 160,
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[enabled,,]",
+      "view_str": "2e536780178734a48deba8b6202e2041",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Activity",
+      "children": [
+        110
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          794,
+          83
+        ],
+        [
+          926,
+          237
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/news_tab",
+      "checked": false,
+      "text": "Activity",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 101,
+      "temp_id": 109,
+      "size": "132*154",
+      "x": 794,
+      "y": 83,
+      "signature": "[class]android.widget.Button[resource_id]com.instagram.android:id/news_tab[enabled,,]",
+      "view_str": "363b024c5c5bd64762f0bc030b929607",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.instagram.android:id/news_tab"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        111
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          827,
+          127
+        ],
+        [
+          893,
+          193
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/wrapper",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 109,
+      "temp_id": 110,
+      "size": "66*66",
+      "x": 827,
+      "y": 127,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/wrapper[enabled,,]",
+      "view_str": "1c497b85085e790c1d434551f47e4d57",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/wrapper"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        112
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          827,
+          127
+        ],
+        [
+          893,
+          193
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 110,
+      "temp_id": 111,
+      "size": "66*66",
+      "x": 827,
+      "y": 127,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/container[enabled,,]",
+      "view_str": "071f81a4d306901ba0b5cb14f303ff27",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          827,
+          127
+        ],
+        [
+          893,
+          193
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/tab_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 111,
+      "temp_id": 112,
+      "size": "66*66",
+      "x": 827,
+      "y": 127,
+      "signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/tab_icon[enabled,,]",
+      "view_str": "a841eb434bb09f067a1b005b99d41008",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/tab_icon"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "No unread messages",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          926,
+          83
+        ],
+        [
+          1058,
+          237
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/action_bar_inbox_button",
+      "checked": false,
+      "text": "No unread messages",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 101,
+      "temp_id": 113,
+      "size": "132*154",
+      "x": 926,
+      "y": 83,
+      "signature": "[class]android.widget.Button[resource_id]com.instagram.android:id/action_bar_inbox_button[enabled,,]",
+      "view_str": "b761fd99dc905b3b40517b69ed64a5fd",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.instagram.android:id/action_bar_inbox_button"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2015
+        ],
+        [
+          1080,
+          2016
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/tab_bar_shadow",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 114,
+      "size": "1080*1",
+      "x": 0,
+      "y": 2015,
+      "signature": "[class]android.view.View[resource_id]com.instagram.android:id/tab_bar_shadow[enabled,,]",
+      "view_str": "ffbbb54dccc021dd317e432b37fa525f",
+      "content_free_signature": "[class]android.view.View[resource_id]com.instagram.android:id/tab_bar_shadow"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 5,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        116,
+        120,
+        122,
+        124,
+        126
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2016
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/tab_bar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 115,
+      "size": "1080*132",
+      "x": 0,
+      "y": 2016,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/tab_bar[enabled,,]",
+      "view_str": "4e5692df68d0e4177165a6387e2670b1",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/tab_bar"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Home",
+      "children": [
+        117
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2016
+        ],
+        [
+          216,
+          2148
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/feed_tab",
+      "checked": false,
+      "text": "Home",
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 115,
+      "temp_id": 116,
+      "size": "216*132",
+      "x": 0,
+      "y": 2016,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/feed_tab[enabled,,selected]",
+      "view_str": "6dcefe5efd55ec07a31dc047b69c4dfb",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/feed_tab"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        118
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2016
+        ],
+        [
+          216,
+          2148
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/wrapper",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 116,
+      "temp_id": 117,
+      "size": "216*132",
+      "x": 0,
+      "y": 2016,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/wrapper[enabled,,selected]",
+      "view_str": "9f291a902681a003527b8c2680728af1",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/wrapper"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        119
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          75,
+          2049
+        ],
+        [
+          141,
+          2115
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 117,
+      "temp_id": 118,
+      "size": "66*66",
+      "x": 75,
+      "y": 2049,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/container[enabled,,selected]",
+      "view_str": "8b4a525c973b7cc3e58614af2e17aae3",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          75,
+          2049
+        ],
+        [
+          141,
+          2115
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/tab_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 118,
+      "temp_id": 119,
+      "size": "66*66",
+      "x": 75,
+      "y": 2049,
+      "signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/tab_icon[enabled,,selected]",
+      "view_str": "bbf3735f911f32620ae155397d251b2c",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/tab_icon"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Search and explore",
+      "children": [
+        121
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          216,
+          2016
+        ],
+        [
+          432,
+          2148
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/search_tab",
+      "checked": false,
+      "text": "Search and explore",
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 115,
+      "temp_id": 120,
+      "size": "216*132",
+      "x": 216,
+      "y": 2016,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/search_tab[enabled,,]",
+      "view_str": "ac61a5b94cec2f69ecf9115efd83d1f1",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/search_tab"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          291,
+          2049
+        ],
+        [
+          357,
+          2115
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/tab_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 120,
+      "temp_id": 121,
+      "size": "66*66",
+      "x": 291,
+      "y": 2049,
+      "signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/tab_icon[enabled,,]",
+      "view_str": "57c346804a13821a0d655b6258a6e49e",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/tab_icon"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Camera",
+      "children": [
+        123
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          432,
+          2016
+        ],
+        [
+          648,
+          2148
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/creation_tab",
+      "checked": false,
+      "text": "Camera",
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 115,
+      "temp_id": 122,
+      "size": "216*132",
+      "x": 432,
+      "y": 2016,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/creation_tab[enabled,,]",
+      "view_str": "994dda44315b48cd83fc9de55e12b6a8",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/creation_tab"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          507,
+          2049
+        ],
+        [
+          573,
+          2115
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/tab_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 122,
+      "temp_id": 123,
+      "size": "66*66",
+      "x": 507,
+      "y": 2049,
+      "signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/tab_icon[enabled,,]",
+      "view_str": "132ce83c53b7e555590aed0b8ad4ba93",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/tab_icon"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Reels",
+      "children": [
+        125
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          648,
+          2016
+        ],
+        [
+          864,
+          2148
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/clips_tab",
+      "checked": false,
+      "text": "Reels",
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 115,
+      "temp_id": 124,
+      "size": "216*132",
+      "x": 648,
+      "y": 2016,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/clips_tab[enabled,,]",
+      "view_str": "95be74771435e20ab4838b703335ce62",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/clips_tab"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          723,
+          2049
+        ],
+        [
+          789,
+          2115
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/tab_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 124,
+      "temp_id": 125,
+      "size": "66*66",
+      "x": 723,
+      "y": 2049,
+      "signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/tab_icon[enabled,,]",
+      "view_str": "6a71439936cf0fc6d049c452edcf9787",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/tab_icon"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Profile",
+      "children": [
+        127
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          864,
+          2016
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/profile_tab",
+      "checked": false,
+      "text": "Profile",
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 115,
+      "temp_id": 126,
+      "size": "216*132",
+      "x": 864,
+      "y": 2016,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/profile_tab[enabled,,]",
+      "view_str": "1735cfdfe6a11833484900392c8e3426",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/profile_tab"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        128
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          864,
+          2016
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/wrapper",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 126,
+      "temp_id": 127,
+      "size": "216*132",
+      "x": 864,
+      "y": 2016,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/wrapper[enabled,,]",
+      "view_str": "bb00757ae842266b2f0988f292a7355f",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.instagram.android:id/wrapper"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        129
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          931,
+          2041
+        ],
+        [
+          1014,
+          2124
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 127,
+      "temp_id": 128,
+      "size": "83*83",
+      "x": 931,
+      "y": 2041,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/container[enabled,,]",
+      "view_str": "debf8edf708cc23de7c4f0e137be4f6c",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/container"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          931,
+          2041
+        ],
+        [
+          1014,
+          2124
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/tab_avatar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 128,
+      "temp_id": 129,
+      "size": "83*83",
+      "x": 931,
+      "y": 2041,
+      "signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/tab_avatar[enabled,,]",
+      "view_str": "a5b04f86c735dfc756f90a9d219d9088",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.instagram.android:id/tab_avatar"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          0,
+          2148
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/ls_vertical_nav_bar_stub",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 130,
+      "size": "0*2065",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/ls_vertical_nav_bar_stub[enabled,,]",
+      "view_str": "ca5b7110df289f50676ff0d927887fc0",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.instagram.android:id/ls_vertical_nav_bar_stub"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        132
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 131,
+      "size": "1080*2280",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "7d79a71801809bc4c0dce563896fe445",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        133
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          769,
+          193
+        ],
+        [
+          952,
+          331
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 131,
+      "temp_id": 132,
+      "size": "183*138",
+      "x": 769,
+      "y": 193,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "f2b8dae69de73dadef57a8837ad4ce2a",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        134
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          786,
+          215
+        ],
+        [
+          935,
+          314
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/activity_feed_tooltip",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 132,
+      "temp_id": 133,
+      "size": "149*99",
+      "x": 786,
+      "y": 215,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/activity_feed_tooltip[enabled,,]",
+      "view_str": "2e8c57dcd4cad4688cbc85f6c74fbdba",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.instagram.android:id/activity_feed_tooltip"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          808,
+          221
+        ],
+        [
+          913,
+          308
+        ]
+      ],
+      "resource_id": "com.instagram.android:id/section_1",
+      "checked": false,
+      "text": "2",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 133,
+      "temp_id": 134,
+      "size": "105*87",
+      "x": 808,
+      "y": 221,
+      "signature": "[class]android.widget.TextView[resource_id]com.instagram.android:id/section_1[enabled,,]",
+      "view_str": "d095a35fb5f611f15a69e7fd875233f3",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.instagram.android:id/section_1"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          83
+        ]
+      ],
+      "resource_id": "android:id/statusBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 135,
+      "size": "1080*83",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[enabled,,]",
+      "view_str": "98fa44474847206f139e743180517b15",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/statusBarBackground"
+    },
+    {
+      "package": "com.instagram.android",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2148
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 136,
+      "size": "1080*132",
+      "x": 0,
+      "y": 2148,
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[enabled,,]",
+      "view_str": "8873534b7e626eecfe4b86d6f4a60644",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+[
+    {
+        "round": 1,
+        "comment": "After updating Instagram I have VERY issue in my account 1- I can not see comments on reel 2- I can't see my profile and I can go to my saved option 3- when I see this type I think their must be some issues so I log out and then try to login but now I can't login to my account \u9983\u69d5\u9983\u69d5 So, I am requesting Instagram to look into this issue and pls solve it because It is not a problem with one account I can't login to my other account also",
+        "scenarios": [
+            "After updating Instagram, the user cannot see comments on a reel.",
+            "After updating Instagram, the user cannot see their profile and cannot access the saved option.",
+            "The user logs out due to the above issues and attempts to log back in but cannot log in to their account. Additionally, they cannot log in to another account either."
+        ],
+        "key sentence": "After updating Instagram, the user cannot see their profile and cannot access the saved option.",
+        "target activity": "com.instagram.mainactivity.InstagramMainActivity",
+        "the function of activity": "This activity involves managing user profiles and interactions, creating and editing content, exploring media, and adjusting privacy and notification settings on a social media platform.",
+        "target state": "state1",
+        "the sub-task list of state": "[{'name': 'View Profile', 'description': \"View the user's profile page including their posts, followers, and following details.\"}, {'name': 'Edit Profile', 'description': 'Open the edit profile screen to update profile information, including bio, name, and other details.'}, {'name': 'Share Profile', 'description': \"Share the user's profile with others through available sharing options.\"}, {'name': 'Follow User', 'description': \"Follow or unfollow the user displayed on the profile by interacting with the 'Follow' button.\"}, {'name': 'View Posts', 'description': \"View the user's posts, organized in grid view or other display formats like reels or highlights.\"}, {'name': 'View Story Highlights', 'description': \"View the user's story highlights by interacting with the highlights carousel.\"}, {'name': 'View Recent Story', 'description': \"View the user's recent story by clicking on their avatar or story thumbnail.\"}, {'name': 'Create Highlight', 'description': \"Create a new highlight from the user's existing stories by clicking the 'Create Highlight' button.\"}, {'name': 'Open Menu', 'description': 'Open the navigation menu for further options such as settings or other app features.'}, {'name': 'Search', 'description': 'Search for other users, posts, hashtags, or content by interacting with the search icon in the navigation bar.'}, {'name': 'Explore Content', 'description': 'Explore recommended or trending content based on user interests and activities.'}, {'name': 'Send Message', 'description': 'Send a direct message to the user by clicking on the message icon or button in their profile.'}, {'name': 'View Reel', 'description': 'View a short video (reel) posted by the user by interacting with the reel thumbnail or button.'}, {'name': 'View Followers', 'description': \"Click on the 'Followers' button to see the list of people following the user.\"}, {'name': 'View Following', 'description': \"Click on the 'Following' button to see the list of people the user is following.\"}, {'name': 'View Profile Picture', 'description': \"Click on the user's profile picture to view it in full size or edit the avatar image.\"}, {'name': 'Dismiss Suggested User', 'description': \"Dismiss a suggested user from the suggestions carousel by clicking the 'Dismiss' button.\"}, {'name': 'Like a Post', 'description': \"Like a post displayed on the user's profile by clicking on the heart icon associated with the post.\"}, {'name': 'Comment on Post', 'description': 'Comment on a post by tapping the comment icon and typing a response.'}, {'name': 'Save Post', 'description': 'Save a post to your collection by clicking on the bookmark icon.'}, {'name': 'Share Post', 'description': 'Share a post to your story or with other users via direct message by clicking the share icon.'}, {'name': 'View Suggested Account', 'description': 'View and follow suggested users based on mutual connections or common interests.'}, {'name': 'Scroll Feed', 'description': \"Scroll through the user's post feed to view their latest content.\"}, {'name': 'Interact with Tab Bar', 'description': 'Switch between different sections of the app like Home, Search, Reels, and Profile by clicking on the corresponding icons in the tab bar.'}, {'name': 'Open Profile Tabs', 'description': 'Navigate between profile tabs like Grid, Reels, and Photos of You by interacting with the profile tab layout.'}, {'name': 'Change Avatar', 'description': \"Change the user's profile avatar by clicking on the avatar image or button to upload a new picture.\"}, {'name': 'View Notifications', 'description': 'View notifications for activities like new followers, comments, or likes by interacting with the notification icon in the action bar.'}, {'name': 'View Settings', 'description': \"Access the app's settings menu to adjust preferences and privacy settings.\"}, {'name': 'Switch Accounts', 'description': 'Switch between different Instagram accounts by clicking the account switcher button in the action bar.'}, {'name': 'Log Out', 'description': 'Log out of the current Instagram account from the settings or menu.'}, {'name': 'Refresh Feed', 'description': 'Refresh the profile feed by pulling down or using the swipe-refresh feature to load new content.'}, {'name': 'View Media Set', 'description': 'View a media set or album associated with a particular post or user.'}, {'name': 'Close App', 'description': 'Close the app or navigate away from the profile page to another screen.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene1\\52e92cce957416c52f0c11fa5490fd56.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "52e92cce957416c52f0c11fa5490fd56"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene1\\state1.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene1\\3363716334235714592.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "3363716334235714592"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene1\\2491566304396097129.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "2491566304396097129"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene1\\-1080809590742538999.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-1080809590742538999"
+            }
+        ],
+        "operations": [
+            {
+                "from": "52e92cce957416c52f0c11fa5490fd56",
+                "to": "state1",
+                "event": "click(com.instagram.android:id/profile_tab-Profile:[864,2027][1080,2148])"
+            },
+            {
+                "from": "state1",
+                "to": "3363716334235714592",
+                "event": "click<img id=3 class =\"com.instagram.android:id/row_profile_header_imageview\" alt=\"Your profile. Unseen story\">  </img>"
+            },
+            {
+                "from": "3363716334235714592",
+                "to": "2491566304396097129",
+                "event": "click<button id=49 alt=\"Options\">  </button>"
+            },
+            {
+                "from": "2491566304396097129",
+                "to": "-1080809590742538999",
+                "event": "click<p id=10> Saved,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

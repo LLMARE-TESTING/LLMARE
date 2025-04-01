@@ -1,0 +1,185 @@
+[
+    {
+        "round": 1,
+        "comment": "Every time I attempt to log in to the Instagram app on my mobile device, I encounter an error message that states, \"Sorry, there was a problem in your request.\" This issue has persisted consistently, and despite various attempts to troubleshoot on my end, I have been unable to resolve it. Interestingly, when I log in using Google Chrome or any other browser, the login process is smooth and instant, without encountering any errors.",
+        "scenarios": [
+            "Attempting to log in to the Instagram app on a mobile device results in an error message stating, \"Sorry, there was a problem in your request.\"\n",
+            "Logging in to Instagram using Google Chrome or another browser on the same device is smooth and instant, without encountering any errors."
+        ],
+        "key sentence": "Logging in to Instagram using Google Chrome or another browser on the same device is smooth and instant, without encountering any errors.",
+        "target activity": "com.instagram.modal.ModalActivity",
+        "the function of activity": "The activity facilitates Instagram account login, reel post, and editing cover options for highlights.",
+        "target state": "state12",
+        "the sub-task list of state": "[{'name': 'Log In', 'description': \"Sign in to your account by clicking the 'Log in' button.\"}, {'name': 'Log Into Another Account', 'description': \"Sign in using a different Instagram account by clicking the 'Log into another account' button.\"}, {'name': 'Create New Account', 'description': \"Register a new Instagram account by clicking the 'Create new account' button.\"}]",
+        "nodes": [
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment20\\scene1\\52e92cce957416c52f0c11fa5490fd56.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "52e92cce957416c52f0c11fa5490fd56"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment20\\scene1\\state1.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment20\\scene1\\state25.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state25"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment20\\scene1\\state26.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state26"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment20\\scene1\\state4.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment20\\scene1\\state5.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment20\\scene1\\state6.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state6"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment20\\scene1\\state7.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment20\\scene1\\state8.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment20\\scene1\\state9.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment20\\scene1\\state10.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment20\\scene1\\state11.png",
+                "activity": "",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment20\\scene1\\state12.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment20\\scene1\\1457226260222924073.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "1457226260222924073"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment20\\scene1\\173708837579250276.png",
+                "activity": "",
+                "state_str": "173708837579250276"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment20\\scene1\\1838715222898570620.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "1838715222898570620"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment20\\scene1\\-3352165482338950185.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-3352165482338950185"
+            }
+        ],
+        "operations": [
+            {
+                "from": "52e92cce957416c52f0c11fa5490fd56",
+                "to": "state1",
+                "event": "click(com.instagram.android:id/profile_tab-Profile:[864,2027][1080,2148])"
+            },
+            {
+                "from": "state1",
+                "to": "state25",
+                "event": "scroll-down(com.instagram.android:id/profile_header_fixed_list:[0,237][1080,1874])"
+            },
+            {
+                "from": "state25",
+                "to": "state26",
+                "event": "scroll-up(com.instagram.android:id/profile_header_fixed_list:[0,237][1080,1874])"
+            },
+            {
+                "from": "state26",
+                "to": "state4",
+                "event": "click(android.widget.Button-Options:[926,83][1058,237])"
+            },
+            {
+                "from": "state4",
+                "to": "state5",
+                "event": "scroll-down(android.view.View:[0,237][1080,2027])"
+            },
+            {
+                "from": "state5",
+                "to": "state6",
+                "event": "scroll-down(android.view.View:[0,237][1080,2027])"
+            },
+            {
+                "from": "state6",
+                "to": "state7",
+                "event": "scroll-down(android.view.View:[0,237][1080,2027])"
+            },
+            {
+                "from": "state7",
+                "to": "state8",
+                "event": "scroll-down(android.view.View:[0,237][1080,2027])"
+            },
+            {
+                "from": "state8",
+                "to": "state9",
+                "event": "scroll-down(android.view.View:[0,237][1080,2027])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "scroll-down(android.view.View:[0,237][1080,2027])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(android.widget.Button-Log out:[0,1781][1080,1911])"
+            },
+            {
+                "from": "state11",
+                "to": "state12",
+                "event": "click(com.instagram.android:id/primary_button-Log out:[237,1157][842,1289])"
+            },
+            {
+                "from": "state12",
+                "to": "1457226260222924073",
+                "event": "click<button id=7 alt=\"Log in\">  </button>"
+            },
+            {
+                "from": "1457226260222924073",
+                "to": "173708837579250276",
+                "event": "click<button id=21 alt=\"Instagram Home Feed\">  </button>"
+            },
+            {
+                "from": "173708837579250276",
+                "to": 1838715222898570620,
+                "event": "back"
+            },
+            {
+                "from": 1838715222898570620,
+                "to": "-3352165482338950185",
+                "event": "click<p id=7 class =\"com.instagram.android:id/username\"> Your story,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]
