@@ -1,0 +1,44 @@
+[
+    {
+        "round": 1,
+        "comment": "I want to like this app, but with the handwriting feature not working properly, it's hard to. When you click the handwriting button, a \"Write Here\" box is supposed to display so you can transcribe characters or words, but it only comes up every now and then. My app is up to date and still can't overcome this problem. I even asked the google community with no help, so until that is fixed, I'll have to translate with something else.",
+        "scenarios": [
+            "Click the handwriting button expecting a \"Write Here\" box to display for transcribing characters or words, but it only appears intermittently."
+        ],
+        "key sentence": "Click the handwriting button expecting a \"Write Here\" box to display for transcribing characters or words, but it only appears intermittently.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state6",
+        "the sub-task list of state": "[{'name': 'History', 'description': 'View translation history'}, {'name': 'Keyboard', 'description': 'Open virtual keyboard for text input'}, {'name': 'Enter text', 'description': 'Input text using the keyboard or other input methods'}, {'name': 'Paste', 'description': 'Insert copied text into the translation area'}, {'name': 'Swap languages', 'description': 'Switch the languages being translated'}, {'name': 'Select language', 'description': 'Choose the source or target language for translation'}, {'name': 'Handwriting input', 'description': 'Use handwriting recognition for text input'}, {'name': 'Undo', 'description': 'Reverse the last action performed'}, {'name': 'Space bar', 'description': 'Insert a space while using handwriting input'}, {'name': 'Backspace key', 'description': 'Delete the previous character or action'}, {'name': 'Show details', 'description': 'Display more information or options related to the translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment7\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment7\\scene0\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment7\\scene0\\state6.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state6"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "state6",
+                "event": "click(Button-Handwriting:[805,105][937,237])"
+            }
+        ],
+        "Final answer": 1
+    }
+]

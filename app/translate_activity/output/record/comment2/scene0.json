@@ -1,0 +1,95 @@
+[
+    {
+        "round": 1,
+        "comment": "Hi, I am Using Google Translate for 4 years. It was perfect but, Now when you have changed the interface, it is not working fast as it was working earlier. My issue is now it shows only one meaning of a word and also it doesn't shows the meaning in sentences as it was showing. Please fix it.",
+        "scenarios": [
+            "The app shows only one meaning of a word instead of multiple meanings as it did previously.",
+            "The app does not show the meaning of words in sentences as it used to."
+        ],
+        "key sentence": "The app shows only one meaning of a word instead of multiple meanings as it did previously.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state5",
+        "the sub-task list of state": "[{'name': 'Close Dialog', 'description': 'Close the translation dialog.'}, {'name': 'Change Profile Picture', 'description': 'Change the current profile picture associated with the account.'}, {'name': 'Manage Google Account', 'description': 'Access and manage settings related to the Google Account.'}, {'name': 'Expand Account List', 'description': 'Expand the list of accounts to show more details or options.'}, {'name': 'Downloaded Languages', 'description': 'View and manage languages that have been downloaded for offline use.'}, {'name': 'History', 'description': 'View the history of translations or actions taken within the application.'}, {'name': 'Privacy Policy', 'description': 'View the privacy policy information.'}, {'name': 'Terms of Service', 'description': 'View the terms of service information.'}, {'name': 'Help & Feedback', 'description': 'Access help resources or provide feedback.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment2\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment2\\scene0\\state5.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment2\\scene0\\7684289104920113567.png",
+                "activity": "com.google.android.apps.translate.pref.SettingsActivity}",
+                "state_str": "7684289104920113567"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment2\\scene0\\7684289104920113567.png",
+                "activity": "com.google.android.apps.translate.pref.SettingsActivity}",
+                "state_str": "7684289104920113567"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment2\\scene0\\5216687739158696446.png",
+                "activity": "com.google.android.apps.translate.pref.SettingsActivity}",
+                "state_str": "5216687739158696446"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment2\\scene0\\7684289104920113567.png",
+                "activity": "com.google.android.apps.translate.pref.SettingsActivity}",
+                "state_str": "7684289104920113567"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment2\\scene0\\5216687739158696446.png",
+                "activity": "com.google.android.apps.translate.pref.SettingsActivity}",
+                "state_str": "5216687739158696446"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment2\\scene0\\7684289104920113567.png",
+                "activity": "com.google.android.apps.translate.pref.SettingsActivity}",
+                "state_str": "7684289104920113567"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state5",
+                "event": "click(ImageView-Signed in as ran Jin jinran848@gmail.com:[925,104][1080,237])"
+            },
+            {
+                "from": "state5",
+                "to": "7684289104920113567",
+                "event": "click<p id=12 class =\"com.google.android.apps.translate:id/og_text_card_title\"> Settings,  </p>"
+            },
+            {
+                "from": "7684289104920113567",
+                "to": "7684289104920113567",
+                "event": "scroll up"
+            },
+            {
+                "from": "7684289104920113567",
+                "to": "5216687739158696446",
+                "event": "click<p id=12 class =\"android:id/summary\"> Normal,  </p>"
+            },
+            {
+                "from": "5216687739158696446",
+                "to": 7684289104920113567,
+                "event": "back"
+            },
+            {
+                "from": 7684289104920113567,
+                "to": "5216687739158696446",
+                "event": "click<p id=12 class =\"android:id/summary\"> Normal,  </p>"
+            },
+            {
+                "from": "5216687739158696446",
+                "to": 7684289104920113567,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    }
+]

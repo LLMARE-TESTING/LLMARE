@@ -1,0 +1,115 @@
+[
+    {
+        "round": 1,
+        "comment": "This used to be a really good app, as previous translations could easily be found and seen. Now it seems it has been updated, and All history has disappeared, and recent translations that might be needed again quickly have to be re_input,which is very inconvenient. I am sure things can be saved but there is no menu and no obvious way to do so.not happy",
+        "scenarios": [
+            "Previous translations could easily be found and seen, but now all history has disappeared and recent translations that might be needed again have to be re-input.",
+            "There is no menu and no obvious way to save translations."
+        ],
+        "key sentence": "Previous translations could easily be found and seen, but now all history has disappeared and recent translations that might be needed again have to be re-input.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "251515d7e28a1c395982fa1a3f23ac41",
+        "the sub-task list of state": "[{'name': 'Handwriting', 'description': 'Switch to handwriting input mode'}, {'name': 'History', 'description': 'View translation history'}, {'name': 'Enter text', 'description': 'Input text for translation'}, {'name': 'Paste', 'description': 'Paste copied text'}, {'name': 'Swap languages', 'description': 'Switch between source and target languages'}, {'name': 'Albanian', 'description': 'Set Albanian as the target language'}, {'name': 'Arabic', 'description': 'Set Arabic as the target language'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment3\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment3\\scene0\\b9d3528850e9a316b3af2e022312377e.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "b9d3528850e9a316b3af2e022312377e"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment3\\scene0\\4f34ffc9c1798a671126b55f2fae3f6d.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4f34ffc9c1798a671126b55f2fae3f6d"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment3\\scene0\\251515d7e28a1c395982fa1a3f23ac41.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "251515d7e28a1c395982fa1a3f23ac41"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment3\\scene0\\-6973211981100262891.png",
+                "activity": "",
+                "state_str": "-6973211981100262891"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment3\\scene0\\-586084205450362722.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-586084205450362722"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment3\\scene0\\-1471344328248799796.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-1471344328248799796"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment3\\scene0\\-586084205450362722.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-586084205450362722"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment3\\scene0\\-586084205450362722.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-586084205450362722"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment3\\scene0\\-1471344328248799796.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-1471344328248799796"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "b9d3528850e9a316b3af2e022312377e",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=f3f547e2be6a280f397b3ad8c6a7014b(TranslateActivity/Button-Paste:x66:y606))"
+            },
+            {
+                "from": "b9d3528850e9a316b3af2e022312377e",
+                "to": "4f34ffc9c1798a671126b55f2fae3f6d",
+                "event": "click(state=b9d3528850e9a316b3af2e022312377e, view=4c91a6386df6e541cce287a355be8c2e(TranslateActivity/Button-Speak tran:x30:y1956))"
+            },
+            {
+                "from": "4f34ffc9c1798a671126b55f2fae3f6d",
+                "to": "251515d7e28a1c395982fa1a3f23ac41",
+                "event": "click(state=4f34ffc9c1798a671126b55f2fae3f6d, view=25fb1c73b41351b601bb6324e05af865(TranslateActivity/Button-Copy trans:x775:y1956))"
+            },
+            {
+                "from": "251515d7e28a1c395982fa1a3f23ac41",
+                "to": "-6973211981100262891",
+                "event": "click<img id=4 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-6973211981100262891",
+                "to": "-586084205450362722",
+                "event": "click<img id=0 class =\"com.google.android.apps.translate:id/icon\">  </img>"
+            },
+            {
+                "from": "-586084205450362722",
+                "to": -1471344328248799796,
+                "event": "back"
+            },
+            {
+                "from": -1471344328248799796,
+                "to": "-586084205450362722",
+                "event": "click<button id=4 class =\"android:id/button2\"> Continue writing,  </button>"
+            },
+            {
+                "from": "-586084205450362722",
+                "to": "-586084205450362722",
+                "event": "click<div id=0 class =\"com.google.android.gms:id/aloha_dynamic_ui\">  </div>"
+            },
+            {
+                "from": "-586084205450362722",
+                "to": -1471344328248799796,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    }
+]

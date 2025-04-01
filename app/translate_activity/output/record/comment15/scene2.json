@@ -1,0 +1,56 @@
+[
+    {
+        "round": 1,
+        "comment": "Latest update is HORRENDOUS. **Used** to be an amazing app. Target translation field cannot be edited. It can only be copied or shared. Both field boxes should directly editable. Reverse Translate is inconveniently behind the hamburger button. It should be rapidly accessible. Cannot scroll down to view definitions while editing the text box. Main page has a LOT of wasted space. UI is inaccessible, unintuitive, and inefficient. This is not the Google way.",
+        "scenarios": [
+            "Target translation field cannot be edited; it can only be copied or shared. Both field boxes should be directly editable.",
+            "Reverse Translate is inconveniently behind the hamburger button; it should be rapidly accessible.",
+            "Cannot scroll down to view definitions while editing the text box."
+        ],
+        "key sentence": "Cannot scroll down to view definitions while editing the text box.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "1e0a8968f43dbb61fd758c305c65c40a",
+        "the sub-task list of state": "[{'name': 'Saved', 'description': 'Access saved translations'}, {'name': 'Enter Text Label', 'description': 'Label for text input field'}, {'name': 'Paste Button', 'description': 'Button to paste text'}, {'name': 'Control Area Container', 'description': 'Container for control elements'}, {'name': 'Language Picker', 'description': 'Select languages for translation'}, {'name': 'Swap Languages Button', 'description': 'Button to swap input and output languages'}, {'name': 'Conversation Button', 'description': 'Button to start conversation mode'}, {'name': 'Camera Button', 'description': 'Button to access camera for translation'}, {'name': 'Start Dictation Button', 'description': 'Button to start speech dictation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment15\\scene2\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment15\\scene2\\3010464209881864339.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "3010464209881864339"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment15\\scene2\\-3935414386812461900.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-3935414386812461900"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment15\\scene2\\-3935414386812461900.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-3935414386812461900"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "3010464209881864339",
+                "event": "click<p id=6 class =\"com.google.android.apps.translate:id/enter_text_label\"> Enter text,  </p>"
+            },
+            {
+                "from": "3010464209881864339",
+                "to": "-3935414386812461900",
+                "event": "input<input id=5 class =\"com.google.android.apps.translate:id/text_input_field\"> Enter text,  </input>test"
+            },
+            {
+                "from": "-3935414386812461900",
+                "to": "-3935414386812461900",
+                "event": "scroll down"
+            }
+        ],
+        "Final answer": 1
+    }
+]

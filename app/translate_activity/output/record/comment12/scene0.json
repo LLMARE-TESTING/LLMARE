@@ -1,0 +1,54 @@
+[
+    {
+        "round": 1,
+        "comment": "While changing text manually with keyboard the text goes up on the screen while the rest of screen is empty so it is very annoying and makes it dificult to edit the text. So, I want you to immediately solve this problem because is very annoying to eyes.",
+        "scenarios": [
+            "While changing text manually with the keyboard, the text goes up on the screen, leaving the rest of the screen empty, which makes it difficult to edit the text."
+        ],
+        "key sentence": "While changing text manually with the keyboard, the text goes up on the screen, leaving the rest of the screen empty, which makes it difficult to edit the text.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state6",
+        "the sub-task list of state": "[{'name': 'History', 'description': 'View translation history'}, {'name': 'Keyboard', 'description': 'Open virtual keyboard for text input'}, {'name': 'Enter text', 'description': 'Input text using the keyboard or other input methods'}, {'name': 'Paste', 'description': 'Insert copied text into the translation area'}, {'name': 'Swap languages', 'description': 'Switch the languages being translated'}, {'name': 'Select language', 'description': 'Choose the source or target language for translation'}, {'name': 'Handwriting input', 'description': 'Use handwriting recognition for text input'}, {'name': 'Undo', 'description': 'Reverse the last action performed'}, {'name': 'Space bar', 'description': 'Insert a space while using handwriting input'}, {'name': 'Backspace key', 'description': 'Delete the previous character or action'}, {'name': 'Show details', 'description': 'Display more information or options related to the translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment12\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment12\\scene0\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment12\\scene0\\state6.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state6"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment12\\scene0\\3010464209881864339.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "3010464209881864339"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "state6",
+                "event": "click(Button-Handwriting:[805,105][937,237])"
+            },
+            {
+                "from": "state6",
+                "to": "3010464209881864339",
+                "event": "click<button id=3 class =\"com.google.android.apps.translate:id/item_keyboard\" alt=\"Keyboard\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

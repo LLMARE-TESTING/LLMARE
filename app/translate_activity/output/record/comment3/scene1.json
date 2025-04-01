@@ -1,0 +1,55 @@
+[
+    {
+        "round": 1,
+        "comment": "This used to be a really good app, as previous translations could easily be found and seen. Now it seems it has been updated, and All history has disappeared, and recent translations that might be needed again quickly have to be re_input,which is very inconvenient. I am sure things can be saved but there is no menu and no obvious way to do so.not happy",
+        "scenarios": [
+            "Previous translations could easily be found and seen, but now all history has disappeared and recent translations that might be needed again have to be re-input.",
+            "There is no menu and no obvious way to save translations."
+        ],
+        "key sentence": "There is no menu and no obvious way to save translations.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "226481ed7f29bc8a96dcce7f89c420e8",
+        "the sub-task list of state": "[{'name': 'Switch to face to face mode', 'description': 'Change to a mode for face-to-face interaction'}, {'name': 'Search', 'description': 'Look for a specific item or content'}, {'name': 'Open menu', 'description': 'Display a list of available options or actions'}, {'name': 'Enable automatic language detection', 'description': 'Turn on automatic identification of languages'}, {'name': 'Listen for both Chinese (Simplified) and Korean', 'description': 'Activate listening mode for both languages'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment3\\scene1\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment3\\scene1\\9b7c15805532475387b4dc32a87d80ed.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "9b7c15805532475387b4dc32a87d80ed"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment3\\scene1\\226481ed7f29bc8a96dcce7f89c420e8.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "226481ed7f29bc8a96dcce7f89c420e8"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment3\\scene1\\7441152065848359342.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "7441152065848359342"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "9b7c15805532475387b4dc32a87d80ed",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=cf82f2647f332a31a519428d9a0454b5(TranslateActivity/Button-Conversati:x133:y1884))"
+            },
+            {
+                "from": "9b7c15805532475387b4dc32a87d80ed",
+                "to": "226481ed7f29bc8a96dcce7f89c420e8",
+                "event": "click(state=9b7c15805532475387b4dc32a87d80ed, view=c398d5fe9c997d38a2556f53ba4905ea(TranslateActivity/Button-Got it:x744:y1277))"
+            },
+            {
+                "from": "226481ed7f29bc8a96dcce7f89c420e8",
+                "to": "7441152065848359342",
+                "event": "click<button id=3 class =\"com.google.android.apps.translate:id/item_settings\" alt=\"Settings\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

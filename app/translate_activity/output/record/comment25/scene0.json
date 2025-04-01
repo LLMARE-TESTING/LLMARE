@@ -1,0 +1,173 @@
+[
+    {
+        "round": 1,
+        "comment": "Very buggy recently. Does not show pin yin during chinese translations, tap to translate has persistent notif, screen shifts when accessing translate Update 03/03/2020: understand tap to translate security removal. But the fact that pin yin does not show in translationa from Chinese to eng still an issue. Also, when tapping text entry area, the area moves to the top of the screen with a slow animation, increasing user friction.",
+        "scenarios": [
+            "Pin yin does not show during Chinese to English translations.",
+            "Screen shifts when accessing the translate feature. "
+        ],
+        "key sentence": "Pin yin does not show during Chinese to English translations.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state3",
+        "the sub-task list of state": "[{'name': 'Navigate up', 'description': 'Go to the previous screen or level'}, {'name': 'Clear', 'description': 'Clear input'}, {'name': 'Handwriting', 'description': 'Switch to handwriting input mode'}, {'name': 'Enter', 'description': 'Submit the entered text or selection'}, {'name': 'Edit Query Completion entertainment', 'description': 'Modify the current query related to entertainment'}, {'name': 'Edit Query Completion enterprise', 'description': 'Modify the current query related to enterprise'}, {'name': 'Swap languages', 'description': 'Switch between source and target languages'}, {'name': 'English', 'description': 'Select English language'}, {'name': 'Chinese (Simplified)', 'description': 'Select Chinese (Simplified) language'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\scene0\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\scene0\\state3.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\scene0\\3145135009675233504.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "3145135009675233504"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\scene0\\-4790499019150549758.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-4790499019150549758"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "input(EditText-com.google.android.apps.translate:id/text_input_field:[66,347][1014,474])(enter)"
+            },
+            {
+                "from": "state3",
+                "to": "3145135009675233504",
+                "event": "click<button id=11 class =\"com.google.android.apps.translate:id/language_button_a\"> Chinese (Simplified),  </button>"
+            },
+            {
+                "from": "3145135009675233504",
+                "to": "-4790499019150549758",
+                "event": "click<p id=13 class =\"android:id/text1\"> English,  </p>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Very buggy recently. Does not show pin yin during chinese translations, tap to translate has persistent notif, screen shifts when accessing translate Update 03/03/2020: understand tap to translate security removal. But the fact that pin yin does not show in translationa from Chinese to eng still an issue. Also, when tapping text entry area, the area moves to the top of the screen with a slow animation, increasing user friction.",
+        "scenarios": [
+            "Pin yin does not show during Chinese to English translations.",
+            "Screen shifts when accessing the translate feature. "
+        ],
+        "key sentence": "Pin yin does not show during Chinese to English translations.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state3",
+        "the sub-task list of state": "[{'name': 'Navigate up', 'description': 'Go to the previous screen or level'}, {'name': 'Clear', 'description': 'Clear input'}, {'name': 'Handwriting', 'description': 'Switch to handwriting input mode'}, {'name': 'Enter', 'description': 'Submit the entered text or selection'}, {'name': 'Edit Query Completion entertainment', 'description': 'Modify the current query related to entertainment'}, {'name': 'Edit Query Completion enterprise', 'description': 'Modify the current query related to enterprise'}, {'name': 'Swap languages', 'description': 'Switch between source and target languages'}, {'name': 'English', 'description': 'Select English language'}, {'name': 'Chinese (Simplified)', 'description': 'Select Chinese (Simplified) language'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\scene0\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\scene0\\state3.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\scene0\\3145135009675233504.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "3145135009675233504"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\scene0\\-4790499019150549758.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-4790499019150549758"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\scene0\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\scene0\\state3.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\scene0\\3456586486574449617.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "3456586486574449617"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment25\\scene0\\-2745405340465853174.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-2745405340465853174"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "input(EditText-com.google.android.apps.translate:id/text_input_field:[66,347][1014,474])(enter)"
+            },
+            {
+                "from": "state3",
+                "to": "3145135009675233504",
+                "event": "click<button id=11 class =\"com.google.android.apps.translate:id/language_button_a\"> Chinese (Simplified),  </button>"
+            },
+            {
+                "from": "3145135009675233504",
+                "to": "-4790499019150549758",
+                "event": "click<p id=13 class =\"android:id/text1\"> English,  </p>"
+            },
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "input(EditText-com.google.android.apps.translate:id/text_input_field:[66,347][1014,474])(enter)"
+            },
+            {
+                "from": "state3",
+                "to": "3456586486574449617",
+                "event": "input<input id=5 class =\"com.google.android.apps.translate:id/text_input_field\"> enter,  </input>\u4f60\u597d"
+            },
+            {
+                "from": "3456586486574449617",
+                "to": "-2745405340465853174",
+                "event": "click<button id=7 class =\"com.google.android.apps.translate:id/text_output_field\"> \u4f60\u597d,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]
