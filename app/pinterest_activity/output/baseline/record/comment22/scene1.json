@@ -1,0 +1,125 @@
+[
+    {
+        "round": 1,
+        "comment": "This app is absolutely amazing I've used this for almost a year, but I am facing 2 problems. 1. We do not have a history tab, suppose we watch a video and accidentally restart the app so you'll never be able to find that video, unless you saved it. Please add a history tab!! 2. This is the biggest issue I'm facing, since a while ago, I can't hear the audio of most of the videos and if I want to listen it I have to save it and then watch it. Please fix this glitch ASAP!!",
+        "scenarios": [
+            "When a user watches a video and accidentally restarts the app, they are unable to find that video again unless they have saved it, due to the absence of a history tab.\n",
+            "The user is unable to hear the audio of most videos directly in the app, and to listen to the audio, they have to save the video and then watch it."
+        ],
+        "key sentence": "The user is unable to hear the audio of most videos directly in the app, and to listen to the audio, they have to save the video and then watch it.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment22\\scene0\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-1349314516129287006.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1349314516129287006"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-6716848899897789232.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6716848899897789232"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-6716848899897789232.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6716848899897789232"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-8869560428435959400.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8869560428435959400"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-6716848899897789232.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6716848899897789232"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment22\\scene0\\scene1\\3311154317952428425.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3311154317952428425"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment22\\scene0\\scene1\\3311154317952428425.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3311154317952428425"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-6716848899897789232.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6716848899897789232"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-5777690788347299975.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-5777690788347299975"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-4247339085425935262.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4247339085425935262"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-1349314516129287006",
+                "event": "click<button id=26 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-1349314516129287006",
+                "to": "-6716848899897789232",
+                "event": "click<button id=39 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-6716848899897789232",
+                "to": "-6716848899897789232",
+                "event": "click<button id=31 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-6716848899897789232",
+                "to": "-8869560428435959400",
+                "event": "click<button id=30 class =\"com.pinterest:id/menu_notifications\" alt=\"Notifications, Tab\">  </button>"
+            },
+            {
+                "from": "-8869560428435959400",
+                "to": "-6716848899897789232",
+                "event": "click<button id=43 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-6716848899897789232",
+                "to": "3311154317952428425",
+                "event": "click<button id=26 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin, This may contain: a gray and white cat laying on top of a bed\">  </button>"
+            },
+            {
+                "from": "3311154317952428425",
+                "to": "3311154317952428425",
+                "event": "click<button id=31 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "3311154317952428425",
+                "to": "-6716848899897789232",
+                "event": "click<button id=19 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin, This may contain: an orange and white cat sitting on someone's lap while holding it in his hands\">  </button>"
+            },
+            {
+                "from": "-6716848899897789232",
+                "to": "-5777690788347299975",
+                "event": "click<button id=27 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "-5777690788347299975",
+                "to": "-4247339085425935262",
+                "event": "click<button id=2 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from \u2731, Title: meow, This may contain: a person holding a white and grey cat in their hands, while the other hand is petting it's face\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

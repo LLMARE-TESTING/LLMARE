@@ -1,0 +1,55 @@
+[
+    {
+        "round": 1,
+        "comment": "also when I'm trying to look through all my boards alphabetically it'll just skip right back to where A starts. I can't even look at all my pins (like S or T) without it freaking out and scrolling back up to A. annoying.",
+        "scenarios": [
+            "When trying to look through all boards alphabetically, the app skips back to where A starts.  ",
+            "Unable to look at all pins (such as those under S or T) without the app scrolling back up to A."
+        ],
+        "key sentence": "When trying to look through all boards alphabetically, the app skips back to where A starts.  ",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state22",
+        "the sub-task list of state": "[{'name': 'Sort board', 'description': \"Sort board by alphabetic, by 'last saved to', by 'newest', by'oldest'.\"}, {'name': 'Reorder boards', 'description': 'Drag and drop to reorder boards.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment47\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment47\\scene0\\state2.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment47\\scene0\\state22.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state22"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment47\\scene0\\-17877820832777802.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-17877820832777802"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state2",
+                "event": "click(TextView-Saved:[836,2092][948,2136])"
+            },
+            {
+                "from": "state2",
+                "to": "state22",
+                "event": "click(android.view.View-boards_filter_bar_sort_button:[22,414][153,535])"
+            },
+            {
+                "from": "state22",
+                "to": "-17877820832777802",
+                "event": "click<p id=40 class =\"com.pinterest:id/option_title\"> A to Z,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

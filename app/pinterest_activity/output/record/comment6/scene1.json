@@ -1,0 +1,77 @@
+[
+    {
+        "comment": "ABYSMAL. The app is slow, it often won't upload at all, refuses to save downloads to boards, and when it does, it's apt to save the pictures to the WRONG boards!! \u9983\u304c",
+        "key sentence": "The app refuses to save downloads to boards.",
+        "target activity": ".feature.pin.creation.CreationActivity",
+        "the function of activity": "Create Pins or Boards.",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [],
+        "operations": [],
+        "Final answer": ""
+    },
+    {
+        "round": 2,
+        "comment": "ABYSMAL. The app is slow, it often won't upload at all, refuses to save downloads to boards, and when it does, it's apt to save the pictures to the WRONG boards!! \u9983\u304c",
+        "scenarios": [
+            "The app often won't upload at all.",
+            "The app refuses to save downloads to boards.",
+            "The app saves the pictures to the wrong boards."
+        ],
+        "key sentence": "The app refuses to save downloads to boards.",
+        "target activity": ".feature.pin.creation.CreationActivity",
+        "the function of activity": "Create Pins or Boards.",
+        "target state": "26a74922d9bf7c292c60938a0b536a12",
+        "the sub-task list of state": "[{'name': 'Select Videos or Photos', 'description': 'Select Videos or Photos to Create Pin or Board.'}, {'name': 'Camera', 'description': 'Take a photo or video to create pin or board.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment6\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment6\\scene1\\4da12b747db0462e12ee6303ede5f54b.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4da12b747db0462e12ee6303ede5f54b"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment6\\scene1\\26a74922d9bf7c292c60938a0b536a12.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "26a74922d9bf7c292c60938a0b536a12"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment6\\scene1\\-7340265583399601588.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7340265583399601588"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment6\\scene1\\-7340265583399601588.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7340265583399601588"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "4da12b747db0462e12ee6303ede5f54b",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=e7c5c61cd1d7e20ff5e11581f09745cd(MainActivity/FrameLayout-Create, Ta:x452:y2016))"
+            },
+            {
+                "from": "4da12b747db0462e12ee6303ede5f54b",
+                "to": "26a74922d9bf7c292c60938a0b536a12",
+                "event": "click(state=4da12b747db0462e12ee6303ede5f54b, view=d00bc6aa8417a04bdcd78a5f173f8f02(MainActivity/TextView-Pin:x395:y1994))"
+            },
+            {
+                "from": "26a74922d9bf7c292c60938a0b536a12",
+                "to": "-7340265583399601588",
+                "event": "click<button id=38 class =\"com.pinterest:id/action_button_label\"> Board,  </button>"
+            },
+            {
+                "from": "-7340265583399601588",
+                "to": "-7340265583399601588",
+                "event": "click<button id=5 class =\"com.pinterest:id/create_board_button_id\"> Next,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

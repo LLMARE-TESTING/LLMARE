@@ -1,0 +1,35 @@
+[
+    {
+        "round": 1,
+        "comment": "Pinterest is undoubtedly the best app I can use for art references. However, I dk have a big problem when I created a board and it doesn't show up on my board feed, which is kind of annoying. Please get it fixed",
+        "scenarios": [
+            "Create a board.",
+            "Check the board feed to see if the newly created board appears."
+        ],
+        "key sentence": "Create a board.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\2917779676636945354.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "2917779676636945354"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "2917779676636945354",
+                "event": "click<button id=26 class =\"com.pinterest:id/menu_creation\" alt=\"Create, Tab\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,85 @@
+[
+    {
+        "round": 1,
+        "comment": "Sometimes the feature that lets you search for things or view your own boards disappears and does not come back for quite some time. I've tried scrolling up and down and restarting the app to make it reappear and it does not work. I use Pinterest for reference photos for my art. It can be pretty annoying when you're in the middle of a project.",
+        "scenarios": [
+            "Sometimes the feature that lets you search for things or view your own boards disappears and does not come back for quite some time.",
+            "I've tried scrolling up and down and restarting the app to make it reappear and it does not work."
+        ],
+        "key sentence": "Sometimes the feature that lets you search for things or view your own boards disappears and does not come back for quite some time.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state10",
+        "the sub-task list of state": "[{'name': 'View All Pins', 'description': 'View all pinned items or content.'}, {'name': 'View Videos', 'description': 'View video content.'}, {'name': 'View Boards', 'description': 'View boards or collections of related content.'}, {'name': 'View Profiles', 'description': 'View user profiles or accounts.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment43\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment43\\scene0\\b8991ad97a321f20ff2b35786bf7e9d3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "b8991ad97a321f20ff2b35786bf7e9d3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment43\\scene0\\state4.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment43\\scene0\\state9.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment43\\scene0\\state10.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment43\\scene0\\8502031458735883228.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8502031458735883228"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment43\\scene0\\8502031458735883228.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8502031458735883228"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=6d91963abcf8f775a2f7cae13358b6ae(MainActivity/FrameLayout-Search, Ta:x276:y2016))"
+            },
+            {
+                "from": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "to": "state4",
+                "event": "click(TextView-Nail inspo:[41,429][510,641])"
+            },
+            {
+                "from": "state4",
+                "to": "state9",
+                "event": "click(Button-com.pinterest:id/one_bar_module_filter_button_id:[22,270][132,391])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(TextView-Videos:[66,1497][948,1571])"
+            },
+            {
+                "from": "state10",
+                "to": "8502031458735883228",
+                "event": "click<button id=23 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "8502031458735883228",
+                "to": "8502031458735883228",
+                "event": "click<button id=20 class =\"com.pinterest:id/menu_search\" alt=\"Search, Tab\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

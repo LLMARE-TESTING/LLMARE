@@ -1,0 +1,46 @@
+[
+    {
+        "round": 1,
+        "comment": "The app was great, was fun, I still miss the ability to see what other boards have pinned the same pin since that let me find boards easier but it's something I can deal with... Unlike getting rid of the ability to search for boards, both in the search tab while searching (it at least still shows People, which is something I've never used but at least that isn't also useless now) and with the button that used to be beside the search bar after searching. Can this be fixed, undone, opted out of??",
+        "scenarios": [
+            "The user wants to see what other boards have pinned the same pin to find boards more easily.",
+            "The user wants the ability to search for boards in the search tab while searching.",
+            "The user wants the button beside the search bar after searching to be restored for searching boards."
+        ],
+        "key sentence": "The user wants the ability to search for boards in the search tab while searching.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment27\\scene0\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment27\\scene0\\scene1\\7564874700184843354.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7564874700184843354"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment27\\scene0\\scene1\\-8863544199321485650.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8863544199321485650"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "7564874700184843354",
+                "event": "click<button id=23 class =\"com.pinterest:id/menu_search\" alt=\"Search, Tab\">  </button>"
+            },
+            {
+                "from": "7564874700184843354",
+                "to": "-8863544199321485650",
+                "event": "click<button id=27 class =\"com.pinterest:id/search_tv\" alt=\"Search\"> Search for ideas,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

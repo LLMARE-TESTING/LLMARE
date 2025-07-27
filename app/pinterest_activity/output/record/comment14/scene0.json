@@ -1,0 +1,213 @@
+[
+    {
+        "round": 1,
+        "comment": "I love creating collections of both useful and fun things. I have recently started organizing my largest boards into sub-categories since it's not convenient to scroll for a long time looking for a particular pin with 1k pins in a board. I am enjoying it. However, it would be appreciated if the process of moving pins from a board to its sub-categories be easier and faster. At least on mobile I have to scroll past all of the sub-categories. Slow process even when moving max number of pins.",
+        "scenarios": [
+            "Organizing a large board into sub-categories to make it easier to find a particular pin when there are many pins in a board.  ",
+            "Moving pins from a board to its sub-categories on mobile, experiencing a slow process due to needing to scroll past all sub-categories, even when moving the maximum number of pins.  "
+        ],
+        "key sentence": "Organizing a large board into sub-categories to make it easier to find a particular pin when there are many pins in a board.  ",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state14",
+        "the sub-task list of state": "[{'name': 'Select All Pins', 'description': 'Select all pins displayed on the screen.'}, {'name': 'Move Pins', 'description': 'Move selected pins to another location or board.'}, {'name': 'Add Section', 'description': 'Create a new section or category for organizing content.'}, {'name': 'Delete Selected Pins', 'description': 'Remove selected pins from the screen.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment14\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment14\\scene0\\state2.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment14\\scene0\\state3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment14\\scene0\\state12.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment14\\scene0\\state13.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment14\\scene0\\state14.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state14"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state2",
+                "event": "click(TextView-Saved:[836,2092][948,2136])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(android.view.ViewGroup-Board: picture:[22,524][529,1027])"
+            },
+            {
+                "from": "state3",
+                "to": "state12",
+                "event": "click(android.widget.LinearLayout-Organize:[254,1950][430,2060])"
+            },
+            {
+                "from": "state12",
+                "to": "state13",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[22,439][352,770])"
+            },
+            {
+                "from": "state13",
+                "to": "state14",
+                "event": "click(ImageView-Move selected pins:[312,1933][433,2054])"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "I love creating collections of both useful and fun things. I have recently started organizing my largest boards into sub-categories since it's not convenient to scroll for a long time looking for a particular pin with 1k pins in a board. I am enjoying it. However, it would be appreciated if the process of moving pins from a board to its sub-categories be easier and faster. At least on mobile I have to scroll past all of the sub-categories. Slow process even when moving max number of pins.",
+        "scenarios": [
+            "Organizing a large board into sub-categories to make it easier to find a particular pin when there are many pins in a board.  ",
+            "Moving pins from a board to its sub-categories on mobile, experiencing a slow process due to needing to scroll past all sub-categories, even when moving the maximum number of pins.  "
+        ],
+        "key sentence": "Organizing a large board into sub-categories to make it easier to find a particular pin when there are many pins in a board.  ",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state14",
+        "the sub-task list of state": "[{'name': 'Select All Pins', 'description': 'Select all pins displayed on the screen.'}, {'name': 'Move Pins', 'description': 'Move selected pins to another location or board.'}, {'name': 'Add Section', 'description': 'Create a new section or category for organizing content.'}, {'name': 'Delete Selected Pins', 'description': 'Remove selected pins from the screen.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment14\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment14\\scene0\\state2.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment14\\scene0\\state3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment14\\scene0\\state12.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment14\\scene0\\state13.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment14\\scene0\\state14.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state14"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment14\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment14\\scene0\\state2.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment14\\scene0\\state3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment14\\scene0\\state12.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment14\\scene0\\state13.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment14\\scene0\\state14.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state14"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment14\\scene0\\3310522053031176977.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3310522053031176977"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state2",
+                "event": "click(TextView-Saved:[836,2092][948,2136])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(android.view.ViewGroup-Board: picture:[22,524][529,1027])"
+            },
+            {
+                "from": "state3",
+                "to": "state12",
+                "event": "click(android.widget.LinearLayout-Organize:[254,1950][430,2060])"
+            },
+            {
+                "from": "state12",
+                "to": "state13",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[22,439][352,770])"
+            },
+            {
+                "from": "state13",
+                "to": "state14",
+                "event": "click(ImageView-Move selected pins:[312,1933][433,2054])"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state2",
+                "event": "click(TextView-Saved:[836,2092][948,2136])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(android.view.ViewGroup-Board: picture:[22,524][529,1027])"
+            },
+            {
+                "from": "state3",
+                "to": "state12",
+                "event": "click(android.widget.LinearLayout-Organize:[254,1950][430,2060])"
+            },
+            {
+                "from": "state12",
+                "to": "state13",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[22,439][352,770])"
+            },
+            {
+                "from": "state13",
+                "to": "state14",
+                "event": "click(ImageView-Move selected pins:[312,1933][433,2054])"
+            },
+            {
+                "from": "state14",
+                "to": "3310522053031176977",
+                "event": "click<p id=18 class =\"com.pinterest:id/board_section_name\" alt=\"picture - Girly, Double tap to save this Pin to board section\"> picture - Girly,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

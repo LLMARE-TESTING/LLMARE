@@ -1,0 +1,44 @@
+[
+    {
+        "round": 1,
+        "comment": "It is very good at recommending content relavent to you. One of my favorite apps. I waste alot of time on it. Great for fandoms. Sometimes it has its moments, but bugs are usually fixed quickly. One of my only complaints is that when you return to the home page it reloads. Which to me is a little annoying because I'll see a pin i like and want to save but usually before i can tap it the page refreshes and its gone :\\ but thats pretty much the only complaint. Would definately recommend!",
+        "scenarios": [
+            "When returning to the home page, the page reloads, which causes content (like a pin the user wants to save) to disappear before the user can tap it."
+        ],
+        "key sentence": "When returning to the home page, the page reloads, which causes content (like a pin the user wants to save) to disappear before the user can tap it.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment18\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment18\\scene0\\4310168592143066896.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4310168592143066896"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment18\\scene0\\-5343069838040148017.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-5343069838040148017"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "4310168592143066896",
+                "event": "click<button id=23 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "4310168592143066896",
+                "to": "-5343069838040148017",
+                "event": "click<button id=21 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

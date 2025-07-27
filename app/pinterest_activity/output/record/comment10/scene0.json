@@ -1,0 +1,151 @@
+[
+    {
+        "round": 1,
+        "comment": "The search function has become borderline unusable recently, the same searches I've done in the past now display no results.",
+        "scenarios": [
+            "Perform a search using the search function with previously successful search terms, but receive no results."
+        ],
+        "key sentence": "Perform a search using the search function with previously successful search terms, but receive no results.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state4",
+        "the sub-task list of state": "[{'name': 'Search', 'description': 'Search for a content'}, {'name': 'View Search Results', 'description': \"View the search results of 'Nail inspo'.\"}, {'name': 'Filter', 'description': 'Apply filters to refine search results'}, {'name': 'Back', 'description': 'Navigate back to the previous screen'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment10\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment10\\scene0\\b8991ad97a321f20ff2b35786bf7e9d3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "b8991ad97a321f20ff2b35786bf7e9d3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment10\\scene0\\state4.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment10\\scene0\\3642307728479842494.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3642307728479842494"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=6d91963abcf8f775a2f7cae13358b6ae(MainActivity/FrameLayout-Search, Ta:x276:y2016))"
+            },
+            {
+                "from": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "to": "state4",
+                "event": "click(TextView-Nail inspo:[41,429][510,641])"
+            },
+            {
+                "from": "state4",
+                "to": "3642307728479842494",
+                "event": "click<button id=22 class =\"com.pinterest:id/menu_search\" alt=\"Search, Tab\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "The search function has become borderline unusable recently, the same searches I've done in the past now display no results.",
+        "scenarios": [
+            "Perform a search using the search function with previously successful search terms, but receive no results."
+        ],
+        "key sentence": "Perform a search using the search function with previously successful search terms, but receive no results.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "b8991ad97a321f20ff2b35786bf7e9d3",
+        "the sub-task list of state": "[{'name': 'Lens', 'description': 'Camera Search'}, {'name': 'Search for Ideas', 'description': 'Search for content related to your idea.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment10\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment10\\scene0\\b8991ad97a321f20ff2b35786bf7e9d3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "b8991ad97a321f20ff2b35786bf7e9d3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment10\\scene0\\state4.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment10\\scene0\\3642307728479842494.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3642307728479842494"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment10\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment10\\scene0\\b8991ad97a321f20ff2b35786bf7e9d3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "b8991ad97a321f20ff2b35786bf7e9d3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment10\\scene0\\713031208804784270.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "713031208804784270"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment10\\scene0\\6870221305341592621.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "6870221305341592621"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment10\\scene0\\-8867536816062847956.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8867536816062847956"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=6d91963abcf8f775a2f7cae13358b6ae(MainActivity/FrameLayout-Search, Ta:x276:y2016))"
+            },
+            {
+                "from": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "to": "state4",
+                "event": "click(TextView-Nail inspo:[41,429][510,641])"
+            },
+            {
+                "from": "state4",
+                "to": "3642307728479842494",
+                "event": "click<button id=22 class =\"com.pinterest:id/menu_search\" alt=\"Search, Tab\">  </button>"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=6d91963abcf8f775a2f7cae13358b6ae(MainActivity/FrameLayout-Search, Ta:x276:y2016))"
+            },
+            {
+                "from": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "to": "713031208804784270",
+                "event": "click<button id=24 class =\"com.pinterest:id/menu_search\" alt=\"Search, Tab\">  </button>"
+            },
+            {
+                "from": "713031208804784270",
+                "to": "6870221305341592621",
+                "event": "click<button id=21 class =\"com.pinterest:id/search_tv\" alt=\"Search\"> Search for ideas,  </button>"
+            },
+            {
+                "from": "6870221305341592621",
+                "to": "-8867536816062847956",
+                "event": "click<button id=23 alt=\"Search search terms\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,121 @@
+[
+    {
+        "round": 1,
+        "comment": "Sometimes the feature that lets you search for things or view your own boards disappears and does not come back for quite some time. I've tried scrolling up and down and restarting the app to make it reappear and it does not work. I use Pinterest for reference photos for my art. It can be pretty annoying when you're in the middle of a project.",
+        "scenarios": [
+            "The feature that lets the user search for things or view their own boards sometimes disappears and does not come back for quite some time, even after trying to scroll up and down or restarting the app to make it reappear."
+        ],
+        "key sentence": "The feature that lets the user search for things or view their own boards sometimes disappears and does not come back for quite some time, even after trying to scroll up and down or restarting the app to make it reappear.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "ba5f165ac71b67896bd0c28f07857be5",
+        "the sub-task list of state": "[{'name': 'Create', 'description': 'Tab for creating something'}, {'name': 'Notifications', 'description': 'Tab for viewing notifications'}, {'name': 'Saved', 'description': 'Tab for viewing saved items'}, {'name': 'Avatar: Jane', 'description': 'Display the avatar for the user Jane'}, {'name': 'Access Search Page', 'description': 'Access the search page.'}, {'name': 'Browse content', 'description': 'Browse recommended pins.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment12\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment12\\scene0\\5953830251741418425.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5953830251741418425"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "5953830251741418425",
+                "event": "click<button id=18 class =\"com.pinterest:id/menu_search\" alt=\"Search, Tab\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Sometimes the feature that lets you search for things or view your own boards disappears and does not come back for quite some time. I've tried scrolling up and down and restarting the app to make it reappear and it does not work. I use Pinterest for reference photos for my art. It can be pretty annoying when you're in the middle of a project.",
+        "scenarios": [
+            "The feature that lets the user search for things or view their own boards sometimes disappears and does not come back for quite some time, even after trying to scroll up and down or restarting the app to make it reappear."
+        ],
+        "key sentence": "The feature that lets the user search for things or view their own boards sometimes disappears and does not come back for quite some time, even after trying to scroll up and down or restarting the app to make it reappear.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state4",
+        "the sub-task list of state": "[{'name': 'Search', 'description': 'Search for a content'}, {'name': 'View Search Results', 'description': \"View the search results of 'Nail inspo'.\"}, {'name': 'Filter', 'description': 'Apply filters to refine search results'}, {'name': 'Back', 'description': 'Navigate back to the previous screen'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment12\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment12\\scene0\\5953830251741418425.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5953830251741418425"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment12\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment12\\scene0\\b8991ad97a321f20ff2b35786bf7e9d3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "b8991ad97a321f20ff2b35786bf7e9d3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment12\\scene0\\state4.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment12\\scene0\\1897736555398657561.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1897736555398657561"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment12\\scene0\\1897736555398657561.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1897736555398657561"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment12\\scene0\\1897736555398657561.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1897736555398657561"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "5953830251741418425",
+                "event": "click<button id=18 class =\"com.pinterest:id/menu_search\" alt=\"Search, Tab\">  </button>"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=6d91963abcf8f775a2f7cae13358b6ae(MainActivity/FrameLayout-Search, Ta:x276:y2016))"
+            },
+            {
+                "from": "b8991ad97a321f20ff2b35786bf7e9d3",
+                "to": "state4",
+                "event": "click(TextView-Nail inspo:[41,429][510,641])"
+            },
+            {
+                "from": "state4",
+                "to": "1897736555398657561",
+                "event": "click<button id=22 class =\"com.pinterest:id/menu_search\" alt=\"Search, Tab\">  </button>"
+            },
+            {
+                "from": "1897736555398657561",
+                "to": "1897736555398657561",
+                "event": "scroll up"
+            },
+            {
+                "from": "1897736555398657561",
+                "to": "1897736555398657561",
+                "event": "click<button id=24 class =\"com.pinterest:id/menu_search\" alt=\"Search, Tab\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

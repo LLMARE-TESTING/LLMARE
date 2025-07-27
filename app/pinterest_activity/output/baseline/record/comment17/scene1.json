@@ -1,0 +1,35 @@
+[
+    {
+        "round": 1,
+        "comment": "Notifications are a bit weird. When I'm outside of the app, I'll get comments and replies that show up in my notification bar. But when I click them, it won't bring me to the comment, it'll just bring me to my Pinterest homepage. I can look through my notifications in the app, but not all comments show up. This happens EVERY time, I've never been able to see what people reply to me.",
+        "scenarios": [
+            "When the user is outside of the app and receives a notification for comments and replies in the notification bar, clicking the notification does not bring the user to the specific comment but instead directs them to the Pinterest homepage.",
+            "When the user looks through their notifications within the app, not all comments show up."
+        ],
+        "key sentence": "When the user looks through their notifications within the app, not all comments show up.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment17\\scene0\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment17\\scene0\\scene1\\-6951411456424880705.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6951411456424880705"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-6951411456424880705",
+                "event": "click<button id=25 class =\"com.pinterest:id/menu_notifications\" alt=\"Notifications, Tab\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

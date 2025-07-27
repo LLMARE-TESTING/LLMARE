@@ -1,0 +1,145 @@
+[
+    {
+        "comment": "Overall good app,can show your stats and everything. I would give it a 5 stars but no,since you guys removed the feature of single post with multiple images thingy,I am not able to post various photos at once -_- it's kinda annoying . Bring it back please.",
+        "key sentence": "User attempts to post various photos at once but is unable to do so due to the removal of the feature that allowed single posts with multiple images.",
+        "target activity": ".feature.pin.creation.CreationActivity",
+        "the function of activity": "Create Pins or Boards.",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [],
+        "operations": [],
+        "Final answer": ""
+    },
+    {
+        "round": 2,
+        "comment": "Overall good app,can show your stats and everything. I would give it a 5 stars but no,since you guys removed the feature of single post with multiple images thingy,I am not able to post various photos at once -_- it's kinda annoying . Bring it back please.",
+        "scenarios": [
+            "User attempts to post various photos at once but is unable to do so due to the removal of the feature that allowed single posts with multiple images."
+        ],
+        "key sentence": "User attempts to post various photos at once but is unable to do so due to the removal of the feature that allowed single posts with multiple images.",
+        "target activity": ".feature.pin.creation.CreationActivity",
+        "the function of activity": "Create Pins or Boards.",
+        "target state": "26a74922d9bf7c292c60938a0b536a12",
+        "the sub-task list of state": "[{'name': 'Select Videos or Photos', 'description': 'Select Videos or Photos to Create Pin or Board.'}, {'name': 'Camera', 'description': 'Take a photo or video to create pin or board.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\4da12b747db0462e12ee6303ede5f54b.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4da12b747db0462e12ee6303ede5f54b"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\26a74922d9bf7c292c60938a0b536a12.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "26a74922d9bf7c292c60938a0b536a12"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\3716735395110119568.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3716735395110119568"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\3716735395110119568.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3716735395110119568"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\9090127324342362397.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "9090127324342362397"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\-6194153699039655093.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6194153699039655093"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\-355366838949545524.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-355366838949545524"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\3239626698203245946.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "3239626698203245946"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\-1892853235422777511.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-1892853235422777511"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\-918557116596193817.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-918557116596193817"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\7688935999449442919.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "7688935999449442919"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "4da12b747db0462e12ee6303ede5f54b",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=e7c5c61cd1d7e20ff5e11581f09745cd(MainActivity/FrameLayout-Create, Ta:x452:y2016))"
+            },
+            {
+                "from": "4da12b747db0462e12ee6303ede5f54b",
+                "to": "26a74922d9bf7c292c60938a0b536a12",
+                "event": "click(state=4da12b747db0462e12ee6303ede5f54b, view=d00bc6aa8417a04bdcd78a5f173f8f02(MainActivity/TextView-Pin:x395:y1994))"
+            },
+            {
+                "from": "26a74922d9bf7c292c60938a0b536a12",
+                "to": "3716735395110119568",
+                "event": "click<button id=34 class =\"com.pinterest:id/action_button_label\"> Collage,  </button>"
+            },
+            {
+                "from": "3716735395110119568",
+                "to": "3716735395110119568",
+                "event": "click<div id=1 class =\"com.pinterest:id/collage_composer_view\">  </div>"
+            },
+            {
+                "from": "3716735395110119568",
+                "to": "9090127324342362397",
+                "event": "click<button id=3 class =\"com.pinterest:id/icon_button\">  </button>"
+            },
+            {
+                "from": "9090127324342362397",
+                "to": "-6194153699039655093",
+                "event": "click<button id=22 class =\"com.pinterest:id/menu_creation\" alt=\"Create, Tab\">  </button>"
+            },
+            {
+                "from": "-6194153699039655093",
+                "to": "-355366838949545524",
+                "event": "click<button id=32 class =\"com.pinterest:id/action_button_label\"> Pin,  </button>"
+            },
+            {
+                "from": "-355366838949545524",
+                "to": "3239626698203245946",
+                "event": "click<button id=14 alt=\"Photo: /storage/emulated/0/Pictures/100PINT/Pins/6c96531379fd4a19ff0b4d0f4ab56f8d.jpg\">  </button>"
+            },
+            {
+                "from": "3239626698203245946",
+                "to": "-1892853235422777511",
+                "event": "click<button id=18 alt=\"Photo: /storage/emulated/0/Pictures/100PINT/Pins/e858c86b38dbf116b0981766cead1b37.jpg\">  </button>"
+            },
+            {
+                "from": "-1892853235422777511",
+                "to": "-918557116596193817",
+                "event": "click<button id=5 class =\"com.pinterest:id/gallery_next_gestalt_button\"> Next,  </button>"
+            },
+            {
+                "from": "-918557116596193817",
+                "to": "7688935999449442919",
+                "event": "click<p id=6 class =\"com.pinterest:id/button_text\"> Media,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "round": 1,
+        "comment": "Please make a filter so that one can choose which boards to see with their pins mixed together within the new \"pin\" section. Over the years I spent hours managing and ordering my boards on the (former) \"profile\" section to have a neat overview of several ajacent themed boards. I am disappointed by this new version, Pinterest loses a big part of its appeal to me.",
+        "scenarios": [
+            "Request to create a filter for selecting which boards to view with their pins mixed in the new \"pin\" section.  ",
+            "Mention of spending hours managing and ordering boards in the former \"profile\" section for a neat overview.  ",
+            "Expression of disappointment with the new version of Pinterest affecting the overall appeal of the app.  "
+        ],
+        "key sentence": "Expression of disappointment with the new version of Pinterest affecting the overall appeal of the app.  ",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\scene1\\scene2\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\scene1\\scene2\\1998183780545090309.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1998183780545090309"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\scene1\\scene2\\1998183780545090309.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1998183780545090309"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment16\\scene0\\scene1\\scene2\\-4838547926456047808.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4838547926456047808"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "1998183780545090309",
+                "event": "click<button id=27 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "1998183780545090309",
+                "to": "1998183780545090309",
+                "event": "click<div id=7 class =\"com.pinterest:id/profile_boards_tab\" alt=\"Boards\">  </div>"
+            },
+            {
+                "from": "1998183780545090309",
+                "to": "-4838547926456047808",
+                "event": "click<div id=5 class =\"com.pinterest:id/profile_pins_tab\" alt=\"Pins\">  </div>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

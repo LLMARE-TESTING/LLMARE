@@ -1,0 +1,35 @@
+[
+    {
+        "round": 1,
+        "comment": "love the app, but there are some things that are annoying. When you go back onto the homepage not too long after, your feed resets automatically, not being able to find the pins before it restarted, nothing. It's annoying because it automatically decides to refresh my page without me doing so and not being able to browse the pins I'd like. Pinterest also sent me several emails saying they've removed pins from my board and ones I've created, and doesn't show which pins or lets me send an appeal.",
+        "scenarios": [
+            "When the user goes back onto the homepage not too long after, the feed resets automatically, making it impossible to find the pins that were visible before it restarted.",
+            "Pinterest sends the user several emails stating that pins have been removed from their board and ones they've created, but does not show which pins were removed or allow the user to send an appeal."
+        ],
+        "key sentence": "When the user goes back onto the homepage not too long after, the feed resets automatically, making it impossible to find the pins that were visible before it restarted.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment19\\scene0\\883636276098351794.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "883636276098351794"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "883636276098351794",
+                "event": "click<button id=21 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

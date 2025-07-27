@@ -1,0 +1,124 @@
+[
+    {
+        "round": 46,
+        "comment": "Improving the app is great, but some of the app's UI is getting me really annoyed. For example, the \"pin updated\" notification pop up that appeared too long and blocks the red \"done\" button when I'm editing the next pin. Not just that, but there are a few UI that are just not user friendly and annoying.",
+        "scenarios": [
+            "While editing a pin, the \"pin updated\" notification pops up and stays on screen too long, blocking the red \"done\" button."
+        ],
+        "key sentence": "While editing a pin, the \"pin updated\" notification pops up and stays on screen too long, blocking the red \"done\" button.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\-34683577514489562.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-34683577514489562"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\4877956892112412105.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4877956892112412105"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\-34683577514489562.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-34683577514489562"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\-1254726203524502036.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-1254726203524502036"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\-1254726203524502036.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-1254726203524502036"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\3868981168898181924.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "3868981168898181924"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\-1231109554615679606.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-1231109554615679606"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\-1231109554615679606.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-1231109554615679606"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\1146872519503606870.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1146872519503606870"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment31\\scene0\\-6733275893310999471.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6733275893310999471"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-34683577514489562",
+                "event": "click<button id=25 class =\"com.pinterest:id/menu_creation\" alt=\"Create, Tab\">  </button>"
+            },
+            {
+                "from": "-34683577514489562",
+                "to": "4877956892112412105",
+                "event": "click<button id=31 alt=\"Cancel\">  </button>"
+            },
+            {
+                "from": "4877956892112412105",
+                "to": "-34683577514489562",
+                "event": "click<button id=25 class =\"com.pinterest:id/menu_creation\" alt=\"Create, Tab\">  </button>"
+            },
+            {
+                "from": "-34683577514489562",
+                "to": "-1254726203524502036",
+                "event": "click<button id=35 class =\"com.pinterest:id/action_button_label\"> Pin,  </button>"
+            },
+            {
+                "from": "-1254726203524502036",
+                "to": "-1254726203524502036",
+                "event": "click<button id=5 class =\"com.pinterest:id/gallery_next_gestalt_button\"> Next,  </button>"
+            },
+            {
+                "from": "-1254726203524502036",
+                "to": "3868981168898181924",
+                "event": "click<button id=16 alt=\"Photo: /storage/emulated/0/test.png\">  </button>"
+            },
+            {
+                "from": "3868981168898181924",
+                "to": "-1231109554615679606",
+                "event": "click<button id=19 alt=\"Photo: /storage/emulated/0/Pictures/AmazingCubeLite/AmazigScreenShot/Screenshot_20240621-174332_Trebuchet.png\">  </button>"
+            },
+            {
+                "from": "-1231109554615679606",
+                "to": "-1231109554615679606",
+                "event": "click<button id=13 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "-1231109554615679606",
+                "to": "1146872519503606870",
+                "event": "click<button id=1 class =\"com.pinterest:id/gallery_exit_icon\" alt=\"Exit\">  </button>"
+            },
+            {
+                "from": "1146872519503606870",
+                "to": "-6733275893310999471",
+                "event": "click<button id=2 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from S&#129528;, Title: Cartoon ! \u2728, This may contain: there is a woman holding a rose in front of her face and looking at the ocean\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

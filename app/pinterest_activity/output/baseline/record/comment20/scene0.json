@@ -1,0 +1,105 @@
+[
+    {
+        "round": 1,
+        "comment": "Overall good app,can show your stats and everything. I would give it a 5 stars but no,since you guys removed the feature of single post with multiple images thingy,I am not able to post various photos at once -_- it's kinda annoying . Bring it back please.",
+        "scenarios": [
+            "Viewing statistics within the app.",
+            "Posting multiple images in a single post."
+        ],
+        "key sentence": "Viewing statistics within the app.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\-8399300737469686839.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8399300737469686839"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\-8399300737469686839.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8399300737469686839"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\-3363078666713373213.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3363078666713373213"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\-4272964135687710932.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4272964135687710932"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\3724989722297572956.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3724989722297572956"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\3724989722297572956.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3724989722297572956"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\6272398910929400836.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "6272398910929400836"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment20\\scene0\\6272398910929400836.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "6272398910929400836"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-8399300737469686839",
+                "event": "click<button id=26 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-8399300737469686839",
+                "to": "-8399300737469686839",
+                "event": "click<div id=1 class =\"com.pinterest:id/user_profile\">  </div>"
+            },
+            {
+                "from": "-8399300737469686839",
+                "to": "-3363078666713373213",
+                "event": "click<div id=2 class =\"com.pinterest:id/profile_user_avatar_component\" alt=\"Avatar: Jane\">  </div>"
+            },
+            {
+                "from": "-3363078666713373213",
+                "to": "-4272964135687710932",
+                "event": "click<p id=8 class =\"com.pinterest:id/profile_preview_subtitle\"> View profile,  </p>"
+            },
+            {
+                "from": "-4272964135687710932",
+                "to": "3724989722297572956",
+                "event": "click<div id=1 class =\"com.pinterest:id/user_profile\">  </div>"
+            },
+            {
+                "from": "3724989722297572956",
+                "to": "3724989722297572956",
+                "event": "click<button id=24 class =\"com.pinterest:id/metadata_left\"> 0 followers,  </button>"
+            },
+            {
+                "from": "3724989722297572956",
+                "to": "6272398910929400836",
+                "event": "click<div id=30 class =\"com.pinterest:id/profile_created_tab\" alt=\"Created\">  </div>"
+            },
+            {
+                "from": "6272398910929400836",
+                "to": "6272398910929400836",
+                "event": "click<button id=17 class =\"com.pinterest:id/metadata_left\"> 0 followers,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

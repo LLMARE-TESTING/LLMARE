@@ -1,0 +1,263 @@
+[
+    {
+        "round": 1,
+        "comment": "The app was great until the update where it automatically saves everything to your profile. Why would you make me go through more steps just to save a photo or recipe?? Why would I bother making boards if they're going to make the app useless by throwing them all together and making me save them twice. Hoping they get rid of this \"feature\" in the next update. It's annoying.",
+        "scenarios": [
+            "Saving a photo or recipe requires going through additional steps because everything is automatically saved to the profile.",
+            "Creating boards becomes useless as the app throws all content together and requires saving them twice."
+        ],
+        "key sentence": "Saving a photo or recipe requires going through additional steps because everything is automatically saved to the profile.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'View Saved Items', 'description': 'View saved pins or boards.'}, {'name': 'Create', 'description': 'Initiate the creation of a new item'}, {'name': 'Switch Tab', 'description': 'Change between different tabs'}, {'name': 'View Avatar', 'description': \"Display user's avatar\"}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\state2.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\-1467724766149032055.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1467724766149032055"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\-574896398765606074.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-574896398765606074"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\2659642900470492273.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "2659642900470492273"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\5001872498921366250.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5001872498921366250"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\6045846389774761042.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "6045846389774761042"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\-4293773483399882879.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4293773483399882879"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\1598279802661506730.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1598279802661506730"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\-6216318353762203236.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6216318353762203236"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state2",
+                "event": "click(TextView-Saved:[836,2092][948,2136])"
+            },
+            {
+                "from": "state2",
+                "to": "-1467724766149032055",
+                "event": "click<button id=24 alt=\"Board: picture\">  </button>"
+            },
+            {
+                "from": "-1467724766149032055",
+                "to": "-574896398765606074",
+                "event": "click<button id=19 class =\"com.pinterest:id/board_host_options_icon\" alt=\"More options\">  </button>"
+            },
+            {
+                "from": "-574896398765606074",
+                "to": "2659642900470492273",
+                "event": "click<p id=27 class =\"com.pinterest:id/option_title\"> Merge boards,  </p>"
+            },
+            {
+                "from": "2659642900470492273",
+                "to": "5001872498921366250",
+                "event": "click<button id=4 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "5001872498921366250",
+                "to": "6045846389774761042",
+                "event": "click<button id=21 class =\"com.pinterest:id/alert_view_confirm_button\"> Merge,  </button>"
+            },
+            {
+                "from": "6045846389774761042",
+                "to": "-4293773483399882879",
+                "event": "click<button id=41 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-4293773483399882879",
+                "to": "1598279802661506730",
+                "event": "click<div id=1 class =\"com.pinterest:id/user_profile\">  </div>"
+            },
+            {
+                "from": "1598279802661506730",
+                "to": "-6216318353762203236",
+                "event": "click<button id=14 class =\"com.pinterest:id/save_pinit_bt\" alt=\"Save\"> Saved,  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "The app was great until the update where it automatically saves everything to your profile. Why would you make me go through more steps just to save a photo or recipe?? Why would I bother making boards if they're going to make the app useless by throwing them all together and making me save them twice. Hoping they get rid of this \"feature\" in the next update. It's annoying.",
+        "scenarios": [
+            "Saving a photo or recipe requires going through additional steps because everything is automatically saved to the profile.",
+            "Creating boards becomes useless as the app throws all content together and requires saving them twice."
+        ],
+        "key sentence": "Saving a photo or recipe requires going through additional steps because everything is automatically saved to the profile.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Save Pin', 'description': 'Save a pin or item to a board for later reference.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\state2.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\-1467724766149032055.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1467724766149032055"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\-574896398765606074.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-574896398765606074"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\2659642900470492273.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "2659642900470492273"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\5001872498921366250.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5001872498921366250"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\6045846389774761042.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "6045846389774761042"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\-4293773483399882879.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4293773483399882879"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\1598279802661506730.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1598279802661506730"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\-6216318353762203236.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6216318353762203236"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\state7.png",
+                "activity": "org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment9\\scene0\\3159343577340605370.png",
+                "activity": "com.pinterest.activity.create.PinItActivity}",
+                "state_str": "3159343577340605370"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state2",
+                "event": "click(TextView-Saved:[836,2092][948,2136])"
+            },
+            {
+                "from": "state2",
+                "to": "-1467724766149032055",
+                "event": "click<button id=24 alt=\"Board: picture\">  </button>"
+            },
+            {
+                "from": "-1467724766149032055",
+                "to": "-574896398765606074",
+                "event": "click<button id=19 class =\"com.pinterest:id/board_host_options_icon\" alt=\"More options\">  </button>"
+            },
+            {
+                "from": "-574896398765606074",
+                "to": "2659642900470492273",
+                "event": "click<p id=27 class =\"com.pinterest:id/option_title\"> Merge boards,  </p>"
+            },
+            {
+                "from": "2659642900470492273",
+                "to": "5001872498921366250",
+                "event": "click<button id=4 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "5001872498921366250",
+                "to": "6045846389774761042",
+                "event": "click<button id=21 class =\"com.pinterest:id/alert_view_confirm_button\"> Merge,  </button>"
+            },
+            {
+                "from": "6045846389774761042",
+                "to": "-4293773483399882879",
+                "event": "click<button id=41 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-4293773483399882879",
+                "to": "1598279802661506730",
+                "event": "click<div id=1 class =\"com.pinterest:id/user_profile\">  </div>"
+            },
+            {
+                "from": "1598279802661506730",
+                "to": "-6216318353762203236",
+                "event": "click<button id=14 class =\"com.pinterest:id/save_pinit_bt\" alt=\"Save\"> Saved,  </button>"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "3159343577340605370",
+                "event": "click<img id=44 alt=\"Save\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

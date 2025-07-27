@@ -1,0 +1,75 @@
+[
+    {
+        "round": 1,
+        "comment": "I love this app soo much, I always check it in the day twice or thrice but nowadays whenever I open the app and see a nice pin I save it in my board and it's doesn't get saved. It shows 'Save failed' and whenever i download a pin that same thing happens so if I uninstall it would be not good so rather you guys fix it please ASAP!!!!",
+        "scenarios": [
+            "User opens the app, tries to save a pin to a board, but gets a \"Save failed\" message, meaning the pin does not get saved.",
+            "User downloads a pin and encounters the same \"Save failed\" issue."
+        ],
+        "key sentence": "User downloads a pin and encounters the same \"Save failed\" issue.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'View Saved Items', 'description': 'View saved pins or boards.'}, {'name': 'Create', 'description': 'Initiate the creation of a new item'}, {'name': 'Switch Tab', 'description': 'Change between different tabs'}, {'name': 'View Avatar', 'description': \"Display user's avatar\"}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene1\\state2.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene1\\3783590953103077628.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3783590953103077628"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene1\\5163557927595538604.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5163557927595538604"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene1\\-6894823627283797568.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6894823627283797568"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene1\\3780864655069723139.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3780864655069723139"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state2",
+                "event": "click(TextView-Saved:[836,2092][948,2136])"
+            },
+            {
+                "from": "state2",
+                "to": "3783590953103077628",
+                "event": "click<div id=5 class =\"com.pinterest:id/profile_pins_tab\" alt=\"Pins\">  </div>"
+            },
+            {
+                "from": "3783590953103077628",
+                "to": "5163557927595538604",
+                "event": "click<button id=19 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from Jane\">  </button>"
+            },
+            {
+                "from": "5163557927595538604",
+                "to": "-6894823627283797568",
+                "event": "click<img id=4 class =\"com.pinterest:id/idea_pin_overflow_icon\" alt=\"Options\">  </img>"
+            },
+            {
+                "from": "-6894823627283797568",
+                "to": "3780864655069723139",
+                "event": "click<p id=29 class =\"com.pinterest:id/option_title\"> Download image,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

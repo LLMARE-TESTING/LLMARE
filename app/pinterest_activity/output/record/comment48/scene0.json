@@ -1,0 +1,55 @@
+[
+    {
+        "round": 1,
+        "comment": "love the app, but there are some things that are annoying. When you go back onto the homepage not too long after, your feed resets automatically, not being able to find the pins before it restarted, nothing. It's annoying because it automatically decides to refresh my page without me doing so and not being able to browse the pins I'd like. Pinterest also sent me several emails saying they've removed pins from my board and ones I've created, and doesn't show which pins or lets me send an appeal.",
+        "scenarios": [
+            "When going back onto the homepage not too long after leaving, the feed resets automatically, making it impossible to find the pins from before the restart, as the page refreshes without user initiation.\n   ",
+            "Receiving emails from Pinterest stating that pins from the user's board and ones they've created have been removed, but the emails do not show which pins were removed or allow the user to send an appeal."
+        ],
+        "key sentence": "When going back onto the homepage not too long after leaving, the feed resets automatically, making it impossible to find the pins from before the restart, as the page refreshes without user initiation.\n   ",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state15",
+        "the sub-task list of state": "[{'name': 'View Profile', 'description': 'View your profile'}, {'name': 'Settings', 'description': 'Access application settings'}, {'name': 'Account Management', 'description': 'Manage your account settings'}, {'name': 'Profile Visibility', 'description': 'Manage the visibility of your profile'}, {'name': 'Home Feed Tuner', 'description': 'Customize your home feed preferences'}, {'name': 'Claimed Accounts', 'description': 'Manage accounts claimed by you'}, {'name': 'Social Permissions', 'description': 'Manage permissions for social features'}, {'name': 'Notifications', 'description': 'Access and manage your notifications'}, {'name': 'Privacy and Data', 'description': 'Manage privacy settings and data usage'}, {'name': 'Reports and Violations Center', 'description': 'Report violations and access related information'}, {'name': 'Add Account', 'description': 'Add a new account to the application'}, {'name': 'Security', 'description': 'Access security settings and options'}, {'name': 'Log Out', 'description': 'Log out from the application'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment48\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment48\\scene0\\state2.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment48\\scene0\\state15.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state15"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment48\\scene0\\-9090536226345525566.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-9090536226345525566"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state2",
+                "event": "click(TextView-Saved:[836,2092][948,2136])"
+            },
+            {
+                "from": "state2",
+                "to": "state15",
+                "event": "click(android.widget.FrameLayout-com.pinterest:id/profile_user_avatar:[0,113][134,206])"
+            },
+            {
+                "from": "state15",
+                "to": "-9090536226345525566",
+                "event": "click<button id=23 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

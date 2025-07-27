@@ -1,0 +1,35 @@
+[
+    {
+        "round": 1,
+        "comment": "What's wrong with the app!!??? It's not opening my account and always say something's wrong at our end... If something wrong just do it right quickly...I need pinterest for searches\u9983\u30b2",
+        "scenarios": [
+            "The user is unable to open their account, receiving a message indicating that something is wrong on the app's end.",
+            "The user needs the Pinterest app specifically for conducting searches."
+        ],
+        "key sentence": "The user needs the Pinterest app specifically for conducting searches.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment30\\scene0\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment30\\scene0\\scene1\\-4217563604648645099.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4217563604648645099"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-4217563604648645099",
+                "event": "click<button id=24 class =\"com.pinterest:id/menu_search\" alt=\"Search, Tab\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

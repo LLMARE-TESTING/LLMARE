@@ -1,0 +1,55 @@
+[
+    {
+        "round": 1,
+        "comment": "Pinterest is undoubtedly the best app I can use for art references. However, I dk have a big problem when I created a board and it doesn't show up on my board feed, which is kind of annoying. Please get it fixed",
+        "scenarios": [
+            "Create a board.",
+            "Check the board feed to see if the newly created board appears."
+        ],
+        "key sentence": "Check the board feed to see if the newly created board appears.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\scene1\\2212202027431455117.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "2212202027431455117"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\scene1\\2212202027431455117.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "2212202027431455117"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment29\\scene0\\scene1\\-2094520323795749045.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2094520323795749045"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "2212202027431455117",
+                "event": "click<button id=28 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "2212202027431455117",
+                "to": "2212202027431455117",
+                "event": "click<div id=7 class =\"com.pinterest:id/profile_boards_tab\" alt=\"Boards\">  </div>"
+            },
+            {
+                "from": "2212202027431455117",
+                "to": "-2094520323795749045",
+                "event": "scroll down"
+            }
+        ],
+        "Final answer": 1
+    }
+]

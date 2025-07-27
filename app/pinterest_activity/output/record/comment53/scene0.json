@@ -1,0 +1,422 @@
+[
+    {
+        "comment": "Overall good app,can show your stats and everything. I would give it a 5 stars but no,since you guys removed the feature of single post with multiple images thingy,I am not able to post various photos at once -_- it's kinda annoying . Bring it back please.",
+        "key sentence": "User attempts to post various photos at once but is unable to do so due to the removal of the feature that allowed single posts with multiple images.",
+        "target activity": ".feature.pin.creation.CreationActivity",
+        "the function of activity": "Create Pins or Boards.",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [],
+        "operations": [],
+        "Final answer": ""
+    },
+    {
+        "round": 2,
+        "comment": "Overall good app,can show your stats and everything. I would give it a 5 stars but no,since you guys removed the feature of single post with multiple images thingy,I am not able to post various photos at once -_- it's kinda annoying . Bring it back please.",
+        "scenarios": [
+            "User attempts to post various photos at once but is unable to do so due to the removal of the feature that allowed single posts with multiple images."
+        ],
+        "key sentence": "User attempts to post various photos at once but is unable to do so due to the removal of the feature that allowed single posts with multiple images.",
+        "target activity": ".feature.pin.creation.CreationActivity",
+        "the function of activity": "Create Pins or Boards.",
+        "target state": "26a74922d9bf7c292c60938a0b536a12",
+        "the sub-task list of state": "[{'name': 'Select Videos or Photos', 'description': 'Select Videos or Photos to Create Pin or Board.'}, {'name': 'Camera', 'description': 'Take a photo or video to create pin or board.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\4da12b747db0462e12ee6303ede5f54b.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4da12b747db0462e12ee6303ede5f54b"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\26a74922d9bf7c292c60938a0b536a12.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "26a74922d9bf7c292c60938a0b536a12"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\1653337029438507116.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1653337029438507116"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-2889485626650247439.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-2889485626650247439"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\9049544623770079525.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "9049544623770079525"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-394774914667782905.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-394774914667782905"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-1714792960944948464.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-1714792960944948464"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-7867261554588817237.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-7867261554588817237"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-6082268424574031187.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-6082268424574031187"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-2760675811674814009.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-2760675811674814009"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "4da12b747db0462e12ee6303ede5f54b",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=e7c5c61cd1d7e20ff5e11581f09745cd(MainActivity/FrameLayout-Create, Ta:x452:y2016))"
+            },
+            {
+                "from": "4da12b747db0462e12ee6303ede5f54b",
+                "to": "26a74922d9bf7c292c60938a0b536a12",
+                "event": "click(state=4da12b747db0462e12ee6303ede5f54b, view=d00bc6aa8417a04bdcd78a5f173f8f02(MainActivity/TextView-Pin:x395:y1994))"
+            },
+            {
+                "from": "26a74922d9bf7c292c60938a0b536a12",
+                "to": "1653337029438507116",
+                "event": "click<button id=24 class =\"com.pinterest:id/menu_creation\" alt=\"Create, Tab\">  </button>"
+            },
+            {
+                "from": "1653337029438507116",
+                "to": "-2889485626650247439",
+                "event": "click<button id=34 class =\"com.pinterest:id/action_button_label\"> Pin,  </button>"
+            },
+            {
+                "from": "-2889485626650247439",
+                "to": "9049544623770079525",
+                "event": "click<button id=14 alt=\"Photo: /storage/emulated/0/DCIM/Facebook/FB_IMG_1728393370753~2.jpg\">  </button>"
+            },
+            {
+                "from": "9049544623770079525",
+                "to": "-394774914667782905",
+                "event": "click<button id=18 alt=\"Photo: /storage/emulated/0/Pictures/Screenshots/Screenshot_20241016-195055_Trebuchet.png\">  </button>"
+            },
+            {
+                "from": "-394774914667782905",
+                "to": "-1714792960944948464",
+                "event": "click<button id=5 class =\"com.pinterest:id/gallery_next_gestalt_button\"> Next,  </button>"
+            },
+            {
+                "from": "-1714792960944948464",
+                "to": -7867261554588817237,
+                "event": "back"
+            },
+            {
+                "from": -7867261554588817237,
+                "to": "-6082268424574031187",
+                "event": "click<button id=15 class =\"com.pinterest:id/done_gestalt_button\"> Next,  </button>"
+            },
+            {
+                "from": "-6082268424574031187",
+                "to": -2760675811674814009,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 3,
+        "comment": "Overall good app,can show your stats and everything. I would give it a 5 stars but no,since you guys removed the feature of single post with multiple images thingy,I am not able to post various photos at once -_- it's kinda annoying . Bring it back please.",
+        "scenarios": [
+            "User attempts to post various photos at once but is unable to do so due to the removal of the feature that allowed single posts with multiple images."
+        ],
+        "key sentence": "User attempts to post various photos at once but is unable to do so due to the removal of the feature that allowed single posts with multiple images.",
+        "target activity": ".feature.pin.creation.CreationActivity",
+        "the function of activity": "Create Pins or Boards.",
+        "target state": "26a74922d9bf7c292c60938a0b536a12",
+        "the sub-task list of state": "[{'name': 'Select Videos or Photos', 'description': 'Select Videos or Photos to Create Pin or Board.'}, {'name': 'Camera', 'description': 'Take a photo or video to create pin or board.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\4da12b747db0462e12ee6303ede5f54b.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4da12b747db0462e12ee6303ede5f54b"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\26a74922d9bf7c292c60938a0b536a12.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "26a74922d9bf7c292c60938a0b536a12"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\1653337029438507116.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1653337029438507116"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-2889485626650247439.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-2889485626650247439"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\9049544623770079525.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "9049544623770079525"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-394774914667782905.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-394774914667782905"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-1714792960944948464.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-1714792960944948464"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-7867261554588817237.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-7867261554588817237"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-6082268424574031187.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-6082268424574031187"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-2760675811674814009.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-2760675811674814009"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\4da12b747db0462e12ee6303ede5f54b.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4da12b747db0462e12ee6303ede5f54b"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\26a74922d9bf7c292c60938a0b536a12.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "26a74922d9bf7c292c60938a0b536a12"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-4984513201410027923.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4984513201410027923"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\3817454667508234224.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "3817454667508234224"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\9049544623770079525.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "9049544623770079525"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-394774914667782905.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-394774914667782905"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-2859779487406508942.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-2859779487406508942"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\3736041532410492086.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "3736041532410492086"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-4559491589505026537.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4559491589505026537"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\8058324559003272317.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8058324559003272317"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-7413963115606424755.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-7413963115606424755"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\9049544623770079525.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "9049544623770079525"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-394774914667782905.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-394774914667782905"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-9055438040690591375.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "-9055438040690591375"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\3736041532410492086.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "3736041532410492086"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment53\\scene0\\-4559491589505026537.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4559491589505026537"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "4da12b747db0462e12ee6303ede5f54b",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=e7c5c61cd1d7e20ff5e11581f09745cd(MainActivity/FrameLayout-Create, Ta:x452:y2016))"
+            },
+            {
+                "from": "4da12b747db0462e12ee6303ede5f54b",
+                "to": "26a74922d9bf7c292c60938a0b536a12",
+                "event": "click(state=4da12b747db0462e12ee6303ede5f54b, view=d00bc6aa8417a04bdcd78a5f173f8f02(MainActivity/TextView-Pin:x395:y1994))"
+            },
+            {
+                "from": "26a74922d9bf7c292c60938a0b536a12",
+                "to": "1653337029438507116",
+                "event": "click<button id=24 class =\"com.pinterest:id/menu_creation\" alt=\"Create, Tab\">  </button>"
+            },
+            {
+                "from": "1653337029438507116",
+                "to": "-2889485626650247439",
+                "event": "click<button id=34 class =\"com.pinterest:id/action_button_label\"> Pin,  </button>"
+            },
+            {
+                "from": "-2889485626650247439",
+                "to": "9049544623770079525",
+                "event": "click<button id=14 alt=\"Photo: /storage/emulated/0/DCIM/Facebook/FB_IMG_1728393370753~2.jpg\">  </button>"
+            },
+            {
+                "from": "9049544623770079525",
+                "to": "-394774914667782905",
+                "event": "click<button id=18 alt=\"Photo: /storage/emulated/0/Pictures/Screenshots/Screenshot_20241016-195055_Trebuchet.png\">  </button>"
+            },
+            {
+                "from": "-394774914667782905",
+                "to": "-1714792960944948464",
+                "event": "click<button id=5 class =\"com.pinterest:id/gallery_next_gestalt_button\"> Next,  </button>"
+            },
+            {
+                "from": "-1714792960944948464",
+                "to": -7867261554588817237,
+                "event": "back"
+            },
+            {
+                "from": -7867261554588817237,
+                "to": "-6082268424574031187",
+                "event": "click<button id=15 class =\"com.pinterest:id/done_gestalt_button\"> Next,  </button>"
+            },
+            {
+                "from": "-6082268424574031187",
+                "to": -2760675811674814009,
+                "event": "back"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "4da12b747db0462e12ee6303ede5f54b",
+                "event": "click(state=ba5f165ac71b67896bd0c28f07857be5, view=e7c5c61cd1d7e20ff5e11581f09745cd(MainActivity/FrameLayout-Create, Ta:x452:y2016))"
+            },
+            {
+                "from": "4da12b747db0462e12ee6303ede5f54b",
+                "to": "26a74922d9bf7c292c60938a0b536a12",
+                "event": "click(state=4da12b747db0462e12ee6303ede5f54b, view=d00bc6aa8417a04bdcd78a5f173f8f02(MainActivity/TextView-Pin:x395:y1994))"
+            },
+            {
+                "from": "26a74922d9bf7c292c60938a0b536a12",
+                "to": "-4984513201410027923",
+                "event": "click<button id=22 class =\"com.pinterest:id/menu_creation\" alt=\"Create, Tab\">  </button>"
+            },
+            {
+                "from": "-4984513201410027923",
+                "to": "3817454667508234224",
+                "event": "click<button id=33 class =\"com.pinterest:id/action_button_label\"> Pin,  </button>"
+            },
+            {
+                "from": "3817454667508234224",
+                "to": "9049544623770079525",
+                "event": "click<button id=14 alt=\"Photo: /storage/emulated/0/DCIM/Facebook/FB_IMG_1728393370753~2.jpg\">  </button>"
+            },
+            {
+                "from": "9049544623770079525",
+                "to": "-394774914667782905",
+                "event": "click<button id=18 alt=\"Photo: /storage/emulated/0/Pictures/Screenshots/Screenshot_20241016-195055_Trebuchet.png\">  </button>"
+            },
+            {
+                "from": "-394774914667782905",
+                "to": "-2859779487406508942",
+                "event": "click<button id=5 class =\"com.pinterest:id/gallery_next_gestalt_button\"> Next,  </button>"
+            },
+            {
+                "from": "-2859779487406508942",
+                "to": "3736041532410492086",
+                "event": "click<button id=15 class =\"com.pinterest:id/done_gestalt_button\"> Next,  </button>"
+            },
+            {
+                "from": "3736041532410492086",
+                "to": "-4559491589505026537",
+                "event": "click<button id=24 class =\"com.pinterest:id/create_gestalt_button\"> Create,  </button>"
+            },
+            {
+                "from": "-4559491589505026537",
+                "to": "8058324559003272317",
+                "event": "click<button id=22 class =\"com.pinterest:id/menu_creation\" alt=\"Create, Tab\">  </button>"
+            },
+            {
+                "from": "8058324559003272317",
+                "to": "-7413963115606424755",
+                "event": "click<button id=33 class =\"com.pinterest:id/action_button_label\"> Pin,  </button>"
+            },
+            {
+                "from": "-7413963115606424755",
+                "to": "9049544623770079525",
+                "event": "click<button id=14 alt=\"Photo: /storage/emulated/0/DCIM/Facebook/FB_IMG_1728393370753~2.jpg\">  </button>"
+            },
+            {
+                "from": "9049544623770079525",
+                "to": "-394774914667782905",
+                "event": "click<button id=18 alt=\"Photo: /storage/emulated/0/Pictures/Screenshots/Screenshot_20241016-195055_Trebuchet.png\">  </button>"
+            },
+            {
+                "from": "-394774914667782905",
+                "to": "-9055438040690591375",
+                "event": "click<button id=5 class =\"com.pinterest:id/gallery_next_gestalt_button\"> Next,  </button>"
+            },
+            {
+                "from": "-9055438040690591375",
+                "to": "3736041532410492086",
+                "event": "click<button id=15 class =\"com.pinterest:id/done_gestalt_button\"> Next,  </button>"
+            },
+            {
+                "from": "3736041532410492086",
+                "to": "-4559491589505026537",
+                "event": "click<button id=24 class =\"com.pinterest:id/create_gestalt_button\"> Create,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

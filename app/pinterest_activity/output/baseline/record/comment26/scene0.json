@@ -1,0 +1,35 @@
+[
+    {
+        "round": 1,
+        "comment": "I use Pinterest a lot but the recent update seems to had a detrimental effect on the usability of the app. I can no longer click on a thumb image and have it open up properly. It zooms in to one section of the image leaving the rest off screen. If you try to zoom out if just runs a visual search on the item in the photo. I hope this gets sorted in the next update.",
+        "scenarios": [
+            "User clicks on a thumbnail image, but the image does not open up properly; it only zooms in on one section, leaving the rest off-screen.",
+            "User tries to zoom out of the image, but instead of zooming out, the app initiates a visual search on the item in the photo."
+        ],
+        "key sentence": "User clicks on a thumbnail image, but the image does not open up properly; it only zooms in on one section, leaving the rest off-screen.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment26\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment26\\scene0\\25804749303938015.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "25804749303938015"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "25804749303938015",
+                "event": "click<button id=2 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from \u2606:**:.&#120404;&#120426;&#120423;&#120414; &#120390;&#120414;&#120418;&#120429;&#120429;\u02dc\u201d*\u00b0\u2022., Title: &#120398;&#120406;&#120427;&#120410; = &#120385;&#120420;&#120417;&#120417;&#120420;&#120428; &#120418;&#120410;, This may contain: an illustration of a woman with a flower in her hair, looking to the side\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

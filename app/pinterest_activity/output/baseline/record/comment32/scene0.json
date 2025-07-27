@@ -1,0 +1,81 @@
+[
+    {
+        "round": 1,
+        "comment": "It is very good at recommending content relavent to you. One of my favorite apps. I waste alot of time on it. Great for fandoms. Sometimes it has its moments, but bugs are usually fixed quickly. One of my only complaints is that when you return to the home page it reloads. Which to me is a little annoying because I'll see a pin i like and want to save but usually before i can tap it the page refreshes and its gone :\\ but thats pretty much the only complaint. Would definately recommend!",
+        "scenarios": [
+            "Return to the home page, and it reloads. When the user sees a pin they like and want to save, the page refreshes before they can tap it, causing the pin to disappear."
+        ],
+        "key sentence": "Return to the home page, and it reloads. When the user sees a pin they like and want to save, the page refreshes before they can tap it, causing the pin to disappear.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment32\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment32\\scene0\\273036825089010544.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "273036825089010544"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "273036825089010544",
+                "event": "click<button id=22 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "It is very good at recommending content relavent to you. One of my favorite apps. I waste alot of time on it. Great for fandoms. Sometimes it has its moments, but bugs are usually fixed quickly. One of my only complaints is that when you return to the home page it reloads. Which to me is a little annoying because I'll see a pin i like and want to save but usually before i can tap it the page refreshes and its gone :\\ but thats pretty much the only complaint. Would definately recommend!",
+        "scenarios": [
+            "Return to the home page, and it reloads. When the user sees a pin they like and want to save, the page refreshes before they can tap it, causing the pin to disappear."
+        ],
+        "key sentence": "Return to the home page, and it reloads. When the user sees a pin they like and want to save, the page refreshes before they can tap it, causing the pin to disappear.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment32\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment32\\scene0\\273036825089010544.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "273036825089010544"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment32\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment32\\scene0\\8178488132992119417.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8178488132992119417"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "273036825089010544",
+                "event": "click<button id=22 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "8178488132992119417",
+                "event": "click<button id=22 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

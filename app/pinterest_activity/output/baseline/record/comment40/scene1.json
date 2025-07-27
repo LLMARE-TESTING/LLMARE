@@ -1,0 +1,116 @@
+[
+    {
+        "round": 2,
+        "comment": "ABYSMAL. The app is slow, it often won't upload at all, refuses to save downloads to boards, and when it does, it's apt to save the pictures to the WRONG boards!! \u9983\u304c",
+        "scenarios": [
+            "The app won't upload at all.",
+            "The app refuses to save downloads to boards.",
+            "The app saves pictures to the wrong boards."
+        ],
+        "key sentence": "The app refuses to save downloads to boards.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene1\\4331367315376668092.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4331367315376668092"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene1\\-7049469302900884171.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7049469302900884171"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene1\\-3207756307122689549.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3207756307122689549"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene1\\-3207756307122689549.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3207756307122689549"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene1\\-7049469302900884171.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7049469302900884171"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene1\\-3207756307122689549.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3207756307122689549"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene1\\-3207756307122689549.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3207756307122689549"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene1\\727572075413464264.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "727572075413464264"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene1\\6184431698435705912.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "6184431698435705912"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "4331367315376668092",
+                "event": "click<button id=26 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "4331367315376668092",
+                "to": "-7049469302900884171",
+                "event": "click<button id=24 alt=\"Board: Cute drawings\">  </button>"
+            },
+            {
+                "from": "-7049469302900884171",
+                "to": "-3207756307122689549",
+                "event": "click<p id=20 class =\"com.pinterest:id/text\"> Add,  </p>"
+            },
+            {
+                "from": "-3207756307122689549",
+                "to": "-3207756307122689549",
+                "event": "click<p id=19 class =\"com.pinterest:id/text\"> Organize,  </p>"
+            },
+            {
+                "from": "-3207756307122689549",
+                "to": -7049469302900884171,
+                "event": "back"
+            },
+            {
+                "from": -7049469302900884171,
+                "to": "-3207756307122689549",
+                "event": "click<p id=20 class =\"com.pinterest:id/text\"> Add,  </p>"
+            },
+            {
+                "from": "-3207756307122689549",
+                "to": "-3207756307122689549",
+                "event": "click<p id=19 class =\"com.pinterest:id/text\"> Organize,  </p>"
+            },
+            {
+                "from": "-3207756307122689549",
+                "to": "727572075413464264",
+                "event": "click<p id=23 class =\"com.pinterest:id/option_title\"> Pin,  </p>"
+            },
+            {
+                "from": "727572075413464264",
+                "to": "6184431698435705912",
+                "event": "click<button id=14 alt=\"Photo: /storage/emulated/0/test.png\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

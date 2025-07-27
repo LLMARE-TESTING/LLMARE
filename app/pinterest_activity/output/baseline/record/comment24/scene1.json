@@ -1,0 +1,85 @@
+[
+    {
+        "round": 1,
+        "comment": "A great app deeply diminished by poor UI. The tap and hold options should be below the tap to stop accidental selection. A user presses and drags up to scroll down. This function overlaps the tap hold and drag up to select. The number of times I have accidentally added something to my google favourites instead of scrolling is too high. Maximum frustration. Minor fix would make it 999 times better to use.",
+        "scenarios": [
+            "A user presses and drags up to scroll down, but this action overlaps with the tap, hold, and drag up to select, leading to accidental selection.\n",
+            "When trying to scroll, the user accidentally adds items to Google favorites due to overlapping gestural actions."
+        ],
+        "key sentence": "When trying to scroll, the user accidentally adds items to Google favorites due to overlapping gestural actions.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment24\\scene0\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment24\\scene0\\scene1\\-849948107839872516.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-849948107839872516"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment24\\scene0\\scene1\\-456284977636449224.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-456284977636449224"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment24\\scene0\\scene1\\-849948107839872516.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-849948107839872516"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment24\\scene0\\scene1\\-456284977636449224.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-456284977636449224"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment24\\scene0\\scene1\\-4443696295471335446.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4443696295471335446"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment24\\scene0\\scene1\\-4443696295471335446.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4443696295471335446"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-849948107839872516",
+                "event": "scroll up"
+            },
+            {
+                "from": "-849948107839872516",
+                "to": "-456284977636449224",
+                "event": "scroll down"
+            },
+            {
+                "from": "-456284977636449224",
+                "to": "-849948107839872516",
+                "event": "scroll up"
+            },
+            {
+                "from": "-849948107839872516",
+                "to": "-456284977636449224",
+                "event": "scroll down"
+            },
+            {
+                "from": "-456284977636449224",
+                "to": "-4443696295471335446",
+                "event": "scroll down"
+            },
+            {
+                "from": "-4443696295471335446",
+                "to": "-4443696295471335446",
+                "event": "long-click"
+            }
+        ],
+        "Final answer": 1
+    }
+]

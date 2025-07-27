@@ -1,0 +1,85 @@
+[
+    {
+        "round": 1,
+        "comment": "love the app, but there are some things that are annoying. When you go back onto the homepage not too long after, your feed resets automatically, not being able to find the pins before it restarted, nothing. It's annoying because it automatically decides to refresh my page without me doing so and not being able to browse the pins I'd like. Pinterest also sent me several emails saying they've removed pins from my board and ones I've created, and doesn't show which pins or lets me send an appeal.",
+        "scenarios": [
+            "Go back onto the homepage not too long after, and the feed resets automatically, preventing the user from finding the pins before the reset.",
+            "Pinterest automatically refreshes the page without the user doing so, preventing the user from browsing the pins they want.",
+            "Pinterest sends several emails saying they've removed pins from the user's board and ones they've created, but doesn't show which pins were removed or allow the user to send an appeal."
+        ],
+        "key sentence": "Go back onto the homepage not too long after, and the feed resets automatically, preventing the user from finding the pins before the reset.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment33\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment33\\scene0\\-5696308888199064462.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-5696308888199064462"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-5696308888199064462",
+                "event": "click<button id=21 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "love the app, but there are some things that are annoying. When you go back onto the homepage not too long after, your feed resets automatically, not being able to find the pins before it restarted, nothing. It's annoying because it automatically decides to refresh my page without me doing so and not being able to browse the pins I'd like. Pinterest also sent me several emails saying they've removed pins from my board and ones I've created, and doesn't show which pins or lets me send an appeal.",
+        "scenarios": [
+            "Go back onto the homepage not too long after, and the feed resets automatically, preventing the user from finding the pins before the reset.",
+            "Pinterest automatically refreshes the page without the user doing so, preventing the user from browsing the pins they want.",
+            "Pinterest sends several emails saying they've removed pins from the user's board and ones they've created, but doesn't show which pins were removed or allow the user to send an appeal."
+        ],
+        "key sentence": "Go back onto the homepage not too long after, and the feed resets automatically, preventing the user from finding the pins before the reset.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment33\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment33\\scene0\\-5696308888199064462.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-5696308888199064462"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment33\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment33\\scene0\\1393951627295352371.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1393951627295352371"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-5696308888199064462",
+                "event": "click<button id=21 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "1393951627295352371",
+                "event": "click<button id=20 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

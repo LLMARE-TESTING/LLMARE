@@ -1,0 +1,353 @@
+[
+    {
+        "round": 1,
+        "comment": "This app is absolutely amazing I've used this for almost a year, but I am facing 2 problems. 1. We do not have a history tab, suppose we watch a video and accidentally restart the app so you'll never be able to find that video, unless you saved it. Please add a history tab!! 2. This is the biggest issue I'm facing, since a while ago, I can't hear the audio of most of the videos and if I want to listen it I have to save it and then watch it. Please fix this glitch ASAP!!",
+        "scenarios": [
+            "Watch a video and accidentally restart the app, then be unable to find that video unless it was saved, due to the absence of a history tab.",
+            "Inability to hear the audio of most videos unless they are saved and then watched."
+        ],
+        "key sentence": "Watch a video and accidentally restart the app, then be unable to find that video unless it was saved, due to the absence of a history tab.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\-4095872978139020763.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4095872978139020763"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\3897562485485807194.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3897562485485807194"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\-6878872316808040004.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6878872316808040004"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\6883476043520095927.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "6883476043520095927"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\-4576887041161038199.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4576887041161038199"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\6044973684928680198.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "6044973684928680198"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\-3289480521157537995.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3289480521157537995"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\8412707991506657376.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8412707991506657376"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\-3289480521157537995.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3289480521157537995"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\4553159551008323787.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4553159551008323787"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-4095872978139020763",
+                "event": "click<button id=25 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-4095872978139020763",
+                "to": "3897562485485807194",
+                "event": "click<button id=36 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "3897562485485807194",
+                "to": "-6878872316808040004",
+                "event": "click<button id=21 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "-6878872316808040004",
+                "to": "6883476043520095927",
+                "event": "click<button id=2 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from Nadir, Title: &#128123;, This may contain: a cartoon ghost looking at its reflection in a mirror\">  </button>"
+            },
+            {
+                "from": "6883476043520095927",
+                "to": "-4576887041161038199",
+                "event": "click<button id=16 class =\"com.pinterest:id/save_pinit_bt\"> Save,  </button>"
+            },
+            {
+                "from": "-4576887041161038199",
+                "to": "6044973684928680198",
+                "event": "click<button id=12 class =\"com.pinterest:id/closeup_back_button\" alt=\"Back\">  </button>"
+            },
+            {
+                "from": "6044973684928680198",
+                "to": "-3289480521157537995",
+                "event": "click<div id=2 alt=\"Pin from Nadir, Title: &#128123;, This may contain: a cartoon ghost looking at its reflection in a mirror\">  </div>"
+            },
+            {
+                "from": "-3289480521157537995",
+                "to": "8412707991506657376",
+                "event": "click<button id=6 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from Nadir, Title: &#128123;, This may contain: a cartoon ghost looking at its reflection in a mirror\">  </button>"
+            },
+            {
+                "from": "8412707991506657376",
+                "to": "-3289480521157537995",
+                "event": "click<button id=12 class =\"com.pinterest:id/closeup_back_button\" alt=\"Back\">  </button>"
+            },
+            {
+                "from": "-3289480521157537995",
+                "to": "4553159551008323787",
+                "event": "click<button id=4 class =\"com.pinterest:id/back_bt\" alt=\"Close\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 4,
+        "comment": "This app is absolutely amazing I've used this for almost a year, but I am facing 2 problems. 1. We do not have a history tab, suppose we watch a video and accidentally restart the app so you'll never be able to find that video, unless you saved it. Please add a history tab!! 2. This is the biggest issue I'm facing, since a while ago, I can't hear the audio of most of the videos and if I want to listen it I have to save it and then watch it. Please fix this glitch ASAP!!",
+        "scenarios": [
+            "Watch a video and accidentally restart the app, then be unable to find that video unless it was saved, due to the absence of a history tab.",
+            "Inability to hear the audio of most videos unless they are saved and then watched."
+        ],
+        "key sentence": "Watch a video and accidentally restart the app, then be unable to find that video unless it was saved, due to the absence of a history tab.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\-4095872978139020763.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4095872978139020763"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\3897562485485807194.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3897562485485807194"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\-6878872316808040004.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6878872316808040004"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\6883476043520095927.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "6883476043520095927"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\-4576887041161038199.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4576887041161038199"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\6044973684928680198.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "6044973684928680198"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\-3289480521157537995.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3289480521157537995"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\8412707991506657376.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8412707991506657376"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\-3289480521157537995.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3289480521157537995"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\4553159551008323787.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4553159551008323787"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\-4095872978139020763.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4095872978139020763"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\8218768596382849078.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8218768596382849078"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\6015259629447240724.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "6015259629447240724"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\8218768596382849078.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8218768596382849078"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\6015259629447240724.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "6015259629447240724"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\8218768596382849078.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8218768596382849078"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\-4040466146806038779.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4040466146806038779"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\8218768596382849078.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8218768596382849078"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\-8552663438746914702.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8552663438746914702"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment35\\scene0\\249548112342747240.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "249548112342747240"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-4095872978139020763",
+                "event": "click<button id=25 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-4095872978139020763",
+                "to": "3897562485485807194",
+                "event": "click<button id=36 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "3897562485485807194",
+                "to": "-6878872316808040004",
+                "event": "click<button id=21 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "-6878872316808040004",
+                "to": "6883476043520095927",
+                "event": "click<button id=2 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from Nadir, Title: &#128123;, This may contain: a cartoon ghost looking at its reflection in a mirror\">  </button>"
+            },
+            {
+                "from": "6883476043520095927",
+                "to": "-4576887041161038199",
+                "event": "click<button id=16 class =\"com.pinterest:id/save_pinit_bt\"> Save,  </button>"
+            },
+            {
+                "from": "-4576887041161038199",
+                "to": "6044973684928680198",
+                "event": "click<button id=12 class =\"com.pinterest:id/closeup_back_button\" alt=\"Back\">  </button>"
+            },
+            {
+                "from": "6044973684928680198",
+                "to": "-3289480521157537995",
+                "event": "click<div id=2 alt=\"Pin from Nadir, Title: &#128123;, This may contain: a cartoon ghost looking at its reflection in a mirror\">  </div>"
+            },
+            {
+                "from": "-3289480521157537995",
+                "to": "8412707991506657376",
+                "event": "click<button id=6 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from Nadir, Title: &#128123;, This may contain: a cartoon ghost looking at its reflection in a mirror\">  </button>"
+            },
+            {
+                "from": "8412707991506657376",
+                "to": "-3289480521157537995",
+                "event": "click<button id=12 class =\"com.pinterest:id/closeup_back_button\" alt=\"Back\">  </button>"
+            },
+            {
+                "from": "-3289480521157537995",
+                "to": "4553159551008323787",
+                "event": "click<button id=4 class =\"com.pinterest:id/back_bt\" alt=\"Close\">  </button>"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-4095872978139020763",
+                "event": "click<button id=26 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-4095872978139020763",
+                "to": "8218768596382849078",
+                "event": "click<button id=36 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "8218768596382849078",
+                "to": "6015259629447240724",
+                "event": "click<button id=2 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from sky!, Title: clouds, This may contain: an airplane flying in the sky above some trees and clouds with leaves on it's branches\">  </button>"
+            },
+            {
+                "from": "6015259629447240724",
+                "to": 8218768596382849078,
+                "event": "back"
+            },
+            {
+                "from": 8218768596382849078,
+                "to": "6015259629447240724",
+                "event": "click<button id=2 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from sky!, Title: clouds, This may contain: an airplane flying in the sky above some trees and clouds with leaves on it's branches\">  </button>"
+            },
+            {
+                "from": "6015259629447240724",
+                "to": 8218768596382849078,
+                "event": "back"
+            },
+            {
+                "from": 8218768596382849078,
+                "to": "-4040466146806038779",
+                "event": "click<button id=2 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from sky!, Title: clouds, This may contain: an airplane flying in the sky above some trees and clouds with leaves on it's branches\">  </button>"
+            },
+            {
+                "from": "-4040466146806038779",
+                "to": 8218768596382849078,
+                "event": "back"
+            },
+            {
+                "from": 8218768596382849078,
+                "to": "-8552663438746914702",
+                "event": "click<button id=26 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-8552663438746914702",
+                "to": "249548112342747240",
+                "event": "click<button id=21 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from Jane\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

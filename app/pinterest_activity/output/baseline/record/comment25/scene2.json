@@ -1,0 +1,46 @@
+[
+    {
+        "round": 1,
+        "comment": "I've used this app for years and the last few updates have tanked the ability to use the app. You can't even swipe easily, as the pin will stop part way through swiping before freezing, or not allow you to swipe at all. The only time you can be sure this won't happen is when trying to move through multi page ads. In addition with this last update it will randomly scroll to the bottom of the pin to expose the comments, which is annoying for long pins. This used to be fun, now it's barely running.",
+        "scenarios": [
+            "Attempting to swipe through pins, but experiencing issues where the pin stops partway through swiping or freezes, or the app does not allow swiping at all.",
+            "Trying to move through multi-page ads with swiping, which is the only scenario where swiping works reliably. ",
+            "Experiencing random scrolling to the bottom of a pin to expose the comments, particularly for long pins."
+        ],
+        "key sentence": "Experiencing random scrolling to the bottom of a pin to expose the comments, particularly for long pins.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\scene1\\scene2\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\scene1\\scene2\\-2885843127395259414.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2885843127395259414"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment25\\scene0\\scene1\\scene2\\-2885843127395259414.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2885843127395259414"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-2885843127395259414",
+                "event": "click<button id=2 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from alsu_khabirova, Title: Cat&#128049;&#128568;, This may contain: a kitten sleeping on top of a stuffed animal\">  </button>"
+            },
+            {
+                "from": "-2885843127395259414",
+                "to": "-2885843127395259414",
+                "event": "scroll down"
+            }
+        ],
+        "Final answer": 1
+    }
+]

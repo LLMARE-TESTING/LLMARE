@@ -1,0 +1,361 @@
+[
+    {
+        "round": 1,
+        "comment": "I really like this app for it's content and it's ease of navigation, but editing something you posted is impossible. Every time I click edit to maybe add a description, for example, it doesn't STAY ON the edit page. It will open for to enable edit and then it doesn't stay there. It RIGHT AWAY closes the edit portion and I can't add anything. Please fix this. I can't add or change anything. Edits are no longer possible.",
+        "scenarios": [
+            "Click edit on a post to add a description; the edit page opens but does not stay open, closing right away and preventing any changes or additions."
+        ],
+        "key sentence": "Click edit on a post to add a description; the edit page opens but does not stay open, closing right away and preventing any changes or additions.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state19",
+        "the sub-task list of state": "[{'name': 'View Message Cell', 'description': 'View the message cell'}, {'name': 'View Conversation Message Content', 'description': 'View the conversation message content'}, {'name': 'Send or reply Message', 'description': 'Send or reply a message'}, {'name': 'Edit Message Text', 'description': 'Edit a message text'}, {'name': 'View Text Input Layout', 'description': 'View the text input layout'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\state1.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\state19.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state19"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\-3425740987702725414.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3425740987702725414"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\-293221216188918319.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-293221216188918319"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\-2334385115610725667.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2334385115610725667"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\4861823691801458214.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4861823691801458214"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\-4491771885917924087.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4491771885917924087"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\2631843588472630592.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "2631843588472630592"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\3663799596489289997.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3663799596489289997"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\5624561039061376212.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5624561039061376212"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state1",
+                "event": "click(TextView-Notifications:[628,2096][804,2140])"
+            },
+            {
+                "from": "state1",
+                "to": "state19",
+                "event": "click(android.widget.LinearLayout-com.pinterest:id/conversation_container:[44,722][1036,922])"
+            },
+            {
+                "from": "state19",
+                "to": "-3425740987702725414",
+                "event": "click<button id=7 class =\"com.pinterest:id/icon_button\">  </button>"
+            },
+            {
+                "from": "-3425740987702725414",
+                "to": -293221216188918319,
+                "event": "back"
+            },
+            {
+                "from": -293221216188918319,
+                "to": "-2334385115610725667",
+                "event": "click<button id=11 class =\"com.pinterest:id/news_hub_content_container\" alt=\"Inspired by you\">  </button>"
+            },
+            {
+                "from": "-2334385115610725667",
+                "to": "4861823691801458214",
+                "event": "click<button id=15 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "4861823691801458214",
+                "to": "-4491771885917924087",
+                "event": "click<div id=5 class =\"com.pinterest:id/profile_pins_tab\" alt=\"Pins\">  </div>"
+            },
+            {
+                "from": "-4491771885917924087",
+                "to": "2631843588472630592",
+                "event": "click<button id=19 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from &#129419; Alisha &#129419;\">  </button>"
+            },
+            {
+                "from": "2631843588472630592",
+                "to": "3663799596489289997",
+                "event": "click<button id=3 class =\"com.pinterest:id/closeup_overflow_button\" alt=\"More options\">  </button>"
+            },
+            {
+                "from": "3663799596489289997",
+                "to": "5624561039061376212",
+                "event": "click<p id=40 class =\"com.pinterest:id/cell_title\"> Edit Pin,  </p>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "I really like this app for it's content and it's ease of navigation, but editing something you posted is impossible. Every time I click edit to maybe add a description, for example, it doesn't STAY ON the edit page. It will open for to enable edit and then it doesn't stay there. It RIGHT AWAY closes the edit portion and I can't add anything. Please fix this. I can't add or change anything. Edits are no longer possible.",
+        "scenarios": [
+            "Click edit on a post to add a description; the edit page opens but does not stay open, closing right away and preventing any changes or additions."
+        ],
+        "key sentence": "Click edit on a post to add a description; the edit page opens but does not stay open, closing right away and preventing any changes or additions.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state19",
+        "the sub-task list of state": "[{'name': 'View Message Cell', 'description': 'View the message cell'}, {'name': 'View Conversation Message Content', 'description': 'View the conversation message content'}, {'name': 'Send or reply Message', 'description': 'Send or reply a message'}, {'name': 'Edit Message Text', 'description': 'Edit a message text'}, {'name': 'View Text Input Layout', 'description': 'View the text input layout'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\state1.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\state19.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state19"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\-3425740987702725414.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3425740987702725414"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\-293221216188918319.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-293221216188918319"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\-2334385115610725667.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2334385115610725667"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\4861823691801458214.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4861823691801458214"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\-4491771885917924087.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4491771885917924087"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\2631843588472630592.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "2631843588472630592"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\3663799596489289997.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3663799596489289997"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\5624561039061376212.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5624561039061376212"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\state1.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\state19.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state19"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\-6289934407828190475.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6289934407828190475"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\-6289934407828190475.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6289934407828190475"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\-6289934407828190475.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6289934407828190475"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\-293221216188918319.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-293221216188918319"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\8951619906856913782.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8951619906856913782"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\-4491771885917924087.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4491771885917924087"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\-4491771885917924087.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4491771885917924087"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\-3360325984035844757.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3360325984035844757"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment28\\scene0\\-4491771885917924087.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4491771885917924087"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state1",
+                "event": "click(TextView-Notifications:[628,2096][804,2140])"
+            },
+            {
+                "from": "state1",
+                "to": "state19",
+                "event": "click(android.widget.LinearLayout-com.pinterest:id/conversation_container:[44,722][1036,922])"
+            },
+            {
+                "from": "state19",
+                "to": "-3425740987702725414",
+                "event": "click<button id=7 class =\"com.pinterest:id/icon_button\">  </button>"
+            },
+            {
+                "from": "-3425740987702725414",
+                "to": -293221216188918319,
+                "event": "back"
+            },
+            {
+                "from": -293221216188918319,
+                "to": "-2334385115610725667",
+                "event": "click<button id=11 class =\"com.pinterest:id/news_hub_content_container\" alt=\"Inspired by you\">  </button>"
+            },
+            {
+                "from": "-2334385115610725667",
+                "to": "4861823691801458214",
+                "event": "click<button id=15 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "4861823691801458214",
+                "to": "-4491771885917924087",
+                "event": "click<div id=5 class =\"com.pinterest:id/profile_pins_tab\" alt=\"Pins\">  </div>"
+            },
+            {
+                "from": "-4491771885917924087",
+                "to": "2631843588472630592",
+                "event": "click<button id=19 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from &#129419; Alisha &#129419;\">  </button>"
+            },
+            {
+                "from": "2631843588472630592",
+                "to": "3663799596489289997",
+                "event": "click<button id=3 class =\"com.pinterest:id/closeup_overflow_button\" alt=\"More options\">  </button>"
+            },
+            {
+                "from": "3663799596489289997",
+                "to": "5624561039061376212",
+                "event": "click<p id=40 class =\"com.pinterest:id/cell_title\"> Edit Pin,  </p>"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state1",
+                "event": "click(TextView-Notifications:[628,2096][804,2140])"
+            },
+            {
+                "from": "state1",
+                "to": "state19",
+                "event": "click(android.widget.LinearLayout-com.pinterest:id/conversation_container:[44,722][1036,922])"
+            },
+            {
+                "from": "state19",
+                "to": "-6289934407828190475",
+                "event": "click<button id=29 class =\"com.pinterest:id/menu_creation\" alt=\"Create, Tab\">  </button>"
+            },
+            {
+                "from": "-6289934407828190475",
+                "to": "-6289934407828190475",
+                "event": "click<button id=30 class =\"com.pinterest:id/menu_notifications\" alt=\"Notifications, Tab\">  </button>"
+            },
+            {
+                "from": "-6289934407828190475",
+                "to": "-6289934407828190475",
+                "event": "click<button id=31 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-6289934407828190475",
+                "to": "-293221216188918319",
+                "event": "click<button id=8 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "-293221216188918319",
+                "to": "8951619906856913782",
+                "event": "click<button id=31 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "8951619906856913782",
+                "to": "-4491771885917924087",
+                "event": "click<div id=5 class =\"com.pinterest:id/profile_pins_tab\" alt=\"Pins\">  </div>"
+            },
+            {
+                "from": "-4491771885917924087",
+                "to": "-4491771885917924087",
+                "event": "click<button id=29 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from little_neet\">  </button>"
+            },
+            {
+                "from": "-4491771885917924087",
+                "to": "-3360325984035844757",
+                "event": "click<button id=14 class =\"com.pinterest:id/icon_button\">  </button>"
+            },
+            {
+                "from": "-3360325984035844757",
+                "to": "-4491771885917924087",
+                "event": "click<button id=19 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from &#129419; Alisha &#129419;\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,125 @@
+[
+    {
+        "round": 1,
+        "comment": "Notifications are a bit weird. When I'm outside of the app, I'll get comments and replies that show up in my notification bar. But when I click them, it won't bring me to the comment, it'll just bring me to my Pinterest homepage. I can look through my notifications in the app, but not all comments show up. This happens EVERY time, I've never been able to see what people reply to me.",
+        "scenarios": [
+            "When the user is outside of the app and receives a notification for comments and replies in the notification bar, clicking the notification does not bring the user to the specific comment but instead directs them to the Pinterest homepage.",
+            "When the user looks through their notifications within the app, not all comments show up."
+        ],
+        "key sentence": "When the user is outside of the app and receives a notification for comments and replies in the notification bar, clicking the notification does not bring the user to the specific comment but instead directs them to the Pinterest homepage.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment17\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment17\\scene0\\2573058169015270167.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "2573058169015270167"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment17\\scene0\\5813637850265174934.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5813637850265174934"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment17\\scene0\\-2696133481874573342.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2696133481874573342"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment17\\scene0\\8599928370660315085.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "8599928370660315085"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment17\\scene0\\-2696133481874573342.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2696133481874573342"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment17\\scene0\\-7322500213819043788.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7322500213819043788"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment17\\scene0\\-8399300737469686839.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8399300737469686839"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment17\\scene0\\-3037088288624850635.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3037088288624850635"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment17\\scene0\\-4683381550699883396.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4683381550699883396"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment17\\scene0\\4549776051240776230.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4549776051240776230"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "2573058169015270167",
+                "event": "click<button id=25 class =\"com.pinterest:id/menu_notifications\" alt=\"Notifications, Tab\">  </button>"
+            },
+            {
+                "from": "2573058169015270167",
+                "to": "5813637850265174934",
+                "event": "click<button id=29 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "5813637850265174934",
+                "to": "-2696133481874573342",
+                "event": "click<button id=25 class =\"com.pinterest:id/menu_notifications\" alt=\"Notifications, Tab\">  </button>"
+            },
+            {
+                "from": "-2696133481874573342",
+                "to": "8599928370660315085",
+                "event": "click<button id=29 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "8599928370660315085",
+                "to": "-2696133481874573342",
+                "event": "click<button id=25 class =\"com.pinterest:id/menu_notifications\" alt=\"Notifications, Tab\">  </button>"
+            },
+            {
+                "from": "-2696133481874573342",
+                "to": "-7322500213819043788",
+                "event": "click<button id=29 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "-7322500213819043788",
+                "to": "-8399300737469686839",
+                "event": "click<div id=29 class =\"com.pinterest:id/tab_avatar\" alt=\"Avatar: Jane\">  </div>"
+            },
+            {
+                "from": "-8399300737469686839",
+                "to": "-3037088288624850635",
+                "event": "click<button id=35 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "-3037088288624850635",
+                "to": "-4683381550699883396",
+                "event": "click<button id=21 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "-4683381550699883396",
+                "to": "4549776051240776230",
+                "event": "click<button id=25 class =\"com.pinterest:id/menu_notifications\" alt=\"Notifications, Tab\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

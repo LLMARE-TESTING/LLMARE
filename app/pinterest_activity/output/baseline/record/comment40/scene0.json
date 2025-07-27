@@ -1,0 +1,56 @@
+[
+    {
+        "round": 2,
+        "comment": "ABYSMAL. The app is slow, it often won't upload at all, refuses to save downloads to boards, and when it does, it's apt to save the pictures to the WRONG boards!! \u9983\u304c",
+        "scenarios": [
+            "The app won't upload at all.",
+            "The app refuses to save downloads to boards.",
+            "The app saves pictures to the wrong boards."
+        ],
+        "key sentence": "The app won't upload at all.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene0\\-2742031529313185412.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-2742031529313185412"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene0\\90400963194293201.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "90400963194293201"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment40\\scene0\\727572075413464264.png",
+                "activity": "com.pinterest.feature.pin.creation.CreationActivity}",
+                "state_str": "727572075413464264"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "-2742031529313185412",
+                "event": "click<button id=24 class =\"com.pinterest:id/menu_creation\" alt=\"Create, Tab\">  </button>"
+            },
+            {
+                "from": "-2742031529313185412",
+                "to": "90400963194293201",
+                "event": "click<button id=34 class =\"com.pinterest:id/action_button_label\"> Pin,  </button>"
+            },
+            {
+                "from": "90400963194293201",
+                "to": "727572075413464264",
+                "event": "click<button id=5 class =\"com.pinterest:id/gallery_next_gestalt_button\"> Next,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

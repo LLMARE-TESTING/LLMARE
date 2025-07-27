@@ -1,0 +1,443 @@
+[
+    {
+        "round": 1,
+        "comment": "I LOVED the app but they released an update that has really messed up when you try to save a pin it used to suggest the most likely board you would pin to for that particular subject matter, but now it pops you to the VERY bottom of your list of boards and suggests new boards or it saves it to your \"profile\" and doesn't even suggest your boards at all and if your not fast enough to \"change\" it from the new \"profile\" you have to go into your boards, into your Profile. Super frustrating!\u9983\u61a5",
+        "scenarios": [
+            "When trying to save a pin, the app used to suggest the most likely board for that particular subject matter, but now it pops to the very bottom of the list of boards, suggesting new boards or saving it to the \"profile\" without suggesting existing boards.\n",
+            "If not fast enough to change the pin from being saved to the \"profile,\" the user has to manually navigate into their boards and then into their profile to correct it."
+        ],
+        "key sentence": "If not fast enough to change the pin from being saved to the \"profile,\" the user has to manually navigate into their boards and then into their profile to correct it.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Save Pin', 'description': 'Save a pin or item to a board for later reference.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\state7.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\-412938734087133448.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-412938734087133448"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\4162348493706392901.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4162348493706392901"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\-412938734087133448.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-412938734087133448"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\-412938734087133448.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-412938734087133448"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\4162348493706392901.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4162348493706392901"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\-412938734087133448.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-412938734087133448"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\-412938734087133448.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-412938734087133448"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\4162348493706392901.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4162348493706392901"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\-8527647717269416796.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8527647717269416796"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\-3612963976568238647.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3612963976568238647"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\7681351216751368664.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7681351216751368664"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "-412938734087133448",
+                "event": "click<button id=4 class =\"com.pinterest:id/back_bt\" alt=\"Close\">  </button>"
+            },
+            {
+                "from": "-412938734087133448",
+                "to": "4162348493706392901",
+                "event": "click<button id=2 class =\"com.pinterest:id/icon_button\">  </button>"
+            },
+            {
+                "from": "4162348493706392901",
+                "to": -412938734087133448,
+                "event": "back"
+            },
+            {
+                "from": -412938734087133448,
+                "to": "-412938734087133448",
+                "event": "click<button id=5 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "-412938734087133448",
+                "to": "4162348493706392901",
+                "event": "click<button id=1 alt=\"Share this Pin\">  </button>"
+            },
+            {
+                "from": "4162348493706392901",
+                "to": -412938734087133448,
+                "event": "back"
+            },
+            {
+                "from": -412938734087133448,
+                "to": "-412938734087133448",
+                "event": "click<button id=4 class =\"com.pinterest:id/back_bt\" alt=\"Close\">  </button>"
+            },
+            {
+                "from": "-412938734087133448",
+                "to": "4162348493706392901",
+                "event": "click<button id=2 class =\"com.pinterest:id/icon_button\">  </button>"
+            },
+            {
+                "from": "4162348493706392901",
+                "to": "-8527647717269416796",
+                "event": "click<button id=36 class =\"com.pinterest:id/back_bt\" alt=\"Close\">  </button>"
+            },
+            {
+                "from": "-8527647717269416796",
+                "to": "-3612963976568238647",
+                "event": "click<button id=5 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "-3612963976568238647",
+                "to": "7681351216751368664",
+                "event": "click<button id=16 class =\"com.pinterest:id/icon_button\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "I LOVED the app but they released an update that has really messed up when you try to save a pin it used to suggest the most likely board you would pin to for that particular subject matter, but now it pops you to the VERY bottom of your list of boards and suggests new boards or it saves it to your \"profile\" and doesn't even suggest your boards at all and if your not fast enough to \"change\" it from the new \"profile\" you have to go into your boards, into your Profile. Super frustrating!\u9983\u61a5",
+        "scenarios": [
+            "When trying to save a pin, the app used to suggest the most likely board for that particular subject matter, but now it pops to the very bottom of the list of boards, suggesting new boards or saving it to the \"profile\" without suggesting existing boards.\n",
+            "If not fast enough to change the pin from being saved to the \"profile,\" the user has to manually navigate into their boards and then into their profile to correct it."
+        ],
+        "key sentence": "If not fast enough to change the pin from being saved to the \"profile,\" the user has to manually navigate into their boards and then into their profile to correct it.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'Save Pin', 'description': 'Save a pin or item to a board for later reference.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\state7.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\-412938734087133448.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-412938734087133448"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\4162348493706392901.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4162348493706392901"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\-412938734087133448.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-412938734087133448"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\-412938734087133448.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-412938734087133448"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\4162348493706392901.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4162348493706392901"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\-412938734087133448.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-412938734087133448"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\-412938734087133448.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-412938734087133448"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\4162348493706392901.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4162348493706392901"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\-8527647717269416796.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8527647717269416796"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\-3612963976568238647.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-3612963976568238647"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\7681351216751368664.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7681351216751368664"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\state5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\state7.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\-824472285946385568.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-824472285946385568"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\-824472285946385568.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-824472285946385568"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\-412938734087133448.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-412938734087133448"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\567614247409397464.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "567614247409397464"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\343517805122462196.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "343517805122462196"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\790173619135398601.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "790173619135398601"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\-8530230880128396835.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-8530230880128396835"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\567614247409397464.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "567614247409397464"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\343517805122462196.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "343517805122462196"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\-6242270917595935450.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-6242270917595935450"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment3\\scene1\\790173619135398601.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "790173619135398601"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "-412938734087133448",
+                "event": "click<button id=4 class =\"com.pinterest:id/back_bt\" alt=\"Close\">  </button>"
+            },
+            {
+                "from": "-412938734087133448",
+                "to": "4162348493706392901",
+                "event": "click<button id=2 class =\"com.pinterest:id/icon_button\">  </button>"
+            },
+            {
+                "from": "4162348493706392901",
+                "to": -412938734087133448,
+                "event": "back"
+            },
+            {
+                "from": -412938734087133448,
+                "to": "-412938734087133448",
+                "event": "click<button id=5 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "-412938734087133448",
+                "to": "4162348493706392901",
+                "event": "click<button id=1 alt=\"Share this Pin\">  </button>"
+            },
+            {
+                "from": "4162348493706392901",
+                "to": -412938734087133448,
+                "event": "back"
+            },
+            {
+                "from": -412938734087133448,
+                "to": "-412938734087133448",
+                "event": "click<button id=4 class =\"com.pinterest:id/back_bt\" alt=\"Close\">  </button>"
+            },
+            {
+                "from": "-412938734087133448",
+                "to": "4162348493706392901",
+                "event": "click<button id=2 class =\"com.pinterest:id/icon_button\">  </button>"
+            },
+            {
+                "from": "4162348493706392901",
+                "to": "-8527647717269416796",
+                "event": "click<button id=36 class =\"com.pinterest:id/back_bt\" alt=\"Close\">  </button>"
+            },
+            {
+                "from": "-8527647717269416796",
+                "to": "-3612963976568238647",
+                "event": "click<button id=5 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "-3612963976568238647",
+                "to": "7681351216751368664",
+                "event": "click<button id=16 class =\"com.pinterest:id/icon_button\">  </button>"
+            },
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state5",
+                "event": "click(android.view.View-com.pinterest:id/lego_pin_grid_cell_id:[41,429][510,641])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(Button-Save:[550,1393][757,1558])"
+            },
+            {
+                "from": "state7",
+                "to": "-824472285946385568",
+                "event": "click<button id=5 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            },
+            {
+                "from": "-824472285946385568",
+                "to": "-824472285946385568",
+                "event": "click<div id=0 class =\"com.pinterest:id/coordinator\">  </div>"
+            },
+            {
+                "from": "-824472285946385568",
+                "to": "-412938734087133448",
+                "event": "click<button id=4 class =\"com.pinterest:id/back_bt\" alt=\"Close\">  </button>"
+            },
+            {
+                "from": "-412938734087133448",
+                "to": "567614247409397464",
+                "event": "click<button id=2 class =\"com.pinterest:id/icon_button\">  </button>"
+            },
+            {
+                "from": "567614247409397464",
+                "to": "343517805122462196",
+                "event": "click<button id=22 class =\"com.pinterest:id/back_bt\" alt=\"Close\">  </button>"
+            },
+            {
+                "from": "343517805122462196",
+                "to": "790173619135398601",
+                "event": "click<button id=20 alt=\"Share this Pin\">  </button>"
+            },
+            {
+                "from": "790173619135398601",
+                "to": -8530230880128396835,
+                "event": "back"
+            },
+            {
+                "from": -8530230880128396835,
+                "to": "567614247409397464",
+                "event": "click<button id=1 alt=\"Share this Pin\">  </button>"
+            },
+            {
+                "from": "567614247409397464",
+                "to": "343517805122462196",
+                "event": "click<button id=22 class =\"com.pinterest:id/back_bt\" alt=\"Close\">  </button>"
+            },
+            {
+                "from": "343517805122462196",
+                "to": -6242270917595935450,
+                "event": "back"
+            },
+            {
+                "from": -6242270917595935450,
+                "to": "790173619135398601",
+                "event": "click<button id=23 class =\"com.pinterest:id/recycler_adapter_view\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

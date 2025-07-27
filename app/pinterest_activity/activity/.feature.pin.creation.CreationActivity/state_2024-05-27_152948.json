@@ -1,0 +1,2003 @@
+{
+  "tag": "2024-05-27_152948",
+  "state_str": "5d386c4db031817c8190dc38c2f62b74",
+  "state_str_content_free": "a1dcab4a963ae979f978b186662b93fd",
+  "foreground_activity": "com.pinterest/.feature.pin.creation.CreationActivity",
+  "activity_stack": [
+    "com.pinterest/.feature.pin.creation.CreationActivity",
+    "com.pinterest/.activity.task.activity.MainActivity"
+  ],
+  "background_services": [
+    "vendor.qti.iwlan/.QualifiedNetworksServiceImpl",
+    "vendor.qti.iwlan/.IWlanDataService",
+    "com.qualcomm.atfwd/.AtFwdService",
+    "org.codeaurora.ims/.ImsService",
+    "org.protonaosp.elmyra/.ElmyraService",
+    "com.android.bluetooth/.hearingaid.HearingAidService",
+    "com.google.android.gms/.nearby.sharing.ReceiveSurfaceService",
+    "com.qualcomm.qti.uceShimService/.RCSService",
+    "com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "eu.airaudio.aarscservice/.AARSCService",
+    "com.qualcomm.qti.cne/.CneApp",
+    "com.google.android.gms/.tapandpay.hce.service.TpHceService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.google.android.gms/.droidguard.DroidGuardService",
+    "com.google.android.gms/org.chromium.content.app.SandboxedProcessService0",
+    "com.android.vending/com.google.android.finsky.developergroupidinfo.DeveloperGroupIdInfoService",
+    "com.android.systemui/.ImageWallpaper",
+    "io.appium.settings/.NLService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.common.superpacks.impl.AiAiSuperpacksService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.android.service.ims.presence/.PollingService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.google.android.gms/.location.geocode.GeocodeService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsApiService",
+    "com.android.hbmsvmanager/.DisplayService",
+    "com.google.android.gms/.tron.CollectionService",
+    "app.airmusic.amrscservice/.AMRSCService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.google.android.gms/.nearby.sharing.SendSurfaceService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.android.networkstack/com.android.server.NetworkStackService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService",
+    "com.android.cellbroadcastservice/.DefaultCellBroadcastService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nga.engine.viss.NgaService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.common.notification.service.AiAiNotificationListenerService",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "vendor.qti.iwlan/.IWlanNetworkService",
+    "vendor.qti.hardware.cacert.server/.CACertService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.networkstack.tethering/.TetheringService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.facebook.katana/com.facebook.video.heroplayer.service.HeroKeepAliveService",
+    "com.android.service.ims/.RcsService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.android.launcher3/com.android.quickstep.TouchInteractionService",
+    "com.qti.qualcomm.datastatusnotification/.DataStatusNotificationService",
+    "org.lineageos.audiofx/.service.AudioFxService",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.huajiao/com.qihoo.pushsdk.cx.PushService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.android.service.ims.presence/.EABService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.qualcomm.qti.telephonyservice/.QtiTelephonyService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.google.android.gms/.personalsafety.service.PersonalSafetyService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.qualcomm.qti.services.secureui/.SecureUIService",
+    "com.facebook.katana/com.facebook.mqtt.service.MqttServiceV2",
+    "com.lemon.lvoverseas/com.ss.android.socialbase.downloader.notification.DownloadNotificationService",
+    "com.pinterest/org.chromium.content.app.SandboxedProcessService0",
+    "android.ext.services/.autofill.InlineSuggestionRenderServiceImpl"
+  ],
+  "width": 1080,
+  "height": 2280,
+  "views": [
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        45,
+        46
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*2280",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "1a8e96e9c518ba1fc65b7b108de6c88d",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[enabled,,]",
+      "view_str": "c00c431ad4ac25941a1a6d32c6b87ebe",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1080*2065",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "76f65903884975d030064b34b8965ad4",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.pinterest:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1080*2065",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.pinterest:id/action_bar_root[enabled,,]",
+      "view_str": "82beabc29d0fcf2ffb964e7480b6e66a",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.pinterest:id/action_bar_root"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1080*2065",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[enabled,,]",
+      "view_str": "9a7be306ed018ef84083f4991a9a14fa",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6,
+        7
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.pinterest:id/base_activity_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1080*2065",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.pinterest:id/base_activity_layout[enabled,,]",
+      "view_str": "7108b5d414dfe8830a5120cbbe930300",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.pinterest:id/base_activity_layout"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.pinterest:id/toast_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1080*2065",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.pinterest:id/toast_container[enabled,,]",
+      "view_str": "d7b309e127c1a3a040df9543895a8ffc",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.pinterest:id/toast_container"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 5,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8,
+        9,
+        10,
+        44
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 7,
+      "size": "1080*2065",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.view.ViewGroup[resource_id]None[enabled,,]",
+      "view_str": "fb01666968acc34c39555010ab1fbc3f",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.pinterest:id/brio_modal_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "1080*2065",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.pinterest:id/brio_modal_container[enabled,,]",
+      "view_str": "86326cea298c95c6958f8a40a53ee2d4",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.pinterest:id/brio_modal_container"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.pinterest:id/brio_admin_modal_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 9,
+      "size": "1080*2065",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.pinterest:id/brio_admin_modal_container[enabled,,]",
+      "view_str": "24b459be36e1ce6507afe283c721cd28",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.pinterest:id/brio_admin_modal_container"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.pinterest:id/fragment_wrapper",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 10,
+      "size": "1080*2065",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.pinterest:id/fragment_wrapper[enabled,,]",
+      "view_str": "5b766b321691b71484b65350369fdcfe",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.pinterest:id/fragment_wrapper"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 6,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12,
+        14,
+        15,
+        21,
+        36,
+        37
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "1080*2065",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.view.ViewGroup[resource_id]None[enabled,,]",
+      "view_str": "827c038faced74230d5d850915a88294",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          1928
+        ]
+      ],
+      "resource_id": "com.pinterest:id/camera_preview",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "1080*1845",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.pinterest:id/camera_preview[enabled,,]",
+      "view_str": "b589006a75231a6439264949ab875903",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.pinterest:id/camera_preview"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          1928
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "1080*1845",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.view.View[resource_id]None[enabled,,]",
+      "view_str": "d2e7c5462aad7e4280899ac47ab46d4e",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          1928
+        ]
+      ],
+      "resource_id": "com.pinterest:id/camera_corners",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 14,
+      "size": "1080*1845",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.view.View[resource_id]com.pinterest:id/camera_corners[enabled,,]",
+      "view_str": "629c98164c1b70bd98bdb96b479cada3",
+      "content_free_signature": "[class]android.view.View[resource_id]com.pinterest:id/camera_corners"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        16,
+        17,
+        18,
+        20
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          248
+        ]
+      ],
+      "resource_id": "com.pinterest:id/topbar",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 15,
+      "size": "1080*165",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.pinterest:id/topbar[enabled,,]",
+      "view_str": "6715a750e0ef46066805867f3c02c62a",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.pinterest:id/topbar"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Exit Pin Camera",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          22,
+          105
+        ],
+        [
+          143,
+          226
+        ]
+      ],
+      "resource_id": "com.pinterest:id/story_pin_back",
+      "checked": false,
+      "text": "Exit Pin Camera",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "121*121",
+      "x": 22,
+      "y": 105,
+      "signature": "[class]android.widget.Button[resource_id]com.pinterest:id/story_pin_back[enabled,,]",
+      "view_str": "a835a6c0f08499b04e65ca7fff877827",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.pinterest:id/story_pin_back"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Tap to open Pin support menu",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          165,
+          105
+        ],
+        [
+          286,
+          226
+        ]
+      ],
+      "resource_id": "com.pinterest:id/story_pin_help",
+      "checked": false,
+      "text": "Tap to open Pin support menu",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 15,
+      "temp_id": 17,
+      "size": "121*121",
+      "x": 165,
+      "y": 105,
+      "signature": "[class]android.widget.Button[resource_id]com.pinterest:id/story_pin_help[enabled,,]",
+      "view_str": "ca3fe1a27ccd96e956463e4edc409cf6",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.pinterest:id/story_pin_help"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        19
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          286,
+          136
+        ],
+        [
+          794,
+          195
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 18,
+      "size": "508*59",
+      "x": 286,
+      "y": 136,
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[enabled,,]",
+      "view_str": "1d38b4be29aeec9d341b9a157346227c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          286,
+          136
+        ],
+        [
+          794,
+          195
+        ]
+      ],
+      "resource_id": "com.pinterest:id/title",
+      "checked": false,
+      "text": "Record up to 4m 49s",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "508*59",
+      "x": 286,
+      "y": 136,
+      "signature": "[class]android.widget.TextView[resource_id]com.pinterest:id/title[enabled,,]",
+      "view_str": "6200a0f9d5b1c71d998346eb64d790ff",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.pinterest:id/title"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Next",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          900,
+          105
+        ],
+        [
+          1058,
+          226
+        ]
+      ],
+      "resource_id": "com.pinterest:id/next",
+      "checked": false,
+      "text": "Next",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 15,
+      "temp_id": 20,
+      "size": "158*121",
+      "x": 900,
+      "y": 105,
+      "signature": "[class]android.widget.Button[resource_id]com.pinterest:id/next[enabled,,]",
+      "view_str": "aa86f03b0d71af87fa9d2fa2af6a1ed1",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.pinterest:id/next"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        22,
+        23,
+        28,
+        32
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          676
+        ],
+        [
+          1080,
+          1336
+        ]
+      ],
+      "resource_id": "com.pinterest:id/camera_sidebar_controls",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 21,
+      "size": "1080*660",
+      "x": 0,
+      "y": 676,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.pinterest:id/camera_sidebar_controls[enabled,,]",
+      "view_str": "439f1e208f810d6439c28f26a6baf8da",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.pinterest:id/camera_sidebar_controls"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          676
+        ],
+        [
+          1080,
+          676
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 22,
+      "size": "1080*0",
+      "x": 0,
+      "y": 676,
+      "signature": "[class]android.view.ViewGroup[resource_id]None[enabled,,]",
+      "view_str": "60ecf685f0c83d48afc17b7ba20ec2ee",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        24
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          676
+        ],
+        [
+          1080,
+          896
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 23,
+      "size": "1080*220",
+      "x": 0,
+      "y": 676,
+      "signature": "[class]android.view.ViewGroup[resource_id]None[enabled,,]",
+      "view_str": "e8174f17bfc96f2ac922a9a89d09455c",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Toggle Timer Settings",
+      "children": [
+        25
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          904,
+          698
+        ],
+        [
+          1080,
+          896
+        ]
+      ],
+      "resource_id": "com.pinterest:id/delay_timer_control_button",
+      "checked": false,
+      "text": "Toggle Timer Settings",
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 23,
+      "temp_id": 24,
+      "size": "176*198",
+      "x": 904,
+      "y": 698,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.pinterest:id/delay_timer_control_button[enabled,,]",
+      "view_str": "6f39252218e253d95e1114b9465e4dde",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.pinterest:id/delay_timer_control_button"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        26,
+        27
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          904,
+          720
+        ],
+        [
+          1080,
+          896
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 24,
+      "temp_id": 25,
+      "size": "176*176",
+      "x": 904,
+      "y": 720,
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[enabled,,]",
+      "view_str": "cc10b8c2d9fd1ba5fe397e829834c37b",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          959,
+          742
+        ],
+        [
+          1025,
+          808
+        ]
+      ],
+      "resource_id": "com.pinterest:id/button_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 25,
+      "temp_id": 26,
+      "size": "66*66",
+      "x": 959,
+      "y": 742,
+      "signature": "[class]android.widget.ImageView[resource_id]com.pinterest:id/button_icon[enabled,,]",
+      "view_str": "a0419c8f102492ae5bf2be1030d24143",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.pinterest:id/button_icon"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          948,
+          830
+        ],
+        [
+          1036,
+          874
+        ]
+      ],
+      "resource_id": "com.pinterest:id/button_title",
+      "checked": false,
+      "text": "Timer",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 25,
+      "temp_id": 27,
+      "size": "88*44",
+      "x": 948,
+      "y": 830,
+      "signature": "[class]android.widget.TextView[resource_id]com.pinterest:id/button_title[enabled,,]",
+      "view_str": "8bf542ed6e1a514ec3e7a26f89b53229",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.pinterest:id/button_title"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Toggle Flash",
+      "children": [
+        29
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          904,
+          918
+        ],
+        [
+          1080,
+          1116
+        ]
+      ],
+      "resource_id": "com.pinterest:id/flash_toggle_button",
+      "checked": false,
+      "text": "Toggle Flash",
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 28,
+      "size": "176*198",
+      "x": 904,
+      "y": 918,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.pinterest:id/flash_toggle_button[enabled,,]",
+      "view_str": "48850ea5775e90d94fd81f1e657a3435",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.pinterest:id/flash_toggle_button"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        30,
+        31
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          904,
+          940
+        ],
+        [
+          1080,
+          1116
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 29,
+      "size": "176*176",
+      "x": 904,
+      "y": 940,
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[enabled,,]",
+      "view_str": "1795530069edd01c35442d08ec9e9acd",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          959,
+          962
+        ],
+        [
+          1025,
+          1028
+        ]
+      ],
+      "resource_id": "com.pinterest:id/button_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 29,
+      "temp_id": 30,
+      "size": "66*66",
+      "x": 959,
+      "y": 962,
+      "signature": "[class]android.widget.ImageView[resource_id]com.pinterest:id/button_icon[enabled,,]",
+      "view_str": "ec9b0cf1906178f1cc1b8a8f0168812c",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.pinterest:id/button_icon"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          952,
+          1050
+        ],
+        [
+          1032,
+          1094
+        ]
+      ],
+      "resource_id": "com.pinterest:id/button_title",
+      "checked": false,
+      "text": "Flash",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 29,
+      "temp_id": 31,
+      "size": "80*44",
+      "x": 952,
+      "y": 1050,
+      "signature": "[class]android.widget.TextView[resource_id]com.pinterest:id/button_title[enabled,,]",
+      "view_str": "1f641057056865609982cdff719dc669",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.pinterest:id/button_title"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Switch camera lens",
+      "children": [
+        33
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          904,
+          1138
+        ],
+        [
+          1080,
+          1336
+        ]
+      ],
+      "resource_id": "com.pinterest:id/lens_toggle_button",
+      "checked": false,
+      "text": "Switch camera lens",
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 32,
+      "size": "176*198",
+      "x": 904,
+      "y": 1138,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.pinterest:id/lens_toggle_button[enabled,,]",
+      "view_str": "4194676d1f6dcc5d6185d8f2a622d81d",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.pinterest:id/lens_toggle_button"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        34,
+        35
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          904,
+          1160
+        ],
+        [
+          1080,
+          1336
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 33,
+      "size": "176*176",
+      "x": 904,
+      "y": 1160,
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[enabled,,]",
+      "view_str": "4aced3b53198c6317fd4f17cc2fd61a7",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          959,
+          1182
+        ],
+        [
+          1025,
+          1248
+        ]
+      ],
+      "resource_id": "com.pinterest:id/button_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 33,
+      "temp_id": 34,
+      "size": "66*66",
+      "x": 959,
+      "y": 1182,
+      "signature": "[class]android.widget.ImageView[resource_id]com.pinterest:id/button_icon[enabled,,]",
+      "view_str": "839f78feafce48eaa2a19b3f22870989",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.pinterest:id/button_icon"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          964,
+          1270
+        ],
+        [
+          1019,
+          1314
+        ]
+      ],
+      "resource_id": "com.pinterest:id/button_title",
+      "checked": false,
+      "text": "Flip",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 33,
+      "temp_id": 35,
+      "size": "55*44",
+      "x": 964,
+      "y": 1270,
+      "signature": "[class]android.widget.TextView[resource_id]com.pinterest:id/button_title[enabled,,]",
+      "view_str": "e4258e451c241084223ee72fdd04e9cf",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.pinterest:id/button_title"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1818
+        ],
+        [
+          1036,
+          1906
+        ]
+      ],
+      "resource_id": "com.pinterest:id/camera_segments",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.SeekBar",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 36,
+      "size": "992*88",
+      "x": 44,
+      "y": 1818,
+      "signature": "[class]android.widget.SeekBar[resource_id]com.pinterest:id/camera_segments[enabled,,]",
+      "view_str": "70380a2057968fc4576823aa8b573d61",
+      "content_free_signature": "[class]android.widget.SeekBar[resource_id]com.pinterest:id/camera_segments"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        38
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1928
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.pinterest:id/camera_bottom_bar_controls",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 37,
+      "size": "1080*220",
+      "x": 0,
+      "y": 1928,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.pinterest:id/camera_bottom_bar_controls[enabled,,]",
+      "view_str": "45bc8e6adb8cf8c563bc27572a3c1c9a",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.pinterest:id/camera_bottom_bar_controls"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        39,
+        40,
+        41
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1928
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 37,
+      "temp_id": 38,
+      "size": "1080*220",
+      "x": 0,
+      "y": 1928,
+      "signature": "[class]android.view.ViewGroup[resource_id]None[enabled,,]",
+      "view_str": "85389f254fa789972b70754d49926fb6",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Delete recent clip",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1980
+        ],
+        [
+          160,
+          2096
+        ]
+      ],
+      "resource_id": "com.pinterest:id/delete_button",
+      "checked": false,
+      "text": "Delete recent clip",
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 38,
+      "temp_id": 39,
+      "size": "116*116",
+      "x": 44,
+      "y": 1980,
+      "signature": "[class]android.widget.ImageView[resource_id]com.pinterest:id/delete_button[enabled,,]",
+      "view_str": "bba67ab69a10d8afac066e5aa2fd0b96",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.pinterest:id/delete_button"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Toggle ghost image",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          204,
+          1983
+        ],
+        [
+          314,
+          2093
+        ]
+      ],
+      "resource_id": "com.pinterest:id/ghost_button",
+      "checked": false,
+      "text": "Toggle ghost image",
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 38,
+      "temp_id": 40,
+      "size": "110*110",
+      "x": 204,
+      "y": 1983,
+      "signature": "[class]android.widget.ImageView[resource_id]com.pinterest:id/ghost_button[enabled,,]",
+      "view_str": "7eb08abeb17e2abb5e085689516e75b5",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.pinterest:id/ghost_button"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Record video",
+      "children": [
+        42,
+        43
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          441,
+          1939
+        ],
+        [
+          639,
+          2137
+        ]
+      ],
+      "resource_id": "com.pinterest:id/record_button",
+      "checked": false,
+      "text": "Record video",
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 38,
+      "temp_id": 41,
+      "size": "198*198",
+      "x": 441,
+      "y": 1939,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.pinterest:id/record_button[enabled,,]",
+      "view_str": "138e715d25bfc9ecb80534a34916946a",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.pinterest:id/record_button"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          441,
+          1939
+        ],
+        [
+          639,
+          2137
+        ]
+      ],
+      "resource_id": "com.pinterest:id/record_button_state",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 41,
+      "temp_id": 42,
+      "size": "198*198",
+      "x": 441,
+      "y": 1939,
+      "signature": "[class]android.widget.ImageView[resource_id]com.pinterest:id/record_button_state[enabled,,]",
+      "view_str": "2f29e469709db6b9b61433177f2fcbf3",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.pinterest:id/record_button_state"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          441,
+          1939
+        ],
+        [
+          639,
+          2137
+        ]
+      ],
+      "resource_id": "com.pinterest:id/record_button_ring",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 41,
+      "temp_id": 43,
+      "size": "198*198",
+      "x": 441,
+      "y": 1939,
+      "signature": "[class]android.widget.ImageView[resource_id]com.pinterest:id/record_button_ring[enabled,,]",
+      "view_str": "9a93657ff0327e8d45b481dfed37e84b",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.pinterest:id/record_button_ring"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2148
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.pinterest:id/bottom_sheet_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 44,
+      "size": "1080*0",
+      "x": 0,
+      "y": 2148,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.pinterest:id/bottom_sheet_view[enabled,,]",
+      "view_str": "d9313a5dd87fefc5c9ccd8e45421cc69",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.pinterest:id/bottom_sheet_view"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          83
+        ]
+      ],
+      "resource_id": "android:id/statusBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 45,
+      "size": "1080*83",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[enabled,,]",
+      "view_str": "bbc309c7a82b6d65f800e95a56ab0b44",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/statusBarBackground"
+    },
+    {
+      "package": "com.pinterest",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2148
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 46,
+      "size": "1080*132",
+      "x": 0,
+      "y": 2148,
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[enabled,,]",
+      "view_str": "73b26b8c9dba16d42d1d578bf00bbe6b",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+[
+    {
+        "round": 1,
+        "comment": "What's wrong with the app!!??? It's not opening my account and always say something's wrong at our end... If something wrong just do it right quickly...I need pinterest for searches\u9983\u30b2",
+        "scenarios": [
+            "The user is unable to open their account, receiving a message indicating that something is wrong on the app's end.",
+            "The user needs the Pinterest app specifically for conducting searches."
+        ],
+        "key sentence": "The user is unable to open their account, receiving a message indicating that something is wrong on the app's end.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment30\\scene0\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment30\\scene0\\3291081956217599207.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "3291081956217599207"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment30\\scene0\\616694768579706236.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "616694768579706236"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment30\\scene0\\-430620115360668472.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-430620115360668472"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment30\\scene0\\-7835489187100954874.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-7835489187100954874"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment30\\scene0\\1178855685410556662.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "1178855685410556662"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment30\\scene0\\7335439568754857473.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7335439568754857473"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment30\\scene0\\-1761471343940644215.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-1761471343940644215"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment30\\scene0\\7335439568754857473.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7335439568754857473"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment30\\scene0\\4545393746750053817.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "4545393746750053817"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment30\\scene0\\7335439568754857473.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "7335439568754857473"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "3291081956217599207",
+                "event": "click<button id=21 class =\"com.pinterest:id/bottom_nav_home_icon\" alt=\"Home, Tab\">  </button>"
+            },
+            {
+                "from": "3291081956217599207",
+                "to": "616694768579706236",
+                "event": "click<button id=28 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "616694768579706236",
+                "to": "-430620115360668472",
+                "event": "click<button id=40 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-430620115360668472",
+                "to": -7835489187100954874,
+                "event": "back"
+            },
+            {
+                "from": -7835489187100954874,
+                "to": "1178855685410556662",
+                "event": "click<button id=28 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "1178855685410556662",
+                "to": 7335439568754857473,
+                "event": "back"
+            },
+            {
+                "from": 7335439568754857473,
+                "to": "-1761471343940644215",
+                "event": "click<button id=28 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "-1761471343940644215",
+                "to": 7335439568754857473,
+                "event": "back"
+            },
+            {
+                "from": 7335439568754857473,
+                "to": "4545393746750053817",
+                "event": "click<button id=28 class =\"com.pinterest:id/profile_menu_view\" alt=\"Saved, Tab\">  </button>"
+            },
+            {
+                "from": "4545393746750053817",
+                "to": 7335439568754857473,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    }
+]

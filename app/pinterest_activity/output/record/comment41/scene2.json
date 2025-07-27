@@ -1,0 +1,76 @@
+[
+    {
+        "round": 1,
+        "comment": "ABYSMAL. The app is slow, it often won't upload at all, refuses to save downloads to boards, and when it does, it's apt to save the pictures to the WRONG boards!! \u9983\u304c",
+        "scenarios": [
+            "Attempting to upload content to the app, but it being slow or not uploading at all.",
+            "Attempting to save downloads to boards, but the app refusing to save them.",
+            "Saving pictures to boards, but the pictures are saved to the wrong boards."
+        ],
+        "key sentence": "Saving pictures to boards, but the pictures are saved to the wrong boards.",
+        "target activity": ".activity.task.activity.MainActivity",
+        "the function of activity": "Activity involves searching, accessing menus, filtering, viewing various content categories, managing pins, profiles, settings, creating, sharing, and navigating within the interface.",
+        "target state": "state3",
+        "the sub-task list of state": "[{'name': 'View Board Details', 'description': 'Display detailed information about a specific board.'}, {'name': 'Share', 'description': 'Share the current content or board with others.'}, {'name': 'Access More Options', 'description': 'Explore additional options for the current view or content.'}, {'name': 'Invite Collaborators', 'description': 'Send invitations to other users to collaborate on a board.'}, {'name': 'Organize', 'description': 'Arrange and manage the content within a board or view.'}, {'name': 'Add', 'description': 'Include new content or elements to the current view or board.'}, {'name': 'Explore More Ideas', 'description': 'Discover additional suggestions or inspirations related to the current content.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment41\\scene2\\ba5f165ac71b67896bd0c28f07857be5.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "ba5f165ac71b67896bd0c28f07857be5"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment41\\scene2\\state2.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment41\\scene2\\state3.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment41\\scene2\\5163557927595538604.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "5163557927595538604"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment41\\scene2\\2990765779377739864.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "2990765779377739864"
+            },
+            {
+                "image": "..\\app\\pinterest_activity\\output\\screenshot\\comment41\\scene2\\-4629513439782571272.png",
+                "activity": "com.pinterest.activity.task.activity.MainActivity}",
+                "state_str": "-4629513439782571272"
+            }
+        ],
+        "operations": [
+            {
+                "from": "ba5f165ac71b67896bd0c28f07857be5",
+                "to": "state2",
+                "event": "click(TextView-Saved:[836,2092][948,2136])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(android.view.ViewGroup-Board: picture:[22,524][529,1027])"
+            },
+            {
+                "from": "state3",
+                "to": "5163557927595538604",
+                "event": "click<button id=9 class =\"com.pinterest:id/lego_pin_grid_cell_id\" alt=\"Pin from Jane\">  </button>"
+            },
+            {
+                "from": "5163557927595538604",
+                "to": "2990765779377739864",
+                "event": "click<button id=12 class =\"com.pinterest:id/save_pinit_bt\" alt=\"Save\"> Saved,  </button>"
+            },
+            {
+                "from": "2990765779377739864",
+                "to": "-4629513439782571272",
+                "event": "click<p id=24 class =\"com.pinterest:id/board_name\" alt=\"Cute drawings, Double tap to open sections\"> Cute drawings,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]
