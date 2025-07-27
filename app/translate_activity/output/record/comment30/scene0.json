@@ -1,0 +1,381 @@
+[
+    {
+        "round": 1,
+        "comment": "Since the update the UI is f'ed up. Can't (reverse) sort history by date. Extra buttonpush needed to see history. Why not leave well enough alone? Or at least have thw option to revert to the previous version / interface. Not nice, folks. Now I will have to look for a different app that works as well and does what I want.",
+        "scenarios": [
+            "Can't reverse sort history by date."
+        ],
+        "key sentence": "Can't reverse sort history by date.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Navigate up', 'description': 'Go up one level or return to previous screen'}, {'name': 'History', 'description': 'View history of previous actions or translations'}, {'name': 'Handwriting', 'description': 'Access handwriting input for text entry'}, {'name': 'Enter text', 'description': 'Input text using the on-screen keyboard'}, {'name': 'Paste', 'description': 'Paste copied text into the current input field'}, {'name': 'Swap languages', 'description': 'Exchange the source and target languages'}, {'name': 'Select language (A)', 'description': 'Choose the source language for translation'}, {'name': 'Select language (B)', 'description': 'Choose the target language for translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\8088592638392307913.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "8088592638392307913"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\3655721215899113669.png",
+                "activity": "",
+                "state_str": "3655721215899113669"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\15203830653272729.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "15203830653272729"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\1558662806040733765.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "1558662806040733765"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\-5299498423159860680.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "-5299498423159860680"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\-5299498423159860680.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "-5299498423159860680"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\-5299498423159860680.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "-5299498423159860680"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\1558662806040733765.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "1558662806040733765"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\-5299498423159860680.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "-5299498423159860680"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\-5299498423159860680.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "-5299498423159860680"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "8088592638392307913",
+                "event": "click<button id=2 class =\"com.google.android.apps.translate:id/item_open_history\" alt=\"History\">  </button>"
+            },
+            {
+                "from": "8088592638392307913",
+                "to": "3655721215899113669",
+                "event": "click<img id=4 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "3655721215899113669",
+                "to": "15203830653272729",
+                "event": "click<p id=2 class =\"com.google.android.apps.translate:id/title\"> Manage activity,  </p>"
+            },
+            {
+                "from": "15203830653272729",
+                "to": "1558662806040733765",
+                "event": "click<button id=8 class =\"xid('historyTabId')\"> History,  </button>"
+            },
+            {
+                "from": "1558662806040733765",
+                "to": "-5299498423159860680",
+                "event": "click<button id=22> Jump to date,  </button>"
+            },
+            {
+                "from": "-5299498423159860680",
+                "to": "-5299498423159860680",
+                "event": "click<button id=23> Filter by product,  </button>"
+            },
+            {
+                "from": "-5299498423159860680",
+                "to": "-5299498423159860680",
+                "event": "click<button id=22> Jump to date,  </button>"
+            },
+            {
+                "from": "-5299498423159860680",
+                "to": "1558662806040733765",
+                "event": "click<button id=8 class =\"xid('historyTabId')\"> History,  </button>"
+            },
+            {
+                "from": "1558662806040733765",
+                "to": "-5299498423159860680",
+                "event": "click<button id=23> Filter by product,  </button>"
+            },
+            {
+                "from": "-5299498423159860680",
+                "to": "-5299498423159860680",
+                "event": "click<button id=22> Jump to date,  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Since the update the UI is f'ed up. Can't (reverse) sort history by date. Extra buttonpush needed to see history. Why not leave well enough alone? Or at least have thw option to revert to the previous version / interface. Not nice, folks. Now I will have to look for a different app that works as well and does what I want.",
+        "scenarios": [
+            "Can't reverse sort history by date."
+        ],
+        "key sentence": "Can't reverse sort history by date.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Navigate up', 'description': 'Go up one level or return to previous screen'}, {'name': 'History', 'description': 'View history of previous actions or translations'}, {'name': 'Handwriting', 'description': 'Access handwriting input for text entry'}, {'name': 'Enter text', 'description': 'Input text using the on-screen keyboard'}, {'name': 'Paste', 'description': 'Paste copied text into the current input field'}, {'name': 'Swap languages', 'description': 'Exchange the source and target languages'}, {'name': 'Select language (A)', 'description': 'Choose the source language for translation'}, {'name': 'Select language (B)', 'description': 'Choose the target language for translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\8088592638392307913.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "8088592638392307913"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\3655721215899113669.png",
+                "activity": "",
+                "state_str": "3655721215899113669"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\15203830653272729.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "15203830653272729"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\1558662806040733765.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "1558662806040733765"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\-5299498423159860680.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "-5299498423159860680"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\-5299498423159860680.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "-5299498423159860680"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\-5299498423159860680.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "-5299498423159860680"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\1558662806040733765.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "1558662806040733765"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\-5299498423159860680.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "-5299498423159860680"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\-5299498423159860680.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "-5299498423159860680"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\8088592638392307913.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "8088592638392307913"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\3655721215899113669.png",
+                "activity": "",
+                "state_str": "3655721215899113669"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\8211296242127181211.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "8211296242127181211"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\-5299498423159860680.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "-5299498423159860680"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\1558662806040733765.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "1558662806040733765"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\5758620808823498603.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "5758620808823498603"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\-5299498423159860680.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "-5299498423159860680"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\-5299498423159860680.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "-5299498423159860680"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\8745538939728059489.png",
+                "activity": "",
+                "state_str": "8745538939728059489"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment30\\scene0\\-5299498423159860680.png",
+                "activity": "com.google.android.gms.octarine.ui.OctarineWebviewActivity}",
+                "state_str": "-5299498423159860680"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "8088592638392307913",
+                "event": "click<button id=2 class =\"com.google.android.apps.translate:id/item_open_history\" alt=\"History\">  </button>"
+            },
+            {
+                "from": "8088592638392307913",
+                "to": "3655721215899113669",
+                "event": "click<img id=4 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "3655721215899113669",
+                "to": "15203830653272729",
+                "event": "click<p id=2 class =\"com.google.android.apps.translate:id/title\"> Manage activity,  </p>"
+            },
+            {
+                "from": "15203830653272729",
+                "to": "1558662806040733765",
+                "event": "click<button id=8 class =\"xid('historyTabId')\"> History,  </button>"
+            },
+            {
+                "from": "1558662806040733765",
+                "to": "-5299498423159860680",
+                "event": "click<button id=22> Jump to date,  </button>"
+            },
+            {
+                "from": "-5299498423159860680",
+                "to": "-5299498423159860680",
+                "event": "click<button id=23> Filter by product,  </button>"
+            },
+            {
+                "from": "-5299498423159860680",
+                "to": "-5299498423159860680",
+                "event": "click<button id=22> Jump to date,  </button>"
+            },
+            {
+                "from": "-5299498423159860680",
+                "to": "1558662806040733765",
+                "event": "click<button id=8 class =\"xid('historyTabId')\"> History,  </button>"
+            },
+            {
+                "from": "1558662806040733765",
+                "to": "-5299498423159860680",
+                "event": "click<button id=23> Filter by product,  </button>"
+            },
+            {
+                "from": "-5299498423159860680",
+                "to": "-5299498423159860680",
+                "event": "click<button id=22> Jump to date,  </button>"
+            },
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "8088592638392307913",
+                "event": "click<button id=2 class =\"com.google.android.apps.translate:id/item_open_history\" alt=\"History\">  </button>"
+            },
+            {
+                "from": "8088592638392307913",
+                "to": "3655721215899113669",
+                "event": "click<img id=4 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "3655721215899113669",
+                "to": "8211296242127181211",
+                "event": "click<p id=2 class =\"com.google.android.apps.translate:id/title\"> Manage activity,  </p>"
+            },
+            {
+                "from": "8211296242127181211",
+                "to": "-5299498423159860680",
+                "event": "click<button id=22> Jump to date,  </button>"
+            },
+            {
+                "from": "-5299498423159860680",
+                "to": "1558662806040733765",
+                "event": "click<button id=8 class =\"xid('historyTabId')\"> History,  </button>"
+            },
+            {
+                "from": "1558662806040733765",
+                "to": "5758620808823498603",
+                "event": "click<button id=22> Jump to date,  </button>"
+            },
+            {
+                "from": "5758620808823498603",
+                "to": "-5299498423159860680",
+                "event": "click<button id=23> Filter by product,  </button>"
+            },
+            {
+                "from": "-5299498423159860680",
+                "to": "-5299498423159860680",
+                "event": "click<button id=22> Jump to date,  </button>"
+            },
+            {
+                "from": "-5299498423159860680",
+                "to": "8745538939728059489",
+                "event": "click<button id=4 class =\"com.google.android.gms:id/account_particle_disc\" alt=\"Google Account: ran Jin (jinran848@gmail.com)\">  </button>"
+            },
+            {
+                "from": "8745538939728059489",
+                "to": -5299498423159860680,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,76 @@
+[
+    {
+        "comment": "Latest update is HORRENDOUS. **Used** to be an amazing app. Target translation field cannot be edited. It can only be copied or shared. Both field boxes should directly editable. Reverse Translate is inconveniently behind the hamburger button. It should be rapidly accessible. Cannot scroll down to view definitions while editing the text box. Main page has a LOT of wasted space. UI is inaccessible, unintuitive, and inefficient. This is not the Google way.",
+        "key sentence": "Target translation field cannot be edited; it can only be copied or shared. Both field boxes should be directly editable.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [],
+        "operations": [],
+        "Final answer": ""
+    },
+    {
+        "round": 2,
+        "comment": "Latest update is HORRENDOUS. **Used** to be an amazing app. Target translation field cannot be edited. It can only be copied or shared. Both field boxes should directly editable. Reverse Translate is inconveniently behind the hamburger button. It should be rapidly accessible. Cannot scroll down to view definitions while editing the text box. Main page has a LOT of wasted space. UI is inaccessible, unintuitive, and inefficient. This is not the Google way.",
+        "scenarios": [
+            "Target translation field cannot be edited; it can only be copied or shared. Both field boxes should be directly editable.",
+            "Reverse Translate is inconveniently behind the hamburger button; it should be rapidly accessible."
+        ],
+        "key sentence": "Target translation field cannot be edited; it can only be copied or shared. Both field boxes should be directly editable.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "b9d3528850e9a316b3af2e022312377e",
+        "the sub-task list of state": "[{'name': 'New translation', 'description': 'Start a new translation session'}, {'name': 'History', 'description': 'View translation history'}, {'name': 'More options', 'description': 'Open additional options'}, {'name': 'Speak original text', 'description': 'Listen to the spoken version of the original text'}, {'name': 'Copy original text', 'description': 'Copy the original text to clipboard'}, {'name': 'Speak translated text', 'description': 'Listen to the spoken version of the translated text'}, {'name': 'Copy translated text', 'description': 'Copy the translated text to clipboard'}, {'name': 'Submit Translation Feedback', 'description': 'Provide feedback on the translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment35\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment35\\scene0\\b9d3528850e9a316b3af2e022312377e.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "b9d3528850e9a316b3af2e022312377e"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment35\\scene0\\5748297002741862238.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "5748297002741862238"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment35\\scene0\\5748297002741862238.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "5748297002741862238"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment35\\scene0\\5748297002741862238.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "5748297002741862238"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "b9d3528850e9a316b3af2e022312377e",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=f3f547e2be6a280f397b3ad8c6a7014b(TranslateActivity/Button-Paste:x66:y606))"
+            },
+            {
+                "from": "b9d3528850e9a316b3af2e022312377e",
+                "to": "5748297002741862238",
+                "event": "click<p id=12 class =\"com.google.android.apps.translate:id/translated_text\"> National Day,  </p>"
+            },
+            {
+                "from": "5748297002741862238",
+                "to": "5748297002741862238",
+                "event": "click<button id=14 class =\"com.google.android.apps.translate:id/copy_text_button\" alt=\"Copy translated text\">  </button>"
+            },
+            {
+                "from": "5748297002741862238",
+                "to": "5748297002741862238",
+                "event": "click<p id=12 class =\"com.google.android.apps.translate:id/translated_text\"> National Day,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

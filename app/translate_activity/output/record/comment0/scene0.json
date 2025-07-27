@@ -1,0 +1,121 @@
+[
+    {
+        "round": 1,
+        "comment": "What have you DONE and why?? I used this app frequently now I miss some of the features even before a history was listed down now you have to stop writing and hit a button that brings you to another window. To many clicks for a simple translation, history was all listed in one screen during writing. Not my favourite anymore!",
+        "scenarios": [
+            "Now, users have to stop writing and hit a button that brings them to another window to access translation history, requiring too many clicks for a simple translation."
+        ],
+        "key sentence": "Now, users have to stop writing and hit a button that brings them to another window to access translation history, requiring too many clicks for a simple translation.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state1",
+        "the sub-task list of state": "[{'name': 'History', 'description': 'View translation history'}, {'name': 'Save Translation', 'description': 'Save the current translation to a phrasebook'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment0\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment0\\scene0\\state1.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment0\\scene0\\4281008180021040151.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4281008180021040151"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state1",
+                "event": "scroll-up(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state1",
+                "to": "4281008180021040151",
+                "event": "click<p id=3> History,  </p>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "What have you DONE and why?? I used this app frequently now I miss some of the features even before a history was listed down now you have to stop writing and hit a button that brings you to another window. To many clicks for a simple translation, history was all listed in one screen during writing. Not my favourite anymore!",
+        "scenarios": [
+            "Now, users have to stop writing and hit a button that brings them to another window to access translation history, requiring too many clicks for a simple translation."
+        ],
+        "key sentence": "Now, users have to stop writing and hit a button that brings them to another window to access translation history, requiring too many clicks for a simple translation.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state1",
+        "the sub-task list of state": "[{'name': 'History', 'description': 'View translation history'}, {'name': 'Save Translation', 'description': 'Save the current translation to a phrasebook'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment0\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment0\\scene0\\state1.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment0\\scene0\\4281008180021040151.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4281008180021040151"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment0\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment0\\scene0\\state1.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment0\\scene0\\4281008180021040151.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4281008180021040151"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment0\\scene0\\2504905931240484021.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "2504905931240484021"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state1",
+                "event": "scroll-up(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state1",
+                "to": "4281008180021040151",
+                "event": "click<p id=3> History,  </p>"
+            },
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state1",
+                "event": "scroll-up(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state1",
+                "to": "4281008180021040151",
+                "event": "click<p id=3> History,  </p>"
+            },
+            {
+                "from": "4281008180021040151",
+                "to": "2504905931240484021",
+                "event": "click<button id=2 alt=\"Navigate up\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

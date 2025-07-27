@@ -1,0 +1,55 @@
+[
+    {
+        "round": 1,
+        "comment": "Hello .When I try to edit my text after reviewing the translation the edit box is tiny and at the top of the screen. Most of the screen is, wasted and its very difficult to edit the text. I cannot believe that Google would build an editor as poor as this. Is there a work around. surely there must be. If not, it need an aftermarket editor of some description. The editing window is shown below minus the popup keyboard.Please resolve this issue \u9983\u6ab9.",
+        "scenarios": [
+            "Trying to edit text after reviewing the translation, but finding the edit box too small and difficult to use.  ",
+            "Requesting a workaround or aftermarket editor for improved editing functionality."
+        ],
+        "key sentence": "Trying to edit text after reviewing the translation, but finding the edit box too small and difficult to use.  ",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state6",
+        "the sub-task list of state": "[{'name': 'History', 'description': 'View translation history'}, {'name': 'Keyboard', 'description': 'Open virtual keyboard for text input'}, {'name': 'Enter text', 'description': 'Input text using the keyboard or other input methods'}, {'name': 'Paste', 'description': 'Insert copied text into the translation area'}, {'name': 'Swap languages', 'description': 'Switch the languages being translated'}, {'name': 'Select language', 'description': 'Choose the source or target language for translation'}, {'name': 'Handwriting input', 'description': 'Use handwriting recognition for text input'}, {'name': 'Undo', 'description': 'Reverse the last action performed'}, {'name': 'Space bar', 'description': 'Insert a space while using handwriting input'}, {'name': 'Backspace key', 'description': 'Delete the previous character or action'}, {'name': 'Show details', 'description': 'Display more information or options related to the translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment9\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment9\\scene0\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment9\\scene0\\state6.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state6"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment9\\scene0\\6869827408590224160.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "6869827408590224160"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "state6",
+                "event": "click(Button-Handwriting:[805,105][937,237])"
+            },
+            {
+                "from": "state6",
+                "to": "6869827408590224160",
+                "event": "click<button id=11 class =\"com.google.android.apps.translate:id/resize_button\" alt=\"Expand\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

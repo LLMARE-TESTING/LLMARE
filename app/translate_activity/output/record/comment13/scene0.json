@@ -1,0 +1,46 @@
+[
+    {
+        "round": 1,
+        "comment": "There's a bug with the app all of a sudden. Now when you press the mike button to speak, it vibrates but it's not transcribing. And if it doesn't transcribe, it can't translate either. I can't even type the text. It won't let me. And sometimes the copy paste doesn't work for the translation.",
+        "scenarios": [
+            "Press the microphone button to speak; the app vibrates but does not transcribe, and therefore cannot translate.",
+            "Cannot type the text for translation.",
+            "Sometimes the copy-paste function does not work for the translation."
+        ],
+        "key sentence": "Press the microphone button to speak; the app vibrates but does not transcribe, and therefore cannot translate.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "b454d0d74c68a9b2aabf2c718cba43ba",
+        "the sub-task list of state": "[{'name': 'Navigate up', 'description': 'Click to navigate up'}, {'name': 'More options', 'description': 'Click to see more options'}, {'name': 'Speak', 'description': 'Speak to perform voice input'}, {'name': 'Transcribe', 'description': 'Click to transcribe voice input'}, {'name': 'Language selection', 'description': 'Select language for translation'}, {'name': 'Swap languages', 'description': 'Click to swap the input and output languages for translation'}, {'name': 'Select language', 'description': 'Select a specific language for translation'}, {'name': 'Stop dictation', 'description': 'Click to stop voice input or dictation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment13\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment13\\scene0\\b454d0d74c68a9b2aabf2c718cba43ba.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "b454d0d74c68a9b2aabf2c718cba43ba"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment13\\scene0\\7295658171396405502.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "7295658171396405502"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "b454d0d74c68a9b2aabf2c718cba43ba",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=be0600451bb67b95461db018233858df(TranslateActivity/Button-Start dict:x408:y1818))"
+            },
+            {
+                "from": "b454d0d74c68a9b2aabf2c718cba43ba",
+                "to": "7295658171396405502",
+                "event": "click<button id=3 class =\"com.google.android.apps.translate:id/recognized_text_field\"> Tap the mic button to start,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,371 @@
+[
+    {
+        "round": 1,
+        "comment": "This app was perfect and has been converted to nightmare. Was there no user testing? . Biggest problem is it doesn't always does pinyin if Chinese to English or if using thesaurus (I don't know all the Chinese symbols). Back button doesn't take you to last selection now, it resets the input , so frustrating",
+        "scenarios": [
+            "Chinese to English translation does not always display pinyin or use the thesaurus."
+        ],
+        "key sentence": "Chinese to English translation does not always display pinyin or use the thesaurus.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state3",
+        "the sub-task list of state": "[{'name': 'Navigate up', 'description': 'Go to the previous screen or level'}, {'name': 'Clear', 'description': 'Clear input'}, {'name': 'Handwriting', 'description': 'Switch to handwriting input mode'}, {'name': 'Submit or Select Text to Translate', 'description': 'Submit the entered text or selection'}, {'name': 'Edit Query Completion entertainment', 'description': 'Modify the current query related to entertainment'}, {'name': 'Edit Query Completion enterprise', 'description': 'Modify the current query related to enterprise'}, {'name': 'Swap languages', 'description': 'Switch between source and target languages'}, {'name': 'English', 'description': 'Select English language'}, {'name': 'Chinese (Simplified)', 'description': 'Select Chinese (Simplified) language'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\state3.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\-6198941327698907346.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "-6198941327698907346"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\-4126516276948789097.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-4126516276948789097"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\2444726737337380714.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "2444726737337380714"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\2444726737337380714.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "2444726737337380714"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\-6480288020780059171.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "-6480288020780059171"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\-3166897676076691085.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-3166897676076691085"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\-3166897676076691085.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-3166897676076691085"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\8088461129208974710.png",
+                "activity": "",
+                "state_str": "8088461129208974710"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\7915981164283990635.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "7915981164283990635"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\7915981164283990635.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "7915981164283990635"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\-6090619746994667093.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-6090619746994667093"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "input(EditText-com.google.android.apps.translate:id/text_input_field:[66,347][1014,474])(enter)"
+            },
+            {
+                "from": "state3",
+                "to": "-6198941327698907346",
+                "event": "click<button id=13 class =\"com.google.android.apps.translate:id/language_button_b\"> English,  </button>"
+            },
+            {
+                "from": "-6198941327698907346",
+                "to": "-4126516276948789097",
+                "event": "click<p id=13 class =\"android:id/text1\"> Chinese (Simplified),  </p>"
+            },
+            {
+                "from": "-4126516276948789097",
+                "to": "2444726737337380714",
+                "event": "click<button id=12 class =\"com.google.android.apps.translate:id/swap_languages_button\" alt=\"Swap languages\">  </button>"
+            },
+            {
+                "from": "2444726737337380714",
+                "to": "2444726737337380714",
+                "event": "click<input id=5 class =\"com.google.android.apps.translate:id/text_input_field\"> enter,  </input>"
+            },
+            {
+                "from": "2444726737337380714",
+                "to": "-6480288020780059171",
+                "event": "click<button id=11 class =\"com.google.android.apps.translate:id/language_button_b\"> Chinese (Simplified),  </button>"
+            },
+            {
+                "from": "-6480288020780059171",
+                "to": "-3166897676076691085",
+                "event": "click<p id=15 class =\"android:id/text1\"> English,  </p>"
+            },
+            {
+                "from": "-3166897676076691085",
+                "to": "-3166897676076691085",
+                "event": "click<input id=5 class =\"com.google.android.apps.translate:id/text_input_field\"> enter,  </input>"
+            },
+            {
+                "from": "-3166897676076691085",
+                "to": "8088461129208974710",
+                "event": "click<img id=4 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "8088461129208974710",
+                "to": "7915981164283990635",
+                "event": "click<img id=0 class =\"com.google.android.apps.translate:id/icon\">  </img>"
+            },
+            {
+                "from": "7915981164283990635",
+                "to": "7915981164283990635",
+                "event": "click<div id=4 class =\"com.google.android.gms:id/dynamic_ui_main_recyclerView\">  </div>"
+            },
+            {
+                "from": "7915981164283990635",
+                "to": -6090619746994667093,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "This app was perfect and has been converted to nightmare. Was there no user testing? . Biggest problem is it doesn't always does pinyin if Chinese to English or if using thesaurus (I don't know all the Chinese symbols). Back button doesn't take you to last selection now, it resets the input , so frustrating",
+        "scenarios": [
+            "Chinese to English translation does not always display pinyin or use the thesaurus."
+        ],
+        "key sentence": "Chinese to English translation does not always display pinyin or use the thesaurus.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "state6",
+        "the sub-task list of state": "[{'name': 'History', 'description': 'View translation history'}, {'name': 'Keyboard', 'description': 'Open virtual keyboard for text input'}, {'name': 'Enter text', 'description': 'Input text using the keyboard or other input methods'}, {'name': 'Paste', 'description': 'Insert copied text into the translation area'}, {'name': 'Swap languages', 'description': 'Switch the languages being translated'}, {'name': 'Select language', 'description': 'Choose the source or target language for translation'}, {'name': 'Handwriting input', 'description': 'Use handwriting recognition for text input'}, {'name': 'Undo', 'description': 'Reverse the last action performed'}, {'name': 'Space bar', 'description': 'Insert a space while using handwriting input'}, {'name': 'Backspace key', 'description': 'Delete the previous character or action'}, {'name': 'Show details', 'description': 'Display more information or options related to the translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\state3.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\-6198941327698907346.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "-6198941327698907346"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\-4126516276948789097.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-4126516276948789097"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\2444726737337380714.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "2444726737337380714"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\2444726737337380714.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "2444726737337380714"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\-6480288020780059171.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "-6480288020780059171"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\-3166897676076691085.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-3166897676076691085"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\-3166897676076691085.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-3166897676076691085"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\8088461129208974710.png",
+                "activity": "",
+                "state_str": "8088461129208974710"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\7915981164283990635.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "7915981164283990635"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\7915981164283990635.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "7915981164283990635"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\-6090619746994667093.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-6090619746994667093"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\state2.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\state6.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state6"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\4549265885708321104.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "4549265885708321104"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\-3839407383303830197.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "-3839407383303830197"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\5394421201485003708.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "5394421201485003708"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment119\\scene0\\5394421201485003708.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "5394421201485003708"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "input(EditText-com.google.android.apps.translate:id/text_input_field:[66,347][1014,474])(enter)"
+            },
+            {
+                "from": "state3",
+                "to": "-6198941327698907346",
+                "event": "click<button id=13 class =\"com.google.android.apps.translate:id/language_button_b\"> English,  </button>"
+            },
+            {
+                "from": "-6198941327698907346",
+                "to": "-4126516276948789097",
+                "event": "click<p id=13 class =\"android:id/text1\"> Chinese (Simplified),  </p>"
+            },
+            {
+                "from": "-4126516276948789097",
+                "to": "2444726737337380714",
+                "event": "click<button id=12 class =\"com.google.android.apps.translate:id/swap_languages_button\" alt=\"Swap languages\">  </button>"
+            },
+            {
+                "from": "2444726737337380714",
+                "to": "2444726737337380714",
+                "event": "click<input id=5 class =\"com.google.android.apps.translate:id/text_input_field\"> enter,  </input>"
+            },
+            {
+                "from": "2444726737337380714",
+                "to": "-6480288020780059171",
+                "event": "click<button id=11 class =\"com.google.android.apps.translate:id/language_button_b\"> Chinese (Simplified),  </button>"
+            },
+            {
+                "from": "-6480288020780059171",
+                "to": "-3166897676076691085",
+                "event": "click<p id=15 class =\"android:id/text1\"> English,  </p>"
+            },
+            {
+                "from": "-3166897676076691085",
+                "to": "-3166897676076691085",
+                "event": "click<input id=5 class =\"com.google.android.apps.translate:id/text_input_field\"> enter,  </input>"
+            },
+            {
+                "from": "-3166897676076691085",
+                "to": "8088461129208974710",
+                "event": "click<img id=4 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "8088461129208974710",
+                "to": "7915981164283990635",
+                "event": "click<img id=0 class =\"com.google.android.apps.translate:id/icon\">  </img>"
+            },
+            {
+                "from": "7915981164283990635",
+                "to": "7915981164283990635",
+                "event": "click<div id=4 class =\"com.google.android.gms:id/dynamic_ui_main_recyclerView\">  </div>"
+            },
+            {
+                "from": "7915981164283990635",
+                "to": -6090619746994667093,
+                "event": "back"
+            },
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state2",
+                "event": "click(com.google.android.apps.translate:id/pad_area_container:[0,259][1080,1477])"
+            },
+            {
+                "from": "state2",
+                "to": "state6",
+                "event": "click(Button-Handwriting:[805,105][937,237])"
+            },
+            {
+                "from": "state6",
+                "to": "4549265885708321104",
+                "event": "click<button id=9 class =\"com.google.android.apps.translate:id/swap_languages_button\" alt=\"Swap languages\">  </button>"
+            },
+            {
+                "from": "4549265885708321104",
+                "to": "-3839407383303830197",
+                "event": "click<button id=8 class =\"com.google.android.apps.translate:id/language_button_b\"> Bengali,  </button>"
+            },
+            {
+                "from": "-3839407383303830197",
+                "to": "5394421201485003708",
+                "event": "click<p id=14 class =\"android:id/text1\"> Chinese (Simplified),  </p>"
+            },
+            {
+                "from": "5394421201485003708",
+                "to": "5394421201485003708",
+                "event": "click<input id=5 class =\"com.google.android.apps.translate:id/text_input_field\"> Enter text,  </input>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

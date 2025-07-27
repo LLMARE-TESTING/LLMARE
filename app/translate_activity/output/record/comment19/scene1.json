@@ -1,0 +1,45 @@
+[
+    {
+        "round": 1,
+        "comment": "This app was perfect and has been converted to nightmare. Was there no user testing? . Biggest problem is it doesn't always does pinyin if Chinese to English or if using thesaurus (I don't know all the Chinese symbols). Back button doesn't take you to last selection now, it resets the input , so frustrating",
+        "scenarios": [
+            "Chinese to English translation does not always display pinyin or use the thesaurus.",
+            "Back button resets the input instead of taking the user to the last selection."
+        ],
+        "key sentence": "Back button resets the input instead of taking the user to the last selection.",
+        "target activity": ".languagepicker.LanguagePickerActivity",
+        "the function of activity": "The activity facilitates user interactions: search contacts, access menus, translate text, download offline files, cancel actions, and confirm decisions.",
+        "target state": "b1318bbb23a1113677d8040c5b4078df",
+        "the sub-task list of state": "[{'name': 'Search', 'description': 'Search for a language'}, {'name': 'Download Offline Translation File', 'description': 'Download offline translation file for a specific language'}, {'name': 'Select Language', 'description': 'Choose a language for translation'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment19\\scene1\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment19\\scene1\\b1318bbb23a1113677d8040c5b4078df.png",
+                "activity": "com.google.android.apps.translate.languagepicker.LanguagePickerActivity}",
+                "state_str": "b1318bbb23a1113677d8040c5b4078df"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment19\\scene1\\-6535389752523617601.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "-6535389752523617601"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "b1318bbb23a1113677d8040c5b4078df",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=445338357d585d5588a2c84fb52b11a0(TranslateActivity/Button-Bengali:x617:y1587))"
+            },
+            {
+                "from": "b1318bbb23a1113677d8040c5b4078df",
+                "to": -6535389752523617601,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    }
+]

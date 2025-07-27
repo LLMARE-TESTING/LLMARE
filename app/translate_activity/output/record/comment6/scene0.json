@@ -1,0 +1,65 @@
+[
+    {
+        "round": 1,
+        "comment": "I use the microphone translate quite often. After updating the apps, I now have to clear the current translated text before I can click the microphone button again. This is so not used friendly. And it's time consuming. Second, the new transcript feature was cool. Please make it available for Japanese language.",
+        "scenarios": [
+            "After updating the app, the user has to clear the current translated text before they can click the microphone button again, which is not user-friendly and is time-consuming.",
+            "The user requests that the new transcript feature be made available for the Japanese language."
+        ],
+        "key sentence": "After updating the app, the user has to clear the current translated text before they can click the microphone button again, which is not user-friendly and is time-consuming.",
+        "target activity": ".TranslateActivity",
+        "the function of activity": "The activity facilitates translation and navigation:Search, menu, navigate, history, handwriting, options, text entry, paste, language swap, and settings management for user interaction and feedback.",
+        "target state": "c81660eb86e8ebae99b2f2caddaf5d9e",
+        "the sub-task list of state": "[{'name': 'Translate', 'description': 'Perform translation of text'}, {'name': 'Send Feedback', 'description': 'Send feedback'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment6\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment6\\scene0\\b454d0d74c68a9b2aabf2c718cba43ba.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "b454d0d74c68a9b2aabf2c718cba43ba"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment6\\scene0\\c81660eb86e8ebae99b2f2caddaf5d9e.png",
+                "activity": "",
+                "state_str": "c81660eb86e8ebae99b2f2caddaf5d9e"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment6\\scene0\\-5213877587636595969.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-5213877587636595969"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment6\\scene0\\-5965436711275264361.png",
+                "activity": "com.google.android.gms.feedback.FeedbackAlohaActivity}",
+                "state_str": "-5965436711275264361"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "b454d0d74c68a9b2aabf2c718cba43ba",
+                "event": "click(state=1e0a8968f43dbb61fd758c305c65c40a, view=be0600451bb67b95461db018233858df(TranslateActivity/Button-Start dict:x408:y1818))"
+            },
+            {
+                "from": "b454d0d74c68a9b2aabf2c718cba43ba",
+                "to": "c81660eb86e8ebae99b2f2caddaf5d9e",
+                "event": "click(state=b454d0d74c68a9b2aabf2c718cba43ba, view=f71880a46c86d349cc87b463c2e55959(TranslateActivity/ImageView-More optio:x948:y105))"
+            },
+            {
+                "from": "c81660eb86e8ebae99b2f2caddaf5d9e",
+                "to": "-5213877587636595969",
+                "event": "click<img id=0 class =\"com.google.android.apps.translate:id/icon\">  </img>"
+            },
+            {
+                "from": "-5213877587636595969",
+                "to": -5965436711275264361,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    }
+]

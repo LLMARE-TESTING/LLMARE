@@ -1,0 +1,74 @@
+[
+    {
+        "round": 1,
+        "comment": "Hello dear friend, unfortunately in recent updates in the field Voice region for English is only British accent supported and not supported on other regions including American, while it was not the case before, please address this issue.",
+        "scenarios": [
+            "Voice region for English only supports British accent in recent updates, whereas it previously supported other regions including American."
+        ],
+        "key sentence": "Voice region for English only supports British accent in recent updates, whereas it previously supported other regions including American.",
+        "target activity": "com.google.android.apps.translate.pref.SettingsActivity",
+        "the function of activity": "The setting of 'Tap to Translate','Data usage','keyboard','voice region','voice speed','voice speech input'.",
+        "target state": "state7",
+        "the sub-task list of state": "[{'name': 'More Options', 'description': \"Open additional options by clicking the 'More options' icon.\"}, {'name': 'Manage Activity', 'description': \"Manage your translation history by clicking the 'Manage activity' button.\"}, {'name': 'Tap to Translate Setting', 'description': \"The setting of 'Tap to Translate' feature.\"}, {'name': 'Data Usage Setting', 'description': 'Configure data usage settings by selecting this option.'}, {'name': 'Keyboard Settings', 'description': 'Adjust keyboard settings by selecting this option.'}, {'name': 'Voice Settings', 'description': 'Adjust voice settings by selecting this option.'}, {'name': 'Voice Region Settings', 'description': 'Configure voice region settings by selecting this option.'}, {'name': 'Voice Speed Settings', 'description': 'Adjust translation or speech speed settings by selecting this option.'}, {'name': 'Voice Speech Input', 'description': 'Configure voice speech input settings by selecting this option.'}, {'name': 'Version Info', 'description': 'View the version information of the application.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment4\\scene0\\1e0a8968f43dbb61fd758c305c65c40a.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "1e0a8968f43dbb61fd758c305c65c40a"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment4\\scene0\\state5.png",
+                "activity": "com.google.android.apps.translate.TranslateActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment4\\scene0\\state7.png",
+                "activity": "com.google.android.apps.translate.pref.SettingsActivity}",
+                "state_str": "state7"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment4\\scene0\\-6174041144744666150.png",
+                "activity": "com.google.android.apps.translate.pref.SettingsActivity}",
+                "state_str": "-6174041144744666150"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment4\\scene0\\3907880371044393072.png",
+                "activity": "com.google.android.apps.translate.pref.SettingsActivity}",
+                "state_str": "3907880371044393072"
+            },
+            {
+                "image": "..\\app\\translate_activity\\output\\screenshot\\comment4\\scene0\\7249551087494346654.png",
+                "activity": "com.google.android.apps.translate.pref.SettingsActivity}",
+                "state_str": "7249551087494346654"
+            }
+        ],
+        "operations": [
+            {
+                "from": "1e0a8968f43dbb61fd758c305c65c40a",
+                "to": "state5",
+                "event": "click(ImageView-Signed in as ran Jin jinran848@gmail.com:[925,104][1080,237])"
+            },
+            {
+                "from": "state5",
+                "to": "state7",
+                "event": "click(TextView-Settings:[254,1249][970,1310])"
+            },
+            {
+                "from": "state7",
+                "to": "-6174041144744666150",
+                "event": "click<p id=9 class =\"android:id/title\"> Voice,  </p>"
+            },
+            {
+                "from": "-6174041144744666150",
+                "to": "3907880371044393072",
+                "event": "click<p id=10 class =\"android:id/title\"> Region,  </p>"
+            },
+            {
+                "from": "3907880371044393072",
+                "to": "7249551087494346654",
+                "event": "click<p id=10 class =\"android:id/title\"> English,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]
