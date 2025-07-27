@@ -1,0 +1,65 @@
+[
+    {
+        "round": 1,
+        "comment": "I give it two stars. One for the effects like reality ripple and one for the ai effect. But, It has problems... I tried using the studio feature to make a short video, first I spent hours learning how to edit, add effects, then it froze up. I lost all my work. Gave it another chance, spent so much time on adding effects to my minute long clip, and went to save it as a draft, it went to video limbo. NEVER SAVED IT!!! Boo hiss!",
+        "scenarios": [
+            "Tried using the studio feature to make a short video, learned how to edit and add effects for hours, then the app froze up and the user lost all their work.",
+            "Spent a lot of time adding effects to a minute-long clip, attempted to save it as a draft, but the video was not saved and went to \"video limbo.\""
+        ],
+        "key sentence": "Spent a lot of time adding effects to a minute-long clip, attempted to save it as a draft, but the video was not saved and went to \"video limbo.\"",
+        "target activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity",
+        "the function of activity": "This activity allows users to record and enhance videos, adjust playback speed, add effects, sound, text, music, and post videos.",
+        "target state": "97fbfdd4dfe5010b5daa588476b0ed04",
+        "the sub-task list of state": "[{'name': 'Record video', 'description': 'Record a video'}, {'name': 'Add sound', 'description': 'Add sound to the video'}, {'name': 'Flip', 'description': 'Flip the camera'}, {'name': 'Effects', 'description': 'Add effects to the video'}, {'name': 'Upload', 'description': 'Upload the video'}, {'name': 'Speed', 'description': 'Adjust the speed of the video'}, {'name': 'Retouch', 'description': 'Retouch the video'}, {'name': 'Mic', 'description': 'Enable or disable microphone'}, {'name': 'Filters', 'description': 'Apply filters to the video'}, {'name': 'Timer', 'description': 'Set a timer for recording'}, {'name': 'Flash', 'description': 'Enable or disable flash'}, {'name': 'Close', 'description': 'Close the current screen'}, {'name': 'Text', 'description': 'Add text to the video'}, {'name': 'Camera', 'description': 'Switch between front and back camera'}, {'name': 'Templates', 'description': 'Choose a template for the video'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment11\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment11\\scene1\\97fbfdd4dfe5010b5daa588476b0ed04.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "97fbfdd4dfe5010b5daa588476b0ed04"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment11\\scene1\\-3413059964914063503.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-3413059964914063503"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment11\\scene1\\5858063106385881231.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "5858063106385881231"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment11\\scene1\\-5454081155899082556.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-5454081155899082556"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "event": "click(state=86ad15cba4ecd2166c92cbbf7eddfa20, view=553e56e4257e3426ca1ee81e58bd7ec2(SplashActivity/Button-Create:x432:y2013))"
+            },
+            {
+                "from": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "to": "-3413059964914063503",
+                "event": "click<p id=6> 60s,  </p>"
+            },
+            {
+                "from": "-3413059964914063503",
+                "to": "5858063106385881231",
+                "event": "click<div id=1 alt=\"Effects\">  </div>"
+            },
+            {
+                "from": "5858063106385881231",
+                "to": "-5454081155899082556",
+                "event": "click<p id=24> Save,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

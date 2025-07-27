@@ -1,0 +1,96 @@
+[
+    {
+        "comment": "Needs to be repaired. I have followed several pages, but when I go to see my followed pages, they aren't there. Then when I search the page, it has the button for me to follow. I don't understand the issue.",
+        "key sentence": "Follow several pages, then navigate to view the followed pages and find that the pages do not appear in the followed list.  ",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [],
+        "operations": [],
+        "Final answer": ""
+    },
+    {
+        "round": 2,
+        "comment": "Needs to be repaired. I have followed several pages, but when I go to see my followed pages, they aren't there. Then when I search the page, it has the button for me to follow. I don't understand the issue.",
+        "scenarios": [
+            "Follow several pages, then navigate to view the followed pages and find that the pages do not appear in the followed list.  ",
+            "Search for a page that was followed, and find that the option to follow the page is available again, indicating it was not successfully followed."
+        ],
+        "key sentence": "Follow several pages, then navigate to view the followed pages and find that the pages do not appear in the followed list.  ",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "86ad15cba4ecd2166c92cbbf7eddfa20",
+        "the sub-task list of state": "[{'name': 'Follow', 'description': 'Follow a user profile'}, {'name': 'Like', 'description': 'Like a video'}, {'name': 'Share', 'description': 'Share a video'}, {'name': 'Add to Favorites', 'description': 'Add or remove a video from Favorites'}, {'name': 'Comments', 'description': 'Read or add comments on a video'}, {'name': 'Play Video', 'description': 'Play a video'}, {'name': 'Sound', 'description': 'Listen to the sound of a video'}, {'name': 'Friends', 'description': 'Change to friends page'}, {'name': 'Inbox', 'description': 'Change to inbox page'}, {'name': 'Profile', 'description': 'Change to profile page'}, {'name': 'For you', 'description': 'Watch vedio for you'}, {'name': 'HomePage', 'description': 'In homepage, you can scroll to watch vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment21\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment21\\scene0\\-9044015017603752020.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-9044015017603752020"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment21\\scene0\\-8930353255822494868.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8930353255822494868"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment21\\scene0\\8037702033453153551.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8037702033453153551"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment21\\scene0\\-8930353255822494868.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8930353255822494868"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment21\\scene0\\2611326936258044667.png",
+                "activity": "com.ss.android.ugc.profile.business.ur.following.ui.FollowRelationTabActivity}",
+                "state_str": "2611326936258044667"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment21\\scene0\\2611326936258044667.png",
+                "activity": "com.ss.android.ugc.profile.business.ur.following.ui.FollowRelationTabActivity}",
+                "state_str": "2611326936258044667"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "-9044015017603752020",
+                "event": "click<button id=18 alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "-9044015017603752020",
+                "to": "-8930353255822494868",
+                "event": "click<button id=21 alt=\"Favorites\">  </button>"
+            },
+            {
+                "from": "-8930353255822494868",
+                "to": "8037702033453153551",
+                "event": "click<button id=41 alt=\"Friends\">  </button>"
+            },
+            {
+                "from": "8037702033453153551",
+                "to": "-8930353255822494868",
+                "event": "click<button id=23 alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "-8930353255822494868",
+                "to": "2611326936258044667",
+                "event": "click<p id=7> Following,  </p>"
+            },
+            {
+                "from": "2611326936258044667",
+                "to": "2611326936258044667",
+                "event": "click<button id=2 alt=\"Following 31\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

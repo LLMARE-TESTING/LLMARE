@@ -1,0 +1,75 @@
+[
+    {
+        "comment": "Extra movement with the new update when swapping from videos to settings or friends DMs is absolutely irritating to look at. It's unnecessary to have extreme movement when opening someone's DM, or opening an video from the DM, or closing out of settings/DMs. Remove this feature or at least make it an option to disable this extra movement in accessibility.",
+        "key sentence": "Closing out of settings or DMs involves excessive movement.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [],
+        "operations": [],
+        "Final answer": ""
+    },
+    {
+        "round": 2,
+        "comment": "Extra movement with the new update when swapping from videos to settings or friends DMs is absolutely irritating to look at. It's unnecessary to have extreme movement when opening someone's DM, or opening an video from the DM, or closing out of settings/DMs. Remove this feature or at least make it an option to disable this extra movement in accessibility.",
+        "scenarios": [
+            "Closing out of settings or DMs involves excessive movement."
+        ],
+        "key sentence": "Closing out of settings or DMs involves excessive movement.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "86ad15cba4ecd2166c92cbbf7eddfa20",
+        "the sub-task list of state": "[{'name': 'Follow', 'description': 'Follow a user profile'}, {'name': 'Like', 'description': 'Like a video'}, {'name': 'Share', 'description': 'Share a video'}, {'name': 'Add to Favorites', 'description': 'Add or remove a video from Favorites'}, {'name': 'Comments', 'description': 'Read or add comments on a video'}, {'name': 'Play Video', 'description': 'Play a video'}, {'name': 'Sound', 'description': 'Listen to the sound of a video'}, {'name': 'Friends', 'description': 'Change to friends page'}, {'name': 'Inbox', 'description': 'Change to inbox page'}, {'name': 'Profile', 'description': 'Change to profile page'}, {'name': 'For you', 'description': 'Watch vedio for you'}, {'name': 'HomePage', 'description': 'In homepage, you can scroll to watch vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment27\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment27\\scene0\\-1167039876269237465.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1167039876269237465"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment27\\scene0\\-6233230118551244175.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-6233230118551244175"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment27\\scene0\\-9001795709425705353.png",
+                "activity": "com.ss.android.ugc.aweme.host.TikTokHostActivity}",
+                "state_str": "-9001795709425705353"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment27\\scene0\\-6233230118551244175.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-6233230118551244175"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "-1167039876269237465",
+                "event": "click<button id=21 alt=\"Inbox\">  </button>"
+            },
+            {
+                "from": "-1167039876269237465",
+                "to": "-6233230118551244175",
+                "event": "click<button id=43 alt=\"Inbox\">  </button>"
+            },
+            {
+                "from": "-6233230118551244175",
+                "to": "-9001795709425705353",
+                "event": "click<button id=7 alt=\"Lillian Caballero\">  </button>"
+            },
+            {
+                "from": "-9001795709425705353",
+                "to": "-6233230118551244175",
+                "event": "click<img id=0 alt=\"Back\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

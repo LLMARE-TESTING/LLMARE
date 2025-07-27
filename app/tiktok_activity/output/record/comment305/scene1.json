@@ -1,0 +1,403 @@
+[
+    {
+        "round": 1,
+        "comment": "Created an account a few days ago, and haven't been able to use the app whatsoever. App crashes constantly, freezes when trying to scroll. I cannot follow, like, or comment on videos at all. Every account I follow immediately unfollows after refreshing the page, and all my likes immediately unlike once I scroll. What's the point of joining if you won't let me use the app whatsoever?",
+        "scenarios": [
+            "Cannot follow, like, or comment on videos at all.",
+            "Every account I follow immediately unfollows after refreshing the page."
+        ],
+        "key sentence": "Every account I follow immediately unfollows after refreshing the page.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "86ad15cba4ecd2166c92cbbf7eddfa20",
+        "the sub-task list of state": "[{'name': 'Follow', 'description': 'Follow a user profile'}, {'name': 'Like', 'description': 'Like a video'}, {'name': 'Share', 'description': 'Share a video'}, {'name': 'Add to Favorites', 'description': 'Add or remove a video from Favorites'}, {'name': 'Comments', 'description': 'Read or add comments on a video'}, {'name': 'Play Video', 'description': 'Play a video'}, {'name': 'Sound', 'description': 'Listen to the sound of a video'}, {'name': 'Friends', 'description': 'Change to friends page'}, {'name': 'Inbox', 'description': 'Change to inbox page'}, {'name': 'Profile', 'description': 'Change to profile page'}, {'name': 'For you', 'description': 'Watch vedio for you'}, {'name': 'HomePage', 'description': 'In homepage, you can scroll to watch vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-7395216036184437297.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-7395216036184437297"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-3274226373696340233.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-3274226373696340233"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-4196800586123959955.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4196800586123959955"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-392346167105279678.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-392346167105279678"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\2534929600093942380.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2534929600093942380"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-3155614872682970933.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-3155614872682970933"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-8217196220134096362.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8217196220134096362"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\8122769993856952796.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8122769993856952796"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-2665452032468003672.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-2665452032468003672"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-6107113839895075777.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-6107113839895075777"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-1089883041706648318.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1089883041706648318"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\3988457498376330610.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "3988457498376330610"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-1322664088901763086.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-1322664088901763086"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-1322664088901763086.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-1322664088901763086"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "-7395216036184437297",
+                "event": "click<button id=1 alt=\"Follow Qiao Ba\">  </button>"
+            },
+            {
+                "from": "-7395216036184437297",
+                "to": "-3274226373696340233",
+                "event": "click<button id=30 alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "-3274226373696340233",
+                "to": "-4196800586123959955",
+                "event": "click<button id=22> Follow,  </button>"
+            },
+            {
+                "from": "-4196800586123959955",
+                "to": "-392346167105279678",
+                "event": "click<button id=26> Follow,  </button>"
+            },
+            {
+                "from": "-392346167105279678",
+                "to": "2534929600093942380",
+                "event": "click<button id=23> Following,  </button>"
+            },
+            {
+                "from": "2534929600093942380",
+                "to": "-3155614872682970933",
+                "event": "click<button id=23> Follow,  </button>"
+            },
+            {
+                "from": "-3155614872682970933",
+                "to": "-8217196220134096362",
+                "event": "click<button id=23> Follow,  </button>"
+            },
+            {
+                "from": "-8217196220134096362",
+                "to": "8122769993856952796",
+                "event": "click<button id=20> Following,  </button>"
+            },
+            {
+                "from": "8122769993856952796",
+                "to": "-2665452032468003672",
+                "event": "click<button id=20> Follow,  </button>"
+            },
+            {
+                "from": "-2665452032468003672",
+                "to": "-6107113839895075777",
+                "event": "click<button id=20> Follow,  </button>"
+            },
+            {
+                "from": "-6107113839895075777",
+                "to": "-1089883041706648318",
+                "event": "click<button id=22> Follow,  </button>"
+            },
+            {
+                "from": "-1089883041706648318",
+                "to": 3988457498376330610,
+                "event": "back"
+            },
+            {
+                "from": 3988457498376330610,
+                "to": "-1322664088901763086",
+                "event": "click<img id=10 alt=\"Refresh screen time widget\">  </img>"
+            },
+            {
+                "from": "-1322664088901763086",
+                "to": -1322664088901763086,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Created an account a few days ago, and haven't been able to use the app whatsoever. App crashes constantly, freezes when trying to scroll. I cannot follow, like, or comment on videos at all. Every account I follow immediately unfollows after refreshing the page, and all my likes immediately unlike once I scroll. What's the point of joining if you won't let me use the app whatsoever?",
+        "scenarios": [
+            "Cannot follow, like, or comment on videos at all.",
+            "Every account I follow immediately unfollows after refreshing the page."
+        ],
+        "key sentence": "Every account I follow immediately unfollows after refreshing the page.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "86ad15cba4ecd2166c92cbbf7eddfa20",
+        "the sub-task list of state": "[{'name': 'Follow', 'description': 'Follow a user profile'}, {'name': 'Like', 'description': 'Like a video'}, {'name': 'Share', 'description': 'Share a video'}, {'name': 'Add to Favorites', 'description': 'Add or remove a video from Favorites'}, {'name': 'Comments', 'description': 'Read or add comments on a video'}, {'name': 'Play Video', 'description': 'Play a video'}, {'name': 'Sound', 'description': 'Listen to the sound of a video'}, {'name': 'Friends', 'description': 'Change to friends page'}, {'name': 'Inbox', 'description': 'Change to inbox page'}, {'name': 'Profile', 'description': 'Change to profile page'}, {'name': 'For you', 'description': 'Watch vedio for you'}, {'name': 'HomePage', 'description': 'In homepage, you can scroll to watch vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-7395216036184437297.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-7395216036184437297"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-3274226373696340233.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-3274226373696340233"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-4196800586123959955.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4196800586123959955"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-392346167105279678.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-392346167105279678"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\2534929600093942380.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2534929600093942380"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-3155614872682970933.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-3155614872682970933"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-8217196220134096362.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8217196220134096362"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\8122769993856952796.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8122769993856952796"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-2665452032468003672.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-2665452032468003672"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-6107113839895075777.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-6107113839895075777"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-1089883041706648318.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1089883041706648318"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\3988457498376330610.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "3988457498376330610"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-1322664088901763086.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-1322664088901763086"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-1322664088901763086.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-1322664088901763086"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\1413795651062127405.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "1413795651062127405"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-3852046345091252671.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-3852046345091252671"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\2579557757219124245.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2579557757219124245"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\433654324283504758.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "433654324283504758"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-8855389777871923947.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8855389777871923947"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-1394794098582883297.png",
+                "activity": "com.ss.android.ugc.profile.business.ur.following.ui.FollowRelationTabActivity}",
+                "state_str": "-1394794098582883297"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment305\\scene1\\-7512954435126775768.png",
+                "activity": "com.ss.android.ugc.profile.business.ur.following.ui.FollowRelationTabActivity}",
+                "state_str": "-7512954435126775768"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "-7395216036184437297",
+                "event": "click<button id=1 alt=\"Follow Qiao Ba\">  </button>"
+            },
+            {
+                "from": "-7395216036184437297",
+                "to": "-3274226373696340233",
+                "event": "click<button id=30 alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "-3274226373696340233",
+                "to": "-4196800586123959955",
+                "event": "click<button id=22> Follow,  </button>"
+            },
+            {
+                "from": "-4196800586123959955",
+                "to": "-392346167105279678",
+                "event": "click<button id=26> Follow,  </button>"
+            },
+            {
+                "from": "-392346167105279678",
+                "to": "2534929600093942380",
+                "event": "click<button id=23> Following,  </button>"
+            },
+            {
+                "from": "2534929600093942380",
+                "to": "-3155614872682970933",
+                "event": "click<button id=23> Follow,  </button>"
+            },
+            {
+                "from": "-3155614872682970933",
+                "to": "-8217196220134096362",
+                "event": "click<button id=23> Follow,  </button>"
+            },
+            {
+                "from": "-8217196220134096362",
+                "to": "8122769993856952796",
+                "event": "click<button id=20> Following,  </button>"
+            },
+            {
+                "from": "8122769993856952796",
+                "to": "-2665452032468003672",
+                "event": "click<button id=20> Follow,  </button>"
+            },
+            {
+                "from": "-2665452032468003672",
+                "to": "-6107113839895075777",
+                "event": "click<button id=20> Follow,  </button>"
+            },
+            {
+                "from": "-6107113839895075777",
+                "to": "-1089883041706648318",
+                "event": "click<button id=22> Follow,  </button>"
+            },
+            {
+                "from": "-1089883041706648318",
+                "to": 3988457498376330610,
+                "event": "back"
+            },
+            {
+                "from": 3988457498376330610,
+                "to": "-1322664088901763086",
+                "event": "click<img id=10 alt=\"Refresh screen time widget\">  </img>"
+            },
+            {
+                "from": "-1322664088901763086",
+                "to": -1322664088901763086,
+                "event": "back"
+            },
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "1413795651062127405",
+                "event": "click<div id=19 alt=\"Following\">  </div>"
+            },
+            {
+                "from": "1413795651062127405",
+                "to": "-3852046345091252671",
+                "event": "click<button id=8 alt=\"Enter feed\">  </button>"
+            },
+            {
+                "from": "-3852046345091252671",
+                "to": "2579557757219124245",
+                "event": "click<div id=4 alt=\"Following\">  </div>"
+            },
+            {
+                "from": "2579557757219124245",
+                "to": "433654324283504758",
+                "event": "click<button id=8 alt=\"Enter feed\">  </button>"
+            },
+            {
+                "from": "433654324283504758",
+                "to": "-8855389777871923947",
+                "event": "click<img id=8 alt=\"SR Holland Lops profile\">  </img>"
+            },
+            {
+                "from": "-8855389777871923947",
+                "to": "-1394794098582883297",
+                "event": "click<p id=3> Following,  </p>"
+            },
+            {
+                "from": "-1394794098582883297",
+                "to": "-7512954435126775768",
+                "event": "click<button id=10> Follow,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

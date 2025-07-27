@@ -1,0 +1,164 @@
+[
+    {
+        "round": 1,
+        "comment": "Needs to be repaired. I have followed several pages, but when I go to see my followed pages, they aren't there. Then when I search the page, it has the button for me to follow. I don't understand the issue.",
+        "scenarios": [
+            "I have followed several pages, but when I go to see my followed pages, they aren't there. Then when I search the page, it has the button for me to follow."
+        ],
+        "key sentence": "I have followed several pages, but when I go to see my followed pages, they aren't there. Then when I search the page, it has the button for me to follow.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "86ad15cba4ecd2166c92cbbf7eddfa20",
+        "the sub-task list of state": "[{'name': 'Follow', 'description': 'Follow a user profile'}, {'name': 'Like', 'description': 'Like a video'}, {'name': 'Share', 'description': 'Share a video'}, {'name': 'Add to Favorites', 'description': 'Add or remove a video from Favorites'}, {'name': 'Comments', 'description': 'Read or add comments on a video'}, {'name': 'Play Video', 'description': 'Play a video'}, {'name': 'Sound', 'description': 'Listen to the sound of a video'}, {'name': 'Friends', 'description': 'Change to friends page'}, {'name': 'Inbox', 'description': 'Change to inbox page'}, {'name': 'Profile', 'description': 'Change to profile page'}, {'name': 'For you', 'description': 'Watch vedio for you'}, {'name': 'HomePage', 'description': 'In homepage, you can scroll to watch vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment200\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment200\\scene0\\6709318823657123522.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "6709318823657123522"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment200\\scene0\\-157489655941072038.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-157489655941072038"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment200\\scene0\\2532803957348240695.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2532803957348240695"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment200\\scene0\\2532803957348240695.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2532803957348240695"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment200\\scene0\\6709318823657123522.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "6709318823657123522"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment200\\scene0\\5948779699586506805.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "5948779699586506805"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment200\\scene0\\142281321992524610.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "142281321992524610"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment200\\scene0\\2532803957348240695.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2532803957348240695"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment200\\scene0\\3876044235429846594.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "3876044235429846594"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment200\\scene0\\8667577776518120082.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8667577776518120082"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment200\\scene0\\6458232854848498073.png",
+                "activity": "com.ss.android.ugc.profile.business.ur.following.ui.FollowRelationTabActivity}",
+                "state_str": "6458232854848498073"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment200\\scene0\\7461793903786151730.png",
+                "activity": "com.ss.android.ugc.profile.business.ur.following.ui.FollowRelationTabActivity}",
+                "state_str": "7461793903786151730"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment200\\scene0\\1365577988204928885.png",
+                "activity": "com.ss.android.ugc.profile.business.ur.following.ui.FollowRelationTabActivity}",
+                "state_str": "1365577988204928885"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment200\\scene0\\4121666150601499238.png",
+                "activity": "com.ss.android.ugc.profile.business.ur.following.ui.FollowRelationTabActivity}",
+                "state_str": "4121666150601499238"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "6709318823657123522",
+                "event": "click<div id=21 alt=\"Following\">  </div>"
+            },
+            {
+                "from": "6709318823657123522",
+                "to": "-157489655941072038",
+                "event": "click<button id=34 alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "-157489655941072038",
+                "to": "2532803957348240695",
+                "event": "click<button id=38 alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "2532803957348240695",
+                "to": "2532803957348240695",
+                "event": "click<button id=35 alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "2532803957348240695",
+                "to": "6709318823657123522",
+                "event": "click<button id=28 alt=\"Home\">  </button>"
+            },
+            {
+                "from": "6709318823657123522",
+                "to": "5948779699586506805",
+                "event": "click<div id=4 alt=\"Following\">  </div>"
+            },
+            {
+                "from": "5948779699586506805",
+                "to": "142281321992524610",
+                "event": "click<div id=4 alt=\"Following\">  </div>"
+            },
+            {
+                "from": "142281321992524610",
+                "to": "2532803957348240695",
+                "event": "click<button id=34 alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "2532803957348240695",
+                "to": "3876044235429846594",
+                "event": "click<button id=28 alt=\"Home\">  </button>"
+            },
+            {
+                "from": "3876044235429846594",
+                "to": "8667577776518120082",
+                "event": "click<button id=34 alt=\"Profile\">  </button>"
+            },
+            {
+                "from": "8667577776518120082",
+                "to": "6458232854848498073",
+                "event": "click<p id=8> Following,  </p>"
+            },
+            {
+                "from": "6458232854848498073",
+                "to": "7461793903786151730",
+                "event": "click<button id=18> Following,  </button>"
+            },
+            {
+                "from": "7461793903786151730",
+                "to": "1365577988204928885",
+                "event": "click<input id=9> Search,  </input>"
+            },
+            {
+                "from": "1365577988204928885",
+                "to": "4121666150601499238",
+                "event": "click<button id=14> Find,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

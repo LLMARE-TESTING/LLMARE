@@ -1,0 +1,107 @@
+[
+    {
+        "comment": "My phone is samsung galaxy a52s 5g and on my phone on tiktok some filters doesnt look the same as it looks on iPhones. On my phone they're all messed up and sometimes when i turn filter on my screen where i record got blured. I dont have option to save video but without the tiktok sing. Also i dont have some other options as other phones.. please my phone is from 2021 its not that old can you please update that mine phone amd other have new update ?",
+        "key sentence": "The user lacks some options/features available on other phones.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [],
+        "operations": [],
+        "Final answer": ""
+    },
+    {
+        "round": 3,
+        "comment": "My phone is samsung galaxy a52s 5g and on my phone on tiktok some filters doesnt look the same as it looks on iPhones. On my phone they're all messed up and sometimes when i turn filter on my screen where i record got blured. I dont have option to save video but without the tiktok sing. Also i dont have some other options as other phones.. please my phone is from 2021 its not that old can you please update that mine phone amd other have new update ?",
+        "scenarios": [
+            "On a Samsung Galaxy A52s 5G, some TikTok filters do not appear the same as they do on iPhones, and the filters are messed up. Sometimes when a filter is turned on, the screen used for recording becomes blurred.\n",
+            "The user does not have the option to save videos without the TikTok watermark.\n",
+            "The user lacks some options/features available on other phones."
+        ],
+        "key sentence": "The user lacks some options/features available on other phones.",
+        "target activity": "com.ss.android.ugc.aweme.setting.ui.SettingContainerActivity",
+        "the function of activity": "User accounts, content, display settings, etc.",
+        "target state": "state28",
+        "the sub-task list of state": "[{'name': 'Account', 'description': 'Account,Privacy, Security&Permissions,Share profile.'}, {'name': 'Notifications', 'description': 'Notifications setting.'}, {'name': 'LIVE', 'description': 'LIVE setting.'}, {'name': 'Music', 'description': 'Music setting.'}, {'name': 'Activity center', 'description': 'View your activity data.'}, {'name': 'Content preferences', 'description': 'Content preferences setting.'}, {'name': 'Audience Controls', 'description': 'Audience setting.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment313\\scene2\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment313\\scene2\\state5.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment313\\scene2\\state27.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state27"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment313\\scene2\\state28.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state28"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment313\\scene2\\-5039130046484212983.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-5039130046484212983"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment313\\scene2\\-5039130046484212983.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-5039130046484212983"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment313\\scene2\\3058132689283225097.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "3058132689283225097"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment313\\scene2\\-634334832769411622.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-634334832769411622"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state5",
+                "event": "click(android.widget.FrameLayout-Profile:[864,2013][1080,2148])"
+            },
+            {
+                "from": "state5",
+                "to": "state27",
+                "event": "click(android.widget.ImageView-com.zhiliaoapp.musically:[937,100][1058,210])"
+            },
+            {
+                "from": "state27",
+                "to": "state28",
+                "event": "click(com.zhiliaoapp.musically:id/u1-Settings and privacy:[121,2005][1080,2060])"
+            },
+            {
+                "from": "state28",
+                "to": "-5039130046484212983",
+                "event": "click<p id=7> Content &amp; Display,  </p>"
+            },
+            {
+                "from": "-5039130046484212983",
+                "to": "-5039130046484212983",
+                "event": "click<p id=7> Content &amp; Display,  </p>"
+            },
+            {
+                "from": "-5039130046484212983",
+                "to": 3058132689283225097,
+                "event": "back"
+            },
+            {
+                "from": 3058132689283225097,
+                "to": "-634334832769411622",
+                "event": "click<button id=33 alt=\"Create\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

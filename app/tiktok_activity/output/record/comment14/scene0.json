@@ -1,0 +1,35 @@
+[
+    {
+        "round": 1,
+        "comment": "The follow button doesn't work, and the app is generally slow and filled with bugs. The fact that videos automatically resume when the app is reopened is incredibly frustrating. This isn't a feature that should exist, and an option to stop this from happening would improve the app.",
+        "scenarios": [
+            "The follow button doesn't work.",
+            "Videos automatically resume when the app is reopened, and there is no option to stop this from happening."
+        ],
+        "key sentence": "The follow button doesn't work.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "86ad15cba4ecd2166c92cbbf7eddfa20",
+        "the sub-task list of state": "[{'name': 'Follow', 'description': 'Follow a user profile'}, {'name': 'Like', 'description': 'Like a video'}, {'name': 'Share', 'description': 'Share a video'}, {'name': 'Add to Favorites', 'description': 'Add or remove a video from Favorites'}, {'name': 'Comments', 'description': 'Read or add comments on a video'}, {'name': 'Play Video', 'description': 'Play a video'}, {'name': 'Sound', 'description': 'Listen to the sound of a video'}, {'name': 'Friends', 'description': 'Change to friends page'}, {'name': 'Inbox', 'description': 'Change to inbox page'}, {'name': 'Profile', 'description': 'Change to profile page'}, {'name': 'For you', 'description': 'Watch vedio for you'}, {'name': 'HomePage', 'description': 'In homepage, you can scroll to watch vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment14\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment14\\scene0\\8881091571004998753.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8881091571004998753"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "8881091571004998753",
+                "event": "click<button id=1 alt=\"Follow \u0648\u0658\u0670\u0635\u0650\u0640\u0640\u0640\u0653\u0640\u0640\u0671\u064a\u0641\u2022| &#119934;&#119956;&#119938;&#119942;&#119943;\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

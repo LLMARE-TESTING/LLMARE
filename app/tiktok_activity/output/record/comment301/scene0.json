@@ -1,0 +1,636 @@
+[
+    {
+        "round": 1,
+        "comment": "Used to be a good app, but then the updates screwed it over. They got rid of their dark mode for Android, making it difficult for people with visual issues to see the screen from the HARSH white mode, they messed the comments up, and the pre-post to posted editing ratio is all messed up. Ex: I edit and upload a video thinking all of my text is in the frame when it isn't and half of it isn't legible from it being blurred or cut out. Used to be good, got worse.",
+        "scenarios": [
+            "The comment functionality is messed up (user did not provide specific actions here, just mentioned \"messed the comments up\"). ",
+            "Edit and upload a video, but the text is not in the frame as expected, with some text being blurred or cut out, making it illegible."
+        ],
+        "key sentence": "The comment functionality is messed up (user did not provide specific actions here, just mentioned \"messed the comments up\"). ",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state1",
+        "the sub-task list of state": "[{'name': 'Comment on Video', 'description': 'Add a comment to the video'}, {'name': 'View the comments', 'description': 'View the comments of vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\state1.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\8780829385159386897.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8780829385159386897"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\2553030366776329329.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2553030366776329329"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\2553030366776329329.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2553030366776329329"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\7936883700016375490.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "7936883700016375490"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-8955086553050208081.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8955086553050208081"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-2672647404902681882.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-2672647404902681882"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-2672647404902681882.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-2672647404902681882"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-2672647404902681882.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-2672647404902681882"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-4015364108201515169.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4015364108201515169"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\3632775102333550794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "3632775102333550794"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-4788352844161083577.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4788352844161083577"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\2632665392185352189.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2632665392185352189"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-4788352844161083577.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4788352844161083577"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\4435891909210442547.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "4435891909210442547"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state1",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/bwl:[953,1336][1041,1424])"
+            },
+            {
+                "from": "state1",
+                "to": "8780829385159386897",
+                "event": "click<button id=1> \u200e260 comments,  </button>"
+            },
+            {
+                "from": "8780829385159386897",
+                "to": "2553030366776329329",
+                "event": "click<input id=34> Add comment...,  </input>"
+            },
+            {
+                "from": "2553030366776329329",
+                "to": "2553030366776329329",
+                "event": "click<button id=27 alt=\"Post comment\">  </button>"
+            },
+            {
+                "from": "2553030366776329329",
+                "to": "7936883700016375490",
+                "event": "click<button id=0 alt=\"Video\">  </button>"
+            },
+            {
+                "from": "7936883700016375490",
+                "to": "-8955086553050208081",
+                "event": "click<button id=1> \u200e260 comments,  </button>"
+            },
+            {
+                "from": "-8955086553050208081",
+                "to": "-2672647404902681882",
+                "event": "click<button id=8> Reply,  </button>"
+            },
+            {
+                "from": "-2672647404902681882",
+                "to": "-2672647404902681882",
+                "event": "click<input id=27> Replying to Tony,  </input>"
+            },
+            {
+                "from": "-2672647404902681882",
+                "to": "-2672647404902681882",
+                "event": "click<button id=28 alt=\"Post comment\">  </button>"
+            },
+            {
+                "from": "-2672647404902681882",
+                "to": "-4015364108201515169",
+                "event": "click<button id=8> Reply,  </button>"
+            },
+            {
+                "from": "-4015364108201515169",
+                "to": "3632775102333550794",
+                "event": "click<button id=8> Reply,  </button>"
+            },
+            {
+                "from": "3632775102333550794",
+                "to": "-4788352844161083577",
+                "event": "click<button id=0 alt=\"Video\">  </button>"
+            },
+            {
+                "from": "-4788352844161083577",
+                "to": "2632665392185352189",
+                "event": "click<button id=1> \u200e260 comments,  </button>"
+            },
+            {
+                "from": "2632665392185352189",
+                "to": "-4788352844161083577",
+                "event": "click<button id=8> Reply,  </button>"
+            },
+            {
+                "from": "-4788352844161083577",
+                "to": "4435891909210442547",
+                "event": "click<button id=8> Reply,  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Used to be a good app, but then the updates screwed it over. They got rid of their dark mode for Android, making it difficult for people with visual issues to see the screen from the HARSH white mode, they messed the comments up, and the pre-post to posted editing ratio is all messed up. Ex: I edit and upload a video thinking all of my text is in the frame when it isn't and half of it isn't legible from it being blurred or cut out. Used to be good, got worse.",
+        "scenarios": [
+            "The comment functionality is messed up (user did not provide specific actions here, just mentioned \"messed the comments up\"). ",
+            "Edit and upload a video, but the text is not in the frame as expected, with some text being blurred or cut out, making it illegible."
+        ],
+        "key sentence": "The comment functionality is messed up (user did not provide specific actions here, just mentioned \"messed the comments up\"). ",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state1",
+        "the sub-task list of state": "[{'name': 'Comment on Video', 'description': 'Add a comment to the video'}, {'name': 'View the comments', 'description': 'View the comments of vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\state1.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\8780829385159386897.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8780829385159386897"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\2553030366776329329.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2553030366776329329"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\2553030366776329329.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2553030366776329329"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\7936883700016375490.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "7936883700016375490"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-8955086553050208081.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8955086553050208081"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-2672647404902681882.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-2672647404902681882"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-2672647404902681882.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-2672647404902681882"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-2672647404902681882.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-2672647404902681882"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-4015364108201515169.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4015364108201515169"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\3632775102333550794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "3632775102333550794"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-4788352844161083577.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4788352844161083577"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\2632665392185352189.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2632665392185352189"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-4788352844161083577.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4788352844161083577"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\4435891909210442547.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "4435891909210442547"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\state1.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-8647729082042745262.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8647729082042745262"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\8386675763158283696.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8386675763158283696"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\8386675763158283696.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8386675763158283696"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state1",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/bwl:[953,1336][1041,1424])"
+            },
+            {
+                "from": "state1",
+                "to": "8780829385159386897",
+                "event": "click<button id=1> \u200e260 comments,  </button>"
+            },
+            {
+                "from": "8780829385159386897",
+                "to": "2553030366776329329",
+                "event": "click<input id=34> Add comment...,  </input>"
+            },
+            {
+                "from": "2553030366776329329",
+                "to": "2553030366776329329",
+                "event": "click<button id=27 alt=\"Post comment\">  </button>"
+            },
+            {
+                "from": "2553030366776329329",
+                "to": "7936883700016375490",
+                "event": "click<button id=0 alt=\"Video\">  </button>"
+            },
+            {
+                "from": "7936883700016375490",
+                "to": "-8955086553050208081",
+                "event": "click<button id=1> \u200e260 comments,  </button>"
+            },
+            {
+                "from": "-8955086553050208081",
+                "to": "-2672647404902681882",
+                "event": "click<button id=8> Reply,  </button>"
+            },
+            {
+                "from": "-2672647404902681882",
+                "to": "-2672647404902681882",
+                "event": "click<input id=27> Replying to Tony,  </input>"
+            },
+            {
+                "from": "-2672647404902681882",
+                "to": "-2672647404902681882",
+                "event": "click<button id=28 alt=\"Post comment\">  </button>"
+            },
+            {
+                "from": "-2672647404902681882",
+                "to": "-4015364108201515169",
+                "event": "click<button id=8> Reply,  </button>"
+            },
+            {
+                "from": "-4015364108201515169",
+                "to": "3632775102333550794",
+                "event": "click<button id=8> Reply,  </button>"
+            },
+            {
+                "from": "3632775102333550794",
+                "to": "-4788352844161083577",
+                "event": "click<button id=0 alt=\"Video\">  </button>"
+            },
+            {
+                "from": "-4788352844161083577",
+                "to": "2632665392185352189",
+                "event": "click<button id=1> \u200e260 comments,  </button>"
+            },
+            {
+                "from": "2632665392185352189",
+                "to": "-4788352844161083577",
+                "event": "click<button id=8> Reply,  </button>"
+            },
+            {
+                "from": "-4788352844161083577",
+                "to": "4435891909210442547",
+                "event": "click<button id=8> Reply,  </button>"
+            },
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state1",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/bwl:[953,1336][1041,1424])"
+            },
+            {
+                "from": "state1",
+                "to": "-8647729082042745262",
+                "event": "click<button id=1> \u200e21,964 comments,  </button>"
+            },
+            {
+                "from": "-8647729082042745262",
+                "to": "8386675763158283696",
+                "event": "click<input id=33> Add comment...,  </input>"
+            },
+            {
+                "from": "8386675763158283696",
+                "to": "8386675763158283696",
+                "event": "click<button id=27 alt=\"Post comment\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 3,
+        "comment": "Used to be a good app, but then the updates screwed it over. They got rid of their dark mode for Android, making it difficult for people with visual issues to see the screen from the HARSH white mode, they messed the comments up, and the pre-post to posted editing ratio is all messed up. Ex: I edit and upload a video thinking all of my text is in the frame when it isn't and half of it isn't legible from it being blurred or cut out. Used to be good, got worse.",
+        "scenarios": [
+            "The comment functionality is messed up (user did not provide specific actions here, just mentioned \"messed the comments up\"). ",
+            "Edit and upload a video, but the text is not in the frame as expected, with some text being blurred or cut out, making it illegible."
+        ],
+        "key sentence": "The comment functionality is messed up (user did not provide specific actions here, just mentioned \"messed the comments up\"). ",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state1",
+        "the sub-task list of state": "[{'name': 'Comment on Video', 'description': 'Add a comment to the video'}, {'name': 'View the comments', 'description': 'View the comments of vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\state1.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\8780829385159386897.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8780829385159386897"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\2553030366776329329.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2553030366776329329"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\2553030366776329329.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2553030366776329329"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\7936883700016375490.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "7936883700016375490"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-8955086553050208081.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8955086553050208081"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-2672647404902681882.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-2672647404902681882"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-2672647404902681882.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-2672647404902681882"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-2672647404902681882.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-2672647404902681882"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-4015364108201515169.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4015364108201515169"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\3632775102333550794.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "3632775102333550794"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-4788352844161083577.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4788352844161083577"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\2632665392185352189.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2632665392185352189"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-4788352844161083577.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4788352844161083577"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\4435891909210442547.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "4435891909210442547"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\state1.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\-8647729082042745262.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8647729082042745262"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\8386675763158283696.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8386675763158283696"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\8386675763158283696.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8386675763158283696"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\state1.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene0\\2846709117734084842.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2846709117734084842"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state1",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/bwl:[953,1336][1041,1424])"
+            },
+            {
+                "from": "state1",
+                "to": "8780829385159386897",
+                "event": "click<button id=1> \u200e260 comments,  </button>"
+            },
+            {
+                "from": "8780829385159386897",
+                "to": "2553030366776329329",
+                "event": "click<input id=34> Add comment...,  </input>"
+            },
+            {
+                "from": "2553030366776329329",
+                "to": "2553030366776329329",
+                "event": "click<button id=27 alt=\"Post comment\">  </button>"
+            },
+            {
+                "from": "2553030366776329329",
+                "to": "7936883700016375490",
+                "event": "click<button id=0 alt=\"Video\">  </button>"
+            },
+            {
+                "from": "7936883700016375490",
+                "to": "-8955086553050208081",
+                "event": "click<button id=1> \u200e260 comments,  </button>"
+            },
+            {
+                "from": "-8955086553050208081",
+                "to": "-2672647404902681882",
+                "event": "click<button id=8> Reply,  </button>"
+            },
+            {
+                "from": "-2672647404902681882",
+                "to": "-2672647404902681882",
+                "event": "click<input id=27> Replying to Tony,  </input>"
+            },
+            {
+                "from": "-2672647404902681882",
+                "to": "-2672647404902681882",
+                "event": "click<button id=28 alt=\"Post comment\">  </button>"
+            },
+            {
+                "from": "-2672647404902681882",
+                "to": "-4015364108201515169",
+                "event": "click<button id=8> Reply,  </button>"
+            },
+            {
+                "from": "-4015364108201515169",
+                "to": "3632775102333550794",
+                "event": "click<button id=8> Reply,  </button>"
+            },
+            {
+                "from": "3632775102333550794",
+                "to": "-4788352844161083577",
+                "event": "click<button id=0 alt=\"Video\">  </button>"
+            },
+            {
+                "from": "-4788352844161083577",
+                "to": "2632665392185352189",
+                "event": "click<button id=1> \u200e260 comments,  </button>"
+            },
+            {
+                "from": "2632665392185352189",
+                "to": "-4788352844161083577",
+                "event": "click<button id=8> Reply,  </button>"
+            },
+            {
+                "from": "-4788352844161083577",
+                "to": "4435891909210442547",
+                "event": "click<button id=8> Reply,  </button>"
+            },
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state1",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/bwl:[953,1336][1041,1424])"
+            },
+            {
+                "from": "state1",
+                "to": "-8647729082042745262",
+                "event": "click<button id=1> \u200e21,964 comments,  </button>"
+            },
+            {
+                "from": "-8647729082042745262",
+                "to": "8386675763158283696",
+                "event": "click<input id=33> Add comment...,  </input>"
+            },
+            {
+                "from": "8386675763158283696",
+                "to": "8386675763158283696",
+                "event": "click<button id=27 alt=\"Post comment\">  </button>"
+            },
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state1",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/bwl:[953,1336][1041,1424])"
+            },
+            {
+                "from": "state1",
+                "to": "2846709117734084842",
+                "event": "click<button id=1> \u200e147 comments,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

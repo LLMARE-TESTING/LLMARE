@@ -1,0 +1,115 @@
+[
+    {
+        "round": 1,
+        "comment": "Honestly I like watching tiktok and the videos are so cool, but there are tons of complaints. First of all I can't fund my REPOST BUTTON. This is very annoying also I can't even send messages on tiktok even though u did nothing, I can't even find the msg button also. Plz I'm to check this out... I'm very upset at this point.. like what's the use of using tiktok . One more thing I don't have the button to like... select emojis... there are only 5 emojis I'm using.. tysm",
+        "scenarios": [
+            "User cannot find or use the repost button.",
+            "User cannot send messages or find the message button.",
+            "User does not have the button to select from a full range of emojis and is limited to using only 5 emojis."
+        ],
+        "key sentence": "User cannot send messages or find the message button.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state21",
+        "the sub-task list of state": "[{'name': 'Share', 'description': 'Share the content'}, {'name': 'Write a message', 'description': 'Write a message to send'}, {'name': 'Send', 'description': 'Send the message or content'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment311\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment311\\scene1\\state20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment311\\scene1\\state21.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state21"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state20",
+                "event": "click(Button-Share video.:[914,1664][1080,1851])"
+            },
+            {
+                "from": "state20",
+                "to": "state21",
+                "event": "click(Button-audery0170:[212,1310][383,1503])"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Honestly I like watching tiktok and the videos are so cool, but there are tons of complaints. First of all I can't fund my REPOST BUTTON. This is very annoying also I can't even send messages on tiktok even though u did nothing, I can't even find the msg button also. Plz I'm to check this out... I'm very upset at this point.. like what's the use of using tiktok . One more thing I don't have the button to like... select emojis... there are only 5 emojis I'm using.. tysm",
+        "scenarios": [
+            "User cannot find or use the repost button.",
+            "User cannot send messages or find the message button.",
+            "User does not have the button to select from a full range of emojis and is limited to using only 5 emojis."
+        ],
+        "key sentence": "User cannot send messages or find the message button.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state21",
+        "the sub-task list of state": "[{'name': 'Share', 'description': 'Share the content'}, {'name': 'Write a message', 'description': 'Write a message to send'}, {'name': 'Send', 'description': 'Send the message or content'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment311\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment311\\scene1\\state20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment311\\scene1\\state21.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state21"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment311\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment311\\scene1\\state20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment311\\scene1\\state21.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state21"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state20",
+                "event": "click(Button-Share video.:[914,1664][1080,1851])"
+            },
+            {
+                "from": "state20",
+                "to": "state21",
+                "event": "click(Button-audery0170:[212,1310][383,1503])"
+            },
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state20",
+                "event": "click(Button-Share video.:[914,1664][1080,1851])"
+            },
+            {
+                "from": "state20",
+                "to": "state21",
+                "event": "click(Button-audery0170:[212,1310][383,1503])"
+            }
+        ],
+        "Final answer": 1
+    }
+]

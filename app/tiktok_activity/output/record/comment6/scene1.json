@@ -1,0 +1,35 @@
+[
+    {
+        "round": 1,
+        "comment": "Galaxy Fold problem me and my husband have a galaxy. Fold4, and both of them are having problems with TikTok. The screen will load half of the screen and the other side be black. Also, the comments are always off , With this new update, please fix this now. I know our phones are new so it has nothing to do it .",
+        "scenarios": [
+            "On the Galaxy Fold4, the TikTok screen loads only half of the screen, while the other side remains black.\n",
+            "On the Galaxy Fold4, the comments feature is always off."
+        ],
+        "key sentence": "On the Galaxy Fold4, the comments feature is always off.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state1",
+        "the sub-task list of state": "[{'name': 'Comment on Video', 'description': 'Add a comment to the video'}, {'name': 'View the comments', 'description': 'View the comments of vedio'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment6\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment6\\scene1\\state1.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state1"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state1",
+                "event": "click(ImageView-com.zhiliaoapp.musically:id/bwl:[953,1336][1041,1424])"
+            }
+        ],
+        "Final answer": 1
+    }
+]

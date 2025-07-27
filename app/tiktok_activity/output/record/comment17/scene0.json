@@ -1,0 +1,56 @@
+[
+    {
+        "round": 1,
+        "comment": "they keep taking away the most basic functions. my repost function is completely gone after i updated the app, and i can't use photo scroll mode anymore. ive reported and done everything i can, but have gotten no response to any of it.",
+        "scenarios": [
+            "Updated the app and found that the repost function is completely gone.",
+            "Cannot use photo scroll mode after updating the app.",
+            "Reported issues and done everything possible but received no response."
+        ],
+        "key sentence": "Updated the app and found that the repost function is completely gone.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state20",
+        "the sub-task list of state": "[{'name': 'Share to', 'description': 'Share the video to another platform'}, {'name': 'Add to Story', 'description': 'Add the video to your story'}, {'name': 'Repost', 'description': 'Repost the video'}, {'name': 'Copy link', 'description': \"Copy the video's link\"}, {'name': 'Report', 'description': 'Report the video'}, {'name': 'Not interested', 'description': 'Mark the video as not interesting'}, {'name': 'Save video', 'description': 'Save the video to your device'}, {'name': 'Cast', 'description': 'Cast the video to another device'}, {'name': 'Why this video', 'description': 'Find out why this video was suggested to you'}, {'name': 'Captions', 'description': 'View captions/subtitles for the video'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment17\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment17\\scene0\\state20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment17\\scene0\\-5030983681334071368.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-5030983681334071368"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment17\\scene0\\-2725241628093299895.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-2725241628093299895"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state20",
+                "event": "click(Button-Share video.:[914,1664][1080,1851])"
+            },
+            {
+                "from": "state20",
+                "to": -5030983681334071368,
+                "event": "back"
+            },
+            {
+                "from": -5030983681334071368,
+                "to": "-2725241628093299895",
+                "event": "click<button id=10 alt=\"Share video. 11.9K shares\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

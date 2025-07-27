@@ -1,0 +1,84 @@
+[
+    {
+        "round": 1,
+        "comment": "Whenever I go to record a video I hold down the record button and it zooms in Automatically and it's just frustrating to record videos . SMH",
+        "scenarios": [
+            "Go to record a video, hold down the record button, and it zooms in automatically, making it frustrating to record videos."
+        ],
+        "key sentence": "Go to record a video, hold down the record button, and it zooms in automatically, making it frustrating to record videos.",
+        "target activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity",
+        "the function of activity": "This activity allows users to record and enhance videos, adjust playback speed, add effects, sound, text, music, and post videos.",
+        "target state": "97fbfdd4dfe5010b5daa588476b0ed04",
+        "the sub-task list of state": "[{'name': 'Record video', 'description': 'Record a video'}, {'name': 'Add sound', 'description': 'Add sound to the video'}, {'name': 'Flip', 'description': 'Flip the camera'}, {'name': 'Effects', 'description': 'Add effects to the video'}, {'name': 'Upload', 'description': 'Upload the video'}, {'name': 'Speed', 'description': 'Adjust the speed of the video'}, {'name': 'Retouch', 'description': 'Retouch the video'}, {'name': 'Mic', 'description': 'Enable or disable microphone'}, {'name': 'Filters', 'description': 'Apply filters to the video'}, {'name': 'Timer', 'description': 'Set a timer for recording'}, {'name': 'Flash', 'description': 'Enable or disable flash'}, {'name': 'Close', 'description': 'Close the current screen'}, {'name': 'Text', 'description': 'Add text to the video'}, {'name': 'Camera', 'description': 'Switch between front and back camera'}, {'name': 'Templates', 'description': 'Choose a template for the video'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment12\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment12\\scene0\\97fbfdd4dfe5010b5daa588476b0ed04.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "97fbfdd4dfe5010b5daa588476b0ed04"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment12\\scene0\\5512779231623679176.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "5512779231623679176"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment12\\scene0\\-3806840399245733708.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-3806840399245733708"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment12\\scene0\\-3806840399245733708.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-3806840399245733708"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment12\\scene0\\1482313745428691678.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "1482313745428691678"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment12\\scene0\\1482313745428691678.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "1482313745428691678"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "event": "click(state=86ad15cba4ecd2166c92cbbf7eddfa20, view=553e56e4257e3426ca1ee81e58bd7ec2(SplashActivity/Button-Create:x432:y2013))"
+            },
+            {
+                "from": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "to": "5512779231623679176",
+                "event": "long-click"
+            },
+            {
+                "from": "5512779231623679176",
+                "to": "-3806840399245733708",
+                "event": "click<button id=0 alt=\"Record video\">  </button>"
+            },
+            {
+                "from": "-3806840399245733708",
+                "to": "-3806840399245733708",
+                "event": "long-click"
+            },
+            {
+                "from": "-3806840399245733708",
+                "to": "1482313745428691678",
+                "event": "click<p id=0> Pretty Slowly,  </p>"
+            },
+            {
+                "from": "1482313745428691678",
+                "to": "1482313745428691678",
+                "event": "long-click"
+            }
+        ],
+        "Final answer": 1
+    }
+]

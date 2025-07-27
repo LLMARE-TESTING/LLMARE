@@ -1,0 +1,325 @@
+[
+    {
+        "round": 1,
+        "comment": "The TikTok experience has become increasingly frustrating. I deleted and reinstalled the app hoping to fix the editing issue, only to encounter more problems?no 2x feature, still unable to edit, and reposting is no longer possible. It's disappointing for both viewers and creators. Please address these issues. I can't believe I risked all my drafts for a complete downgrade. ",
+        "scenarios": [
+            "Deleted and reinstalled the app hoping to fix the editing issue, but still unable to edit.",
+            "Encountered the issue of no 2x feature in the app.",
+            "Unable to repost content on the app."
+        ],
+        "key sentence": "Unable to repost content on the app.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state20",
+        "the sub-task list of state": "[{'name': 'Share to', 'description': 'Share the video to another platform'}, {'name': 'Add to Story', 'description': 'Add the video to your story'}, {'name': 'Repost', 'description': 'Repost the video'}, {'name': 'Copy link', 'description': \"Copy the video's link\"}, {'name': 'Report', 'description': 'Report the video'}, {'name': 'Not interested', 'description': 'Mark the video as not interesting'}, {'name': 'Save video', 'description': 'Save the video to your device'}, {'name': 'Cast', 'description': 'Cast the video to another device'}, {'name': 'Why this video', 'description': 'Find out why this video was suggested to you'}, {'name': 'Captions', 'description': 'View captions/subtitles for the video'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\state20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\9014517088168247496.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "9014517088168247496"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\9014517088168247496.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "9014517088168247496"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\9014517088168247496.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "9014517088168247496"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\-1132062918307071352.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1132062918307071352"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\-1132062918307071352.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1132062918307071352"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\-8041903730005275092.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8041903730005275092"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\9014517088168247496.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "9014517088168247496"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\9014517088168247496.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "9014517088168247496"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\3965741570047769541.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "3965741570047769541"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\8539433131296404552.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8539433131296404552"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\8539433131296404552.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8539433131296404552"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\8851244091033566443.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8851244091033566443"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state20",
+                "event": "click(Button-Share video.:[914,1664][1080,1851])"
+            },
+            {
+                "from": "state20",
+                "to": "9014517088168247496",
+                "event": "click<p id=2> Repost,  </p>"
+            },
+            {
+                "from": "9014517088168247496",
+                "to": "9014517088168247496",
+                "event": "click<p id=2> Repost,  </p>"
+            },
+            {
+                "from": "9014517088168247496",
+                "to": "9014517088168247496",
+                "event": "click<p id=2> Repost,  </p>"
+            },
+            {
+                "from": "9014517088168247496",
+                "to": "-1132062918307071352",
+                "event": "click<button id=11 alt=\"More\">  </button>"
+            },
+            {
+                "from": "-1132062918307071352",
+                "to": "-1132062918307071352",
+                "event": "click<p id=0> Send to,  </p>"
+            },
+            {
+                "from": "-1132062918307071352",
+                "to": -8041903730005275092,
+                "event": "back"
+            },
+            {
+                "from": -8041903730005275092,
+                "to": "9014517088168247496",
+                "event": "click<button id=9 alt=\"Share video. 1,436 shares\">  </button>"
+            },
+            {
+                "from": "9014517088168247496",
+                "to": "9014517088168247496",
+                "event": "click<p id=2> Repost,  </p>"
+            },
+            {
+                "from": "9014517088168247496",
+                "to": "3965741570047769541",
+                "event": "click<button id=9 alt=\"Share video. 1,436 shares\">  </button>"
+            },
+            {
+                "from": "3965741570047769541",
+                "to": "8539433131296404552",
+                "event": "click<button id=11 alt=\"More\">  </button>"
+            },
+            {
+                "from": "8539433131296404552",
+                "to": "8539433131296404552",
+                "event": "click<p id=0> Send to,  </p>"
+            },
+            {
+                "from": "8539433131296404552",
+                "to": "8851244091033566443",
+                "event": "click<img id=1 alt=\"Close\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "The TikTok experience has become increasingly frustrating. I deleted and reinstalled the app hoping to fix the editing issue, only to encounter more problems?no 2x feature, still unable to edit, and reposting is no longer possible. It's disappointing for both viewers and creators. Please address these issues. I can't believe I risked all my drafts for a complete downgrade. ",
+        "scenarios": [
+            "Deleted and reinstalled the app hoping to fix the editing issue, but still unable to edit.",
+            "Encountered the issue of no 2x feature in the app.",
+            "Unable to repost content on the app."
+        ],
+        "key sentence": "Unable to repost content on the app.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Report', 'description': 'Report the video'}, {'name': 'Not interested', 'description': 'Indicate disinterest in the video'}, {'name': 'Save video', 'description': 'Save the video to the device'}, {'name': 'Captions', 'description': 'Toggle captions on/off'}, {'name': 'Clear display', 'description': 'Clear the display'}, {'name': 'Playback speed', 'description': 'Adjust the playback speed'}, {'name': 'Share with', 'description': 'Share the video with others'}, {'name': 'Repost', 'description': 'Repost the video'}, {'name': 'Add to Story', 'description': 'Add the video to your story'}, {'name': 'Send', 'description': 'Send the video to a friend'}, {'name': 'More friends', 'description': 'View more friends to send the video to'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\state20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\9014517088168247496.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "9014517088168247496"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\9014517088168247496.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "9014517088168247496"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\9014517088168247496.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "9014517088168247496"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\-1132062918307071352.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1132062918307071352"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\-1132062918307071352.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-1132062918307071352"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\-8041903730005275092.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-8041903730005275092"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\9014517088168247496.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "9014517088168247496"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\9014517088168247496.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "9014517088168247496"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\3965741570047769541.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "3965741570047769541"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\8539433131296404552.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8539433131296404552"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\8539433131296404552.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8539433131296404552"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\8851244091033566443.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8851244091033566443"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment307\\scene2\\state2.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state2"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state20",
+                "event": "click(Button-Share video.:[914,1664][1080,1851])"
+            },
+            {
+                "from": "state20",
+                "to": "9014517088168247496",
+                "event": "click<p id=2> Repost,  </p>"
+            },
+            {
+                "from": "9014517088168247496",
+                "to": "9014517088168247496",
+                "event": "click<p id=2> Repost,  </p>"
+            },
+            {
+                "from": "9014517088168247496",
+                "to": "9014517088168247496",
+                "event": "click<p id=2> Repost,  </p>"
+            },
+            {
+                "from": "9014517088168247496",
+                "to": "-1132062918307071352",
+                "event": "click<button id=11 alt=\"More\">  </button>"
+            },
+            {
+                "from": "-1132062918307071352",
+                "to": "-1132062918307071352",
+                "event": "click<p id=0> Send to,  </p>"
+            },
+            {
+                "from": "-1132062918307071352",
+                "to": -8041903730005275092,
+                "event": "back"
+            },
+            {
+                "from": -8041903730005275092,
+                "to": "9014517088168247496",
+                "event": "click<button id=9 alt=\"Share video. 1,436 shares\">  </button>"
+            },
+            {
+                "from": "9014517088168247496",
+                "to": "9014517088168247496",
+                "event": "click<p id=2> Repost,  </p>"
+            },
+            {
+                "from": "9014517088168247496",
+                "to": "3965741570047769541",
+                "event": "click<button id=9 alt=\"Share video. 1,436 shares\">  </button>"
+            },
+            {
+                "from": "3965741570047769541",
+                "to": "8539433131296404552",
+                "event": "click<button id=11 alt=\"More\">  </button>"
+            },
+            {
+                "from": "8539433131296404552",
+                "to": "8539433131296404552",
+                "event": "click<p id=0> Send to,  </p>"
+            },
+            {
+                "from": "8539433131296404552",
+                "to": "8851244091033566443",
+                "event": "click<img id=1 alt=\"Close\">  </img>"
+            },
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state2",
+                "event": "long-click(android.widget.RelativeLayout-com.zhiliaoapp.musically:id/mx5:[0,83][1080,2013])"
+            }
+        ],
+        "Final answer": 1
+    }
+]

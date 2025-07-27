@@ -1,0 +1,126 @@
+[
+    {
+        "round": 1,
+        "comment": "I love the app! I'm looking forward to creating more on there! I don't like that the app can get slow when editing or posting a video. For instance today I picked out the cover of my video and it totally didn't set. Now my video has a weird cover. It's happened to me multiple times. I think there should be an edit feature for that specific default. Even for editing the caption! There could be a lot of great fixes! Please listen to your users! ",
+        "scenarios": [
+            "When editing or posting a video, the app can get slow.",
+            "Pick out the cover for a video and it doesn't set correctly, resulting in a weird cover on the video.",
+            "Edit the caption of a posted video."
+        ],
+        "key sentence": "Pick out the cover for a video and it doesn't set correctly, resulting in a weird cover on the video.",
+        "target activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity",
+        "the function of activity": "This activity allows users to record and enhance videos, adjust playback speed, add effects, sound, text, music, and post videos.",
+        "target state": "state26",
+        "the sub-task list of state": "[{'name': 'Post Vedio', 'description': 'Create and post content'}, {'name': 'Select cover', 'description': 'Choose a cover image or video for the post'}, {'name': 'Hashtags', 'description': 'Add hashtags to the post'}, {'name': 'Friends', 'description': 'Mention friends in a post'}, {'name': 'Videos', 'description': 'View and manage videos'}, {'name': 'Location', 'description': 'Add location information to the post'}, {'name': 'Add link', 'description': 'Attach a hyperlink to the post'}, {'name': 'Everyone can view this post', 'description': 'Set visibility settings to allow everyone to view the post'}, {'name': 'More options', 'description': 'Access additional options for managing the post'}, {'name': 'Share to', 'description': 'Share the post to other platforms'}, {'name': 'Save to drafts', 'description': 'Save the post as a draft'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\scene1\\97fbfdd4dfe5010b5daa588476b0ed04.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "97fbfdd4dfe5010b5daa588476b0ed04"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\scene1\\state23.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "state23"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\scene1\\state24.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "state24"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\scene1\\state25.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "state25"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\scene1\\state26.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "state26"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\scene1\\5677043587226942369.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "5677043587226942369"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\scene1\\-7531593591700690593.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-7531593591700690593"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\scene1\\-6382261576543640079.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-6382261576543640079"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\scene1\\-8266903483927494416.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-8266903483927494416"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment19\\scene1\\2461613581798902279.png",
+                "activity": "com.android.deskclock.DeskClock}",
+                "state_str": "2461613581798902279"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "event": "click(state=86ad15cba4ecd2166c92cbbf7eddfa20, view=553e56e4257e3426ca1ee81e58bd7ec2(SplashActivity/Button-Create:x432:y2013))"
+            },
+            {
+                "from": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "to": "state23",
+                "event": "click(android.widget.FrameLayout-com.zhiliaoapp.musically:id/b6x:[768,1725][988,1934])"
+            },
+            {
+                "from": "state23",
+                "to": "state24",
+                "event": "click(android.widget.RelativeLayout-com.zhiliaoapp.musically:id/kb6:[360,215][720,339])"
+            },
+            {
+                "from": "state24",
+                "to": "state25",
+                "event": "click(android.widget.FrameLayout:[6,345][358,702])"
+            },
+            {
+                "from": "state25",
+                "to": "state26",
+                "event": "click(android.widget.LinearLayout-com.zhiliaoapp.musically:id/hzg:[545,2027][1047,2148])"
+            },
+            {
+                "from": "state26",
+                "to": 5677043587226942369,
+                "event": "back"
+            },
+            {
+                "from": 5677043587226942369,
+                "to": "-7531593591700690593",
+                "event": "click<button id=31> Next,  </button>"
+            },
+            {
+                "from": "-7531593591700690593",
+                "to": "-6382261576543640079",
+                "event": "click<button id=5 alt=\"Edit\">  </button>"
+            },
+            {
+                "from": "-6382261576543640079",
+                "to": "-8266903483927494416",
+                "event": "click<button id=1> Next,  </button>"
+            },
+            {
+                "from": "-8266903483927494416",
+                "to": "2461613581798902279",
+                "event": "click<p id=4> Edit cover,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

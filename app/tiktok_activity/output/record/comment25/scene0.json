@@ -1,0 +1,96 @@
+[
+    {
+        "comment": "This latest update messed up the videos. Half of them are scrunched to one side and you can't see part of it. The other ones don't show any options on the screen sometimes.",
+        "key sentence": "After the latest update, half of the videos are scrunched to one side, making some parts of the videos not visible.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [],
+        "operations": [],
+        "Final answer": ""
+    },
+    {
+        "round": 2,
+        "comment": "This latest update messed up the videos. Half of them are scrunched to one side and you can't see part of it. The other ones don't show any options on the screen sometimes.",
+        "scenarios": [
+            "After the latest update, half of the videos are scrunched to one side, making some parts of the videos not visible.",
+            "Sometimes, videos do not show any options on the screen."
+        ],
+        "key sentence": "After the latest update, half of the videos are scrunched to one side, making some parts of the videos not visible.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Report', 'description': 'Report the video'}, {'name': 'Not interested', 'description': 'Indicate disinterest in the video'}, {'name': 'Save video', 'description': 'Save the video to the device'}, {'name': 'Captions', 'description': 'Toggle captions on/off'}, {'name': 'Clear display', 'description': 'Clear the display'}, {'name': 'Playback speed', 'description': 'Adjust the playback speed'}, {'name': 'Share with', 'description': 'Share the video with others'}, {'name': 'Repost', 'description': 'Repost the video'}, {'name': 'Add to Story', 'description': 'Add the video to your story'}, {'name': 'Send', 'description': 'Send the video to a friend'}, {'name': 'More friends', 'description': 'View more friends to send the video to'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment25\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment25\\scene0\\state2.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment25\\scene0\\2183481675118453939.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "2183481675118453939"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment25\\scene0\\1930458544193199822.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "1930458544193199822"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment25\\scene0\\3489475469011948548.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "3489475469011948548"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment25\\scene0\\8682637732114117202.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8682637732114117202"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment25\\scene0\\3489475469011948548.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "3489475469011948548"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state2",
+                "event": "long-click(android.widget.RelativeLayout-com.zhiliaoapp.musically:id/mx5:[0,83][1080,2013])"
+            },
+            {
+                "from": "state2",
+                "to": 2183481675118453939,
+                "event": "back"
+            },
+            {
+                "from": 2183481675118453939,
+                "to": "1930458544193199822",
+                "event": "click<button id=17 alt=\"Home\">  </button>"
+            },
+            {
+                "from": "1930458544193199822",
+                "to": "3489475469011948548",
+                "event": "click<button id=17 alt=\"Video\">  </button>"
+            },
+            {
+                "from": "3489475469011948548",
+                "to": "8682637732114117202",
+                "event": "click<button id=16> See more,  </button>"
+            },
+            {
+                "from": "8682637732114117202",
+                "to": "3489475469011948548",
+                "event": "click<button id=17 alt=\"Video\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

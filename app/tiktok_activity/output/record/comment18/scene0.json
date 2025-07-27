@@ -1,0 +1,154 @@
+[
+    {
+        "round": 1,
+        "comment": "Please revert this new share page or add an option to choose between this and the old one. This new one takes up too much space and looks awful.",
+        "scenarios": [
+            "The user wants to revert to the old share page or have an option to choose between the new and old share page because they find the new one takes up too much space and looks awful."
+        ],
+        "key sentence": "The user wants to revert to the old share page or have an option to choose between the new and old share page because they find the new one takes up too much space and looks awful.",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state20",
+        "the sub-task list of state": "[{'name': 'Share to', 'description': 'Share the video to another platform'}, {'name': 'Add to Story', 'description': 'Add the video to your story'}, {'name': 'Repost', 'description': 'Repost the video'}, {'name': 'Copy link', 'description': \"Copy the video's link\"}, {'name': 'Report', 'description': 'Report the video'}, {'name': 'Not interested', 'description': 'Mark the video as not interesting'}, {'name': 'Save video', 'description': 'Save the video to your device'}, {'name': 'Cast', 'description': 'Cast the video to another device'}, {'name': 'Why this video', 'description': 'Find out why this video was suggested to you'}, {'name': 'Captions', 'description': 'View captions/subtitles for the video'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment18\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment18\\scene0\\state20.png",
+                "activity": "com.ss.android.ugc.aweme.live.LivePlayActivity}",
+                "state_str": "state20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment18\\scene0\\5825240455839228443.png",
+                "activity": "com.ss.android.ugc.aweme.live.LivePlayActivity}",
+                "state_str": "5825240455839228443"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment18\\scene0\\-6710682580574098915.png",
+                "activity": "com.bytedance.hybrid.spark.page.SparkActivity}",
+                "state_str": "-6710682580574098915"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment18\\scene0\\7863080847986648114.png",
+                "activity": "com.ss.android.ugc.aweme.live.LivePlayActivity}",
+                "state_str": "7863080847986648114"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment18\\scene0\\-3034120233095748003.png",
+                "activity": "com.ss.android.ugc.aweme.live.LivePlayActivity}",
+                "state_str": "-3034120233095748003"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment18\\scene0\\-8811815852281417195.png",
+                "activity": "com.ss.android.ugc.aweme.live.LivePlayActivity}",
+                "state_str": "-8811815852281417195"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment18\\scene0\\7863080847986648114.png",
+                "activity": "com.ss.android.ugc.aweme.live.LivePlayActivity}",
+                "state_str": "7863080847986648114"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment18\\scene0\\-8142961024030926242.png",
+                "activity": "com.ss.android.ugc.aweme.live.LivePlayActivity}",
+                "state_str": "-8142961024030926242"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment18\\scene0\\8328375041049111386.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "8328375041049111386"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment18\\scene0\\368878090816000917.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "368878090816000917"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment18\\scene0\\-4940055253676005702.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4940055253676005702"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment18\\scene0\\368878090816000917.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "368878090816000917"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment18\\scene0\\-4940055253676005702.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4940055253676005702"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state20",
+                "event": "click(Button-Share video.:[914,1664][1080,1851])"
+            },
+            {
+                "from": "state20",
+                "to": "5825240455839228443",
+                "event": "click<button id=33 alt=\"Share\">  </button>"
+            },
+            {
+                "from": "5825240455839228443",
+                "to": "-6710682580574098915",
+                "event": "click<button id=26 alt=\"Feedback\">  </button>"
+            },
+            {
+                "from": "-6710682580574098915",
+                "to": 7863080847986648114,
+                "event": "back"
+            },
+            {
+                "from": 7863080847986648114,
+                "to": "-3034120233095748003",
+                "event": "click<button id=8 alt=\"Report a problem\">  </button>"
+            },
+            {
+                "from": "-3034120233095748003",
+                "to": -8811815852281417195,
+                "event": "back"
+            },
+            {
+                "from": -8811815852281417195,
+                "to": "7863080847986648114",
+                "event": "click<button id=38 alt=\"1 share. Share video\">  </button>"
+            },
+            {
+                "from": "7863080847986648114",
+                "to": -8142961024030926242,
+                "event": "back"
+            },
+            {
+                "from": -8142961024030926242,
+                "to": "8328375041049111386",
+                "event": "click<img id=10 alt=\"Close\">  </img>"
+            },
+            {
+                "from": "8328375041049111386",
+                "to": 368878090816000917,
+                "event": "back"
+            },
+            {
+                "from": 368878090816000917,
+                "to": "-4940055253676005702",
+                "event": "click<button id=10 alt=\"Share video. 10.7K shares\">  </button>"
+            },
+            {
+                "from": "-4940055253676005702",
+                "to": 368878090816000917,
+                "event": "back"
+            },
+            {
+                "from": 368878090816000917,
+                "to": "-4940055253676005702",
+                "event": "click<button id=10 alt=\"Share video. 10.7K shares\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

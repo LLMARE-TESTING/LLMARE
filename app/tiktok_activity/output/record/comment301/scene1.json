@@ -1,0 +1,356 @@
+[
+    {
+        "round": 1,
+        "comment": "Used to be a good app, but then the updates screwed it over. They got rid of their dark mode for Android, making it difficult for people with visual issues to see the screen from the HARSH white mode, they messed the comments up, and the pre-post to posted editing ratio is all messed up. Ex: I edit and upload a video thinking all of my text is in the frame when it isn't and half of it isn't legible from it being blurred or cut out. Used to be good, got worse.",
+        "scenarios": [
+            "The comment functionality is messed up (user did not provide specific actions here, just mentioned \"messed the comments up\"). ",
+            "Edit and upload a video, but the text is not in the frame as expected, with some text being blurred or cut out, making it illegible."
+        ],
+        "key sentence": "Edit and upload a video, but the text is not in the frame as expected, with some text being blurred or cut out, making it illegible.",
+        "target activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity",
+        "the function of activity": "This activity allows users to record and enhance videos, adjust playback speed, add effects, sound, text, music, and post videos.",
+        "target state": "97fbfdd4dfe5010b5daa588476b0ed04",
+        "the sub-task list of state": "[{'name': 'Record video', 'description': 'Record a video'}, {'name': 'Add sound', 'description': 'Add sound to the video'}, {'name': 'Flip', 'description': 'Flip the camera'}, {'name': 'Effects', 'description': 'Add effects to the video'}, {'name': 'Upload', 'description': 'Upload the video'}, {'name': 'Speed', 'description': 'Adjust the speed of the video'}, {'name': 'Retouch', 'description': 'Retouch the video'}, {'name': 'Mic', 'description': 'Enable or disable microphone'}, {'name': 'Filters', 'description': 'Apply filters to the video'}, {'name': 'Timer', 'description': 'Set a timer for recording'}, {'name': 'Flash', 'description': 'Enable or disable flash'}, {'name': 'Close', 'description': 'Close the current screen'}, {'name': 'Text', 'description': 'Add text to the video'}, {'name': 'Camera', 'description': 'Switch between front and back camera'}, {'name': 'Templates', 'description': 'Choose a template for the video'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\97fbfdd4dfe5010b5daa588476b0ed04.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "97fbfdd4dfe5010b5daa588476b0ed04"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\353221307041250858.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "353221307041250858"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\-7346986740395044431.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-7346986740395044431"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\-4981885863910237098.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-4981885863910237098"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "event": "click(state=86ad15cba4ecd2166c92cbbf7eddfa20, view=553e56e4257e3426ca1ee81e58bd7ec2(SplashActivity/Button-Create:x432:y2013))"
+            },
+            {
+                "from": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "to": "353221307041250858",
+                "event": "click<button id=0 alt=\"Record video\">  </button>"
+            },
+            {
+                "from": "353221307041250858",
+                "to": "-7346986740395044431",
+                "event": "click<button id=6 alt=\"Edit\">  </button>"
+            },
+            {
+                "from": "-7346986740395044431",
+                "to": "-4981885863910237098",
+                "event": "click<div id=2 alt=\"Next\">  </div>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Used to be a good app, but then the updates screwed it over. They got rid of their dark mode for Android, making it difficult for people with visual issues to see the screen from the HARSH white mode, they messed the comments up, and the pre-post to posted editing ratio is all messed up. Ex: I edit and upload a video thinking all of my text is in the frame when it isn't and half of it isn't legible from it being blurred or cut out. Used to be good, got worse.",
+        "scenarios": [
+            "The comment functionality is messed up (user did not provide specific actions here, just mentioned \"messed the comments up\"). ",
+            "Edit and upload a video, but the text is not in the frame as expected, with some text being blurred or cut out, making it illegible."
+        ],
+        "key sentence": "Edit and upload a video, but the text is not in the frame as expected, with some text being blurred or cut out, making it illegible.",
+        "target activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity",
+        "the function of activity": "This activity allows users to record and enhance videos, adjust playback speed, add effects, sound, text, music, and post videos.",
+        "target state": "97fbfdd4dfe5010b5daa588476b0ed04",
+        "the sub-task list of state": "[{'name': 'Record video', 'description': 'Record a video'}, {'name': 'Add sound', 'description': 'Add sound to the video'}, {'name': 'Flip', 'description': 'Flip the camera'}, {'name': 'Effects', 'description': 'Add effects to the video'}, {'name': 'Upload', 'description': 'Upload the video'}, {'name': 'Speed', 'description': 'Adjust the speed of the video'}, {'name': 'Retouch', 'description': 'Retouch the video'}, {'name': 'Mic', 'description': 'Enable or disable microphone'}, {'name': 'Filters', 'description': 'Apply filters to the video'}, {'name': 'Timer', 'description': 'Set a timer for recording'}, {'name': 'Flash', 'description': 'Enable or disable flash'}, {'name': 'Close', 'description': 'Close the current screen'}, {'name': 'Text', 'description': 'Add text to the video'}, {'name': 'Camera', 'description': 'Switch between front and back camera'}, {'name': 'Templates', 'description': 'Choose a template for the video'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\97fbfdd4dfe5010b5daa588476b0ed04.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "97fbfdd4dfe5010b5daa588476b0ed04"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\353221307041250858.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "353221307041250858"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\-7346986740395044431.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-7346986740395044431"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\-4981885863910237098.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-4981885863910237098"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\97fbfdd4dfe5010b5daa588476b0ed04.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "97fbfdd4dfe5010b5daa588476b0ed04"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\-7732106271986073187.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-7732106271986073187"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\-7346986740395044431.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-7346986740395044431"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\-5161378945992888967.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-5161378945992888967"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\-5161378945992888967.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-5161378945992888967"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\-5161378945992888967.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-5161378945992888967"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\-5161378945992888967.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-5161378945992888967"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "event": "click(state=86ad15cba4ecd2166c92cbbf7eddfa20, view=553e56e4257e3426ca1ee81e58bd7ec2(SplashActivity/Button-Create:x432:y2013))"
+            },
+            {
+                "from": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "to": "353221307041250858",
+                "event": "click<button id=0 alt=\"Record video\">  </button>"
+            },
+            {
+                "from": "353221307041250858",
+                "to": "-7346986740395044431",
+                "event": "click<button id=6 alt=\"Edit\">  </button>"
+            },
+            {
+                "from": "-7346986740395044431",
+                "to": "-4981885863910237098",
+                "event": "click<div id=2 alt=\"Next\">  </div>"
+            },
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "event": "click(state=86ad15cba4ecd2166c92cbbf7eddfa20, view=553e56e4257e3426ca1ee81e58bd7ec2(SplashActivity/Button-Create:x432:y2013))"
+            },
+            {
+                "from": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "to": "-7732106271986073187",
+                "event": "click<button id=0 alt=\"Record video\">  </button>"
+            },
+            {
+                "from": "-7732106271986073187",
+                "to": "-7346986740395044431",
+                "event": "click<button id=6 alt=\"Edit\">  </button>"
+            },
+            {
+                "from": "-7346986740395044431",
+                "to": "-5161378945992888967",
+                "event": "click<p id=11> Text,  </p>"
+            },
+            {
+                "from": "-5161378945992888967",
+                "to": "-5161378945992888967",
+                "event": "click<input id=0> Enter text,  </input>"
+            },
+            {
+                "from": "-5161378945992888967",
+                "to": "-5161378945992888967",
+                "event": "click<button id=4 alt=\"Play video\">  </button>"
+            },
+            {
+                "from": "-5161378945992888967",
+                "to": "-5161378945992888967",
+                "event": "click<img id=6 alt=\"Add clip\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 3,
+        "comment": "Used to be a good app, but then the updates screwed it over. They got rid of their dark mode for Android, making it difficult for people with visual issues to see the screen from the HARSH white mode, they messed the comments up, and the pre-post to posted editing ratio is all messed up. Ex: I edit and upload a video thinking all of my text is in the frame when it isn't and half of it isn't legible from it being blurred or cut out. Used to be good, got worse.",
+        "scenarios": [
+            "The comment functionality is messed up (user did not provide specific actions here, just mentioned \"messed the comments up\"). ",
+            "Edit and upload a video, but the text is not in the frame as expected, with some text being blurred or cut out, making it illegible."
+        ],
+        "key sentence": "Edit and upload a video, but the text is not in the frame as expected, with some text being blurred or cut out, making it illegible.",
+        "target activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity",
+        "the function of activity": "This activity allows users to record and enhance videos, adjust playback speed, add effects, sound, text, music, and post videos.",
+        "target state": "97fbfdd4dfe5010b5daa588476b0ed04",
+        "the sub-task list of state": "[{'name': 'Record video', 'description': 'Record a video'}, {'name': 'Add sound', 'description': 'Add sound to the video'}, {'name': 'Flip', 'description': 'Flip the camera'}, {'name': 'Effects', 'description': 'Add effects to the video'}, {'name': 'Upload', 'description': 'Upload the video'}, {'name': 'Speed', 'description': 'Adjust the speed of the video'}, {'name': 'Retouch', 'description': 'Retouch the video'}, {'name': 'Mic', 'description': 'Enable or disable microphone'}, {'name': 'Filters', 'description': 'Apply filters to the video'}, {'name': 'Timer', 'description': 'Set a timer for recording'}, {'name': 'Flash', 'description': 'Enable or disable flash'}, {'name': 'Close', 'description': 'Close the current screen'}, {'name': 'Text', 'description': 'Add text to the video'}, {'name': 'Camera', 'description': 'Switch between front and back camera'}, {'name': 'Templates', 'description': 'Choose a template for the video'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\97fbfdd4dfe5010b5daa588476b0ed04.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "97fbfdd4dfe5010b5daa588476b0ed04"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\353221307041250858.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "353221307041250858"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\-7346986740395044431.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-7346986740395044431"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\-4981885863910237098.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-4981885863910237098"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\97fbfdd4dfe5010b5daa588476b0ed04.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "97fbfdd4dfe5010b5daa588476b0ed04"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\-7732106271986073187.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-7732106271986073187"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\-7346986740395044431.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-7346986740395044431"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\-5161378945992888967.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-5161378945992888967"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\-5161378945992888967.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-5161378945992888967"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\-5161378945992888967.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-5161378945992888967"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\-5161378945992888967.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "-5161378945992888967"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment301\\scene1\\97fbfdd4dfe5010b5daa588476b0ed04.png",
+                "activity": "com.ss.android.ugc.aweme.adaptation.saa.SAAActivity}",
+                "state_str": "97fbfdd4dfe5010b5daa588476b0ed04"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "event": "click(state=86ad15cba4ecd2166c92cbbf7eddfa20, view=553e56e4257e3426ca1ee81e58bd7ec2(SplashActivity/Button-Create:x432:y2013))"
+            },
+            {
+                "from": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "to": "353221307041250858",
+                "event": "click<button id=0 alt=\"Record video\">  </button>"
+            },
+            {
+                "from": "353221307041250858",
+                "to": "-7346986740395044431",
+                "event": "click<button id=6 alt=\"Edit\">  </button>"
+            },
+            {
+                "from": "-7346986740395044431",
+                "to": "-4981885863910237098",
+                "event": "click<div id=2 alt=\"Next\">  </div>"
+            },
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "event": "click(state=86ad15cba4ecd2166c92cbbf7eddfa20, view=553e56e4257e3426ca1ee81e58bd7ec2(SplashActivity/Button-Create:x432:y2013))"
+            },
+            {
+                "from": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "to": "-7732106271986073187",
+                "event": "click<button id=0 alt=\"Record video\">  </button>"
+            },
+            {
+                "from": "-7732106271986073187",
+                "to": "-7346986740395044431",
+                "event": "click<button id=6 alt=\"Edit\">  </button>"
+            },
+            {
+                "from": "-7346986740395044431",
+                "to": "-5161378945992888967",
+                "event": "click<p id=11> Text,  </p>"
+            },
+            {
+                "from": "-5161378945992888967",
+                "to": "-5161378945992888967",
+                "event": "click<input id=0> Enter text,  </input>"
+            },
+            {
+                "from": "-5161378945992888967",
+                "to": "-5161378945992888967",
+                "event": "click<button id=4 alt=\"Play video\">  </button>"
+            },
+            {
+                "from": "-5161378945992888967",
+                "to": "-5161378945992888967",
+                "event": "click<img id=6 alt=\"Add clip\">  </img>"
+            },
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "97fbfdd4dfe5010b5daa588476b0ed04",
+                "event": "click(state=86ad15cba4ecd2166c92cbbf7eddfa20, view=553e56e4257e3426ca1ee81e58bd7ec2(SplashActivity/Button-Create:x432:y2013))"
+            }
+        ],
+        "Final answer": 1
+    }
+]

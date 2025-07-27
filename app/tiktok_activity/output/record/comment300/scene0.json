@@ -1,0 +1,103 @@
+[
+    {
+        "round": 1,
+        "comment": "This app is okay and all, but an bug i recently encountered is that whenever i press and hold the screen to bring up the menu to save vedio and add the video to favorites and others doesn't appear. Once that happens I can't exit out of it, neither does switching to \"following\" or \"for you\" fixes the issue I have to close the app and open it back up. I'm not sure if anyone else encountered this issue but please fix it in the next update.",
+        "scenarios": [
+            "When pressing and holding the screen to bring up the menu to save a video and add the video to favorites, the menu does not appear.\n",
+            "Once the menu issue occurs, the user cannot exit out of it, and switching to \"following\" or \"for you\" does not resolve the issue; the app needs to be closed and reopened."
+        ],
+        "key sentence": "When pressing and holding the screen to bring up the menu to save a video and add the video to favorites, the menu does not appear.\n",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state20",
+        "the sub-task list of state": "[{'name': 'Share to', 'description': 'Share the video to another platform'}, {'name': 'Add to Story', 'description': 'Add the video to your story'}, {'name': 'Repost', 'description': 'Repost the video'}, {'name': 'Copy link', 'description': \"Copy the video's link\"}, {'name': 'Report', 'description': 'Report the video'}, {'name': 'Not interested', 'description': 'Mark the video as not interesting'}, {'name': 'Save video', 'description': 'Save the video to your device'}, {'name': 'Cast', 'description': 'Cast the video to another device'}, {'name': 'Why this video', 'description': 'Find out why this video was suggested to you'}, {'name': 'Captions', 'description': 'View captions/subtitles for the video'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment300\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment300\\scene0\\state20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state20"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state20",
+                "event": "click(Button-Share video.:[914,1664][1080,1851])"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "This app is okay and all, but an bug i recently encountered is that whenever i press and hold the screen to bring up the menu to save vedio and add the video to favorites and others doesn't appear. Once that happens I can't exit out of it, neither does switching to \"following\" or \"for you\" fixes the issue I have to close the app and open it back up. I'm not sure if anyone else encountered this issue but please fix it in the next update.",
+        "scenarios": [
+            "When pressing and holding the screen to bring up the menu to save a video and add the video to favorites, the menu does not appear.\n",
+            "Once the menu issue occurs, the user cannot exit out of it, and switching to \"following\" or \"for you\" does not resolve the issue; the app needs to be closed and reopened."
+        ],
+        "key sentence": "When pressing and holding the screen to bring up the menu to save a video and add the video to favorites, the menu does not appear.\n",
+        "target activity": "com.ss.android.ugc.aweme.splash.SplashActivity",
+        "the function of activity": "This activity involves various tasks such as searching for contacts, playing, pausing, liking, sharing, and reporting videos, as well as managing user profiles and interactions(following list, follower, like,favorites,private,draft).",
+        "target state": "state20",
+        "the sub-task list of state": "[{'name': 'Share to', 'description': 'Share the video to another platform'}, {'name': 'Add to Story', 'description': 'Add the video to your story'}, {'name': 'Repost', 'description': 'Repost the video'}, {'name': 'Copy link', 'description': \"Copy the video's link\"}, {'name': 'Report', 'description': 'Report the video'}, {'name': 'Not interested', 'description': 'Mark the video as not interesting'}, {'name': 'Save video', 'description': 'Save the video to your device'}, {'name': 'Cast', 'description': 'Cast the video to another device'}, {'name': 'Why this video', 'description': 'Find out why this video was suggested to you'}, {'name': 'Captions', 'description': 'View captions/subtitles for the video'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment300\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment300\\scene0\\state20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment300\\scene0\\86ad15cba4ecd2166c92cbbf7eddfa20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "86ad15cba4ecd2166c92cbbf7eddfa20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment300\\scene0\\state20.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "state20"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment300\\scene0\\-4874943750599649120.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "-4874943750599649120"
+            },
+            {
+                "image": "..\\app\\tiktok_activity\\output\\screenshot\\comment300\\scene0\\4923716345944098534.png",
+                "activity": "com.ss.android.ugc.aweme.splash.SplashActivity}",
+                "state_str": "4923716345944098534"
+            }
+        ],
+        "operations": [
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state20",
+                "event": "click(Button-Share video.:[914,1664][1080,1851])"
+            },
+            {
+                "from": "86ad15cba4ecd2166c92cbbf7eddfa20",
+                "to": "state20",
+                "event": "click(Button-Share video.:[914,1664][1080,1851])"
+            },
+            {
+                "from": "state20",
+                "to": "-4874943750599649120",
+                "event": "long-click"
+            },
+            {
+                "from": "-4874943750599649120",
+                "to": "4923716345944098534",
+                "event": "long-click"
+            }
+        ],
+        "Final answer": 1
+    }
+]
