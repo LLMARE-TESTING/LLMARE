@@ -1,0 +1,107 @@
+[
+    {
+        "round": 1,
+        "comment": "App is kinda meh, it's by far the best *phone vids* editor i can find but it just has soo many bugs and glitches. There's a bug where the first few seconds of your video freeze, sometimes when applying transition effects the clip before that would be blurry, the app sometimes resorts to changing certain effects here and there without your concern in order to handle the video like changing the colour of text and the worst part is that these bugs show up in the end result",
+        "scenarios": [
+            "The first few seconds of your video freeze.",
+            "When applying transition effects, the clip before that becomes blurry.",
+            "The app changes certain effects without your concern, such as changing the color of text.",
+            "The bugs mentioned (video freeze, blurry clips, and changed effects) show up in the end result."
+        ],
+        "key sentence": "When applying transition effects, the clip before that becomes blurry.",
+        "target activity": "com.vega.edit.editpage.activity.EditActivity",
+        "the function of activity": "The activity includes searching, navigating, exporting, editing, managing audio, adding media, controlling playback, adjusting visuals, applying effects, and enhancing projects.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Speed', 'description': 'Adjust the speed of the project.'}, {'name': 'Animations', 'description': 'Add animations to the project.'}, {'name': 'Effects Options', 'description': 'Add effects to the project.'}, {'name': 'Delete', 'description': 'Delete the clip of the project.'}, {'name': 'Enhance voice', 'description': 'Enhance the voice of the project.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment10\\scene1\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment10\\scene1\\state2.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment10\\scene1\\state3.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment10\\scene1\\state4.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment10\\scene1\\state8.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment10\\scene1\\-6110220349886484774.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "-6110220349886484774"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment10\\scene1\\5969701089578801964.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "5969701089578801964"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment10\\scene1\\-7102657028234652945.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "-7102657028234652945"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment10\\scene1\\-6286143630872451129.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "-6286143630872451129"
+            }
+        ],
+        "operations": [
+            {
+                "from": "b3c2b8cf7b8f3959cd3c2bd09dbce71a",
+                "to": "state2",
+                "event": "click(com.lemon.lvoverseas:id/create_project_tv:[443,639][735,707])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(com.lemon.lvoverseas:id/iv_local_multi_media_select_index:[290,1367][339,1416])"
+            },
+            {
+                "from": "state3",
+                "to": "state4",
+                "event": "click(com.lemon.lvoverseas:id/sb_media_select_done:[843,2013][1036,2090])"
+            },
+            {
+                "from": "state4",
+                "to": "state8",
+                "event": "click(com.lemon.lvoverseas:id/ivIcon:[63,1983][146,2066])"
+            },
+            {
+                "from": "state8",
+                "to": "-6110220349886484774",
+                "event": "click<p id=14 class =\"com.lemon.lvoverseas:id/ttvTitle\"> Animations,  </p>"
+            },
+            {
+                "from": "-6110220349886484774",
+                "to": "5969701089578801964",
+                "event": "click<button id=4 class =\"com.lemon.lvoverseas:id/rb_video_combo\"> Combo,  </button>"
+            },
+            {
+                "from": "5969701089578801964",
+                "to": "-7102657028234652945",
+                "event": "click<button id=11 class =\"com.lemon.lvoverseas:id/itemContainer\" alt=\"1185164\">  </button>"
+            },
+            {
+                "from": "-7102657028234652945",
+                "to": "-6286143630872451129",
+                "event": "click<img id=23 class =\"com.lemon.lvoverseas:id/view_panel_bottom_bar_btn_confirm\" alt=\"panel_bottom_bar_complete\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

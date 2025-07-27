@@ -1,0 +1,66 @@
+[
+    {
+        "round": 1,
+        "comment": "the recorder is not working anymore ..in this new update ..and also while recording, the vid don't have any audio while recording ..no guid when to speak for example (dubbing)..sorry guys",
+        "scenarios": [
+            "The recorder is not working anymore in the new update.",
+            "While recording, the video does not have any audio.",
+            "No guidance is provided on when to speak during dubbing."
+        ],
+        "key sentence": "While recording, the video does not have any audio.",
+        "target activity": "com.vega.recorder.LvRecordActivity",
+        "the function of activity": "The activity allows users to use the camera to shoot video,.You can use special effects and filters when shooting.",
+        "target state": "state14",
+        "the sub-task list of state": "[{'name': 'Select Record Time', 'description': 'Choose duration for recording (3min, 60s, 15s)'}, {'name': 'Apply Effects', 'description': 'Open the effects menu to add filters or effects to the recording'}, {'name': 'Select Record Type', 'description': 'Choose the recording type (One shot, Multi-clips)'}, {'name': 'Shutter Button', 'description': 'Capture a photo or start/stop recording'}, {'name': 'Open Album', 'description': 'Navigate to the album to view recorded media'}, {'name': 'Switch Camera View', 'description': 'Flip the camera view between front and rear'}, {'name': 'Add Sound', 'description': 'Open the sound selection menu to add background music or sounds to the recording'}, {'name': 'Use Teleprompter', 'description': 'Open the teleprompter to display scripted text during recording'}, {'name': 'Adjust Speed', 'description': 'Change the recording speed between various presets'}, {'name': 'Apply Filters', 'description': 'Open the filter menu to apply visual effects to the recording'}, {'name': 'Set Timer', 'description': 'Enable a countdown timer to delay the start of recording'}, {'name': 'Adjust Duration', 'description': 'Set the duration for the entire recording session'}, {'name': 'Toggle Flash', 'description': 'Turn the camera flash on or off'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment11\\scene1\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment11\\scene1\\state1.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment11\\scene1\\state13.png",
+                "activity": "com.vega.recorder.LvRecordActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment11\\scene1\\state14.png",
+                "activity": "com.vega.recorder.LvRecordActivity}",
+                "state_str": "state14"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment11\\scene1\\8396063480045771003.png",
+                "activity": "com.vega.main.TransLynxActivity}",
+                "state_str": "8396063480045771003"
+            }
+        ],
+        "operations": [
+            {
+                "from": "b3c2b8cf7b8f3959cd3c2bd09dbce71a",
+                "to": "state1",
+                "event": "click(com.lemon.lvoverseas:id/home_tool_iv:[849,221][1025,375])"
+            },
+            {
+                "from": "state1",
+                "to": "state13",
+                "event": "click(com.lemon.lvoverseas:id/home_tool_iv_container:[253,514][430,668])"
+            },
+            {
+                "from": "state13",
+                "to": "state14",
+                "event": "click(com.lemon.lvoverseas:id/collapse_btn:[967,735][1033,801])"
+            },
+            {
+                "from": "state14",
+                "to": "8396063480045771003",
+                "event": "click<button id=10 class =\"com.lemon.lvoverseas:id/tv_select_music\"> Add sound,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

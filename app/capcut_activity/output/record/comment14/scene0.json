@@ -1,0 +1,44 @@
+[
+    {
+        "round": 1,
+        "comment": "I like the app. However, there's only one issue. and if the update fixes it I'll rate this 5/5, Ok! my issue is when I just trying to export a song it just keeps backing it goes to the home page and when I try to repeat the situation it is just keep forcing to go to the home page, Please Fix (Thank You!)",
+        "scenarios": [
+            "When trying to export a song, the app keeps returning to the home page, and when attempting to repeat the export, it continues to forcefully go back to the home page."
+        ],
+        "key sentence": "When trying to export a song, the app keeps returning to the home page, and when attempting to repeat the export, it continues to forcefully go back to the home page.",
+        "target activity": "com.vega.libcutsame.activity.LiteEditorActivity",
+        "the function of activity": "This activity focuses on editing, exporting, adjusting, and managing the audio and video elements of multimedia templates.",
+        "target state": "a5292e22104d48fcf7635ccf536bdca3",
+        "the sub-task list of state": "[{'name': 'Edit Template sound', 'description': 'Edit the sound of template.'}, {'name': 'Export the template project', 'description': 'Export the project of template.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment14\\scene0\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment14\\scene0\\-6985748094372636782.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "-6985748094372636782"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment14\\scene0\\5756819477087513863.png",
+                "activity": "com.vega.export.edit.view.ExportActivity}",
+                "state_str": "5756819477087513863"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a5292e22104d48fcf7635ccf536bdca3",
+                "to": "-6985748094372636782",
+                "event": "click<p id=7 class =\"com.lemon.lvoverseas:id/tvName\"> 20241007-04,  </p>"
+            },
+            {
+                "from": "-6985748094372636782",
+                "to": "5756819477087513863",
+                "event": "click<button id=2 class =\"com.lemon.lvoverseas:id/tvExport\"> Export,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

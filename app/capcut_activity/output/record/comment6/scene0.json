@@ -1,0 +1,175 @@
+[
+    {
+        "round": 1,
+        "comment": "It's good if you're just starting out with video editing, but after a while I noticed that whenever I cut out a section of the video, the audio in will be delayed. It is possible to fix, but it is really annoying, and requires extracting, cutting, and moving all the audio to make it in sync. Also whenever I export the video, the actual video is delayed so the audio sometimes happens before it is shown.",
+        "scenarios": [
+            "Cut out a section of the video, resulting in delayed audio, requiring extraction, cutting, and moving of audio to sync it.\n",
+            "Export the video, leading to the actual video being delayed, causing the audio to play before the corresponding video is shown."
+        ],
+        "key sentence": "Cut out a section of the video, resulting in delayed audio, requiring extraction, cutting, and moving of audio to sync it.\n",
+        "target activity": "com.vega.libcutsame.activity.LiteEditorActivity",
+        "the function of activity": "This activity focuses on editing, exporting, adjusting, and managing the audio and video elements of multimedia templates.",
+        "target state": "214e876f84724c6c1acd9317cb74d552",
+        "the sub-task list of state": "[{'name': 'Edit the vedio of the template', 'description': 'Replace or crop the vedio of the template.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment6\\scene0\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment6\\scene0\\-5527916785989085392.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "-5527916785989085392"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment6\\scene0\\7020165728949037821.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "7020165728949037821"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment6\\scene0\\-5871096704321768977.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "-5871096704321768977"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment6\\scene0\\679803589173005123.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "679803589173005123"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment6\\scene0\\679803589173005123.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "679803589173005123"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment6\\scene0\\3007624499082509357.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "3007624499082509357"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment6\\scene0\\3007624499082509357.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "3007624499082509357"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment6\\scene0\\3007624499082509357.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "3007624499082509357"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment6\\scene0\\3007624499082509357.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "3007624499082509357"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment6\\scene0\\4781296976288510448.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "4781296976288510448"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment6\\scene0\\4781296976288510448.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "4781296976288510448"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment6\\scene0\\4781296976288510448.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "4781296976288510448"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment6\\scene0\\4781296976288510448.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "4781296976288510448"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment6\\scene0\\4781296976288510448.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "4781296976288510448"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment6\\scene0\\4781296976288510448.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "4781296976288510448"
+            }
+        ],
+        "operations": [
+            {
+                "from": "214e876f84724c6c1acd9317cb74d552",
+                "to": "-5527916785989085392",
+                "event": "click<p id=24 class =\"com.lemon.lvoverseas:id/create_project_tv\"> New project,  </p>"
+            },
+            {
+                "from": "-5527916785989085392",
+                "to": "7020165728949037821",
+                "event": "click<p id=44 class =\"com.lemon.lvoverseas:id/create_project_tv\"> New project,  </p>"
+            },
+            {
+                "from": "7020165728949037821",
+                "to": "-5871096704321768977",
+                "event": "click<button id=23 class =\"com.lemon.lvoverseas:id/sb_media_select_done\"> Add,  </button>"
+            },
+            {
+                "from": "-5871096704321768977",
+                "to": "679803589173005123",
+                "event": "click<p id=10 class =\"com.lemon.lvoverseas:id/ttvTitle\"> Edit,  </p>"
+            },
+            {
+                "from": "679803589173005123",
+                "to": "679803589173005123",
+                "event": "click<p id=12 class =\"com.lemon.lvoverseas:id/ttvTitle\"> Split,  </p>"
+            },
+            {
+                "from": "679803589173005123",
+                "to": "3007624499082509357",
+                "event": "click<button id=8 class =\"com.lemon.lvoverseas:id/tvMute\"> Mute clip audio,  </button>"
+            },
+            {
+                "from": "3007624499082509357",
+                "to": "3007624499082509357",
+                "event": "click<p id=12 class =\"com.lemon.lvoverseas:id/ttvTitle\"> Split,  </p>"
+            },
+            {
+                "from": "3007624499082509357",
+                "to": "3007624499082509357",
+                "event": "click<div id=3 class =\"com.lemon.lvoverseas:id/mPreview\">  </div>"
+            },
+            {
+                "from": "3007624499082509357",
+                "to": "3007624499082509357",
+                "event": "click<p id=12 class =\"com.lemon.lvoverseas:id/ttvTitle\"> Split,  </p>"
+            },
+            {
+                "from": "3007624499082509357",
+                "to": "4781296976288510448",
+                "event": "click<button id=8 class =\"com.lemon.lvoverseas:id/tvMute\"> Unmute clip audio,  </button>"
+            },
+            {
+                "from": "4781296976288510448",
+                "to": "4781296976288510448",
+                "event": "click<p id=12 class =\"com.lemon.lvoverseas:id/ttvTitle\"> Split,  </p>"
+            },
+            {
+                "from": "4781296976288510448",
+                "to": "4781296976288510448",
+                "event": "click<div id=3 class =\"com.lemon.lvoverseas:id/mPreview\">  </div>"
+            },
+            {
+                "from": "4781296976288510448",
+                "to": "4781296976288510448",
+                "event": "click<p id=12 class =\"com.lemon.lvoverseas:id/ttvTitle\"> Split,  </p>"
+            },
+            {
+                "from": "4781296976288510448",
+                "to": "4781296976288510448",
+                "event": "click<div id=3 class =\"com.lemon.lvoverseas:id/mPreview\">  </div>"
+            },
+            {
+                "from": "4781296976288510448",
+                "to": "4781296976288510448",
+                "event": "click<p id=12 class =\"com.lemon.lvoverseas:id/ttvTitle\"> Split,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

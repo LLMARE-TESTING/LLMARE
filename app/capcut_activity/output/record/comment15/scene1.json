@@ -1,0 +1,75 @@
+[
+    {
+        "round": 1,
+        "comment": "Dear CapCut, I'm always use this brilliant app but on the latest update, when I open the EFFECTS while editing my video, my phone crash and lagging. After crash, it went back to menu screen. I can still edit video but can't use the effects and it's not normal just don't press the effects button or else it will be a screenshot like you know... please fix this ASAP.",
+        "scenarios": [
+            "Open the EFFECTS while editing a video, which leads to the phone crashing and lagging, subsequently returning to the menu screen.",
+            "Attempt to edit a video but encountering issues where the effects cannot be used; pressing the effects button causes the app to take a screenshot or crash."
+        ],
+        "key sentence": "Attempt to edit a video but encountering issues where the effects cannot be used; pressing the effects button causes the app to take a screenshot or crash.",
+        "target activity": "com.vega.edit.editpage.activity.EditActivity",
+        "the function of activity": "The activity includes searching, navigating, exporting, editing, managing audio, adding media, controlling playback, adjusting visuals, applying effects, and enhancing projects.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Speed', 'description': 'Adjust the speed of the project.'}, {'name': 'Animations', 'description': 'Add animations to the project.'}, {'name': 'Effects Options', 'description': 'Add effects to the project.'}, {'name': 'Delete', 'description': 'Delete the clip of the project.'}, {'name': 'Enhance voice', 'description': 'Enhance the voice of the project.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment15\\scene1\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment15\\scene1\\state2.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment15\\scene1\\state3.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment15\\scene1\\state4.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment15\\scene1\\state8.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment15\\scene1\\7801993278610978819.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "7801993278610978819"
+            }
+        ],
+        "operations": [
+            {
+                "from": "b3c2b8cf7b8f3959cd3c2bd09dbce71a",
+                "to": "state2",
+                "event": "click(com.lemon.lvoverseas:id/create_project_tv:[443,639][735,707])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(com.lemon.lvoverseas:id/iv_local_multi_media_select_index:[290,1367][339,1416])"
+            },
+            {
+                "from": "state3",
+                "to": "state4",
+                "event": "click(com.lemon.lvoverseas:id/sb_media_select_done:[843,2013][1036,2090])"
+            },
+            {
+                "from": "state4",
+                "to": "state8",
+                "event": "click(com.lemon.lvoverseas:id/ivIcon:[63,1983][146,2066])"
+            },
+            {
+                "from": "state8",
+                "to": "7801993278610978819",
+                "event": "click<p id=15 class =\"com.lemon.lvoverseas:id/ttvTitle\"> Effects,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

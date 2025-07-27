@@ -1,0 +1,75 @@
+[
+    {
+        "round": 1,
+        "comment": "Just brilliant all around! The most well built video editing app by a great distance.. it's a whole new universe \u9983\u6305 Wish we could export only audio on Android since this is far better audio editor than most (for simple edits) \u923d\u7334\u7b0d * September 2023 update: Please fix the full screen on the editor window! It's super important for me \u9983\u6ab6 When we are editing 16/9 videos when we press the full screen button it doesn't go full screen on Android. A friend using the apple version works great.",
+        "scenarios": [
+            "Export only audio on Android since the app is better as an audio editor for simple edits.  ",
+            "When editing 16/9 videos on Android and pressing the full screen button, the app does not go full screen, whereas the app works great on Apple version regarding this feature."
+        ],
+        "key sentence": "Export only audio on Android since the app is better as an audio editor for simple edits.  ",
+        "target activity": "com.vega.libcutsame.activity.LiteEditorActivity",
+        "the function of activity": "This activity focuses on editing, exporting, adjusting, and managing the audio and video elements of multimedia templates.",
+        "target state": "a5292e22104d48fcf7635ccf536bdca3",
+        "the sub-task list of state": "[{'name': 'Edit Template sound', 'description': 'Edit the sound of template.'}, {'name': 'Export the template project', 'description': 'Export the project of template.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment19\\scene0\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment19\\scene0\\-7739032632845204366.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "-7739032632845204366"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment19\\scene0\\-7739032632845204366.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "-7739032632845204366"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment19\\scene0\\8993745425579470263.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "8993745425579470263"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment19\\scene0\\8993745425579470263.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "8993745425579470263"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment19\\scene0\\-7739032632845204366.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "-7739032632845204366"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a5292e22104d48fcf7635ccf536bdca3",
+                "to": "-7739032632845204366",
+                "event": "click<p id=24 class =\"com.lemon.lvoverseas:id/create_project_tv\"> New project,  </p>"
+            },
+            {
+                "from": "-7739032632845204366",
+                "to": "-7739032632845204366",
+                "event": "click<button id=22 class =\"com.lemon.lvoverseas:id/sb_media_select_done\"> Add,  </button>"
+            },
+            {
+                "from": "-7739032632845204366",
+                "to": "8993745425579470263",
+                "event": "click<button id=21 class =\"com.lemon.lvoverseas:id/originMaterial\"> HD,  </button>"
+            },
+            {
+                "from": "8993745425579470263",
+                "to": "8993745425579470263",
+                "event": "click<button id=22 class =\"com.lemon.lvoverseas:id/sb_media_select_done\"> Add,  </button>"
+            },
+            {
+                "from": "8993745425579470263",
+                "to": "-7739032632845204366",
+                "event": "click<button id=21 class =\"com.lemon.lvoverseas:id/originMaterial\"> HD,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

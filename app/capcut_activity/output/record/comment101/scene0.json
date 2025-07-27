@@ -1,0 +1,164 @@
+[
+    {
+        "round": 1,
+        "comment": "If I'm being completely honest I wish I could give it 6 stars!! Its so easy to figure out, you're able to remove the watermark, overlay, use all of the animation styles, FOR FREE!!! the only problem is when you split a video it doesnt work corrects but that's just a small bug and can be fixed by exiting out and going back in really quickly! I love it so much!!!",
+        "scenarios": [
+            "Attempt to split a video, but it doesn't work correctly. This issue can be resolved by exiting the app and going back in quickly."
+        ],
+        "key sentence": "Attempt to split a video, but it doesn't work correctly. This issue can be resolved by exiting the app and going back in quickly.",
+        "target activity": "com.vega.edit.editpage.activity.EditActivity",
+        "the function of activity": "The activity includes exporting, editing, managing audio, adding media, controlling playback, reversing vedio, adjusting visuals, applying transition, applying effects, adjusting speed and enhancing projects.",
+        "target state": "state15",
+        "the sub-task list of state": "[{'name': 'Split Vedio', 'description': 'Split the vedio.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment101\\scene0\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment101\\scene0\\state2.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment101\\scene0\\state3.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment101\\scene0\\state21.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "state21"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment101\\scene0\\state4.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment101\\scene0\\state8.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment101\\scene0\\state15.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "state15"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment101\\scene0\\-5890033071005457282.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "-5890033071005457282"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment101\\scene0\\-9083241203847839166.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "-9083241203847839166"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment101\\scene0\\7826893766534141388.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "7826893766534141388"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment101\\scene0\\6191429417922849520.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "6191429417922849520"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment101\\scene0\\-8222845336664704598.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "-8222845336664704598"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment101\\scene0\\3437197606935789631.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "3437197606935789631"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment101\\scene0\\1252219897780366695.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "1252219897780366695"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment101\\scene0\\3437197606935789631.png",
+                "activity": "com.vega.gallery.activity.MediaSelectActivity}",
+                "state_str": "3437197606935789631"
+            }
+        ],
+        "operations": [
+            {
+                "from": "b3c2b8cf7b8f3959cd3c2bd09dbce71a",
+                "to": "state2",
+                "event": "click(com.lemon.lvoverseas:id/create_project_tv:[443,639][735,707])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(com.lemon.lvoverseas:id/iv_local_multi_media_select_index:[290,287][339,336])"
+            },
+            {
+                "from": "state3",
+                "to": "state21",
+                "event": "click(com.lemon.lvoverseas:id/iv_local_multi_media_select_index:[650,287][699,336])"
+            },
+            {
+                "from": "state21",
+                "to": "state4",
+                "event": "click(com.lemon.lvoverseas:id/sb_media_select_done:[843,1823][1036,1900])"
+            },
+            {
+                "from": "state4",
+                "to": "state8",
+                "event": "click(com.lemon.lvoverseas:id/ivIcon:[63,1983][146,2066])"
+            },
+            {
+                "from": "state8",
+                "to": "state15",
+                "event": "click(com.lemon.lvoverseas:id/ivPlay:[499,1188][582,1271])"
+            },
+            {
+                "from": "state15",
+                "to": "-5890033071005457282",
+                "event": "click<p id=10 class =\"com.lemon.lvoverseas:id/ttvTitle\"> Split,  </p>"
+            },
+            {
+                "from": "-5890033071005457282",
+                "to": "-9083241203847839166",
+                "event": "click<img id=0 class =\"com.lemon.lvoverseas:id/tvBack\">  </img>"
+            },
+            {
+                "from": "-9083241203847839166",
+                "to": "7826893766534141388",
+                "event": "click<div id=0 class =\"com.lemon.lvoverseas:id/main_root_slide\">  </div>"
+            },
+            {
+                "from": "7826893766534141388",
+                "to": "6191429417922849520",
+                "event": "click<img id=0 class =\"com.lemon.lvoverseas:id/tvBack\">  </img>"
+            },
+            {
+                "from": "6191429417922849520",
+                "to": "-8222845336664704598",
+                "event": "click<p id=25 class =\"com.lemon.lvoverseas:id/create_project_tv\"> New project,  </p>"
+            },
+            {
+                "from": "-8222845336664704598",
+                "to": "3437197606935789631",
+                "event": "click<div id=0 class =\"com.lemon.lvoverseas:id/media_root\">  </div>"
+            },
+            {
+                "from": "3437197606935789631",
+                "to": "1252219897780366695",
+                "event": "click<div id=8 alt=\"Videos\">  </div>"
+            },
+            {
+                "from": "1252219897780366695",
+                "to": "3437197606935789631",
+                "event": "click<div id=0 class =\"com.lemon.lvoverseas:id/media_root\">  </div>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

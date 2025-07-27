@@ -1,0 +1,65 @@
+[
+    {
+        "round": 1,
+        "comment": "I really love this app, truly! But there is one thing that is really bugging me. The lag... When I put an effect it lags, like really lags, and when i play a video it lags too and it doesn't align with the music, it's quite annoying I'll be honest with you. I really hope this will be fix because I really love this app, like really really love! This would be the best video editing if you fixed the lag in my opinion.\\u9983\\u30ba\\u9983\\u30ba",
+        "scenarios": [
+            "When I put an effect, it lags.",
+            "When I play a video, it lags and doesn't align with the music."
+        ],
+        "key sentence": "When I put an effect, it lags.",
+        "target activity": "com.vega.edit.editpage.activity.EditActivity",
+        "the function of activity": "The activity includes searching, navigating, exporting, editing, managing audio, adding media, controlling playback, adjusting visuals, applying effects, and enhancing projects.",
+        "target state": "state4",
+        "the sub-task list of state": "[{'name': 'Search', 'description': 'Use the search feature to locate specific elements or functions on the screen.'}, {'name': 'Back', 'description': 'Return to the previous screen or menu using the back button.'}, {'name': 'Export', 'description': 'Export your project or file using the export button.'}, {'name': 'Mute Clip Audio', 'description': 'Mute the audio of a selected clip using the mute button.'}, {'name': 'Cover Edit', 'description': 'Edit the cover image or section of your project.'}, {'name': 'Play/Pause', 'description': 'Control playback of media with the play/pause button.'}, {'name': 'withdraw', 'description': 'Undo previous step.'}, {'name': 'Cancel withdrawal', 'description': 'Cancel withdrawal.'}, {'name': 'Add Element/clip', 'description': 'Add a new photo/vedio to your project using the add button.'}, {'name': 'Audio Track', 'description': 'Manage audio tracks within your project.'}, {'name': 'Edit Options', 'description': 'Access various edit functions for the project.'}, {'name': 'Overlay Options', 'description': 'Manage overlays in your project.'}, {'name': 'Text Options', 'description': 'Edit text elements within your project.'}, {'name': 'Effects Options', 'description': 'Apply or manage effects in your project.'}, {'name': 'Captions Options', 'description': 'Edit or add captions to your project.'}, {'name': 'Aspect Ratio Options', 'description': 'Adjust the aspect ratio of your project.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment13\\scene0\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment13\\scene0\\state2.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment13\\scene0\\state3.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment13\\scene0\\state4.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment13\\scene0\\8729831554580048804.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "8729831554580048804"
+            }
+        ],
+        "operations": [
+            {
+                "from": "b3c2b8cf7b8f3959cd3c2bd09dbce71a",
+                "to": "state2",
+                "event": "click(com.lemon.lvoverseas:id/create_project_tv:[443,639][735,707])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(com.lemon.lvoverseas:id/iv_local_multi_media_select_index:[290,1367][339,1416])"
+            },
+            {
+                "from": "state3",
+                "to": "state4",
+                "event": "click(com.lemon.lvoverseas:id/sb_media_select_done:[843,2013][1036,2090])"
+            },
+            {
+                "from": "state4",
+                "to": "8729831554580048804",
+                "event": "click<p id=14 class =\"com.lemon.lvoverseas:id/ttvTitle\"> Effects,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

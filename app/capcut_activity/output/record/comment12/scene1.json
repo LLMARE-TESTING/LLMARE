@@ -1,0 +1,75 @@
+[
+    {
+        "round": 1,
+        "comment": "To be frank this app is really very annoying, I don't know if it's only on my phone that it's happening, cause sometimes when I try to do some certain videos seen on TikTok with this capcut, it doesn't work, and when it seems like it have worked, exporting it to TikTok will become a very big problem. I've updated it many times thinking it's because it hasn't been updated that's why it's been having issues, but still yet after updating it, it keeps on doing what it's been doing at I point",
+        "scenarios": [
+            "Try to create videos seen on TikTok with CapCut, but it doesn't work as expected.",
+            "When the video seems to have worked on CapCut, exporting it to TikTok becomes a problem."
+        ],
+        "key sentence": "When the video seems to have worked on CapCut, exporting it to TikTok becomes a problem.",
+        "target activity": "com.vega.edit.editpage.activity.EditActivity",
+        "the function of activity": "The activity includes searching, navigating, exporting, editing, managing audio, adding media, controlling playback, adjusting visuals, applying effects, and enhancing projects.",
+        "target state": "state4",
+        "the sub-task list of state": "[{'name': 'Search', 'description': 'Use the search feature to locate specific elements or functions on the screen.'}, {'name': 'Back', 'description': 'Return to the previous screen or menu using the back button.'}, {'name': 'Export', 'description': 'Export your project or file using the export button.'}, {'name': 'Mute Clip Audio', 'description': 'Mute the audio of a selected clip using the mute button.'}, {'name': 'Cover Edit', 'description': 'Edit the cover image or section of your project.'}, {'name': 'Play/Pause', 'description': 'Control playback of media with the play/pause button.'}, {'name': 'withdraw', 'description': 'Undo previous step.'}, {'name': 'Cancel withdrawal', 'description': 'Cancel withdrawal.'}, {'name': 'Add Element/clip', 'description': 'Add a new photo/vedio to your project using the add button.'}, {'name': 'Audio Track', 'description': 'Manage audio tracks within your project.'}, {'name': 'Edit Options', 'description': 'Access various edit functions for the project.'}, {'name': 'Overlay Options', 'description': 'Manage overlays in your project.'}, {'name': 'Text Options', 'description': 'Edit text elements within your project.'}, {'name': 'Effects Options', 'description': 'Apply or manage effects in your project.'}, {'name': 'Captions Options', 'description': 'Edit or add captions to your project.'}, {'name': 'Aspect Ratio Options', 'description': 'Adjust the aspect ratio of your project.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment12\\scene1\\b3c2b8cf7b8f3959cd3c2bd09dbce71a.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "b3c2b8cf7b8f3959cd3c2bd09dbce71a"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment12\\scene1\\state2.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment12\\scene1\\state3.png",
+                "activity": "com.vega.main.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment12\\scene1\\state4.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "state4"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment12\\scene1\\767209041929213499.png",
+                "activity": "com.vega.export.edit.view.ExportActivity}",
+                "state_str": "767209041929213499"
+            },
+            {
+                "image": "..\\app\\capcut_activity\\output\\screenshot\\comment12\\scene1\\-1303989701664101892.png",
+                "activity": "com.vega.edit.editpage.activity.EditActivity}",
+                "state_str": "-1303989701664101892"
+            }
+        ],
+        "operations": [
+            {
+                "from": "b3c2b8cf7b8f3959cd3c2bd09dbce71a",
+                "to": "state2",
+                "event": "click(com.lemon.lvoverseas:id/create_project_tv:[443,639][735,707])"
+            },
+            {
+                "from": "state2",
+                "to": "state3",
+                "event": "click(com.lemon.lvoverseas:id/iv_local_multi_media_select_index:[290,1367][339,1416])"
+            },
+            {
+                "from": "state3",
+                "to": "state4",
+                "event": "click(com.lemon.lvoverseas:id/sb_media_select_done:[843,2013][1036,2090])"
+            },
+            {
+                "from": "state4",
+                "to": "767209041929213499",
+                "event": "click<button id=2 class =\"com.lemon.lvoverseas:id/tvExport\"> Export,  </button>"
+            },
+            {
+                "from": "767209041929213499",
+                "to": "-1303989701664101892",
+                "event": "click<img id=2 class =\"com.lemon.lvoverseas:id/close_export\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+]
