@@ -1,0 +1,381 @@
+[
+    {
+        "round": 1,
+        "comment": "Oh, i am impressed by your office... Nothing yet from the softwares, so, I have a few questions for you: 1) Why doesnt anything come with a service repair manual anymore? 2) My search engine only pulls up the first few words in any sentence when it displays the results. I cannot fix this. I would love to see a settings option for displaying all of page titles and another for the descriptions. ",
+        "scenarios": [
+            "Using the search engine: When performing a search, the engine only displays the first few words in any sentence of the results, and the user is unable to fix this issue. The user suggests a settings option to display full page titles and descriptions."
+        ],
+        "key sentence": "Using the search engine: When performing a search, the engine only displays the first few words in any sentence of the results, and the user is unable to fix this issue. The user suggests a settings option to display full page titles and descriptions.",
+        "target activity": "com.google.android.apps.chrome.Main",
+        "the function of activity": "The activity consolidates essential browser and application functions, including navigation, bookmarking, downloading, tab management, privacy, customization, and content translating, content sharing for enhanced user experience and accessibility.",
+        "target state": "f79c0ffe1c40ac58f52c207ac326c167",
+        "the sub-task list of state": "[{'name': 'Open Home Page', 'description': 'Click the home button to navigate to the home page of the browser.'}, {'name': 'Check Connection Security', 'description': 'Review the connection security status icon to determine if the connection to the current site is secure or not secure.'}, {'name': 'Search or Enter URL', 'description': 'Use the URL bar to enter a search query or type a URL to navigate to a specific website.'}, {'name': 'Switch or Close Tabs', 'description': 'Use the tab switcher button to switch between different tabs or close existing tabs.'}, {'name': 'Customize and Control', 'description': 'Access the menu by clicking the menu button to customize and control various settings and features of Google Chrome.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\4e5cd78cfbca801ea96edfce1920b231.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4e5cd78cfbca801ea96edfce1920b231"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\2259165516492536340.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "2259165516492536340"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\4613148381885352048.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4613148381885352048"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\-8157161255323442336.png",
+                "activity": "",
+                "state_str": "-8157161255323442336"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\2545288500713046529.png",
+                "activity": "org.chromium.chrome.browser.settings.SettingsActivity}",
+                "state_str": "2545288500713046529"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\-833832261751696086.png",
+                "activity": "org.chromium.chrome.browser.settings.SettingsActivity}",
+                "state_str": "-833832261751696086"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\-833832261751696086.png",
+                "activity": "org.chromium.chrome.browser.settings.SettingsActivity}",
+                "state_str": "-833832261751696086"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\2545288500713046529.png",
+                "activity": "org.chromium.chrome.browser.settings.SettingsActivity}",
+                "state_str": "2545288500713046529"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\-833832261751696086.png",
+                "activity": "org.chromium.chrome.browser.settings.SettingsActivity}",
+                "state_str": "-833832261751696086"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\2545288500713046529.png",
+                "activity": "org.chromium.chrome.browser.settings.SettingsActivity}",
+                "state_str": "2545288500713046529"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\-1427059969488202994.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-1427059969488202994"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\-8157161255323442336.png",
+                "activity": "",
+                "state_str": "-8157161255323442336"
+            }
+        ],
+        "operations": [
+            {
+                "from": "f79c0ffe1c40ac58f52c207ac326c167",
+                "to": "2259165516492536340",
+                "event": "click<input id=2 class =\"com.android.chrome:id/search_box_text\"> Search or type URL,  </input>"
+            },
+            {
+                "from": "2259165516492536340",
+                "to": "4613148381885352048",
+                "event": "click<button id=5 alt=\"Search: cannot find -lcrfpp\">  </button>"
+            },
+            {
+                "from": "4613148381885352048",
+                "to": "-8157161255323442336",
+                "event": "click<button id=53 class =\"com.android.chrome:id/menu_button\" alt=\"Customize and control Google Chrome\">  </button>"
+            },
+            {
+                "from": "-8157161255323442336",
+                "to": "2545288500713046529",
+                "event": "click<p id=20 class =\"com.android.chrome:id/menu_item_text\"> Settings,  </p>"
+            },
+            {
+                "from": "2545288500713046529",
+                "to": "-833832261751696086",
+                "event": "click<p id=13 class =\"android:id/title\"> Search engine,  </p>"
+            },
+            {
+                "from": "-833832261751696086",
+                "to": "-833832261751696086",
+                "event": "click<button id=8 class =\"com.android.chrome:id/radiobutton\">  </button>"
+            },
+            {
+                "from": "-833832261751696086",
+                "to": "2545288500713046529",
+                "event": "click<button id=1 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "2545288500713046529",
+                "to": "-833832261751696086",
+                "event": "click<p id=13 class =\"android:id/title\"> Search engine,  </p>"
+            },
+            {
+                "from": "-833832261751696086",
+                "to": 2545288500713046529,
+                "event": "back"
+            },
+            {
+                "from": 2545288500713046529,
+                "to": "-1427059969488202994",
+                "event": "click<button id=1 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-1427059969488202994",
+                "to": "-8157161255323442336",
+                "event": "click<button id=45 class =\"com.android.chrome:id/menu_button\" alt=\"Customize and control Google Chrome\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Oh, i am impressed by your office... Nothing yet from the softwares, so, I have a few questions for you: 1) Why doesnt anything come with a service repair manual anymore? 2) My search engine only pulls up the first few words in any sentence when it displays the results. I cannot fix this. I would love to see a settings option for displaying all of page titles and another for the descriptions. ",
+        "scenarios": [
+            "Using the search engine: When performing a search, the engine only displays the first few words in any sentence of the results, and the user is unable to fix this issue. The user suggests a settings option to display full page titles and descriptions."
+        ],
+        "key sentence": "Using the search engine: When performing a search, the engine only displays the first few words in any sentence of the results, and the user is unable to fix this issue. The user suggests a settings option to display full page titles and descriptions.",
+        "target activity": "com.google.android.apps.chrome.Main",
+        "the function of activity": "The activity consolidates essential browser and application functions, including navigation, bookmarking, downloading, tab management, privacy, customization, and content translating, content sharing for enhanced user experience and accessibility.",
+        "target state": "f79c0ffe1c40ac58f52c207ac326c167",
+        "the sub-task list of state": "[{'name': 'Open Home Page', 'description': 'Click the home button to navigate to the home page of the browser.'}, {'name': 'Check Connection Security', 'description': 'Review the connection security status icon to determine if the connection to the current site is secure or not secure.'}, {'name': 'Search or Enter URL', 'description': 'Use the URL bar to enter a search query or type a URL to navigate to a specific website.'}, {'name': 'Switch or Close Tabs', 'description': 'Use the tab switcher button to switch between different tabs or close existing tabs.'}, {'name': 'Customize and Control', 'description': 'Access the menu by clicking the menu button to customize and control various settings and features of Google Chrome.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\4e5cd78cfbca801ea96edfce1920b231.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4e5cd78cfbca801ea96edfce1920b231"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\2259165516492536340.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "2259165516492536340"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\4613148381885352048.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4613148381885352048"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\-8157161255323442336.png",
+                "activity": "",
+                "state_str": "-8157161255323442336"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\2545288500713046529.png",
+                "activity": "org.chromium.chrome.browser.settings.SettingsActivity}",
+                "state_str": "2545288500713046529"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\-833832261751696086.png",
+                "activity": "org.chromium.chrome.browser.settings.SettingsActivity}",
+                "state_str": "-833832261751696086"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\-833832261751696086.png",
+                "activity": "org.chromium.chrome.browser.settings.SettingsActivity}",
+                "state_str": "-833832261751696086"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\2545288500713046529.png",
+                "activity": "org.chromium.chrome.browser.settings.SettingsActivity}",
+                "state_str": "2545288500713046529"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\-833832261751696086.png",
+                "activity": "org.chromium.chrome.browser.settings.SettingsActivity}",
+                "state_str": "-833832261751696086"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\2545288500713046529.png",
+                "activity": "org.chromium.chrome.browser.settings.SettingsActivity}",
+                "state_str": "2545288500713046529"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\-1427059969488202994.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-1427059969488202994"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\-8157161255323442336.png",
+                "activity": "",
+                "state_str": "-8157161255323442336"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\4e5cd78cfbca801ea96edfce1920b231.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4e5cd78cfbca801ea96edfce1920b231"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\2259165516492536340.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "2259165516492536340"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\2259165516492536340.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "2259165516492536340"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\4613148381885352048.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4613148381885352048"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\-8157161255323442336.png",
+                "activity": "",
+                "state_str": "-8157161255323442336"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\-2387956482838489968.png",
+                "activity": "org.chromium.chrome.browser.settings.SettingsActivity}",
+                "state_str": "-2387956482838489968"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\-833832261751696086.png",
+                "activity": "org.chromium.chrome.browser.settings.SettingsActivity}",
+                "state_str": "-833832261751696086"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\2335997390373715466.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "2335997390373715466"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\-6627775668202953341.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "-6627775668202953341"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\-6627775668202953341.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "-6627775668202953341"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\-6627775668202953341.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "-6627775668202953341"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment2\\scene0\\-6627775668202953341.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "-6627775668202953341"
+            }
+        ],
+        "operations": [
+            {
+                "from": "f79c0ffe1c40ac58f52c207ac326c167",
+                "to": "2259165516492536340",
+                "event": "click<input id=2 class =\"com.android.chrome:id/search_box_text\"> Search or type URL,  </input>"
+            },
+            {
+                "from": "2259165516492536340",
+                "to": "4613148381885352048",
+                "event": "click<button id=5 alt=\"Search: cannot find -lcrfpp\">  </button>"
+            },
+            {
+                "from": "4613148381885352048",
+                "to": "-8157161255323442336",
+                "event": "click<button id=53 class =\"com.android.chrome:id/menu_button\" alt=\"Customize and control Google Chrome\">  </button>"
+            },
+            {
+                "from": "-8157161255323442336",
+                "to": "2545288500713046529",
+                "event": "click<p id=20 class =\"com.android.chrome:id/menu_item_text\"> Settings,  </p>"
+            },
+            {
+                "from": "2545288500713046529",
+                "to": "-833832261751696086",
+                "event": "click<p id=13 class =\"android:id/title\"> Search engine,  </p>"
+            },
+            {
+                "from": "-833832261751696086",
+                "to": "-833832261751696086",
+                "event": "click<button id=8 class =\"com.android.chrome:id/radiobutton\">  </button>"
+            },
+            {
+                "from": "-833832261751696086",
+                "to": "2545288500713046529",
+                "event": "click<button id=1 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "2545288500713046529",
+                "to": "-833832261751696086",
+                "event": "click<p id=13 class =\"android:id/title\"> Search engine,  </p>"
+            },
+            {
+                "from": "-833832261751696086",
+                "to": 2545288500713046529,
+                "event": "back"
+            },
+            {
+                "from": 2545288500713046529,
+                "to": "-1427059969488202994",
+                "event": "click<button id=1 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-1427059969488202994",
+                "to": "-8157161255323442336",
+                "event": "click<button id=45 class =\"com.android.chrome:id/menu_button\" alt=\"Customize and control Google Chrome\">  </button>"
+            },
+            {
+                "from": "f79c0ffe1c40ac58f52c207ac326c167",
+                "to": "2259165516492536340",
+                "event": "click<input id=2 class =\"com.android.chrome:id/search_box_text\"> Search or type URL,  </input>"
+            },
+            {
+                "from": "2259165516492536340",
+                "to": "2259165516492536340",
+                "event": "click<input id=35 class =\"com.android.chrome:id/url_bar\"> Search or type URL,  </input>"
+            },
+            {
+                "from": "2259165516492536340",
+                "to": "4613148381885352048",
+                "event": "click<button id=5 alt=\"Search: cannot find -lcrfpp\">  </button>"
+            },
+            {
+                "from": "4613148381885352048",
+                "to": "-8157161255323442336",
+                "event": "click<button id=53 class =\"com.android.chrome:id/menu_button\" alt=\"Customize and control Google Chrome\">  </button>"
+            },
+            {
+                "from": "-8157161255323442336",
+                "to": "-2387956482838489968",
+                "event": "click<p id=20 class =\"com.android.chrome:id/menu_item_text\"> Settings,  </p>"
+            },
+            {
+                "from": "-2387956482838489968",
+                "to": "-833832261751696086",
+                "event": "click<p id=13 class =\"android:id/title\"> Search engine,  </p>"
+            },
+            {
+                "from": "-833832261751696086",
+                "to": "2335997390373715466",
+                "event": "click<button id=3 class =\"com.android.chrome:id/menu_id_general_help\" alt=\"Help &amp; feedback\">  </button>"
+            },
+            {
+                "from": "2335997390373715466",
+                "to": "-6627775668202953341",
+                "event": "click<button id=18> Search help,  </button>"
+            },
+            {
+                "from": "-6627775668202953341",
+                "to": "-6627775668202953341",
+                "event": "click<img id=7 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-6627775668202953341",
+                "to": "-6627775668202953341",
+                "event": "click<input id=2 class =\"com.google.android.gms:id/open_search_view_edit_text\"> Search help,  </input>"
+            },
+            {
+                "from": "-6627775668202953341",
+                "to": "-6627775668202953341",
+                "event": "click<img id=7 alt=\"More options\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

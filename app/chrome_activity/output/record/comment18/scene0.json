@@ -1,0 +1,134 @@
+[
+    {
+        "round": 1,
+        "comment": "Open up Chrome and start typing in a URL wish to go to. Chrome will then completely cancel that and minimise my keyboard to tell me l'm now \"viewing live page\". It's very frustrating as it's happening nearly everytime l'm opening chrome. Think I'll have to switch to Firefox.",
+        "scenarios": [
+            "Typing in a URL in Chrome causes the app to cancel the action and minimize the keyboard, displaying a message \"viewing live page\" instead. This issue occurs nearly every time the user opens Chrome."
+        ],
+        "key sentence": "Typing in a URL in Chrome causes the app to cancel the action and minimize the keyboard, displaying a message \"viewing live page\" instead. This issue occurs nearly every time the user opens Chrome.",
+        "target activity": "com.google.android.apps.chrome.Main",
+        "the function of activity": "The activity consolidates essential browser and application functions, including navigation, bookmarking, downloading, tab management, privacy, customization, and content translating, content sharing for enhanced user experience and accessibility.",
+        "target state": "de9c8163e50c33335cdc769ce901e774",
+        "the sub-task list of state": "[{'name': 'Open the home page', 'description': \"This operation allows the user to open the browser's home page using the provided button.\"}, {'name': 'Connection is secure', 'description': 'This indicates the security status of the current webpage connected, ensuring the connection is secure.'}, {'name': 'Enter URL', 'description': \"Allows the user to enter a URL into the browser's address bar to navigate to a specified webpage.\"}, {'name': 'Bookmark this page', 'description': 'Enables the user to bookmark the current page, making it easier to access in the future.'}, {'name': 'Switch or close tabs', 'description': 'Provides functionality to switch between open tabs or close them as needed.'}, {'name': 'Customize and control Google Chrome', 'description': 'Offers options to customize and control the Google Chrome browser settings and preferences.'}, {'name': 'Submit Form', 'description': 'Allows the user to submit their entered information for processing and obtaining a quote within 24 hours.'}, {'name': 'Privacy Policy', 'description': 'Provides access to the privacy policy details for the user to review.'}, {'name': 'Submit Price Request', 'description': 'Allows the user to submit a request to obtain the price of the domain within 24 hours.'}, {'name': 'Do not share my personal information', 'description': 'Allows the user to opt out of sharing their personal information.'}, {'name': 'Privacy Settings', 'description': 'Enables the user to adjust privacy settings according to their preferences.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment18\\scene0\\4e5cd78cfbca801ea96edfce1920b231.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4e5cd78cfbca801ea96edfce1920b231"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment18\\scene0\\de9c8163e50c33335cdc769ce901e774.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "de9c8163e50c33335cdc769ce901e774"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment18\\scene0\\5054071608491213985.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "5054071608491213985"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment18\\scene0\\-5545115528175145790.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-5545115528175145790"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment18\\scene0\\-5545115528175145790.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-5545115528175145790"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment18\\scene0\\8200865164026998418.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "8200865164026998418"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment18\\scene0\\8200865164026998418.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "8200865164026998418"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment18\\scene0\\8200865164026998418.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "8200865164026998418"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment18\\scene0\\-5545115528175145790.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-5545115528175145790"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment18\\scene0\\-5545115528175145790.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-5545115528175145790"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment18\\scene0\\-523106115882709539.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-523106115882709539"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment18\\scene0\\-523106115882709539.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-523106115882709539"
+            }
+        ],
+        "operations": [
+            {
+                "from": "4e5cd78cfbca801ea96edfce1920b231",
+                "to": "de9c8163e50c33335cdc769ce901e774",
+                "event": "click(state=4e5cd78cfbca801ea96edfce1920b231, view=c97173bdc82fc26344993c7c7d7f629b(Main/FrameLayout-Navigate: :x716:y757))"
+            },
+            {
+                "from": "de9c8163e50c33335cdc769ce901e774",
+                "to": "5054071608491213985",
+                "event": "click<button id=18 class =\"com.android.chrome:id/home_button\" alt=\"Open the home page\">  </button>"
+            },
+            {
+                "from": "5054071608491213985",
+                "to": "-5545115528175145790",
+                "event": "click<input id=2 class =\"com.android.chrome:id/search_box_text\"> Search or type URL,  </input>"
+            },
+            {
+                "from": "-5545115528175145790",
+                "to": "-5545115528175145790",
+                "event": "click<input id=35 class =\"com.android.chrome:id/url_bar\"> Search or type URL,  </input>"
+            },
+            {
+                "from": "-5545115528175145790",
+                "to": "8200865164026998418",
+                "event": "input<input id=35 class =\"com.android.chrome:id/url_bar\"> Search or type URL,  </input>www.example.com"
+            },
+            {
+                "from": "8200865164026998418",
+                "to": "8200865164026998418",
+                "event": "click<input id=32 class =\"com.android.chrome:id/url_bar\"> www.example.com,  </input>"
+            },
+            {
+                "from": "8200865164026998418",
+                "to": "8200865164026998418",
+                "event": "input<input id=32 class =\"com.android.chrome:id/url_bar\"> www.example.com,  </input>www.example.com"
+            },
+            {
+                "from": "8200865164026998418",
+                "to": "-5545115528175145790",
+                "event": "click<button id=33 class =\"com.android.chrome:id/delete_button\" alt=\"Clear input\">  </button>"
+            },
+            {
+                "from": "-5545115528175145790",
+                "to": "-5545115528175145790",
+                "event": "click<input id=35 class =\"com.android.chrome:id/url_bar\"> Search or type URL,  </input>"
+            },
+            {
+                "from": "-5545115528175145790",
+                "to": "-523106115882709539",
+                "event": "input<input id=35 class =\"com.android.chrome:id/url_bar\"> Search or type URL,  </input>www.testpage.com"
+            },
+            {
+                "from": "-523106115882709539",
+                "to": "-523106115882709539",
+                "event": "click<input id=25 class =\"com.android.chrome:id/url_bar\"> www.testpage.com,  </input>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,351 @@
+[
+    {
+        "round": 1,
+        "comment": "Has a bug where if you click on shopping tab but then change your search, it'll be stuck in the shopping category for that new search with the option to select All, Images, etc, REMOVED; forcing me to need to open a whole new tab!!!!!",
+        "scenarios": [
+            "Click on the shopping tab and then change the search query, the results remain stuck in the shopping category for the new search with the option to select All, Images, etc., removed. This forces the user to open a new tab to change the category."
+        ],
+        "key sentence": "Click on the shopping tab and then change the search query, the results remain stuck in the shopping category for the new search with the option to select All, Images, etc., removed. This forces the user to open a new tab to change the category.",
+        "target activity": "com.google.android.apps.chrome.Main",
+        "the function of activity": "The activity consolidates essential browser and application functions, including navigation, bookmarking, downloading, tab management, privacy, customization, and content translating, content sharing for enhanced user experience and accessibility.",
+        "target state": "c441f975f367313d74285cf38ee58d89",
+        "the sub-task list of state": "[{'name': 'Search', 'description': 'Enter a query in the search bar and initiate a search.'}, {'name': 'Clear Search', 'description': 'Clear the current search query from the search bar.'}, {'name': 'Voice Search', 'description': 'Initiate a voice search by clicking the microphone button.'}, {'name': 'Navigate to Home', 'description': 'Click the Home button to return to the home page.'}, {'name': 'Open Main Menu', 'description': 'Click the button to open the main menu.'}, {'name': 'Access Google Account', 'description': 'Click on the Google account button to view account details or switch accounts.'}, {'name': 'View Search Settings', 'description': 'Click on the settings button to modify search settings.'}, {'name': 'View Filter Options', 'description': 'Click on the filter options to refine search results based on specific criteria.'}, {'name': 'Select Filter', 'description': \"Click on any filter category like 'Video', 'Shopping', 'News', etc., to refine results.\"}, {'name': 'View Detailed Information', 'description': 'Click the button to view more information about a specific search result.'}, {'name': 'View External Link', 'description': 'Click on an external link to open the referenced webpage, e.g., GitHub or CSDN blog.'}, {'name': 'Provide Feedback', 'description': 'Click the feedback button to submit feedback about the search results.'}, {'name': 'Open Search Tools', 'description': 'Click the search tools button to access advanced search options.'}, {'name': 'Update Location', 'description': 'Click the update location button to refresh or update your current location.'}, {'name': 'Navigate to Google Play', 'description': 'Click the Google Play link to visit the Google Play Store.'}, {'name': 'View Google Play App Information', 'description': 'Click on a result from Google Play to view detailed information about an app.'}, {'name': 'Show Experimental Features', 'description': 'Click on experimental feature options or tools to explore additional functionalities.'}, {'name': 'View Page Footer', 'description': 'Scroll to the bottom of the page to view footer links and information.'}, {'name': 'Enable Notifications', 'description': 'Click the button to allow notifications for updates related to your search.'}, {'name': 'Download Data', 'description': 'Click the download button to export search results or data.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\4e5cd78cfbca801ea96edfce1920b231.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4e5cd78cfbca801ea96edfce1920b231"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\eea01de09d9b5d311c3fa212cb2910d9.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "eea01de09d9b5d311c3fa212cb2910d9"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\c441f975f367313d74285cf38ee58d89.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "c441f975f367313d74285cf38ee58d89"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\1233232440513608257.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "1233232440513608257"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\-1490096547640864095.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-1490096547640864095"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\8187295663851367961.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "8187295663851367961"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\-3624993025516116704.png",
+                "activity": "",
+                "state_str": "-3624993025516116704"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\5966006103920455357.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "5966006103920455357"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\8407116127395296483.png",
+                "activity": "",
+                "state_str": "8407116127395296483"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\-2268413131960791857.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-2268413131960791857"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\-807549124435236482.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-807549124435236482"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\-807549124435236482.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-807549124435236482"
+            }
+        ],
+        "operations": [
+            {
+                "from": "4e5cd78cfbca801ea96edfce1920b231",
+                "to": "eea01de09d9b5d311c3fa212cb2910d9",
+                "event": "click(state=4e5cd78cfbca801ea96edfce1920b231, view=e0e3c815dfe08cc836dcb999f5797fc2(Main/EditText-Search or :x110:y468))"
+            },
+            {
+                "from": "eea01de09d9b5d311c3fa212cb2910d9",
+                "to": "c441f975f367313d74285cf38ee58d89",
+                "event": "click(state=eea01de09d9b5d311c3fa212cb2910d9, view=4f323052b240c211dc57a041a4fbab83(Main/ViewGroup-:x22:y2085))"
+            },
+            {
+                "from": "c441f975f367313d74285cf38ee58d89",
+                "to": "1233232440513608257",
+                "event": "input<input id=4 class =\"com.android.chrome:id/url_bar\"> google.com/search?q=redreader+2.8.2+apk&amp;oq=&amp;gs_lcrp=EgZjaHJvbWUqCQgBECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqA,  </input>new search query"
+            },
+            {
+                "from": "1233232440513608257",
+                "to": "-1490096547640864095",
+                "event": "click<div id=1 alt=\"Web View\">  </div>"
+            },
+            {
+                "from": "-1490096547640864095",
+                "to": "8187295663851367961",
+                "event": "click<button id=6 class =\"com.android.chrome:id/tab_switcher_button\" alt=\"See 3 tabs\">  </button>"
+            },
+            {
+                "from": "8187295663851367961",
+                "to": "-3624993025516116704",
+                "event": "click<button id=5 class =\"com.android.chrome:id/menu_button\" alt=\"Customize and control Google Chrome\">  </button>"
+            },
+            {
+                "from": "-3624993025516116704",
+                "to": "5966006103920455357",
+                "event": "click<p id=2 class =\"com.android.chrome:id/menu_item_text\"> New tab,  </p>"
+            },
+            {
+                "from": "5966006103920455357",
+                "to": "8407116127395296483",
+                "event": "click<button id=23 class =\"com.android.chrome:id/menu_button\" alt=\"Customize and control Google Chrome\">  </button>"
+            },
+            {
+                "from": "8407116127395296483",
+                "to": "-2268413131960791857",
+                "event": "click<button id=5 class =\"com.android.chrome:id/button_five\" alt=\"Refresh\">  </button>"
+            },
+            {
+                "from": "-2268413131960791857",
+                "to": "-807549124435236482",
+                "event": "click<input id=2 class =\"com.android.chrome:id/search_box_text\"> Search or type URL,  </input>"
+            },
+            {
+                "from": "-807549124435236482",
+                "to": "-807549124435236482",
+                "event": "click<input id=33 class =\"com.android.chrome:id/url_bar\"> Search or type URL,  </input>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Has a bug where if you click on shopping tab but then change your search, it'll be stuck in the shopping category for that new search with the option to select All, Images, etc, REMOVED; forcing me to need to open a whole new tab!!!!!",
+        "scenarios": [
+            "Click on the shopping tab and then change the search query, the results remain stuck in the shopping category for the new search with the option to select All, Images, etc., removed. This forces the user to open a new tab to change the category."
+        ],
+        "key sentence": "Click on the shopping tab and then change the search query, the results remain stuck in the shopping category for the new search with the option to select All, Images, etc., removed. This forces the user to open a new tab to change the category.",
+        "target activity": "com.google.android.apps.chrome.Main",
+        "the function of activity": "The activity consolidates essential browser and application functions, including navigation, bookmarking, downloading, tab management, privacy, customization, and content translating, content sharing for enhanced user experience and accessibility.",
+        "target state": "c441f975f367313d74285cf38ee58d89",
+        "the sub-task list of state": "[{'name': 'Search', 'description': 'Enter a query in the search bar and initiate a search.'}, {'name': 'Clear Search', 'description': 'Clear the current search query from the search bar.'}, {'name': 'Voice Search', 'description': 'Initiate a voice search by clicking the microphone button.'}, {'name': 'Navigate to Home', 'description': 'Click the Home button to return to the home page.'}, {'name': 'Open Main Menu', 'description': 'Click the button to open the main menu.'}, {'name': 'Access Google Account', 'description': 'Click on the Google account button to view account details or switch accounts.'}, {'name': 'View Search Settings', 'description': 'Click on the settings button to modify search settings.'}, {'name': 'View Filter Options', 'description': 'Click on the filter options to refine search results based on specific criteria.'}, {'name': 'Select Filter', 'description': \"Click on any filter category like 'Video', 'Shopping', 'News', etc., to refine results.\"}, {'name': 'View Detailed Information', 'description': 'Click the button to view more information about a specific search result.'}, {'name': 'View External Link', 'description': 'Click on an external link to open the referenced webpage, e.g., GitHub or CSDN blog.'}, {'name': 'Provide Feedback', 'description': 'Click the feedback button to submit feedback about the search results.'}, {'name': 'Open Search Tools', 'description': 'Click the search tools button to access advanced search options.'}, {'name': 'Update Location', 'description': 'Click the update location button to refresh or update your current location.'}, {'name': 'Navigate to Google Play', 'description': 'Click the Google Play link to visit the Google Play Store.'}, {'name': 'View Google Play App Information', 'description': 'Click on a result from Google Play to view detailed information about an app.'}, {'name': 'Show Experimental Features', 'description': 'Click on experimental feature options or tools to explore additional functionalities.'}, {'name': 'View Page Footer', 'description': 'Scroll to the bottom of the page to view footer links and information.'}, {'name': 'Enable Notifications', 'description': 'Click the button to allow notifications for updates related to your search.'}, {'name': 'Download Data', 'description': 'Click the download button to export search results or data.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\4e5cd78cfbca801ea96edfce1920b231.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4e5cd78cfbca801ea96edfce1920b231"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\eea01de09d9b5d311c3fa212cb2910d9.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "eea01de09d9b5d311c3fa212cb2910d9"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\c441f975f367313d74285cf38ee58d89.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "c441f975f367313d74285cf38ee58d89"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\1233232440513608257.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "1233232440513608257"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\-1490096547640864095.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-1490096547640864095"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\8187295663851367961.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "8187295663851367961"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\-3624993025516116704.png",
+                "activity": "",
+                "state_str": "-3624993025516116704"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\5966006103920455357.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "5966006103920455357"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\8407116127395296483.png",
+                "activity": "",
+                "state_str": "8407116127395296483"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\-2268413131960791857.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-2268413131960791857"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\-807549124435236482.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-807549124435236482"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\-807549124435236482.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-807549124435236482"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\4e5cd78cfbca801ea96edfce1920b231.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4e5cd78cfbca801ea96edfce1920b231"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\eea01de09d9b5d311c3fa212cb2910d9.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "eea01de09d9b5d311c3fa212cb2910d9"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\c441f975f367313d74285cf38ee58d89.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "c441f975f367313d74285cf38ee58d89"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\-500965125805743105.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-500965125805743105"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\5524539666772485693.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "5524539666772485693"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\2432559500438083594.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "2432559500438083594"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\-4501393476520960089.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-4501393476520960089"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\3979323975626318135.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "3979323975626318135"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment4\\scene0\\-8252282626003283627.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-8252282626003283627"
+            }
+        ],
+        "operations": [
+            {
+                "from": "4e5cd78cfbca801ea96edfce1920b231",
+                "to": "eea01de09d9b5d311c3fa212cb2910d9",
+                "event": "click(state=4e5cd78cfbca801ea96edfce1920b231, view=e0e3c815dfe08cc836dcb999f5797fc2(Main/EditText-Search or :x110:y468))"
+            },
+            {
+                "from": "eea01de09d9b5d311c3fa212cb2910d9",
+                "to": "c441f975f367313d74285cf38ee58d89",
+                "event": "click(state=eea01de09d9b5d311c3fa212cb2910d9, view=4f323052b240c211dc57a041a4fbab83(Main/ViewGroup-:x22:y2085))"
+            },
+            {
+                "from": "c441f975f367313d74285cf38ee58d89",
+                "to": "1233232440513608257",
+                "event": "input<input id=4 class =\"com.android.chrome:id/url_bar\"> google.com/search?q=redreader+2.8.2+apk&amp;oq=&amp;gs_lcrp=EgZjaHJvbWUqCQgBECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqA,  </input>new search query"
+            },
+            {
+                "from": "1233232440513608257",
+                "to": "-1490096547640864095",
+                "event": "click<div id=1 alt=\"Web View\">  </div>"
+            },
+            {
+                "from": "-1490096547640864095",
+                "to": "8187295663851367961",
+                "event": "click<button id=6 class =\"com.android.chrome:id/tab_switcher_button\" alt=\"See 3 tabs\">  </button>"
+            },
+            {
+                "from": "8187295663851367961",
+                "to": "-3624993025516116704",
+                "event": "click<button id=5 class =\"com.android.chrome:id/menu_button\" alt=\"Customize and control Google Chrome\">  </button>"
+            },
+            {
+                "from": "-3624993025516116704",
+                "to": "5966006103920455357",
+                "event": "click<p id=2 class =\"com.android.chrome:id/menu_item_text\"> New tab,  </p>"
+            },
+            {
+                "from": "5966006103920455357",
+                "to": "8407116127395296483",
+                "event": "click<button id=23 class =\"com.android.chrome:id/menu_button\" alt=\"Customize and control Google Chrome\">  </button>"
+            },
+            {
+                "from": "8407116127395296483",
+                "to": "-2268413131960791857",
+                "event": "click<button id=5 class =\"com.android.chrome:id/button_five\" alt=\"Refresh\">  </button>"
+            },
+            {
+                "from": "-2268413131960791857",
+                "to": "-807549124435236482",
+                "event": "click<input id=2 class =\"com.android.chrome:id/search_box_text\"> Search or type URL,  </input>"
+            },
+            {
+                "from": "-807549124435236482",
+                "to": "-807549124435236482",
+                "event": "click<input id=33 class =\"com.android.chrome:id/url_bar\"> Search or type URL,  </input>"
+            },
+            {
+                "from": "4e5cd78cfbca801ea96edfce1920b231",
+                "to": "eea01de09d9b5d311c3fa212cb2910d9",
+                "event": "click(state=4e5cd78cfbca801ea96edfce1920b231, view=e0e3c815dfe08cc836dcb999f5797fc2(Main/EditText-Search or :x110:y468))"
+            },
+            {
+                "from": "eea01de09d9b5d311c3fa212cb2910d9",
+                "to": "c441f975f367313d74285cf38ee58d89",
+                "event": "click(state=eea01de09d9b5d311c3fa212cb2910d9, view=4f323052b240c211dc57a041a4fbab83(Main/ViewGroup-:x22:y2085))"
+            },
+            {
+                "from": "c441f975f367313d74285cf38ee58d89",
+                "to": "-500965125805743105",
+                "event": "click<button id=5 alt=\"Search: cannot find -lcrfpp\">  </button>"
+            },
+            {
+                "from": "-500965125805743105",
+                "to": "5524539666772485693",
+                "event": "click<button id=16 alt=\"\u8d2d\u7269\">  </button>"
+            },
+            {
+                "from": "5524539666772485693",
+                "to": "2432559500438083594",
+                "event": "click<button id=6 class =\"tsuid_4LpWZ_6IC76r0-kP_Jn04Ac_5\"> \u6e05\u9664\u641c\u7d22,  </button>"
+            },
+            {
+                "from": "2432559500438083594",
+                "to": "-4501393476520960089",
+                "event": "click<button id=17 alt=\"\u8d2d\u7269\">  </button>"
+            },
+            {
+                "from": "-4501393476520960089",
+                "to": "3979323975626318135",
+                "event": "click<input id=5> oppo,  </input>"
+            },
+            {
+                "from": "3979323975626318135",
+                "to": "-8252282626003283627",
+                "event": "click<button id=18 alt=\"\u8d2d\u7269\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

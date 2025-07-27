@@ -1,0 +1,86 @@
+[
+    {
+        "round": 1,
+        "comment": "Generally chrome used to be ok Lately, it's been slow across all my devices, switching tabs, pressing the new tab button, and opening the tab switcher is always delayed.. did not happen in previous versions",
+        "scenarios": [
+            "Switching tabs is delayed.",
+            "Pressing the new tab button is delayed.",
+            "Opening the tab switcher is delayed."
+        ],
+        "key sentence": "Switching tabs is delayed.",
+        "target activity": "com.google.android.apps.chrome.Main",
+        "the function of activity": "The activity consolidates essential browser and application functions, including navigation, bookmarking, downloading, tab management, privacy, customization, and content translating, content sharing for enhanced user experience and accessibility.",
+        "target state": "de9c8163e50c33335cdc769ce901e774",
+        "the sub-task list of state": "[{'name': 'Open the home page', 'description': \"This operation allows the user to open the browser's home page using the provided button.\"}, {'name': 'Connection is secure', 'description': 'This indicates the security status of the current webpage connected, ensuring the connection is secure.'}, {'name': 'Enter URL', 'description': \"Allows the user to enter a URL into the browser's address bar to navigate to a specified webpage.\"}, {'name': 'Bookmark this page', 'description': 'Enables the user to bookmark the current page, making it easier to access in the future.'}, {'name': 'Switch or close tabs', 'description': 'Provides functionality to switch between open tabs or close them as needed.'}, {'name': 'Customize and control Google Chrome', 'description': 'Offers options to customize and control the Google Chrome browser settings and preferences.'}, {'name': 'Submit Form', 'description': 'Allows the user to submit their entered information for processing and obtaining a quote within 24 hours.'}, {'name': 'Privacy Policy', 'description': 'Provides access to the privacy policy details for the user to review.'}, {'name': 'Submit Price Request', 'description': 'Allows the user to submit a request to obtain the price of the domain within 24 hours.'}, {'name': 'Do not share my personal information', 'description': 'Allows the user to opt out of sharing their personal information.'}, {'name': 'Privacy Settings', 'description': 'Enables the user to adjust privacy settings according to their preferences.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment19\\scene0\\4e5cd78cfbca801ea96edfce1920b231.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4e5cd78cfbca801ea96edfce1920b231"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment19\\scene0\\de9c8163e50c33335cdc769ce901e774.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "de9c8163e50c33335cdc769ce901e774"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment19\\scene0\\-7577647257282806356.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-7577647257282806356"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment19\\scene0\\4573657458275854482.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4573657458275854482"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment19\\scene0\\-7577647257282806356.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-7577647257282806356"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment19\\scene0\\4969390076468445182.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4969390076468445182"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment19\\scene0\\-7577647257282806356.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-7577647257282806356"
+            }
+        ],
+        "operations": [
+            {
+                "from": "4e5cd78cfbca801ea96edfce1920b231",
+                "to": "de9c8163e50c33335cdc769ce901e774",
+                "event": "click(state=4e5cd78cfbca801ea96edfce1920b231, view=c97173bdc82fc26344993c7c7d7f629b(Main/FrameLayout-Navigate: :x716:y757))"
+            },
+            {
+                "from": "de9c8163e50c33335cdc769ce901e774",
+                "to": "-7577647257282806356",
+                "event": "click<button id=22 class =\"com.android.chrome:id/tab_switcher_button\" alt=\"See 2 tabs\">  </button>"
+            },
+            {
+                "from": "-7577647257282806356",
+                "to": "4573657458275854482",
+                "event": "click<div id=2 class =\"com.android.chrome:id/pane_switcher\">  </div>"
+            },
+            {
+                "from": "4573657458275854482",
+                "to": "-7577647257282806356",
+                "event": "click<button id=2 alt=\"2 standard tabs\">  </button>"
+            },
+            {
+                "from": "-7577647257282806356",
+                "to": "4969390076468445182",
+                "event": "click<p id=8 class =\"com.android.chrome:id/tab_title\" alt=\"Facebook - log in or sign up, tab\"> Facebook - log in or sign up,  </p>"
+            },
+            {
+                "from": "4969390076468445182",
+                "to": "-7577647257282806356",
+                "event": "click<button id=6 class =\"com.android.chrome:id/tab_switcher_button\" alt=\"See 2 tabs\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

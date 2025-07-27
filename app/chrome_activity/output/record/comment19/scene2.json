@@ -1,0 +1,46 @@
+[
+    {
+        "round": 1,
+        "comment": "Generally chrome used to be ok Lately, it's been slow across all my devices, switching tabs, pressing the new tab button, and opening the tab switcher is always delayed.. did not happen in previous versions",
+        "scenarios": [
+            "Switching tabs is delayed.",
+            "Pressing the new tab button is delayed.",
+            "Opening the tab switcher is delayed."
+        ],
+        "key sentence": "Opening the tab switcher is delayed.",
+        "target activity": "com.google.android.apps.chrome.Main",
+        "the function of activity": "The activity consolidates essential browser and application functions, including navigation, bookmarking, downloading, tab management, privacy, customization, and content translating, content sharing for enhanced user experience and accessibility.",
+        "target state": "4da1853954016fea3c7e3737a488a71c",
+        "the sub-task list of state": "[{'name': 'Search', 'description': 'Use the search icon to look up information or articles on Wikipedia.'}, {'name': 'Menu', 'description': 'Open the main menu to navigate through different sections or options within the website.'}, {'name': 'View Edit History', 'description': 'Access the edit history of the current Wikipedia page to see past revisions.'}, {'name': 'Browse Featured Article', 'description': 'Read the highlighted article of the day, displaying significant or high-quality content.'}, {'name': 'Browse Featured Picture', 'description': 'View the picture of the day, which is prominently displayed along with a descriptive caption.'}, {'name': 'Open Language Options', 'description': 'Use the language button to select different languages for viewing Wikipedia.'}, {'name': 'Go Home', 'description': 'Use the home button to navigate back to the main page of the website.'}, {'name': 'Edit Bookmark', 'description': 'Edit or manage your bookmarks for quick access to preferred articles or sections.'}, {'name': 'Switch Tabs', 'description': 'Switch between different open tabs or close unnecessary ones using the tab switcher.'}, {'name': 'Customize Chrome', 'description': \"Access Google Chrome's customization and control features for browser settings.\"}]",
+        "nodes": [
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment19\\scene2\\4e5cd78cfbca801ea96edfce1920b231.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4e5cd78cfbca801ea96edfce1920b231"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment19\\scene2\\4da1853954016fea3c7e3737a488a71c.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4da1853954016fea3c7e3737a488a71c"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment19\\scene2\\-6970114555868891935.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-6970114555868891935"
+            }
+        ],
+        "operations": [
+            {
+                "from": "4e5cd78cfbca801ea96edfce1920b231",
+                "to": "4da1853954016fea3c7e3737a488a71c",
+                "event": "click(state=4e5cd78cfbca801ea96edfce1920b231, view=c97173bdc82fc26344993c7c7d7f629b(Main/FrameLayout-Navigate: :x503:y757))"
+            },
+            {
+                "from": "4da1853954016fea3c7e3737a488a71c",
+                "to": "-6970114555868891935",
+                "event": "click<button id=27 class =\"com.android.chrome:id/tab_switcher_button\" alt=\"See 3 tabs\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

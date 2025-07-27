@@ -1,0 +1,94 @@
+[
+    {
+        "round": 1,
+        "comment": "The group tabs won't show up",
+        "scenarios": [
+            "The group tabs won't show up"
+        ],
+        "key sentence": "The group tabs won't show up",
+        "target activity": "com.google.android.apps.chrome.Main",
+        "the function of activity": "The activity consolidates essential browser and application functions, including navigation, bookmarking, downloading, tab management, privacy, customization, and content translating, content sharing for enhanced user experience and accessibility.",
+        "target state": "4e5cd78cfbca801ea96edfce1920b231",
+        "the sub-task list of state": "[{'name': 'Search or type URL', 'description': 'Enter a search term or URL in the search box to navigate to a webpage or perform a search.'}, {'name': 'Start voice search', 'description': 'Initiate a voice-based search using the microphone button.'}, {'name': 'Search with camera', 'description': 'Use Google Lens to search using the camera for images or objects.'}, {'name': 'Navigate to YouTube', 'description': 'Click on the YouTube tile to open the YouTube website.'}, {'name': 'Navigate to Facebook', 'description': 'Click on the Facebook tile to open the Facebook website.'}, {'name': 'Navigate to Wikipedia', 'description': 'Click on the Wikipedia tile to open the Wikipedia website.'}, {'name': 'Navigate to mnggo.net', 'description': 'Click on the mnggo.net tile to open its website.'}, {'name': 'Navigate to Channel NewsAsia', 'description': 'Click on the Channel NewsAsia tile to open its website.'}, {'name': 'Navigate to The Straits Times', 'description': 'Click on The Straits Times tile to open its website.'}, {'name': 'Navigate to Qoo10', 'description': 'Click on the Qoo10 tile to open its website.'}, {'name': 'Navigate to sgCarMart', 'description': 'Click on the sgCarMart tile to open its website.'}, {'name': 'Discover content', 'description': 'Browse and explore articles and topics under the Discover section.'}, {'name': 'Open Discover options', 'description': 'Access additional options for managing the Discover section using the options button.'}, {'name': 'Share Discover content', 'description': 'Share specific articles from the Discover section using the share button.'}, {'name': 'Customize card menu', 'description': 'Open the menu for a specific Discover card to access additional options.'}, {'name': 'Open home page', 'description': \"Click the home button to navigate to the browser's home page.\"}, {'name': 'Switch or close tabs', 'description': 'Use the tab switcher button to manage open tabs or close them.'}, {'name': 'Open browser menu', 'description': 'Access browser settings and controls using the menu button.'}, {'name': 'Signed-in account settings', 'description': 'Open settings related to the signed-in Google account.'}, {'name': 'Customize and control Google Chrome', 'description': 'Open the Chrome menu for additional browser customization options and controls.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment21\\scene0\\4e5cd78cfbca801ea96edfce1920b231.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "4e5cd78cfbca801ea96edfce1920b231"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment21\\scene0\\-3674770432635276071.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-3674770432635276071"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment21\\scene0\\1407564471429538970.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "1407564471429538970"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment21\\scene0\\-8108759504610321992.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-8108759504610321992"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment21\\scene0\\-4018997138157837812.png",
+                "activity": "",
+                "state_str": "-4018997138157837812"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment21\\scene0\\-5105385982301276683.png",
+                "activity": "com.google.android.apps.chrome.Main}",
+                "state_str": "-5105385982301276683"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment21\\scene0\\-1384662414313040956.png",
+                "activity": "",
+                "state_str": "-1384662414313040956"
+            },
+            {
+                "image": "..\\app\\chrome_activity\\output\\screenshot\\comment21\\scene0\\-1384662414313040956.png",
+                "activity": "",
+                "state_str": "-1384662414313040956"
+            }
+        ],
+        "operations": [
+            {
+                "from": "4e5cd78cfbca801ea96edfce1920b231",
+                "to": "-3674770432635276071",
+                "event": "click<button id=24 class =\"com.android.chrome:id/tab_switcher_button\" alt=\"See 4 tabs\">  </button>"
+            },
+            {
+                "from": "-3674770432635276071",
+                "to": "1407564471429538970",
+                "event": "click<button id=4 alt=\"Expand tab group with 2 tabs, color Grey.\">  </button>"
+            },
+            {
+                "from": "1407564471429538970",
+                "to": "-8108759504610321992",
+                "event": "click<img id=11 class =\"com.android.chrome:id/toolbar_back_button\" alt=\"Collapse tab group with 2 tabs.\">  </img>"
+            },
+            {
+                "from": "-8108759504610321992",
+                "to": "-4018997138157837812",
+                "event": "click<button id=2 class =\"com.android.chrome:id/menu_button\" alt=\"Customize and control Google Chrome\">  </button>"
+            },
+            {
+                "from": "-4018997138157837812",
+                "to": "-5105385982301276683",
+                "event": "click<p id=5 class =\"com.android.chrome:id/menu_item_text\"> Select tabs,  </p>"
+            },
+            {
+                "from": "-5105385982301276683",
+                "to": "-1384662414313040956",
+                "event": "click<button id=4 class =\"com.android.chrome:id/list_menu_button\" alt=\"Customize and control Google Chrome\">  </button>"
+            },
+            {
+                "from": "-1384662414313040956",
+                "to": "-1384662414313040956",
+                "event": "click<p id=4 class =\"com.android.chrome:id/menu_item_text\"> Group tabs,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]
