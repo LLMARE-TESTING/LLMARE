@@ -1,0 +1,185 @@
+[
+    {
+        "round": 1,
+        "comment": "Everytime I try and change the cover of my highlight, the image I choose appears blurry and the whole app just restarts once I try to apply it. Insta is very laggy for Android users.",
+        "scenarios": [
+            "Try to change the cover of a highlight; the chosen image appears blurry and the app restarts when attempting to apply it.  ",
+            "The app is laggy for Android users."
+        ],
+        "key sentence": "Try to change the cover of a highlight; the chosen image appears blurry and the app restarts when attempting to apply it.  ",
+        "target activity": "com.instagram.modal.ModalActivity",
+        "the function of activity": "The activity facilitates Instagram account management, post creation, and customization features, including profile settings, media selection, audience targeting, and editing options for posts and highlights.",
+        "target state": "state17",
+        "the sub-task list of state": "[{'name': 'Edit Highlight Cover', 'description': \"Tap the 'Edit cover' link to change the cover image for a highlight.\"}, {'name': 'Change Highlight Cover', 'description': \"Click the 'highlight_cover_container' button to modify the cover image of a highlight.\"}, {'name': 'Edit Highlight Title', 'description': \"Tap the 'highlight_title' button to modify the title of a highlight.\"}, {'name': 'Navigate Tabs', 'description': \"Switch between different tabs by clicking on the 'Selected' or 'Stories' buttons.\"}, {'name': 'Select Media', 'description': \"Tap on media images to select or deselect them using the 'selected_item_overlay' and 'media_toggle' buttons.\"}, {'name': 'Go Back', 'description': \"Click the 'Back' button to return to the previous screen.\"}, {'name': 'Confirm Edits', 'description': \"Tap the 'Done' button to save any changes you have made on this screen.\"}]",
+        "nodes": [
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment10\\scene0\\52e92cce957416c52f0c11fa5490fd56.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "52e92cce957416c52f0c11fa5490fd56"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment10\\scene0\\state1.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment10\\scene0\\state15.png",
+                "activity": "com.instagram.modal.TransparentModalActivity}",
+                "state_str": "state15"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment10\\scene0\\state16.png",
+                "activity": "com.instagram.modal.TransparentModalActivity}",
+                "state_str": "state16"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment10\\scene0\\state17.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "state17"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment10\\scene0\\-860277844434604435.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "-860277844434604435"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment10\\scene0\\195618966379579880.png",
+                "activity": "com.instagram.creation.activity.MediaCaptureActivity}",
+                "state_str": "195618966379579880"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment10\\scene0\\195618966379579880.png",
+                "activity": "com.instagram.creation.activity.MediaCaptureActivity}",
+                "state_str": "195618966379579880"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment10\\scene0\\2015301276910844332.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "2015301276910844332"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment10\\scene0\\-6099974747234202981.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "-6099974747234202981"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment10\\scene0\\2015301276910844332.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "2015301276910844332"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment10\\scene0\\195618966379579880.png",
+                "activity": "com.instagram.creation.activity.MediaCaptureActivity}",
+                "state_str": "195618966379579880"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment10\\scene0\\4678267317168176948.png",
+                "activity": "com.instagram.creation.activity.MediaCaptureActivity}",
+                "state_str": "4678267317168176948"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment10\\scene0\\2015301276910844332.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "2015301276910844332"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment10\\scene0\\-6099974747234202981.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "-6099974747234202981"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment10\\scene0\\-7798147654250275210.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "-7798147654250275210"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment10\\scene0\\-2547220141317163238.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "-2547220141317163238"
+            }
+        ],
+        "operations": [
+            {
+                "from": "52e92cce957416c52f0c11fa5490fd56",
+                "to": "state1",
+                "event": "click(com.instagram.android:id/profile_tab-Profile:[864,2027][1080,2148])"
+            },
+            {
+                "from": "state1",
+                "to": "state15",
+                "event": "click(com.instagram.android:id/seen_state:[31,1573][237,1779])"
+            },
+            {
+                "from": "state15",
+                "to": "state16",
+                "event": "click(com.instagram.android:id/self_toolbar_menu_button-More options:[893,1946][1069,2119])"
+            },
+            {
+                "from": "state16",
+                "to": "state17",
+                "event": "click(com.instagram.android:id/action_sheet_row_text_view-Edit highlight:[0,1589][1080,1719])"
+            },
+            {
+                "from": "state17",
+                "to": "-860277844434604435",
+                "event": "click<p id=2 class =\"com.instagram.android:id/edit_cover_link\"> Edit cover,  </p>"
+            },
+            {
+                "from": "-860277844434604435",
+                "to": "195618966379579880",
+                "event": "click<img id=2 alt=\"Open Gallery\">  </img>"
+            },
+            {
+                "from": "195618966379579880",
+                "to": "195618966379579880",
+                "event": "click<button id=4 class =\"com.instagram.android:id/gallery_picker_grid_item_container\" alt=\"Photo thumbnail, Added on 6 days ago\">  </button>"
+            },
+            {
+                "from": "195618966379579880",
+                "to": "2015301276910844332",
+                "event": "click<button id=10 class =\"com.instagram.android:id/next_button_textview\"> Done,  </button>"
+            },
+            {
+                "from": "2015301276910844332",
+                "to": "-6099974747234202981",
+                "event": "click<button id=6 class =\"com.instagram.android:id/action_bar_button_text\"> Done,  </button>"
+            },
+            {
+                "from": "-6099974747234202981",
+                "to": "2015301276910844332",
+                "event": "click<p id=2 class =\"com.instagram.android:id/edit_cover_link\"> Edit cover,  </p>"
+            },
+            {
+                "from": "2015301276910844332",
+                "to": "195618966379579880",
+                "event": "click<img id=2 alt=\"Open Gallery\">  </img>"
+            },
+            {
+                "from": "195618966379579880",
+                "to": "4678267317168176948",
+                "event": "click<button id=5 class =\"com.instagram.android:id/gallery_picker_grid_item_container\" alt=\"Photo thumbnail, Added on December 10\">  </button>"
+            },
+            {
+                "from": "4678267317168176948",
+                "to": "2015301276910844332",
+                "event": "click<button id=9 class =\"com.instagram.android:id/next_button_textview\"> Done,  </button>"
+            },
+            {
+                "from": "2015301276910844332",
+                "to": "-6099974747234202981",
+                "event": "click<button id=6 class =\"com.instagram.android:id/action_bar_button_text\"> Done,  </button>"
+            },
+            {
+                "from": "-6099974747234202981",
+                "to": "-7798147654250275210",
+                "event": "click<button id=13 class =\"com.instagram.android:id/action_bar_button_text\"> Done,  </button>"
+            },
+            {
+                "from": "-7798147654250275210",
+                "to": "-2547220141317163238",
+                "event": "click<p id=0 class =\"com.instagram.android:id/message\"> Loading\u2026,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

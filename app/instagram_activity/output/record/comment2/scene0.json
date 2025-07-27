@@ -1,0 +1,114 @@
+[
+    {
+        "round": 1,
+        "comment": "Freezes when I try to skim reels. Tried everything, restarting it deleting cache, and the app. Problem still persistents",
+        "scenarios": [
+            "Freezes when I try to skim reels."
+        ],
+        "key sentence": "Freezes when I try to skim reels.",
+        "target activity": "com.instagram.mainactivity.InstagramMainActivity",
+        "the function of activity": "This activity involves managing user profiles and interactions, creating and editing content, exploring media, and adjusting privacy and notification settings on a social media platform.",
+        "target state": "963b604a07910978be21d1ebdb09110a",
+        "the sub-task list of state": "[{'name': 'Action Bar', 'description': 'The upper navigation bar of the app screen, typically containing navigation buttons, the title of the current screen, and other action items.'}, {'name': 'Content Area', 'description': 'The main display area of the screen where the content is rendered, including posts, stories, reels, etc.'}, {'name': 'Swipe Navigation', 'description': 'A container for swipe navigation elements, allowing users to switch between different sections by swiping left or right.'}, {'name': 'Quick Capture', 'description': 'A feature allowing rapid image or video capture, containing buttons and controls related to the camera.'}, {'name': 'Post Capture Controls', 'description': 'A set of controls available after capturing an image or video, including tools for adding effects, text, or other media.'}, {'name': 'Camera Permissions Cover', 'description': 'A UI element that appears when camera access permissions are required, guiding the user to enable access.'}, {'name': 'Pre-Capture Controls', 'description': 'Controls available before capturing an image or video, including settings for flash, lighting, and the camera switch button.'}, {'name': 'Gallery Preview', 'description': 'A preview area displaying recently taken photos or videos, allowing quick access to view or edit them.'}, {'name': 'AR Effect Picker', 'description': 'Interface to select augmented reality effects that can be applied to the camera view for creative media captures.'}, {'name': 'Camera Destination Picker', 'description': 'An interface to choose where the captured media should be shared, such as posts, stories, reels, or live.'}, {'name': 'Feed Tab', 'description': 'A navigation tab that takes users to their main feed, displaying posts from followed accounts and suggested content.'}, {'name': 'Search Tab', 'description': 'A navigation tab for exploring and searching content across the platform, including trending posts and suggestions.'}, {'name': 'Creation Tab', 'description': 'A navigation tab to access creation tools for posts, stories, and other media directly from the camera.'}, {'name': 'Reels Tab', 'description': 'A navigation tab for discovering short video content, known as reels, shared by other users.'}, {'name': 'Profile Tab', 'description': \"A navigation tab that leads to the user's profile page, showing their posts, stories, and account information.\"}, {'name': 'Camera Shutter Button', 'description': 'A button on the interface for capturing photos or videos using the in-app camera.'}, {'name': 'Flash Toggle', 'description': \"A control allowing the user to turn the camera's flash on or off.\"}, {'name': 'Switch Camera', 'description': 'A button to toggle between front and back camera views.'}, {'name': 'Timer Button', 'description': 'A feature that allows setting a timer delay before the camera captures an image.'}, {'name': 'Gallery Button', 'description': \"Button to open the device's gallery to view and select media files.\"}, {'name': 'Post Button', 'description': 'A button in the camera destination picker allowing users to post captured media to their feed.'}, {'name': 'Story Button', 'description': 'A button in the camera destination picker for sharing captured media as a story.'}, {'name': 'Reel Button', 'description': 'A button in the camera destination picker to create a reel with the captured media.'}, {'name': 'Live Button', 'description': 'A button in the camera destination picker to start a live broadcast session.'}, {'name': 'Search Bar', 'description': 'An input field allowing users to search for specific content, accounts, or hashtags.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment2\\scene0\\52e92cce957416c52f0c11fa5490fd56.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "52e92cce957416c52f0c11fa5490fd56"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment2\\scene0\\7012604118261519490.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "7012604118261519490"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment2\\scene0\\9017676288734241823.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "9017676288734241823"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment2\\scene0\\9017676288734241823.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "9017676288734241823"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment2\\scene0\\2570468894650685136.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "2570468894650685136"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment2\\scene0\\7377466240943324616.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "7377466240943324616"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment2\\scene0\\7377466240943324616.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "7377466240943324616"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment2\\scene0\\-631923109620931450.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-631923109620931450"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment2\\scene0\\-8291400583352413613.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-8291400583352413613"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment2\\scene0\\8641932308916660564.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "8641932308916660564"
+            }
+        ],
+        "operations": [
+            {
+                "from": "963b604a07910978be21d1ebdb09110a",
+                "to": "7012604118261519490",
+                "event": "click<button id=37 class =\"com.instagram.android:id/clips_tab\" alt=\"Reels\">  </button>"
+            },
+            {
+                "from": "7012604118261519490",
+                "to": "9017676288734241823",
+                "event": "click<div id=1 class =\"com.instagram.android:id/clips_viewer_view_pager\">  </div>"
+            },
+            {
+                "from": "9017676288734241823",
+                "to": "9017676288734241823",
+                "event": "click<div id=2 alt=\"Reel by dailyfashion_news\">  </div>"
+            },
+            {
+                "from": "9017676288734241823",
+                "to": "2570468894650685136",
+                "event": "scroll up"
+            },
+            {
+                "from": "2570468894650685136",
+                "to": "7377466240943324616",
+                "event": "scroll down"
+            },
+            {
+                "from": "7377466240943324616",
+                "to": "7377466240943324616",
+                "event": "scroll down"
+            },
+            {
+                "from": "7377466240943324616",
+                "to": "-631923109620931450",
+                "event": "scroll up"
+            },
+            {
+                "from": "-631923109620931450",
+                "to": "-8291400583352413613",
+                "event": "scroll down"
+            },
+            {
+                "from": "-8291400583352413613",
+                "to": "8641932308916660564",
+                "event": "scroll up"
+            }
+        ],
+        "Final answer": 1
+    }
+]

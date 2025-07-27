@@ -1,0 +1,66 @@
+[
+    {
+        "round": 1,
+        "comment": "After updating Instagram I have VERY issue in my account 1- I can not see comments on reel 2- I can't see my profile and I can go to my saved option 3- when I see this type I think their must be some issues so I log out and then try to login but now I can't login to my account \u9983\u69d5\u9983\u69d5 So, I am requesting Instagram to look into this issue and pls solve it because It is not a problem with one account I can't login to my other account also",
+        "scenarios": [
+            "After updating Instagram, the user cannot see comments on a reel.",
+            "After updating Instagram, the user cannot see their profile and cannot access the saved option.",
+            "The user logs out due to the above issues and attempts to log back in but cannot log in to their account. Additionally, they cannot log in to another account either."
+        ],
+        "key sentence": "After updating Instagram, the user cannot see comments on a reel.",
+        "target activity": "com.instagram.mainactivity.InstagramMainActivity",
+        "the function of activity": "This activity involves managing user profiles and interactions, creating and editing content, exploring media, and adjusting privacy and notification settings on a social media platform.",
+        "target state": "219680e7e6aef349ff508ae3508177d7",
+        "the sub-task list of state": "[{'name': 'View Reel', 'description': 'Watch the reel by adven_of_a_small_island_boy. Double tap on the reel video container to play or pause.'}, {'name': 'Follow', 'description': \"Follow the user Noel Nick Grey using the 'Follow' button provided on the screen.\"}, {'name': 'Like', 'description': \"Like the reel by tapping on the 'Like' button.\"}, {'name': 'View Likes', 'description': \"View the total number of likes by selecting the 'View likes' button, which displays the current count.\"}, {'name': 'Comment', 'description': \"Open the comment section for the reel by clicking on the 'Comment' button.\"}, {'name': 'View Comments', 'description': \"View all comments for the reel by selecting the 'View comments' button, which displays the current count.\"}, {'name': 'Share', 'description': \"Share the reel by using the 'Share' button available on the screen.\"}, {'name': 'Reshare', 'description': \"View the number of times the reel has been reshared with the 'Reshare number' button.\"}, {'name': 'Open More Options', 'description': \"Access additional options for the reel by using the 'More' button component.\"}, {'name': 'Play Audio', 'description': \"Play the associated audio of the reel by selecting the 'Audio' button.\"}, {'name': 'Create Reel', 'description': \"Initiate the creation of a new reel by using the 'Create a reel' button.\"}, {'name': 'Home', 'description': \"Navigate back to the home feed of the app using the 'Home' tab in the navigation menu.\"}, {'name': 'Search and Explore', 'description': \"Explore new content and search within the app using the 'Search and explore' tab.\"}, {'name': 'Open Camera', 'description': \"Access the camera feature to create new content by selecting the 'Camera' tab.\"}, {'name': 'View Profile', 'description': \"Navigate to the user's profile page by selecting the 'Profile' tab in the navigation menu.\"}]",
+        "nodes": [
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene0\\52e92cce957416c52f0c11fa5490fd56.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "52e92cce957416c52f0c11fa5490fd56"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene0\\1872665182359400527.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "1872665182359400527"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene0\\4371316214811114684.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "4371316214811114684"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene0\\4371316214811114684.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "4371316214811114684"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment4\\scene0\\4371316214811114684.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "4371316214811114684"
+            }
+        ],
+        "operations": [
+            {
+                "from": "219680e7e6aef349ff508ae3508177d7",
+                "to": "1872665182359400527",
+                "event": "click<button id=36 class =\"com.instagram.android:id/clips_tab\" alt=\"Reels\">  </button>"
+            },
+            {
+                "from": "1872665182359400527",
+                "to": "4371316214811114684",
+                "event": "click<img id=7 alt=\"Comment\">  </img>"
+            },
+            {
+                "from": "4371316214811114684",
+                "to": "4371316214811114684",
+                "event": "click<button id=3 class =\"com.instagram.android:id/title_text_view\"> Comments,  </button>"
+            },
+            {
+                "from": "4371316214811114684",
+                "to": "4371316214811114684",
+                "event": "click<button id=39 class =\"com.instagram.android:id/profile_tab\" alt=\"Profile\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

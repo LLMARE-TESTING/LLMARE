@@ -1,0 +1,184 @@
+[
+    {
+        "round": 1,
+        "comment": "Initially the app worked pretty well for me ,but after getting an update the reels are always out of sync with the audio.It takes a long time for me to post anything on my story and comments dissappear immediately after I post them.I hope the developers will fix the issues and the app will go back to normal. It's a 2 star rating for now till the bug is fixed",
+        "scenarios": [
+            "Comments disappear immediately after being posted."
+        ],
+        "key sentence": "Comments disappear immediately after being posted.",
+        "target activity": "com.instagram.mainactivity.InstagramMainActivity",
+        "the function of activity": "This activity involves managing user profiles and interactions, creating and editing content, exploring media, and adjusting privacy and notification settings on a social media platform.",
+        "target state": "state27",
+        "the sub-task list of state": "[{'name': 'View Post Details', 'description': 'View detailed information about a post, including likes, comments, and description.'}, {'name': 'Like Post', 'description': 'Tap to like a post. The heart icon will change to indicate that the post is liked.'}, {'name': 'Comment on Post', 'description': 'Tap to add a comment on a post. A comment box will appear for text input.'}, {'name': 'Share Post', 'description': 'Tap to share the post with others through direct messages or other social media platforms.'}, {'name': 'Save Post', 'description': 'Tap to save the post to your saved collection for later viewing.'}, {'name': 'View Tagged People', 'description': 'View information about people tagged in a post.'}, {'name': 'View All Comments', 'description': 'Tap to view all comments on a post, especially if there are more than a few comments.'}, {'name': 'More Actions for Post', 'description': 'Tap to view additional options for the post such as reporting, copying link, etc.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment34\\scene0\\52e92cce957416c52f0c11fa5490fd56.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "52e92cce957416c52f0c11fa5490fd56"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment34\\scene0\\state27.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state27"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment34\\scene0\\2412561799210866268.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "2412561799210866268"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment34\\scene0\\4849388722978402371.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "4849388722978402371"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment34\\scene0\\-9137432346656535710.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-9137432346656535710"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment34\\scene0\\-9137432346656535710.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-9137432346656535710"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment34\\scene0\\-5668853904590675969.png",
+                "activity": "",
+                "state_str": "-5668853904590675969"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment34\\scene0\\274868945034364657.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "274868945034364657"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment34\\scene0\\-6642592045525500786.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-6642592045525500786"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment34\\scene0\\1350727762265012581.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "1350727762265012581"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment34\\scene0\\1350727762265012581.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "1350727762265012581"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment34\\scene0\\4850353441029995696.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "4850353441029995696"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment34\\scene0\\4850353441029995696.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "4850353441029995696"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment34\\scene0\\4850353441029995696.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "4850353441029995696"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment34\\scene0\\4850353441029995696.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "4850353441029995696"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment34\\scene0\\683019544726929530.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "683019544726929530"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment34\\scene0\\1642632928048235066.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "1642632928048235066"
+            }
+        ],
+        "operations": [
+            {
+                "from": "52e92cce957416c52f0c11fa5490fd56",
+                "to": "state27",
+                "event": "scroll-down(com.instagram.android:id/profile_header_fixed_list:[0,237][1080,1874])"
+            },
+            {
+                "from": "state27",
+                "to": "2412561799210866268",
+                "event": "click<button id=5 alt=\"Comment\">  </button>"
+            },
+            {
+                "from": "2412561799210866268",
+                "to": "4849388722978402371",
+                "event": "input<input id=25 class =\"com.instagram.android:id/layout_comment_thread_edittext\"> Add a comment for aespa_official\u2026,  </input>Test comment"
+            },
+            {
+                "from": "4849388722978402371",
+                "to": "-9137432346656535710",
+                "event": "click<img id=26 class =\"com.instagram.android:id/layout_comment_thread_post_button_icon\" alt=\"Post\">  </img>"
+            },
+            {
+                "from": "-9137432346656535710",
+                "to": "-9137432346656535710",
+                "event": "click<button id=3 class =\"com.instagram.android:id/title_text_view\"> Comments,  </button>"
+            },
+            {
+                "from": "-9137432346656535710",
+                "to": "-5668853904590675969",
+                "event": "click<button id=30 alt=\"Comment\">  </button>"
+            },
+            {
+                "from": "-5668853904590675969",
+                "to": "274868945034364657",
+                "event": "click<button id=6 class =\"com.instagram.android:id/negative_button\"> Not now,  </button>"
+            },
+            {
+                "from": "274868945034364657",
+                "to": -6642592045525500786,
+                "event": "back"
+            },
+            {
+                "from": -6642592045525500786,
+                "to": "1350727762265012581",
+                "event": "click<button id=5 alt=\"Comment\">  </button>"
+            },
+            {
+                "from": "1350727762265012581",
+                "to": "1350727762265012581",
+                "event": "click<button id=3 class =\"com.instagram.android:id/title_text_view\"> Comments,  </button>"
+            },
+            {
+                "from": "1350727762265012581",
+                "to": "4850353441029995696",
+                "event": "click<img id=25 class =\"com.instagram.android:id/layout_comment_thread_post_button_icon\" alt=\"Post\">  </img>"
+            },
+            {
+                "from": "4850353441029995696",
+                "to": "4850353441029995696",
+                "event": "click<button id=3 class =\"com.instagram.android:id/title_text_view\"> Comments,  </button>"
+            },
+            {
+                "from": "4850353441029995696",
+                "to": "4850353441029995696",
+                "event": "click<input id=23 class =\"com.instagram.android:id/layout_comment_thread_edittext\"> Add a comment for aespa_official\u2026,  </input>"
+            },
+            {
+                "from": "4850353441029995696",
+                "to": "4850353441029995696",
+                "event": "click<button id=3 class =\"com.instagram.android:id/title_text_view\"> Comments,  </button>"
+            },
+            {
+                "from": "4850353441029995696",
+                "to": "683019544726929530",
+                "event": "input<input id=23 class =\"com.instagram.android:id/layout_comment_thread_edittext\"> Add a comment for aespa_official\u2026,  </input>Test comment"
+            },
+            {
+                "from": "683019544726929530",
+                "to": "1642632928048235066",
+                "event": "click<img id=24 class =\"com.instagram.android:id/layout_comment_thread_post_button_icon\" alt=\"Post\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

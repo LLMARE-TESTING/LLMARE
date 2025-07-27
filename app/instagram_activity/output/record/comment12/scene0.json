@@ -1,0 +1,174 @@
+[
+    {
+        "round": 1,
+        "comment": "There should be an option to opt-out of completely stupid features AB test. The app is not showing me my frequent contacts when I'm trying to share a reel. Stop this!",
+        "scenarios": [
+            "Trying to share a reel, but the app is not showing frequent contacts."
+        ],
+        "key sentence": "Trying to share a reel, but the app is not showing frequent contacts.",
+        "target activity": "com.instagram.mainactivity.InstagramMainActivity",
+        "the function of activity": "This activity involves managing user profiles and interactions, creating and editing content, exploring media, and adjusting privacy and notification settings on a social media platform.",
+        "target state": "state3",
+        "the sub-task list of state": "[{'name': 'View Reel', 'description': 'Open and view the reel content posted by the user wormforbook65. Double tap to play or pause the reel.'}, {'name': 'Browse Reels', 'description': 'Browse reels by scrolling down or up.'}, {'name': 'Follow User', 'description': 'Follow the user who created the reel, identified as wormforbook65.'}, {'name': 'See More', 'description': \"Expand the reel's caption and comments section to see more details.\"}, {'name': 'Like Reel', 'description': 'Like the current reel by tapping the like button.'}, {'name': 'Comment on Reel', 'description': 'View and add comments to the current reel. Displays the number of existing comments, which is 184.'}, {'name': 'Share Reel', 'description': 'Share the current reel with others through different platforms or direct message.'}, {'name': 'More Options', 'description': 'View additional options for interacting with the reel, such as reporting or saving.'}, {'name': 'Create Reel', 'description': 'Access the camera or creation tools to make a new reel.'}, {'name': 'Switch Tab', 'description': 'Navigate between different sections like Home, Search, Create, Reels, and Profile using the bottom tab bar.'}, {'name': 'Access Home', 'description': 'Return to the home feed to view posts from followed users.'}, {'name': 'Search and Explore', 'description': 'Search for content or explore trending and recommended posts.'}, {'name': 'Visit Profile', 'description': 'Access your profile page to view your posts, followers, and account settings.'}, {'name': 'View Profile Picture', 'description': 'View the profile picture of the user who posted the current reel.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment12\\scene0\\52e92cce957416c52f0c11fa5490fd56.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "52e92cce957416c52f0c11fa5490fd56"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment12\\scene0\\state3.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment12\\scene0\\4151438230647027855.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "4151438230647027855"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment12\\scene0\\4151438230647027855.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "4151438230647027855"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment12\\scene0\\1162360685298589114.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "1162360685298589114"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment12\\scene0\\-6528326374836303149.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-6528326374836303149"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment12\\scene0\\-6175122354502216638.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-6175122354502216638"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment12\\scene0\\4151438230647027855.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "4151438230647027855"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment12\\scene0\\-3266321218040924311.png",
+                "activity": "com.android.internal.app.ChooserActivity}",
+                "state_str": "-3266321218040924311"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment12\\scene0\\-2023161152808071133.png",
+                "activity": "com.google.android.gms.nearby.sharing.send.SendActivity}",
+                "state_str": "-2023161152808071133"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment12\\scene0\\-2897844247633802289.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-2897844247633802289"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment12\\scene0\\-829322664516071685.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-829322664516071685"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment12\\scene0\\-5499490746287223097.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-5499490746287223097"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment12\\scene0\\-7872252664165218402.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-7872252664165218402"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment12\\scene0\\-7872252664165218402.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-7872252664165218402"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment12\\scene0\\-5499490746287223097.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-5499490746287223097"
+            }
+        ],
+        "operations": [
+            {
+                "from": "52e92cce957416c52f0c11fa5490fd56",
+                "to": "state3",
+                "event": "click(com.instagram.android:id/clips_tab-Reels:[648,2027][864,2148])"
+            },
+            {
+                "from": "state3",
+                "to": "4151438230647027855",
+                "event": "click<img id=8 alt=\"Share\">  </img>"
+            },
+            {
+                "from": "4151438230647027855",
+                "to": "4151438230647027855",
+                "event": "click<img id=3 class =\"com.instagram.android:id/search_bar_glyph\" alt=\"Search\">  </img>"
+            },
+            {
+                "from": "4151438230647027855",
+                "to": "1162360685298589114",
+                "event": "click<input id=4 class =\"com.instagram.android:id/search_edit_text\" alt=\"Search\">  </input>"
+            },
+            {
+                "from": "1162360685298589114",
+                "to": "-6528326374836303149",
+                "event": "click<div id=2 alt=\"Reel by yxcindyvibes\">  </div>"
+            },
+            {
+                "from": "-6528326374836303149",
+                "to": "-6175122354502216638",
+                "event": "click<button id=27 class =\"com.instagram.android:id/direct_send_button_multi_select\" alt=\"Send\">  </button>"
+            },
+            {
+                "from": "-6175122354502216638",
+                "to": "4151438230647027855",
+                "event": "click<img id=8 alt=\"Share\">  </img>"
+            },
+            {
+                "from": "4151438230647027855",
+                "to": "-3266321218040924311",
+                "event": "click<img id=32 class =\"com.instagram.android:id/button\" alt=\"Share\">  </img>"
+            },
+            {
+                "from": "-3266321218040924311",
+                "to": "-2023161152808071133",
+                "event": "click<button id=7> Quick Share,  </button>"
+            },
+            {
+                "from": "-2023161152808071133",
+                "to": -2897844247633802289,
+                "event": "back"
+            },
+            {
+                "from": -2897844247633802289,
+                "to": "-829322664516071685",
+                "event": "click<img id=8 alt=\"Share\">  </img>"
+            },
+            {
+                "from": "-829322664516071685",
+                "to": "-5499490746287223097",
+                "event": "click<button id=8 class =\"com.instagram.android:id/direct_share_sheet_grid_view_pog\" alt=\"PiTa&#128149; Chat not selected\">  </button>"
+            },
+            {
+                "from": "-5499490746287223097",
+                "to": "-7872252664165218402",
+                "event": "click<img id=39 alt=\"Share\">  </img>"
+            },
+            {
+                "from": "-7872252664165218402",
+                "to": "-7872252664165218402",
+                "event": "click<img id=3 class =\"com.instagram.android:id/search_bar_glyph\" alt=\"Search\">  </img>"
+            },
+            {
+                "from": "-7872252664165218402",
+                "to": "-5499490746287223097",
+                "event": "click<img id=39 alt=\"Share\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

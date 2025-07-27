@@ -1,0 +1,155 @@
+[
+    {
+        "round": 1,
+        "comment": "Next reels feature and HDR videos are really the worse. Instagram is getting worse with every update, stop forcing these useless features or at least give the choice to disable them",
+        "scenarios": [
+            "User wants the ability to disable the next reels feature in the Instagram app.",
+            "User wants the ability to disable HDR videos in the Instagram app."
+        ],
+        "key sentence": "User wants the ability to disable the next reels feature in the Instagram app.",
+        "target activity": "com.instagram.mainactivity.InstagramMainActivity",
+        "the function of activity": "This activity involves managing user profiles and interactions, creating and editing content, exploring media, and adjusting privacy and notification settings on a social media platform.",
+        "target state": "state3",
+        "the sub-task list of state": "[{'name': 'View Reel', 'description': 'Open and view the reel content posted by the user wormforbook65. Double tap to play or pause the reel.'}, {'name': 'Browse Reels', 'description': 'Browse reels by scrolling down or up.'}, {'name': 'Follow User', 'description': 'Follow the user who created the reel, identified as wormforbook65.'}, {'name': 'See More', 'description': \"Expand the reel's caption and comments section to see more details.\"}, {'name': 'Like Reel', 'description': 'Like the current reel by tapping the like button.'}, {'name': 'Comment on Reel', 'description': 'View and add comments to the current reel. Displays the number of existing comments, which is 184.'}, {'name': 'Share Reel', 'description': 'Share the current reel with others through different platforms or direct message.'}, {'name': 'More Options', 'description': 'View additional options for interacting with the reel, such as reporting or saving.'}, {'name': 'Create Reel', 'description': 'Access the camera or creation tools to make a new reel.'}, {'name': 'Switch Tab', 'description': 'Navigate between different sections like Home, Search, Create, Reels, and Profile using the bottom tab bar.'}, {'name': 'Access Home', 'description': 'Return to the home feed to view posts from followed users.'}, {'name': 'Search and Explore', 'description': 'Search for content or explore trending and recommended posts.'}, {'name': 'Visit Profile', 'description': 'Access your profile page to view your posts, followers, and account settings.'}, {'name': 'View Profile Picture', 'description': 'View the profile picture of the user who posted the current reel.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment5\\scene0\\52e92cce957416c52f0c11fa5490fd56.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "52e92cce957416c52f0c11fa5490fd56"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment5\\scene0\\state3.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment5\\scene0\\-7035745100617688430.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-7035745100617688430"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment5\\scene0\\8257461208502845720.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "8257461208502845720"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment5\\scene0\\785528111588080857.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "785528111588080857"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment5\\scene0\\8257461208502845720.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "8257461208502845720"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment5\\scene0\\-219836929833118363.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "-219836929833118363"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment5\\scene0\\8257461208502845720.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "8257461208502845720"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment5\\scene0\\-1816000851675152776.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "-1816000851675152776"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment5\\scene0\\8257461208502845720.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "8257461208502845720"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment5\\scene0\\-1785864417099259816.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "-1785864417099259816"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment5\\scene0\\8257461208502845720.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "8257461208502845720"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment5\\scene0\\8257461208502845720.png",
+                "activity": "com.instagram.modal.ModalActivity}",
+                "state_str": "8257461208502845720"
+            },
+            {
+                "image": "..\\app\\instagram_activity\\output\\screenshot\\comment5\\scene0\\-272053215670883879.png",
+                "activity": "com.instagram.mainactivity.InstagramMainActivity}",
+                "state_str": "-272053215670883879"
+            }
+        ],
+        "operations": [
+            {
+                "from": "52e92cce957416c52f0c11fa5490fd56",
+                "to": "state3",
+                "event": "click(com.instagram.android:id/clips_tab-Reels:[648,2027][864,2148])"
+            },
+            {
+                "from": "state3",
+                "to": "-7035745100617688430",
+                "event": "click<img id=9 class =\"com.instagram.android:id/clips_ufi_more_button_component\" alt=\"More\">  </img>"
+            },
+            {
+                "from": "-7035745100617688430",
+                "to": "8257461208502845720",
+                "event": "click<button id=26 class =\"com.instagram.android:id/control_option_text\"> Manage content preferences,  </button>"
+            },
+            {
+                "from": "8257461208502845720",
+                "to": "785528111588080857",
+                "event": "click<button id=5 alt=\"Not interested\">  </button>"
+            },
+            {
+                "from": "785528111588080857",
+                "to": 8257461208502845720,
+                "event": "back"
+            },
+            {
+                "from": 8257461208502845720,
+                "to": "-219836929833118363",
+                "event": "click<button id=7 alt=\"Specific words and phrases\">  </button>"
+            },
+            {
+                "from": "-219836929833118363",
+                "to": 8257461208502845720,
+                "event": "back"
+            },
+            {
+                "from": 8257461208502845720,
+                "to": "-1816000851675152776",
+                "event": "click<button id=9 alt=\"Sensitive content\">  </button>"
+            },
+            {
+                "from": "-1816000851675152776",
+                "to": 8257461208502845720,
+                "event": "back"
+            },
+            {
+                "from": 8257461208502845720,
+                "to": "-1785864417099259816",
+                "event": "click<button id=11 alt=\"Political content\">  </button>"
+            },
+            {
+                "from": "-1785864417099259816",
+                "to": 8257461208502845720,
+                "event": "back"
+            },
+            {
+                "from": 8257461208502845720,
+                "to": "8257461208502845720",
+                "event": "click<div id=13 alt=\"Snooze suggested posts in feed for 30 days. Button with toggle state. Double tap to change this setting.\">  </div>"
+            },
+            {
+                "from": "8257461208502845720",
+                "to": -272053215670883879,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    }
+]
