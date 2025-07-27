@@ -1,0 +1,135 @@
+[
+    {
+        "round": 1,
+        "comment": "They changed the memories feature this Fall 2023 to be substantially worse. I used to love the memories at the top, now the dedicated menu at the bottom is so bad and doesn't have the 1 year ago, 2 years ago ... features I really used to enjoy.",
+        "scenarios": [
+            "Attempt to view the \"memories\" feature, which has changed from being displayed at the top to a dedicated menu at the bottom.",
+            "Try to access the \"1 year ago, 2 years ago...\" feature within the \"memories\" that the user used to enjoy, which is now missing."
+        ],
+        "key sentence": "Try to access the \"1 year ago, 2 years ago...\" feature within the \"memories\" that the user used to enjoy, which is now missing.",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "fdedbaae0d7db088bdc1a119bf22aa84",
+        "the sub-task list of state": "[{'name': 'Creations', 'description': 'Access creations menu'}, {'name': 'Sharing', 'description': 'Access sharing options'}, {'name': 'Account and Settings', 'description': 'Access account and settings information'}, {'name': 'Photos Tab', 'description': 'Navigate to the Photos tab'}, {'name': 'Memories Tab', 'description': 'Navigate to the Memories tab'}, {'name': 'Library Tab', 'description': 'Navigate to the Library tab'}, {'name': 'Search Destination', 'description': 'Navigate to the search destination'}, {'name': 'View Photos', 'description': 'Sorll/swipe to view more photos or vedios.Click to view details about photos or vedios. '}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene1\\-740921032243399378.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-740921032243399378"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene1\\3353724588386471334.png",
+                "activity": "",
+                "state_str": "3353724588386471334"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene1\\-740921032243399378.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-740921032243399378"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene1\\-740921032243399378.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-740921032243399378"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene1\\3353724588386471334.png",
+                "activity": "",
+                "state_str": "3353724588386471334"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene1\\-740921032243399378.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-740921032243399378"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene1\\-740921032243399378.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-740921032243399378"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene1\\3353724588386471334.png",
+                "activity": "",
+                "state_str": "3353724588386471334"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene1\\-740921032243399378.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-740921032243399378"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene1\\-740921032243399378.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-740921032243399378"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment6\\scene1\\3353724588386471334.png",
+                "activity": "",
+                "state_str": "3353724588386471334"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-740921032243399378",
+                "event": "click<button id=20 class =\"com.google.android.apps.photos:id/tab_memories\"> Memories,  </button>"
+            },
+            {
+                "from": "-740921032243399378",
+                "to": "3353724588386471334",
+                "event": "click<button id=7 class =\"com.google.android.apps.photos:id/overflow_button_tap_target\" alt=\"More Options\">  </button>"
+            },
+            {
+                "from": "3353724588386471334",
+                "to": -740921032243399378,
+                "event": "back"
+            },
+            {
+                "from": -740921032243399378,
+                "to": "-740921032243399378",
+                "event": "click<button id=14 class =\"com.google.android.apps.photos:id/tab_memories\"> Memories,  </button>"
+            },
+            {
+                "from": "-740921032243399378",
+                "to": "3353724588386471334",
+                "event": "click<button id=7 class =\"com.google.android.apps.photos:id/overflow_button_tap_target\" alt=\"More Options\">  </button>"
+            },
+            {
+                "from": "3353724588386471334",
+                "to": -740921032243399378,
+                "event": "back"
+            },
+            {
+                "from": -740921032243399378,
+                "to": "-740921032243399378",
+                "event": "click<button id=14 class =\"com.google.android.apps.photos:id/tab_memories\"> Memories,  </button>"
+            },
+            {
+                "from": "-740921032243399378",
+                "to": "3353724588386471334",
+                "event": "click<button id=7 class =\"com.google.android.apps.photos:id/overflow_button_tap_target\" alt=\"More Options\">  </button>"
+            },
+            {
+                "from": "3353724588386471334",
+                "to": -740921032243399378,
+                "event": "back"
+            },
+            {
+                "from": -740921032243399378,
+                "to": "-740921032243399378",
+                "event": "click<button id=14 class =\"com.google.android.apps.photos:id/tab_memories\"> Memories,  </button>"
+            },
+            {
+                "from": "-740921032243399378",
+                "to": "3353724588386471334",
+                "event": "click<button id=7 class =\"com.google.android.apps.photos:id/overflow_button_tap_target\" alt=\"More Options\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

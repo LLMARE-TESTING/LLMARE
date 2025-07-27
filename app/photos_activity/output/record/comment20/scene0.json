@@ -1,0 +1,114 @@
+[
+    {
+        "round": 1,
+        "comment": "When editing, the 'save' and 'cancel' buttons do NOT work. Therefore, cannot edit photos.",
+        "scenarios": [
+            "When editing photos, the 'save' and 'cancel' buttons do not work, preventing the user from completing the photo editing process."
+        ],
+        "key sentence": "When editing photos, the 'save' and 'cancel' buttons do not work, preventing the user from completing the photo editing process.",
+        "target activity": ".photoeditor.fragments.activity.PhotoEditorActivity",
+        "the function of activity": "An image editing tool with functions to search contacts, open menus, apply blur, remove parts, edit sky, switch tabs, cancel, save, adjust, add text, rotate, resize, adjust brightness, apply filters, undo, and redo.",
+        "target state": "state30",
+        "the sub-task list of state": "[{'name': 'HDR effect', 'description': 'Apply HDR effect to the photo'}, {'name': 'White point', 'description': 'Adjust the white point of the photo'}, {'name': 'Highlights', 'description': 'Adjust the highlights of the photo'}, {'name': 'Shadows', 'description': 'Adjust the shadows of the photo'}, {'name': 'Black point', 'description': 'Adjust the black point of the photo'}, {'name': 'Cancel', 'description': 'Cancel the current editing operation'}, {'name': 'Save copy', 'description': 'Save a copy of the edited photo'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\state2.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\state10.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\state11.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\state12.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\state29.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state29"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\state30.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state30"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\5581900510534698782.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "5581900510534698782"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\6244960079943089148.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "6244960079943089148"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "state2",
+                "event": "click(ImageView-Edit:[337,1993][491,2148])"
+            },
+            {
+                "from": "state2",
+                "to": "state10",
+                "event": "click(TextView-Crop{Change to crop tab}:[740,1868][952,1966])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(TextView-Tools{Change to tools tab}:[646,1868][864,1966])"
+            },
+            {
+                "from": "state11",
+                "to": "state12",
+                "event": "click(TextView-Adjust{Change to adjust tab}:[649,1868][889,1966])"
+            },
+            {
+                "from": "state12",
+                "to": "state29",
+                "event": "scroll-left(android.support.v7.widget.RecyclerView-com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_adjust_recyclerview:[0,1485][1080,1837])"
+            },
+            {
+                "from": "state29",
+                "to": "state30",
+                "event": "scroll-left(android.support.v7.widget.RecyclerView-com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_adjust_recyclerview:[0,1485][1080,1837])"
+            },
+            {
+                "from": "state30",
+                "to": "5581900510534698782",
+                "event": "click<button id=16 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_cancel\"> Cancel,  </button>"
+            },
+            {
+                "from": "5581900510534698782",
+                "to": "6244960079943089148",
+                "event": "click<img id=9 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

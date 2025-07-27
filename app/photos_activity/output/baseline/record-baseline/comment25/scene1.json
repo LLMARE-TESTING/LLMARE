@@ -1,0 +1,296 @@
+[
+    {
+        "round": 1,
+        "comment": "When editing, the 'save' and 'cancel' buttons do NOT work. Therefore, cannot edit photos.",
+        "scenarios": [
+            "When editing a photo, attempting to use the 'save' button does not result in the photo being saved.",
+            "When editing a photo, attempting to use the 'cancel' button does not result in discarding the edits."
+        ],
+        "key sentence": "When editing a photo, attempting to use the 'cancel' button does not result in discarding the edits.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-2672724904481220820.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-2672724904481220820"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-3310152724034897007.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-3310152724034897007"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-2672724904481220820.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-2672724904481220820"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-2672724904481220820",
+                "event": "click<img id=7 alt=\"Creation taken on Sep 22, 2024 12:40 AM\">  </img>"
+            },
+            {
+                "from": "-2672724904481220820",
+                "to": "-3310152724034897007",
+                "event": "click<img id=11 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            },
+            {
+                "from": "-3310152724034897007",
+                "to": "-2672724904481220820",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_cancel\"> Cancel,  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "When editing, the 'save' and 'cancel' buttons do NOT work. Therefore, cannot edit photos.",
+        "scenarios": [
+            "When editing a photo, attempting to use the 'save' button does not result in the photo being saved.",
+            "When editing a photo, attempting to use the 'cancel' button does not result in discarding the edits."
+        ],
+        "key sentence": "When editing a photo, attempting to use the 'cancel' button does not result in discarding the edits.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-2672724904481220820.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-2672724904481220820"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-3310152724034897007.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-3310152724034897007"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-2672724904481220820.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-2672724904481220820"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-9190231425925872530.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-9190231425925872530"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-833062148628349649.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-833062148628349649"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-8922641947793072846.png",
+                "activity": "com.google.android.apps.photos.movies.v3.activity.MovieEditorActivity}",
+                "state_str": "-8922641947793072846"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\4001003289470179464.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "4001003289470179464"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-2672724904481220820",
+                "event": "click<img id=7 alt=\"Creation taken on Sep 22, 2024 12:40 AM\">  </img>"
+            },
+            {
+                "from": "-2672724904481220820",
+                "to": "-3310152724034897007",
+                "event": "click<img id=11 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            },
+            {
+                "from": "-3310152724034897007",
+                "to": "-2672724904481220820",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_cancel\"> Cancel,  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-9190231425925872530",
+                "event": "click<img id=6 alt=\"Movie taken on Sep 22, 2024 1:00 AM\">  </img>"
+            },
+            {
+                "from": "-9190231425925872530",
+                "to": "-833062148628349649",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/photo_pager\">  </div>"
+            },
+            {
+                "from": "-833062148628349649",
+                "to": "-8922641947793072846",
+                "event": "click<img id=16 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            },
+            {
+                "from": "-8922641947793072846",
+                "to": "4001003289470179464",
+                "event": "click<button id=11 class =\"com.google.android.apps.photos:id/photos_movies_v3_smallscreen_cancel_button\"> Cancel,  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 3,
+        "comment": "When editing, the 'save' and 'cancel' buttons do NOT work. Therefore, cannot edit photos.",
+        "scenarios": [
+            "When editing a photo, attempting to use the 'save' button does not result in the photo being saved.",
+            "When editing a photo, attempting to use the 'cancel' button does not result in discarding the edits."
+        ],
+        "key sentence": "When editing a photo, attempting to use the 'cancel' button does not result in discarding the edits.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-2672724904481220820.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-2672724904481220820"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-3310152724034897007.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-3310152724034897007"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-2672724904481220820.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-2672724904481220820"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-9190231425925872530.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-9190231425925872530"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-833062148628349649.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-833062148628349649"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-8922641947793072846.png",
+                "activity": "com.google.android.apps.photos.movies.v3.activity.MovieEditorActivity}",
+                "state_str": "-8922641947793072846"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\4001003289470179464.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "4001003289470179464"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\-4701180774992067864.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-4701180774992067864"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\1327452359736502948.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "1327452359736502948"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\2348120848744035268.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.VideoPhotoEditorActivity}",
+                "state_str": "2348120848744035268"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment25\\scene0\\scene1\\1211254468786062968.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "1211254468786062968"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-2672724904481220820",
+                "event": "click<img id=7 alt=\"Creation taken on Sep 22, 2024 12:40 AM\">  </img>"
+            },
+            {
+                "from": "-2672724904481220820",
+                "to": "-3310152724034897007",
+                "event": "click<img id=11 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            },
+            {
+                "from": "-3310152724034897007",
+                "to": "-2672724904481220820",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_cancel\"> Cancel,  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-9190231425925872530",
+                "event": "click<img id=6 alt=\"Movie taken on Sep 22, 2024 1:00 AM\">  </img>"
+            },
+            {
+                "from": "-9190231425925872530",
+                "to": "-833062148628349649",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/photo_pager\">  </div>"
+            },
+            {
+                "from": "-833062148628349649",
+                "to": "-8922641947793072846",
+                "event": "click<img id=16 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            },
+            {
+                "from": "-8922641947793072846",
+                "to": "4001003289470179464",
+                "event": "click<button id=11 class =\"com.google.android.apps.photos:id/photos_movies_v3_smallscreen_cancel_button\"> Cancel,  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-4701180774992067864",
+                "event": "click<img id=10 alt=\"Video taken on Jun 4, 2024 6:22 PM\">  </img>"
+            },
+            {
+                "from": "-4701180774992067864",
+                "to": "1327452359736502948",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/photo_pager\">  </div>"
+            },
+            {
+                "from": "1327452359736502948",
+                "to": "2348120848744035268",
+                "event": "click<img id=15 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            },
+            {
+                "from": "2348120848744035268",
+                "to": "1211254468786062968",
+                "event": "click<button id=16 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_cancel\"> Cancel,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

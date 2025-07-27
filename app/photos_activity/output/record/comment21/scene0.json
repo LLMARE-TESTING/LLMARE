@@ -1,0 +1,44 @@
+[
+    {
+        "round": 1,
+        "comment": "Terrible!! Avoid downloading if you can. Can't use the edit button. Crashes each time I click on it. Then I'm told there's a bug in the app and wait for this to be fixed by the developers. How I wished I hadn't updated it.",
+        "scenarios": [
+            "Click on the edit button, and the app crashes."
+        ],
+        "key sentence": "Click on the edit button, and the app crashes.",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "5309a201b0e8b320234b13f3aca179de",
+        "the sub-task list of state": "[{'name': 'Navigate up', 'description': 'Move to the parent screen'}, {'name': 'Favorite', 'description': 'Mark the item as a favorite'}, {'name': 'More options', 'description': 'Access additional options'}, {'name': 'Cast', 'description': 'Cast the photo.'}, {'name': 'Share', 'description': 'Share the item with others'}, {'name': 'Edit', 'description': 'Edit the item'}, {'name': 'Lens', 'description': 'Open the lens feature'}, {'name': 'Delete', 'description': 'Delete the item'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\5309a201b0e8b320234b13f3aca179de.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "5309a201b0e8b320234b13f3aca179de"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment21\\scene0\\8014398972295937873.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "8014398972295937873"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "5309a201b0e8b320234b13f3aca179de",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=08bc7c8154b5c2ab796d26d767a03541(HomeActivity/ImageView-Photo take:x0:y1373))"
+            },
+            {
+                "from": "5309a201b0e8b320234b13f3aca179de",
+                "to": "8014398972295937873",
+                "event": "click<img id=13 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

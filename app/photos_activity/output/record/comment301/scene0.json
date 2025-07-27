@@ -1,0 +1,211 @@
+[
+    {
+        "round": 1,
+        "comment": "Since last week I have been unable to use the app. I always have it set to not auto back up or sync anything when I open the app.when I press do not turn on back up it just spins forever and doesn't let me into my photos at all.",
+        "scenarios": [
+            "User sets the app to not auto back up or sync anything and presses \"do not turn on back up,\" but the app spins indefinitely and does not allow access to the user's photos."
+        ],
+        "key sentence": "User sets the app to not auto back up or sync anything and presses \"do not turn on back up,\" but the app spins indefinitely and does not allow access to the user's photos.",
+        "target activity": "backup.overview.impl.BackupOverviewActivity",
+        "the function of activity": "Turn on or turn off back up.",
+        "target state": "state35",
+        "the sub-task list of state": "[{'name': 'Turn on/off back up', 'description': 'Turn on or turn off back up.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment301\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment301\\scene0\\state8.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment301\\scene0\\state35.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "state35"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment301\\scene0\\-4957513513733066141.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "-4957513513733066141"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment301\\scene0\\-59957961764782650.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-59957961764782650"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state8",
+                "event": "click(FrameLayout-Signed in as ran Jin jinran848@gmail.com.Backup is off.Account and settings.:[925,104][1080,237])"
+            },
+            {
+                "from": "state8",
+                "to": "state35",
+                "event": "click(android.widget.TextView-Backup complete:[254,832][970,893])"
+            },
+            {
+                "from": "state35",
+                "to": "-4957513513733066141",
+                "event": "click<button id=5 class =\"com.google.android.apps.photos:id/photos_backup_overview_backup_switch\">  </button>"
+            },
+            {
+                "from": "-4957513513733066141",
+                "to": "-59957961764782650",
+                "event": "click<button id=1 alt=\"Navigate up\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Since last week I have been unable to use the app. I always have it set to not auto back up or sync anything when I open the app.when I press do not turn on back up it just spins forever and doesn't let me into my photos at all.",
+        "scenarios": [
+            "User sets the app to not auto back up or sync anything and presses \"do not turn on back up,\" but the app spins indefinitely and does not allow access to the user's photos."
+        ],
+        "key sentence": "User sets the app to not auto back up or sync anything and presses \"do not turn on back up,\" but the app spins indefinitely and does not allow access to the user's photos.",
+        "target activity": "backup.overview.impl.BackupOverviewActivity",
+        "the function of activity": "Turn on or turn off back up.",
+        "target state": "state35",
+        "the sub-task list of state": "[{'name': 'Turn on/off back up', 'description': 'Turn on or turn off back up.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment301\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment301\\scene0\\state8.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment301\\scene0\\state35.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "state35"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment301\\scene0\\-4957513513733066141.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "-4957513513733066141"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment301\\scene0\\-59957961764782650.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-59957961764782650"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment301\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment301\\scene0\\state8.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment301\\scene0\\state35.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "state35"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment301\\scene0\\-5397782554457887726.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "-5397782554457887726"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment301\\scene0\\8532634254192602547.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "8532634254192602547"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment301\\scene0\\-5397782554457887726.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "-5397782554457887726"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment301\\scene0\\8532634254192602547.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "8532634254192602547"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment301\\scene0\\-5397782554457887726.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "-5397782554457887726"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment301\\scene0\\8532634254192602547.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "8532634254192602547"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state8",
+                "event": "click(FrameLayout-Signed in as ran Jin jinran848@gmail.com.Backup is off.Account and settings.:[925,104][1080,237])"
+            },
+            {
+                "from": "state8",
+                "to": "state35",
+                "event": "click(android.widget.TextView-Backup complete:[254,832][970,893])"
+            },
+            {
+                "from": "state35",
+                "to": "-4957513513733066141",
+                "event": "click<button id=5 class =\"com.google.android.apps.photos:id/photos_backup_overview_backup_switch\">  </button>"
+            },
+            {
+                "from": "-4957513513733066141",
+                "to": "-59957961764782650",
+                "event": "click<button id=1 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state8",
+                "event": "click(FrameLayout-Signed in as ran Jin jinran848@gmail.com.Backup is off.Account and settings.:[925,104][1080,237])"
+            },
+            {
+                "from": "state8",
+                "to": "state35",
+                "event": "click(android.widget.TextView-Backup complete:[254,832][970,893])"
+            },
+            {
+                "from": "state35",
+                "to": "-5397782554457887726",
+                "event": "click<button id=2 class =\"com.google.android.apps.photos:id/photos_backup_overview_settings_button\" alt=\"Backup settings\">  </button>"
+            },
+            {
+                "from": "-5397782554457887726",
+                "to": "8532634254192602547",
+                "event": "click<div id=6 class =\"com.google.android.apps.photos:id/switchWidget\">  </div>"
+            },
+            {
+                "from": "8532634254192602547",
+                "to": "-5397782554457887726",
+                "event": "click<div id=6 class =\"com.google.android.apps.photos:id/switchWidget\">  </div>"
+            },
+            {
+                "from": "-5397782554457887726",
+                "to": "8532634254192602547",
+                "event": "click<div id=6 class =\"com.google.android.apps.photos:id/switchWidget\">  </div>"
+            },
+            {
+                "from": "8532634254192602547",
+                "to": "-5397782554457887726",
+                "event": "click<div id=6 class =\"com.google.android.apps.photos:id/switchWidget\">  </div>"
+            },
+            {
+                "from": "-5397782554457887726",
+                "to": "8532634254192602547",
+                "event": "click<div id=6 class =\"com.google.android.apps.photos:id/switchWidget\">  </div>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

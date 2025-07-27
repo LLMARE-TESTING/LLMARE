@@ -1,0 +1,626 @@
+[
+    {
+        "round": 1,
+        "comment": "I'm pretty Amazed by the changes, I was requesting for a feature that lets us Capture pic from the frames and export it and they actually did it. Thanks Google. Edit. Love the movie editing feature, just wish that it could let us decide the quality of the video when saving it. Great video but very low quality when. Being exported, I wish it could let us choose till 4k.",
+        "scenarios": [
+            "Capturing a picture from the frames and exporting it.",
+            "Using the movie editing feature and saving a video, while wishing for the option to choose the video quality when exporting it, including up to 4k."
+        ],
+        "key sentence": "Using the movie editing feature and saving a video, while wishing for the option to choose the video quality when exporting it, including up to 4k.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-6908774015091784709.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6908774015091784709"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-9177059699117518865.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-9177059699117518865"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-9177059699117518865.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-9177059699117518865"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-2920850454216274806.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "-2920850454216274806"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-59910533114548552.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "-59910533114548552"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-8922641947793072846.png",
+                "activity": "com.google.android.apps.photos.movies.v3.activity.MovieEditorActivity}",
+                "state_str": "-8922641947793072846"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\8593822262868551471.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "8593822262868551471"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\3544884432261632667.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "3544884432261632667"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-6908774015091784709",
+                "event": "click<button id=12 class =\"com.google.android.apps.photos:id/action_bar_create\" alt=\"Creations\">  </button>"
+            },
+            {
+                "from": "-6908774015091784709",
+                "to": "-9177059699117518865",
+                "event": "click<p id=5 class =\"com.google.android.apps.photos:id/title\"> Highlight video,  </p>"
+            },
+            {
+                "from": "-9177059699117518865",
+                "to": "-9177059699117518865",
+                "event": "click<button id=2 class =\"com.google.android.apps.photos:id/photos_create_movie_assistivecreation_create_button\"> Preview,  </button>"
+            },
+            {
+                "from": "-9177059699117518865",
+                "to": "-2920850454216274806",
+                "event": "click<button id=8 class =\"com.google.android.apps.photos:id/photos_create_movie_assistivecreation_manual_creation\"> or select photos,  </button>"
+            },
+            {
+                "from": "-2920850454216274806",
+                "to": "-59910533114548552",
+                "event": "click<img id=9 alt=\"Video taken on Jun 4, 2024 6:22 PM\">  </img>"
+            },
+            {
+                "from": "-59910533114548552",
+                "to": "-8922641947793072846",
+                "event": "click<button id=4 class =\"com.google.android.apps.photos:id/action_button\"> Create,  </button>"
+            },
+            {
+                "from": "-8922641947793072846",
+                "to": "8593822262868551471",
+                "event": "click<button id=12 class =\"com.google.android.apps.photos:id/photos_movies_v3_smallscreen_save_button\"> Save,  </button>"
+            },
+            {
+                "from": "8593822262868551471",
+                "to": "3544884432261632667",
+                "event": "click<button id=5 class =\"android:id/button1\"> OK,  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "I'm pretty Amazed by the changes, I was requesting for a feature that lets us Capture pic from the frames and export it and they actually did it. Thanks Google. Edit. Love the movie editing feature, just wish that it could let us decide the quality of the video when saving it. Great video but very low quality when. Being exported, I wish it could let us choose till 4k.",
+        "scenarios": [
+            "Capturing a picture from the frames and exporting it.",
+            "Using the movie editing feature and saving a video, while wishing for the option to choose the video quality when exporting it, including up to 4k."
+        ],
+        "key sentence": "Using the movie editing feature and saving a video, while wishing for the option to choose the video quality when exporting it, including up to 4k.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-6908774015091784709.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6908774015091784709"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-9177059699117518865.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-9177059699117518865"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-9177059699117518865.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-9177059699117518865"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-2920850454216274806.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "-2920850454216274806"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-59910533114548552.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "-59910533114548552"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-8922641947793072846.png",
+                "activity": "com.google.android.apps.photos.movies.v3.activity.MovieEditorActivity}",
+                "state_str": "-8922641947793072846"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\8593822262868551471.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "8593822262868551471"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\3544884432261632667.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "3544884432261632667"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-6908774015091784709.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6908774015091784709"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-9177059699117518865.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-9177059699117518865"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-9177059699117518865.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-9177059699117518865"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-6908774015091784709.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6908774015091784709"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-2543133396598339467.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-2543133396598339467"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-497193114735489088.png",
+                "activity": "",
+                "state_str": "-497193114735489088"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\5331771017308540395.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "5331771017308540395"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-2543133396598339467.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-2543133396598339467"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-497193114735489088.png",
+                "activity": "",
+                "state_str": "-497193114735489088"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\80943270448623274.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "80943270448623274"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-6908774015091784709",
+                "event": "click<button id=12 class =\"com.google.android.apps.photos:id/action_bar_create\" alt=\"Creations\">  </button>"
+            },
+            {
+                "from": "-6908774015091784709",
+                "to": "-9177059699117518865",
+                "event": "click<p id=5 class =\"com.google.android.apps.photos:id/title\"> Highlight video,  </p>"
+            },
+            {
+                "from": "-9177059699117518865",
+                "to": "-9177059699117518865",
+                "event": "click<button id=2 class =\"com.google.android.apps.photos:id/photos_create_movie_assistivecreation_create_button\"> Preview,  </button>"
+            },
+            {
+                "from": "-9177059699117518865",
+                "to": "-2920850454216274806",
+                "event": "click<button id=8 class =\"com.google.android.apps.photos:id/photos_create_movie_assistivecreation_manual_creation\"> or select photos,  </button>"
+            },
+            {
+                "from": "-2920850454216274806",
+                "to": "-59910533114548552",
+                "event": "click<img id=9 alt=\"Video taken on Jun 4, 2024 6:22 PM\">  </img>"
+            },
+            {
+                "from": "-59910533114548552",
+                "to": "-8922641947793072846",
+                "event": "click<button id=4 class =\"com.google.android.apps.photos:id/action_button\"> Create,  </button>"
+            },
+            {
+                "from": "-8922641947793072846",
+                "to": "8593822262868551471",
+                "event": "click<button id=12 class =\"com.google.android.apps.photos:id/photos_movies_v3_smallscreen_save_button\"> Save,  </button>"
+            },
+            {
+                "from": "8593822262868551471",
+                "to": "3544884432261632667",
+                "event": "click<button id=5 class =\"android:id/button1\"> OK,  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-6908774015091784709",
+                "event": "click<button id=13 class =\"com.google.android.apps.photos:id/action_bar_create\" alt=\"Creations\">  </button>"
+            },
+            {
+                "from": "-6908774015091784709",
+                "to": "-9177059699117518865",
+                "event": "click<p id=5 class =\"com.google.android.apps.photos:id/title\"> Highlight video,  </p>"
+            },
+            {
+                "from": "-9177059699117518865",
+                "to": "-9177059699117518865",
+                "event": "click<button id=2 class =\"com.google.android.apps.photos:id/photos_create_movie_assistivecreation_create_button\"> Preview,  </button>"
+            },
+            {
+                "from": "-9177059699117518865",
+                "to": "-6908774015091784709",
+                "event": "click<button id=0 alt=\"Dismiss\">  </button>"
+            },
+            {
+                "from": "-6908774015091784709",
+                "to": "-2543133396598339467",
+                "event": "click<img id=2 class =\"com.google.android.apps.photos:id/icon\">  </img>"
+            },
+            {
+                "from": "-2543133396598339467",
+                "to": "-497193114735489088",
+                "event": "click<img id=7 class =\"com.google.android.apps.photos:id/photos_overflow_icon\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-497193114735489088",
+                "to": "5331771017308540395",
+                "event": "click<p id=3 class =\"com.google.android.apps.photos:id/action_bar_overflow_menu_item_title\"> Options,  </p>"
+            },
+            {
+                "from": "5331771017308540395",
+                "to": -2543133396598339467,
+                "event": "back"
+            },
+            {
+                "from": -2543133396598339467,
+                "to": "-497193114735489088",
+                "event": "click<img id=7 class =\"com.google.android.apps.photos:id/photos_overflow_icon\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-497193114735489088",
+                "to": "80943270448623274",
+                "event": "click<p id=1 class =\"com.google.android.apps.photos:id/action_bar_overflow_menu_item_title\"> Edit,  </p>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 3,
+        "comment": "I'm pretty Amazed by the changes, I was requesting for a feature that lets us Capture pic from the frames and export it and they actually did it. Thanks Google. Edit. Love the movie editing feature, just wish that it could let us decide the quality of the video when saving it. Great video but very low quality when. Being exported, I wish it could let us choose till 4k.",
+        "scenarios": [
+            "Capturing a picture from the frames and exporting it.",
+            "Using the movie editing feature and saving a video, while wishing for the option to choose the video quality when exporting it, including up to 4k."
+        ],
+        "key sentence": "Using the movie editing feature and saving a video, while wishing for the option to choose the video quality when exporting it, including up to 4k.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-6908774015091784709.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6908774015091784709"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-9177059699117518865.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-9177059699117518865"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-9177059699117518865.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-9177059699117518865"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-2920850454216274806.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "-2920850454216274806"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-59910533114548552.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "-59910533114548552"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-8922641947793072846.png",
+                "activity": "com.google.android.apps.photos.movies.v3.activity.MovieEditorActivity}",
+                "state_str": "-8922641947793072846"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\8593822262868551471.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "8593822262868551471"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\3544884432261632667.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "3544884432261632667"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-6908774015091784709.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6908774015091784709"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-9177059699117518865.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-9177059699117518865"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-9177059699117518865.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-9177059699117518865"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-6908774015091784709.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6908774015091784709"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-2543133396598339467.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-2543133396598339467"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-497193114735489088.png",
+                "activity": "",
+                "state_str": "-497193114735489088"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\5331771017308540395.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "5331771017308540395"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-2543133396598339467.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-2543133396598339467"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-497193114735489088.png",
+                "activity": "",
+                "state_str": "-497193114735489088"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\80943270448623274.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "80943270448623274"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-6908774015091784709.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6908774015091784709"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-9177059699117518865.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-9177059699117518865"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-9177059699117518865.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-9177059699117518865"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-6908774015091784709.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-6908774015091784709"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-2543133396598339467.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-2543133396598339467"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-497193114735489088.png",
+                "activity": "",
+                "state_str": "-497193114735489088"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\80943270448623274.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "80943270448623274"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-2698104724988194560.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-2698104724988194560"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\-497193114735489088.png",
+                "activity": "",
+                "state_str": "-497193114735489088"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment22\\scene0\\scene1\\80943270448623274.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "80943270448623274"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-6908774015091784709",
+                "event": "click<button id=12 class =\"com.google.android.apps.photos:id/action_bar_create\" alt=\"Creations\">  </button>"
+            },
+            {
+                "from": "-6908774015091784709",
+                "to": "-9177059699117518865",
+                "event": "click<p id=5 class =\"com.google.android.apps.photos:id/title\"> Highlight video,  </p>"
+            },
+            {
+                "from": "-9177059699117518865",
+                "to": "-9177059699117518865",
+                "event": "click<button id=2 class =\"com.google.android.apps.photos:id/photos_create_movie_assistivecreation_create_button\"> Preview,  </button>"
+            },
+            {
+                "from": "-9177059699117518865",
+                "to": "-2920850454216274806",
+                "event": "click<button id=8 class =\"com.google.android.apps.photos:id/photos_create_movie_assistivecreation_manual_creation\"> or select photos,  </button>"
+            },
+            {
+                "from": "-2920850454216274806",
+                "to": "-59910533114548552",
+                "event": "click<img id=9 alt=\"Video taken on Jun 4, 2024 6:22 PM\">  </img>"
+            },
+            {
+                "from": "-59910533114548552",
+                "to": "-8922641947793072846",
+                "event": "click<button id=4 class =\"com.google.android.apps.photos:id/action_button\"> Create,  </button>"
+            },
+            {
+                "from": "-8922641947793072846",
+                "to": "8593822262868551471",
+                "event": "click<button id=12 class =\"com.google.android.apps.photos:id/photos_movies_v3_smallscreen_save_button\"> Save,  </button>"
+            },
+            {
+                "from": "8593822262868551471",
+                "to": "3544884432261632667",
+                "event": "click<button id=5 class =\"android:id/button1\"> OK,  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-6908774015091784709",
+                "event": "click<button id=13 class =\"com.google.android.apps.photos:id/action_bar_create\" alt=\"Creations\">  </button>"
+            },
+            {
+                "from": "-6908774015091784709",
+                "to": "-9177059699117518865",
+                "event": "click<p id=5 class =\"com.google.android.apps.photos:id/title\"> Highlight video,  </p>"
+            },
+            {
+                "from": "-9177059699117518865",
+                "to": "-9177059699117518865",
+                "event": "click<button id=2 class =\"com.google.android.apps.photos:id/photos_create_movie_assistivecreation_create_button\"> Preview,  </button>"
+            },
+            {
+                "from": "-9177059699117518865",
+                "to": "-6908774015091784709",
+                "event": "click<button id=0 alt=\"Dismiss\">  </button>"
+            },
+            {
+                "from": "-6908774015091784709",
+                "to": "-2543133396598339467",
+                "event": "click<img id=2 class =\"com.google.android.apps.photos:id/icon\">  </img>"
+            },
+            {
+                "from": "-2543133396598339467",
+                "to": "-497193114735489088",
+                "event": "click<img id=7 class =\"com.google.android.apps.photos:id/photos_overflow_icon\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-497193114735489088",
+                "to": "5331771017308540395",
+                "event": "click<p id=3 class =\"com.google.android.apps.photos:id/action_bar_overflow_menu_item_title\"> Options,  </p>"
+            },
+            {
+                "from": "5331771017308540395",
+                "to": -2543133396598339467,
+                "event": "back"
+            },
+            {
+                "from": -2543133396598339467,
+                "to": "-497193114735489088",
+                "event": "click<img id=7 class =\"com.google.android.apps.photos:id/photos_overflow_icon\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-497193114735489088",
+                "to": "80943270448623274",
+                "event": "click<p id=1 class =\"com.google.android.apps.photos:id/action_bar_overflow_menu_item_title\"> Edit,  </p>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-6908774015091784709",
+                "event": "click<button id=13 class =\"com.google.android.apps.photos:id/action_bar_create\" alt=\"Creations\">  </button>"
+            },
+            {
+                "from": "-6908774015091784709",
+                "to": "-9177059699117518865",
+                "event": "click<p id=5 class =\"com.google.android.apps.photos:id/title\"> Highlight video,  </p>"
+            },
+            {
+                "from": "-9177059699117518865",
+                "to": "-9177059699117518865",
+                "event": "click<button id=2 class =\"com.google.android.apps.photos:id/photos_create_movie_assistivecreation_create_button\"> Preview,  </button>"
+            },
+            {
+                "from": "-9177059699117518865",
+                "to": "-6908774015091784709",
+                "event": "click<button id=0 alt=\"Dismiss\">  </button>"
+            },
+            {
+                "from": "-6908774015091784709",
+                "to": "-2543133396598339467",
+                "event": "click<img id=2 class =\"com.google.android.apps.photos:id/icon\">  </img>"
+            },
+            {
+                "from": "-2543133396598339467",
+                "to": "-497193114735489088",
+                "event": "click<img id=7 class =\"com.google.android.apps.photos:id/photos_overflow_icon\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-497193114735489088",
+                "to": "80943270448623274",
+                "event": "click<p id=1 class =\"com.google.android.apps.photos:id/action_bar_overflow_menu_item_title\"> Edit,  </p>"
+            },
+            {
+                "from": "80943270448623274",
+                "to": "-2698104724988194560",
+                "event": "click<img id=14 class =\"com.google.android.apps.photos:id/action_mode_close_button\" alt=\"done and save\">  </img>"
+            },
+            {
+                "from": "-2698104724988194560",
+                "to": "-497193114735489088",
+                "event": "click<img id=6 class =\"com.google.android.apps.photos:id/photos_overflow_icon\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-497193114735489088",
+                "to": "80943270448623274",
+                "event": "click<p id=1 class =\"com.google.android.apps.photos:id/action_bar_overflow_menu_item_title\"> Edit,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

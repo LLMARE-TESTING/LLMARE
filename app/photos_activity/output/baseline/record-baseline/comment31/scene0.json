@@ -1,0 +1,126 @@
+[
+    {
+        "round": 30,
+        "comment": "Recently I have observed that app is not uploading video and photos in background on both wifi and on mobile data. Even App stop upload if screen is timeout. Kindly fix this issue..",
+        "scenarios": [
+            "The app does not upload videos and photos in the background when connected to Wi-Fi.",
+            "The app does not upload videos and photos in the background when connected to mobile data.",
+            "The app stops uploading videos and photos if the screen times out."
+        ],
+        "key sentence": "The app does not upload videos and photos in the background when connected to Wi-Fi.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment31\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment31\\scene0\\9196250197343569419.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "9196250197343569419"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment31\\scene0\\396595707160318670.png",
+                "activity": "com.google.android.apps.photos.settings.SettingsActivityV2}",
+                "state_str": "396595707160318670"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment31\\scene0\\7671923386368162683.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "7671923386368162683"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment31\\scene0\\6025037651609903172.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "6025037651609903172"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment31\\scene0\\1470610623920062707.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "1470610623920062707"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment31\\scene0\\6622220520382201908.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "6622220520382201908"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment31\\scene0\\7362584369632160913.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "7362584369632160913"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment31\\scene0\\2415888909265222988.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "2415888909265222988"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment31\\scene0\\-6255079969093751847.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "-6255079969093751847"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment31\\scene0\\-1494619276237304904.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "-1494619276237304904"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "9196250197343569419",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "9196250197343569419",
+                "to": "396595707160318670",
+                "event": "click<p id=20 class =\"com.google.android.apps.photos:id/og_text_card_title\"> Photos settings,  </p>"
+            },
+            {
+                "from": "396595707160318670",
+                "to": "7671923386368162683",
+                "event": "click<p id=2 class =\"com.google.android.apps.photos:id/backup_button_title\"> Backup,  </p>"
+            },
+            {
+                "from": "7671923386368162683",
+                "to": "6025037651609903172",
+                "event": "click<div id=6 class =\"com.google.android.apps.photos:id/switchWidget\">  </div>"
+            },
+            {
+                "from": "6025037651609903172",
+                "to": "1470610623920062707",
+                "event": "click<button id=3 class =\"com.google.android.apps.photos:id/photos_backup_settings_help\" alt=\"Help\">  </button>"
+            },
+            {
+                "from": "1470610623920062707",
+                "to": "6622220520382201908",
+                "event": "click<button id=9 alt=\"Learn how to fix backup issues\">  </button>"
+            },
+            {
+                "from": "6622220520382201908",
+                "to": "7362584369632160913",
+                "event": "click<button id=16> Android,  </button>"
+            },
+            {
+                "from": "7362584369632160913",
+                "to": "2415888909265222988",
+                "event": "click<button id=14 class =\"backup_prereqs\"> What you need to back up photos &amp; videos,  </button>"
+            },
+            {
+                "from": "2415888909265222988",
+                "to": "-6255079969093751847",
+                "event": "click<p id=23> Good internet connection.,  </p>"
+            },
+            {
+                "from": "-6255079969093751847",
+                "to": "-1494619276237304904",
+                "event": "click<button id=14 class =\"backup_prereqs\"> What you need to back up photos &amp; videos,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

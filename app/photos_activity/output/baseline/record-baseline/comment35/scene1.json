@@ -1,0 +1,686 @@
+[
+    {
+        "round": 1,
+        "comment": "I loved this app. It was smart, flexible and straightforward. The search functions were great and useful. But every update Google has applied to this app has made it dumber less intuitive, and more frustrating to use. The album sharing system has always been terrible, but most recently the side navigation window was removed and all your albums are now stuffed into a sensless 'library' section. Why move away from standard, utility oriented navigation to striped, unintuitive ones?",
+        "scenarios": [
+            "Album sharing system: The user mentions that the album sharing system has always been terrible, suggesting an issue with the feature that needs to be reproduced to identify the specific problems.\n",
+            "Side navigation removal: The user describes a scenario where the side navigation window was removed and as a result, all albums are now located in a 'library' section. This scenario involves evaluating the impact of removing the side navigation and its replacement with the 'library' section."
+        ],
+        "key sentence": "Side navigation removal: The user describes a scenario where the side navigation window was removed and as a result, all albums are now located in a 'library' section. This scenario involves evaluating the impact of removing the side navigation and its replacement with the 'library' section.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "2694856776442896546",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2183650899420068888",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "2183650899420068888",
+                "to": "2183650899420068888",
+                "event": "click<p id=16> Albums,  </p>"
+            },
+            {
+                "from": "2183650899420068888",
+                "to": "2694856776442896546",
+                "event": "click<div id=15 alt=\"Navigate up\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2694856776442896546",
+                "event": "click<div id=1 class =\"com.google.android.apps.photos:id/toolbar_parent\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2694856776442896546",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/drawer_layout\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2694856776442896546",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2694856776442896546",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/drawer_layout\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2694856776442896546",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2183650899420068888",
+                "event": "click<p id=8> Albums,  </p>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "I loved this app. It was smart, flexible and straightforward. The search functions were great and useful. But every update Google has applied to this app has made it dumber less intuitive, and more frustrating to use. The album sharing system has always been terrible, but most recently the side navigation window was removed and all your albums are now stuffed into a sensless 'library' section. Why move away from standard, utility oriented navigation to striped, unintuitive ones?",
+        "scenarios": [
+            "Album sharing system: The user mentions that the album sharing system has always been terrible, suggesting an issue with the feature that needs to be reproduced to identify the specific problems.\n",
+            "Side navigation removal: The user describes a scenario where the side navigation window was removed and as a result, all albums are now located in a 'library' section. This scenario involves evaluating the impact of removing the side navigation and its replacement with the 'library' section."
+        ],
+        "key sentence": "Side navigation removal: The user describes a scenario where the side navigation window was removed and as a result, all albums are now located in a 'library' section. This scenario involves evaluating the impact of removing the side navigation and its replacement with the 'library' section.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\-4025089046977288430.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-4025089046977288430"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "2694856776442896546",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2183650899420068888",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "2183650899420068888",
+                "to": "2183650899420068888",
+                "event": "click<p id=16> Albums,  </p>"
+            },
+            {
+                "from": "2183650899420068888",
+                "to": "2694856776442896546",
+                "event": "click<div id=15 alt=\"Navigate up\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2694856776442896546",
+                "event": "click<div id=1 class =\"com.google.android.apps.photos:id/toolbar_parent\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2694856776442896546",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/drawer_layout\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2694856776442896546",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2694856776442896546",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/drawer_layout\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2694856776442896546",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2183650899420068888",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "2694856776442896546",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2183650899420068888",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "2183650899420068888",
+                "to": "2183650899420068888",
+                "event": "scroll down"
+            },
+            {
+                "from": "2183650899420068888",
+                "to": "2694856776442896546",
+                "event": "click<div id=15 alt=\"Navigate up\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "-4025089046977288430",
+                "event": "click<p id=7> On this device,  </p>"
+            },
+            {
+                "from": "-4025089046977288430",
+                "to": 2694856776442896546,
+                "event": "back"
+            },
+            {
+                "from": 2694856776442896546,
+                "to": "2183650899420068888",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "2183650899420068888",
+                "to": 2694856776442896546,
+                "event": "back"
+            },
+            {
+                "from": 2694856776442896546,
+                "to": "2694856776442896546",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/drawer_layout\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2183650899420068888",
+                "event": "click<p id=8> Albums,  </p>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 3,
+        "comment": "I loved this app. It was smart, flexible and straightforward. The search functions were great and useful. But every update Google has applied to this app has made it dumber less intuitive, and more frustrating to use. The album sharing system has always been terrible, but most recently the side navigation window was removed and all your albums are now stuffed into a sensless 'library' section. Why move away from standard, utility oriented navigation to striped, unintuitive ones?",
+        "scenarios": [
+            "Album sharing system: The user mentions that the album sharing system has always been terrible, suggesting an issue with the feature that needs to be reproduced to identify the specific problems.\n",
+            "Side navigation removal: The user describes a scenario where the side navigation window was removed and as a result, all albums are now located in a 'library' section. This scenario involves evaluating the impact of removing the side navigation and its replacement with the 'library' section."
+        ],
+        "key sentence": "Side navigation removal: The user describes a scenario where the side navigation window was removed and as a result, all albums are now located in a 'library' section. This scenario involves evaluating the impact of removing the side navigation and its replacement with the 'library' section.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\-4025089046977288430.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-4025089046977288430"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\-4025089046977288430.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-4025089046977288430"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment35\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "2694856776442896546",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2183650899420068888",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "2183650899420068888",
+                "to": "2183650899420068888",
+                "event": "click<p id=16> Albums,  </p>"
+            },
+            {
+                "from": "2183650899420068888",
+                "to": "2694856776442896546",
+                "event": "click<div id=15 alt=\"Navigate up\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2694856776442896546",
+                "event": "click<div id=1 class =\"com.google.android.apps.photos:id/toolbar_parent\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2694856776442896546",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/drawer_layout\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2694856776442896546",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2694856776442896546",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/drawer_layout\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2694856776442896546",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2183650899420068888",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "2694856776442896546",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2183650899420068888",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "2183650899420068888",
+                "to": "2183650899420068888",
+                "event": "scroll down"
+            },
+            {
+                "from": "2183650899420068888",
+                "to": "2694856776442896546",
+                "event": "click<div id=15 alt=\"Navigate up\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "-4025089046977288430",
+                "event": "click<p id=7> On this device,  </p>"
+            },
+            {
+                "from": "-4025089046977288430",
+                "to": 2694856776442896546,
+                "event": "back"
+            },
+            {
+                "from": 2694856776442896546,
+                "to": "2183650899420068888",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "2183650899420068888",
+                "to": 2694856776442896546,
+                "event": "back"
+            },
+            {
+                "from": 2694856776442896546,
+                "to": "2694856776442896546",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/drawer_layout\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2183650899420068888",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "2694856776442896546",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2183650899420068888",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "2183650899420068888",
+                "to": "2183650899420068888",
+                "event": "scroll down"
+            },
+            {
+                "from": "2183650899420068888",
+                "to": "2183650899420068888",
+                "event": "scroll down"
+            },
+            {
+                "from": "2183650899420068888",
+                "to": "2694856776442896546",
+                "event": "click<div id=15 alt=\"Navigate up\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "-4025089046977288430",
+                "event": "click<p id=7> On this device,  </p>"
+            },
+            {
+                "from": "-4025089046977288430",
+                "to": "2694856776442896546",
+                "event": "click<div id=7 alt=\"Navigate up\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2694856776442896546",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/drawer_layout\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2694856776442896546",
+                "event": "click<div id=1 class =\"com.google.android.apps.photos:id/toolbar_parent\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2694856776442896546",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

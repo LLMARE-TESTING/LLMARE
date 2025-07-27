@@ -1,0 +1,124 @@
+[
+    {
+        "round": 170,
+        "comment": "You need to have a different password option for locked folder in photos. Its shouldn't be same as lock screen password. 5 stars then.",
+        "scenarios": [
+            "The user wants to set a different password for the locked folder in the photos app, which should not be the same as the lock screen password."
+        ],
+        "key sentence": "The user wants to set a different password for the locked folder in the photos app, which should not be the same as the lock screen password.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.android.providers.media.PermissionActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\2985930670869663032.png",
+                "activity": "com.android.providers.media.PermissionActivity}",
+                "state_str": "2985930670869663032"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-4090253278249830783.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-4090253278249830783"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-4090253278249830783.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-4090253278249830783"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3316138906996555009.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-3316138906996555009"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-7303565615436936670.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-7303565615436936670"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\6390045834250432958.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "6390045834250432958"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-2381195042246234349.png",
+                "activity": "com.google.android.apps.photos.settings.SettingsActivityV2}",
+                "state_str": "-2381195042246234349"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-5651185811485331883.png",
+                "activity": "com.google.android.apps.photos.settings.CustomizationActivity}",
+                "state_str": "-5651185811485331883"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-5651185811485331883.png",
+                "activity": "com.google.android.apps.photos.settings.CustomizationActivity}",
+                "state_str": "-5651185811485331883"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-5651185811485331883.png",
+                "activity": "com.google.android.apps.photos.settings.CustomizationActivity}",
+                "state_str": "-5651185811485331883"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": 2985930670869663032,
+                "event": "back"
+            },
+            {
+                "from": 2985930670869663032,
+                "to": "-4090253278249830783",
+                "event": "click<button id=6 class =\"android:id/button1\"> Allow,  </button>"
+            },
+            {
+                "from": "-4090253278249830783",
+                "to": "-4090253278249830783",
+                "event": "click<button id=1 alt=\"Apps list\">  </button>"
+            },
+            {
+                "from": "-4090253278249830783",
+                "to": "-3316138906996555009",
+                "event": "click<button id=10 alt=\"Folder: Google, 2 items\">  </button>"
+            },
+            {
+                "from": "-3316138906996555009",
+                "to": "-7303565615436936670",
+                "event": "click<button id=2> Photos,  </button>"
+            },
+            {
+                "from": "-7303565615436936670",
+                "to": "6390045834250432958",
+                "event": "click<button id=14 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Backup is off.&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "6390045834250432958",
+                "to": "-2381195042246234349",
+                "event": "click<p id=21 class =\"com.google.android.apps.photos:id/og_text_card_title\"> Photos settings,  </p>"
+            },
+            {
+                "from": "-2381195042246234349",
+                "to": "-5651185811485331883",
+                "event": "click<button id=5 class =\"com.google.android.apps.photos:id/customization_button\"> Preferences,  </button>"
+            },
+            {
+                "from": "-5651185811485331883",
+                "to": "-5651185811485331883",
+                "event": "scroll down"
+            },
+            {
+                "from": "-5651185811485331883",
+                "to": "-5651185811485331883",
+                "event": "scroll down"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,75 @@
+[
+    {
+        "round": 1,
+        "comment": "10/19/21 Addition to my review, the archive feature is nice, but it would be great to be able to lock archived photos. With this last update to fix save changes feature, now, after editing when you hit done, it comes up instead of save, it says save copy... Ok, I don't want to save copy, that used to be a feature you could choose, and I did occasionally. No, your only choice is \" save copy\" ... Ok, but it doesn't work. It says \" unable to save changes\" and it spins and spins!!!!!!!",
+        "scenarios": [
+            "After editing a photo, when the user hits \"done,\" the app does not allow saving changes directly and instead provides a \"save copy\" option. However, selecting \"save copy\" results in an error message \"unable to save changes,\" and the app gets stuck in a loading state.\n",
+            "The user expresses a desire to be able to lock archived photos within the archive feature, indicating this as a potential improvement."
+        ],
+        "key sentence": "After editing a photo, when the user hits \"done,\" the app does not allow saving changes directly and instead provides a \"save copy\" option. However, selecting \"save copy\" results in an error message \"unable to save changes,\" and the app gets stuck in a loading state.\n",
+        "target activity": ".photoeditor.fragments.activity.PhotoEditorActivity",
+        "the function of activity": "An image editing tool with functions to search contacts, open menus, apply blur, remove parts, edit sky, switch tabs, cancel, save, adjust, add text, rotate, resize, adjust brightness, apply filters, undo, and redo.",
+        "target state": "state11",
+        "the sub-task list of state": "[{'name': 'Blur', 'description': 'Apply blur effect to an image'}, {'name': 'Magic eraser', 'description': 'Remove specific parts of an image'}, {'name': 'Sky', 'description': 'Edit the sky in an image'}, {'name': 'Cancel', 'description': 'Cancel the current operation'}, {'name': 'Save copy', 'description': 'Save a copy of the edited image'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment2\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment2\\scene0\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment2\\scene0\\state2.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment2\\scene0\\state10.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment2\\scene0\\state11.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment2\\scene0\\-3696426429030010902.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-3696426429030010902"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "state2",
+                "event": "click(ImageView-Edit:[337,1993][491,2148])"
+            },
+            {
+                "from": "state2",
+                "to": "state10",
+                "event": "click(TextView-Crop{Change to crop tab}:[740,1868][952,1966])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(TextView-Tools{Change to tools tab}:[646,1868][864,1966])"
+            },
+            {
+                "from": "state11",
+                "to": "-3696426429030010902",
+                "event": "click<button id=16 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_save\"> Save,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,143 @@
+[
+    {
+        "round": 1,
+        "comment": "The \"Albums\" feature is difficult and tedious to use, and I can't figure how to make a folder. Also, it's pretty strange and inconvenient that you need wi-fi to access your photos and look at them. However, I like the \"Stylized Photo\" and \"Animation Features,\" those bump it up a star. Overall, this app needs some huge improvements.",
+        "scenarios": [
+            "The \"Albums\" feature is difficult and tedious to use, and the user can't figure out how to make a folder.  ",
+            "It's inconvenient that the user needs wi-fi to access and look at their photos."
+        ],
+        "key sentence": "The \"Albums\" feature is difficult and tedious to use, and the user can't figure out how to make a folder.  ",
+        "target activity": ".collectionstab.collectionsgridpage.CollectionsGridPageActivity",
+        "the function of activity": "View all albums in a certain order, such as last modified, album title or most recent photo.",
+        "target state": "state34",
+        "the sub-task list of state": "[{'name': 'View Album', 'description': 'View your album'}, {'name': 'Sort Album', 'description': 'Sort Album by last modified, album title or most recent photo.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\e7293860b66c73e5472ed81051e992dd.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "e7293860b66c73e5472ed81051e992dd"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\state34.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "state34"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\3958272204737269705.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "3958272204737269705"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "e7293860b66c73e5472ed81051e992dd",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=509b7bbe0ba0576daba0dd86d2183f27(HomeActivity/Button-Library:x540:y1928))"
+            },
+            {
+                "from": "e7293860b66c73e5472ed81051e992dd",
+                "to": "state34",
+                "event": "click(android.view.View-com.google.android.apps.photos:[562,614][1036,1187])"
+            },
+            {
+                "from": "state34",
+                "to": "3958272204737269705",
+                "event": "click<div id=15 alt=\"Create album\">  </div>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "The \"Albums\" feature is difficult and tedious to use, and I can't figure how to make a folder. Also, it's pretty strange and inconvenient that you need wi-fi to access your photos and look at them. However, I like the \"Stylized Photo\" and \"Animation Features,\" those bump it up a star. Overall, this app needs some huge improvements.",
+        "scenarios": [
+            "The \"Albums\" feature is difficult and tedious to use, and the user can't figure out how to make a folder.  ",
+            "It's inconvenient that the user needs wi-fi to access and look at their photos."
+        ],
+        "key sentence": "The \"Albums\" feature is difficult and tedious to use, and the user can't figure out how to make a folder.  ",
+        "target activity": ".collectionstab.collectionsgridpage.CollectionsGridPageActivity",
+        "the function of activity": "View all albums in a certain order, such as last modified, album title or most recent photo.",
+        "target state": "state34",
+        "the sub-task list of state": "[{'name': 'View Album', 'description': 'View your album'}, {'name': 'Sort Album', 'description': 'Sort Album by last modified, album title or most recent photo.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\e7293860b66c73e5472ed81051e992dd.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "e7293860b66c73e5472ed81051e992dd"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\state34.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "state34"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\3958272204737269705.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "3958272204737269705"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\e7293860b66c73e5472ed81051e992dd.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "e7293860b66c73e5472ed81051e992dd"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\state34.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "state34"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\3958272204737269705.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "3958272204737269705"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "e7293860b66c73e5472ed81051e992dd",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=509b7bbe0ba0576daba0dd86d2183f27(HomeActivity/Button-Library:x540:y1928))"
+            },
+            {
+                "from": "e7293860b66c73e5472ed81051e992dd",
+                "to": "state34",
+                "event": "click(android.view.View-com.google.android.apps.photos:[562,614][1036,1187])"
+            },
+            {
+                "from": "state34",
+                "to": "3958272204737269705",
+                "event": "click<div id=15 alt=\"Create album\">  </div>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "e7293860b66c73e5472ed81051e992dd",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=509b7bbe0ba0576daba0dd86d2183f27(HomeActivity/Button-Library:x540:y1928))"
+            },
+            {
+                "from": "e7293860b66c73e5472ed81051e992dd",
+                "to": "state34",
+                "event": "click(android.view.View-com.google.android.apps.photos:[562,614][1036,1187])"
+            },
+            {
+                "from": "state34",
+                "to": "3958272204737269705",
+                "event": "click<div id=15 alt=\"Create album\">  </div>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

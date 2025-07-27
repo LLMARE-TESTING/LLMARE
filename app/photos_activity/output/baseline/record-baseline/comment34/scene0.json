@@ -1,0 +1,355 @@
+[
+    {
+        "round": 1,
+        "comment": "Why is it that Google took away the most useful feature of this app from Android but left it for Apple? (i.e. the cloud icon in the upper corner of the photo thumbnails to let you know if a photo is backed up or not). It made managing your backed up photos so much easier! Now you have to guess, unless you choose to have everything backed up to your account (including all your useless and junk photos). At least make it an option to turn on or off! This isn't rocket science Google!",
+        "scenarios": [
+            "Check for the presence of the cloud icon in the upper corner of photo thumbnails to determine if photos are backed up.",
+            "Manage backed up photos by using the cloud icon for easy identification of which photos are backed up or not.",
+            "(Proposed feature) Turn on or off the option to display the cloud icon in the upper corner of photo thumbnails to manage photo backups."
+        ],
+        "key sentence": "Check for the presence of the cloud icon in the upper corner of photo thumbnails to determine if photos are backed up.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\5693472273937026663.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "5693472273937026663"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\7131528509153571450.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7131528509153571450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\-5276070993402728221.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5276070993402728221"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\-7572066244758107966.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-7572066244758107966"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\-7572066244758107966.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-7572066244758107966"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\321392711120870997.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "321392711120870997"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\321392711120870997.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "321392711120870997"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\-7572066244758107966.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-7572066244758107966"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\7131528509153571450.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7131528509153571450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\7131528509153571450.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7131528509153571450"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "5693472273937026663",
+                "event": "click<div id=2 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            },
+            {
+                "from": "5693472273937026663",
+                "to": 7131528509153571450,
+                "event": "back"
+            },
+            {
+                "from": 7131528509153571450,
+                "to": "-5276070993402728221",
+                "event": "click<img id=4 class =\"com.google.android.apps.photos:id/end_checkmark\">  </img>"
+            },
+            {
+                "from": "-5276070993402728221",
+                "to": "-7572066244758107966",
+                "event": "click<img id=6 alt=\"Movie taken on Sep 22, 2024 1:00 AM\">  </img>"
+            },
+            {
+                "from": "-7572066244758107966",
+                "to": "-7572066244758107966",
+                "event": "click<div id=2 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            },
+            {
+                "from": "-7572066244758107966",
+                "to": "321392711120870997",
+                "event": "click<img id=6 alt=\"Movie taken on Sep 22, 2024 1:00 AM\">  </img>"
+            },
+            {
+                "from": "321392711120870997",
+                "to": "321392711120870997",
+                "event": "click<div id=2 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            },
+            {
+                "from": "321392711120870997",
+                "to": "-7572066244758107966",
+                "event": "click<img id=6 alt=\"Movie taken on Sep 22, 2024 1:00 AM\">  </img>"
+            },
+            {
+                "from": "-7572066244758107966",
+                "to": "7131528509153571450",
+                "event": "click<img id=7 alt=\"Creation taken on Sep 22, 2024 12:40 AM\">  </img>"
+            },
+            {
+                "from": "7131528509153571450",
+                "to": "7131528509153571450",
+                "event": "click<button id=16 class =\"com.google.android.apps.photos:id/tab_photos\"> Photos,  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 3,
+        "comment": "Why is it that Google took away the most useful feature of this app from Android but left it for Apple? (i.e. the cloud icon in the upper corner of the photo thumbnails to let you know if a photo is backed up or not). It made managing your backed up photos so much easier! Now you have to guess, unless you choose to have everything backed up to your account (including all your useless and junk photos). At least make it an option to turn on or off! This isn't rocket science Google!",
+        "scenarios": [
+            "Check for the presence of the cloud icon in the upper corner of photo thumbnails to determine if photos are backed up.",
+            "Manage backed up photos by using the cloud icon for easy identification of which photos are backed up or not.",
+            "(Proposed feature) Turn on or off the option to display the cloud icon in the upper corner of photo thumbnails to manage photo backups."
+        ],
+        "key sentence": "Check for the presence of the cloud icon in the upper corner of photo thumbnails to determine if photos are backed up.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\5693472273937026663.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "5693472273937026663"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\7131528509153571450.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7131528509153571450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\-5276070993402728221.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5276070993402728221"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\-7572066244758107966.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-7572066244758107966"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\-7572066244758107966.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-7572066244758107966"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\321392711120870997.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "321392711120870997"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\321392711120870997.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "321392711120870997"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\-7572066244758107966.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-7572066244758107966"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\7131528509153571450.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7131528509153571450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\7131528509153571450.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7131528509153571450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\7131528509153571450.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7131528509153571450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\5693472273937026663.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "5693472273937026663"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\7131528509153571450.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7131528509153571450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\5693472273937026663.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "5693472273937026663"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\7131528509153571450.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7131528509153571450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\-9190231425925872530.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-9190231425925872530"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\7131528509153571450.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7131528509153571450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\5693472273937026663.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "5693472273937026663"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\7131528509153571450.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7131528509153571450"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment34\\scene0\\5693472273937026663.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "5693472273937026663"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "5693472273937026663",
+                "event": "click<div id=2 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            },
+            {
+                "from": "5693472273937026663",
+                "to": 7131528509153571450,
+                "event": "back"
+            },
+            {
+                "from": 7131528509153571450,
+                "to": "-5276070993402728221",
+                "event": "click<img id=4 class =\"com.google.android.apps.photos:id/end_checkmark\">  </img>"
+            },
+            {
+                "from": "-5276070993402728221",
+                "to": "-7572066244758107966",
+                "event": "click<img id=6 alt=\"Movie taken on Sep 22, 2024 1:00 AM\">  </img>"
+            },
+            {
+                "from": "-7572066244758107966",
+                "to": "-7572066244758107966",
+                "event": "click<div id=2 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            },
+            {
+                "from": "-7572066244758107966",
+                "to": "321392711120870997",
+                "event": "click<img id=6 alt=\"Movie taken on Sep 22, 2024 1:00 AM\">  </img>"
+            },
+            {
+                "from": "321392711120870997",
+                "to": "321392711120870997",
+                "event": "click<div id=2 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            },
+            {
+                "from": "321392711120870997",
+                "to": "-7572066244758107966",
+                "event": "click<img id=6 alt=\"Movie taken on Sep 22, 2024 1:00 AM\">  </img>"
+            },
+            {
+                "from": "-7572066244758107966",
+                "to": "7131528509153571450",
+                "event": "click<img id=7 alt=\"Creation taken on Sep 22, 2024 12:40 AM\">  </img>"
+            },
+            {
+                "from": "7131528509153571450",
+                "to": "7131528509153571450",
+                "event": "click<button id=16 class =\"com.google.android.apps.photos:id/tab_photos\"> Photos,  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "7131528509153571450",
+                "event": "scroll down"
+            },
+            {
+                "from": "7131528509153571450",
+                "to": "5693472273937026663",
+                "event": "click<div id=2 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            },
+            {
+                "from": "5693472273937026663",
+                "to": 7131528509153571450,
+                "event": "back"
+            },
+            {
+                "from": 7131528509153571450,
+                "to": "5693472273937026663",
+                "event": "click<div id=2 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            },
+            {
+                "from": "5693472273937026663",
+                "to": 7131528509153571450,
+                "event": "back"
+            },
+            {
+                "from": 7131528509153571450,
+                "to": "-9190231425925872530",
+                "event": "click<img id=6 alt=\"Movie taken on Sep 22, 2024 1:00 AM\">  </img>"
+            },
+            {
+                "from": "-9190231425925872530",
+                "to": 7131528509153571450,
+                "event": "back"
+            },
+            {
+                "from": 7131528509153571450,
+                "to": "5693472273937026663",
+                "event": "click<div id=2 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            },
+            {
+                "from": "5693472273937026663",
+                "to": 7131528509153571450,
+                "event": "back"
+            },
+            {
+                "from": 7131528509153571450,
+                "to": "5693472273937026663",
+                "event": "click<div id=2 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

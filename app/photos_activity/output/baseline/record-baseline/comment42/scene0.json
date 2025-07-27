@@ -1,0 +1,125 @@
+[
+    {
+        "round": 1,
+        "comment": "10/19/21 Addition to my review, the archive feature is nice, but it would be great to be able to lock archived photos. With this last update to fix save changes feature, now, after editing when you hit done, it comes up instead of save, it says save copy... Ok, I don't want to save copy, that used to be a feature you could choose, and I did occasionally. No, your only choice is \" save copy\" ... Ok, but it doesn't work. It says \" unable to save changes\" and it spins and spins!!!!!!!",
+        "scenarios": [
+            "Ability to lock archived photos.",
+            "Editing a photo leads to \"save copy\" option instead of \"save,\" but it results in \"unable to save changes\" error and the app spins."
+        ],
+        "key sentence": "Ability to lock archived photos.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene0\\-1516445021677407971.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1516445021677407971"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene0\\-1516445021677407971.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1516445021677407971"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene0\\2193293551756905524.png",
+                "activity": "com.google.android.apps.photos.search.SearchActivity}",
+                "state_str": "2193293551756905524"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene0\\-7476798979957351932.png",
+                "activity": "",
+                "state_str": "-7476798979957351932"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene0\\-3104250163394383937.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "-3104250163394383937"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene0\\7541171597822342215.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "7541171597822342215"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene0\\4671053428148912083.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "4671053428148912083"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene0\\4671053428148912083.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "4671053428148912083"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene0\\4671053428148912083.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "4671053428148912083"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment42\\scene0\\-3104250163394383937.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "-3104250163394383937"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-1516445021677407971",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "-1516445021677407971",
+                "to": "-1516445021677407971",
+                "event": "click<div id=10 class =\"com.google.android.apps.photos:id/product_lockup_view\" alt=\"Google Photos\">  </div>"
+            },
+            {
+                "from": "-1516445021677407971",
+                "to": "2193293551756905524",
+                "event": "click<p id=3> Favorites,  </p>"
+            },
+            {
+                "from": "2193293551756905524",
+                "to": "-7476798979957351932",
+                "event": "click<img id=10 class =\"com.google.android.apps.photos:id/photos_overflow_icon\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-7476798979957351932",
+                "to": "-3104250163394383937",
+                "event": "click<p id=0 class =\"com.google.android.apps.photos:id/action_bar_overflow_menu_item_title\"> Help &amp; feedback,  </p>"
+            },
+            {
+                "from": "-3104250163394383937",
+                "to": "7541171597822342215",
+                "event": "click<button id=13 class =\"com.google.android.gms:id/gh_search_box\" alt=\"Search help\">  </button>"
+            },
+            {
+                "from": "7541171597822342215",
+                "to": 4671053428148912083,
+                "event": "back"
+            },
+            {
+                "from": 4671053428148912083,
+                "to": "4671053428148912083",
+                "event": "click<p id=21 class =\"com.google.android.gms:id/gh_feedback_text\"> Send feedback,  </p>"
+            },
+            {
+                "from": "4671053428148912083",
+                "to": "4671053428148912083",
+                "event": "click<button id=16 class =\"com.google.android.gms:id/gh_search_box\" alt=\"Search help\">  </button>"
+            },
+            {
+                "from": "4671053428148912083",
+                "to": -3104250163394383937,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    }
+]

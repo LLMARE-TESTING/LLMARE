@@ -1,0 +1,353 @@
+[
+    {
+        "round": 1,
+        "comment": "I wish when you go through your photos and place them to the different albums that that's the only place you would see them. It's impossible to sort all of my pics because I don't know where I left off. I'll have to start over again and again. It's too much work.... Other than that, its got pretty good features like facial recognition and putting each person in their own album etc. I will try to update after I see how this current update works. I need to spend every minute sorting all of my pic",
+        "scenarios": [
+            "When organizing photos into different albums, the user wants the photos to appear only in those albums and not in their original location, indicating a feature related to album sorting and display management.\n",
+            "The user finds it challenging to keep track of their progress when sorting photos into albums because they cannot easily determine where they left off, implying a feature need for progress tracking or a marker for unsorted photos."
+        ],
+        "key sentence": "The user finds it challenging to keep track of their progress when sorting photos into albums because they cannot easily determine where they left off, implying a feature need for progress tracking or a marker for unsorted photos.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\-2596359930501675204.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-2596359930501675204"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\2715496615459751497.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "2715496615459751497"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\-4173158548304841823.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "-4173158548304841823"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\-3112275885365888243.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "-3112275885365888243"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\-6303284672200637547.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "-6303284672200637547"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\7437245302582622925.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "7437245302582622925"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\-4046756232048519152.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-4046756232048519152"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\-4046756232048519152.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-4046756232048519152"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "2694856776442896546",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "-2596359930501675204",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "-2596359930501675204",
+                "to": "2715496615459751497",
+                "event": "click<p id=2> Untitled album,  </p>"
+            },
+            {
+                "from": "2715496615459751497",
+                "to": "-4173158548304841823",
+                "event": "click<button id=9 class =\"com.google.android.apps.photos:id/photos_album_editalbumphotos_action_chip_id\"> Add photos,  </button>"
+            },
+            {
+                "from": "-4173158548304841823",
+                "to": "-3112275885365888243",
+                "event": "click<div id=3 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            },
+            {
+                "from": "-3112275885365888243",
+                "to": "-6303284672200637547",
+                "event": "click<img id=10 alt=\"Video taken on Jun 4, 2024 6:22 PM\">  </img>"
+            },
+            {
+                "from": "-6303284672200637547",
+                "to": "7437245302582622925",
+                "event": "click<button id=4 class =\"com.google.android.apps.photos:id/action_button\"> Add,  </button>"
+            },
+            {
+                "from": "7437245302582622925",
+                "to": -4046756232048519152,
+                "event": "back"
+            },
+            {
+                "from": -4046756232048519152,
+                "to": "2694856776442896546",
+                "event": "click<div id=13 alt=\"Navigate up\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "-4046756232048519152",
+                "event": "click<p id=8> Albums,  </p>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 3,
+        "comment": "I wish when you go through your photos and place them to the different albums that that's the only place you would see them. It's impossible to sort all of my pics because I don't know where I left off. I'll have to start over again and again. It's too much work.... Other than that, its got pretty good features like facial recognition and putting each person in their own album etc. I will try to update after I see how this current update works. I need to spend every minute sorting all of my pic",
+        "scenarios": [
+            "When organizing photos into different albums, the user wants the photos to appear only in those albums and not in their original location, indicating a feature related to album sorting and display management.\n",
+            "The user finds it challenging to keep track of their progress when sorting photos into albums because they cannot easily determine where they left off, implying a feature need for progress tracking or a marker for unsorted photos."
+        ],
+        "key sentence": "The user finds it challenging to keep track of their progress when sorting photos into albums because they cannot easily determine where they left off, implying a feature need for progress tracking or a marker for unsorted photos.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\-2596359930501675204.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-2596359930501675204"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\2715496615459751497.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "2715496615459751497"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\-4173158548304841823.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "-4173158548304841823"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\-3112275885365888243.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "-3112275885365888243"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\-6303284672200637547.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "-6303284672200637547"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\7437245302582622925.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "7437245302582622925"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\-4046756232048519152.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-4046756232048519152"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\-4046756232048519152.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-4046756232048519152"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\-4046756232048519152.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-4046756232048519152"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\-2357715976626935515.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-2357715976626935515"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\-2357715976626935515.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-2357715976626935515"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\6496598762537038081.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "6496598762537038081"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\79952453030376750.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "79952453030376750"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\-2543133396598339467.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-2543133396598339467"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\3470008492181866975.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "3470008492181866975"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\-2543133396598339467.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-2543133396598339467"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment38\\scene0\\scene1\\3470008492181866975.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "3470008492181866975"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "2694856776442896546",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "-2596359930501675204",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "-2596359930501675204",
+                "to": "2715496615459751497",
+                "event": "click<p id=2> Untitled album,  </p>"
+            },
+            {
+                "from": "2715496615459751497",
+                "to": "-4173158548304841823",
+                "event": "click<button id=9 class =\"com.google.android.apps.photos:id/photos_album_editalbumphotos_action_chip_id\"> Add photos,  </button>"
+            },
+            {
+                "from": "-4173158548304841823",
+                "to": "-3112275885365888243",
+                "event": "click<div id=3 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            },
+            {
+                "from": "-3112275885365888243",
+                "to": "-6303284672200637547",
+                "event": "click<img id=10 alt=\"Video taken on Jun 4, 2024 6:22 PM\">  </img>"
+            },
+            {
+                "from": "-6303284672200637547",
+                "to": "7437245302582622925",
+                "event": "click<button id=4 class =\"com.google.android.apps.photos:id/action_button\"> Add,  </button>"
+            },
+            {
+                "from": "7437245302582622925",
+                "to": -4046756232048519152,
+                "event": "back"
+            },
+            {
+                "from": -4046756232048519152,
+                "to": "2694856776442896546",
+                "event": "click<div id=13 alt=\"Navigate up\">  </div>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "-4046756232048519152",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "2694856776442896546",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "-4046756232048519152",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "-4046756232048519152",
+                "to": "-2357715976626935515",
+                "event": "click<p id=0> Most recent photo,  </p>"
+            },
+            {
+                "from": "-2357715976626935515",
+                "to": "-2357715976626935515",
+                "event": "click<p id=1> Sort by,  </p>"
+            },
+            {
+                "from": "-2357715976626935515",
+                "to": "6496598762537038081",
+                "event": "click<p id=2> Last modified,  </p>"
+            },
+            {
+                "from": "6496598762537038081",
+                "to": "79952453030376750",
+                "event": "click<div id=1 alt=\"View as grid\">  </div>"
+            },
+            {
+                "from": "79952453030376750",
+                "to": "-2543133396598339467",
+                "event": "click<div id=9 alt=\"Create album\">  </div>"
+            },
+            {
+                "from": "-2543133396598339467",
+                "to": "3470008492181866975",
+                "event": "click<p id=13 class =\"com.google.android.apps.photos:id/button_title\"> Select photos,  </p>"
+            },
+            {
+                "from": "3470008492181866975",
+                "to": "-2543133396598339467",
+                "event": "click<button id=1 class =\"com.google.android.apps.photos:id/close_button\" alt=\"Cancel\">  </button>"
+            },
+            {
+                "from": "-2543133396598339467",
+                "to": "3470008492181866975",
+                "event": "click<p id=13 class =\"com.google.android.apps.photos:id/button_title\"> Select photos,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

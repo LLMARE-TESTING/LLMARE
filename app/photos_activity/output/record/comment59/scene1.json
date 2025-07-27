@@ -1,0 +1,223 @@
+[
+    {
+        "round": 1,
+        "comment": "Update: now the memories tab has taking over for sharing on the bottom. I don't want auto-curated memory albums. Allow us to keep the sharing portion as one of the main tabs. Terrible update. Terrible new logo. The editing is now a complicated mess to navigate. Each type of adjustment is now separated in a horizontal scrolling menu so you have to slide back and forth as you try to make adjustments. Go back to the single view of the adjustment sliders so we can actually see what we're doing!",
+        "scenarios": [
+            "The memories tab has taken over the sharing portion, and the user wants sharing to remain a main tab instead of auto-curated memory albums.",
+            "The user finds the new editing process complicated and prefers a single view of adjustment sliders rather than a horizontal scrolling menu."
+        ],
+        "key sentence": "The user finds the new editing process complicated and prefers a single view of adjustment sliders rather than a horizontal scrolling menu.",
+        "target activity": ".photoeditor.fragments.activity.VideoPhotoEditorActivity",
+        "the function of activity": "The activity involves editing vedioss, playing videos, trimming and muting videos, stabilizing videos, exporting frames, changing tabs, cancelling operations, and saving edited copies.",
+        "target state": "state28",
+        "the sub-task list of state": "[{'name': 'Crop Vedio', 'description': 'Adjust the boundaries of the Vedio to focus on a specific area'}, {'name': 'Rotate Vedio', 'description': 'Rotate the vedio clockwise or counter-clockwise'}, {'name': 'Adjust Aspect Ratio', 'description': 'Change the aspect ratio of the vedio'}, {'name': 'Reset Crop', 'description': 'Reset the cropping boundaries to their original position'}, {'name': 'Change to Video Tab', 'description': 'Switch to the video editing tab'}, {'name': 'Change to Crop Tab', 'description': 'Switch to the crop editing tab'}, {'name': 'Change to Adjust Tab', 'description': 'Switch to the adjust editing tab'}, {'name': 'Change to Effects Tab', 'description': 'Switch to the effects editing tab'}, {'name': 'Cancel Editing', 'description': 'Discard any changes and exit the editing mode'}, {'name': 'Save Copy', 'description': 'Save the edited vedio as a copy without altering the original'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\2bf2129a216d44c43d9582405daea4d6.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2bf2129a216d44c43d9582405daea4d6"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\455b9f0c7c955e9c8f56a725297d2b2e.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "455b9f0c7c955e9c8f56a725297d2b2e"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\state27.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.VideoPhotoEditorActivity}",
+                "state_str": "state27"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\state28.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.VideoPhotoEditorActivity}",
+                "state_str": "state28"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\-1453382474614978785.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.VideoPhotoEditorActivity}",
+                "state_str": "-1453382474614978785"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\-1453382474614978785.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.VideoPhotoEditorActivity}",
+                "state_str": "-1453382474614978785"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "2bf2129a216d44c43d9582405daea4d6",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=81a0e69badae53d8d68074a18e207d00(HomeActivity/ImageView-Video take:x0:y1010))"
+            },
+            {
+                "from": "2bf2129a216d44c43d9582405daea4d6",
+                "to": "455b9f0c7c955e9c8f56a725297d2b2e",
+                "event": "click(state=2bf2129a216d44c43d9582405daea4d6, view=10af35da841bbb2aecc619e81a2cc7da(HomeActivity/FrameLayout-:x0:y0))"
+            },
+            {
+                "from": "455b9f0c7c955e9c8f56a725297d2b2e",
+                "to": "state27",
+                "event": "click(android.widget.ImageView-com.google.android.apps.photos:id/edit:[462,1993][616,2148])"
+            },
+            {
+                "from": "state27",
+                "to": "state28",
+                "event": "click(android.widget.TextView-Change to crop tab:[653,1868][865,1966])"
+            },
+            {
+                "from": "state28",
+                "to": "-1453382474614978785",
+                "event": "click<p id=22 alt=\"Change to adjust tab\"> Adjust,  </p>"
+            },
+            {
+                "from": "-1453382474614978785",
+                "to": "-1453382474614978785",
+                "event": "click<p id=14 alt=\"Change to adjust tab\"> Adjust,  </p>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Update: now the memories tab has taking over for sharing on the bottom. I don't want auto-curated memory albums. Allow us to keep the sharing portion as one of the main tabs. Terrible update. Terrible new logo. The editing is now a complicated mess to navigate. Each type of adjustment is now separated in a horizontal scrolling menu so you have to slide back and forth as you try to make adjustments. Go back to the single view of the adjustment sliders so we can actually see what we're doing!",
+        "scenarios": [
+            "The memories tab has taken over the sharing portion, and the user wants sharing to remain a main tab instead of auto-curated memory albums.",
+            "The user finds the new editing process complicated and prefers a single view of adjustment sliders rather than a horizontal scrolling menu."
+        ],
+        "key sentence": "The user finds the new editing process complicated and prefers a single view of adjustment sliders rather than a horizontal scrolling menu.",
+        "target activity": ".photoeditor.fragments.activity.VideoPhotoEditorActivity",
+        "the function of activity": "The activity involves editing vedioss, playing videos, trimming and muting videos, stabilizing videos, exporting frames, changing tabs, cancelling operations, and saving edited copies.",
+        "target state": "state28",
+        "the sub-task list of state": "[{'name': 'Crop Vedio', 'description': 'Adjust the boundaries of the Vedio to focus on a specific area'}, {'name': 'Rotate Vedio', 'description': 'Rotate the vedio clockwise or counter-clockwise'}, {'name': 'Adjust Aspect Ratio', 'description': 'Change the aspect ratio of the vedio'}, {'name': 'Reset Crop', 'description': 'Reset the cropping boundaries to their original position'}, {'name': 'Change to Video Tab', 'description': 'Switch to the video editing tab'}, {'name': 'Change to Crop Tab', 'description': 'Switch to the crop editing tab'}, {'name': 'Change to Adjust Tab', 'description': 'Switch to the adjust editing tab'}, {'name': 'Change to Effects Tab', 'description': 'Switch to the effects editing tab'}, {'name': 'Cancel Editing', 'description': 'Discard any changes and exit the editing mode'}, {'name': 'Save Copy', 'description': 'Save the edited vedio as a copy without altering the original'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\2bf2129a216d44c43d9582405daea4d6.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2bf2129a216d44c43d9582405daea4d6"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\455b9f0c7c955e9c8f56a725297d2b2e.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "455b9f0c7c955e9c8f56a725297d2b2e"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\state27.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.VideoPhotoEditorActivity}",
+                "state_str": "state27"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\state28.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.VideoPhotoEditorActivity}",
+                "state_str": "state28"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\-1453382474614978785.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.VideoPhotoEditorActivity}",
+                "state_str": "-1453382474614978785"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\-1453382474614978785.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.VideoPhotoEditorActivity}",
+                "state_str": "-1453382474614978785"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\2bf2129a216d44c43d9582405daea4d6.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2bf2129a216d44c43d9582405daea4d6"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\455b9f0c7c955e9c8f56a725297d2b2e.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "455b9f0c7c955e9c8f56a725297d2b2e"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\state27.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.VideoPhotoEditorActivity}",
+                "state_str": "state27"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\state28.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.VideoPhotoEditorActivity}",
+                "state_str": "state28"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment59\\scene1\\-1453382474614978785.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.VideoPhotoEditorActivity}",
+                "state_str": "-1453382474614978785"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "2bf2129a216d44c43d9582405daea4d6",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=81a0e69badae53d8d68074a18e207d00(HomeActivity/ImageView-Video take:x0:y1010))"
+            },
+            {
+                "from": "2bf2129a216d44c43d9582405daea4d6",
+                "to": "455b9f0c7c955e9c8f56a725297d2b2e",
+                "event": "click(state=2bf2129a216d44c43d9582405daea4d6, view=10af35da841bbb2aecc619e81a2cc7da(HomeActivity/FrameLayout-:x0:y0))"
+            },
+            {
+                "from": "455b9f0c7c955e9c8f56a725297d2b2e",
+                "to": "state27",
+                "event": "click(android.widget.ImageView-com.google.android.apps.photos:id/edit:[462,1993][616,2148])"
+            },
+            {
+                "from": "state27",
+                "to": "state28",
+                "event": "click(android.widget.TextView-Change to crop tab:[653,1868][865,1966])"
+            },
+            {
+                "from": "state28",
+                "to": "-1453382474614978785",
+                "event": "click<p id=22 alt=\"Change to adjust tab\"> Adjust,  </p>"
+            },
+            {
+                "from": "-1453382474614978785",
+                "to": "-1453382474614978785",
+                "event": "click<p id=14 alt=\"Change to adjust tab\"> Adjust,  </p>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "2bf2129a216d44c43d9582405daea4d6",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=81a0e69badae53d8d68074a18e207d00(HomeActivity/ImageView-Video take:x0:y1010))"
+            },
+            {
+                "from": "2bf2129a216d44c43d9582405daea4d6",
+                "to": "455b9f0c7c955e9c8f56a725297d2b2e",
+                "event": "click(state=2bf2129a216d44c43d9582405daea4d6, view=10af35da841bbb2aecc619e81a2cc7da(HomeActivity/FrameLayout-:x0:y0))"
+            },
+            {
+                "from": "455b9f0c7c955e9c8f56a725297d2b2e",
+                "to": "state27",
+                "event": "click(android.widget.ImageView-com.google.android.apps.photos:id/edit:[462,1993][616,2148])"
+            },
+            {
+                "from": "state27",
+                "to": "state28",
+                "event": "click(android.widget.TextView-Change to crop tab:[653,1868][865,1966])"
+            },
+            {
+                "from": "state28",
+                "to": "-1453382474614978785",
+                "event": "click<p id=22 alt=\"Change to adjust tab\"> Adjust,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

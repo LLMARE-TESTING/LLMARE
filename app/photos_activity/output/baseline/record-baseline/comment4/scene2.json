@@ -1,0 +1,129 @@
+[
+    {
+        "round": 46,
+        "comment": "There are few things that I like about this app. Not \"a few\" ... \"very few\". First thing: I had the WORST time syncing things so that they would show up on my computer/desktop, from my phone. When I realised they weren't syncing, there were over 5000 photos to sync (I take a lot, and edit a lot). So then I try to sync them. For the life of me, I can't get them to sync over. So... I start searching. Seems like a few people (that I could find) had the same problem. The fix? I had to shut off my wi-fi, turn on the sync over data option, go back in, then it starts syncing, so I turn the wi-fi on again... it goes for about 250-350 photos... so I think... cool - it's working. NOPE. It goes back to the \"preparing backup\" spinning circle of death. So then I do the same thing. And it works again. Then it gets stuck again. So far I think I've done it about 12 or 15 times... and I still have over 2100 photos to do. So - THAT'S annoying. Second... I have to agree with someone else here, on their low review. WHY, when you delete a phone from Google Photos, does it delete on the stock photo app of the phone as well. Oh and I dislike the editing feature as well - it's very limited. But now maybe I'm just getting picky...",
+        "scenarios": [
+            "Attempting to sync over 5000 photos from the phone to the computer/desktop. Initial attempts to sync do not work.",
+            "Searching online for solutions to the syncing issue and discovering that others have had the same problem.",
+            "Following a suggested fix: shutting off wi-fi, turning on the sync over data option, going back into the app, and starting the sync process. Then turning the wi-fi back on and observing partial success as the app syncs 250-350 photos before getting stuck again.",
+            "Repeating the above steps multiple times (12 or 15 times) to sync remaining photos but still having over 2100 photos left to sync.",
+            "Deleting a photo from Google Photos results in the photo being deleted from the stock photo app on the phone as well.",
+            "Using the editing feature in the app and finding it very limited."
+        ],
+        "key sentence": "Following a suggested fix: shutting off wi-fi, turning on the sync over data option, going back into the app, and starting the sync process. Then turning the wi-fi back on and observing partial success as the app syncs 250-350 photos before getting stuck again.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\scene2\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\scene2\\-2301780477805068968.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-2301780477805068968"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\scene2\\272565729425610323.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "272565729425610323"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\scene2\\6420738711962602945.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "6420738711962602945"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\scene2\\-2999812829464606243.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "-2999812829464606243"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\scene2\\-1453581665612503281.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "-1453581665612503281"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\scene2\\-1453581665612503281.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "-1453581665612503281"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\scene2\\-2999812829464606243.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "-2999812829464606243"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\scene2\\-1453581665612503281.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "-1453581665612503281"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\scene2\\-2999812829464606243.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "-2999812829464606243"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment4\\scene0\\scene1\\scene2\\-1453581665612503281.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "-1453581665612503281"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-2301780477805068968",
+                "event": "click<button id=13 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Backup is off.&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "-2301780477805068968",
+                "to": "272565729425610323",
+                "event": "click<button id=12 class =\"com.google.android.apps.photos:id/photos_autobackup_particle_generic_button\"> Turn on backup,  </button>"
+            },
+            {
+                "from": "272565729425610323",
+                "to": "6420738711962602945",
+                "event": "click<button id=8 class =\"com.google.android.apps.photos:id/enable_backup_turn_on_backup_button\"> Turn on backup,  </button>"
+            },
+            {
+                "from": "6420738711962602945",
+                "to": "-2999812829464606243",
+                "event": "click<button id=9 class =\"com.google.android.apps.photos:id/og_card\" alt=\"Backup&#10;Backup complete\">  </button>"
+            },
+            {
+                "from": "-2999812829464606243",
+                "to": "-1453581665612503281",
+                "event": "click<button id=2 class =\"com.google.android.apps.photos:id/photos_backup_overview_settings_button\" alt=\"Backup settings\">  </button>"
+            },
+            {
+                "from": "-1453581665612503281",
+                "to": "-1453581665612503281",
+                "event": "scroll down"
+            },
+            {
+                "from": "-1453581665612503281",
+                "to": -2999812829464606243,
+                "event": "back"
+            },
+            {
+                "from": -2999812829464606243,
+                "to": "-1453581665612503281",
+                "event": "click<button id=2 class =\"com.google.android.apps.photos:id/photos_backup_overview_settings_button\" alt=\"Backup settings\">  </button>"
+            },
+            {
+                "from": "-1453581665612503281",
+                "to": -2999812829464606243,
+                "event": "back"
+            },
+            {
+                "from": -2999812829464606243,
+                "to": "-1453581665612503281",
+                "event": "click<button id=2 class =\"com.google.android.apps.photos:id/photos_backup_overview_settings_button\" alt=\"Backup settings\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

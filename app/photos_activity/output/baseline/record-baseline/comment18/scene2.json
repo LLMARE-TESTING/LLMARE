@@ -1,0 +1,689 @@
+[
+    {
+        "round": 1,
+        "comment": "Loved checking in daily to see previous years memories of the day and sharing them with family. Now having updated the feature is a bloated mess showing random unconnected days through the year. \"Revisit this moment, Featured Friday, Remember this day\".... Etc. All designed to keep me using the app for longer, but in reality actually turned me off using the feature altogether. It's an unnecessary addition. Going to try revert to an older version, if not I'll just give up.",
+        "scenarios": [
+            "Checking daily to see previous years' memories of the day and sharing them with family.",
+            "Navigating through the updated feature that shows random unconnected days throughout the year (e.g., \"Revisit this moment,\" \"Featured Friday,\" \"Remember this day\").",
+            "Attempting to revert to an older version of the app due to dissatisfaction with the current feature."
+        ],
+        "key sentence": "Attempting to revert to an older version of the app due to dissatisfaction with the current feature.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\6390045834250432958.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "6390045834250432958"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-7010449088398474131.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "-7010449088398474131"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-7010449088398474131.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "-7010449088398474131"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-3410518690949499069.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "-3410518690949499069"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-1774125900509704589.png",
+                "activity": "com.google.android.gms.common.account.AccountPickerActivity}",
+                "state_str": "-1774125900509704589"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-3410518690949499069.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "-3410518690949499069"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-1774125900509704589.png",
+                "activity": "com.google.android.gms.common.account.AccountPickerActivity}",
+                "state_str": "-1774125900509704589"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-5089062324079405638.png",
+                "activity": "com.android.settings.Settings$AccountDashboardActivity}",
+                "state_str": "-5089062324079405638"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\2399170064096983161.png",
+                "activity": "com.android.settings.SubSettings}",
+                "state_str": "2399170064096983161"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-915718156216781946.png",
+                "activity": "com.android.settings.SubSettings}",
+                "state_str": "-915718156216781946"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "6390045834250432958",
+                "event": "click<button id=14 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Backup is off.&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "6390045834250432958",
+                "to": "-7010449088398474131",
+                "event": "click<button id=7 class =\"com.google.android.apps.photos:id/my_account_chip\"> Manage your Google Account,  </button>"
+            },
+            {
+                "from": "-7010449088398474131",
+                "to": "-7010449088398474131",
+                "event": "click<div id=3 class =\"com.google.android.gms:id/mg_lockup\" alt=\"Google Account\">  </div>"
+            },
+            {
+                "from": "-7010449088398474131",
+                "to": "-3410518690949499069",
+                "event": "click<button id=16 alt=\"Personal info\">  </button>"
+            },
+            {
+                "from": "-3410518690949499069",
+                "to": "-1774125900509704589",
+                "event": "click<button id=9 class =\"com.google.android.gms:id/account_particle_disc_container\" alt=\"Google Account: ran Jin (jinran848@gmail.com)\">  </button>"
+            },
+            {
+                "from": "-1774125900509704589",
+                "to": -3410518690949499069,
+                "event": "back"
+            },
+            {
+                "from": -3410518690949499069,
+                "to": "-1774125900509704589",
+                "event": "click<button id=9 class =\"com.google.android.gms:id/account_particle_disc_container\" alt=\"Google Account: ran Jin (jinran848@gmail.com)\">  </button>"
+            },
+            {
+                "from": "-1774125900509704589",
+                "to": "-5089062324079405638",
+                "event": "click<p id=16 class =\"com.google.android.gms:id/manage_accounts_chip_title\"> Manage accounts on this device,  </p>"
+            },
+            {
+                "from": "-5089062324079405638",
+                "to": "2399170064096983161",
+                "event": "click<p id=11 class =\"android:id/title\"> adcontent002@gmail.com,  </p>"
+            },
+            {
+                "from": "2399170064096983161",
+                "to": "-915718156216781946",
+                "event": "click<button id=12 class =\"com.android.settings:id/button\"> Remove account,  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Loved checking in daily to see previous years memories of the day and sharing them with family. Now having updated the feature is a bloated mess showing random unconnected days through the year. \"Revisit this moment, Featured Friday, Remember this day\".... Etc. All designed to keep me using the app for longer, but in reality actually turned me off using the feature altogether. It's an unnecessary addition. Going to try revert to an older version, if not I'll just give up.",
+        "scenarios": [
+            "Checking daily to see previous years' memories of the day and sharing them with family.",
+            "Navigating through the updated feature that shows random unconnected days throughout the year (e.g., \"Revisit this moment,\" \"Featured Friday,\" \"Remember this day\").",
+            "Attempting to revert to an older version of the app due to dissatisfaction with the current feature."
+        ],
+        "key sentence": "Attempting to revert to an older version of the app due to dissatisfaction with the current feature.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\6390045834250432958.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "6390045834250432958"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-7010449088398474131.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "-7010449088398474131"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-7010449088398474131.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "-7010449088398474131"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-3410518690949499069.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "-3410518690949499069"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-1774125900509704589.png",
+                "activity": "com.google.android.gms.common.account.AccountPickerActivity}",
+                "state_str": "-1774125900509704589"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-3410518690949499069.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "-3410518690949499069"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-1774125900509704589.png",
+                "activity": "com.google.android.gms.common.account.AccountPickerActivity}",
+                "state_str": "-1774125900509704589"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-5089062324079405638.png",
+                "activity": "com.android.settings.Settings$AccountDashboardActivity}",
+                "state_str": "-5089062324079405638"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\2399170064096983161.png",
+                "activity": "com.android.settings.SubSettings}",
+                "state_str": "2399170064096983161"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-915718156216781946.png",
+                "activity": "com.android.settings.SubSettings}",
+                "state_str": "-915718156216781946"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.android.settings.SubSettings}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\2399170064096983161.png",
+                "activity": "com.android.settings.SubSettings}",
+                "state_str": "2399170064096983161"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\2399170064096983161.png",
+                "activity": "com.android.settings.SubSettings}",
+                "state_str": "2399170064096983161"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-5089062324079405638.png",
+                "activity": "com.android.settings.Settings$AccountDashboardActivity}",
+                "state_str": "-5089062324079405638"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-8878336215364019966.png",
+                "activity": "com.android.settings.Settings$AccountDashboardActivity}",
+                "state_str": "-8878336215364019966"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-3410518690949499069.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "-3410518690949499069"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-1774125900509704589.png",
+                "activity": "com.google.android.gms.common.account.AccountPickerActivity}",
+                "state_str": "-1774125900509704589"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-3410518690949499069.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "-3410518690949499069"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-1774125900509704589.png",
+                "activity": "com.google.android.gms.common.account.AccountPickerActivity}",
+                "state_str": "-1774125900509704589"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-3410518690949499069.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "-3410518690949499069"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\4717584666385334917.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "4717584666385334917"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "6390045834250432958",
+                "event": "click<button id=14 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Backup is off.&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "6390045834250432958",
+                "to": "-7010449088398474131",
+                "event": "click<button id=7 class =\"com.google.android.apps.photos:id/my_account_chip\"> Manage your Google Account,  </button>"
+            },
+            {
+                "from": "-7010449088398474131",
+                "to": "-7010449088398474131",
+                "event": "click<div id=3 class =\"com.google.android.gms:id/mg_lockup\" alt=\"Google Account\">  </div>"
+            },
+            {
+                "from": "-7010449088398474131",
+                "to": "-3410518690949499069",
+                "event": "click<button id=16 alt=\"Personal info\">  </button>"
+            },
+            {
+                "from": "-3410518690949499069",
+                "to": "-1774125900509704589",
+                "event": "click<button id=9 class =\"com.google.android.gms:id/account_particle_disc_container\" alt=\"Google Account: ran Jin (jinran848@gmail.com)\">  </button>"
+            },
+            {
+                "from": "-1774125900509704589",
+                "to": -3410518690949499069,
+                "event": "back"
+            },
+            {
+                "from": -3410518690949499069,
+                "to": "-1774125900509704589",
+                "event": "click<button id=9 class =\"com.google.android.gms:id/account_particle_disc_container\" alt=\"Google Account: ran Jin (jinran848@gmail.com)\">  </button>"
+            },
+            {
+                "from": "-1774125900509704589",
+                "to": "-5089062324079405638",
+                "event": "click<p id=16 class =\"com.google.android.gms:id/manage_accounts_chip_title\"> Manage accounts on this device,  </p>"
+            },
+            {
+                "from": "-5089062324079405638",
+                "to": "2399170064096983161",
+                "event": "click<p id=11 class =\"android:id/title\"> adcontent002@gmail.com,  </p>"
+            },
+            {
+                "from": "2399170064096983161",
+                "to": "-915718156216781946",
+                "event": "click<button id=12 class =\"com.android.settings:id/button\"> Remove account,  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": 2399170064096983161,
+                "event": "back"
+            },
+            {
+                "from": 2399170064096983161,
+                "to": "2399170064096983161",
+                "event": "scroll up"
+            },
+            {
+                "from": "2399170064096983161",
+                "to": "-5089062324079405638",
+                "event": "click<button id=1 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-5089062324079405638",
+                "to": "-8878336215364019966",
+                "event": "scroll up"
+            },
+            {
+                "from": "-8878336215364019966",
+                "to": "-3410518690949499069",
+                "event": "click<button id=1 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-3410518690949499069",
+                "to": "-1774125900509704589",
+                "event": "click<button id=9 class =\"com.google.android.gms:id/account_particle_disc_container\" alt=\"Google Account: ran Jin (jinran848@gmail.com)\">  </button>"
+            },
+            {
+                "from": "-1774125900509704589",
+                "to": -3410518690949499069,
+                "event": "back"
+            },
+            {
+                "from": -3410518690949499069,
+                "to": "-1774125900509704589",
+                "event": "click<button id=9 class =\"com.google.android.gms:id/account_particle_disc_container\" alt=\"Google Account: ran Jin (jinran848@gmail.com)\">  </button>"
+            },
+            {
+                "from": "-1774125900509704589",
+                "to": -3410518690949499069,
+                "event": "back"
+            },
+            {
+                "from": -3410518690949499069,
+                "to": "4717584666385334917",
+                "event": "click<button id=15 alt=\"Data &amp; privacy\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 3,
+        "comment": "Loved checking in daily to see previous years memories of the day and sharing them with family. Now having updated the feature is a bloated mess showing random unconnected days through the year. \"Revisit this moment, Featured Friday, Remember this day\".... Etc. All designed to keep me using the app for longer, but in reality actually turned me off using the feature altogether. It's an unnecessary addition. Going to try revert to an older version, if not I'll just give up.",
+        "scenarios": [
+            "Checking daily to see previous years' memories of the day and sharing them with family.",
+            "Navigating through the updated feature that shows random unconnected days throughout the year (e.g., \"Revisit this moment,\" \"Featured Friday,\" \"Remember this day\").",
+            "Attempting to revert to an older version of the app due to dissatisfaction with the current feature."
+        ],
+        "key sentence": "Attempting to revert to an older version of the app due to dissatisfaction with the current feature.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\6390045834250432958.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "6390045834250432958"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-7010449088398474131.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "-7010449088398474131"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-7010449088398474131.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "-7010449088398474131"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-3410518690949499069.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "-3410518690949499069"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-1774125900509704589.png",
+                "activity": "com.google.android.gms.common.account.AccountPickerActivity}",
+                "state_str": "-1774125900509704589"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-3410518690949499069.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "-3410518690949499069"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-1774125900509704589.png",
+                "activity": "com.google.android.gms.common.account.AccountPickerActivity}",
+                "state_str": "-1774125900509704589"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-5089062324079405638.png",
+                "activity": "com.android.settings.Settings$AccountDashboardActivity}",
+                "state_str": "-5089062324079405638"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\2399170064096983161.png",
+                "activity": "com.android.settings.SubSettings}",
+                "state_str": "2399170064096983161"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-915718156216781946.png",
+                "activity": "com.android.settings.SubSettings}",
+                "state_str": "-915718156216781946"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.android.settings.SubSettings}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\2399170064096983161.png",
+                "activity": "com.android.settings.SubSettings}",
+                "state_str": "2399170064096983161"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\2399170064096983161.png",
+                "activity": "com.android.settings.SubSettings}",
+                "state_str": "2399170064096983161"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-5089062324079405638.png",
+                "activity": "com.android.settings.Settings$AccountDashboardActivity}",
+                "state_str": "-5089062324079405638"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-8878336215364019966.png",
+                "activity": "com.android.settings.Settings$AccountDashboardActivity}",
+                "state_str": "-8878336215364019966"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-3410518690949499069.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "-3410518690949499069"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-1774125900509704589.png",
+                "activity": "com.google.android.gms.common.account.AccountPickerActivity}",
+                "state_str": "-1774125900509704589"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-3410518690949499069.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "-3410518690949499069"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-1774125900509704589.png",
+                "activity": "com.google.android.gms.common.account.AccountPickerActivity}",
+                "state_str": "-1774125900509704589"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-3410518690949499069.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "-3410518690949499069"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\4717584666385334917.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "4717584666385334917"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-1774125900509704589.png",
+                "activity": "com.google.android.gms.common.account.AccountPickerActivity}",
+                "state_str": "-1774125900509704589"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\-5089062324079405638.png",
+                "activity": "com.android.settings.Settings$AccountDashboardActivity}",
+                "state_str": "-5089062324079405638"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\4717584666385334917.png",
+                "activity": "com.google.android.gms.accountsettings.mg.ui.main.MainActivity}",
+                "state_str": "4717584666385334917"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\3993021226653143675.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "3993021226653143675"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\4780609509154805247.png",
+                "activity": "",
+                "state_str": "4780609509154805247"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\236413459291627848.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "236413459291627848"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\3993021226653143675.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "3993021226653143675"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\2326417650073674907.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "2326417650073674907"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\3993021226653143675.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "3993021226653143675"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment18\\scene0\\scene1\\scene2\\8286147705754918125.png",
+                "activity": "com.google.android.gms.googlehelp.helpactivities.HelpActivity}",
+                "state_str": "8286147705754918125"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "6390045834250432958",
+                "event": "click<button id=14 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Backup is off.&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "6390045834250432958",
+                "to": "-7010449088398474131",
+                "event": "click<button id=7 class =\"com.google.android.apps.photos:id/my_account_chip\"> Manage your Google Account,  </button>"
+            },
+            {
+                "from": "-7010449088398474131",
+                "to": "-7010449088398474131",
+                "event": "click<div id=3 class =\"com.google.android.gms:id/mg_lockup\" alt=\"Google Account\">  </div>"
+            },
+            {
+                "from": "-7010449088398474131",
+                "to": "-3410518690949499069",
+                "event": "click<button id=16 alt=\"Personal info\">  </button>"
+            },
+            {
+                "from": "-3410518690949499069",
+                "to": "-1774125900509704589",
+                "event": "click<button id=9 class =\"com.google.android.gms:id/account_particle_disc_container\" alt=\"Google Account: ran Jin (jinran848@gmail.com)\">  </button>"
+            },
+            {
+                "from": "-1774125900509704589",
+                "to": -3410518690949499069,
+                "event": "back"
+            },
+            {
+                "from": -3410518690949499069,
+                "to": "-1774125900509704589",
+                "event": "click<button id=9 class =\"com.google.android.gms:id/account_particle_disc_container\" alt=\"Google Account: ran Jin (jinran848@gmail.com)\">  </button>"
+            },
+            {
+                "from": "-1774125900509704589",
+                "to": "-5089062324079405638",
+                "event": "click<p id=16 class =\"com.google.android.gms:id/manage_accounts_chip_title\"> Manage accounts on this device,  </p>"
+            },
+            {
+                "from": "-5089062324079405638",
+                "to": "2399170064096983161",
+                "event": "click<p id=11 class =\"android:id/title\"> adcontent002@gmail.com,  </p>"
+            },
+            {
+                "from": "2399170064096983161",
+                "to": "-915718156216781946",
+                "event": "click<button id=12 class =\"com.android.settings:id/button\"> Remove account,  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": 2399170064096983161,
+                "event": "back"
+            },
+            {
+                "from": 2399170064096983161,
+                "to": "2399170064096983161",
+                "event": "scroll up"
+            },
+            {
+                "from": "2399170064096983161",
+                "to": "-5089062324079405638",
+                "event": "click<button id=1 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-5089062324079405638",
+                "to": "-8878336215364019966",
+                "event": "scroll up"
+            },
+            {
+                "from": "-8878336215364019966",
+                "to": "-3410518690949499069",
+                "event": "click<button id=1 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-3410518690949499069",
+                "to": "-1774125900509704589",
+                "event": "click<button id=9 class =\"com.google.android.gms:id/account_particle_disc_container\" alt=\"Google Account: ran Jin (jinran848@gmail.com)\">  </button>"
+            },
+            {
+                "from": "-1774125900509704589",
+                "to": -3410518690949499069,
+                "event": "back"
+            },
+            {
+                "from": -3410518690949499069,
+                "to": "-1774125900509704589",
+                "event": "click<button id=9 class =\"com.google.android.gms:id/account_particle_disc_container\" alt=\"Google Account: ran Jin (jinran848@gmail.com)\">  </button>"
+            },
+            {
+                "from": "-1774125900509704589",
+                "to": -3410518690949499069,
+                "event": "back"
+            },
+            {
+                "from": -3410518690949499069,
+                "to": "4717584666385334917",
+                "event": "click<button id=15 alt=\"Data &amp; privacy\">  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-1774125900509704589",
+                "event": "click<button id=9 class =\"com.google.android.gms:id/account_particle_disc_container\" alt=\"Google Account: ran Jin (jinran848@gmail.com)\">  </button>"
+            },
+            {
+                "from": "-1774125900509704589",
+                "to": "-5089062324079405638",
+                "event": "click<p id=16 class =\"com.google.android.gms:id/manage_accounts_chip_title\"> Manage accounts on this device,  </p>"
+            },
+            {
+                "from": "-5089062324079405638",
+                "to": "4717584666385334917",
+                "event": "click<button id=1 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "4717584666385334917",
+                "to": "3993021226653143675",
+                "event": "click<button id=7 alt=\"Help\">  </button>"
+            },
+            {
+                "from": "3993021226653143675",
+                "to": "4780609509154805247",
+                "event": "click<img id=4 alt=\"More options\">  </img>"
+            },
+            {
+                "from": "4780609509154805247",
+                "to": "236413459291627848",
+                "event": "click<p id=1 class =\"com.google.android.gms:id/title\"> Version info,  </p>"
+            },
+            {
+                "from": "236413459291627848",
+                "to": 3993021226653143675,
+                "event": "back"
+            },
+            {
+                "from": 3993021226653143675,
+                "to": "2326417650073674907",
+                "event": "click<p id=11 class =\"com.google.android.gms:id/gh_help_content_line_item_title\"> How to download your Google data,  </p>"
+            },
+            {
+                "from": "2326417650073674907",
+                "to": 3993021226653143675,
+                "event": "back"
+            },
+            {
+                "from": 3993021226653143675,
+                "to": "8286147705754918125",
+                "event": "click<p id=12 class =\"com.google.android.gms:id/gh_help_content_line_item_title\"> Manage your Google Settings,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

@@ -1,0 +1,135 @@
+[
+    {
+        "round": 1,
+        "comment": "AMAZIINNGGGG!!!! The only thing I do not like is in the options to \"Manage Storage\" there is option to delete blurry photos, files that are too big, and some other thing... No where can I find an option to DELETE DUPLICATES!!!!!! Which is what I need the most! The option for it popped up on my screen ONCE the past like 2 years and since then haven't been able to find it.. That's very inconvenient.. because if I could find that I wouldn't of had to pay for extra storage... Which bring me to my",
+        "scenarios": [
+            "Access the \"Manage Storage\" options and attempt to find an option to delete duplicate photos.",
+            "Encounter the duplicate deletion option once previously within a span of two years and be unable to find it again."
+        ],
+        "key sentence": "Access the \"Manage Storage\" options and attempt to find an option to delete duplicate photos.",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, cast content, back up photos, favorite items, and access various editing and sharing options.",
+        "target state": "state8",
+        "the sub-task list of state": "[{'name': 'Account Settings', 'description': 'Accessing and managing account settings'}, {'name': 'Turn ON/OFF Backup', 'description': 'Turn on or turn off backup.'}, {'name': 'Free Up Space', 'description': 'Deleting and managing storage space for photos'}, {'name': 'Photos Settings', 'description': 'Adjusting various settings related to photos'}, {'name': 'Help and Feedback', 'description': 'Accessing help and feedback options'}, {'name': 'Privacy Policy', 'description': 'Viewing the privacy policy'}, {'name': 'Terms of Service', 'description': 'Viewing the terms of service'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment12\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment12\\scene0\\state8.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state8"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment12\\scene0\\3078152767109409639.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.summary.SummaryActivity}",
+                "state_str": "3078152767109409639"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment12\\scene0\\3078152767109409639.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.summary.SummaryActivity}",
+                "state_str": "3078152767109409639"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment12\\scene0\\-1034615515774541755.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.cleanup.SmartCleanupActivity}",
+                "state_str": "-1034615515774541755"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment12\\scene0\\3078152767109409639.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.summary.SummaryActivity}",
+                "state_str": "3078152767109409639"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment12\\scene0\\3078152767109409639.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.summary.SummaryActivity}",
+                "state_str": "3078152767109409639"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment12\\scene0\\3078152767109409639.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.summary.SummaryActivity}",
+                "state_str": "3078152767109409639"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment12\\scene0\\3078152767109409639.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.summary.SummaryActivity}",
+                "state_str": "3078152767109409639"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment12\\scene0\\-1795190317487542246.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.cleanup.SmartCleanupActivity}",
+                "state_str": "-1795190317487542246"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment12\\scene0\\-7177089965511860608.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.summary.SummaryActivity}",
+                "state_str": "-7177089965511860608"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment12\\scene0\\-7177089965511860608.png",
+                "activity": "com.google.android.apps.photos.quotamanagement.summary.SummaryActivity}",
+                "state_str": "-7177089965511860608"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state8",
+                "event": "click(FrameLayout-Signed in as ran Jin jinran848@gmail.com.Backup is off.Account and settings.:[925,104][1080,237])"
+            },
+            {
+                "from": "state8",
+                "to": "3078152767109409639",
+                "event": "click<button id=17 alt=\"Manage storage\">  </button>"
+            },
+            {
+                "from": "3078152767109409639",
+                "to": "3078152767109409639",
+                "event": "click<p id=15 class =\"com.google.android.apps.photos:id/header\"> Review and delete,  </p>"
+            },
+            {
+                "from": "3078152767109409639",
+                "to": "-1034615515774541755",
+                "event": "click<p id=16 class =\"com.google.android.apps.photos:id/cleanup_category_title\"> Large photos &amp; videos,  </p>"
+            },
+            {
+                "from": "-1034615515774541755",
+                "to": 3078152767109409639,
+                "event": "back"
+            },
+            {
+                "from": 3078152767109409639,
+                "to": "3078152767109409639",
+                "event": "click<p id=15 class =\"com.google.android.apps.photos:id/header\"> Review and delete,  </p>"
+            },
+            {
+                "from": "3078152767109409639",
+                "to": "3078152767109409639",
+                "event": "click<p id=1> Manage storage,  </p>"
+            },
+            {
+                "from": "3078152767109409639",
+                "to": "3078152767109409639",
+                "event": "click<p id=15 class =\"com.google.android.apps.photos:id/header\"> Review and delete,  </p>"
+            },
+            {
+                "from": "3078152767109409639",
+                "to": "-1795190317487542246",
+                "event": "click<p id=20 class =\"com.google.android.apps.photos:id/cleanup_category_title\"> Blurry photos,  </p>"
+            },
+            {
+                "from": "-1795190317487542246",
+                "to": -7177089965511860608,
+                "event": "back"
+            },
+            {
+                "from": -7177089965511860608,
+                "to": "-7177089965511860608",
+                "event": "click<p id=15 class =\"com.google.android.apps.photos:id/header\"> Review and delete,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

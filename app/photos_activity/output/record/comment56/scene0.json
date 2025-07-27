@@ -1,0 +1,261 @@
+[
+    {
+        "round": 1,
+        "comment": "Usually good, but every update breaks it more. After editing photos, either with the markup tool or by cropping them, I can't save the changes. The \"done\" button exists, but nothing happens when you press it. Can't uninstall/reinstall as it's a system app. Tried force stopping it and clearing the cache. Nope. I wish there was the option to install the previous version of the app.",
+        "scenarios": [
+            "After editing photos, either with the markup tool or by cropping them, the user can't save the changes because pressing the \"done\" button does not have any effect.\n"
+        ],
+        "key sentence": "After editing photos, either with the markup tool or by cropping them, the user can't save the changes because pressing the \"done\" button does not have any effect.\n",
+        "target activity": ".home.HomeActivity",
+        "the function of activity": "This activity allows users to navigate to library/memories/search, view archive/locked floder, cast content, back up photos, favorite items, and access various deleting and sharing options.",
+        "target state": "0cac1a34967dc9a3d638703f8dff5193",
+        "the sub-task list of state": "[{'name': 'Search', 'description': 'Search for a contact'}, {'name': 'Menu', 'description': 'Open menu'}, {'name': 'Copy text', 'description': 'Copy selected text'}, {'name': 'Listen', 'description': 'Listen to selected text'}, {'name': 'Crop', 'description': 'Crop an image'}, {'name': 'Favorite', 'description': 'Mark as favorite'}, {'name': 'More options', 'description': 'Access additional options'}, {'name': 'Share', 'description': 'Share content'}, {'name': 'Edit', 'description': 'Edit content'}, {'name': 'Lens', 'description': 'Activate lens feature'}, {'name': 'Delete', 'description': 'Delete selected content'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\0cac1a34967dc9a3d638703f8dff5193.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "0cac1a34967dc9a3d638703f8dff5193"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\7034267685014691982.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7034267685014691982"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\933018363816345875.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "933018363816345875"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\-6151719073110211331.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-6151719073110211331"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\-6151719073110211331.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-6151719073110211331"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "0cac1a34967dc9a3d638703f8dff5193",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=08bc7c8154b5c2ab796d26d767a03541(HomeActivity/ImageView-Photo take:x0:y1926))"
+            },
+            {
+                "from": "0cac1a34967dc9a3d638703f8dff5193",
+                "to": "7034267685014691982",
+                "event": "click<img id=6 alt=\"Photo taken on Oct 5, 2024 3:48 PM\">  </img>"
+            },
+            {
+                "from": "7034267685014691982",
+                "to": "933018363816345875",
+                "event": "click<img id=9 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            },
+            {
+                "from": "933018363816345875",
+                "to": "-6151719073110211331",
+                "event": "click<p id=13 alt=\"Change to crop tab\"> Crop,  </p>"
+            },
+            {
+                "from": "-6151719073110211331",
+                "to": "-6151719073110211331",
+                "event": "click<button id=25 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_save\"> Save copy,  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Usually good, but every update breaks it more. After editing photos, either with the markup tool or by cropping them, I can't save the changes. The \"done\" button exists, but nothing happens when you press it. Can't uninstall/reinstall as it's a system app. Tried force stopping it and clearing the cache. Nope. I wish there was the option to install the previous version of the app.",
+        "scenarios": [
+            "After editing photos, either with the markup tool or by cropping them, the user can't save the changes because pressing the \"done\" button does not have any effect.\n"
+        ],
+        "key sentence": "After editing photos, either with the markup tool or by cropping them, the user can't save the changes because pressing the \"done\" button does not have any effect.\n",
+        "target activity": ".photoeditor.fragments.activity.PhotoEditorActivity",
+        "the function of activity": "An image editing tool with functions to use magic erase, apply blur, remove parts, edit sky, switch tabs, cancel, save, adjust, add text, rotate, resize, adjust brightness, apply filters.",
+        "target state": "state29",
+        "the sub-task list of state": "[{'name': 'Adjust', 'description': 'Change to adjust tab'}, {'name': 'Cancel', 'description': 'Cancel editing'}, {'name': 'Save copy', 'description': 'Save edited photo as a copy'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\0cac1a34967dc9a3d638703f8dff5193.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "0cac1a34967dc9a3d638703f8dff5193"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\7034267685014691982.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7034267685014691982"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\933018363816345875.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "933018363816345875"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\-6151719073110211331.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-6151719073110211331"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\-6151719073110211331.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-6151719073110211331"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\state2.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\state10.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\state11.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\state12.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\state29.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state29"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\7034267685014691982.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7034267685014691982"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\933018363816345875.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "933018363816345875"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\933018363816345875.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "933018363816345875"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\-6320902761821612214.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-6320902761821612214"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment56\\scene0\\-6320902761821612214.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-6320902761821612214"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "0cac1a34967dc9a3d638703f8dff5193",
+                "event": "click(state=fdedbaae0d7db088bdc1a119bf22aa84, view=08bc7c8154b5c2ab796d26d767a03541(HomeActivity/ImageView-Photo take:x0:y1926))"
+            },
+            {
+                "from": "0cac1a34967dc9a3d638703f8dff5193",
+                "to": "7034267685014691982",
+                "event": "click<img id=6 alt=\"Photo taken on Oct 5, 2024 3:48 PM\">  </img>"
+            },
+            {
+                "from": "7034267685014691982",
+                "to": "933018363816345875",
+                "event": "click<img id=9 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            },
+            {
+                "from": "933018363816345875",
+                "to": "-6151719073110211331",
+                "event": "click<p id=13 alt=\"Change to crop tab\"> Crop,  </p>"
+            },
+            {
+                "from": "-6151719073110211331",
+                "to": "-6151719073110211331",
+                "event": "click<button id=25 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_save\"> Save copy,  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "state2",
+                "event": "click(ImageView-Edit:[337,1993][491,2148])"
+            },
+            {
+                "from": "state2",
+                "to": "state10",
+                "event": "click(TextView-Crop{Change to crop tab}:[740,1868][952,1966])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(TextView-Tools{Change to tools tab}:[646,1868][864,1966])"
+            },
+            {
+                "from": "state11",
+                "to": "state12",
+                "event": "click(TextView-Adjust{Change to adjust tab}:[649,1868][889,1966])"
+            },
+            {
+                "from": "state12",
+                "to": "state29",
+                "event": "scroll-left(android.support.v7.widget.RecyclerView-com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_adjust_recyclerview:[0,1485][1080,1837])"
+            },
+            {
+                "from": "state29",
+                "to": "7034267685014691982",
+                "event": "click<button id=16 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_cancel\"> Cancel,  </button>"
+            },
+            {
+                "from": "7034267685014691982",
+                "to": "933018363816345875",
+                "event": "click<img id=9 class =\"com.google.android.apps.photos:id/edit\" alt=\"Edit\">  </img>"
+            },
+            {
+                "from": "933018363816345875",
+                "to": "933018363816345875",
+                "event": "click<button id=16 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_save\"> Save copy,  </button>"
+            },
+            {
+                "from": "933018363816345875",
+                "to": "-6320902761821612214",
+                "event": "click<button id=10 class =\"com.google.android.apps.photos:id/photos_photoeditor_udon_entry_point_button\" alt=\"Magic Editor\">  </button>"
+            },
+            {
+                "from": "-6320902761821612214",
+                "to": "-6320902761821612214",
+                "event": "click<button id=7 class =\"com.google.android.apps.photos:id/photos_photoeditor_udon_save\"> Save copy,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

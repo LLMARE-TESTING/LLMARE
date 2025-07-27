@@ -1,0 +1,626 @@
+[
+    {
+        "round": 1,
+        "comment": "Overall application is good but two things need to update. First thing is Introduce folder option in Library that can help us to move few or all albums to in one folder. It is very important and useful for access photos by planning and fast. As well as second thing is pics once move to album from photos section that should be disappear in photos section. It is best for view and avoid confusion in all pics at photos section. If any issues introduce this two things kindly let us know the reason",
+        "scenarios": [
+            "The user wants to have a folder option in the Library that allows them to move one or multiple albums into a single folder. This feature is described as important and useful for organizing and accessing photos efficiently.\n",
+            "The user wants photos to disappear from the photos section once they are moved to an album, to improve viewing and avoid confusion by not having duplicate photos in the photos section."
+        ],
+        "key sentence": "The user wants photos to disappear from the photos section once they are moved to an album, to improve viewing and avoid confusion by not having duplicate photos in the photos section.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-1498397926749018146.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1498397926749018146"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-1498397926749018146.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1498397926749018146"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-7303565615436936670.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-7303565615436936670"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-7303565615436936670.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-7303565615436936670"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-3651863223876768060.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-3651863223876768060"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-9070070324736457741.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-9070070324736457741"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\7013998620220146035.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "7013998620220146035"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\7013998620220146035.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "7013998620220146035"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\7013998620220146035.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "7013998620220146035"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\7013998620220146035.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "7013998620220146035"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-1498397926749018146",
+                "event": "click<button id=17 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "-1498397926749018146",
+                "to": "-1498397926749018146",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "-1498397926749018146",
+                "to": "-7303565615436936670",
+                "event": "click<button id=16 class =\"com.google.android.apps.photos:id/tab_photos\"> Photos,  </button>"
+            },
+            {
+                "from": "-7303565615436936670",
+                "to": "-7303565615436936670",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/tab_photos\"> Photos,  </button>"
+            },
+            {
+                "from": "-7303565615436936670",
+                "to": "-3651863223876768060",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 5, 2024 11:08 AM\">  </img>"
+            },
+            {
+                "from": "-3651863223876768060",
+                "to": "-9070070324736457741",
+                "event": "click<img id=10 class =\"com.google.android.apps.photos:id/photos_overflow_icon\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-9070070324736457741",
+                "to": "7013998620220146035",
+                "event": "click<button id=4 class =\"com.google.android.apps.photos:id/photos_pager_menu_add_to_album\"> Add to album,  </button>"
+            },
+            {
+                "from": "7013998620220146035",
+                "to": "7013998620220146035",
+                "event": "click<p id=3 class =\"com.google.android.apps.photos:id/title\"> Recent,  </p>"
+            },
+            {
+                "from": "7013998620220146035",
+                "to": "7013998620220146035",
+                "event": "click<p id=6 class =\"com.google.android.apps.photos:id/title\"> All albums,  </p>"
+            },
+            {
+                "from": "7013998620220146035",
+                "to": "7013998620220146035",
+                "event": "click<p id=3 class =\"com.google.android.apps.photos:id/title\"> Recent,  </p>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Overall application is good but two things need to update. First thing is Introduce folder option in Library that can help us to move few or all albums to in one folder. It is very important and useful for access photos by planning and fast. As well as second thing is pics once move to album from photos section that should be disappear in photos section. It is best for view and avoid confusion in all pics at photos section. If any issues introduce this two things kindly let us know the reason",
+        "scenarios": [
+            "The user wants to have a folder option in the Library that allows them to move one or multiple albums into a single folder. This feature is described as important and useful for organizing and accessing photos efficiently.\n",
+            "The user wants photos to disappear from the photos section once they are moved to an album, to improve viewing and avoid confusion by not having duplicate photos in the photos section."
+        ],
+        "key sentence": "The user wants photos to disappear from the photos section once they are moved to an album, to improve viewing and avoid confusion by not having duplicate photos in the photos section.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-1498397926749018146.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1498397926749018146"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-1498397926749018146.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1498397926749018146"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-7303565615436936670.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-7303565615436936670"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-7303565615436936670.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-7303565615436936670"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-3651863223876768060.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-3651863223876768060"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-9070070324736457741.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-9070070324736457741"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\7013998620220146035.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "7013998620220146035"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\7013998620220146035.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "7013998620220146035"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\7013998620220146035.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "7013998620220146035"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\7013998620220146035.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "7013998620220146035"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-7303565615436936670.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-7303565615436936670"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-1498397926749018146.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1498397926749018146"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-3392991541506015659.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-3392991541506015659"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-24055815948188491.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-24055815948188491"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\703565311138304130.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "703565311138304130"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-3119562756941147426.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-3119562756941147426"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\7013998620220146035.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "7013998620220146035"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-1498397926749018146",
+                "event": "click<button id=17 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "-1498397926749018146",
+                "to": "-1498397926749018146",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "-1498397926749018146",
+                "to": "-7303565615436936670",
+                "event": "click<button id=16 class =\"com.google.android.apps.photos:id/tab_photos\"> Photos,  </button>"
+            },
+            {
+                "from": "-7303565615436936670",
+                "to": "-7303565615436936670",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/tab_photos\"> Photos,  </button>"
+            },
+            {
+                "from": "-7303565615436936670",
+                "to": "-3651863223876768060",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 5, 2024 11:08 AM\">  </img>"
+            },
+            {
+                "from": "-3651863223876768060",
+                "to": "-9070070324736457741",
+                "event": "click<img id=10 class =\"com.google.android.apps.photos:id/photos_overflow_icon\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-9070070324736457741",
+                "to": "7013998620220146035",
+                "event": "click<button id=4 class =\"com.google.android.apps.photos:id/photos_pager_menu_add_to_album\"> Add to album,  </button>"
+            },
+            {
+                "from": "7013998620220146035",
+                "to": "7013998620220146035",
+                "event": "click<p id=3 class =\"com.google.android.apps.photos:id/title\"> Recent,  </p>"
+            },
+            {
+                "from": "7013998620220146035",
+                "to": "7013998620220146035",
+                "event": "click<p id=6 class =\"com.google.android.apps.photos:id/title\"> All albums,  </p>"
+            },
+            {
+                "from": "7013998620220146035",
+                "to": "7013998620220146035",
+                "event": "click<p id=3 class =\"com.google.android.apps.photos:id/title\"> Recent,  </p>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-7303565615436936670",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/tab_photos\"> Photos,  </button>"
+            },
+            {
+                "from": "-7303565615436936670",
+                "to": "-1498397926749018146",
+                "event": "click<button id=17 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "-1498397926749018146",
+                "to": "-3392991541506015659",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "-3392991541506015659",
+                "to": "-24055815948188491",
+                "event": "click<p id=11> photo,  </p>"
+            },
+            {
+                "from": "-24055815948188491",
+                "to": "703565311138304130",
+                "event": "click<img id=12 alt=\"Photo taken on Jun 29, 2023 2:52 AM\">  </img>"
+            },
+            {
+                "from": "703565311138304130",
+                "to": "-3119562756941147426",
+                "event": "click<img id=6 class =\"com.google.android.apps.photos:id/photos_overflow_icon\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-3119562756941147426",
+                "to": "7013998620220146035",
+                "event": "click<button id=6 class =\"com.google.android.apps.photos:id/photos_pager_menu_add_to_album\"> Add to album,  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 3,
+        "comment": "Overall application is good but two things need to update. First thing is Introduce folder option in Library that can help us to move few or all albums to in one folder. It is very important and useful for access photos by planning and fast. As well as second thing is pics once move to album from photos section that should be disappear in photos section. It is best for view and avoid confusion in all pics at photos section. If any issues introduce this two things kindly let us know the reason",
+        "scenarios": [
+            "The user wants to have a folder option in the Library that allows them to move one or multiple albums into a single folder. This feature is described as important and useful for organizing and accessing photos efficiently.\n",
+            "The user wants photos to disappear from the photos section once they are moved to an album, to improve viewing and avoid confusion by not having duplicate photos in the photos section."
+        ],
+        "key sentence": "The user wants photos to disappear from the photos section once they are moved to an album, to improve viewing and avoid confusion by not having duplicate photos in the photos section.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-1498397926749018146.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1498397926749018146"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-1498397926749018146.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1498397926749018146"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-7303565615436936670.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-7303565615436936670"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-7303565615436936670.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-7303565615436936670"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-3651863223876768060.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-3651863223876768060"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-9070070324736457741.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-9070070324736457741"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\7013998620220146035.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "7013998620220146035"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\7013998620220146035.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "7013998620220146035"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\7013998620220146035.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "7013998620220146035"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\7013998620220146035.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "7013998620220146035"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-7303565615436936670.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-7303565615436936670"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-1498397926749018146.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1498397926749018146"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-3392991541506015659.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-3392991541506015659"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-24055815948188491.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-24055815948188491"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\703565311138304130.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "703565311138304130"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-3119562756941147426.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-3119562756941147426"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\7013998620220146035.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "7013998620220146035"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-7303565615436936670.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-7303565615436936670"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-3651863223876768060.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-3651863223876768060"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-9070070324736457741.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-9070070324736457741"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\6535307219321781962.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "6535307219321781962"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-5165664061043414628.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5165664061043414628"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-1498397926749018146.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1498397926749018146"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-3392991541506015659.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-3392991541506015659"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-1486155108202383235.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-1486155108202383235"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-3392991541506015659.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "-3392991541506015659"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment20\\scene0\\scene1\\-1498397926749018146.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1498397926749018146"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-1498397926749018146",
+                "event": "click<button id=17 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "-1498397926749018146",
+                "to": "-1498397926749018146",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "-1498397926749018146",
+                "to": "-7303565615436936670",
+                "event": "click<button id=16 class =\"com.google.android.apps.photos:id/tab_photos\"> Photos,  </button>"
+            },
+            {
+                "from": "-7303565615436936670",
+                "to": "-7303565615436936670",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/tab_photos\"> Photos,  </button>"
+            },
+            {
+                "from": "-7303565615436936670",
+                "to": "-3651863223876768060",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 5, 2024 11:08 AM\">  </img>"
+            },
+            {
+                "from": "-3651863223876768060",
+                "to": "-9070070324736457741",
+                "event": "click<img id=10 class =\"com.google.android.apps.photos:id/photos_overflow_icon\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-9070070324736457741",
+                "to": "7013998620220146035",
+                "event": "click<button id=4 class =\"com.google.android.apps.photos:id/photos_pager_menu_add_to_album\"> Add to album,  </button>"
+            },
+            {
+                "from": "7013998620220146035",
+                "to": "7013998620220146035",
+                "event": "click<p id=3 class =\"com.google.android.apps.photos:id/title\"> Recent,  </p>"
+            },
+            {
+                "from": "7013998620220146035",
+                "to": "7013998620220146035",
+                "event": "click<p id=6 class =\"com.google.android.apps.photos:id/title\"> All albums,  </p>"
+            },
+            {
+                "from": "7013998620220146035",
+                "to": "7013998620220146035",
+                "event": "click<p id=3 class =\"com.google.android.apps.photos:id/title\"> Recent,  </p>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-7303565615436936670",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/tab_photos\"> Photos,  </button>"
+            },
+            {
+                "from": "-7303565615436936670",
+                "to": "-1498397926749018146",
+                "event": "click<button id=17 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "-1498397926749018146",
+                "to": "-3392991541506015659",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "-3392991541506015659",
+                "to": "-24055815948188491",
+                "event": "click<p id=11> photo,  </p>"
+            },
+            {
+                "from": "-24055815948188491",
+                "to": "703565311138304130",
+                "event": "click<img id=12 alt=\"Photo taken on Jun 29, 2023 2:52 AM\">  </img>"
+            },
+            {
+                "from": "703565311138304130",
+                "to": "-3119562756941147426",
+                "event": "click<img id=6 class =\"com.google.android.apps.photos:id/photos_overflow_icon\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-3119562756941147426",
+                "to": "7013998620220146035",
+                "event": "click<button id=6 class =\"com.google.android.apps.photos:id/photos_pager_menu_add_to_album\"> Add to album,  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-7303565615436936670",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/tab_photos\"> Photos,  </button>"
+            },
+            {
+                "from": "-7303565615436936670",
+                "to": "-3651863223876768060",
+                "event": "click<img id=7 alt=\"Photo taken on Jun 5, 2024 11:08 AM\">  </img>"
+            },
+            {
+                "from": "-3651863223876768060",
+                "to": "-9070070324736457741",
+                "event": "click<img id=10 class =\"com.google.android.apps.photos:id/photos_overflow_icon\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-9070070324736457741",
+                "to": "6535307219321781962",
+                "event": "click<button id=5 class =\"com.google.android.apps.photos:id/photos_pager_menu_archive\"> Move to Archive,  </button>"
+            },
+            {
+                "from": "6535307219321781962",
+                "to": -5165664061043414628,
+                "event": "back"
+            },
+            {
+                "from": -5165664061043414628,
+                "to": "-1498397926749018146",
+                "event": "click<button id=16 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "-1498397926749018146",
+                "to": "-3392991541506015659",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "-3392991541506015659",
+                "to": "-1486155108202383235",
+                "event": "click<p id=5> 5 items \u2022 Shared,  </p>"
+            },
+            {
+                "from": "-1486155108202383235",
+                "to": "-3392991541506015659",
+                "event": "click<button id=8 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-3392991541506015659",
+                "to": "-1498397926749018146",
+                "event": "click<div id=15 alt=\"Navigate up\">  </div>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

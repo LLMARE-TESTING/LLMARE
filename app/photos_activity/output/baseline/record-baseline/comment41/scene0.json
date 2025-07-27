@@ -1,0 +1,126 @@
+[
+    {
+        "round": 1,
+        "comment": "If the option 'Save to SD card' in the stock camera app is turned on, every picture I take is rotated 90 degrees to the left when I view it. If I press on the preview really quick after taking a picture I see the image with correct orientation and the text 'Processing photo' for a short moment. After that the image is rotated. The thumbnail in the gallery app shows the picture upright, but when I open it to show full screen, the image automatically rotates to the left again.",
+        "scenarios": [
+            "Taking a picture with the 'Save to SD card' option turned on results in the image being rotated 90 degrees to the left when viewed in full screen.  ",
+            "Seeing the correct orientation briefly with the text 'Processing photo' after pressing the preview quickly after taking a picture.  ",
+            "Viewing the thumbnail in the gallery app shows the picture upright, but it rotates to the left when opened in full screen."
+        ],
+        "key sentence": "Taking a picture with the 'Save to SD card' option turned on results in the image being rotated 90 degrees to the left when viewed in full screen.  ",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene0\\-1266138844986772360.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1266138844986772360"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene0\\-3312248227753005499.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-3312248227753005499"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene0\\-5013468605142530795.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-5013468605142530795"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene0\\-1266138844986772360.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1266138844986772360"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene0\\-5512970613729396783.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "-5512970613729396783"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene0\\-1477532077546015146.png",
+                "activity": "com.android.camera.CameraLauncher}",
+                "state_str": "-1477532077546015146"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene0\\-6156614962202271405.png",
+                "activity": "com.android.camera.CameraLauncher}",
+                "state_str": "-6156614962202271405"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene0\\4213396337049323619.png",
+                "activity": "com.android.camera.CameraLauncher}",
+                "state_str": "4213396337049323619"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene0\\3078432276714453858.png",
+                "activity": "com.android.camera.CameraLauncher}",
+                "state_str": "3078432276714453858"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment41\\scene0\\3456807340321415017.png",
+                "activity": "com.android.camera.CameraLauncher}",
+                "state_str": "3456807340321415017"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-1266138844986772360",
+                "event": "click<div id=2 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            },
+            {
+                "from": "-1266138844986772360",
+                "to": "-3312248227753005499",
+                "event": "click<img id=6 alt=\"Movie taken on Sep 22, 2024 1:00 AM\">  </img>"
+            },
+            {
+                "from": "-3312248227753005499",
+                "to": "-5013468605142530795",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/photo_pager\">  </div>"
+            },
+            {
+                "from": "-5013468605142530795",
+                "to": "-1266138844986772360",
+                "event": "click<button id=9 alt=\"Navigate up\">  </button>"
+            },
+            {
+                "from": "-1266138844986772360",
+                "to": -5512970613729396783,
+                "event": "back"
+            },
+            {
+                "from": -5512970613729396783,
+                "to": "-1477532077546015146",
+                "event": "click<button id=16> Camera,  </button>"
+            },
+            {
+                "from": "-1477532077546015146",
+                "to": "-6156614962202271405",
+                "event": "click<img id=1 class =\"org.codeaurora.snapcam:id/menu\" alt=\"Menu button\">  </img>"
+            },
+            {
+                "from": "-6156614962202271405",
+                "to": "4213396337049323619",
+                "event": "click<p id=4 class =\"org.codeaurora.snapcam:id/title\"> GPS location,  </p>"
+            },
+            {
+                "from": "4213396337049323619",
+                "to": "3078432276714453858",
+                "event": "click<img id=1 class =\"org.codeaurora.snapcam:id/ts_makeup_switcher\">  </img>"
+            },
+            {
+                "from": "3078432276714453858",
+                "to": "3456807340321415017",
+                "event": "click<img id=5 class =\"org.codeaurora.snapcam:id/shutter_button\" alt=\"Shutter\">  </img>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

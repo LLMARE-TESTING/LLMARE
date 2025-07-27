@@ -1,0 +1,383 @@
+[
+    {
+        "round": 1,
+        "comment": "Whatever's happened in the most recent update has knackered the ability to add text to images in the editing features. I can get the words on the image but controlling the location and sizing has become a pain. Assuming this is investigated and fixed, it would be nice to see the text autofill the box size fully rather than just on height. Otherwise it's a decent photo storage app and I'm quite happy using it.",
+        "scenarios": [
+            "Adding text to images in the editing features: The user is able to get the words on the image, but controlling the location and sizing of the text has become difficult after the most recent update.",
+            "Expectation for the text to autofill the box size fully rather than just on height when fixing text editing issues."
+        ],
+        "key sentence": "Adding text to images in the editing features: The user is able to get the words on the image, but controlling the location and sizing of the text has become difficult after the most recent update.",
+        "target activity": ".photoeditor.fragments.activity.PhotoEditorActivity",
+        "the function of activity": "An image editing tool with functions to use magic erase, apply blur, remove parts, edit sky, switch tabs, cancel, save, adjust, add text, rotate, resize, adjust brightness, apply filters.",
+        "target state": "state14",
+        "the sub-task list of state": "[{'name': 'Add text', 'description': 'Insert text onto the photo'}, {'name': 'Pen', 'description': 'Use pen to markup on the photo'}, {'name': 'Highlighter', 'description': 'Use highlighter to markup on the photo'}, {'name': 'Draw', 'description': 'Use a drawing tool to make annotations on the photo'}, {'name': 'Undo/Redo', 'description': 'Undo or redo the last edit made to the photo'}, {'name': 'Save', 'description': 'Save the edited photo'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state2.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state10.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state11.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state12.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state13.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state14.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state14"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\2873977451757203324.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "2873977451757203324"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\-6523746701276933417.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-6523746701276933417"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\-8382847514364058478.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-8382847514364058478"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\-2539468760508368925.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-2539468760508368925"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "state2",
+                "event": "click(ImageView-Edit:[337,1993][491,2148])"
+            },
+            {
+                "from": "state2",
+                "to": "state10",
+                "event": "click(TextView-Crop{Change to crop tab}:[740,1868][952,1966])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(TextView-Tools{Change to tools tab}:[646,1868][864,1966])"
+            },
+            {
+                "from": "state11",
+                "to": "state12",
+                "event": "click(TextView-Adjust{Change to adjust tab}:[649,1868][889,1966])"
+            },
+            {
+                "from": "state12",
+                "to": "state13",
+                "event": "click(TextView-Filters{Change to filters tab}:[660,1868][896,1966])"
+            },
+            {
+                "from": "state13",
+                "to": "state14",
+                "event": "click(TextView-Markup{Change to markup tab}:[658,1868][920,1966])"
+            },
+            {
+                "from": "state14",
+                "to": "2873977451757203324",
+                "event": "click<p id=6 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_tools_text\"> Text,  </p>"
+            },
+            {
+                "from": "2873977451757203324",
+                "to": "-6523746701276933417",
+                "event": "input<input id=2 class =\"com.google.android.apps.photos:id/photos_photoeditor_markup_impl_edit_text\"> Type something,  </input>Sample Text"
+            },
+            {
+                "from": "-6523746701276933417",
+                "to": "-8382847514364058478",
+                "event": "click<button id=11 class =\"com.google.android.apps.photos:id/photos_photoeditor_markup_impl_text_edit_done\"> Done,  </button>"
+            },
+            {
+                "from": "-8382847514364058478",
+                "to": "-2539468760508368925",
+                "event": "click<button id=16 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_done\"> Done,  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Whatever's happened in the most recent update has knackered the ability to add text to images in the editing features. I can get the words on the image but controlling the location and sizing has become a pain. Assuming this is investigated and fixed, it would be nice to see the text autofill the box size fully rather than just on height. Otherwise it's a decent photo storage app and I'm quite happy using it.",
+        "scenarios": [
+            "Adding text to images in the editing features: The user is able to get the words on the image, but controlling the location and sizing of the text has become difficult after the most recent update.",
+            "Expectation for the text to autofill the box size fully rather than just on height when fixing text editing issues."
+        ],
+        "key sentence": "Adding text to images in the editing features: The user is able to get the words on the image, but controlling the location and sizing of the text has become difficult after the most recent update.",
+        "target activity": ".photoeditor.fragments.activity.PhotoEditorActivity",
+        "the function of activity": "An image editing tool with functions to use magic erase, apply blur, remove parts, edit sky, switch tabs, cancel, save, adjust, add text, rotate, resize, adjust brightness, apply filters.",
+        "target state": "state14",
+        "the sub-task list of state": "[{'name': 'Add text', 'description': 'Insert text onto the photo'}, {'name': 'Pen', 'description': 'Use pen to markup on the photo'}, {'name': 'Highlighter', 'description': 'Use highlighter to markup on the photo'}, {'name': 'Draw', 'description': 'Use a drawing tool to make annotations on the photo'}, {'name': 'Undo/Redo', 'description': 'Undo or redo the last edit made to the photo'}, {'name': 'Save', 'description': 'Save the edited photo'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state2.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state10.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state11.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state12.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state13.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state14.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state14"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\2873977451757203324.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "2873977451757203324"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\-6523746701276933417.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-6523746701276933417"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\-8382847514364058478.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-8382847514364058478"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\-2539468760508368925.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-2539468760508368925"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state1.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state2.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state10.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state11.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state12.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state13.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\state14.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "state14"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\2873977451757203324.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "2873977451757203324"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\-5353711059319556954.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-5353711059319556954"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\-6305272338117026555.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-6305272338117026555"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment40\\scene0\\-5124570260867876877.png",
+                "activity": "com.google.android.apps.photos.photoeditor.fragments.activity.PhotoEditorActivity}",
+                "state_str": "-5124570260867876877"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "state2",
+                "event": "click(ImageView-Edit:[337,1993][491,2148])"
+            },
+            {
+                "from": "state2",
+                "to": "state10",
+                "event": "click(TextView-Crop{Change to crop tab}:[740,1868][952,1966])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(TextView-Tools{Change to tools tab}:[646,1868][864,1966])"
+            },
+            {
+                "from": "state11",
+                "to": "state12",
+                "event": "click(TextView-Adjust{Change to adjust tab}:[649,1868][889,1966])"
+            },
+            {
+                "from": "state12",
+                "to": "state13",
+                "event": "click(TextView-Filters{Change to filters tab}:[660,1868][896,1966])"
+            },
+            {
+                "from": "state13",
+                "to": "state14",
+                "event": "click(TextView-Markup{Change to markup tab}:[658,1868][920,1966])"
+            },
+            {
+                "from": "state14",
+                "to": "2873977451757203324",
+                "event": "click<p id=6 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_tools_text\"> Text,  </p>"
+            },
+            {
+                "from": "2873977451757203324",
+                "to": "-6523746701276933417",
+                "event": "input<input id=2 class =\"com.google.android.apps.photos:id/photos_photoeditor_markup_impl_edit_text\"> Type something,  </input>Sample Text"
+            },
+            {
+                "from": "-6523746701276933417",
+                "to": "-8382847514364058478",
+                "event": "click<button id=11 class =\"com.google.android.apps.photos:id/photos_photoeditor_markup_impl_text_edit_done\"> Done,  </button>"
+            },
+            {
+                "from": "-8382847514364058478",
+                "to": "-2539468760508368925",
+                "event": "click<button id=16 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_done\"> Done,  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "state1",
+                "event": "click(ImageView-Photo taken on Apr 7, 2024 4:50:29 PM:[0,457][355,812])"
+            },
+            {
+                "from": "state1",
+                "to": "state2",
+                "event": "click(ImageView-Edit:[337,1993][491,2148])"
+            },
+            {
+                "from": "state2",
+                "to": "state10",
+                "event": "click(TextView-Crop{Change to crop tab}:[740,1868][952,1966])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(TextView-Tools{Change to tools tab}:[646,1868][864,1966])"
+            },
+            {
+                "from": "state11",
+                "to": "state12",
+                "event": "click(TextView-Adjust{Change to adjust tab}:[649,1868][889,1966])"
+            },
+            {
+                "from": "state12",
+                "to": "state13",
+                "event": "click(TextView-Filters{Change to filters tab}:[660,1868][896,1966])"
+            },
+            {
+                "from": "state13",
+                "to": "state14",
+                "event": "click(TextView-Markup{Change to markup tab}:[658,1868][920,1966])"
+            },
+            {
+                "from": "state14",
+                "to": "2873977451757203324",
+                "event": "click<p id=6 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_tools_text\"> Text,  </p>"
+            },
+            {
+                "from": "2873977451757203324",
+                "to": "-5353711059319556954",
+                "event": "click<input id=2 class =\"com.google.android.apps.photos:id/photos_photoeditor_markup_impl_edit_text\"> Type something,  </input>"
+            },
+            {
+                "from": "-5353711059319556954",
+                "to": "-6305272338117026555",
+                "event": "click<button id=12 class =\"com.google.android.apps.photos:id/photos_photoeditor_markup_impl_text_edit_done\"> Done,  </button>"
+            },
+            {
+                "from": "-6305272338117026555",
+                "to": "-5124570260867876877",
+                "event": "click<p id=6 class =\"com.google.android.apps.photos:id/photos_photoeditor_fragments_editor3_tools_text\"> Text,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

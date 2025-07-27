@@ -1,0 +1,125 @@
+[
+    {
+        "round": 4,
+        "comment": "My only real gripe with this app is that it doesn't upload albums so when your trying to find a specific picture you have to scroll through EVERYTHING and it's incredibly frustrating. Can you implement this feature please. And to implant a feature that if you backup your photos from your device it automatically sorts out what's there into the allocated albums so I don't have to spend days combing through and sorting them out manually. Thank you.",
+        "scenarios": [
+            "The app does not upload albums, requiring the user to scroll through all photos to find a specific picture.",
+            "When backing up photos from the device, the app does not automatically sort them into allocated albums, forcing the user to manually organize the photos."
+        ],
+        "key sentence": "When backing up photos from the device, the app does not automatically sort them into allocated albums, forcing the user to manually organize the photos.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\scene0\\scene1\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\scene0\\scene1\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\scene0\\scene1\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\scene0\\scene1\\-2543133396598339467.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-2543133396598339467"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\scene0\\scene1\\-2543133396598339467.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-2543133396598339467"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\scene0\\scene1\\-3550387663739322235.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "-3550387663739322235"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\scene0\\scene1\\-2543133396598339467.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-2543133396598339467"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\scene0\\scene1\\-497193114735489088.png",
+                "activity": "",
+                "state_str": "-497193114735489088"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\scene0\\scene1\\265975821393770689.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "265975821393770689"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\scene0\\scene1\\265975821393770689.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "265975821393770689"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment29\\scene0\\scene1\\-3550387663739322235.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "-3550387663739322235"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "2694856776442896546",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2183650899420068888",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "2183650899420068888",
+                "to": "-2543133396598339467",
+                "event": "click<div id=17 alt=\"Create album\">  </div>"
+            },
+            {
+                "from": "-2543133396598339467",
+                "to": "-2543133396598339467",
+                "event": "click<p id=11> Add photos,  </p>"
+            },
+            {
+                "from": "-2543133396598339467",
+                "to": "-3550387663739322235",
+                "event": "click<p id=13 class =\"com.google.android.apps.photos:id/button_title\"> Select photos,  </p>"
+            },
+            {
+                "from": "-3550387663739322235",
+                "to": "-2543133396598339467",
+                "event": "click<button id=1 class =\"com.google.android.apps.photos:id/close_button\" alt=\"Cancel\">  </button>"
+            },
+            {
+                "from": "-2543133396598339467",
+                "to": "-497193114735489088",
+                "event": "click<img id=7 class =\"com.google.android.apps.photos:id/photos_overflow_icon\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-497193114735489088",
+                "to": "265975821393770689",
+                "event": "click<p id=0 class =\"com.google.android.apps.photos:id/action_bar_overflow_menu_item_title\"> Select,  </p>"
+            },
+            {
+                "from": "265975821393770689",
+                "to": "265975821393770689",
+                "event": "click<p id=11> Add photos,  </p>"
+            },
+            {
+                "from": "265975821393770689",
+                "to": "-3550387663739322235",
+                "event": "click<p id=13 class =\"com.google.android.apps.photos:id/button_title\"> Select photos,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

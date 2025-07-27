@@ -1,0 +1,803 @@
+[
+    {
+        "round": 1,
+        "comment": "Update: the \"for you\" section has been removed. So nothing was fixed. Just removed. I would rate this app much higher. But the frustration I have with editing movies created in the \"for you\" section. When editing these movies the app crashes, either while editing or when trying to save. Repeating the edit changes until it finally works can take several tries. This issue is horrible. Wish this issue could be fixed. New: I uploaded lots of old photos from my digital camera. Need mass/batch rotate",
+        "scenarios": [
+            "When editing movies created in the \"for you\" section, the app crashes either during the editing process or when trying to save, requiring several attempts to successfully complete the edits.\n"
+        ],
+        "key sentence": "When editing movies created in the \"for you\" section, the app crashes either during the editing process or when trying to save, requiring several attempts to successfully complete the edits.\n",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\8817627440370867983.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8817627440370867983"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-5900062143511925361.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-5900062143511925361"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\2075928775478522438.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "2075928775478522438"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-5900062143511925361.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-5900062143511925361"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\7432689235976156809.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "7432689235976156809"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\6019420986738770436.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "6019420986738770436"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\8817627440370867983.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8817627440370867983"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\8817627440370867983.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8817627440370867983"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "8817627440370867983",
+                "event": "click<button id=19 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "8817627440370867983",
+                "to": "-3088496003699808648",
+                "event": "click<button id=13 class =\"com.google.android.apps.photos:id/action_bar_create\" alt=\"Creations\">  </button>"
+            },
+            {
+                "from": "-3088496003699808648",
+                "to": "-5900062143511925361",
+                "event": "click<p id=5 class =\"com.google.android.apps.photos:id/title\"> Highlight video,  </p>"
+            },
+            {
+                "from": "-5900062143511925361",
+                "to": -3088496003699808648,
+                "event": "back"
+            },
+            {
+                "from": -3088496003699808648,
+                "to": "2075928775478522438",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            },
+            {
+                "from": "2075928775478522438",
+                "to": -3088496003699808648,
+                "event": "back"
+            },
+            {
+                "from": -3088496003699808648,
+                "to": "-5900062143511925361",
+                "event": "click<p id=5 class =\"com.google.android.apps.photos:id/title\"> Highlight video,  </p>"
+            },
+            {
+                "from": "-5900062143511925361",
+                "to": "7432689235976156809",
+                "event": "click<button id=2 class =\"com.google.android.apps.photos:id/photos_create_movie_assistivecreation_create_button\"> Preview,  </button>"
+            },
+            {
+                "from": "7432689235976156809",
+                "to": -3088496003699808648,
+                "event": "back"
+            },
+            {
+                "from": -3088496003699808648,
+                "to": "6019420986738770436",
+                "event": "click<img id=2 class =\"com.google.android.apps.photos:id/icon\">  </img>"
+            },
+            {
+                "from": "6019420986738770436",
+                "to": 8817627440370867983,
+                "event": "back"
+            },
+            {
+                "from": 8817627440370867983,
+                "to": "8817627440370867983",
+                "event": "click<div id=2 class =\"com.google.android.apps.photos:id/photos_collectionstab_grid_view\">  </div>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "Update: the \"for you\" section has been removed. So nothing was fixed. Just removed. I would rate this app much higher. But the frustration I have with editing movies created in the \"for you\" section. When editing these movies the app crashes, either while editing or when trying to save. Repeating the edit changes until it finally works can take several tries. This issue is horrible. Wish this issue could be fixed. New: I uploaded lots of old photos from my digital camera. Need mass/batch rotate",
+        "scenarios": [
+            "When editing movies created in the \"for you\" section, the app crashes either during the editing process or when trying to save, requiring several attempts to successfully complete the edits.\n"
+        ],
+        "key sentence": "When editing movies created in the \"for you\" section, the app crashes either during the editing process or when trying to save, requiring several attempts to successfully complete the edits.\n",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\8817627440370867983.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8817627440370867983"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-5900062143511925361.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-5900062143511925361"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\2075928775478522438.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "2075928775478522438"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-5900062143511925361.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-5900062143511925361"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\7432689235976156809.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "7432689235976156809"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\6019420986738770436.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "6019420986738770436"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\8817627440370867983.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8817627440370867983"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\8817627440370867983.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8817627440370867983"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\8817627440370867983.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8817627440370867983"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-5900062143511925361.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-5900062143511925361"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\7432689235976156809.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "7432689235976156809"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\1553667983773180224.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "1553667983773180224"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\6019420986738770436.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "6019420986738770436"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\8817627440370867983.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8817627440370867983"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\7708158617648356463.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7708158617648356463"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\8817627440370867983.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8817627440370867983"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\7708158617648356463.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7708158617648356463"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\6281484877224585694.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "6281484877224585694"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "8817627440370867983",
+                "event": "click<button id=19 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "8817627440370867983",
+                "to": "-3088496003699808648",
+                "event": "click<button id=13 class =\"com.google.android.apps.photos:id/action_bar_create\" alt=\"Creations\">  </button>"
+            },
+            {
+                "from": "-3088496003699808648",
+                "to": "-5900062143511925361",
+                "event": "click<p id=5 class =\"com.google.android.apps.photos:id/title\"> Highlight video,  </p>"
+            },
+            {
+                "from": "-5900062143511925361",
+                "to": -3088496003699808648,
+                "event": "back"
+            },
+            {
+                "from": -3088496003699808648,
+                "to": "2075928775478522438",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            },
+            {
+                "from": "2075928775478522438",
+                "to": -3088496003699808648,
+                "event": "back"
+            },
+            {
+                "from": -3088496003699808648,
+                "to": "-5900062143511925361",
+                "event": "click<p id=5 class =\"com.google.android.apps.photos:id/title\"> Highlight video,  </p>"
+            },
+            {
+                "from": "-5900062143511925361",
+                "to": "7432689235976156809",
+                "event": "click<button id=2 class =\"com.google.android.apps.photos:id/photos_create_movie_assistivecreation_create_button\"> Preview,  </button>"
+            },
+            {
+                "from": "7432689235976156809",
+                "to": -3088496003699808648,
+                "event": "back"
+            },
+            {
+                "from": -3088496003699808648,
+                "to": "6019420986738770436",
+                "event": "click<img id=2 class =\"com.google.android.apps.photos:id/icon\">  </img>"
+            },
+            {
+                "from": "6019420986738770436",
+                "to": 8817627440370867983,
+                "event": "back"
+            },
+            {
+                "from": 8817627440370867983,
+                "to": "8817627440370867983",
+                "event": "click<div id=2 class =\"com.google.android.apps.photos:id/photos_collectionstab_grid_view\">  </div>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "8817627440370867983",
+                "event": "click<button id=19 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "8817627440370867983",
+                "to": "-3088496003699808648",
+                "event": "click<button id=13 class =\"com.google.android.apps.photos:id/action_bar_create\" alt=\"Creations\">  </button>"
+            },
+            {
+                "from": "-3088496003699808648",
+                "to": "-5900062143511925361",
+                "event": "click<p id=5 class =\"com.google.android.apps.photos:id/title\"> Highlight video,  </p>"
+            },
+            {
+                "from": "-5900062143511925361",
+                "to": "7432689235976156809",
+                "event": "click<button id=2 class =\"com.google.android.apps.photos:id/photos_create_movie_assistivecreation_create_button\"> Preview,  </button>"
+            },
+            {
+                "from": "7432689235976156809",
+                "to": "1553667983773180224",
+                "event": "click<button id=9 class =\"com.google.android.apps.photos:id/photos_create_movie_assistivecreation_manual_creation\"> or select photos,  </button>"
+            },
+            {
+                "from": "1553667983773180224",
+                "to": "-3088496003699808648",
+                "event": "click<button id=1 class =\"com.google.android.apps.photos:id/close_button\" alt=\"Cancel\">  </button>"
+            },
+            {
+                "from": "-3088496003699808648",
+                "to": "6019420986738770436",
+                "event": "click<img id=2 class =\"com.google.android.apps.photos:id/icon\">  </img>"
+            },
+            {
+                "from": "6019420986738770436",
+                "to": 8817627440370867983,
+                "event": "back"
+            },
+            {
+                "from": 8817627440370867983,
+                "to": "7708158617648356463",
+                "event": "click<button id=17 class =\"com.google.android.apps.photos:id/tab_memories\"> Memories,  </button>"
+            },
+            {
+                "from": "7708158617648356463",
+                "to": "8817627440370867983",
+                "event": "click<button id=14 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "8817627440370867983",
+                "to": "7708158617648356463",
+                "event": "click<button id=17 class =\"com.google.android.apps.photos:id/tab_memories\"> Memories,  </button>"
+            },
+            {
+                "from": "7708158617648356463",
+                "to": "6281484877224585694",
+                "event": "click<button id=6 class =\"com.google.android.apps.photos:id/photos_story_card_title\"> background,  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 3,
+        "comment": "Update: the \"for you\" section has been removed. So nothing was fixed. Just removed. I would rate this app much higher. But the frustration I have with editing movies created in the \"for you\" section. When editing these movies the app crashes, either while editing or when trying to save. Repeating the edit changes until it finally works can take several tries. This issue is horrible. Wish this issue could be fixed. New: I uploaded lots of old photos from my digital camera. Need mass/batch rotate",
+        "scenarios": [
+            "When editing movies created in the \"for you\" section, the app crashes either during the editing process or when trying to save, requiring several attempts to successfully complete the edits.\n"
+        ],
+        "key sentence": "When editing movies created in the \"for you\" section, the app crashes either during the editing process or when trying to save, requiring several attempts to successfully complete the edits.\n",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\8817627440370867983.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8817627440370867983"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-5900062143511925361.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-5900062143511925361"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\2075928775478522438.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "2075928775478522438"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-5900062143511925361.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-5900062143511925361"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\7432689235976156809.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "7432689235976156809"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\6019420986738770436.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "6019420986738770436"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\8817627440370867983.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8817627440370867983"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\8817627440370867983.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8817627440370867983"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\8817627440370867983.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8817627440370867983"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-5900062143511925361.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-5900062143511925361"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\7432689235976156809.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "7432689235976156809"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\1553667983773180224.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "1553667983773180224"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\6019420986738770436.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "6019420986738770436"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\8817627440370867983.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8817627440370867983"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\7708158617648356463.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7708158617648356463"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\8817627440370867983.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8817627440370867983"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\7708158617648356463.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "7708158617648356463"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\6281484877224585694.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "6281484877224585694"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-5900062143511925361.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-5900062143511925361"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\7432689235976156809.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "7432689235976156809"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\2075928775478522438.png",
+                "activity": "com.google.android.apps.photos.picker.impl.SearchablePickerActivity}",
+                "state_str": "2075928775478522438"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-5900062143511925361.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "-5900062143511925361"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\7432689235976156809.png",
+                "activity": "com.google.android.apps.photos.create.movie.assistivecreation.CreateAssistiveMovieInputActivity}",
+                "state_str": "7432689235976156809"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-3088496003699808648.png",
+                "activity": "com.google.android.apps.photos.create.CreateActivity}",
+                "state_str": "-3088496003699808648"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\6019420986738770436.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "6019420986738770436"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\-1226419320797223286.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "-1226419320797223286"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment10\\scene0\\8817627440370867983.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "8817627440370867983"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "8817627440370867983",
+                "event": "click<button id=19 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "8817627440370867983",
+                "to": "-3088496003699808648",
+                "event": "click<button id=13 class =\"com.google.android.apps.photos:id/action_bar_create\" alt=\"Creations\">  </button>"
+            },
+            {
+                "from": "-3088496003699808648",
+                "to": "-5900062143511925361",
+                "event": "click<p id=5 class =\"com.google.android.apps.photos:id/title\"> Highlight video,  </p>"
+            },
+            {
+                "from": "-5900062143511925361",
+                "to": -3088496003699808648,
+                "event": "back"
+            },
+            {
+                "from": -3088496003699808648,
+                "to": "2075928775478522438",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            },
+            {
+                "from": "2075928775478522438",
+                "to": -3088496003699808648,
+                "event": "back"
+            },
+            {
+                "from": -3088496003699808648,
+                "to": "-5900062143511925361",
+                "event": "click<p id=5 class =\"com.google.android.apps.photos:id/title\"> Highlight video,  </p>"
+            },
+            {
+                "from": "-5900062143511925361",
+                "to": "7432689235976156809",
+                "event": "click<button id=2 class =\"com.google.android.apps.photos:id/photos_create_movie_assistivecreation_create_button\"> Preview,  </button>"
+            },
+            {
+                "from": "7432689235976156809",
+                "to": -3088496003699808648,
+                "event": "back"
+            },
+            {
+                "from": -3088496003699808648,
+                "to": "6019420986738770436",
+                "event": "click<img id=2 class =\"com.google.android.apps.photos:id/icon\">  </img>"
+            },
+            {
+                "from": "6019420986738770436",
+                "to": 8817627440370867983,
+                "event": "back"
+            },
+            {
+                "from": 8817627440370867983,
+                "to": "8817627440370867983",
+                "event": "click<div id=2 class =\"com.google.android.apps.photos:id/photos_collectionstab_grid_view\">  </div>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "8817627440370867983",
+                "event": "click<button id=19 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "8817627440370867983",
+                "to": "-3088496003699808648",
+                "event": "click<button id=13 class =\"com.google.android.apps.photos:id/action_bar_create\" alt=\"Creations\">  </button>"
+            },
+            {
+                "from": "-3088496003699808648",
+                "to": "-5900062143511925361",
+                "event": "click<p id=5 class =\"com.google.android.apps.photos:id/title\"> Highlight video,  </p>"
+            },
+            {
+                "from": "-5900062143511925361",
+                "to": "7432689235976156809",
+                "event": "click<button id=2 class =\"com.google.android.apps.photos:id/photos_create_movie_assistivecreation_create_button\"> Preview,  </button>"
+            },
+            {
+                "from": "7432689235976156809",
+                "to": "1553667983773180224",
+                "event": "click<button id=9 class =\"com.google.android.apps.photos:id/photos_create_movie_assistivecreation_manual_creation\"> or select photos,  </button>"
+            },
+            {
+                "from": "1553667983773180224",
+                "to": "-3088496003699808648",
+                "event": "click<button id=1 class =\"com.google.android.apps.photos:id/close_button\" alt=\"Cancel\">  </button>"
+            },
+            {
+                "from": "-3088496003699808648",
+                "to": "6019420986738770436",
+                "event": "click<img id=2 class =\"com.google.android.apps.photos:id/icon\">  </img>"
+            },
+            {
+                "from": "6019420986738770436",
+                "to": 8817627440370867983,
+                "event": "back"
+            },
+            {
+                "from": 8817627440370867983,
+                "to": "7708158617648356463",
+                "event": "click<button id=17 class =\"com.google.android.apps.photos:id/tab_memories\"> Memories,  </button>"
+            },
+            {
+                "from": "7708158617648356463",
+                "to": "8817627440370867983",
+                "event": "click<button id=14 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "8817627440370867983",
+                "to": "7708158617648356463",
+                "event": "click<button id=17 class =\"com.google.android.apps.photos:id/tab_memories\"> Memories,  </button>"
+            },
+            {
+                "from": "7708158617648356463",
+                "to": "6281484877224585694",
+                "event": "click<button id=6 class =\"com.google.android.apps.photos:id/photos_story_card_title\"> background,  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "-3088496003699808648",
+                "event": "click<button id=14 class =\"com.google.android.apps.photos:id/action_bar_create\" alt=\"Creations\">  </button>"
+            },
+            {
+                "from": "-3088496003699808648",
+                "to": "-5900062143511925361",
+                "event": "click<p id=5 class =\"com.google.android.apps.photos:id/title\"> Highlight video,  </p>"
+            },
+            {
+                "from": "-5900062143511925361",
+                "to": "7432689235976156809",
+                "event": "click<button id=2 class =\"com.google.android.apps.photos:id/photos_create_movie_assistivecreation_create_button\"> Preview,  </button>"
+            },
+            {
+                "from": "7432689235976156809",
+                "to": "-3088496003699808648",
+                "event": "click<button id=0 alt=\"Dismiss\">  </button>"
+            },
+            {
+                "from": "-3088496003699808648",
+                "to": "2075928775478522438",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/recycler_view\">  </div>"
+            },
+            {
+                "from": "2075928775478522438",
+                "to": -3088496003699808648,
+                "event": "back"
+            },
+            {
+                "from": -3088496003699808648,
+                "to": "-5900062143511925361",
+                "event": "click<p id=5 class =\"com.google.android.apps.photos:id/title\"> Highlight video,  </p>"
+            },
+            {
+                "from": "-5900062143511925361",
+                "to": "7432689235976156809",
+                "event": "click<button id=2 class =\"com.google.android.apps.photos:id/photos_create_movie_assistivecreation_create_button\"> Preview,  </button>"
+            },
+            {
+                "from": "7432689235976156809",
+                "to": -3088496003699808648,
+                "event": "back"
+            },
+            {
+                "from": -3088496003699808648,
+                "to": "6019420986738770436",
+                "event": "click<img id=2 class =\"com.google.android.apps.photos:id/icon\">  </img>"
+            },
+            {
+                "from": "6019420986738770436",
+                "to": -1226419320797223286,
+                "event": "back"
+            },
+            {
+                "from": -1226419320797223286,
+                "to": "8817627440370867983",
+                "event": "click<button id=19 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

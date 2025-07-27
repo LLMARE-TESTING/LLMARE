@@ -1,0 +1,219 @@
+[
+    {
+        "round": 1,
+        "comment": "The only problem I have when using Google Photos with my Sony Xperia 1 III is that the phone must stay awake and switch to the Backup page in Google Photos in order to scan and sync for any changes. I have checked that there the power saving / data saving options are all OFF. Tried re-installing Google Photos with data wiped but no improvement was made. Google please help.",
+        "scenarios": [
+            "The phone must stay awake and switch to the Backup page in Google Photos in order to scan and sync for any changes.",
+            "I have checked that the power saving / data saving options are all OFF.",
+            "Tried re-installing Google Photos with data wiped but no improvement was made."
+        ],
+        "key sentence": "The phone must stay awake and switch to the Backup page in Google Photos in order to scan and sync for any changes.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\9196250197343569419.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "9196250197343569419"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\-7311617819034472132.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "-7311617819034472132"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "9196250197343569419",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "9196250197343569419",
+                "to": "-7311617819034472132",
+                "event": "click<button id=9 class =\"com.google.android.apps.photos:id/og_card\" alt=\"Backup&#10;Backup complete\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 2,
+        "comment": "The only problem I have when using Google Photos with my Sony Xperia 1 III is that the phone must stay awake and switch to the Backup page in Google Photos in order to scan and sync for any changes. I have checked that there the power saving / data saving options are all OFF. Tried re-installing Google Photos with data wiped but no improvement was made. Google please help.",
+        "scenarios": [
+            "The phone must stay awake and switch to the Backup page in Google Photos in order to scan and sync for any changes.",
+            "I have checked that the power saving / data saving options are all OFF.",
+            "Tried re-installing Google Photos with data wiped but no improvement was made."
+        ],
+        "key sentence": "The phone must stay awake and switch to the Backup page in Google Photos in order to scan and sync for any changes.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\9196250197343569419.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "9196250197343569419"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\-7311617819034472132.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "-7311617819034472132"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\9196250197343569419.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "9196250197343569419"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\-7311617819034472132.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "-7311617819034472132"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "9196250197343569419",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "9196250197343569419",
+                "to": "-7311617819034472132",
+                "event": "click<button id=9 class =\"com.google.android.apps.photos:id/og_card\" alt=\"Backup&#10;Backup complete\">  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "9196250197343569419",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "9196250197343569419",
+                "to": "-7311617819034472132",
+                "event": "click<button id=9 class =\"com.google.android.apps.photos:id/og_card\" alt=\"Backup&#10;Backup complete\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    },
+    {
+        "round": 3,
+        "comment": "The only problem I have when using Google Photos with my Sony Xperia 1 III is that the phone must stay awake and switch to the Backup page in Google Photos in order to scan and sync for any changes. I have checked that there the power saving / data saving options are all OFF. Tried re-installing Google Photos with data wiped but no improvement was made. Google please help.",
+        "scenarios": [
+            "The phone must stay awake and switch to the Backup page in Google Photos in order to scan and sync for any changes.",
+            "I have checked that the power saving / data saving options are all OFF.",
+            "Tried re-installing Google Photos with data wiped but no improvement was made."
+        ],
+        "key sentence": "The phone must stay awake and switch to the Backup page in Google Photos in order to scan and sync for any changes.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\9196250197343569419.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "9196250197343569419"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\-7311617819034472132.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "-7311617819034472132"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\9196250197343569419.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "9196250197343569419"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\-7311617819034472132.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "-7311617819034472132"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\9196250197343569419.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "9196250197343569419"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\-7311617819034472132.png",
+                "activity": "com.google.android.apps.photos.backup.overview.impl.BackupOverviewActivity}",
+                "state_str": "-7311617819034472132"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment36\\scene0\\7671923386368162683.png",
+                "activity": "com.google.android.apps.photos.backup.settings.AutoBackupSettingsActivity}",
+                "state_str": "7671923386368162683"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "9196250197343569419",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "9196250197343569419",
+                "to": "-7311617819034472132",
+                "event": "click<button id=9 class =\"com.google.android.apps.photos:id/og_card\" alt=\"Backup&#10;Backup complete\">  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "9196250197343569419",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "9196250197343569419",
+                "to": "-7311617819034472132",
+                "event": "click<button id=9 class =\"com.google.android.apps.photos:id/og_card\" alt=\"Backup&#10;Backup complete\">  </button>"
+            },
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "9196250197343569419",
+                "event": "click<button id=15 class =\"com.google.android.apps.photos:id/selected_account_disc\" alt=\"Signed in as ran Jin jinran848@gmail.com&#10;Account and settings.\">  </button>"
+            },
+            {
+                "from": "9196250197343569419",
+                "to": "-7311617819034472132",
+                "event": "click<button id=9 class =\"com.google.android.apps.photos:id/og_card\" alt=\"Backup&#10;Backup complete\">  </button>"
+            },
+            {
+                "from": "-7311617819034472132",
+                "to": "7671923386368162683",
+                "event": "click<button id=2 class =\"com.google.android.apps.photos:id/photos_backup_overview_settings_button\" alt=\"Backup settings\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

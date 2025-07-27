@@ -1,0 +1,84 @@
+[
+    {
+        "round": 22,
+        "comment": "I love Google photos! One suggestion-I would love to see a feature that allows for organization of albums. For example, I would love to be able to group all of my vacation albums in a file folder of sort. This added layer of organization would help to keep my many many albums sorted and easier to locate.",
+        "scenarios": [
+            "Organize albums: The user wants a feature that allows for the organization of albums, specifically the ability to group albums into file folders to help keep them sorted and easier to locate."
+        ],
+        "key sentence": "Organize albums: The user wants a feature that allows for the organization of albums, specifically the ability to group albums into file folders to help keep them sorted and easier to locate.",
+        "target activity": "",
+        "the function of activity": "",
+        "target state": "",
+        "the sub-task list of state": "",
+        "nodes": [
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\scene0\\fdedbaae0d7db088bdc1a119bf22aa84.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "fdedbaae0d7db088bdc1a119bf22aa84"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\scene0\\2694856776442896546.png",
+                "activity": "com.google.android.apps.photos.home.HomeActivity}",
+                "state_str": "2694856776442896546"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\scene0\\2183650899420068888.png",
+                "activity": "com.google.android.apps.photos.collectionstab.collectionsgridpage.CollectionsGridPageActivity}",
+                "state_str": "2183650899420068888"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\scene0\\-2543133396598339467.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "-2543133396598339467"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\scene0\\-497193114735489088.png",
+                "activity": "",
+                "state_str": "-497193114735489088"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\scene0\\5331771017308540395.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "5331771017308540395"
+            },
+            {
+                "image": "..\\app\\photos_activity\\output\\screenshot\\comment30\\scene0\\5331771017308540395.png",
+                "activity": "com.google.android.apps.photos.envelope.AlbumActivity}",
+                "state_str": "5331771017308540395"
+            }
+        ],
+        "operations": [
+            {
+                "from": "fdedbaae0d7db088bdc1a119bf22aa84",
+                "to": "2694856776442896546",
+                "event": "click<button id=18 class =\"com.google.android.apps.photos:id/tab_collections\"> Collections,  </button>"
+            },
+            {
+                "from": "2694856776442896546",
+                "to": "2183650899420068888",
+                "event": "click<p id=8> Albums,  </p>"
+            },
+            {
+                "from": "2183650899420068888",
+                "to": "-2543133396598339467",
+                "event": "click<div id=17 alt=\"Create album\">  </div>"
+            },
+            {
+                "from": "-2543133396598339467",
+                "to": "-497193114735489088",
+                "event": "click<img id=7 class =\"com.google.android.apps.photos:id/photos_overflow_icon\" alt=\"More options\">  </img>"
+            },
+            {
+                "from": "-497193114735489088",
+                "to": "5331771017308540395",
+                "event": "click<p id=3 class =\"com.google.android.apps.photos:id/action_bar_overflow_menu_item_title\"> Options,  </p>"
+            },
+            {
+                "from": "5331771017308540395",
+                "to": "5331771017308540395",
+                "event": "click<div id=0 class =\"com.google.android.apps.photos:id/photos_envelope_settings_recycler_view\">  </div>"
+            }
+        ],
+        "Final answer": 1
+    }
+]
