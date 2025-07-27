@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "More features equals a more confusing interface. I loved this app, no longer \u5192\u807c\u8075\u807b. My present beef is that starting listening to a playlist creates a quasi queue that then cannot be cleared, which is seriously annoying on Android Auto when the music plays whenever I start the car. Please let me clear the playback of playlists without playing something else. And yes, I have reinstalled the app.",
+        "key sentence": "queue, Android Auto, clear playback of playlists",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "8525a40443e9f8deb66355fa4f61e1b5",
+        "the sub-task list of state": "[{'name': 'Input Query', 'description': 'Enter a search query'}, {'name': 'Now Playing Bar', 'description': 'Display the currently playing track'}, {'name': 'Add to Playlist', 'description': 'Add item to playlist'}, {'name': 'Play/Pause', 'description': 'Toggle between play and pause'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment45\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment45\\64239cd48e3f0bfbbd966aceb93854cf.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "64239cd48e3f0bfbbd966aceb93854cf"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment45\\8525a40443e9f8deb66355fa4f61e1b5.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8525a40443e9f8deb66355fa4f61e1b5"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment45\\-6468404978385097330.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-6468404978385097330"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "64239cd48e3f0bfbbd966aceb93854cf",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=56487299120c4315f85c53052403234c(MainActivity/LinearLayout-Search, Ta:x270:y1999))"
+            },
+            {
+                "from": "64239cd48e3f0bfbbd966aceb93854cf",
+                "to": "8525a40443e9f8deb66355fa4f61e1b5",
+                "event": "click(state=64239cd48e3f0bfbbd966aceb93854cf, view=b8caa5081f802b9d153d408b190fe205(MainActivity/LinearLayout-Search, Ta:x270:y1999))"
+            },
+            {
+                "from": "8525a40443e9f8deb66355fa4f61e1b5",
+                "to": "-6468404978385097330",
+                "event": "click<button id=24 class =\"com.spotify.music:id/remove_button\" alt=\"Remove\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

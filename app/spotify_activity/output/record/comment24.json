@@ -1,0 +1,100 @@
+[
+    {
+        "comment": "Great library, generally easy to use. Negatives: Search feature sometimes just doesn't work. I'm connected to wifi, but it will hang for 5 minutes plus without giving any results. Just the loading circle. UX with using it in airplane mode is also really poor, even in offline mode sometimes it just won't play downloaded songs. Still better than YouTube music.",
+        "key sentence": "The key words: Search feature, airplane mode, offline mode",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state3",
+        "the sub-task list of state": "[{'name': 'Search', 'description': 'Perform a search for a specific item within the application'}, {'name': 'Clear Search Query', 'description': 'Remove the entered text from the search query field'}, {'name': 'Back Button', 'description': 'Navigate back to the previous screen or view'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment24\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment24\\64239cd48e3f0bfbbd966aceb93854cf.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "64239cd48e3f0bfbbd966aceb93854cf"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment24\\8525a40443e9f8deb66355fa4f61e1b5.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8525a40443e9f8deb66355fa4f61e1b5"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment24\\state3.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment24\\8621691648309522773.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8621691648309522773"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment24\\2396220395776204184.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2396220395776204184"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment24\\2396220395776204184.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2396220395776204184"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment24\\2396220395776204184.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2396220395776204184"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment24\\2396220395776204184.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2396220395776204184"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "64239cd48e3f0bfbbd966aceb93854cf",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=56487299120c4315f85c53052403234c(MainActivity/LinearLayout-Search, Ta:x270:y1999))"
+            },
+            {
+                "from": "64239cd48e3f0bfbbd966aceb93854cf",
+                "to": "8525a40443e9f8deb66355fa4f61e1b5",
+                "event": "click(state=64239cd48e3f0bfbbd966aceb93854cf, view=b8caa5081f802b9d153d408b190fe205(MainActivity/LinearLayout-Search, Ta:x270:y1999))"
+            },
+            {
+                "from": "8525a40443e9f8deb66355fa4f61e1b5",
+                "to": "state3",
+                "event": "input(android.widget.EditText-com.spotify.music:id/query:[132,83][948,237])(Lover)"
+            },
+            {
+                "from": "state3",
+                "to": "8621691648309522773",
+                "event": "click<button id=14 class =\"com.spotify.music:id/back_button\" alt=\"Cancel\">  </button>"
+            },
+            {
+                "from": "8621691648309522773",
+                "to": "2396220395776204184",
+                "event": "click<button id=71 class =\"com.spotify.music:id/search_tab\" alt=\"Search, Tab 2 of 4\">  </button>"
+            },
+            {
+                "from": "2396220395776204184",
+                "to": "2396220395776204184",
+                "event": "click<input id=15 class =\"com.spotify.music:id/query\"> What do you want to listen to?,  </input>"
+            },
+            {
+                "from": "2396220395776204184",
+                "to": "2396220395776204184",
+                "event": "click<div id=12 class =\"com.spotify.music:id/search_root\">  </div>"
+            },
+            {
+                "from": "2396220395776204184",
+                "to": "2396220395776204184",
+                "event": "click<input id=15 class =\"com.spotify.music:id/query\"> What do you want to listen to?,  </input>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

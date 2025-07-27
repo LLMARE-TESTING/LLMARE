@@ -1,0 +1,80 @@
+[
+    {
+        "comment": "Literally disappointed...Spotify was perfect before but now all you guys want us to do is pay money to listen to songs...I used to love this app but now I'm so done with it. Like you can't rewind or move to the next song you can't play songs in order and you can't even choose songs from the playlist! All you need is premium...Give us the free version back where we can do everything...This is just not acceptable...at this point all we can do is play and pause songs or podcasts. JUST DISSAPOINTING",
+        "key sentence": "The key words from the comment are: \"premium\", \"rewind\", \"move to the next song\", \"play songs in order\", \"choose songs from the playlist\".",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Play/Pause', 'description': 'Control playback by playing or pausing the currently playing podcast'}, {'name': 'Add to Playlist', 'description': 'Option to add the currently playing track to a playlist'}, {'name': 'Episode Details', 'description': 'View detailed information about the current episode or track'}, {'name': 'More Options', 'description': 'Access additional options and settings for the current track or episode'}, {'name': 'Show Description', 'description': 'Expand to show more detailed information about the current episode or track'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment76\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment76\\state1.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment76\\state2.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment76\\2660183098032135464.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2660183098032135464"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment76\\-3734408277493787619.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-3734408277493787619"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment76\\1550456191900373076.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "1550456191900373076"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment76\\-3734408277493787619.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-3734408277493787619"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state1",
+                "event": "click(android.widget.TextView-Podcasts:[405,213][547,262])"
+            },
+            {
+                "from": "state1",
+                "to": "state2",
+                "event": "click(android.widget.Button-Play #29 2024\u5e744\u670830\u65e5\u306e\u96fb\u96fb\u96fb\u8a71:[882,1282][1014,1414])"
+            },
+            {
+                "from": "state2",
+                "to": "2660183098032135464",
+                "event": "click<button id=83 class =\"com.spotify.music:id/premium_tab\" alt=\"Premium, Tab 4 of 4\">  </button>"
+            },
+            {
+                "from": "2660183098032135464",
+                "to": "-3734408277493787619",
+                "event": "click<p id=34 class =\"com.spotify.music:id/row_title\"> Play songs in any order,  </p>"
+            },
+            {
+                "from": "-3734408277493787619",
+                "to": "1550456191900373076",
+                "event": "click<button id=21 class =\"com.spotify.music:id/button_create\" alt=\"Create playlist\">  </button>"
+            },
+            {
+                "from": "1550456191900373076",
+                "to": "-3734408277493787619",
+                "event": "click<button id=4 class =\"com.spotify.music:id/touch_outside\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

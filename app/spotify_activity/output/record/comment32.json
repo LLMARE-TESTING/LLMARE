@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Love the app and the features that have been added over the years; worth the price of premium. My only gripe is whatever the algorithm is for shuffling liked music. I get the same songs regularly, even with over 3k songs saved. It'd be nice if the shuffle was a little more randomized.",
+        "key sentence": "shuffle algorithm",
+        "target activity": "com.spotify.tome.pageactivity.PageActivity",
+        "the function of activity": "The activity allows users to find playlist, navigate menus, manage playlists, control media playback, adjust volume, select/deselect items, filter, sort, favorite/bookmark, and share content.",
+        "target state": "state12",
+        "the sub-task list of state": "[{'name': 'Add to Playlist', 'description': 'Enables user to add an item to a playlist'}, {'name': 'Create New Playlist', 'description': 'Allows user to create a new playlist'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment32\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment32\\state9.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment32\\state10.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment32\\state11.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment32\\state12.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment32\\797292771960253176.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "797292771960253176"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment32\\-1297052224881368823.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-1297052224881368823"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment32\\4600003244820502233.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "4600003244820502233"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment32\\-1297052224881368823.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-1297052224881368823"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment32\\4600003244820502233.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "4600003244820502233"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment32\\-1297052224881368823.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-1297052224881368823"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state9",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/image:[44,714][476,1146])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(android.widget.ImageButton-More options for song \u646f\u53cb:[948,1264][1080,1396])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(android.widget.TextView-Add to playlist:[154,1327][1036,1388])"
+            },
+            {
+                "from": "state11",
+                "to": "state12",
+                "event": "click(androidx.cardview.widget.CardView-My playlist #3:[253,824][540,885])"
+            },
+            {
+                "from": "state12",
+                "to": "797292771960253176",
+                "event": "click<button id=83 class =\"com.spotify.music:id/home_tab\" alt=\"Home, Tab 1 of 4\">  </button>"
+            },
+            {
+                "from": "797292771960253176",
+                "to": "-1297052224881368823",
+                "event": "click<p id=41 class =\"com.spotify.music:id/title\" alt=\"Shortcut Liked Songs\"> Liked Songs,  </p>"
+            },
+            {
+                "from": "-1297052224881368823",
+                "to": "4600003244820502233",
+                "event": "click<button id=20 class =\"com.spotify.music:id/shuffle_button\" alt=\"Disable shuffle for this liked songs\">  </button>"
+            },
+            {
+                "from": "4600003244820502233",
+                "to": "-1297052224881368823",
+                "event": "click<button id=11 class =\"com.spotify.music:id/close_button\"> Dismiss,  </button>"
+            },
+            {
+                "from": "-1297052224881368823",
+                "to": "4600003244820502233",
+                "event": "click<button id=20 class =\"com.spotify.music:id/shuffle_button\" alt=\"Disable shuffle for this liked songs\">  </button>"
+            },
+            {
+                "from": "4600003244820502233",
+                "to": "-1297052224881368823",
+                "event": "click<button id=11 class =\"com.spotify.music:id/close_button\"> Dismiss,  </button>"
+            }
+        ],
+        "Final answer": "YES"
+    }
+]

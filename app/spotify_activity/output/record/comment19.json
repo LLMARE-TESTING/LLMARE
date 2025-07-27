@@ -1,0 +1,60 @@
+[
+    {
+        "comment": "Your user interface is too smart for its own good. Being able to switch devices is really nice, but hiding them behind a picture of a speaker isn't the brightest move. The interactions with digital assistants leave a lot to be desired. Even when it's obvious we don't want Spotify involved, it switches devices, and songs -- sometimes at the same time.",
+        "key sentence": "Key words: user interface, switch devices, digital assistants",
+        "target activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity",
+        "the function of activity": "The activity involves searching for contacts, opening menus, initiating playback, controlling playback, managing playlists, sharing tracks, adjusting volume, and connecting to devices.",
+        "target state": "state19",
+        "the sub-task list of state": "[{'name': 'Play', 'description': 'Initiate playback of a track'}, {'name': 'Pause', 'description': 'Pause playback of a track'}, {'name': 'Next', 'description': 'Move to the next track in the playlist'}, {'name': 'Previous', 'description': 'Move to the previous track in the playlist'}, {'name': 'Repeat', 'description': 'Toggle repeat mode on or off'}, {'name': 'Add to Queue', 'description': 'Add the track to the playback queue'}, {'name': 'Share', 'description': 'Share the current track or playlist'}, {'name': 'Show Lyrics', 'description': 'Display the lyrics of the current track'}, {'name': 'Choose a Listening Mode', 'description': 'Select a listening mode or audio output device'}, {'name': 'Volume Control', 'description': 'Adjust the volume using volume keys'}, {'name': 'Access Device Menu', 'description': 'Open the devices menu for additional options'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment19\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment19\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment19\\40e3d8c4e5e1c9c5d8d5ec60f3bc145e.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "40e3d8c4e5e1c9c5d8d5ec60f3bc145e"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment19\\state19.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "state19"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment19\\-7285360427564338387.png",
+                "activity": "com.spotify.connect.devicepickerimpl.DevicePickerActivity}",
+                "state_str": "-7285360427564338387"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "40e3d8c4e5e1c9c5d8d5ec60f3bc145e",
+                "event": "click(state=be366c2134cc86078896f7869deedcbd, view=75ce19fd7eac1390cb4fea6e59d58f29(MainActivity/ImageView-The cover :x44:y1845))"
+            },
+            {
+                "from": "40e3d8c4e5e1c9c5d8d5ec60f3bc145e",
+                "to": "state19",
+                "event": "click(android.view.ViewGroup-com.spotify.music:id/lyrics_widget_container:[44,2060][1036,2148])"
+            },
+            {
+                "from": "state19",
+                "to": "-7285360427564338387",
+                "event": "click<button id=31 class =\"com.spotify.music:id/connect_entry_point\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

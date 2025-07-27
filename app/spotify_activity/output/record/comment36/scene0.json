@@ -1,0 +1,164 @@
+[
+    {
+        "round": 1,
+        "comment": "Excessive amount of bugs all around. The music often won't play and I have to restart the app, the menu for \"show artist/album\" also often won't load, and when spotify is open on the computer as well, the problems just compound. The only reason I put up with the bugs is the great student discount, but considering how the app has been the last 2-3 months, this may well be the end...",
+        "scenarios": [
+            "Music often won't play and requires restarting the app to resolve the issue."
+        ],
+        "key sentence": "Music often won't play and requires restarting the app to resolve the issue.",
+        "target activity": "MainActivity",
+        "the function of activity": "The activity involves searching, library function(playlist/artist), playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state9",
+        "the sub-task list of state": "[{'name': 'Download Album', 'description': 'Download the current Album'}, {'name': 'Play Music in Album', 'description': 'Play the music in album.'}, {'name': 'More Options', 'description': 'Access more options for the current item'}, {'name': 'Enable Shuffle', 'description': 'Enable shuffle for the current playlist'}, {'name': 'Back', 'description': 'Navigate back to the previous screen or page'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\scene0\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\scene0\\state9.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\scene0\\-4620970015191489403.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-4620970015191489403"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\scene0\\-6780502225588091004.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-6780502225588091004"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\scene0\\-3880981646397429903.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-3880981646397429903"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\scene0\\-2545625302769763620.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-2545625302769763620"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\scene0\\4530906552148607864.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "4530906552148607864"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\scene0\\-2962163023562290205.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-2962163023562290205"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\scene0\\-4927954950955962584.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-4927954950955962584"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\scene0\\20771047318722371.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "20771047318722371"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\scene0\\8026184636573717403.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "8026184636573717403"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\scene0\\-6569507681370703370.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-6569507681370703370"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\scene0\\-632244233345888779.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-632244233345888779"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\scene0\\7080474274444301897.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "7080474274444301897"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\scene0\\-1526594786889821059.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-1526594786889821059"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state9",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/image:[44,1242][476,1674])"
+            },
+            {
+                "from": "state9",
+                "to": "-4620970015191489403",
+                "event": "click<button id=42 class =\"com.spotify.music:id/play_pause_button\" alt=\"Play\">  </button>"
+            },
+            {
+                "from": "-4620970015191489403",
+                "to": "-6780502225588091004",
+                "event": "click<div id=0 class =\"com.spotify.music:id/content\">  </div>"
+            },
+            {
+                "from": "-6780502225588091004",
+                "to": "-3880981646397429903",
+                "event": "click<button id=14 class =\"com.spotify.music:id/back_button\" alt=\"Back\">  </button>"
+            },
+            {
+                "from": "-3880981646397429903",
+                "to": "-2545625302769763620",
+                "event": "click<button id=40 class =\"com.spotify.music:id/play_pause_button\" alt=\"Pause\">  </button>"
+            },
+            {
+                "from": "-2545625302769763620",
+                "to": "4530906552148607864",
+                "event": "click<p id=6> Music,  </p>"
+            },
+            {
+                "from": "4530906552148607864",
+                "to": "-2962163023562290205",
+                "event": "click<button id=39 class =\"com.spotify.music:id/play_pause_button\" alt=\"Play\">  </button>"
+            },
+            {
+                "from": "-2962163023562290205",
+                "to": "-4927954950955962584",
+                "event": "click<button id=39 class =\"com.spotify.music:id/play_pause_button\" alt=\"Pause\">  </button>"
+            },
+            {
+                "from": "-4927954950955962584",
+                "to": "20771047318722371",
+                "event": "click<button id=39 class =\"com.spotify.music:id/play_pause_button\" alt=\"Play\">  </button>"
+            },
+            {
+                "from": "20771047318722371",
+                "to": "8026184636573717403",
+                "event": "click<button id=31 class =\"com.spotify.music:id/now_playing_bar_layout\" alt=\"Now Playing Bar\">  </button>"
+            },
+            {
+                "from": "8026184636573717403",
+                "to": "-6569507681370703370",
+                "event": "click<button id=17 class =\"com.spotify.music:id/play_pause\" alt=\"Pause\">  </button>"
+            },
+            {
+                "from": "-6569507681370703370",
+                "to": "-632244233345888779",
+                "event": "click<button id=17 class =\"com.spotify.music:id/play_pause\" alt=\"Play\">  </button>"
+            },
+            {
+                "from": "-632244233345888779",
+                "to": "7080474274444301897",
+                "event": "click<button id=17 class =\"com.spotify.music:id/play_pause\" alt=\"Pause\">  </button>"
+            },
+            {
+                "from": "7080474274444301897",
+                "to": "-1526594786889821059",
+                "event": "click<button id=17 class =\"com.spotify.music:id/play_pause\" alt=\"Play\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

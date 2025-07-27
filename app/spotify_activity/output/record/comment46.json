@@ -1,0 +1,70 @@
+[
+    {
+        "comment": "Great content, suggestions, and well organized. For a while the app was running slow on start up, but that seems to be figured out. My main gripe now is when you navigate to a podcast, it takes you to the newest episode rather than back to where you left off. Not sure why they removed that feature.",
+        "key sentence": "Key words: navigate to a podcast",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state18",
+        "the sub-task list of state": "[{'name': 'Type replies', 'description': 'Enter text for a reply or comment'}, {'name': 'View All Episodes', 'description': 'View all episodes of the podcast'}, {'name': 'Episode Transcript', 'description': 'View the transcript of the current episode'}, {'name': 'Show Context Menu', 'description': 'Display context menu options'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment46\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment46\\state1.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment46\\state2.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment46\\state16.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state16"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment46\\state17.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state17"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment46\\state18.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state18"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state1",
+                "event": "click(android.widget.TextView-Podcasts:[527,190][760,284])"
+            },
+            {
+                "from": "state1",
+                "to": "state2",
+                "event": "click(android.widget.Button-Play #29 2024\u5e744\u670830\u65e5\u306e\u96fb\u96fb\u96fb\u8a71:[882,1282][1014,1414])"
+            },
+            {
+                "from": "state2",
+                "to": "state16",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/artwork:[370,593][710,933])"
+            },
+            {
+                "from": "state16",
+                "to": "state17",
+                "event": "click(android.widget.TextView-com.spotify.music:id/title:[209,553][1036,675])"
+            },
+            {
+                "from": "state17",
+                "to": "state18",
+                "event": "scroll-up(android.view.ViewGroup-com.spotify.music:id/section_header:[44,1697][1036,1772])"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

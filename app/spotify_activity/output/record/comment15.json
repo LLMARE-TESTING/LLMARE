@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "The new update (I don't know if it's only me) but I can't play songs. When I click on a song I have to skip through a playlist WITHIN the one song. Also when I make a playlist there's 2 section where its; songs I added and songs spotify added. It's become really annoying because now I can't even enjoy the app I used to like. Please remove that spotify, it's honestly the most useless update you have ever added",
+        "key sentence": "Key words: play songs, playlist, songs I added, songs Spotify added, useless update",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "be366c2134cc86078896f7869deedcbd",
+        "the sub-task list of state": "[{'name': 'Search Playlist', 'description': 'Search item in playlist.'}, {'name': 'Create Playlist', 'description': 'Create a new playlist'}, {'name': 'Show Grid View', 'description': 'Switch to grid view'}, {'name': 'Play', 'description': 'Start playback of the currently selected item'}, {'name': 'Item Added', 'description': 'Indication that an item has been successfully added'}, {'name': 'View recently played tracks', 'description': 'View recent items'}, {'name': 'Liked Songs', 'description': 'View liked songs'}, {'name': 'Podcasts', 'description': 'View podcasts Playlist'}, {'name': 'Artists', 'description': 'View Playlist by artists'}, {'name': 'Downloaded', 'description': 'View downloaded items'}, {'name': 'Sort or Change View Mode', 'description': 'Change sorting options or view mode'}, {'name': 'Now Playing Bar', 'description': 'View the currently playing track'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment15\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment15\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment15\\-2186539441954247694.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-2186539441954247694"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment15\\8463247372314253837.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8463247372314253837"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment15\\-8678621274136973130.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-8678621274136973130"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment15\\-2275604737429659605.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-2275604737429659605"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment15\\-2275604737429659605.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-2275604737429659605"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment15\\-2275604737429659605.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-2275604737429659605"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment15\\7375796434591695808.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "7375796434591695808"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment15\\-7642941704612176516.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-7642941704612176516"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment15\\6001495645721594276.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "6001495645721594276"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "-2186539441954247694",
+                "event": "click<button id=21 class =\"com.spotify.music:id/button_create\" alt=\"Create playlist\">  </button>"
+            },
+            {
+                "from": "-2186539441954247694",
+                "to": "8463247372314253837",
+                "event": "click<button id=12 class =\"com.spotify.music:id/create_blend_row\">  </button>"
+            },
+            {
+                "from": "8463247372314253837",
+                "to": "-8678621274136973130",
+                "event": "click<button id=43 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            },
+            {
+                "from": "-8678621274136973130",
+                "to": "-2275604737429659605",
+                "event": "click<button id=38 class =\"com.spotify.music:id/row_root\" alt=\"Liked Songs, Playlist \u2022 20 songs, Pinned, \">  </button>"
+            },
+            {
+                "from": "-2275604737429659605",
+                "to": "-2275604737429659605",
+                "event": "click<button id=29 class =\"com.spotify.music:id/preview_btn\" alt=\"Play preview\">  </button>"
+            },
+            {
+                "from": "-2275604737429659605",
+                "to": "-2275604737429659605",
+                "event": "click<p id=38 class =\"com.spotify.music:id/title\"> You Better Not Think About Me,  </p>"
+            },
+            {
+                "from": "-2275604737429659605",
+                "to": "7375796434591695808",
+                "event": "click<button id=22 class =\"com.spotify.music:id/header_play_button\" alt=\"Play liked songs\">  </button>"
+            },
+            {
+                "from": "7375796434591695808",
+                "to": "-7642941704612176516",
+                "event": "click<button id=99 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            },
+            {
+                "from": "-7642941704612176516",
+                "to": "6001495645721594276",
+                "event": "click<button id=25 alt=\"Playlists, show only playlists.\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

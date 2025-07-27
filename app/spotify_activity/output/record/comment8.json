@@ -1,0 +1,100 @@
+[
+    {
+        "comment": "App contains too many bugs: First one is when I am outdoors and I have no Internet and have to rely on downloaded songs/albums yet when I try to open the album it takes forever and will not load as if it's not even downloaded and needs internet/wifi to load again. Another is when the progress bar of the song doesn't show on the notification tab, it only shows the song and is buggy. Another is when I play a song and when I switched to another song the notification shows me the incorrect song.",
+        "key sentence": "downloaded songs/albums, no Internet, notification tab, progress bar, incorrect song",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state13",
+        "the sub-task list of state": "[{'name': 'Download Liked Songs', 'description': 'Download all liked songs'}, {'name': 'Disable Shuffle', 'description': 'Disable shuffle for this liked songs'}, {'name': 'Tap to play Liked Songs', 'description': 'Tap to play a liked songs'}, {'name': 'More Options for Song', 'description': 'Access more options for a specific song'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\state13.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\2939928360432314514.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2939928360432314514"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\510077114084905251.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "510077114084905251"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\-3600913347471616887.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-3600913347471616887"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\1167516380319953442.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "1167516380319953442"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\6598336841908486605.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "6598336841908486605"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment8\\-809721434392332430.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-809721434392332430"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "state13",
+                "event": "click(android.view.ViewGroup-Liked Songs, Playlist \u2022 19 songs, Pinned, :[0,598][1080,774])"
+            },
+            {
+                "from": "state13",
+                "to": "2939928360432314514",
+                "event": "click<button id=22 class =\"com.spotify.music:id/header_play_button\" alt=\"Play liked songs\">  </button>"
+            },
+            {
+                "from": "2939928360432314514",
+                "to": "510077114084905251",
+                "event": "click<button id=80 class =\"com.spotify.music:id/now_playing_bar_layout\" alt=\"Now Playing Bar\">  </button>"
+            },
+            {
+                "from": "510077114084905251",
+                "to": "-3600913347471616887",
+                "event": "click<button id=34 alt=\"Next\">  </button>"
+            },
+            {
+                "from": "-3600913347471616887",
+                "to": "1167516380319953442",
+                "event": "click<button id=18 alt=\"Close\">  </button>"
+            },
+            {
+                "from": "1167516380319953442",
+                "to": "6598336841908486605",
+                "event": "click<button id=99 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            },
+            {
+                "from": "6598336841908486605",
+                "to": "-809721434392332430",
+                "event": "click<button id=31 alt=\"Downloaded, show only downloaded.\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

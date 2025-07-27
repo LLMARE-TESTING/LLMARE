@@ -1,0 +1,54 @@
+[
+    {
+        "round": 1,
+        "comment": "It was an amazing app. But now the lyrics are never shown. The new shuffle only feature sucks and I can't add songs into my queue anymore. I used Spotify for 3-4 years now and it was really good. When I try to disable it is a premium feature now just add songs into queues. The app just became the worst song platform. Thought of buying premium to stop with adds but the update made me change my mind. I'm leaving this one star review and hope it will get reverted back..",
+        "scenarios": [
+            "The new shuffle-only feature prevents adding songs into the queue."
+        ],
+        "key sentence": "The new shuffle-only feature prevents adding songs into the queue.",
+        "target activity": "MainActivity",
+        "the function of activity": "The activity involves searching, library function(playlist/artist), playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state14",
+        "the sub-task list of state": "[{'name': 'Add to other playlist', 'description': 'Add the current music to another playlist'}, {'name': 'Remove from this playlist', 'description': 'Remove the current music from the current playlist'}, {'name': 'Add to queue', 'description': 'Add the current music to the playback queue'}, {'name': 'View album', 'description': 'View details of the album containing the current music'}, {'name': 'View artist', 'description': 'View details of the artist of the current music'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment100\\scene0\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment100\\scene0\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment100\\scene0\\state13.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment100\\scene0\\state14.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state14"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "state13",
+                "event": "click(android.view.ViewGroup-Liked Songs, Playlist \u2022 19 songs, Pinned, :[0,598][1080,774])"
+            },
+            {
+                "from": "state13",
+                "to": "state14",
+                "event": "long-click(android.widget.ImageButton-android.view.View:[0,817][1080,993])"
+            }
+        ],
+        "Final answer": 1
+    }
+]

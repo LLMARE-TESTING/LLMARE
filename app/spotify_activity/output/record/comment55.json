@@ -1,0 +1,80 @@
+[
+    {
+        "comment": "The app is trash! Buggy interface, the video feed randomly disappears.. have to 'force stop' atleast once per week. I've subscribed for years, waiting for improvements. Millions earned but no updates? Shame is due. \u5192\u807c\u9647\u8def\u8292\u8059\u8067\u8292\u8076\u805c\u8302\u8d42?\nMarch 20",
+        "key sentence": "Key words: buggy interface, video feed, force stop",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state3",
+        "the sub-task list of state": "[{'name': 'Search', 'description': 'Perform a search for a specific item within the application'}, {'name': 'Clear Search Query', 'description': 'Remove the entered text from the search query field'}, {'name': 'Back Button', 'description': 'Navigate back to the previous screen or view'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment55\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment55\\64239cd48e3f0bfbbd966aceb93854cf.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "64239cd48e3f0bfbbd966aceb93854cf"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment55\\8525a40443e9f8deb66355fa4f61e1b5.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8525a40443e9f8deb66355fa4f61e1b5"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment55\\state3.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state3"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment55\\-2720540453317791710.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-2720540453317791710"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment55\\2782005816309923215.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2782005816309923215"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment55\\-8052890628318055274.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-8052890628318055274"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "64239cd48e3f0bfbbd966aceb93854cf",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=56487299120c4315f85c53052403234c(MainActivity/LinearLayout-Search, Ta:x270:y1999))"
+            },
+            {
+                "from": "64239cd48e3f0bfbbd966aceb93854cf",
+                "to": "8525a40443e9f8deb66355fa4f61e1b5",
+                "event": "click(state=64239cd48e3f0bfbbd966aceb93854cf, view=b8caa5081f802b9d153d408b190fe205(MainActivity/LinearLayout-Search, Ta:x270:y1999))"
+            },
+            {
+                "from": "8525a40443e9f8deb66355fa4f61e1b5",
+                "to": "state3",
+                "event": "input(android.widget.EditText-com.spotify.music:id/query:[132,83][948,237])(Lover)"
+            },
+            {
+                "from": "state3",
+                "to": "-2720540453317791710",
+                "event": "click<button id=14 class =\"com.spotify.music:id/back_button\" alt=\"Cancel\">  </button>"
+            },
+            {
+                "from": "-2720540453317791710",
+                "to": "2782005816309923215",
+                "event": "click<div id=26 class =\"com.spotify.music:id/video_surface\">  </div>"
+            },
+            {
+                "from": "2782005816309923215",
+                "to": "-8052890628318055274",
+                "event": "click<div id=17 class =\"com.spotify.music:id/video_surface\">  </div>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

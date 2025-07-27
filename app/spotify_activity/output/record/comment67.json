@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "It gets worse, why every app add the short video into their function list? Now it adds music videos below lyrics which makes annoying, because it causes the voice output unstable. It sounds louder in the cover interface and changes in lyrics interface! Could you add an close option in settings for both short video and music videos? It annoys me alot!",
+        "key sentence": "Key words: short video, music videos, voice output, lyrics, cover interface, settings",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state13",
+        "the sub-task list of state": "[{'name': 'Download Liked Songs', 'description': 'Download all liked songs'}, {'name': 'Disable Shuffle', 'description': 'Disable shuffle for this liked songs'}, {'name': 'Tap to play Liked Songs', 'description': 'Tap to play a liked songs'}, {'name': 'More Options for Song', 'description': 'Access more options for a specific song'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment67\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment67\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment67\\state13.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment67\\-8312392145134014663.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-8312392145134014663"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment67\\-8312392145134014663.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-8312392145134014663"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment67\\-3615563640022835349.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-3615563640022835349"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment67\\338998014717498097.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "338998014717498097"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment67\\338998014717498097.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "338998014717498097"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment67\\338998014717498097.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "338998014717498097"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment67\\-3615563640022835349.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-3615563640022835349"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment67\\-8312392145134014663.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-8312392145134014663"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "state13",
+                "event": "click(android.view.ViewGroup-Liked Songs, Playlist \u2022 19 songs, Pinned, :[0,598][1080,774])"
+            },
+            {
+                "from": "state13",
+                "to": "-8312392145134014663",
+                "event": "click<button id=99 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            },
+            {
+                "from": "-8312392145134014663",
+                "to": "-8312392145134014663",
+                "event": "click<button id=19 class =\"com.spotify.music:id/faceheader_title\" alt=\"Your Library Heading\"> Your Library,  </button>"
+            },
+            {
+                "from": "-8312392145134014663",
+                "to": "-3615563640022835349",
+                "event": "click<button id=89 class =\"com.spotify.music:id/home_tab\" alt=\"Home, Tab 1 of 4\">  </button>"
+            },
+            {
+                "from": "-3615563640022835349",
+                "to": "338998014717498097",
+                "event": "click<button id=81 class =\"com.spotify.music:id/now_playing_bar_layout\" alt=\"Now Playing Bar\">  </button>"
+            },
+            {
+                "from": "338998014717498097",
+                "to": "338998014717498097",
+                "event": "click<div id=42 class =\"com.spotify.music:id/widgets_container\">  </div>"
+            },
+            {
+                "from": "338998014717498097",
+                "to": "338998014717498097",
+                "event": "click<button id=43 class =\"com.spotify.music:id/lyrics_widget_container\">  </button>"
+            },
+            {
+                "from": "338998014717498097",
+                "to": "-3615563640022835349",
+                "event": "click<button id=17 alt=\"Close\">  </button>"
+            },
+            {
+                "from": "-3615563640022835349",
+                "to": "-8312392145134014663",
+                "event": "click<button id=100 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

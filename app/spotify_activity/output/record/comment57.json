@@ -1,0 +1,80 @@
+[
+    {
+        "comment": "They keep adding \"features\" that make the app worse. Smart Shuffle should not be part of the shuffle toggle. It takes a long time to load on long playlists, and it often turns itself back on after I toggle past it. Additionally, they are making it harder and harder to keep your playlists in a custom order. Finally, Liked Songs is now treated like a normal playlist, making it tedious to like songs and to check which songs I've liked. It's all small stuff, yes, but it adds up.",
+        "key sentence": "Smart Shuffle, custom order, Liked Songs, normal playlist, like songs",
+        "target activity": "com.spotify.tome.pageactivity.PageActivity",
+        "the function of activity": "The activity allows users to find playlist, navigate menus, manage playlists, control media playback, adjust volume, select/deselect items, filter, sort, favorite/bookmark, and share content.",
+        "target state": "state12",
+        "the sub-task list of state": "[{'name': 'Add to Playlist', 'description': 'Enables user to add an item to a playlist'}, {'name': 'Create New Playlist', 'description': 'Allows user to create a new playlist'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment57\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment57\\state9.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment57\\state10.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment57\\state11.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment57\\state12.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment57\\-6523370751402221939.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-6523370751402221939"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment57\\3944980276518773555.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "3944980276518773555"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state9",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/image:[44,714][476,1146])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(android.widget.ImageButton-More options for song \u646f\u53cb:[948,1264][1080,1396])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(android.widget.TextView-Add to playlist:[154,1327][1036,1388])"
+            },
+            {
+                "from": "state11",
+                "to": "state12",
+                "event": "click(androidx.cardview.widget.CardView-My playlist #3:[253,824][540,885])"
+            },
+            {
+                "from": "state12",
+                "to": "-6523370751402221939",
+                "event": "click<button id=76 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            },
+            {
+                "from": "-6523370751402221939",
+                "to": "3944980276518773555",
+                "event": "click<button id=38 class =\"com.spotify.music:id/row_root\" alt=\"Liked Songs, Playlist \u2022 19 songs, Pinned, \">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

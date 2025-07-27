@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Why can't I edit my homepage??? If I click a random podcast just to check it out, it's on my homepage with no way to remove it. Everytime I see that unwanted podcast I get more and more annoyed = annoyed at spotify. Let's us remove unwanted content!",
+        "key sentence": "The key words from the comment are: \"edit my homepage\", \"remove\", \"unwanted content\".",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state6",
+        "the sub-task list of state": "[{'name': 'Edit', 'description': 'Edit a your profile'}, {'name': 'View Details', 'description': 'View detailed information about your profile'}, {'name': 'View Followers/Following', 'description': 'View the number of Followers or Following.'}, {'name': 'Playlist', 'description': 'View your playlist.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\state5.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\state6.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state6"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\8497107151320172262.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8497107151320172262"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\-8116004628545296416.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-8116004628545296416"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\8497107151320172262.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8497107151320172262"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\8497107151320172262.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8497107151320172262"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\-8116004628545296416.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-8116004628545296416"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\8497107151320172262.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8497107151320172262"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\-3465165980413662613.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-3465165980413662613"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment37\\-6678878399304858119.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-6678878399304858119"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state5",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/faceheader_image:[22,171][154,303])"
+            },
+            {
+                "from": "state5",
+                "to": "state6",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/profile_row_sidedrawer_image:[44,127][176,259])"
+            },
+            {
+                "from": "state6",
+                "to": "8497107151320172262",
+                "event": "click<button id=60 class =\"com.spotify.music:id/home_tab\" alt=\"Home, Tab 1 of 4\">  </button>"
+            },
+            {
+                "from": "8497107151320172262",
+                "to": "-8116004628545296416",
+                "event": "click<img id=52 class =\"com.spotify.music:id/artwork\">  </img>"
+            },
+            {
+                "from": "-8116004628545296416",
+                "to": 8497107151320172262,
+                "event": "back"
+            },
+            {
+                "from": 8497107151320172262,
+                "to": "8497107151320172262",
+                "event": "click<div id=30 class =\"com.spotify.music:id/home_page_recycler\">  </div>"
+            },
+            {
+                "from": "8497107151320172262",
+                "to": "-8116004628545296416",
+                "event": "click<p id=53 class =\"com.spotify.music:id/title\" alt=\"Shortcut anything goes with emma chamberlain\"> anything goes with emma chamberlain,  </p>"
+            },
+            {
+                "from": "-8116004628545296416",
+                "to": 8497107151320172262,
+                "event": "back"
+            },
+            {
+                "from": 8497107151320172262,
+                "to": "-3465165980413662613",
+                "event": "click<button id=100 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            },
+            {
+                "from": "-3465165980413662613",
+                "to": "-6678878399304858119",
+                "event": "click<button id=38 class =\"com.spotify.music:id/row_root\" alt=\"Liked Songs, Playlist \u2022 19 songs, Pinned, \">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

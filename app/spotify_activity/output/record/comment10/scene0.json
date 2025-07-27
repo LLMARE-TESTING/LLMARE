@@ -1,0 +1,165 @@
+[
+    {
+        "round": 1,
+        "comment": "I've remained a committed Spotify user for quite a while, but the recent updates have had a notable negative impact on my overall experience. The inability to choose specific sections of a song and the absence of a \"go back\" option for previous tracks are genuinely frustrating. It seems like they've removed essential features and introduced unnecessary ones that users never asked for. I'm actively contemplating switching to an alternative platform if these problems aren't resolved promptly.",
+        "scenarios": [
+            "Inability to choose specific sections of a song.",
+            "Absence of a \"go back\" option for previous tracks."
+        ],
+        "key sentence": "Inability to choose specific sections of a song.",
+        "target activity": "MainActivity",
+        "the function of activity": "The activity involves searching, library function(playlist/artist), playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "a17e568448adcdbafe37f9f618f3f5ca",
+        "the sub-task list of state": "[{'name': 'Profile', 'description': 'View profile'}, {'name': 'Content filters', 'description': 'Apply filters to content'}, {'name': 'Play', 'description': 'Play the currently selected item'}, {'name': 'Pause', 'description': 'Pause the currently playing item'}, {'name': 'Add to Liked Songs', 'description': 'Add the music to liked songs by clicking plus sign.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\scene0\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\scene0\\-452344374095387947.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-452344374095387947"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\scene0\\-1185305676952745060.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-1185305676952745060"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\scene0\\714425541555843550.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "714425541555843550"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\scene0\\-1185305676952745060.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-1185305676952745060"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\scene0\\-1185305676952745060.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-1185305676952745060"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\scene0\\-1185305676952745060.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-1185305676952745060"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\scene0\\-1185305676952745060.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-1185305676952745060"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\scene0\\-1185305676952745060.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-1185305676952745060"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\scene0\\-1185305676952745060.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-1185305676952745060"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\scene0\\-1185305676952745060.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-1185305676952745060"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\scene0\\-1185305676952745060.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-1185305676952745060"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\scene0\\-1185305676952745060.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-1185305676952745060"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\scene0\\-1185305676952745060.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "-1185305676952745060"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\scene0\\3720216178872174844.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "3720216178872174844"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "-452344374095387947",
+                "event": "click<button id=30 class =\"com.spotify.music:id/now_playing_bar_layout\" alt=\"Now Playing Bar\">  </button>"
+            },
+            {
+                "from": "-452344374095387947",
+                "to": "-1185305676952745060",
+                "event": "click<button id=14 class =\"com.spotify.music:id/seekbar\" alt=\"Use volume keys to adjust\"> 3075.0,  </button>"
+            },
+            {
+                "from": "-1185305676952745060",
+                "to": "714425541555843550",
+                "event": "click<button id=16 alt=\"Previous\">  </button>"
+            },
+            {
+                "from": "714425541555843550",
+                "to": "-1185305676952745060",
+                "event": "click<button id=14 class =\"com.spotify.music:id/seekbar\" alt=\"Use volume keys to adjust\"> 0.0,  </button>"
+            },
+            {
+                "from": "-1185305676952745060",
+                "to": "-1185305676952745060",
+                "event": "click<button id=16 alt=\"Previous\">  </button>"
+            },
+            {
+                "from": "-1185305676952745060",
+                "to": "-1185305676952745060",
+                "event": "click<button id=14 class =\"com.spotify.music:id/seekbar\" alt=\"Use volume keys to adjust\"> 76000.0,  </button>"
+            },
+            {
+                "from": "-1185305676952745060",
+                "to": "-1185305676952745060",
+                "event": "click<button id=16 alt=\"Previous\">  </button>"
+            },
+            {
+                "from": "-1185305676952745060",
+                "to": "-1185305676952745060",
+                "event": "click<button id=14 class =\"com.spotify.music:id/seekbar\" alt=\"Use volume keys to adjust\"> 76000.0,  </button>"
+            },
+            {
+                "from": "-1185305676952745060",
+                "to": "-1185305676952745060",
+                "event": "click<button id=16 alt=\"Previous\">  </button>"
+            },
+            {
+                "from": "-1185305676952745060",
+                "to": "-1185305676952745060",
+                "event": "click<button id=14 class =\"com.spotify.music:id/seekbar\" alt=\"Use volume keys to adjust\"> 76000.0,  </button>"
+            },
+            {
+                "from": "-1185305676952745060",
+                "to": "-1185305676952745060",
+                "event": "click<button id=16 alt=\"Previous\">  </button>"
+            },
+            {
+                "from": "-1185305676952745060",
+                "to": "-1185305676952745060",
+                "event": "click<button id=14 class =\"com.spotify.music:id/seekbar\" alt=\"Use volume keys to adjust\"> 76000.0,  </button>"
+            },
+            {
+                "from": "-1185305676952745060",
+                "to": "-1185305676952745060",
+                "event": "click<button id=16 alt=\"Previous\">  </button>"
+            },
+            {
+                "from": "-1185305676952745060",
+                "to": "3720216178872174844",
+                "event": "click<button id=7 alt=\"More options for song Super Lady\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

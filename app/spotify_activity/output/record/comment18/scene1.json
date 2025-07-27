@@ -1,0 +1,96 @@
+[
+    {
+        "round": 1,
+        "comment": "Excessive amount of bugs all around. The music often won't play and I have to restart the app, the menu for \"show artist/album\" also often won't load, and when spotify is open on the computer as well, the problems just compound. The only reason I put up with the bugs is the great student discount, but considering how the app has been the last 2-3 months, this may well be the end...",
+        "scenarios": [
+            "Music often won't play and requires restarting the app to resolve the issue.",
+            "The menu for \"show artist/album\" often won't load.",
+            "When Spotify is open on both the computer and another device, the problems compound."
+        ],
+        "key sentence": "The menu for \"show artist/album\" often won't load.",
+        "target activity": "MainActivity",
+        "the function of activity": "The activity involves searching, library function(playlist/artist), playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state14",
+        "the sub-task list of state": "[{'name': 'Add to other playlist', 'description': 'Add the current music to another playlist'}, {'name': 'Remove from this playlist', 'description': 'Remove the current music from the current playlist'}, {'name': 'Add to queue', 'description': 'Add the current music to the playback queue'}, {'name': 'View album', 'description': 'View details of the album containing the current music'}, {'name': 'View artist', 'description': 'View details of the artist of the current music'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene1\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene1\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene1\\state13.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene1\\state14.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state14"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene1\\-126825754144535328.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-126825754144535328"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene1\\-6703619857322574374.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-6703619857322574374"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene1\\-3884535869653005057.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-3884535869653005057"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene1\\-126825754144535328.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-126825754144535328"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "state13",
+                "event": "click(android.view.ViewGroup-Liked Songs, Playlist \u2022 19 songs, Pinned, :[0,598][1080,774])"
+            },
+            {
+                "from": "state13",
+                "to": "state14",
+                "event": "long-click(android.widget.ImageButton-android.view.View:[0,817][1080,993])"
+            },
+            {
+                "from": "state14",
+                "to": "-126825754144535328",
+                "event": "click<p id=9 class =\"com.spotify.music:id/title\"> Go to album,  </p>"
+            },
+            {
+                "from": "-126825754144535328",
+                "to": "-6703619857322574374",
+                "event": "click<button id=8 alt=\"Explore Heaux Tales, Mo' Tales: The Deluxe\">  </button>"
+            },
+            {
+                "from": "-6703619857322574374",
+                "to": "-3884535869653005057",
+                "event": "click<button id=11 class =\"com.spotify.music:id/creator_touch_area\" alt=\"Navigate to Jazmine Sullivan artist page\">  </button>"
+            },
+            {
+                "from": "-3884535869653005057",
+                "to": "-126825754144535328",
+                "event": "click<button id=20 class =\"com.spotify.music:id/back_button\" alt=\"Back\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

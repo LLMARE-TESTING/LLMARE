@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "The new features are the WORST. I have been using this app for last 3 years but I literally uninstalled this app. The update removed all the basic features like shuffle, I can't add to queue, I can't tap on the lyrics i.e I can't listen to the specific part of the song, I can't repeat the song. This updates are worst. If Spotify is doing this for just \"PROFITS\" then it's not beneficial for you because you are already losing your customer base, you're losing the youth population basically.",
+        "key sentence": "the update",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state9",
+        "the sub-task list of state": "[{'name': 'Download Album', 'description': 'Download the current Album'}, {'name': 'Play Music in Album', 'description': 'Play the music in album.'}, {'name': 'More Options', 'description': 'Access more options for the current item'}, {'name': 'Enable Shuffle', 'description': 'Enable shuffle for the current playlist'}, {'name': 'Back', 'description': 'Navigate back to the previous screen or page'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\state9.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\8497107151320172262.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8497107151320172262"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\-6873398707973449346.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-6873398707973449346"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\2897869711109103834.png",
+                "activity": "com.spotify.gpb.choicescreenpage.ChoiceScreenActivity}",
+                "state_str": "2897869711109103834"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\5318583277620788893.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "5318583277620788893"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\-6873398707973449346.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-6873398707973449346"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\-6873398707973449346.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-6873398707973449346"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\-3465165980413662613.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-3465165980413662613"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\-3465165980413662613.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-3465165980413662613"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment36\\8497107151320172262.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8497107151320172262"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state9",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/image:[44,714][476,1146])"
+            },
+            {
+                "from": "state9",
+                "to": 8497107151320172262,
+                "event": "back"
+            },
+            {
+                "from": 8497107151320172262,
+                "to": "-6873398707973449346",
+                "event": "click<button id=103 class =\"com.spotify.music:id/premium_tab\" alt=\"Premium, Tab 4 of 4\">  </button>"
+            },
+            {
+                "from": "-6873398707973449346",
+                "to": "2897869711109103834",
+                "event": "click<button id=23 class =\"com.spotify.music:id/offer_cta\"> Try free for 1 month,  </button>"
+            },
+            {
+                "from": "2897869711109103834",
+                "to": 5318583277620788893,
+                "event": "back"
+            },
+            {
+                "from": 5318583277620788893,
+                "to": "-6873398707973449346",
+                "event": "click<button id=63 class =\"com.spotify.music:id/premium_tab\" alt=\"Premium, Tab 4 of 4\">  </button>"
+            },
+            {
+                "from": "-6873398707973449346",
+                "to": -6873398707973449346,
+                "event": "back"
+            },
+            {
+                "from": -6873398707973449346,
+                "to": "-3465165980413662613",
+                "event": "click<button id=60 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            },
+            {
+                "from": "-3465165980413662613",
+                "to": "-3465165980413662613",
+                "event": "click<button id=95 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            },
+            {
+                "from": "-3465165980413662613",
+                "to": "8497107151320172262",
+                "event": "click<button id=89 class =\"com.spotify.music:id/home_tab\" alt=\"Home, Tab 1 of 4\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "comment": "The app has many bugs and missing features. Jan 2024: Tried to listen to local music, WHICH I WANT TO BE IN LIKED SONGS AND TO BE PLAYED WITH OTHER SONGS, NOT TO PUT THEM IN POINTLESS PLAYLIST, but this function is so broken. It used to work from time to time until yesterday. Just went to File manager and renamed the file name and the problem was fixed. But now it is broken. The songs are only played in local music, where there are audio recordings and audio books. I have switched to Deezer.",
+        "key sentence": "local music",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state14",
+        "the sub-task list of state": "[{'name': 'Add to other playlist', 'description': 'Add the current music to another playlist'}, {'name': 'Remove from this playlist', 'description': 'Remove the current music from the current playlist'}, {'name': 'Add to queue', 'description': 'Add the current music to the playback queue'}, {'name': 'View album', 'description': 'View details of the album containing the current music'}, {'name': 'View artist', 'description': 'View details of the artist of the current music'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment62\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment62\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment62\\state13.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment62\\state14.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state14"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment62\\823849353908336754.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "823849353908336754"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment62\\-650498494843047042.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-650498494843047042"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment62\\-3920886073883322803.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-3920886073883322803"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "state13",
+                "event": "click(android.view.ViewGroup-Liked Songs, Playlist \u2022 19 songs, Pinned, :[0,598][1080,774])"
+            },
+            {
+                "from": "state13",
+                "to": "state14",
+                "event": "click(android.widget.ImageButton-More options for song \u6700\u60b2\u50b7\u7684\u4e8b - \u300a\u6bd4\u60b2\u50b7\u66f4\u60b2\u50b7\u7684\u6545\u4e8b\u300b\u5f71\u96c6\u7248 \u4e3b\u984c\u66f2:[948,664][1080,796])"
+            },
+            {
+                "from": "state14",
+                "to": "823849353908336754",
+                "event": "click<p id=20 class =\"com.spotify.music:id/title\"> Add to queue,  </p>"
+            },
+            {
+                "from": "823849353908336754",
+                "to": "-650498494843047042",
+                "event": "click<button id=100 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            },
+            {
+                "from": "-650498494843047042",
+                "to": "-3920886073883322803",
+                "event": "click<button id=31 alt=\"Downloaded, show only downloaded.\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

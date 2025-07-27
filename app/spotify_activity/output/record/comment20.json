@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "Rarely works correctly anymore. Started glitching out when playing, pausing and refusing to play again, forcing me to reset my phone just to make it work right. When connected to a PS4, it commonly says the scene is blocked and music can't be played, the scene isn't actually blocked and the app has to be manually opened to reset the \"feature\". When connected to car speakers it will refuse to play, making you hit the play button over and over again. This is just a short list of issues too.",
+        "key sentence": "Key words: playing, pausing, PS4, car speakers, scene is blocked, music can't be played",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state2",
+        "the sub-task list of state": "[{'name': 'Play/Pause', 'description': 'Control playback by playing or pausing the currently playing podcast'}, {'name': 'Add to Playlist', 'description': 'Option to add the currently playing track to a playlist'}, {'name': 'Episode Details', 'description': 'View detailed information about the current episode or track'}, {'name': 'More Options', 'description': 'Access additional options and settings for the current track or episode'}, {'name': 'Show Description', 'description': 'Expand to show more detailed information about the current episode or track'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\state1.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\state2.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\-1303182550749812178.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-1303182550749812178"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\713757056658948017.png",
+                "activity": "com.spotify.connect.devicepickerimpl.DevicePickerActivity}",
+                "state_str": "713757056658948017"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\713757056658948017.png",
+                "activity": "com.spotify.connect.devicepickerimpl.DevicePickerActivity}",
+                "state_str": "713757056658948017"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\713757056658948017.png",
+                "activity": "com.spotify.connect.devicepickerimpl.DevicePickerActivity}",
+                "state_str": "713757056658948017"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\2625718333606529317.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2625718333606529317"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\-4911717464927967079.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-4911717464927967079"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\713757056658948017.png",
+                "activity": "com.spotify.connect.devicepickerimpl.DevicePickerActivity}",
+                "state_str": "713757056658948017"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment20\\-2633884453494496354.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-2633884453494496354"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state1",
+                "event": "click(android.widget.TextView-Podcasts:[405,213][547,262])"
+            },
+            {
+                "from": "state1",
+                "to": "state2",
+                "event": "click(android.widget.Button-Play #29 2024\u5e744\u670830\u65e5\u306e\u96fb\u96fb\u96fb\u8a71:[882,1282][1014,1414])"
+            },
+            {
+                "from": "state2",
+                "to": "-1303182550749812178",
+                "event": "click<button id=80 class =\"com.spotify.music:id/play_pause_button\" alt=\"Play\">  </button>"
+            },
+            {
+                "from": "-1303182550749812178",
+                "to": "713757056658948017",
+                "event": "click<button id=78 class =\"com.spotify.music:id/connect_destination_button\" alt=\"Connect to a device. Opens the devices menu\">  </button>"
+            },
+            {
+                "from": "713757056658948017",
+                "to": "713757056658948017",
+                "event": "click<p id=9 class =\"com.spotify.music:id/device_picker_device_name\"> This phone,  </p>"
+            },
+            {
+                "from": "713757056658948017",
+                "to": "713757056658948017",
+                "event": "click<button id=6 class =\"com.spotify.music:id/device_picker_header_container_top\">  </button>"
+            },
+            {
+                "from": "713757056658948017",
+                "to": "2625718333606529317",
+                "event": "click<img id=4 class =\"com.spotify.music:id/device_picker_close_button\" alt=\"Close\">  </img>"
+            },
+            {
+                "from": "2625718333606529317",
+                "to": "-4911717464927967079",
+                "event": "click<button id=54 class =\"com.spotify.music:id/header_play_button\" alt=\"Play playlist\">  </button>"
+            },
+            {
+                "from": "-4911717464927967079",
+                "to": "713757056658948017",
+                "event": "click<button id=77 class =\"com.spotify.music:id/connect_destination_button\" alt=\"Connect to a device. Opens the devices menu\">  </button>"
+            },
+            {
+                "from": "713757056658948017",
+                "to": "-2633884453494496354",
+                "event": "click<img id=4 class =\"com.spotify.music:id/device_picker_close_button\" alt=\"Close\">  </img>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

@@ -1,0 +1,116 @@
+[
+    {
+        "round": 1,
+        "comment": "Paying for a dysfunctional app is upsetting. Spotify used to be so good, but the addition of features comes at the cost of a working app. Shuffle has been malfunctioning for the past +3 months with no resolution. If you turn shuffle on in the middle of a song, your music stops playing after that song finishes. Or it will keep shuffle on when you are trying to turn it off. The volume auto adjusts itself even though I have no such feature turned on my phone or the app itself. Really disappointing.",
+        "scenarios": [
+            "Turn shuffle on in the middle of a song, and the music stops playing after that song finishes.",
+            "Shuffle stays on when trying to turn it off.",
+            "The volume auto adjusts itself even though there is no such feature turned on in the phone or the app itself."
+        ],
+        "key sentence": "Shuffle stays on when trying to turn it off.",
+        "target activity": "MainActivity",
+        "the function of activity": "The activity involves searching, library function(playlist/artist), playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state13",
+        "the sub-task list of state": "[{'name': 'Download Liked Songs', 'description': 'Download all liked songs'}, {'name': 'Disable Shuffle', 'description': 'Disable shuffle for this liked songs'}, {'name': 'Tap to play Liked Songs', 'description': 'Tap to play a liked songs'}, {'name': 'More Options for Song', 'description': 'Access more options for a specific song'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment22\\scene1\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment22\\scene1\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment22\\scene1\\state13.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state13"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment22\\scene1\\305593601369511113.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "305593601369511113"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment22\\scene1\\6387251209864692203.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "6387251209864692203"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment22\\scene1\\-5645081227319881564.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-5645081227319881564"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment22\\scene1\\-3333111062277375950.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-3333111062277375950"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment22\\scene1\\-1790124455804597877.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-1790124455804597877"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment22\\scene1\\-1187669646392941030.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-1187669646392941030"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment22\\scene1\\-6812818519446212103.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-6812818519446212103"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "state13",
+                "event": "click(android.view.ViewGroup-Liked Songs, Playlist \u2022 19 songs, Pinned, :[0,598][1080,774])"
+            },
+            {
+                "from": "state13",
+                "to": "305593601369511113",
+                "event": "click<button id=5 alt=\"Disable shuffle\">  </button>"
+            },
+            {
+                "from": "305593601369511113",
+                "to": "6387251209864692203",
+                "event": "click<button id=7 alt=\"Play playlist\">  </button>"
+            },
+            {
+                "from": "6387251209864692203",
+                "to": "-5645081227319881564",
+                "event": "click<button id=5 alt=\"Turn off Smart Shuffle. We'll remove all recommendations from your Queue.\">  </button>"
+            },
+            {
+                "from": "-5645081227319881564",
+                "to": "-3333111062277375950",
+                "event": "click<button id=5 alt=\"Choose a Listening Mode\">  </button>"
+            },
+            {
+                "from": "-3333111062277375950",
+                "to": "-1790124455804597877",
+                "event": "click<button id=5 alt=\"Disable shuffle\">  </button>"
+            },
+            {
+                "from": "-1790124455804597877",
+                "to": "-1187669646392941030",
+                "event": "click<button id=5 alt=\"Turn off Smart Shuffle. We'll remove all recommendations from your Queue.\">  </button>"
+            },
+            {
+                "from": "-1187669646392941030",
+                "to": "-6812818519446212103",
+                "event": "click<button id=5 alt=\"Choose a Listening Mode\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

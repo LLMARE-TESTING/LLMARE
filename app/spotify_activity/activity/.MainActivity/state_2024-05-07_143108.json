@@ -1,0 +1,2895 @@
+{
+  "tag": "2024-05-07_143108",
+  "state_str": "8525a40443e9f8deb66355fa4f61e1b5",
+  "state_str_content_free": "405b153ca6d0767643ca1002660f04da",
+  "foreground_activity": "com.spotify.music/.MainActivity",
+  "activity_stack": [
+    "com.spotify.music/.MainActivity"
+  ],
+  "background_services": [
+    "vendor.qti.iwlan/.QualifiedNetworksServiceImpl",
+    "vendor.qti.iwlan/.IWlanDataService",
+    "com.qualcomm.atfwd/.AtFwdService",
+    "com.spotify.music/com.google.firebase.sessions.SessionLifecycleService",
+    "org.codeaurora.ims/.ImsService",
+    "org.protonaosp.elmyra/.ElmyraService",
+    "com.android.bluetooth/.hearingaid.HearingAidService",
+    "com.google.android.gms/.nearby.sharing.ReceiveSurfaceService",
+    "com.qualcomm.qti.uceShimService/.RCSService",
+    "com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl",
+    "eu.airaudio.aarscservice/.AARSCService",
+    "com.spotify.music/com.spotify.app.music.service.SpotifyService",
+    "com.qualcomm.qti.cne/.CneApp",
+    "com.zhiliaoapp.musically/com.ss.android.message.NotifyService",
+    "com.google.android.gms/.tapandpay.hce.service.TpHceService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.google.android.gms/.measurement.service.MeasurementBrokerService",
+    "com.google.android.gms/.cast.media.CastMediaRouteProviderService_Persistent",
+    "com.android.vending/com.google.android.finsky.billing.iab.InAppBillingService",
+    "com.android.systemui/.ImageWallpaper",
+    "io.appium.settings/.NLService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.common.superpacks.impl.AiAiSuperpacksService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps",
+    "com.android.service.ims.presence/.PollingService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.google.android.gms/.location.geocode.GeocodeService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsApiService",
+    "com.android.hbmsvmanager/.DisplayService",
+    "com.google.android.gms/.tron.CollectionService",
+    "app.airmusic.amrscservice/.AMRSCService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.google.android.gms/.nearby.sharing.SendSurfaceService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.android.networkstack/com.android.server.NetworkStackService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.android.bluetooth/.a2dp.A2dpService",
+    "com.qualcomm.qcrilmsgtunnel/.QcrilMsgTunnelService",
+    "com.android.cellbroadcastservice/.DefaultCellBroadcastService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nga.engine.viss.NgaService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.as/com.google.android.apps.miphone.aiai.common.notification.service.AiAiNotificationListenerService",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "vendor.qti.iwlan/.IWlanNetworkService",
+    "vendor.qti.hardware.cacert.server/.CACertService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.android.server.telecom/.components.BluetoothPhoneService",
+    "com.google.android.gms/.fido.authenticator.service.AuthenticatorService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.android.systemui/.dump.SystemUIAuxiliaryDumpService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.networkstack.tethering/.TetheringService",
+    "com.google.android.gms/.wallet.service.PaymentService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.facebook.katana/com.facebook.video.heroplayer.service.HeroKeepAliveService",
+    "com.android.service.ims/.RcsService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.android.launcher3/com.android.quickstep.TouchInteractionService",
+    "com.qti.qualcomm.datastatusnotification/.DataStatusNotificationService",
+    "org.lineageos.audiofx/.service.AudioFxService",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.huajiao/com.qihoo.pushsdk.cx.PushService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.android.service.ims.presence/.EABService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.qualcomm.qti.telephonyservice/.QtiTelephonyService",
+    "com.zhiliaoapp.musically/com.bytedance.common.wschannel.server.WsChannelService",
+    "com.android.phone/com.android.services.telephony.sip.components.TelephonySipService",
+    "com.google.android.gms/.personalsafety.service.PersonalSafetyService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.qualcomm.qti.services.secureui/.SecureUIService",
+    "com.facebook.katana/com.facebook.mqtt.service.MqttServiceV2",
+    "android.ext.services/.autofill.InlineSuggestionRenderServiceImpl"
+  ],
+  "width": 1080,
+  "height": 2280,
+  "views": [
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        67,
+        68
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*2280",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "3d426caa9e84a5c6a38ce72cb731bd45",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[enabled,,]",
+      "view_str": "e8c972de8a36bf4e26154074f63061f6",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "7b5e19ccd4b193a9c8a89943b62ccb51",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.spotify.music:id/action_bar_root[enabled,,]",
+      "view_str": "a95f2933fe565374c943464b4e7fa303",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.spotify.music:id/action_bar_root"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[enabled,,]",
+      "view_str": "63fc2673f81a2a2302d4025bfa70e3a0",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 5,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/main_content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/main_content[enabled,,]",
+      "view_str": "968379181f97c16b025db048288739e6",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/main_content"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/preview_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/preview_container[enabled,,]",
+      "view_str": "161500a5aa894e5ad60ed0bd2a041693",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/preview_container"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/quicksilver_note_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 7,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/quicksilver_note_container[enabled,,]",
+      "view_str": "5f2776754a5835f4eac02516f140d1d2",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/quicksilver_note_container"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/quicksilver_card_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 8,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/quicksilver_card_container[enabled,,]",
+      "view_str": "7db01ff7f73a86198e64e3f937071079",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/quicksilver_card_container"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/partner_account_linking_dialog_card_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 9,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/partner_account_linking_dialog_card_container[enabled,,]",
+      "view_str": "a6502e175e21e691b985195b2666c0da",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/partner_account_linking_dialog_card_container"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "androidx.drawerlayout.widget.DrawerLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 10,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]androidx.drawerlayout.widget.DrawerLayout[resource_id]None[enabled,,]",
+      "view_str": "e510bfade851a791dbae7ced63f2203b",
+      "content_free_signature": "[class]androidx.drawerlayout.widget.DrawerLayout[resource_id]None"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 10,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12,
+        13,
+        14,
+        15,
+        27,
+        28,
+        29,
+        30,
+        51,
+        65
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.spotify.music:id/content[enabled,,]",
+      "view_str": "3bdbd7af6f09c82261b63711e834aa67",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.spotify.music:id/content"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          0
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/bannerContainer",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "1080*0",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/bannerContainer[enabled,,]",
+      "view_str": "ceff14c7854bbdab7db85e4d023f0177",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/bannerContainer"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/fragment_overlay_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 13,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/fragment_overlay_container[enabled,,]",
+      "view_str": "5df548998a3dd646ff361c931c2c6e75",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/fragment_overlay_container"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/tooltip_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 14,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/tooltip_container[enabled,,]",
+      "view_str": "936e8002ded7f515c81b0d8d5666f8bc",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/tooltip_container"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        16,
+        17
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/coordinator_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 15,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.spotify.music:id/coordinator_layout[enabled,,]",
+      "view_str": "338ace9ad2daa69be0a6d2cd24815505",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.spotify.music:id/coordinator_layout"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.view.View[resource_id]None[enabled,,]",
+      "view_str": "c8e4e0424e4238d685bdab4510b4b09d",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        18
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/fragment_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 17,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/fragment_container[enabled,,]",
+      "view_str": "2bc1542a1769cf45836e0d776f918f1a",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/fragment_container"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        19,
+        22
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/search_root",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 18,
+      "size": "1080*2148",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.spotify.music:id/search_root[enabled,,]",
+      "view_str": "b91af52cbb655c5a44fdbf04c7516d64",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.spotify.music:id/search_root"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        20,
+        21
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          83
+        ],
+        [
+          1080,
+          237
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/search_field_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "1080*154",
+      "x": 0,
+      "y": 83,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.spotify.music:id/search_field_root[enabled,,]",
+      "view_str": "0e177605cb9c1c6dbf8758b292a20147",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.spotify.music:id/search_field_root"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Cancel",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          94
+        ],
+        [
+          132,
+          226
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/back_button",
+      "checked": false,
+      "text": "Cancel",
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 20,
+      "size": "132*132",
+      "x": 0,
+      "y": 94,
+      "signature": "[class]android.widget.ImageButton[resource_id]com.spotify.music:id/back_button[enabled,,]",
+      "view_str": "415d41f846a7e9d076284542d5a2372c",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]com.spotify.music:id/back_button"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": true,
+      "bounds": [
+        [
+          132,
+          83
+        ],
+        [
+          948,
+          237
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/query",
+      "checked": false,
+      "text": "What do you want to listen to?",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 19,
+      "temp_id": 21,
+      "size": "816*154",
+      "x": 132,
+      "y": 83,
+      "signature": "[class]android.widget.EditText[resource_id]com.spotify.music:id/query[enabled,,]",
+      "view_str": "3759aa782b1c5552e20123d72d730340",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.spotify.music:id/query"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        23
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          237
+        ],
+        [
+          1080,
+          1823
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 22,
+      "size": "1080*1586",
+      "x": 0,
+      "y": 237,
+      "signature": "[class]android.widget.RelativeLayout[resource_id]com.spotify.music:id/content[enabled,,]",
+      "view_str": "8a5731d019aed6c1942b43c14d443013",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]com.spotify.music:id/content"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        24
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          237
+        ],
+        [
+          1080,
+          1823
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/search_content_elements",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 23,
+      "size": "1080*1586",
+      "x": 0,
+      "y": 237,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/search_content_elements[enabled,,]",
+      "view_str": "0833b41bb8238b528d51338e43cd2486",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/search_content_elements"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        25,
+        26
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          237
+        ],
+        [
+          1080,
+          1823
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 23,
+      "temp_id": 24,
+      "size": "1080*1586",
+      "x": 0,
+      "y": 237,
+      "signature": "[class]android.view.ViewGroup[resource_id]None[enabled,,]",
+      "view_str": "7da95d6c52069ff945410aa6b0356ec4",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          301,
+          957
+        ],
+        [
+          779,
+          1032
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/title",
+      "checked": false,
+      "text": "Play what you love",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 24,
+      "temp_id": 25,
+      "size": "478*75",
+      "x": 301,
+      "y": 957,
+      "signature": "[class]android.widget.TextView[resource_id]com.spotify.music:id/title[enabled,,]",
+      "view_str": "b0dfd36c296b4ea406304ddaa7d0a385",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.spotify.music:id/title"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          174,
+          1054
+        ],
+        [
+          906,
+          1104
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/subtitle",
+      "checked": false,
+      "text": "Search for artists, songs, podcasts, and more.",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 24,
+      "temp_id": 26,
+      "size": "732*50",
+      "x": 174,
+      "y": 1054,
+      "signature": "[class]android.widget.TextView[resource_id]com.spotify.music:id/subtitle[enabled,,]",
+      "view_str": "a3d5b3874190151944e0847e2bbcb53a",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.spotify.music:id/subtitle"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1691
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/bottom_gradient",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 27,
+      "size": "1080*457",
+      "x": 0,
+      "y": 1691,
+      "signature": "[class]android.view.View[resource_id]com.spotify.music:id/bottom_gradient[enabled,,]",
+      "view_str": "f60a077d5af791d883e5d81bb5dc7320",
+      "content_free_signature": "[class]android.view.View[resource_id]com.spotify.music:id/bottom_gradient"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1823
+        ],
+        [
+          1080,
+          1823
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/anchor_bar_bottom",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 28,
+      "size": "1080*0",
+      "x": 0,
+      "y": 1823,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.spotify.music:id/anchor_bar_bottom[enabled,,]",
+      "view_str": "11692299175baed38112e336a534cf7b",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.spotify.music:id/anchor_bar_bottom"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1823
+        ],
+        [
+          1080,
+          1823
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/offline_bar_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 29,
+      "size": "1080*0",
+      "x": 0,
+      "y": 1823,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/offline_bar_container[enabled,,]",
+      "view_str": "153da318b408f974e85ad651f57bb679",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/offline_bar_container"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        31
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1823
+        ],
+        [
+          1080,
+          1999
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/now_playing_bar_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 30,
+      "size": "1080*176",
+      "x": 0,
+      "y": 1823,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/now_playing_bar_container[enabled,,]",
+      "view_str": "c62dc328da8bd1f80c8308e981aa7913",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/now_playing_bar_container"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        32,
+        33
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1823
+        ],
+        [
+          1080,
+          1999
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 30,
+      "temp_id": 31,
+      "size": "1080*176",
+      "x": 0,
+      "y": 1823,
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[enabled,,]",
+      "view_str": "11bb8008af2bf94ac7106f05eb616dde",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1823
+        ],
+        [
+          1080,
+          1823
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 31,
+      "temp_id": 32,
+      "size": "1080*0",
+      "x": 0,
+      "y": 1823,
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[enabled,,]",
+      "view_str": "e700dd56ffda0accd47f0024eff73dd6",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        34
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1823
+        ],
+        [
+          1080,
+          1999
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/now_playing_bar_fragment_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 31,
+      "temp_id": 33,
+      "size": "1080*176",
+      "x": 0,
+      "y": 1823,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/now_playing_bar_fragment_container[enabled,,]",
+      "view_str": "bfb5e079bb1d768322615aae3a5fcb88",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/now_playing_bar_fragment_container"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        35,
+        36
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1823
+        ],
+        [
+          1080,
+          1999
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 33,
+      "temp_id": 34,
+      "size": "1080*176",
+      "x": 0,
+      "y": 1823,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "fbd1a0d3362d974ac8f65bb0fe6323d7",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1823
+        ],
+        [
+          1080,
+          1823
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 34,
+      "temp_id": 35,
+      "size": "1080*0",
+      "x": 0,
+      "y": 1823,
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[enabled,,]",
+      "view_str": "07513e67beda1375885403f08cbbf2ca",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 6,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Now Playing Bar",
+      "children": [
+        37,
+        39,
+        45,
+        46,
+        49,
+        50
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          22,
+          1823
+        ],
+        [
+          1058,
+          1977
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/now_playing_bar_layout",
+      "checked": false,
+      "text": "Now Playing Bar",
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 34,
+      "temp_id": 36,
+      "size": "1036*154",
+      "x": 22,
+      "y": 1823,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.spotify.music:id/now_playing_bar_layout[enabled,,]",
+      "view_str": "07ef4ef908efc1da3546e42e586d2052",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.spotify.music:id/now_playing_bar_layout"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        38
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          22,
+          1823
+        ],
+        [
+          154,
+          1977
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/content_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 36,
+      "temp_id": 37,
+      "size": "132*154",
+      "x": 22,
+      "y": 1823,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/content_container[enabled,,]",
+      "view_str": "ba1cc76524cc2360842ac3cdc4381987",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/content_container"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "The cover art of the currently playing track",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1845
+        ],
+        [
+          154,
+          1955
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/cover_image",
+      "checked": false,
+      "text": "The cover art of the currently playing track",
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 37,
+      "temp_id": 38,
+      "size": "110*110",
+      "x": 44,
+      "y": 1845,
+      "signature": "[class]android.widget.ImageView[resource_id]com.spotify.music:id/cover_image[enabled,,]",
+      "view_str": "75ce19fd7eac1390cb4fea6e59d58f29",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.spotify.music:id/cover_image"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Currently playing track",
+      "children": [
+        40
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          187,
+          1823
+        ],
+        [
+          673,
+          1977
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/tracks_carousel_view",
+      "checked": false,
+      "text": "Currently playing track",
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 36,
+      "temp_id": 39,
+      "size": "486*154",
+      "x": 187,
+      "y": 1823,
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.spotify.music:id/tracks_carousel_view[enabled,,]",
+      "view_str": "1d12754b46eac63e599343d7ee1e4525",
+      "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.spotify.music:id/tracks_carousel_view"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        41
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          187,
+          1823
+        ],
+        [
+          673,
+          1977
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 39,
+      "temp_id": 40,
+      "size": "486*154",
+      "x": 187,
+      "y": 1823,
+      "signature": "[class]android.view.ViewGroup[resource_id]None[enabled,,]",
+      "view_str": "5632b36b8b4a3d17ab78f4fc56cc3b88",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        42,
+        43
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          187,
+          1850
+        ],
+        [
+          673,
+          1950
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/track_info_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 40,
+      "temp_id": 41,
+      "size": "486*100",
+      "x": 187,
+      "y": 1850,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.spotify.music:id/track_info_view[enabled,,]",
+      "view_str": "810a8b111566efa7d84dd1b0dea683f6",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.spotify.music:id/track_info_view"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          187,
+          1850
+        ],
+        [
+          367,
+          1900
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/track_info_view_title",
+      "checked": false,
+      "text": "\u624b\u5fc3\u7684\u8594\u8587",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 41,
+      "temp_id": 42,
+      "size": "180*50",
+      "x": 187,
+      "y": 1850,
+      "signature": "[class]android.widget.TextView[resource_id]com.spotify.music:id/track_info_view_title[enabled,,selected]",
+      "view_str": "edd24ee2f18a7220d2cfcff7eea4ce6c",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.spotify.music:id/track_info_view_title"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        44
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          187,
+          1900
+        ],
+        [
+          285,
+          1950
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 41,
+      "temp_id": 43,
+      "size": "98*50",
+      "x": 187,
+      "y": 1900,
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[enabled,,]",
+      "view_str": "c982966d9ac9b818a57fa98724b9e9b9",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          187,
+          1900
+        ],
+        [
+          285,
+          1950
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/track_info_view_subtitle",
+      "checked": false,
+      "text": "JJ Lin",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 43,
+      "temp_id": 44,
+      "size": "98*50",
+      "x": 187,
+      "y": 1900,
+      "signature": "[class]android.widget.TextView[resource_id]com.spotify.music:id/track_info_view_subtitle[enabled,,selected]",
+      "view_str": "2ad96821f6048f51ba639e1d6ab39bd2",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.spotify.music:id/track_info_view_subtitle"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          187,
+          1875
+        ],
+        [
+          673,
+          1925
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 36,
+      "temp_id": 45,
+      "size": "486*50",
+      "x": 187,
+      "y": 1875,
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[enabled,,]",
+      "view_str": "42994b7f2aed00491d90af2e182cb68b",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        47,
+        48
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          706,
+          1845
+        ],
+        [
+          926,
+          1955
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/accessory_actions_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 36,
+      "temp_id": 46,
+      "size": "220*110",
+      "x": 706,
+      "y": 1845,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.spotify.music:id/accessory_actions_container[enabled,,]",
+      "view_str": "cf17a8df5ef1834b0bcedb5c1a074b7d",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.spotify.music:id/accessory_actions_container"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Connect to a device. Opens the devices menu",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          706,
+          1845
+        ],
+        [
+          816,
+          1955
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/connect_destination_button",
+      "checked": false,
+      "text": "Connect to a device. Opens the devices menu",
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 46,
+      "temp_id": 47,
+      "size": "110*110",
+      "x": 706,
+      "y": 1845,
+      "signature": "[class]android.widget.ImageButton[resource_id]com.spotify.music:id/connect_destination_button[enabled,,]",
+      "view_str": "ff92ace6acf22e3fe6cf7dc5c0336784",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]com.spotify.music:id/connect_destination_button"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Item added",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          816,
+          1845
+        ],
+        [
+          926,
+          1955
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/add_to_button",
+      "checked": false,
+      "text": "Item added",
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 46,
+      "temp_id": 48,
+      "size": "110*110",
+      "x": 816,
+      "y": 1845,
+      "signature": "[class]android.widget.ImageButton[resource_id]com.spotify.music:id/add_to_button[enabled,,]",
+      "view_str": "dd8ffccf9a91164dee4981534e3dc85f",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]com.spotify.music:id/add_to_button"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Play",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          926,
+          1845
+        ],
+        [
+          1036,
+          1955
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/play_pause_button",
+      "checked": false,
+      "text": "Play",
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 36,
+      "temp_id": 49,
+      "size": "110*110",
+      "x": 926,
+      "y": 1845,
+      "signature": "[class]android.widget.ImageButton[resource_id]com.spotify.music:id/play_pause_button[enabled,,]",
+      "view_str": "c16c4f7e9da0d2dcc00d177a9e02969d",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]com.spotify.music:id/play_pause_button"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          22,
+          1971
+        ],
+        [
+          1058,
+          1977
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/progress_bar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ProgressBar",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 36,
+      "temp_id": 50,
+      "size": "1036*6",
+      "x": 22,
+      "y": 1971,
+      "signature": "[class]android.widget.ProgressBar[resource_id]com.spotify.music:id/progress_bar[enabled,,]",
+      "view_str": "9ea148b67f2b40cb57db3595d88be6c4",
+      "content_free_signature": "[class]android.widget.ProgressBar[resource_id]com.spotify.music:id/progress_bar"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        52
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1999
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/navigation_bar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 51,
+      "size": "1080*149",
+      "x": 0,
+      "y": 1999,
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/navigation_bar[enabled,,]",
+      "view_str": "94a32a66b96a272b3a1c7caef492ebfd",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.spotify.music:id/navigation_bar"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        53,
+        56,
+        59,
+        62
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1999
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 51,
+      "temp_id": 52,
+      "size": "1080*149",
+      "x": 0,
+      "y": 1999,
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[enabled,,]",
+      "view_str": "6ce606a163bea2edc95411dd56048335",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Home, Tab 1 of 4",
+      "children": [
+        54,
+        55
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1999
+        ],
+        [
+          270,
+          2148
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/home_tab",
+      "checked": false,
+      "text": "Home, Tab 1 of 4",
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 52,
+      "temp_id": 53,
+      "size": "270*149",
+      "x": 0,
+      "y": 1999,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.spotify.music:id/home_tab[enabled,,]",
+      "view_str": "bd90f1e7d2e76360cfdfe8ee0d91bd0f",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.spotify.music:id/home_tab"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Home",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          94,
+          2012
+        ],
+        [
+          176,
+          2096
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/bottom_navigation_item_icon",
+      "checked": false,
+      "text": "Home",
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 53,
+      "temp_id": 54,
+      "size": "82*84",
+      "x": 94,
+      "y": 2012,
+      "signature": "[class]android.widget.ImageView[resource_id]com.spotify.music:id/bottom_navigation_item_icon[enabled,,]",
+      "view_str": "91e486bedb9b86155078f5c9afe6a3db",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.spotify.music:id/bottom_navigation_item_icon"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          11,
+          2096
+        ],
+        [
+          259,
+          2134
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/bottom_navigation_item_title",
+      "checked": false,
+      "text": "Home",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 53,
+      "temp_id": 55,
+      "size": "248*38",
+      "x": 11,
+      "y": 2096,
+      "signature": "[class]android.widget.TextView[resource_id]com.spotify.music:id/bottom_navigation_item_title[enabled,,]",
+      "view_str": "60ce846efdd61601bd5c109ba4849e37",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.spotify.music:id/bottom_navigation_item_title"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Search, Tab 2 of 4",
+      "children": [
+        57,
+        58
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          270,
+          1999
+        ],
+        [
+          540,
+          2148
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/search_tab",
+      "checked": false,
+      "text": "Search, Tab 2 of 4",
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 52,
+      "temp_id": 56,
+      "size": "270*149",
+      "x": 270,
+      "y": 1999,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.spotify.music:id/search_tab[enabled,,]",
+      "view_str": "56487299120c4315f85c53052403234c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.spotify.music:id/search_tab"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Search",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          364,
+          2012
+        ],
+        [
+          446,
+          2096
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/bottom_navigation_item_icon",
+      "checked": false,
+      "text": "Search",
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 56,
+      "temp_id": 57,
+      "size": "82*84",
+      "x": 364,
+      "y": 2012,
+      "signature": "[class]android.widget.ImageView[resource_id]com.spotify.music:id/bottom_navigation_item_icon[enabled,,]",
+      "view_str": "9a3eb2ea06d112326c3026960b744aaa",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.spotify.music:id/bottom_navigation_item_icon"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          281,
+          2096
+        ],
+        [
+          529,
+          2134
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/bottom_navigation_item_title",
+      "checked": false,
+      "text": "Search",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 56,
+      "temp_id": 58,
+      "size": "248*38",
+      "x": 281,
+      "y": 2096,
+      "signature": "[class]android.widget.TextView[resource_id]com.spotify.music:id/bottom_navigation_item_title[enabled,,]",
+      "view_str": "6c1cde5ec56becbf2f1571f068ae7723",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.spotify.music:id/bottom_navigation_item_title"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Your Library, Tab 3 of 4",
+      "children": [
+        60,
+        61
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          540,
+          1999
+        ],
+        [
+          810,
+          2148
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/your_library_tab",
+      "checked": false,
+      "text": "Your Library, Tab 3 of 4",
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 52,
+      "temp_id": 59,
+      "size": "270*149",
+      "x": 540,
+      "y": 1999,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.spotify.music:id/your_library_tab[enabled,,]",
+      "view_str": "aa3d505ed2b4137f86bf747d0b6f024b",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.spotify.music:id/your_library_tab"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Your Library",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          634,
+          2012
+        ],
+        [
+          716,
+          2096
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/bottom_navigation_item_icon",
+      "checked": false,
+      "text": "Your Library",
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 59,
+      "temp_id": 60,
+      "size": "82*84",
+      "x": 634,
+      "y": 2012,
+      "signature": "[class]android.widget.ImageView[resource_id]com.spotify.music:id/bottom_navigation_item_icon[enabled,,]",
+      "view_str": "8a35703550f8e516cc731cdfbaa60550",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.spotify.music:id/bottom_navigation_item_icon"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          551,
+          2096
+        ],
+        [
+          799,
+          2134
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/bottom_navigation_item_title",
+      "checked": false,
+      "text": "Your Library",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 59,
+      "temp_id": 61,
+      "size": "248*38",
+      "x": 551,
+      "y": 2096,
+      "signature": "[class]android.widget.TextView[resource_id]com.spotify.music:id/bottom_navigation_item_title[enabled,,]",
+      "view_str": "8856ce1d3ea14cc90ec84d723bb5dcf5",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.spotify.music:id/bottom_navigation_item_title"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Premium, Tab 4 of 4",
+      "children": [
+        63,
+        64
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          810,
+          1999
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/premium_tab",
+      "checked": false,
+      "text": "Premium, Tab 4 of 4",
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 52,
+      "temp_id": 62,
+      "size": "270*149",
+      "x": 810,
+      "y": 1999,
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.spotify.music:id/premium_tab[enabled,,]",
+      "view_str": "3993466869b1efc88717374f61a244e5",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.spotify.music:id/premium_tab"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Premium",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          904,
+          2012
+        ],
+        [
+          986,
+          2096
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/bottom_navigation_item_icon",
+      "checked": false,
+      "text": "Premium",
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 62,
+      "temp_id": 63,
+      "size": "82*84",
+      "x": 904,
+      "y": 2012,
+      "signature": "[class]android.widget.ImageView[resource_id]com.spotify.music:id/bottom_navigation_item_icon[enabled,,]",
+      "view_str": "6143391438bb8737c371e078ac71ba53",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.spotify.music:id/bottom_navigation_item_icon"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          821,
+          2096
+        ],
+        [
+          1069,
+          2134
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/bottom_navigation_item_title",
+      "checked": false,
+      "text": "Premium",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 62,
+      "temp_id": 64,
+      "size": "248*38",
+      "x": 821,
+      "y": 2096,
+      "signature": "[class]android.widget.TextView[resource_id]com.spotify.music:id/bottom_navigation_item_title[enabled,,]",
+      "view_str": "34b8e8397d8b90fd82e62849fff69a7f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.spotify.music:id/bottom_navigation_item_title"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        66
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2148
+        ],
+        [
+          1080,
+          2148
+        ]
+      ],
+      "resource_id": "com.spotify.music:id/snackbarContainer",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 65,
+      "size": "1080*0",
+      "x": 0,
+      "y": 2148,
+      "signature": "[class]android.view.ViewGroup[resource_id]com.spotify.music:id/snackbarContainer[enabled,,]",
+      "view_str": "6317f190ef30f0f7c4959c83a76d077b",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]com.spotify.music:id/snackbarContainer"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2148
+        ],
+        [
+          0,
+          2148
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 65,
+      "temp_id": 66,
+      "size": "0*0",
+      "x": 0,
+      "y": 2148,
+      "signature": "[class]android.view.View[resource_id]None[enabled,,]",
+      "view_str": "d4cd126f17fa0d36080edd221242292b",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          83
+        ]
+      ],
+      "resource_id": "android:id/statusBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 67,
+      "size": "1080*83",
+      "x": 0,
+      "y": 0,
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[enabled,,]",
+      "view_str": "7aec691f6209b5d9d2b0de8e5641073d",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/statusBarBackground"
+    },
+    {
+      "package": "com.spotify.music",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2148
+        ],
+        [
+          1080,
+          2280
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 68,
+      "size": "1080*132",
+      "x": 0,
+      "y": 2148,
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[enabled,,]",
+      "view_str": "459a00efa3d38e257423804e963baa0a",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+[
+    {
+        "comment": "Good app, however, after the previous update, the layout was totally changed and made it harder to navigate and play specific songs, but other than that, it is a great music streaming app",
+        "key sentence": "the layout",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state9",
+        "the sub-task list of state": "[{'name': 'Download Album', 'description': 'Download the current Album'}, {'name': 'Play Music in Album', 'description': 'Play the music in album.'}, {'name': 'More Options', 'description': 'Access more options for the current item'}, {'name': 'Enable Shuffle', 'description': 'Enable shuffle for the current playlist'}, {'name': 'Back', 'description': 'Navigate back to the previous screen or page'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment56\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment56\\state9.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment56\\-7279514638501947879.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-7279514638501947879"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment56\\-7279514638501947879.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-7279514638501947879"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment56\\-5465722324527454817.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-5465722324527454817"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment56\\-8262313583871665778.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-8262313583871665778"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment56\\-5465722324527454817.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-5465722324527454817"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state9",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/image:[44,1242][476,1674])"
+            },
+            {
+                "from": "state9",
+                "to": "-7279514638501947879",
+                "event": "click<button id=45 class =\"com.spotify.music:id/back_button\" alt=\"Back\">  </button>"
+            },
+            {
+                "from": "-7279514638501947879",
+                "to": "-7279514638501947879",
+                "event": "click<div id=16 class =\"com.spotify.music:id/app_bar\">  </div>"
+            },
+            {
+                "from": "-7279514638501947879",
+                "to": "-5465722324527454817",
+                "event": "click<button id=101 class =\"com.spotify.music:id/search_tab\" alt=\"Search, Tab 2 of 4\">  </button>"
+            },
+            {
+                "from": "-5465722324527454817",
+                "to": "-8262313583871665778",
+                "event": "click<button id=71 class =\"com.spotify.music:id/search_tab\" alt=\"Search, Tab 2 of 4\">  </button>"
+            },
+            {
+                "from": "-8262313583871665778",
+                "to": "-5465722324527454817",
+                "event": "click<button id=14 class =\"com.spotify.music:id/back_button\" alt=\"Cancel\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

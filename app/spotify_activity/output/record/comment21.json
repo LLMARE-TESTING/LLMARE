@@ -1,0 +1,50 @@
+[
+    {
+        "comment": "Pros : A ton of good songs. Cons : It's so annoying when I click on my playlist, and some random song starts playing. Like, I want to listen to MY music, not whatever Spotify is adding for me. It would totally be 5 stars if Spotify would take out that feature, cause I don't want to pay 30 dollars a month just to listen to ONLY my music.",
+        "key sentence": "The key words: playlist",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state20",
+        "the sub-task list of state": "[{'name': 'Download playlist', 'description': 'Download playlist'}, {'name': 'Pin Playlist', 'description': 'Pin Playlist'}, {'name': 'Delete playlist', 'description': 'Delete playlist'}, {'name': 'Share Playlist', 'description': 'Share playlist'}, {'name': 'Show Spotify Code', 'description': 'Show spotify code'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment21\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment21\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment21\\40e3d8c4e5e1c9c5d8d5ec60f3bc145e.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "40e3d8c4e5e1c9c5d8d5ec60f3bc145e"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment21\\state20.png",
+                "activity": "com.spotify.nowplaying.musicinstallation.NowPlayingActivity}",
+                "state_str": "state20"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "40e3d8c4e5e1c9c5d8d5ec60f3bc145e",
+                "event": "click(state=be366c2134cc86078896f7869deedcbd, view=75ce19fd7eac1390cb4fea6e59d58f29(MainActivity/ImageView-The cover :x44:y1845))"
+            },
+            {
+                "from": "40e3d8c4e5e1c9c5d8d5ec60f3bc145e",
+                "to": "state20",
+                "event": "long-click(android.view.ViewGroup-My playlist #3, Playlist \u2022 ran Jin, :[0,1038][1080,1214])"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "round": 1,
+        "comment": "App contains too many bugs: First one is when I am outdoors and I have no Internet and have to rely on downloaded songs/albums yet when I try to open the album it takes forever and will not load as if it's not even downloaded and needs internet/wifi to load again. Another is when the progress bar of the song doesn't show on the notification tab, it only shows the song and is buggy. Another is when I play a song and when I switched to another song the notification shows me the incorrect song.",
+        "scenarios": [
+            "When outdoors and without Internet, trying to open a downloaded album takes forever to load as if it is not downloaded and requires Internet/Wi-Fi to load again.\n",
+            "The progress bar of a song does not show in the notification tab, only the song title appears, and it's buggy.\n",
+            "After playing a song and switching to another, the notification displays the incorrect song."
+        ],
+        "key sentence": "When outdoors and without Internet, trying to open a downloaded album takes forever to load as if it is not downloaded and requires Internet/Wi-Fi to load again.\n",
+        "target activity": "MainActivity",
+        "the function of activity": "The activity involves searching, library function(playlist/artist), playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state28",
+        "the sub-task list of state": "[{'name': 'Offline Mode', 'description': 'Disable internet access to limit data consumption.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment13\\scene0\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment13\\scene0\\state5.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state5"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment13\\scene0\\state23.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state23"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment13\\scene0\\state28.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state28"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment13\\scene0\\-5327329285238359195.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-5327329285238359195"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment13\\scene0\\-5327329285238359195.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-5327329285238359195"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment13\\scene0\\4726227839829883853.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "4726227839829883853"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment13\\scene0\\555800096069320977.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "555800096069320977"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment13\\scene0\\-3232787746768835304.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-3232787746768835304"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state5",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/faceheader_image:[22,171][154,303])"
+            },
+            {
+                "from": "state5",
+                "to": "state23",
+                "event": "click(TextView-Settings and privacy:[154,815][558,876])"
+            },
+            {
+                "from": "state23",
+                "to": "state28",
+                "event": "click(android.view.View-Data saving and offline:[0,1249][1080,1414])"
+            },
+            {
+                "from": "state28",
+                "to": "-5327329285238359195",
+                "event": "click<p id=9> Offline mode,  </p>"
+            },
+            {
+                "from": "-5327329285238359195",
+                "to": "-5327329285238359195",
+                "event": "click<p id=8> Offline,  </p>"
+            },
+            {
+                "from": "-5327329285238359195",
+                "to": "4726227839829883853",
+                "event": "click<button id=37 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            },
+            {
+                "from": "4726227839829883853",
+                "to": "555800096069320977",
+                "event": "click<button id=9 alt=\"Downloaded, show only downloaded.\">  </button>"
+            },
+            {
+                "from": "555800096069320977",
+                "to": "-3232787746768835304",
+                "event": "click<button id=23 class =\"com.spotify.music:id/row_root\" alt=\"\u65b0\u5730\u7403, Album \u2022 JJ Lin, Downloaded, \">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

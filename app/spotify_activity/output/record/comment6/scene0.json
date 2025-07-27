@@ -1,0 +1,165 @@
+[
+    {
+        "round": 1,
+        "comment": "The app really needs to be optimized for offline use. I have to force stop the app 2 or 3 times before I can access my offline episodes or music I've downloaded. It's quite aggravating. Also my remove liked song button is missing when I click the 3 dots next to any song. I know it's missing because I can see it an a different person's phone when they click the same 3 dots. Why would it be different when we have the same phone?",
+        "scenarios": [
+            "Force stopping the app 2 or 3 times before being able to access offline episodes or music that has been downloaded.",
+            "Missing \"remove liked song\" button when clicking the 3 dots next to any song, despite it being present on a different person's phone with the same device."
+        ],
+        "key sentence": "Force stopping the app 2 or 3 times before being able to access offline episodes or music that has been downloaded.",
+        "target activity": "MainActivity",
+        "the function of activity": "The activity involves searching, library function(playlist/artist), playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state22",
+        "the sub-task list of state": "[{'name': 'Downloaded Episodes', 'description': 'Listen the downloaded episodes.'}, {'name': 'Share', 'description': 'Share the currently playing track or episode'}, {'name': 'More Options', 'description': 'Access more options for the currently playing track or episode'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment6\\scene0\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment6\\scene0\\be366c2134cc86078896f7869deedcbd.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "be366c2134cc86078896f7869deedcbd"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment6\\scene0\\state21.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state21"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment6\\scene0\\state22.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state22"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment6\\scene0\\8809436429386517379.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8809436429386517379"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment6\\scene0\\-5899167790199667612.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-5899167790199667612"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment6\\scene0\\-667920763252628412.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-667920763252628412"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment6\\scene0\\-858227139772493498.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-858227139772493498"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment6\\scene0\\3052303671334786110.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "3052303671334786110"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment6\\scene0\\-324896875390119922.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-324896875390119922"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment6\\scene0\\-4322021831995270448.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-4322021831995270448"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment6\\scene0\\4231693329157514490.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "4231693329157514490"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment6\\scene0\\-7290676938427272265.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-7290676938427272265"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment6\\scene0\\3674993411893059986.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "3674993411893059986"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment6\\scene0\\-2799301257725973592.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-2799301257725973592"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "be366c2134cc86078896f7869deedcbd",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=aa3d505ed2b4137f86bf747d0b6f024b(MainActivity/LinearLayout-Your Libra:x540:y1999))"
+            },
+            {
+                "from": "be366c2134cc86078896f7869deedcbd",
+                "to": "state21",
+                "event": "click(android.view.View-Downloaded, show only downloaded.:[754,317][1049,449])"
+            },
+            {
+                "from": "state21",
+                "to": "state22",
+                "event": "click(android.view.ViewGroup-Your Episodes, 4 downloaded episodes, Downloaded, Pinned, :[0,598][1080,774])"
+            },
+            {
+                "from": "state22",
+                "to": "8809436429386517379",
+                "event": "click<button id=13 class =\"com.spotify.music:id/accessory\" alt=\"More options for song I AM\">  </button>"
+            },
+            {
+                "from": "8809436429386517379",
+                "to": "-5899167790199667612",
+                "event": "click<p id=7 class =\"com.spotify.music:id/title\"> Remove from this playlist,  </p>"
+            },
+            {
+                "from": "-5899167790199667612",
+                "to": "-667920763252628412",
+                "event": "click<button id=7 alt=\"Play playlist\">  </button>"
+            },
+            {
+                "from": "-667920763252628412",
+                "to": "-858227139772493498",
+                "event": "click<button id=4 alt=\"Downloaded\">  </button>"
+            },
+            {
+                "from": "-858227139772493498",
+                "to": 3052303671334786110,
+                "event": "back"
+            },
+            {
+                "from": 3052303671334786110,
+                "to": "-324896875390119922",
+                "event": "click<button id=11 class =\"com.spotify.music:id/accessory\" alt=\"More options for song That\u2019s So True\">  </button>"
+            },
+            {
+                "from": "-324896875390119922",
+                "to": -4322021831995270448,
+                "event": "back"
+            },
+            {
+                "from": -4322021831995270448,
+                "to": "4231693329157514490",
+                "event": "click<button id=16 class =\"com.spotify.music:id/accessory\" alt=\"More options for song \u4e0d\u70ba\u8ab0\u800c\u4f5c\u7684\u6b4c\">  </button>"
+            },
+            {
+                "from": "4231693329157514490",
+                "to": -7290676938427272265,
+                "event": "back"
+            },
+            {
+                "from": -7290676938427272265,
+                "to": "3674993411893059986",
+                "event": "click<button id=20 class =\"com.spotify.music:id/accessory\" alt=\"More options for song \u95dc\u9375\u8a5e\">  </button>"
+            },
+            {
+                "from": "3674993411893059986",
+                "to": -2799301257725973592,
+                "event": "back"
+            }
+        ],
+        "Final answer": 1
+    }
+]

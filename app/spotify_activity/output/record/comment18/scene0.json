@@ -1,0 +1,166 @@
+[
+    {
+        "round": 1,
+        "comment": "Excessive amount of bugs all around. The music often won't play and I have to restart the app, the menu for \"show artist/album\" also often won't load, and when spotify is open on the computer as well, the problems just compound. The only reason I put up with the bugs is the great student discount, but considering how the app has been the last 2-3 months, this may well be the end...",
+        "scenarios": [
+            "Music often won't play and requires restarting the app to resolve the issue.",
+            "The menu for \"show artist/album\" often won't load.",
+            "When Spotify is open on both the computer and another device, the problems compound."
+        ],
+        "key sentence": "Music often won't play and requires restarting the app to resolve the issue.",
+        "target activity": "MainActivity",
+        "the function of activity": "The activity involves searching, library function(playlist/artist), playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state17",
+        "the sub-task list of state": "[{'name': 'Add to Your Episodes', 'description': 'Add the currently playing track to your episodes'}, {'name': 'Download Episode', 'description': 'Download the currently playing episode'}, {'name': 'Share', 'description': 'Share the currently playing track'}, {'name': 'More options for episode', 'description': 'Access more options for the currently playing episode'}, {'name': 'Back', 'description': 'Navigate back to the previous screen'}, {'name': 'Play', 'description': 'Start playing the currently selected item or episode'}, {'name': 'Pause', 'description': 'Pause the currently playing track or episode'}, {'name': 'Add podcasts', 'description': 'Add a podcast to the current selection'}, {'name': 'Show context menu', 'description': 'Display a context menu for additional options'}, {'name': 'Type a reply', 'description': 'Enter text for a reply or comment'}, {'name': 'Show more', 'description': 'Expand to show more information or options'}, {'name': 'Show less', 'description': 'Collapse to show less information or options'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene0\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene0\\state1.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state1"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene0\\state2.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state2"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene0\\state16.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state16"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene0\\state17.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state17"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene0\\-6434754352854725986.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-6434754352854725986"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene0\\-1851597329969618528.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-1851597329969618528"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene0\\659850265775331206.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "659850265775331206"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene0\\-4213022942892324899.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-4213022942892324899"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene0\\127212507733137463.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "127212507733137463"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene0\\4845485199640160436.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "4845485199640160436"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene0\\-8363272349838092039.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-8363272349838092039"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene0\\2676144136519096522.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2676144136519096522"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene0\\6633807076537341930.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "6633807076537341930"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment18\\scene0\\8861492146779561584.png",
+                "activity": "com.android.launcher3.uioverrides.QuickstepLauncher}",
+                "state_str": "8861492146779561584"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state1",
+                "event": "click(android.widget.TextView-Podcasts:[527,190][760,284])"
+            },
+            {
+                "from": "state1",
+                "to": "state2",
+                "event": "click(android.widget.Button-Play #29 2024\u5e744\u670830\u65e5\u306e\u96fb\u96fb\u96fb\u8a71:[882,1282][1014,1414])"
+            },
+            {
+                "from": "state2",
+                "to": "state16",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/artwork:[370,593][710,933])"
+            },
+            {
+                "from": "state16",
+                "to": "state17",
+                "event": "click(android.widget.TextView-com.spotify.music:id/title:[209,553][1036,675])"
+            },
+            {
+                "from": "state17",
+                "to": "-6434754352854725986",
+                "event": "click<button id=14 class =\"com.spotify.music:id/cwp_play_button\" alt=\"Play\">  </button>"
+            },
+            {
+                "from": "-6434754352854725986",
+                "to": "-1851597329969618528",
+                "event": "click<button id=15 class =\"com.spotify.music:id/cwp_play_button\" alt=\"Pause\">  </button>"
+            },
+            {
+                "from": "-1851597329969618528",
+                "to": "659850265775331206",
+                "event": "click<button id=15 class =\"com.spotify.music:id/cwp_play_button\" alt=\"Play\">  </button>"
+            },
+            {
+                "from": "659850265775331206",
+                "to": "-4213022942892324899",
+                "event": "click<button id=9 class =\"com.spotify.music:id/first_action_holder\" alt=\"Explore \">  </button>"
+            },
+            {
+                "from": "-4213022942892324899",
+                "to": "127212507733137463",
+                "event": "click<button id=9 class =\"com.spotify.music:id/root\" alt=\"Play episode: SAHM vs Working Mum Life With Two - The Podcast. Explicit content\">  </button>"
+            },
+            {
+                "from": "127212507733137463",
+                "to": "4845485199640160436",
+                "event": "click<button id=21 class =\"com.spotify.music:id/back_button\" alt=\"Back\">  </button>"
+            },
+            {
+                "from": "4845485199640160436",
+                "to": "-8363272349838092039",
+                "event": "click<button id=15 class =\"com.spotify.music:id/cwp_play_button\" alt=\"Pause\">  </button>"
+            },
+            {
+                "from": "-8363272349838092039",
+                "to": "2676144136519096522",
+                "event": "click<button id=15 class =\"com.spotify.music:id/cwp_play_button\" alt=\"Play\">  </button>"
+            },
+            {
+                "from": "2676144136519096522",
+                "to": "6633807076537341930",
+                "event": "click<button id=15 class =\"com.spotify.music:id/cwp_play_button\" alt=\"Pause\">  </button>"
+            },
+            {
+                "from": "6633807076537341930",
+                "to": "8861492146779561584",
+                "event": "click<button id=15 class =\"com.spotify.music:id/cwp_play_button\" alt=\"Play\">  </button>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

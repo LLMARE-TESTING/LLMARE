@@ -1,0 +1,90 @@
+[
+    {
+        "comment": "The new update makes it to where you cant do the song you want in your playlist you can even just press the song you want to hear and when you press the play button on the playlist it doesnt even play the song on their this app used to be so good but now its not",
+        "key sentence": "The key words: the playlist",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "64239cd48e3f0bfbbd966aceb93854cf",
+        "the sub-task list of state": "[{'name': 'Search', 'description': 'Search the music or podcast you want to listen.'}, {'name': 'Search with Camera', 'description': 'Allows the user to use the camera for searching.'}, {'name': 'Add to Playlist', 'description': \"Adds the currently playing item to a playlist of the user's choice.\"}, {'name': 'Play/Pause', 'description': 'Plays or pauses the currently playing item.'}, {'name': 'Browse Genres', 'description': 'Allows the user to browse different music genres and playlists within the app.'}, {'name': 'View Now Playing', 'description': 'Brings up information about the currently playing item, such as the title, artist, and cover art.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment42\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment42\\64239cd48e3f0bfbbd966aceb93854cf.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "64239cd48e3f0bfbbd966aceb93854cf"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment42\\6630963207945934704.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "6630963207945934704"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment42\\-7774946012688396829.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-7774946012688396829"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment42\\6630963207945934704.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "6630963207945934704"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment42\\2671512833438824716.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "2671512833438824716"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment42\\6630963207945934704.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "6630963207945934704"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment42\\-2653600667204011817.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-2653600667204011817"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "64239cd48e3f0bfbbd966aceb93854cf",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=56487299120c4315f85c53052403234c(MainActivity/LinearLayout-Search, Ta:x270:y1999))"
+            },
+            {
+                "from": "64239cd48e3f0bfbbd966aceb93854cf",
+                "to": "6630963207945934704",
+                "event": "click<button id=74 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            },
+            {
+                "from": "6630963207945934704",
+                "to": "-7774946012688396829",
+                "event": "click<button id=36 class =\"com.spotify.music:id/button_sort_order\"> Recents,  </button>"
+            },
+            {
+                "from": "-7774946012688396829",
+                "to": "6630963207945934704",
+                "event": "click<button id=4 class =\"com.spotify.music:id/touch_outside\">  </button>"
+            },
+            {
+                "from": "6630963207945934704",
+                "to": "2671512833438824716",
+                "event": "click<button id=20 class =\"com.spotify.music:id/button_search\" alt=\"Search Your Library\">  </button>"
+            },
+            {
+                "from": "2671512833438824716",
+                "to": "6630963207945934704",
+                "event": "click<button id=19 class =\"com.spotify.music:id/icon_back\" alt=\"Cancel\">  </button>"
+            },
+            {
+                "from": "6630963207945934704",
+                "to": "-2653600667204011817",
+                "event": "click<button id=25 alt=\"Playlists, show only playlists.\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

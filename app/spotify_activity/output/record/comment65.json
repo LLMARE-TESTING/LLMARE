@@ -1,0 +1,120 @@
+[
+    {
+        "comment": "This app is getting worse. I loved Spotify, but that love is wearing thin. The app is getting really glitched out. I have to relike songs to confirm that I have them in my playlist, just to find they're listed 2 or 3 times in my library. Smart shuffle sends me songs that I already liked and that feature turns itself on. Shuffle isn't really shuffle. It sends me songs I like to listen to a lot rather than looking into my entire playlist. Im getting tired of the bugs, but my library is almost 3000",
+        "key sentence": "The key words:  \nglitched out  \nrelike songs  \nduplicates in library  \nSmart shuffle issues  \nShuffle feature problems  \nbugs",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "state10",
+        "the sub-task list of state": "[{'name': 'Add to Liked Songs', 'description': 'Add the currently playing song to Liked Songs list.'}, {'name': 'Add to playlist', 'description': 'Add the currently playing song to a specific playlist.'}, {'name': 'Hide this song', 'description': 'Remove the current song from the visible list.'}, {'name': 'Add to queue', 'description': 'Add the current song to the music queue.'}, {'name': 'View album', 'description': 'View details and information about the album of the current song.'}, {'name': 'View artist', 'description': 'Get more information about the artist of the current song.'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment65\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment65\\state9.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment65\\state10.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment65\\-2869327859079131459.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-2869327859079131459"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment65\\6988742088075688542.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "6988742088075688542"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment65\\8659864555664030221.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8659864555664030221"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment65\\8659864555664030221.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8659864555664030221"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment65\\1701308726273300956.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "1701308726273300956"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment65\\1482071314234148916.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "1482071314234148916"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment65\\1701308726273300956.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "1701308726273300956"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment65\\-4961012464126289839.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-4961012464126289839"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state9",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/image:[44,714][476,1146])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(android.widget.ImageButton-More options for song \u646f\u53cb:[948,1264][1080,1396])"
+            },
+            {
+                "from": "state10",
+                "to": "-2869327859079131459",
+                "event": "click<button id=89 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            },
+            {
+                "from": "-2869327859079131459",
+                "to": "6988742088075688542",
+                "event": "click<button id=36 class =\"com.spotify.music:id/button_sort_order\"> Recents,  </button>"
+            },
+            {
+                "from": "6988742088075688542",
+                "to": "8659864555664030221",
+                "event": "click<p id=12 class =\"com.spotify.music:id/title\"> Recently added,  </p>"
+            },
+            {
+                "from": "8659864555664030221",
+                "to": "8659864555664030221",
+                "event": "click<button id=35 class =\"com.spotify.music:id/library_sort_row_root\" alt=\"your library display options, sort or change view mode\">  </button>"
+            },
+            {
+                "from": "8659864555664030221",
+                "to": "1701308726273300956",
+                "event": "click<button id=38 class =\"com.spotify.music:id/row_root\" alt=\"Liked Songs, Playlist \u2022 19 songs, Pinned, \">  </button>"
+            },
+            {
+                "from": "1701308726273300956",
+                "to": "1482071314234148916",
+                "event": "click<button id=20 class =\"com.spotify.music:id/shuffle_button\" alt=\"Disable shuffle for this liked songs\">  </button>"
+            },
+            {
+                "from": "1482071314234148916",
+                "to": "1701308726273300956",
+                "event": "click<button id=11 class =\"com.spotify.music:id/close_button\"> Dismiss,  </button>"
+            },
+            {
+                "from": "1701308726273300956",
+                "to": "-4961012464126289839",
+                "event": "click<button id=40 class =\"com.spotify.music:id/accessory\" alt=\"More options for song \u9047\u898b\">  </button>"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]

@@ -1,0 +1,166 @@
+[
+    {
+        "round": 1,
+        "comment": "It was an amazing app. But now the lyrics are never shown. The new shuffle only feature sucks and I can't add songs into my queue anymore. I used Spotify for 3-4 years now and it was really good. When I try to disable it is a premium feature now just add songs into queues. The app just became the worst song platform. Thought of buying premium to stop with adds but the update made me change my mind. I'm leaving this one star review and hope it will get reverted back..",
+        "scenarios": [
+            "The lyrics are never shown.",
+            "The new shuffle-only feature prevents adding songs into the queue.",
+            "Attempting to disable the new feature and finding that adding songs into queues is now a premium feature."
+        ],
+        "key sentence": "The new shuffle-only feature prevents adding songs into the queue.",
+        "target activity": "com.spotify.tome.pageactivity.PageActivity",
+        "the function of activity": "The activity allows users to find playlist, navigate menus, manage playlists, control media playback, adjust volume, select/deselect items, filter, sort, favorite/bookmark, and share content.",
+        "target state": "state12",
+        "the sub-task list of state": "[{'name': 'Add to Playlist', 'description': 'Enables user to add an item to a playlist'}, {'name': 'Create New Playlist', 'description': 'Allows user to create a new playlist'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment0\\scene1\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment0\\scene1\\state9.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state9"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment0\\scene1\\state10.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state10"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment0\\scene1\\state11.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state11"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment0\\scene1\\state12.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "state12"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment0\\scene1\\-1759569103043836409.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-1759569103043836409"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment0\\scene1\\-1447129227806382730.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-1447129227806382730"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment0\\scene1\\-1759569103043836409.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-1759569103043836409"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment0\\scene1\\-339439842709577959.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-339439842709577959"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment0\\scene1\\-1447129227806382730.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-1447129227806382730"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment0\\scene1\\3633818970523555607.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "3633818970523555607"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment0\\scene1\\-1447129227806382730.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-1447129227806382730"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment0\\scene1\\-6561670876964947443.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-6561670876964947443"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment0\\scene1\\-1447129227806382730.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-1447129227806382730"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment0\\scene1\\-4595679145671507371.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-4595679145671507371"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "state9",
+                "event": "click(android.widget.ImageView-com.spotify.music:id/image:[44,1242][476,1674])"
+            },
+            {
+                "from": "state9",
+                "to": "state10",
+                "event": "click(android.widget.ImageButton-More options for song \u646f\u53cb:[948,1264][1080,1396])"
+            },
+            {
+                "from": "state10",
+                "to": "state11",
+                "event": "click(android.widget.TextView-Add to playlist:[154,1327][1036,1388])"
+            },
+            {
+                "from": "state11",
+                "to": "state12",
+                "event": "click(androidx.cardview.widget.CardView-My playlist #3:[253,824][540,885])"
+            },
+            {
+                "from": "state12",
+                "to": "-1759569103043836409",
+                "event": "click<p id=16> Done,  </p>"
+            },
+            {
+                "from": "-1759569103043836409",
+                "to": "-1447129227806382730",
+                "event": "click<button id=19 class =\"com.spotify.music:id/accessory\" alt=\"More options for song Igloo\">  </button>"
+            },
+            {
+                "from": "-1447129227806382730",
+                "to": "-1759569103043836409",
+                "event": "click<p id=8 class =\"com.spotify.music:id/title\"> Add to Queue,  </p>"
+            },
+            {
+                "from": "-1759569103043836409",
+                "to": "-339439842709577959",
+                "event": "click<button id=15 alt=\"Play playlist\">  </button>"
+            },
+            {
+                "from": "-339439842709577959",
+                "to": "-1447129227806382730",
+                "event": "click<button id=19 class =\"com.spotify.music:id/accessory\" alt=\"More options for song Igloo\">  </button>"
+            },
+            {
+                "from": "-1447129227806382730",
+                "to": "3633818970523555607",
+                "event": "click<p id=8 class =\"com.spotify.music:id/title\"> Add to Queue,  </p>"
+            },
+            {
+                "from": "3633818970523555607",
+                "to": "-1447129227806382730",
+                "event": "click<button id=19 class =\"com.spotify.music:id/accessory\" alt=\"More options for song Igloo\">  </button>"
+            },
+            {
+                "from": "-1447129227806382730",
+                "to": "-6561670876964947443",
+                "event": "click<p id=8 class =\"com.spotify.music:id/title\"> Add to Queue,  </p>"
+            },
+            {
+                "from": "-6561670876964947443",
+                "to": "-1447129227806382730",
+                "event": "click<button id=19 class =\"com.spotify.music:id/accessory\" alt=\"More options for song Igloo\">  </button>"
+            },
+            {
+                "from": "-1447129227806382730",
+                "to": "-4595679145671507371",
+                "event": "click<p id=8 class =\"com.spotify.music:id/title\"> Add to Queue,  </p>"
+            }
+        ],
+        "Final answer": 1
+    }
+]

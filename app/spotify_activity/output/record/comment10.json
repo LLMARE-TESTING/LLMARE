@@ -1,0 +1,90 @@
+[
+    {
+        "comment": "Recommendations seem to be getting much worse. I used to like the suggested songs they showed at the bottom of the playlist. Now it seems to only recommend one artist unless I refresh at least 5 times. It used to be a nice feature to discover new artists similar to the stuff I put on the playlist but now it seems like they're just pushing specific artists.",
+        "key sentence": "recommendations getting worse",
+        "target activity": ".MainActivity",
+        "the function of activity": "The activity involves searching, library function, playing/pausing items, viewing downloaded songs/podcasts, downloading songs or podcasts, adding to playlists, shuffling a playlist, connecting to devices, previewing episodes, type replies to episodes and accessing history page, setting page",
+        "target state": "8525a40443e9f8deb66355fa4f61e1b5",
+        "the sub-task list of state": "[{'name': 'Input Query', 'description': 'Enter a search query'}, {'name': 'Now Playing Bar', 'description': 'Display the currently playing track'}, {'name': 'Add to Playlist', 'description': 'Add item to playlist'}, {'name': 'Play/Pause', 'description': 'Toggle between play and pause'}]",
+        "nodes": [
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\a17e568448adcdbafe37f9f618f3f5ca.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "a17e568448adcdbafe37f9f618f3f5ca"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\64239cd48e3f0bfbbd966aceb93854cf.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "64239cd48e3f0bfbbd966aceb93854cf"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\8525a40443e9f8deb66355fa4f61e1b5.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "8525a40443e9f8deb66355fa4f61e1b5"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\-8854440115097884646.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-8854440115097884646"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\7721246691235772636.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "7721246691235772636"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\74906273968023067.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "74906273968023067"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\-1648451113033943321.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-1648451113033943321"
+            },
+            {
+                "image": "..\\app\\spotify_activity\\output\\screenshot\\comment10\\-941836444594440175.png",
+                "activity": "com.spotify.music.MainActivity}",
+                "state_str": "-941836444594440175"
+            }
+        ],
+        "operations": [
+            {
+                "from": "a17e568448adcdbafe37f9f618f3f5ca",
+                "to": "64239cd48e3f0bfbbd966aceb93854cf",
+                "event": "click(state=a17e568448adcdbafe37f9f618f3f5ca, view=56487299120c4315f85c53052403234c(MainActivity/LinearLayout-Search, Ta:x270:y1999))"
+            },
+            {
+                "from": "64239cd48e3f0bfbbd966aceb93854cf",
+                "to": "8525a40443e9f8deb66355fa4f61e1b5",
+                "event": "click(state=64239cd48e3f0bfbbd966aceb93854cf, view=b8caa5081f802b9d153d408b190fe205(MainActivity/LinearLayout-Search, Ta:x270:y1999))"
+            },
+            {
+                "from": "8525a40443e9f8deb66355fa4f61e1b5",
+                "to": "-8854440115097884646",
+                "event": "click<button id=14 class =\"com.spotify.music:id/back_button\" alt=\"Cancel\">  </button>"
+            },
+            {
+                "from": "-8854440115097884646",
+                "to": "7721246691235772636",
+                "event": "click<button id=74 class =\"com.spotify.music:id/your_library_tab\" alt=\"Your Library, Tab 3 of 4\">  </button>"
+            },
+            {
+                "from": "7721246691235772636",
+                "to": "74906273968023067",
+                "event": "click<button id=25 alt=\"Playlists, show only playlists.\">  </button>"
+            },
+            {
+                "from": "74906273968023067",
+                "to": "-1648451113033943321",
+                "event": "click<button id=39 class =\"com.spotify.music:id/row_root\" alt=\"Liked Songs, 19 songs, Pinned, \">  </button>"
+            },
+            {
+                "from": "-1648451113033943321",
+                "to": "-941836444594440175",
+                "event": "scroll down"
+            }
+        ],
+        "Final answer": "NO"
+    }
+]
