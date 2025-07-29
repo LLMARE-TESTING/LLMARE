@@ -1,0 +1,1 @@
+![case-study](case-study.assets/case-study.png)
